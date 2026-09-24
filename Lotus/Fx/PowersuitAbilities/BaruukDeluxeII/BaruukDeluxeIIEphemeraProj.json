@@ -1,0 +1,60 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "DepthSortBias": 2,
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "DistortionMaterial": "/Lotus/Fx/Common/EnergyDistortionGMat",
+        "DissolveOverride": "/Lotus/Objects/Natural/Skybox/Void/VoidRMPlasmaTndrl03a_e.png",
+        "DeadParentInheritanceRule": "NONE",
+        "Material": "BaruukDeluxeIIEphemeraProjMat",
+        "UseAttachRoot": 0,
+        "ApplyProjectorToNewSiblings": 1,
+        "TriggeredFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 1,
+                "Multiplier": 12,
+                "FadeRange": [
+                    0.1,
+                    0.1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.0521117,
+                            "Value": 1
+                        },
+                        {
+                            "Time": 0.125681,
+                            "Value": 0.49142501
+                        },
+                        {
+                            "Time": 0.25170299,
+                            "Value": 0.177156
+                        },
+                        {
+                            "Time": 0.48944101,
+                            "Value": 0.0217115
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0.30000001,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 0,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

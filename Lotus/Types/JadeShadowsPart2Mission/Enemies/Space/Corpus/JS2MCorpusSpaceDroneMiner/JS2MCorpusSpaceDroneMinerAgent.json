@@ -40,7 +40,7 @@
                 "UseEndNodePos": 0,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1
         },
@@ -66,7 +66,7 @@
             "MoveSuccessRadius": 1,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 0,
             "StopWhenMovementInactive": 0,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1
         },
         "LocomotionController:MoveModifierCollection": [
@@ -84,12 +84,12 @@
                         1
                     ],
                     "PreserveVelocity": 1,
-                    "MinAvoidanceReducedVelocityPct": 0.33,
+                    "MinAvoidanceReducedVelocityPct": 0.33000001,
                     "FlyerControlMode": 1,
                     "AllowedObstacleCountForMaxSpeed": 60,
                     "ObstacleCountForMinSpeed": 200,
                     "ObstacleSlowdownScalingExponent": 1.8,
-                    "MinSpeedScalingFromObstacles": 0.66,
+                    "MinSpeedScalingFromObstacles": 0.66000003,
                     "AvoidDynamicObstaclesOnly": 0
                 },
                 "LocomotionMoveModifierFreezeDesiredSpeed": [],
@@ -143,7 +143,7 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 600,
         "ReportTargetPortalCheck": 0,
         "ReportAwareness": 1,

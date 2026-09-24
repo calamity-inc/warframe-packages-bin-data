@@ -4,7 +4,7 @@
         "HitProxies": [
             {
                 "LocalPosition": [
-                    -0.05,
+                    -0.050000001,
                     0,
                     0
                 ],
@@ -55,8 +55,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM1",
                 "Type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperArm",
@@ -70,15 +70,15 @@
             },
             {
                 "LocalPosition": [
-                    0.15,
+                    0.15000001,
                     0,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM2",
                 "Type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerArm",
@@ -114,7 +114,7 @@
             },
             {
                 "LocalPosition": [
-                    -0.15,
+                    -0.15000001,
                     0,
                     0
                 ],
@@ -136,7 +136,7 @@
             },
             {
                 "LocalPosition": [
-                    -0.15,
+                    -0.15000001,
                     0,
                     0
                 ],
@@ -224,9 +224,9 @@
             },
             {
                 "LocalPosition": [
-                    -0.06383,
-                    0.06383,
-                    -0.06383
+                    -0.063829802,
+                    0.063829802,
+                    -0.063829802
                 ],
                 "LocalRotation": [
                     0,
@@ -246,9 +246,9 @@
             },
             {
                 "LocalPosition": [
-                    0.021277,
-                    -0.031915,
-                    0.053192
+                    0.021276601,
+                    -0.031914901,
+                    0.053191502
                 ],
                 "LocalRotation": [
                     0,
@@ -324,7 +324,7 @@
             }
         ],
         "DamageMultiplier": 0.5,
-        "SelfDamageMultiplier": 0.3,
+        "SelfDamageMultiplier": 0.30000001,
         "DodgeDamageMultipliers": {
             "AI_VS_AI": 0.5,
             "AI_VS_PLAYER": 0.5,
@@ -448,7 +448,7 @@
         "HealthResistanceKeyword": "RK_MACHINERY",
         "MaxShield": 0,
         "ShieldRechargeRate": 15,
-        "ShieldRechargePercent": 0.05,
+        "ShieldRechargePercent": 0.050000001,
         "ShieldPowerUpProjection": "/Lotus/Fx/Projectors/ShieldUpProjector",
         "ShieldPowerDownProjection": "/Lotus/Fx/Projectors/ShieldDownProjector",
         "ShieldUpSound": "/Lotus/Sounds/UI/TennoShield/ShieldRecharge/ShieldRecharges",
@@ -458,7 +458,7 @@
         "ArmourResistanceKeyword": "RK_HULKING_ARMOR",
         "BleedoutOnlyMode": 1,
         "BleedoutMultiplierAttenuationPerSecond": 0.5,
-        "PreDeathHealthPortion": 0.05,
+        "PreDeathHealthPortion": 0.050000001,
         "ScaleMethod": "DPS_TONEMAP_FIXED",
         "DamageResistanceCurves": [
             {
@@ -473,11 +473,11 @@
                     },
                     {
                         "damageUpperLimit": 8000,
-                        "damageResistanceRatio": 0.6
+                        "damageResistanceRatio": 0.60000002
                     },
                     {
                         "damageUpperLimit": 10000,
-                        "damageResistanceRatio": 0.7
+                        "damageResistanceRatio": 0.69999999
                     }
                 ],
                 "ShotgunCompensation": 1,
@@ -494,6 +494,6 @@
         "SmoothDPSDecayTime": 3,
         "ScaleCrits": 1,
         "ScaleAfterCrits": 1,
-        "AfterCritShotgunDPSCompensation": 0.7
+        "AfterCritShotgunDPSCompensation": 0.69999999
     }
 }

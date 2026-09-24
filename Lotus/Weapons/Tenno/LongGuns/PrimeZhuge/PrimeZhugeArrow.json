@@ -73,18 +73,18 @@
         ],
         "AttackData": {
             "DT_IMPACT": 0.2,
-            "DT_PUNCTURE": 0.45,
-            "DT_SLASH": 0.35,
+            "DT_PUNCTURE": 0.44999999,
+            "DT_SLASH": 0.35000002,
             "Amount": 50,
-            "ProcChance": 0.3
+            "ProcChance": 0.30000001
         },
-        "CriticalChance": 0.26,
+        "CriticalChance": 0.25999999,
         "CriticalMultiplier": 2,
         "ExplosiveAttack": {
             "Type": "DT_PHYSICAL",
-            "DT_IMPACT": 0.33,
-            "DT_PUNCTURE": 0.33,
-            "DT_SLASH": 0.34,
+            "DT_IMPACT": 0.33000001,
+            "DT_PUNCTURE": 0.33000001,
+            "DT_SLASH": 0.33999997,
             "ProcChance": 0
         },
         "ForcedSourceProcs": [
@@ -92,12 +92,12 @@
             "PT_STAGGERED"
         ],
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplosionIgnoreCover": 0,
-        "ExplosionFallOff": 0.3,
-        "DamageRadius": 2.6,
+        "ExplosionFallOff": 0.30000001,
+        "DamageRadius": 2.5999999,
         "HitEffect": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitEffectMediumPrime",
         "WhizzBySound": "/Lotus/Sounds/Weapons/BulletImpacts/Whizzbys/ArrowWhizzby",
         "WhizzByRadius": 5,
@@ -109,14 +109,14 @@
         "Embed": 1,
         "EmbedAttack": {
             "Type": "DT_PHYSICAL",
-            "DT_IMPACT": 0.05,
+            "DT_IMPACT": 0.050000001,
             "DT_PUNCTURE": 0.75,
-            "DT_SLASH": 0.2,
-            "ProcChance": 0.35
+            "DT_SLASH": 0.19999999,
+            "ProcChance": 0.34999999
         },
         "EmbedTime": [
-            0.6,
-            0.6
+            0.60000002,
+            0.60000002
         ],
         "EmbedDeathAttack": {
             "Type": "DT_PHYSICAL",
@@ -124,15 +124,15 @@
             "DT_PUNCTURE": 0.1,
             "DT_SLASH": 0.62,
             "Amount": 40,
-            "ProcChance": 0.3
+            "ProcChance": 0.30000001
         },
         "EmbedDeathEffect": "/Lotus/Fx/Weapons/Bow/ZhugePrimeProjImpactExplosion",
-        "KinematicPostCollisionsSpeedFactor": 0.15,
+        "KinematicPostCollisionsSpeedFactor": 0.15000001,
         "KinematicInitialSpeed": 80,
         "KinematicMaxSpeed": 80,
-        "KinematicNoise": 0.05,
+        "KinematicNoise": 0.050000001,
         "KinematicGravity": 1,
-        "KinematicGravityMultiplier": 0.3,
+        "KinematicGravityMultiplier": 0.30000001,
         "SweepRadius": 0,
         "ApplyColorCustomization": 1,
         "FlightUpVector": [
@@ -140,8 +140,8 @@
             0,
             0
         ],
-        "RagdollEmbedLife": 0.6,
-        "EmbedOffset": 0.05,
+        "RagdollEmbedLife": 0.60000002,
+        "EmbedOffset": 0.050000001,
         "AttachmentOffsets": [
             0.25
         ],

@@ -6,7 +6,6 @@
         "LocalizeTag": "/Lotus/Language/Operator/SeerArmourHeadAdultName",
         "LocalizeDescTag": "/Lotus/Language/Operator/SeerArmourAdultDesc",
         "Icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Hoods/HoodAdultF.png",
-        "ExcludeFromCodex": 0,
         "Weapon": "/Lotus/Powersuits/Operator/AdultOperatorSuit",
         "GraphicsOverrides": {
             "MAIN_HAND": {
@@ -14,9 +13,9 @@
                     "UpgradeAutoChildren": [
                         {
                             "LocalPosition": [
-                                0.005,
+                                0.0049999999,
                                 -0.001,
-                                -0.01
+                                -0.0099999998
                             ],
                             "LocalRotation": [
                                 0,
@@ -40,9 +39,9 @@
                     "UpgradeAutoChildren": [
                         {
                             "LocalPosition": [
-                                0.005,
-                                -0.002,
-                                -0.01
+                                0.0049999999,
+                                -0.0020000001,
+                                -0.0099999998
                             ],
                             "LocalRotation": [
                                 0,
@@ -68,9 +67,9 @@
                     "UpgradeAutoChildren": [
                         {
                             "LocalPosition": [
-                                0.005,
+                                0.0049999999,
                                 -0.001,
-                                -0.01
+                                -0.0099999998
                             ],
                             "LocalRotation": [
                                 0,
@@ -94,9 +93,9 @@
                     "UpgradeAutoChildren": [
                         {
                             "LocalPosition": [
-                                0.005,
-                                -0.002,
-                                -0.01
+                                0.0049999999,
+                                -0.0020000001,
+                                -0.0099999998
                             ],
                             "LocalRotation": [
                                 0,
@@ -117,6 +116,11 @@
                     ]
                 }
             }
-        }
+        },
+        "HideCustomizationsOpen": [
+            "TOSS_HAIR",
+            "TOSS_EAR_ACCESSORY",
+            "TOSS_EYE_ACCESSORY"
+        ]
     }
 }

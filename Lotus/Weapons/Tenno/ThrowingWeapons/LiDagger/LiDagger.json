@@ -12,30 +12,30 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalPosition": [
-                    -0.06,
-                    -0.01,
-                    -0.04
+                    -0.059999999,
+                    -0.0099999998,
+                    -0.039999999
                 ],
                 "LocalRotation": [
-                    0.315509,
-                    -0.315509,
-                    -0.632814,
-                    0.632814
+                    0.31550899,
+                    -0.31550899,
+                    -0.63281399,
+                    0.63281399
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "LiDaggerAttachment"
             },
             "OFF_HAND": {
                 "LocalPosition": [
-                    0.01,
-                    0.01,
+                    0.0099999998,
+                    0.0099999998,
                     -0.1
                 ],
                 "LocalRotation": [
-                    0.444997,
-                    -0.444997,
-                    -0.549525,
-                    0.549525
+                    0.44499701,
+                    -0.44499701,
+                    -0.54952502,
+                    0.54952502
                 ],
                 "BoneName": "GAME_L1_WEAPON1",
                 "Type": "LiDaggerAttachmentOffhand"
@@ -49,8 +49,8 @@
         "HolsterBone1Rotation": [
             0,
             0,
-            0.043619,
-            0.999048
+            0.043618999,
+            0.99904799
         ],
         "GripType": "DUAL_GUN_GUN",
         "PickUpText": "/Lotus/Language/Items/ThrowingWeaponPickup",
@@ -72,7 +72,7 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "DM_AIM": {
@@ -94,7 +94,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -306,8 +306,8 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
-                        "DT_PUNCTURE": 0.85,
-                        "DT_SLASH": 0.05,
+                        "DT_PUNCTURE": 0.85000002,
+                        "DT_SLASH": 0.049999952,
                         "Amount": 6,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -359,7 +359,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 1.5,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -456,7 +456,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -722,10 +722,10 @@
         },
         "AttachmentFireStyle": "ALTERNATE_HANDS",
         "HolsterRotOffset": [
-            0.707107,
+            0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "RequiredLevel": 8,
         "ArtifactSlots": [

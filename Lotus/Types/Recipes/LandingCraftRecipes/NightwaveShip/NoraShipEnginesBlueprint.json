@@ -1,0 +1,31 @@
+{
+    "parent": "/Lotus/Types/Game/RecipeItem",
+    "data": {
+        "PickUpText": "MANTYS POWER CORE BLUEPRINT",
+        "SellingPrice": 3500,
+        "ExcludeFromCodex": 0,
+        "TradeCapability": "RO_ALWAYS",
+        "ResultItem": "/Lotus/StoreItems/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipEnginesComponent",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 7500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 7500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                "ItemCount": 5200
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                "ItemCount": 3
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "ShipFeaturePrereq": "/Lotus/Types/Items/ShipFeatureItems/FoundryVesselUpgradeFeatureItem"
+    }
+}

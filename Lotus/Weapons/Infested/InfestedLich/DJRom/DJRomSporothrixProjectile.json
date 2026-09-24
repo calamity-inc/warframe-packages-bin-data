@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Weapons/GunProjectile",
     "data": {
         "Mesh": "/Lotus/Weapons/Infested/InfestedGrenade/InfestedGrenade.fbx",
-        "MeshScale": 0.7,
+        "MeshScale": 0.69999999,
         "AutoSimChildren": [
             {
                 "LocalPosition": [
@@ -96,15 +96,15 @@
         "PhysicsBehavior": "/EE/Types/Physics/KinematicQuery",
         "OnlyRegisterBounds": 0,
         "AttackData": {
-            "DT_IMPACT": 0.27,
+            "DT_IMPACT": 0.27000001,
             "DT_PUNCTURE": 0.31,
-            "DT_SLASH": 0.42,
+            "DT_SLASH": 0.41999996,
             "Amount": 185,
-            "ProcChance": 0.53
+            "ProcChance": 0.52999997
         },
         "DealDamageThroughImpactBehavior": 1,
         "NotifyImpactBehavior": 1,
-        "CriticalChance": 0.01,
+        "CriticalChance": 0.0099999998,
         "CriticalMultiplier": 3,
         "DamageFallOff": [
             400,
@@ -117,7 +117,7 @@
             "PT_BIG_STAGGER"
         ],
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplosionIgnoreCover": 0,
@@ -141,11 +141,11 @@
         "EmbedAttack": {
             "Type": "DT_VIRAL",
             "Amount": 0,
-            "ProcChance": 0.53
+            "ProcChance": 0.52999997
         },
         "EmbedTime": [
-            0.9,
-            0.9
+            0.89999998,
+            0.89999998
         ],
         "EmbedDeathAttack": {
             "UseNewFormat": 1,
@@ -165,7 +165,7 @@
             "DT_CORROSIVE": 0,
             "DT_RADIANT": 0,
             "Amount": 41,
-            "ProcChance": 0.53
+            "ProcChance": 0.52999997
         },
         "EmbedDeathEffect": "/Lotus/Fx/Weapons/Infested/InfSniperRifle/InfSniperRifleEmbedExp",
         "KinematicMovement": 1,
@@ -179,10 +179,10 @@
             0
         ],
         "BaseRotation": [
-            -0.707107,
+            -0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "ApplyColorCustomization": 1
     }

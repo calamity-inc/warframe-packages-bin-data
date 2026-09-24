@@ -1,0 +1,170 @@
+{
+    "parent": "/EE/Types/GraphicsRes/PBRMaterial",
+    "data": {
+        "Shader2": "/EE/Shaders/Deferred/CharacterPBRDetailDeferred.hlsl",
+        "Shader3": "/EE/Shaders/Lighting/ShadowMapCharacter.hlsl",
+        "Shader4": "/EE/Shaders/Lighting/ShadowProject.hlsl",
+        "Shader5": "/EE/Shaders/Lighting/OmniShadow.hlsl",
+        "Shader6": "/EE/Shaders/Lighting/ShadowLightMap.hlsl",
+        "Shader7": "/EE/Shaders/Lighting/OmniShadowLightMap.hlsl",
+        "Shader8": "/EE/Shaders/Lighting/ProjectOnly.hlsl",
+        "Shader10": "/EE/Shaders/DepthCharacter.hlsl",
+        "Shader12": "/EE/Shaders/Lighting/MotionBlurCharacter.hlsl",
+        "LAYERS": "X4",
+        "DETAIL_MASK": "DETAIL_MASK_RGBA",
+        "EFFECT": "NONE",
+        "UNIQUE_TEXTURE": "NONE",
+        "VISUALIZATION": "NONE",
+        "FX": "NONE",
+        "UNDO_TINT_FOR_PACKING": 1,
+        "USE_DEFORMERS": 0,
+        "DIFFUSE_MAP": 0,
+        "MACRO_ROUGHNESS": 0,
+        "SKIN_BRDF": 0,
+        "USE_TINT_MASK": 0,
+        "CLEARCOAT": 0,
+        "EMISSIVE_MAP": 1,
+        "EMISSIVE_MASK": 0,
+        "OPACITY": 0,
+        "CLOAK": 1,
+        "WET": 0,
+        "SPECULARMAP_IS_METALMAP": 1,
+        "EMISSIVE_ON_UV1": 0,
+        "VERTEX_AO": 1,
+        "HOLES": 0,
+        "VS:Pan": [
+            0,
+            0,
+            0
+        ],
+        "PS:DiffuseColor": [
+            0.75,
+            0.75,
+            0.75,
+            1
+        ],
+        "PS:SpecularColor": [
+            0.1,
+            0.1,
+            0.1,
+            1
+        ],
+        "PS:Roughness": 0.5,
+        "PS:RoughnessAtten": 1,
+        "PS:ReflectionsLodBias": 0,
+        "PS:MacroLayerStrength": [
+            0.80000001,
+            0.80000001,
+            0.80000001,
+            0.80000001
+        ],
+        "PS:TintColor0": [
+            0.95999998,
+            0.050000001,
+            0.0020999999,
+            0.5
+        ],
+        "PS:TintColor1": [
+            0.23999999,
+            0.27000001,
+            0.27000001,
+            0.5
+        ],
+        "PS:TintColor2": [
+            0.029999999,
+            0.029999999,
+            0.028000001,
+            0.5
+        ],
+        "PS:TintColor3": [
+            0.5,
+            0.5,
+            0.5,
+            1
+        ],
+        "PS:CurvatureStrength": 0,
+        "PS:EmissiveTintColorLo": [
+            0.0034,
+            0.58999997,
+            0.0015,
+            1
+        ],
+        "PS:EmissiveTintColorHi": [
+            0.0099999998,
+            0.75999999,
+            0.016000001,
+            1
+        ],
+        "PS:EmissiveMapAtten": 1,
+        "TX:NormalMap": "DrifterNightwave1999Torso_n.png",
+        "TX:MacroPackMap": "DrifterNightwave1999TorsoPackMap",
+        "TX:EmissiveMap": "DrifterNightwave1999Torso_e.png",
+        "PS:CloakHDR": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "PS:CloakVector": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "PS:CloakParams": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "PS:LayerNormalStrength": [
+            0.5,
+            0.5,
+            1,
+            0
+        ],
+        "PS:UvScaleRedGreen": [
+            30,
+            30,
+            2,
+            2
+        ],
+        "PS:UvScaleBlueAlpha": [
+            10,
+            10,
+            1,
+            1
+        ],
+        "PS:MicroCavityAoStrength": [
+            1.4,
+            2,
+            1.5,
+            1
+        ],
+        "PS:MicroCavityRoughnessMultiplier": [
+            -0.5,
+            1,
+            0.40000001,
+            1
+        ],
+        "PS:MicroCavitySpecularMultiplier": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "TX:RedNormalMap": "/Lotus/Characters/SharedTileableTextures/CharacterPBRDetail/Textiles/LambLeatherCavity_n.png",
+        "TX:GreenNormalMap": "/Lotus/Characters/SharedTileableTextures/CharacterPBRDetail/ManufacturedSurfaces/DamagedMetal_n.png",
+        "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/CharacterPBRDetail/Textiles/BullLeatherCavity_n.png",
+        "TX:AlphaNormalMap": "",
+        "TX:DetailMask": "DrifterNightwave1999TorsoDetail_t.png",
+        "PS:BaseTintColor": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "DepthWrite": 1,
+        "DefaultPhysicsMaterial": "/EE/Types/Physics/Materials/Default"
+    }
+}

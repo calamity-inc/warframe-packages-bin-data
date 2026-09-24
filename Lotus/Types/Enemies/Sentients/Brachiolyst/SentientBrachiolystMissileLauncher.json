@@ -20,20 +20,20 @@
                     0,
                     0.017452,
                     0,
-                    0.999848
+                    0.99984801
                 ],
                 "BoneName": "GAME_C1_HIP"
             }
         },
         "HolsterBone1Name": "GAME_C1_HIP",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -47,19 +47,19 @@
         "WeaponHandAimOffset": [
             0,
             0,
-            0.4
+            0.40000001
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.058,
-            -0.045,
+            -0.057999998,
+            -0.045000002,
             0.1
         ],
         "GripRotationOffset": [
             0,
-            0.706676,
-            -0.707107,
-            0.024678
+            0.70667601,
+            -0.70710677,
+            0.024677999
         ],
         "Behaviors": [
             {
@@ -76,7 +76,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -154,7 +154,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "spreadUniform": 1,
-                    "SpreadRatioHorizontal": 0.8,
+                    "SpreadRatioHorizontal": 0.80000001,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -291,9 +291,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 3,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -446,7 +446,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,

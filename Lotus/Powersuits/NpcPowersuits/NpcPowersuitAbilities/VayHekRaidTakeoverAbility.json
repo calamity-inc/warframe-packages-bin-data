@@ -4,7 +4,7 @@
         "Script": {
             "Script": "VayHekRaidTakeOverAbility.lua",
             "Function": "NpcEvaluateAbility",
-            "_healthPercentToActivate": 0.85,
+            "_healthPercentToActivate": 0.85000002,
             "_range": 13
         },
         "CooldownDuration": 35,
@@ -15,7 +15,7 @@
         ],
         "Evaluator:VayHekTakeOverEvaluator": {
             "Range": 13,
-            "HealthPercentToActivate": 0.85
+            "HealthPercentToActivate": 0.85000002
         }
     }
 }

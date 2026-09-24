@@ -4,15 +4,15 @@
         "THIRD_PERSON_ATTACHMENT": {
             "OFF_HAND": {
                 "LocalPosition": [
-                    -0.01,
+                    -0.0099999998,
                     0.02,
-                    -0.08
+                    -0.079999998
                 ],
                 "LocalRotation": [
-                    0.030844,
-                    -0.706434,
-                    0.092296,
-                    0.701057
+                    0.030843999,
+                    -0.70643401,
+                    0.092295997,
+                    0.70105702
                 ],
                 "BoneName": "GAME_L1_ARM3",
                 "Type": "LasrianShieldImmunityAttachment"
@@ -29,11 +29,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -41,7 +41,7 @@
                     "SwaySpeed": 1,
                     "SwayAmplitude": 0.1
                 },
-                "aimFOVMultiplier": 1.43,
+                "aimFOVMultiplier": 1.4299999,
                 "Upgrades": [],
                 "LocOverrides": [],
                 "Sound": ""
@@ -68,7 +68,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -280,7 +280,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponShotgunStateBehavior",
                 "state:WeaponShotgunStateBehavior": {
-                    "reloadTime": 0.01,
+                    "reloadTime": 0.0099999998,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -336,7 +336,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 1,
                     "reloadStartTime": 0.5,
-                    "reloadEndTime": 0.73,
+                    "reloadEndTime": 0.73000002,
                     "reloadLoopTime": 0.63,
                     "NonLoopingReload": 0,
                     "minInterruptTime": 0.5,

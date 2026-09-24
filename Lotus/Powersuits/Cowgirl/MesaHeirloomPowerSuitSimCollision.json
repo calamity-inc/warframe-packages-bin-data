@@ -1,0 +1,628 @@
+{
+    "parent": "/EE/Types/Effects/SimCollision",
+    "data": {
+        "Elements": [
+            {
+                "bone": "GAME_C1_HEAD1",
+                "offset": [
+                    -0.1,
+                    0,
+                    0
+                ],
+                "boneB": "",
+                "offsetB": [
+                    -0.1,
+                    0,
+                    0
+                ],
+                "radius": 0,
+                "radiusB": 0,
+                "tag": "Head",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_CLAV1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_R1_CLAV1",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.15000001,
+                "radiusB": 0,
+                "tag": "Clav",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_SPINE1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_C1_SPINE3",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.12,
+                "radiusB": 0,
+                "tag": "Spine",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_ARM1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_R1_ARM2",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.12,
+                "radiusB": 0,
+                "tag": "Arm1Right",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_ARM2",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_R1_ARM3",
+                "offsetB": [
+                    -0.050000001,
+                    0,
+                    0
+                ],
+                "radius": 0.1,
+                "radiusB": 0,
+                "tag": "Arm2Right",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_ARM3",
+                "offset": [
+                    0.1,
+                    0,
+                    0
+                ],
+                "boneB": "",
+                "offsetB": [
+                    0.050000001,
+                    0,
+                    0
+                ],
+                "radius": 0.050000001,
+                "radiusB": 0,
+                "tag": "Arm3Right",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_ARM1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_L1_ARM2",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.1,
+                "radiusB": 0,
+                "tag": "Arm1Left",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_ARM2",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_L1_ARM3",
+                "offsetB": [
+                    0.050000001,
+                    0,
+                    0
+                ],
+                "radius": 0.1,
+                "radiusB": 0,
+                "tag": "Arm2Left",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_ARM3",
+                "offset": [
+                    -0.1,
+                    0,
+                    0
+                ],
+                "boneB": "",
+                "offsetB": [
+                    -0.050000001,
+                    0,
+                    0
+                ],
+                "radius": 0.050000001,
+                "radiusB": 0,
+                "tag": "Arm3Left",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_LEG1",
+                "offset": [
+                    0.025,
+                    -0.050000001,
+                    0.1
+                ],
+                "boneB": "GAME_R1_LEG2",
+                "offsetB": [
+                    0,
+                    -0.050000001,
+                    0
+                ],
+                "radius": 0.079999998,
+                "radiusB": 0,
+                "tag": "Leg1Right",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_LEG1",
+                "offset": [
+                    0.025,
+                    -0.050000001,
+                    -0.1
+                ],
+                "boneB": "GAME_L1_LEG2",
+                "offsetB": [
+                    0,
+                    -0.050000001,
+                    0
+                ],
+                "radius": 0.079999998,
+                "radiusB": 0,
+                "tag": "Leg1Left",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_LEG2",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_R1_LEG3",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.11,
+                "radiusB": 0,
+                "tag": "Leg2Right",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_LEG2",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_L1_LEG3",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.11,
+                "radiusB": 0,
+                "tag": "Leg2Left",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_NECK1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_C1_SPINE5",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.15000001,
+                "radiusB": 0,
+                "tag": "Neck",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_SPINE5",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_C1_SPINE5",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.155,
+                "radiusB": 0,
+                "tag": "Chest",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_HIP1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_C1_HIP1",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.15000001,
+                "radiusB": 0,
+                "tag": "Hip",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_LEG1",
+                "offset": [
+                    -0.050000001,
+                    -0.1,
+                    0.15000001
+                ],
+                "boneB": "GAME_R1_LEG1",
+                "offsetB": [
+                    0,
+                    -0.050000001,
+                    0.050000001
+                ],
+                "radius": 0.1,
+                "radiusB": 0,
+                "tag": "xtraRLeg",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_LEG1",
+                "offset": [
+                    -0.025,
+                    -0.1,
+                    -0.15000001
+                ],
+                "boneB": "GAME_L1_LEG1",
+                "offsetB": [
+                    0,
+                    -0.050000001,
+                    -0.050000001
+                ],
+                "radius": 0.1,
+                "radiusB": 0,
+                "tag": "xtraLLeg",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_HIP1",
+                "offset": [
+                    0.15000001,
+                    -0.2,
+                    -0.15000001
+                ],
+                "boneB": "GAME_C1_HIP1",
+                "offsetB": [
+                    0.2,
+                    -1,
+                    -0.30000001
+                ],
+                "radius": 0.16,
+                "radiusB": 0,
+                "tag": "rearSkirtL",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_HIP1",
+                "offset": [
+                    -0.15000001,
+                    -0.2,
+                    -0.15000001
+                ],
+                "boneB": "GAME_C1_HIP1",
+                "offsetB": [
+                    -0.2,
+                    -1,
+                    -0.30000001
+                ],
+                "radius": 0.155,
+                "radiusB": 0,
+                "tag": "rearSkirtR",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_HIP1",
+                "offset": [
+                    0,
+                    -0.2,
+                    -0.15000001
+                ],
+                "boneB": "GAME_C1_HIP1",
+                "offsetB": [
+                    0,
+                    -1,
+                    -0.30000001
+                ],
+                "radius": 0,
+                "radiusB": 0,
+                "tag": "rearSkirtC",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_ARM1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_L1_ARM2",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.059999999,
+                "radiusB": 0,
+                "tag": "Arm1LeftArmor",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_ARM2",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_L1_ARM3",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.059999999,
+                "radiusB": 0,
+                "tag": "Arm2LeftArmor",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_ARM1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_R1_ARM2",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.059999999,
+                "radiusB": 0,
+                "tag": "Arm1RightArmor",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_ARM2",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_R1_ARM3",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.059999999,
+                "radiusB": 0,
+                "tag": "Arm2RightArmor",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_LEG2",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_L1_LEG3",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.075000003,
+                "radiusB": 0,
+                "tag": "Leg2LeftArmor",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_LEG2",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_R1_LEG3",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.075000003,
+                "radiusB": 0,
+                "tag": "Leg2RightArmor",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            }
+        ]
+    }
+}

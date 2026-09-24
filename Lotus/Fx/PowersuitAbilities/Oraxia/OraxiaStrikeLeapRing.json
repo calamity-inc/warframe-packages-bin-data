@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/ShockwaveRing.fbx",
-        "MeshScale": 0.05,
+        "MeshScale": 0.050000001,
         "OverrideMaterial": [
             "OraxiaStrikeLeapRingMat"
         ],
@@ -10,7 +10,7 @@
         "DrawInTransparentPass": 1,
         "VisibleDistortion": 1,
         "DeadParentInheritanceRule": "NONE",
-        "LifeSpan": 0.3,
+        "LifeSpan": 0.30000001,
         "RandomMeshScale": [
             1.2,
             1.2
@@ -20,7 +20,7 @@
                 "Parameter": "MorphAmount",
                 "Slot": -1,
                 "TimeLength": 1.358793,
-                "Multiplier": 0.3,
+                "Multiplier": 0.30000001,
                 "FadeRange": [
                     0.003125,
                     1
@@ -48,7 +48,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 12,
                 "FadeRange": [
                     0,
@@ -62,7 +62,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.4
+                            "Value": 0.40000001
                         },
                         {
                             "Time": 1,

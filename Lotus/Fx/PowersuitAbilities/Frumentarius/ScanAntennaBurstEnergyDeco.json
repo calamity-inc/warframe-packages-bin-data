@@ -9,10 +9,10 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.6,
+                "TimeLength": 0.60000002,
                 "Multiplier": 3,
                 "FadeRange": [
-                    0.04,
+                    0.039999999,
                     0.1
                 ],
                 "FadeCurve": {
@@ -29,11 +29,11 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.6,
+                "TimeLength": 0.60000002,
                 "Multiplier": 6,
                 "FadeRange": [
-                    0.4,
-                    0.8
+                    0.40000001,
+                    0.80000001
                 ],
                 "FadeCurve": {
                     "Values": [
@@ -42,21 +42,21 @@
                             "Value": 0
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.194623
+                            "Time": 0.33333334,
+                            "Value": 0.19462299
                         },
                         {
-                            "Time": 0.666667,
-                            "Value": 0.797155
+                            "Time": 0.66666669,
+                            "Value": 0.79715502
                         },
                         {
                             "Time": 1,
-                            "Value": 0.9976
+                            "Value": 0.99760002
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"
                 },
-                "BaseValue": 0.3,
+                "BaseValue": 0.30000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
@@ -66,7 +66,7 @@
             {
                 "Parameter": "CustomTime",
                 "Slot": -1,
-                "TimeLength": 0.6,
+                "TimeLength": 0.60000002,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,
@@ -80,7 +80,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.791505
+                            "Value": 0.79150498
                         },
                         {
                             "Time": 1,
@@ -121,7 +121,7 @@
             0,
             2
         ],
-        "MovementTimeLength": 0.6,
+        "MovementTimeLength": 0.60000002,
         "MovementCurve": {
             "Values": [
                 {
@@ -134,7 +134,7 @@
                 },
                 {
                     "Time": 1,
-                    "Value": 0.419461
+                    "Value": 0.41946101
                 }
             ],
             "SplineType": "CUBIC_SPLINE"

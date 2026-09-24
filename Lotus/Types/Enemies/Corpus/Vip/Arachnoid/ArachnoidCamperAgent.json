@@ -267,7 +267,7 @@
                         "LookAtNearbyPlayer": 0,
                         "LookAtTarget": 1,
                         "NearbyTeammatesThreshold": 10,
-                        "PlayerBias": 0.6,
+                        "PlayerBias": 0.60000002,
                         "ReportAttackOnDamage": 1,
                         "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                         "PatrolBehavior:Enabled": 1,
@@ -479,7 +479,7 @@
                 "m": 100,
                 "k": -1,
                 "b": 1,
-                "c": 0.3,
+                "c": 0.30000001,
                 "logistic": 1
             },
             "AimWhileMoving": 1,
@@ -515,7 +515,7 @@
                 0
             ],
             "MinAngleToTurn": 40,
-            "MinAimMask": 0.9,
+            "MinAimMask": 0.89999998,
             "TargetNotVisibleTimeoutRange": [
                 5,
                 8
@@ -664,7 +664,7 @@
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -738,8 +738,8 @@
             "/EE/Types/Npc/VipDynamicPathFollowerGround"
         ],
         "LocomotionController:VipDynamicPathFollowerGround": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "MinimumMoveDistance": 0.1,
@@ -761,7 +761,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,
@@ -809,13 +809,13 @@
         "ViewCenteredOnAvatar": 1,
         "AwarenessDecayTime": 20,
         "TargetLostTime": 120,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "AlertDecayTime": 120,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Infested/ZombieReactionController",
         "PerceiverType": "ArachnoidHungerPerceiver",
-        "SightReactionProbability": 0.8,
-        "CoverIllumBias": 0.8,
+        "SightReactionProbability": 0.80000001,
+        "CoverIllumBias": 0.80000001,
         "IsCoverUseEnabled": 0,
         "NpcTargeterType": "ArachnoidCamperRelayedTargeter",
         "TargetEvaluatorType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonMortarTargetEvaluator"

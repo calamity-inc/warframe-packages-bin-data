@@ -29,7 +29,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -110,7 +110,7 @@
                     "InterruptAttackOnMaxAvatarsHit": 0,
                     "DistanceBetweenHittingSameNonAvatar": 2,
                     "SweepRadius": 0.25,
-                    "SweepCapsuleHalfHeight": 0.3,
+                    "SweepCapsuleHalfHeight": 0.30000001,
                     "DefaultMeleeProxies": {
                         "MAIN_HAND": {
                             "WeaponBone": "",
@@ -220,7 +220,7 @@
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.333,
                         "DT_PUNCTURE": 0.333,
-                        "DT_SLASH": 0.334,
+                        "DT_SLASH": 0.33399999,
                         "Amount": 10,
                         "ProcChance": 0.25,
                         "ForcedProcs": [],
@@ -327,9 +327,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -428,7 +428,7 @@
                     "RecordFireEvent": 1,
                     "ComboData": {
                         "IsHeldHeavyCharge": 0,
-                        "HeavyMeleeChargeTime": 0.7,
+                        "HeavyMeleeChargeTime": 0.69999999,
                         "UseCurrentContextAfterCharge": 0
                     },
                     "GroundHitLerpRate": 0.25,
@@ -469,7 +469,7 @@
             "_markingAttachEffect": "",
             "_deathEffect": "",
             "_cloneAttachEffect": "",
-            "_CustomDitherDissolve": 0.82,
+            "_CustomDitherDissolve": 0.81999999,
             "_joinInAttachEffect": ""
         },
         "OnRemovedScript": {
@@ -491,7 +491,7 @@
             "_markingAttachEffect": "",
             "_deathEffect": "",
             "_cloneAttachEffect": "",
-            "_CustomDitherDissolve": 0.82,
+            "_CustomDitherDissolve": 0.81999999,
             "_joinInAttachEffect": ""
         },
         "ExcludeFromPlayerLevelCalculations": 1,
@@ -532,7 +532,7 @@
         "ArcaneApertureType": "/Lotus/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker",
         "DefaultModTemplate": "/Lotus/Types/ModLists/Melee/HybridBalanced",
         "MeleeTreeType": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/NinjaStormMeleeTree",
-        "ParryDamagePercentBlocked": 0.8,
+        "ParryDamagePercentBlocked": 0.80000001,
         "ChannelingReflectAmount": 0.25,
         "QuickSlamStartSound": ""
     }

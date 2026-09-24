@@ -19,7 +19,7 @@
         "RecipeHelpText": "/Lotus/Language/Weapons/LasGooAKPlayerWeaponRecipeHelpText",
         "HasAlternateFire": 1,
         "GripPositionOffset": [
-            -0.075,
+            -0.075000003,
             -0.015,
             0.19
         ],
@@ -38,7 +38,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -81,7 +81,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -109,6 +108,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/AK47WeaponHipAccuracyInfo",
@@ -133,6 +133,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 300,
                     "PvpTraceDistance": 300,
@@ -165,7 +167,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -245,7 +247,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.21,
+                    "criticalHitChance": 0.20999999,
                     "criticalHitDamageMultiplier": 2.3,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -275,6 +277,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0.2,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -342,7 +345,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -385,7 +388,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -413,6 +415,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/AkimboShotGunHipAccuracyInfo",
@@ -437,6 +440,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 300,
                     "PvpTraceDistance": 300,
@@ -551,17 +556,35 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.21,
-                    "criticalHitDamageMultiplier": 2.1,
+                    "criticalHitChance": 0.20999999,
+                    "criticalHitDamageMultiplier": 2.0999999,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
                     "strength": 0,
                     "radius": 0,
                     "flash": 0,
-                    "OnHitScriptEnabled": 1,
+                    "OnHitScriptEnabled": 0,
                     "OnHitScript": {
-                        "Script": ""
+                        "Script": "/Lotus/Scripts/Mods/LasGooAKBonusPerKillMod.lua",
+                        "Function": "OnWeaponHit",
+                        "_restoredAmmoAmount": [
+                            0.050000001,
+                            0.1,
+                            0.15000001,
+                            0.2,
+                            0.25,
+                            0.30000001
+                        ],
+                        "_projSpeedBonus": [
+                            0.2,
+                            0.40000001,
+                            0.60000002,
+                            0.80000001,
+                            1,
+                            1.2
+                        ],
+                        "_upgradeTypeWeak": "/Lotus/Upgrades/Mods/Rifle/Event/Nightwave/NightwaveLasGooAKAugmentMod"
                     },
                     "UseNextShotDamageBonus": 1,
                     "IgnoreHeadshotBonus": 0,
@@ -570,7 +593,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponChargedStateBehavior",
                 "state:WeaponChargedStateBehavior": {
-                    "reloadTime": 2.1,
+                    "reloadTime": 2.0999999,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -581,6 +604,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,

@@ -27,7 +27,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -159,7 +159,7 @@
                     "RiftStasisWeight": 42,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
                     "MaxTraceDistanceTime": 0.1,
-                    "RetractTime": 0.01,
+                    "RetractTime": 0.0099999998,
                     "AttachToWeapon": 0,
                     "UseWeaponAttachmentFirePos": 0,
                     "MultiBeam": 1,
@@ -167,8 +167,8 @@
                         {
                             "LocalPosition": [
                                 0.02,
-                                0.05,
-                                0.86
+                                0.050000001,
+                                0.86000001
                             ],
                             "LocalRotation": [
                                 0,
@@ -190,8 +190,8 @@
                         {
                             "LocalPosition": [
                                 0.02,
-                                0.05,
-                                0.86
+                                0.050000001,
+                                0.86000001
                             ],
                             "LocalRotation": [
                                 0,
@@ -276,7 +276,7 @@
                     "StasisCollapseTime": 2.5,
                     "RecoilOnFire": 0,
                     "RecoilRate": 120,
-                    "RecoilIntensityFireTime": 0.3,
+                    "RecoilIntensityFireTime": 0.30000001,
                     "RecoilCurve": "RC_LINEAR",
                     "RecoilStrength": [
                         0.2,
@@ -300,7 +300,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -707,7 +707,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.72,
+                    "PvpDamageMultiplier": 0.72000003,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -759,9 +759,9 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": ""
                 },

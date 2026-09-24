@@ -18,20 +18,20 @@
                     "type": "DSP_PITCH",
                     "pitch": {
                         "paramFinePitch": 0.5,
-                        "paramCoarsePitch": 0.55,
+                        "paramCoarsePitch": 0.55000001,
                         "paramFeedback": 0,
-                        "paramFeedbackPhase": -0.002079,
+                        "paramFeedbackPhase": -0.00207901,
                         "paramDelay": 0
                     }
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.310513,
+                    "mix": 0.31051299,
                     "type": "DSP_DELAY",
                     "delay": {
                         "delayTimeSec": 0,
-                        "delayTime": 0.005391,
-                        "feedback": 0.569438
+                        "delayTime": 0.0053908401,
+                        "feedback": 0.56943798
                     }
                 },
                 {
@@ -41,7 +41,7 @@
                     "eq": {
                         "lg": 1,
                         "mg": 1.1,
-                        "hg": 0.7,
+                        "hg": 0.69999999,
                         "eqLowMid": [
                             3000,
                             4500
@@ -50,13 +50,13 @@
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.638814,
+                    "mix": 0.63881397,
                     "type": "DSP_FLANGER",
                     "flanger": {
                         "paramSweepRate": 0,
                         "paramWidth": 0.359736,
-                        "paramFeedback": 0.341749,
-                        "paramDelay": 0.817048,
+                        "paramFeedback": 0.34174901,
+                        "paramDelay": 0.81704801,
                         "paramMixMode": 0
                     }
                 },
@@ -71,11 +71,11 @@
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.5458,
+                    "mix": 0.54579997,
                     "type": "DSP_PHASER",
                     "phaser": {
-                        "fb": 0.5885,
-                        "depth": 0.251,
+                        "fb": 0.58850002,
+                        "depth": 0.25099999,
                         "rate": 1,
                         "range": [
                             500,
@@ -96,7 +96,7 @@
                     "mix": 1,
                     "type": "DSP_EQ",
                     "eq": {
-                        "lg": 0.9,
+                        "lg": 0.89999998,
                         "mg": 1,
                         "hg": 1,
                         "eqLowMid": [

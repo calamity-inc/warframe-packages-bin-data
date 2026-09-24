@@ -27,19 +27,19 @@
         "DonationStandingBonus": 350,
         "EligibleForDailyWeaponSale": 1,
         "AttackData": {
-            "DT_IMPACT": 0.15,
-            "DT_PUNCTURE": 0.35,
+            "DT_IMPACT": 0.15000001,
+            "DT_PUNCTURE": 0.34999999,
             "DT_SLASH": 0.5,
             "Amount": 309,
-            "ProcChance": 0.18
+            "ProcChance": 0.18000001
         },
-        "BaseCritChance": 0.18,
+        "BaseCritChance": 0.18000001,
         "OmegaAttenuation": 0.75,
         "HitEffectOverride": "/Lotus/Fx/Weapons/Melee/Clean/HitEffects/MeleeHitEffectSword",
         "OneHanded": {
             "meleeTree": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/ScytheMeleeTree",
             "CompatibleSkinType": "/Lotus/Weapons/Tenno/Melee/LotusScythe",
-            "pvpDamageAttenuation": 0.82,
+            "pvpDamageAttenuation": 0.81999999,
             "holsterCustomization": "/Lotus/Upgrades/Skins/HolsterCustomizations/SwordUpperBack",
             "stancePolarity": "AP_POWER",
             "parryAngle": 60,
@@ -127,7 +127,7 @@
                     "FXOffset": [
                         -0.1,
                         0,
-                        0.4
+                        0.40000001
                     ],
                     "UseWeaponAttachment": 0,
                     "WeaponAttachmentHand": "MAIN_HAND",
@@ -189,7 +189,7 @@
                     "FXOffset": [
                         -0.1,
                         0,
-                        0.4
+                        0.40000001
                     ],
                     "UseWeaponAttachment": 0,
                     "WeaponAttachmentHand": "MAIN_HAND",
@@ -255,7 +255,7 @@
                     "WeaponAttachmentHand": "MAIN_HAND",
                     "IsAerialSlam": 0,
                     "HitAirborneTargets": 1,
-                    "VerticalImpulse": 0.15,
+                    "VerticalImpulse": 0.15000001,
                     "HorizontalImpulse": 0.1
                 }
             ]
@@ -264,7 +264,7 @@
             "meleeTree": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/AxeMeleeTree",
             "meleeStyle": "MS_HEAVY_AXE",
             "CompatibleSkinType": "/Lotus/Weapons/Tenno/Melee/LotusHeavyAxe",
-            "damageAttenuation": 0.93,
+            "damageAttenuation": 0.93000001,
             "pvpDamageAttenuation": 0.62,
             "holsterCustomization": "/Lotus/Upgrades/Skins/HolsterCustomizations/HeavyUpperBack",
             "stancePolarity": "AP_ATTACK",
@@ -481,7 +481,7 @@
                     "WeaponAttachmentHand": "MAIN_HAND",
                     "IsAerialSlam": 0,
                     "HitAirborneTargets": 1,
-                    "VerticalImpulse": 0.15,
+                    "VerticalImpulse": 0.15000001,
                     "HorizontalImpulse": 0.1
                 },
                 {
@@ -541,7 +541,7 @@
                     "WeaponAttachmentHand": "MAIN_HAND",
                     "IsAerialSlam": 0,
                     "HitAirborneTargets": 1,
-                    "VerticalImpulse": 0.15,
+                    "VerticalImpulse": 0.15000001,
                     "HorizontalImpulse": 0.1
                 }
             ]

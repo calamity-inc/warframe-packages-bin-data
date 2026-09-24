@@ -26,18 +26,18 @@
             },
             {
                 "LocalPosition": [
-                    -0.5,
-                    0.1,
+                    -0.69999999,
+                    0.27000001,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    -0.173648,
-                    0.984808
+                    -0.043618999,
+                    0.99904799
                 ],
                 "BoneName": "GAME_C1_BODY",
-                "Type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneUpperBodyHitProxy",
+                "Type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneUpperBodyHitProxy",
                 "Chance": 255,
                 "RelativeToBounds": 0,
                 "Attach": 1,
@@ -48,18 +48,18 @@
             },
             {
                 "LocalPosition": [
-                    -0.1,
                     0,
+                    0.15000001,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_TAIL2",
-                "Type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneMiddleBodyHitProxy",
+                "Type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneMiddleBodyHitProxy",
                 "Chance": 255,
                 "RelativeToBounds": 0,
                 "Attach": 1,
@@ -70,14 +70,14 @@
             },
             {
                 "LocalPosition": [
-                    -0.8,
-                    0.3,
+                    -0.80000001,
+                    0.30000001,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.5373,
+                    0.53729999,
                     0.843391
                 ],
                 "BoneName": "GAME_C1_TAIL4",
@@ -92,18 +92,18 @@
             },
             {
                 "LocalPosition": [
-                    0.7,
-                    0.4,
-                    0
+                    0.55000001,
+                    0.5,
+                    -0.1
                 ],
                 "LocalRotation": [
-                    -0.202665,
-                    -0.14565,
-                    -0.112505,
-                    0.961798
+                    -0.17001501,
+                    -0.074281998,
+                    0.054187998,
+                    0.981143
                 ],
                 "BoneName": "GAME_L1_ARM4",
-                "Type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneRightWingProxy",
+                "Type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneWingProxy",
                 "Chance": 255,
                 "RelativeToBounds": 0,
                 "Attach": 1,
@@ -114,37 +114,37 @@
             },
             {
                 "LocalPosition": [
-                    -0.7,
-                    -0.4,
-                    0
-                ],
-                "LocalRotation": [
-                    -0.202665,
-                    -0.14565,
-                    -0.112505,
-                    0.961798
-                ],
-                "BoneName": "GAME_R1_ARM4",
-                "Type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneRightWingProxy",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0.9,
-                    -0.15,
+                    -0.55000001,
+                    -0.5,
                     0.1
                 ],
                 "LocalRotation": [
+                    -0.17001501,
+                    -0.074281998,
+                    0.054187998,
+                    0.981143
+                ],
+                "BoneName": "GAME_R1_ARM4",
+                "Type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneWingProxy",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    1.7,
+                    -0.30000001,
+                    0.15000001
+                ],
+                "LocalRotation": [
                     0,
-                    0.258819,
+                    0.087155998,
                     0,
-                    0.965926
+                    0.99619502
                 ],
                 "BoneName": "GAME_L1_ARM4",
                 "Type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneLeftElbowProxy",
@@ -158,15 +158,15 @@
             },
             {
                 "LocalPosition": [
-                    -0.9,
-                    0.15,
-                    -0.1
+                    -1.7,
+                    0.30000001,
+                    -0.15000001
                 ],
                 "LocalRotation": [
                     0,
-                    0.258819,
+                    0.087155998,
                     0,
-                    0.965926
+                    0.99619502
                 ],
                 "BoneName": "GAME_R1_ARM4",
                 "Type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneRightElbowProxy",
@@ -341,7 +341,7 @@
         "HealthResistanceKeyword": "RK_ROBOTIC",
         "MaxShield": 1000,
         "ShieldRechargeRate": 0,
-        "ShieldRechargePercent": 0.15,
+        "ShieldRechargePercent": 0.15000001,
         "EnableShieldGating": 1
     }
 }

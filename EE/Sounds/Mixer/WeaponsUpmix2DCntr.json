@@ -1,0 +1,79 @@
+{
+    "parent": "/EE/Types/Sound/Upmix",
+    "data": {
+        "ToFivePointOne": {
+            "Mono": {
+                "FrontLeft": -48,
+                "Center": -48,
+                "FrontRight": -48,
+                "RearLeft": -48,
+                "SubWoofer": -48,
+                "RearRight": -48
+            },
+            "Left": {
+                "Center": -12,
+                "FrontRight": -48,
+                "RearLeft": -12,
+                "SubWoofer": -48,
+                "RearRight": -48
+            },
+            "Right": {
+                "FrontLeft": -48,
+                "Center": -12,
+                "RearLeft": -48,
+                "SubWoofer": -48,
+                "RearRight": -12
+            }
+        },
+        "ToSevenPointOne": {
+            "Mono": {
+                "FrontLeft": -48,
+                "Center": -48,
+                "FrontRight": -48,
+                "RearLeft": -48,
+                "SubWoofer": -48,
+                "RearRight": -48,
+                "SideLeft": -48,
+                "SideRight": -48
+            },
+            "Left": {
+                "Center": -12,
+                "FrontRight": -48,
+                "RearLeft": -18,
+                "SubWoofer": -48,
+                "SideLeft": -18
+            },
+            "Right": {
+                "FrontLeft": -48,
+                "Center": -12,
+                "SubWoofer": -48,
+                "RearRight": -18,
+                "SideRight": -18
+            }
+        },
+        "ToStereo": {
+            "Mono": {
+                "FrontLeft": 0,
+                "Center": -48,
+                "FrontRight": 0,
+                "RearLeft": -48,
+                "SubWoofer": -48,
+                "RearRight": -48
+            },
+            "Left": {
+                "Center": -48,
+                "FrontRight": -48,
+                "RearLeft": -48,
+                "SubWoofer": -48,
+                "RearRight": -48
+            },
+            "Right": {
+                "FrontLeft": -48,
+                "Center": -48,
+                "RearLeft": -48,
+                "SubWoofer": -48,
+                "RearRight": -48
+            }
+        }
+    }
+}

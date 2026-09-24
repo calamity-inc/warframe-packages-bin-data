@@ -11,7 +11,7 @@
         "PS:TintColor0": [
             0.13,
             0.1,
-            0.058,
+            0.057999998,
             0.5
         ],
         "PS:TintColor1": [
@@ -27,18 +27,18 @@
             0.5
         ],
         "PS:TintColor3": [
-            0.73,
+            0.73000002,
             0.5,
             0.17,
             0.5
         ],
         "PS:LayerNormalStrength": [
-            0.3,
-            -0.3,
-            -0.3,
+            0.30000001,
+            -0.30000001,
+            -0.30000001,
             1
         ],
-        "PS:CurvatureStrength": 0.8,
+        "PS:CurvatureStrength": 0.80000001,
         "PS:EmissiveTintColorLo": [
             0.0044,
             0.22,
@@ -68,27 +68,14 @@
         "TX:CharacterTintMask": "NecramechMeleeQuadripedBodyTint_t.png",
         "TX:DetailsAoMap": "NecramechMeleeQuadripedBodyPackMap",
         "TX:EmissiveMap": "NecramechMeleeQuadripedBody_e.png",
-        "PS:BaseTintColor": [
-            0,
-            0,
-            0,
-            0.5
-        ],
-        "PS:GrimeTintColor": [
-            0.72,
-            0.63,
-            0.5,
-            0
-        ],
-        "PS:GrimeRoughness": 0.002398,
         "PS:BlackParams": [
             0.5,
-            0.3,
+            0.30000001,
             0.5,
             1
         ],
         "PS:GrimeTintColorBlack": [
-            0.72,
+            0.72000003,
             0.63,
             0.5,
             0
@@ -98,27 +85,27 @@
         "TX:BlackNormalMap": "/Lotus/Characters/SharedTileableTextures/MattePaint_n.png",
         "PS:RedParams": [
             0.1,
-            0.6,
+            0.60000002,
             1,
             1
         ],
         "PS:GrimeTintColorRed": [
-            0.72,
+            0.72000003,
             0.63,
             0.5,
             0
         ],
-        "PS:GrimeRoughnessRed": 0.098462,
+        "PS:GrimeRoughnessRed": 0.098461501,
         "TX:RedPackMap": "/Lotus/Characters/SharedTileableTextures/PlasticPackMap",
         "TX:RedNormalMap": "/Lotus/Characters/SharedTileableTextures/Plastic_n.png",
         "PS:GreenParams": [
-            0.4,
+            0.40000001,
             0.2,
             1,
             1
         ],
         "PS:GrimeTintColorGreen": [
-            0.72,
+            0.72000003,
             0.63,
             0.5,
             0
@@ -133,7 +120,7 @@
             0
         ],
         "PS:GrimeTintColorBlue": [
-            0.72,
+            0.72000003,
             0.63,
             0.5,
             0
@@ -141,6 +128,19 @@
         "PS:GrimeRoughnessBlue": 1,
         "TX:BluePackMap": "/Lotus/Characters/SharedTileableTextures/Metal/Gold/Gold",
         "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/GoldSpecGloss_n.png",
+        "PS:BaseTintColor": [
+            0,
+            0,
+            0,
+            0.5
+        ],
+        "PS:GrimeTintColor": [
+            0.72000003,
+            0.63,
+            0.5,
+            0
+        ],
+        "PS:GrimeRoughness": 0.00239808,
         "DefaultPhysicsMaterial": "/EE/Types/Physics/Materials/Metal"
     }
 }

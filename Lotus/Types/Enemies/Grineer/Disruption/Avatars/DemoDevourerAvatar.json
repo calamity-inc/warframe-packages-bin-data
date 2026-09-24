@@ -32,14 +32,14 @@
             {
                 "LocalPosition": [
                     0.1,
-                    -0.35,
+                    -0.34999999,
                     0
                 ],
                 "LocalRotation": [
-                    -0.704416,
-                    -0.061628,
-                    0.704416,
-                    -0.061628
+                    -0.70441598,
+                    -0.061627999,
+                    0.70441598,
+                    -0.061627999
                 ],
                 "BoneName": "GAME_C1_SPINE1",
                 "Type": "/Lotus/Types/Enemies/Grineer/Disruption/Attachments/DemoGhoulMineDeco",
@@ -55,13 +55,13 @@
                 "LocalPosition": [
                     0.1,
                     0.1,
-                    0.05
+                    0.050000001
                 ],
                 "LocalRotation": [
                     0.12941,
-                    -0.017037,
+                    -0.017037001,
                     0.12941,
-                    0.982963
+                    0.98296303
                 ],
                 "BoneName": "GAME_L1_ARM1",
                 "Type": "/Lotus/Types/Enemies/Grineer/Disruption/Attachments/DemoDevourerShoulderWheelLDeco",
@@ -75,15 +75,15 @@
             },
             {
                 "LocalPosition": [
-                    -0.05,
-                    -0.15,
+                    -0.050000001,
+                    -0.15000001,
                     0
                 ],
                 "LocalRotation": [
-                    0.033353,
-                    0.080521,
-                    0.381227,
-                    0.920364
+                    0.033353001,
+                    0.080521002,
+                    0.38122699,
+                    0.92036402
                 ],
                 "BoneName": "GAME_R1_ARM1",
                 "Type": "/Lotus/Types/Enemies/Grineer/Disruption/Attachments/DemoDevourerShoulderWheelRDeco",
@@ -301,14 +301,14 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/NPC/AmalgamNullifyDome.lua",
             "Function": "AmalgamDomePulse",
-            "_sizeOnSpawn": 0.05,
+            "_sizeOnSpawn": 0.050000001,
             "_growthDelayOnSpawn": 0.1,
             "_destroyAtMinSize": 1,
             "_destroyAtMaxSize": 0,
             "_destroyAtMaxSizeTime": 8,
-            "_domeMinScale": 0.4,
+            "_domeMinScale": 0.40000001,
             "_growLerpRate": 0.1,
-            "_scaleDelay": 0.05,
+            "_scaleDelay": 0.050000001,
             "_createFx": "",
             "_destroyFx": "",
             "_scriptTriggerType": "",

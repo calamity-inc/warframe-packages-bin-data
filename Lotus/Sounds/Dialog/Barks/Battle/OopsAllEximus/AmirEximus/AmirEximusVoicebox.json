@@ -1,0 +1,223 @@
+{
+    "parent": "/EE/Types/Engine/VoiceBox",
+    "data": {
+        "Phrases": {
+            "ATTACK": {
+                "barkSelectors": [
+                    {
+                        "barks": [
+                            {
+                                "bark": "AmirEximusAttackContainer",
+                                "likelihood": 1
+                            }
+                        ],
+                        "localBarks": [],
+                        "replies": [],
+                        "localReplies": [],
+                        "targetType": "",
+                        "filter": ""
+                    }
+                ],
+                "speakInterval": [
+                    4,
+                    8
+                ],
+                "playWhileBlocking": 1
+            },
+            "ATTACK_SCREAM": {
+                "barkSelectors": [
+                    {
+                        "barks": [
+                            {
+                                "bark": "AmirEximusAttackContainer",
+                                "likelihood": 1
+                            }
+                        ],
+                        "localBarks": [],
+                        "replies": [],
+                        "localReplies": [],
+                        "targetType": "",
+                        "filter": ""
+                    }
+                ],
+                "speakInterval": [
+                    4,
+                    8
+                ],
+                "playWhileBlocking": 1
+            },
+            "DEATH": {
+                "barkSelectors": [
+                    {
+                        "barks": [
+                            {
+                                "bark": "AmirEximusDeathContainer",
+                                "likelihood": 1
+                            }
+                        ],
+                        "localBarks": [],
+                        "replies": [],
+                        "localReplies": [],
+                        "targetType": "",
+                        "filter": ""
+                    }
+                ],
+                "speakInterval": [
+                    1,
+                    1
+                ]
+            },
+            "ENEMY_LOCATED": {
+                "barkSelectors": [
+                    {
+                        "barks": [
+                            {
+                                "bark": "AmirEximusAttackContainer",
+                                "likelihood": 1
+                            }
+                        ],
+                        "localBarks": [],
+                        "replies": [],
+                        "localReplies": [],
+                        "targetType": "",
+                        "filter": ""
+                    }
+                ],
+                "speakInterval": [
+                    4,
+                    8
+                ],
+                "requiresTeammates": 0
+            },
+            "ENEMY_SPOTTED": {
+                "barkSelectors": [
+                    {
+                        "barks": [
+                            {
+                                "bark": "AmirEximusAttackContainer",
+                                "likelihood": 1
+                            }
+                        ],
+                        "localBarks": [],
+                        "replies": [],
+                        "localReplies": [],
+                        "targetType": "",
+                        "filter": ""
+                    }
+                ],
+                "speakInterval": [
+                    4,
+                    8
+                ],
+                "requiresTeammates": 0
+            },
+            "HEAR_SOUND": {
+                "barkSelectors": [
+                    {
+                        "barks": [
+                            {
+                                "bark": "AmirEximusAttackContainer",
+                                "likelihood": 1
+                            }
+                        ],
+                        "localBarks": [],
+                        "replies": [],
+                        "localReplies": [],
+                        "targetType": "",
+                        "filter": ""
+                    }
+                ],
+                "speakInterval": [
+                    4,
+                    8
+                ],
+                "playWhileBlocking": 1
+            },
+            "IDLE": {
+                "barkSelectors": [
+                    {
+                        "barks": [
+                            {
+                                "bark": "AmirEximusAttackContainer",
+                                "likelihood": 1
+                            }
+                        ],
+                        "localBarks": [],
+                        "replies": [],
+                        "localReplies": [],
+                        "targetType": "",
+                        "filter": ""
+                    }
+                ],
+                "speakInterval": [
+                    4,
+                    8
+                ],
+                "useGlobalThrottle": 0
+            },
+            "INVESTIGATING": {
+                "barkSelectors": [
+                    {
+                        "barks": [
+                            {
+                                "bark": "AmirEximusAttackContainer",
+                                "likelihood": 1
+                            }
+                        ],
+                        "localBarks": [],
+                        "replies": [],
+                        "localReplies": [],
+                        "targetType": "",
+                        "filter": ""
+                    }
+                ],
+                "speakInterval": [
+                    4,
+                    8
+                ]
+            },
+            "PAIN": {
+                "barkSelectors": [
+                    {
+                        "barks": [
+                            {
+                                "bark": "AmirEximusPainContainer",
+                                "likelihood": 1
+                            }
+                        ],
+                        "localBarks": [],
+                        "replies": [],
+                        "localReplies": [],
+                        "targetType": "",
+                        "filter": ""
+                    }
+                ],
+                "speakInterval": [
+                    1,
+                    4
+                ]
+            },
+            "PLAYER_SPOTTED": {
+                "barkSelectors": [
+                    {
+                        "barks": [
+                            {
+                                "bark": "AmirEximusAttackContainer",
+                                "likelihood": 1
+                            }
+                        ],
+                        "localBarks": [],
+                        "replies": [],
+                        "localReplies": [],
+                        "targetType": "",
+                        "filter": ""
+                    }
+                ],
+                "speakInterval": [
+                    4,
+                    8
+                ]
+            }
+        }
+    }
+}

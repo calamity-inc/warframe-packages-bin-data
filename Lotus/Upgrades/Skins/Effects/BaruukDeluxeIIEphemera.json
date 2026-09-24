@@ -1,0 +1,190 @@
+{
+    "parent": "BaseEphemera",
+    "data": {
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 90,
+        "LocalizeTag": "/Lotus/Language/Deluxe/BaruukDeluxeIIEphemeraName",
+        "LocalizeDescTag": "/Lotus/Language/Deluxe/BaruukDeluxeIIEphemeraDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/BaruukDeluxeIIEphemera.png",
+        "ExcludeFromCodex": 0,
+        "OverrideDateAddedToManifest": 1786536000,
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Characters/Tenno/Accessory/Ephemeras/BaruukDeluxeIIEphemera/BaruukDeluxeIIEphemeraDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Fx/PowersuitAbilities/BaruukDeluxeII/BaruukDeluxeIIEphemeraFX",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                {
+                    "LocalPosition": [
+                        0,
+                        0.25,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0.70710677,
+                        0,
+                        0,
+                        0.70710677
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Fx/PowersuitAbilities/BaruukDeluxeII/BaruukDeluxeIISlideSpawner",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "ApplyEnergyColor": 1,
+        "ParticleEvents": [
+            {
+                "EventName": "StepL",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/PowersuitAbilities/BaruukDeluxeII/BaruukDeluxeIIFootStepSpawner",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_LEG5",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.70710677,
+                    0.70710677,
+                    0
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "StepR",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/PowersuitAbilities/BaruukDeluxeII/BaruukDeluxeIIFootStepSpawner",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_LEG5",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.70710677,
+                    0.70710677,
+                    0
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "WispStep",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/PowersuitAbilities/BaruukDeluxeII/BaruukDeluxeIIFootStepSpawner",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0.02,
+                    0
+                ],
+                "LocalRotation": [
+                    -0.70710677,
+                    0,
+                    0,
+                    0.70710677
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "HowlStepFront",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/PowersuitAbilities/BaruukDeluxeII/BaruukDeluxeIIFootStepSpawner",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "HowlStepRear",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/PowersuitAbilities/BaruukDeluxeII/BaruukDeluxeIIFootStepSpawner",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            }
+        ]
+    }
+}

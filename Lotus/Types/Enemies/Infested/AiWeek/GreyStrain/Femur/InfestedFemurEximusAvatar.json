@@ -404,6 +404,32 @@
                     "MeshScale": 1.3
                 },
                 "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Infested/InfestedGreyStrainFemur/InfestedGreyStrainFemurEximusVolt",
+                        "/Lotus/Characters/Infested/InfestedGreyStrainFemur/InfestedGreyStrainFemurEximusVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Infested/InfestedGreyStrainFemur/InfestedGreyStrainFemurEximusVolt"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Infested/InfestedGreyStrainFemur/InfestedGreyStrainFemurEximusVolt"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
+                    "MeshScale": 1.3
+                },
+                "Probability": 1
             }
         ],
         "MultiHealthBar": 1

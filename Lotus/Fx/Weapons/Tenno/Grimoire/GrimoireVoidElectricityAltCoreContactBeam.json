@@ -8,8 +8,8 @@
                 "slot": -1,
                 "value": [
                     0.41,
-                    0.92,
-                    0.98,
+                    0.92000002,
+                    0.98000002,
                     1
                 ]
             },
@@ -18,9 +18,9 @@
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.04,
+                    0.039999999,
                     0.38,
-                    0.39,
+                    0.38999999,
                     1
                 ]
             },
@@ -58,15 +58,15 @@
         "IgnoreParentScale": 1,
         "TexturePanRateV": -4,
         "TextureScaleV": 0.02,
-        "Radius": 0.35,
+        "Radius": 0.34999999,
         "RadiusDistanceIncrease": -0.02,
-        "SectionLength": 0.05,
+        "SectionLength": 0.050000001,
         "MaxSections": 500,
         "Waves": [
             {
                 "Frequency": 2,
                 "Amplitude": [
-                    0.091,
+                    0.090999998,
                     0.081,
                     0
                 ],
@@ -76,7 +76,7 @@
             {
                 "Frequency": 3,
                 "Amplitude": [
-                    -0.053,
+                    -0.052999999,
                     0.057,
                     0
                 ],
@@ -87,10 +87,10 @@
                 "Frequency": 0.5,
                 "Amplitude": [
                     0.07,
-                    0.061,
+                    0.061000001,
                     0
                 ],
-                "RadiusAmplitude": 0.01,
+                "RadiusAmplitude": 0.0099999998,
                 "PhaseShift": -2
             }
         ],
@@ -114,17 +114,17 @@
             "Type": "GrimoireVoidElectricityAltCoreContactBeamEndSpawner"
         },
         "RandomBeamAmplitude": [
-            0.075,
+            0.075000003,
             0.125
         ],
         "FadeBetweenPoints": [
             0,
-            0.98
+            0.98000002
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 20,
                 "FadeRange": [
                     0,

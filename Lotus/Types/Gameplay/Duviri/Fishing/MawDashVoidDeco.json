@@ -2,7 +2,7 @@
     "parent": "/Lotus/Fx/Quests/NewWar/PartOne/Cinematics/MurexChargeExplosionDeco",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/BuildUpMesh.fbx",
-        "MeshScale": 0.55,
+        "MeshScale": 0.55000001,
         "OverrideMaterial": [
             "/Lotus/Types/Enemies/Sentients/Vip/Lotus/LotusAgentTNWBeamBImpactDecoMat",
             "/Lotus/Fx/Enemies/VoidAngels/VoidPortalAuraMat"
@@ -13,16 +13,16 @@
                 "type": "Float4",
                 "slot": -1,
                 "value": 0.023,
-                "value1": 0.03,
-                "value2": 0.7,
-                "value3": 0.7
+                "value1": 0.029999999,
+                "value2": 0.69999999,
+                "value3": 0.69999999
             },
             {
                 "name": "RippleScale",
                 "type": "Float4",
                 "slot": -1,
-                "value": 0.35,
-                "value1": 0.35,
+                "value": 0.34999999,
+                "value1": 0.34999999,
                 "value2": 0,
                 "value3": 0
             },
@@ -67,12 +67,12 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.841112
+                            "Time": 0.33333334,
+                            "Value": 0.84111202
                         },
                         {
-                            "Time": 0.666667,
-                            "Value": 0.225422
+                            "Time": 0.66666669,
+                            "Value": 0.22542199
                         },
                         {
                             "Time": 1,
@@ -104,11 +104,11 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.841296
+                            "Time": 0.33333334,
+                            "Value": 0.84129602
                         },
                         {
-                            "Time": 0.666667,
+                            "Time": 0.66666669,
                             "Value": 0.191903
                         },
                         {
@@ -128,7 +128,7 @@
             {
                 "Parameter": "vScales",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 10,
                 "FadeRange": [
                     0,
@@ -142,7 +142,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.771326
+                            "Value": 0.77132601
                         },
                         {
                             "Time": 1,

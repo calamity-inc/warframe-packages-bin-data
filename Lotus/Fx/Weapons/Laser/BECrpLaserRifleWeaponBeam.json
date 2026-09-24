@@ -2,7 +2,7 @@
     "parent": "CrpLaserRifleWeaponBeam",
     "data": {
         "TexturePanRateV": -3,
-        "TextureScaleV": 0.01,
+        "TextureScaleV": 0.0099999998,
         "Radius": 0.1,
         "MaxSections": 1000,
         "GrowthRate": 5000,
@@ -12,7 +12,7 @@
         },
         "FadeBetweenPoints": [
             0,
-            0.8
+            0.80000001
         ],
         "MaterialFade": [
             {
@@ -20,8 +20,8 @@
                 "TimeLength": 0.2,
                 "Multiplier": 8,
                 "FadeRange": [
-                    0.05,
-                    0.05
+                    0.050000001,
+                    0.050000001
                 ],
                 "BaseValue": 0,
                 "Delay": 0,
@@ -35,7 +35,7 @@
             {
                 "Parameter": "",
                 "TimeLength": 0.2,
-                "Multiplier": 0.05,
+                "Multiplier": 0.050000001,
                 "FadeRange": [
                     0.25,
                     0.75

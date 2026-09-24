@@ -7,6 +7,7 @@
                 "value": {
                     "type": "Selector",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -16,6 +17,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -25,6 +27,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -34,6 +37,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -43,6 +47,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -52,6 +57,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -61,6 +67,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -70,6 +77,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -79,6 +87,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -88,6 +97,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -97,6 +107,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -106,6 +117,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -115,6 +127,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -124,6 +137,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -133,6 +147,7 @@
                 "value": {
                     "type": "Condition",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -142,6 +157,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -151,6 +167,7 @@
                 "value": {
                     "type": "Condition",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -160,6 +177,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -169,6 +187,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 0
                 }
@@ -492,6 +511,7 @@
                     "DefaultReevaluationDelay": 0,
                     "TimeSinceLastSeen": 5,
                     "MaxDistToTarget": 25,
+                    "SpeedMultiplier": 1,
                     "ConsiderOrderType": 1,
                     "Order": "StormTarget",
                     "FailsOnTargetAcquired": 1,
@@ -547,7 +567,7 @@
                         9
                     ],
                     "FallbackRange": [
-                        6.6,
+                        6.6000004,
                         10
                     ],
                     "SuccessRadius": 2,
@@ -577,7 +597,7 @@
                             4
                         ],
                         "LungeAttackRange": [
-                            4.01,
+                            4.0100002,
                             12
                         ],
                         "TeamBbLungeSym": "",
@@ -598,7 +618,8 @@
                         "StopMovingWhenAttacking": 1,
                         "DisablePostureChangers": 0,
                         "TimeBetweenLunges": 2,
-                        "LowTargetThreshold": 0.8,
+                        "MaxMeleeHeightDifference": 2,
+                        "LowTargetThreshold": 0.80000001,
                         "NormalAttack": "MELEE_SWING",
                         "LowAttack": "MELEE_SWING",
                         "ClearCoverReservationOnStart": 0,
@@ -606,7 +627,7 @@
                         "VipAvatarType": "/Lotus/Types/Friendly/Agents/DefenseAvatar",
                         "TimeBetweenBarks": 2,
                         "VisibilityTimeout": 0,
-                        "MaxReachableHeight": -9223372036854775808.0,
+                        "MaxReachableHeight": "3.4028235e+38",
                         "Bark": "ATTACK_SCREAM",
                         "IsOffHandWeapon": 0
                     },
@@ -680,7 +701,7 @@
                     ],
                     "ShouldAim": 1,
                     "CanRun": 0,
-                    "StopRadius": 4.2,
+                    "StopRadius": 4.1999998,
                     "StopSearchIfNoTarget": 0,
                     "StopSearchOnAwarenessLevel": "AW_IDLE",
                     "MaintainedAwarenessLevel": "AW_ALERT",
@@ -705,7 +726,7 @@
                             20
                         ],
                         "PauseTimeRange": [
-                            3.426,
+                            3.4260001,
                             6.204
                         ],
                         "SeekCoverDelayPostSearch": 5
@@ -816,7 +837,6 @@
                     "AimWhenIdle": 0,
                     "AimWhenAlert": 1,
                     "PermanentAlert": 0,
-                    "ForceIdleForSinglePointPatrols": 1,
                     "AnimAction": "PatrolIdle",
                     "GenericAnims": [],
                     "MinPlayerDist": [
@@ -877,7 +897,8 @@
                     },
                     "OnlyFindPositionsOnFlightNav": 0,
                     "MaxPatrolDistanceFromEncounterHint": 0,
-                    "UseStartingPositionAsEncounterPosition": 0
+                    "UseStartingPositionAsEncounterPosition": 0,
+                    "ResetStartingPositionOnStartup": 0
                 },
                 "links": [
                     {
@@ -908,7 +929,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 1,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,
@@ -958,7 +979,6 @@
                     "RandomWalkBehavior:AimWhenIdle": 0,
                     "RandomWalkBehavior:AimWhenAlert": 1,
                     "RandomWalkBehavior:PermanentAlert": 0,
-                    "RandomWalkBehavior:ForceIdleForSinglePointPatrols": 1,
                     "RandomWalkBehavior:AnimAction": "PatrolIdle",
                     "RandomWalkBehavior:GenericAnims": [],
                     "RandomWalkBehavior:MinPlayerDist": [
@@ -1020,6 +1040,7 @@
                     "RandomWalkBehavior:OnlyFindPositionsOnFlightNav": 0,
                     "RandomWalkBehavior:MaxPatrolDistanceFromEncounterHint": 0,
                     "RandomWalkBehavior:UseStartingPositionAsEncounterPosition": 0,
+                    "RandomWalkBehavior:ResetStartingPositionOnStartup": 0,
                     "GuardBehavior:Type": "/EE/Types/Npc/GuardBehavior",
                     "GuardBehavior:Enabled": 1,
                     "GuardBehavior:OnStartScript": {

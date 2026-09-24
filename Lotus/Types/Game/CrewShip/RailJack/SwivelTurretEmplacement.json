@@ -339,8 +339,8 @@
         "IKT_LEFT_HAND": {
             "Offset": [
                 0.12,
-                0.03,
-                -0.075
+                0.029999999,
+                -0.075000003
             ],
             "Rotation": [
                 -0.5,
@@ -353,8 +353,8 @@
         "IKT_RIGHT_HAND": {
             "Offset": [
                 -0.12,
-                -0.03,
-                0.075
+                -0.029999999,
+                0.075000003
             ],
             "Rotation": [
                 -0.5,
@@ -443,17 +443,17 @@
         "FadeOnMountScript": {
             "Script": "/Lotus/Scripts/CrewShip/CrewShipTurret.lua",
             "Function": "FadeOnMount",
-            "_fadeOutDelay": 0.6,
-            "_fadeOutTime": 0.3,
+            "_fadeOutDelay": 0.60000002,
+            "_fadeOutTime": 0.30000001,
             "_fadeInDelay": 0.2,
             "_fadeInTime": 0.2
         },
         "FadeOnDismountScript": {
             "Script": "/Lotus/Scripts/CrewShip/CrewShipTurret.lua",
             "Function": "FadeOnDismount",
-            "_fadeOutDelay": 0.3,
+            "_fadeOutDelay": 0.30000001,
             "_fadeOutTime": 0.2,
-            "_fadeInDelay": 0.6,
+            "_fadeInDelay": 0.60000002,
             "_fadeInTime": 0.2
         },
         "PreMountAnimation": "/Lotus/Animations/Tenno/Objects/RailJack/RJExitOrbiter_anim.fbx",

@@ -15,7 +15,7 @@
         "LocalizeDescTag": "/Lotus/Language/Items/BoltorPrimeDesc",
         "Icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/BoltorPrime.png",
         "GripPositionOffset": [
-            -0.065,
+            -0.064999998,
             -0.07,
             0.17
         ],
@@ -34,7 +34,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -224,9 +224,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 8,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -245,7 +245,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.7,
+                    "PvpDamageMultiplier": 0.69999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -295,7 +295,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponAutomaticStateBehavior",
                 "state:WeaponAutomaticStateBehavior": {
-                    "reloadTime": 2.4,
+                    "reloadTime": 2.4000001,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -365,7 +365,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -521,9 +521,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -599,7 +599,7 @@
                     ],
                     "fireRate": 680,
                     "ApplyNumChargesToDamageMultiplier": 0,
-                    "ModeSwitchTime": 0.6,
+                    "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "autoReloadEmptyTime": 0,

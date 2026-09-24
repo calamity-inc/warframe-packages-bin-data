@@ -45,16 +45,16 @@
             "HitType": "DHT_PROJECTILE"
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.3,
+        "CriticalChance": 0.30000001,
         "CriticalMultiplier": 2,
         "ExplosiveAttack": {
             "Amount": 100,
-            "ProcChance": 0.32,
+            "ProcChance": 0.31999999,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ]
         },
-        "ExplosionFallOff": 0.4,
+        "ExplosionFallOff": 0.40000001,
         "HitEffect": "/Lotus/Fx/Weapons/Melee/Glaive/GlaiveHitEffect",
         "Toughness": 10000,
         "MaxLife": 6,
@@ -71,7 +71,7 @@
         "KinematicAccel": 70,
         "KinematicInitialSpeed": 30,
         "KinematicMaxSpeed": 30,
-        "KinematicNoiseRate": 0.0001,
+        "KinematicNoiseRate": 0.000099999997,
         "OnProjectileStartScript": {
             "Script": "/Lotus/Types/Friendly/PlayerControllable/Abilities/TeshinGrappleGlaive.lua",
             "Function": "ProjectileStart",
@@ -132,7 +132,7 @@
         ],
         "ImpactVelocityDampen": 1,
         "AutoRecallTimer": 1,
-        "DestructionTimer": 0.6,
+        "DestructionTimer": 0.60000002,
         "CatchRadius": 6,
         "MaxReflections": 0,
         "MinFlightDistance": 15,
@@ -162,8 +162,8 @@
         "HoverRotation": [
             0,
             0,
-            0.707107,
-            0.707107
+            0.70710677,
+            0.70710677
         ],
         "RotationSpeed": 1080,
         "MinimumGrappleDistance": 2

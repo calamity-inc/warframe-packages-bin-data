@@ -4,7 +4,7 @@
         "UseLightMap": 0,
         "BakeShadowsOnLightMaps": 0,
         "Mesh": "/Lotus/Objects/Infestation/InfestedSpawnPod.fbx",
-        "MeshScale": 0.3,
+        "MeshScale": 0.30000001,
         "ServerChildren": [
             {
                 "LocalPosition": [
@@ -53,14 +53,14 @@
             {
                 "LocalPosition": [
                     0,
-                    0.3,
+                    0.30000001,
                     0
                 ],
                 "LocalRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Enemies/Golem/InfestedSpawnPodEnergyA",
@@ -79,10 +79,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Enemies/Golem/InfestedSpawnPodLight",
@@ -109,7 +109,7 @@
                 0,
                 0.5,
                 0,
-                0.35,
+                0.34999999,
                 0,
                 0
             ],
@@ -140,7 +140,7 @@
         "Health": 400,
         "DamageMultipliers": {
             "DT_SLASH": 3,
-            "DT_POISON": 0.3
+            "DT_POISON": 0.30000001
         },
         "RemoveOnDestroy": 1,
         "CreateOnDestroy": {

@@ -30,7 +30,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -230,8 +230,8 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
-                        "DT_PUNCTURE": 0.8,
-                        "DT_SLASH": 0.1,
+                        "DT_PUNCTURE": 0.80000001,
+                        "DT_SLASH": 0.099999964,
                         "Amount": 150,
                         "ProcChance": 0.25,
                         "ForcedProcs": [],
@@ -251,7 +251,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.52,
+                    "PvpDamageMultiplier": 0.51999998,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -302,7 +302,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponBurstStateBehavior",
                 "state:WeaponBurstStateBehavior": {
-                    "reloadTime": 2.4,
+                    "reloadTime": 2.4000001,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -387,7 +387,7 @@
             "AP_ATTACK",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 0.65,
+        "OmegaAttenuation": 0.64999998,
         "VariantType": "VT_PRIME"
     }
 }

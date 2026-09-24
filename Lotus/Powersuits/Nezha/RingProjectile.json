@@ -30,7 +30,7 @@
             {
                 "LocalPosition": [
                     0,
-                    0.6,
+                    0.60000002,
                     0
                 ],
                 "LocalRotation": [
@@ -52,7 +52,7 @@
             {
                 "LocalPosition": [
                     0,
-                    -0.6,
+                    -0.60000002,
                     0
                 ],
                 "LocalRotation": [
@@ -75,7 +75,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.6
+                    0.60000002
                 ],
                 "LocalRotation": [
                     0,
@@ -97,7 +97,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    -0.6
+                    -0.60000002
                 ],
                 "LocalRotation": [
                     0,
@@ -145,9 +145,9 @@
                 ],
                 "LocalRotation": [
                     0,
-                    0.707107,
+                    0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/PowersuitAbilities/Nezha/RingProjPowerSparks",
@@ -214,15 +214,15 @@
         "KinematicAccel": 100,
         "KinematicInitialSpeed": 100,
         "KinematicMaxSpeed": 100,
-        "KinematicNoiseRate": 0.0001,
-        "SweepRadius": 0.05,
+        "KinematicNoiseRate": 0.000099999997,
+        "SweepRadius": 0.050000001,
         "ProjectileReplication": "SYNCED_AUTONOMOUS",
         "SilentProjectile": 1,
         "ApplyColorCustomization": 1,
         "IgnoreLastHitAvatar": 1,
         "SeekDistance": 0,
         "SeekCone": 0,
-        "TurningSpeed": 0.0001,
+        "TurningSpeed": 0.000099999997,
         "BankNoise": 15,
         "BankNoiseSpeed": 0.2,
         "RotationOffset": [
@@ -232,22 +232,22 @@
         ],
         "ImpactVelocityDampen": 1,
         "AutoRecallTimer": 0.75,
-        "DestructionTimer": 0.6,
+        "DestructionTimer": 0.60000002,
         "CatchRadius": 5,
         "MaxReflections": 0,
         "MinFlightDistance": 29.5,
         "MinFlightDistancePerReflect": 29.5,
         "DoSweepWithRaycastMotion": 1,
         "SweepCapsuleWidth": 1.5,
-        "BladeRadius": 0.6,
+        "BladeRadius": 0.60000002,
         "AfterTouchFOVSpeed": 1.8,
         "CollisionEffect": "/Lotus/Fx/PowersuitAbilities/Nezha/NezhaRingChargedHitEffect",
         "CatchEffect": {
             "LocalRotation": [
                 0,
-                0.707107,
+                0.70710677,
                 0,
-                0.707107
+                0.70710677
             ],
             "Type": "/Lotus/Fx/PowersuitAbilities/Nezha/RingCatch",
             "DestroyWithOwner": 0

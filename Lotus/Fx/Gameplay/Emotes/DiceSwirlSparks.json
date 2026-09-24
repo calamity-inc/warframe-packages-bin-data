@@ -2,24 +2,24 @@
     "parent": "/EE/Types/Effects/GPUParticleSys",
     "data": {
         "SpawnRate": 2000,
-        "EmissionTime": 0.15,
+        "EmissionTime": 0.15000001,
         "CameraFacing": 1,
         "EnergyTintMethod": "ETM_LIFE",
         "fireOnce": 0,
         "useCollisions": 0,
         "affectedByWind": 1,
         "resilience": 0,
-        "drag": 0.9,
+        "drag": 0.89999998,
         "mass": [
             0,
             0
         ],
         "life": [
-            0.6,
-            0.9
+            0.60000002,
+            0.89999998
         ],
         "size": [
-            0.018,
+            0.017999999,
             0.02
         ],
         "velocity": [
@@ -40,7 +40,7 @@
         ],
         "spawnFlowBlend": 0.5,
         "spawnDelay": 0.1,
-        "spawnFlowForcePosScale": 0.6,
+        "spawnFlowForcePosScale": 0.60000002,
         "pointTexture": "/Lotus/Objects/Tenno/ShrineMaiden/Dice/ShrineMaidenDice_p.png",
         "flowForce": [
             1,
@@ -55,27 +55,27 @@
         "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColor",
         "colorKeys[0]": [
-            4.74,
-            0.65,
-            0.0098,
+            4.7399998,
+            0.64999998,
+            0.0098000001,
             0
         ],
         "colorKeys[1]": [
-            0.95,
+            0.94999999,
             0.13,
-            0.002,
+            0.0020000001,
             1
         ],
         "colorKeys[2]": [
-            2.82,
-            0.39,
-            0.0058,
+            2.8199999,
+            0.38999999,
+            0.0057999999,
             0
         ],
         "colorKeys[3]": [
-            0.95,
+            0.94999999,
             0.13,
-            0.002,
+            0.0020000001,
             0
         ],
         "numColors": 3

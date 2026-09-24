@@ -1,0 +1,34 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/Consumables/SurgeEximusBallName",
+        "LocalizeDescTag": "/Lotus/Language/Consumables/SurgeEximusBallDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Spawners/SurgeEximusBall.png",
+        "TypeName": "/Lotus/Types/Recipes/Components/SurgeEximusBallBlueprint",
+        "SellingPrice": 250,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1785957020,
+        "Giftable": 0,
+        "ExcludeFromCodex": 0,
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/SurgeEximusBall",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 2500
+            }
+        ],
+        "BuildTime": 28800,
+        "BuildPrice": 7500,
+        "SkipBuildTimePrice": 10
+    }
+}

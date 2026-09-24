@@ -64,24 +64,24 @@
         "TexturePanRateV": -1.5,
         "TextureScaleV": 0.035,
         "NumPlanes": 2,
-        "Radius": 0.3,
+        "Radius": 0.30000001,
         "RadiusDistanceIncrease": -0.02,
         "MaxSections": 200,
         "Waves": [
             {
-                "Frequency": 0.3,
+                "Frequency": 0.30000001,
                 "Amplitude": [
-                    -0.187,
+                    -0.18700001,
                     0.23,
-                    0.27
+                    0.27000001
                 ],
-                "RadiusAmplitude": 0.075,
+                "RadiusAmplitude": 0.075000003,
                 "PhaseShift": -2
             },
             {
                 "Frequency": 1,
                 "Amplitude": [
-                    0.172,
+                    0.17200001,
                     -0.161,
                     -0.183
                 ],
@@ -97,13 +97,13 @@
         },
         "FadeBetweenPoints": [
             0.035,
-            0.95
+            0.94999999
         ],
         "TriggeredMaterialFade": [
             {
                 "Parameter": "AlphaAtten",
                 "TimeLength": 0.1,
-                "Multiplier": 0.4,
+                "Multiplier": 0.40000001,
                 "FadeRange": [
                     0,
                     0
@@ -119,8 +119,8 @@
             },
             {
                 "Parameter": "Scale",
-                "TimeLength": 0.4,
-                "Multiplier": 0.7,
+                "TimeLength": 0.40000001,
+                "Multiplier": 0.69999999,
                 "FadeRange": [
                     0,
                     0

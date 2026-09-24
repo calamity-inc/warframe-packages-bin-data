@@ -157,7 +157,7 @@
                 {
                     "BoneName": "GAME_R1_GUNATTACH",
                     "AdjustmentRotationFreedom": "FOR_FREE",
-                    "SmoothSpeed": 0.05,
+                    "SmoothSpeed": 0.050000001,
                     "MaxSpeed": 180,
                     "DictatesTurretFacing": 0,
                     "SoundSequencerType": "",
@@ -168,7 +168,7 @@
                 {
                     "BoneName": "GAME_L1_GUNATTACH",
                     "AdjustmentRotationFreedom": "FOR_FREE",
-                    "SmoothSpeed": 0.05,
+                    "SmoothSpeed": 0.050000001,
                     "MaxSpeed": 180,
                     "DictatesTurretFacing": 0,
                     "SoundSequencerType": "",
@@ -216,12 +216,12 @@
         "ViewOffsets": {
             "Normal": [
                 0,
-                0.7,
+                0.69999999,
                 -2
             ],
             "Aiming": [
                 0,
-                0.7,
+                0.69999999,
                 -2
             ]
         },
@@ -279,7 +279,7 @@
             "LockOnMaxAngle": 40,
             "LockOnDistanceOverride": 20000,
             "LockOnPart": "TORSO",
-            "LockOnDistanceWeighting": 0.01
+            "LockOnDistanceWeighting": 0.0099999998
         },
         "AutoAimAngle": [
             20,
@@ -290,8 +290,8 @@
         "IKT_LEFT_HAND": {
             "Offset": [
                 0.12,
-                0.03,
-                -0.075
+                0.029999999,
+                -0.075000003
             ],
             "Rotation": [
                 -0.5,
@@ -304,8 +304,8 @@
         "IKT_RIGHT_HAND": {
             "Offset": [
                 -0.12,
-                -0.03,
-                0.075
+                -0.029999999,
+                0.075000003
             ],
             "Rotation": [
                 -0.5,
@@ -363,7 +363,7 @@
             24,
             0
         ],
-        "AimOffsetSmoothTime": 0.075,
+        "AimOffsetSmoothTime": 0.075000003,
         "TurnInputViewTilt": 7,
         "MoveInputTurn": [
             -2,

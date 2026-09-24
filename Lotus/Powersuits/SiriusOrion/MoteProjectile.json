@@ -61,8 +61,13 @@
             "HitType": "DHT_DOT"
         },
         "ExplosionIgnoreSource": 1,
+        "ExplosionIgnoreCover": 0,
         "ExplosionIgnoreDynamicCover": 1,
-        "ExplosionCoverMinDistance": 0,
+        "ExplosionAdvancedCoverCheck": 1,
+        "ExplosionCoverMinDistance": 5,
+        "ExplodeOnImpact": 1,
+        "ExplodeOnFriendlies": 0,
+        "ExplodeOnlyOnAvatars": 1,
         "HitEffect": "/Lotus/Fx/PowersuitAbilities/Sirius/MoteProjectileStop",
         "DieEffect": "/Lotus/Fx/PowersuitAbilities/Sirius/MoteImpactFX",
         "DieEffectOffset": [
@@ -70,6 +75,7 @@
             0,
             0
         ],
+        "Toughness": 99999,
         "WhizzBySound": "/Lotus/Sounds/Warframes/SiriusOrion/SiriusOrionStarEaterWhizzby",
         "WhizzByRadius": 25,
         "WhizzByLocal": 1,
@@ -92,9 +98,9 @@
         ],
         "ApplyColorCustomization": 1,
         "ForwardVel": 105,
+        "UseImprovedTargetting": 1,
         "AimRate": 1000,
         "ReducedAimRate": 1000,
-        "UseImprovedTargetting": 1,
         "AvatarTargetPart": "TORSO"
     }
 }

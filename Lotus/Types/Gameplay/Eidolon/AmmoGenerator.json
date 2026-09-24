@@ -31,13 +31,13 @@
                 "LocalPosition": [
                     0,
                     1.8,
-                    0.3
+                    0.30000001
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "Attachments/AmmoGeneratorSymbol",
@@ -55,7 +55,7 @@
         "EnabledScript": {
             "Script": "/Lotus/Scripts/Eidolon/AmmoGenerator.lua",
             "Function": "AmmoGenerator",
-            "_frequency": 0.3,
+            "_frequency": 0.30000001,
             "_ammoSymbolType": "Attachments/AmmoGeneratorSymbol",
             "_cooldownMaterial": "/Lotus/Objects/Grineer/GrineerFortress/GfsTetherShipHologramC",
             "_dropTable": "/Lotus/Types/DropTables/EidolonDropTables/AmmoGeneratorDropTable",
@@ -75,7 +75,7 @@
                 "/Lotus/Types/DropTables/EidolonDropTables/AmmoGeneratorRifleDropTable"
             ]
         },
-        "PowerUsageRate": 0.05,
+        "PowerUsageRate": 0.050000001,
         "MaxPower": 9
     }
 }

@@ -38,7 +38,7 @@
                 5,
                 6
             ],
-            "MeleeHitManeuverProbability": 0.3
+            "MeleeHitManeuverProbability": 0.30000001
         },
         "BlockingBehavior": {
             "Enabled": 1,
@@ -162,7 +162,7 @@
                 "UseEndNodePos": 0,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1
         },
@@ -182,7 +182,7 @@
             "MoveSuccessRadius": 6,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 1,
             "StopWhenMovementInactive": 1,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1,
             "PreferedDistAboveNav": [
                 8,
@@ -193,7 +193,7 @@
             "DistanceToSlow": 64,
             "MinimumSlowedSpeed": 20,
             "MinimumSpeed": 0,
-            "RecoverySpeedPct": 0.6,
+            "RecoverySpeedPct": 0.60000002,
             "CorrectHeightOnIdle": 1,
             "AirplaneControls": 0,
             "DesiredAngleRangeForBank": [
@@ -241,11 +241,11 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/Grineer/GrineerPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator"
     }
 }

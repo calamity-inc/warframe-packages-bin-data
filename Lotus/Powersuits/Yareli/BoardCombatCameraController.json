@@ -13,11 +13,11 @@
             "ShakeDampening": 4
         },
         "RumbleShake": {
-            "ShakeFactorPos": 0.05,
+            "ShakeFactorPos": 0.050000001,
             "ShakeFactorRot": [
-                0.01,
-                0.04,
-                0.01
+                0.0099999998,
+                0.039999999,
+                0.0099999998
             ],
             "ShakeSpeed": 3,
             "ShakeDampening": 7
@@ -29,7 +29,7 @@
                 0.2,
                 0.1
             ],
-            "ShakeSpeed": 0.08
+            "ShakeSpeed": 0.079999998
         },
         "ImpactShake": {
             "RotationSpring": {
@@ -55,8 +55,8 @@
             "RotationNoise": {
                 "enable": 1,
                 "deflectionStrength": [
-                    0.05,
-                    0.05
+                    0.050000001,
+                    0.050000001
                 ],
                 "rate": 2,
                 "dampening": 9
@@ -98,11 +98,11 @@
         "ViewOffset": [
             1.1,
             -1,
-            -2.1
+            -2.0999999
         ],
         "AimViewOffset": [
-            0.65,
-            -0.8,
+            0.64999998,
+            -0.80000001,
             -2.3
         ],
         "RunViewOffset": [
@@ -111,28 +111,28 @@
             -2
         ],
         "CoverLeftViewOffset": [
-            0.3,
-            -0.7,
+            0.30000001,
+            -0.69999999,
             -2.7
         ],
         "CoverRightViewOffset": [
-            -0.3,
-            -0.7,
+            -0.30000001,
+            -0.69999999,
             -2.7
         ],
         "CrouchCoverAimLeftViewOffset": [
-            0.3,
-            -0.7,
+            0.30000001,
+            -0.69999999,
             -2.7
         ],
         "CrouchCoverAimRightViewOffset": [
-            -0.3,
-            -0.7,
+            -0.30000001,
+            -0.69999999,
             -2.7
         ],
         "CoverAimDiscRightViewOffset": [
-            -0.3,
-            -0.7,
+            -0.30000001,
+            -0.69999999,
             -2.7
         ],
         "DodgeOffset": [

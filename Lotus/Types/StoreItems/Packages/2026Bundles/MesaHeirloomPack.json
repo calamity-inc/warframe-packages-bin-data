@@ -1,0 +1,41 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/PackageStoreItem",
+    "data": {
+        "UseFeaturedTextOnSpotBox": 1,
+        "ProductCategory": "Packages",
+        "LocalizeTag": "/Lotus/Language/Bundles/MesaHeirloomPackName",
+        "LocalizeDescTag": "/Lotus/Language/Bundles/MesaHeirloomPackDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Marketing/MesaHeirloomPackMarketTile.png",
+        "Diorama": "/Lotus/Levels/Episodes/MarketBundleMesaHeirloom.level",
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1783746000,
+        "Giftable": 0,
+        "FeaturedTexture": "/Lotus/Interface/Graphics/Store/Banners/MesaHeirloomPackBanner.png",
+        "PCProdId": 10168,
+        "SteamProdId": 10168,
+        "EpicProdId": "34ba5cdec5654813b36daf2b3fc0ef65",
+        "IsSteamPurchase": 1,
+        "IsEpicPurchase": "EC_DLC",
+        "PackageComponents": [
+            {
+                "TypeName": "/Lotus/Types/StoreItems/Packages/HeirloomPackMesa",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            }
+        ],
+        "AutoCalcPrices": 0,
+        "PremiumPrice": 9999,
+        "GdkProdId": "9PCHBT1G7L1F",
+        "PSNProdIds": {
+            "SCEE": 27707038869345,
+            "SCEA": 20114678155519,
+            "Entitlement": "PRM0CM"
+        },
+        "SwitchProdId": 10168,
+        "IOSProdId": "com.de.iap.mesaheirloompack.warframemobile",
+        "AndroidProdId": "com.de.iap.mesaheirloompack.warframemobile",
+        "BundledPremiumCredits": 425,
+        "PlatinumBundlePair": "/Lotus/Types/StoreItems/Packages/HeirloomPackMesa"
+    }
+}

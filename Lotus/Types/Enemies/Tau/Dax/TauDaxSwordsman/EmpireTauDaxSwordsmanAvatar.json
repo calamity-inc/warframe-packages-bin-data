@@ -13,10 +13,10 @@
                     0.16
                 ],
                 "LocalRotation": [
-                    -0.766044,
+                    -0.76604402,
                     0,
                     0,
-                    0.642788
+                    0.64278799
                 ],
                 "BoneName": "GAME_C1_HIP1",
                 "Type": "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/TauDaxWakizashiAttachment",
@@ -35,10 +35,10 @@
                     0.16
                 ],
                 "LocalRotation": [
-                    -0.766044,
+                    -0.76604402,
                     0,
                     0,
-                    0.642788
+                    0.64278799
                 ],
                 "BoneName": "GAME_C1_HIP1",
                 "Type": "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/GeminiWakizashiSheathAttachment",
@@ -85,7 +85,29 @@
                     1
                 ],
                 "BoneName": "",
-                "Type": "/Lotus/Characters/Tenno/Outcast/OutcastHelmetDeco",
+                "Type": "/Lotus/Characters/Tenno/Outcast/DaxSwordsmanHelmetDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_HEAD1",
+                "Type": "/Lotus/Characters/Dax/DaxMasks/DaxTeshinMaskDeco",
                 "Chance": 255,
                 "RelativeToBounds": 0,
                 "Attach": 1,
@@ -434,7 +456,7 @@
         "Randomizer:RandomizationScript": {
             "Script": "TauDaxCapeRandomizer.lua",
             "Function": "RandomizeAvatar",
-            "_noCapeChance": 0.4,
+            "_noCapeChance": 0.40000001,
             "_capeTable": [
                 "/Lotus/Characters/Tenno/Outcast/Cloth/OutcastCenterCapeSkeletalCloth"
             ],

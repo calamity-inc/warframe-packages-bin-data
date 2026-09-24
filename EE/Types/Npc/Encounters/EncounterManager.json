@@ -1,7 +1,7 @@
 {
     "data": {
-        "ClusterInfluenceDecay": 0.075,
-        "ClusterInfluenceMomentum": 0.9,
+        "ClusterInfluenceDecay": 0.075000003,
+        "ClusterInfluenceMomentum": 0.89999998,
         "ClusterInfluenceUpdateRate": 0.25,
         "ClusterInfluenceIsLinear": 1,
         "ASQ_RANDOMENCOUNTER": {
@@ -13,7 +13,7 @@
             "distScoreCurve": {
                 "m": -0.5,
                 "k": 2,
-                "c": 0.3
+                "c": 0.30000001
             },
             "objScoreCurve": {
                 "m": 1000,
@@ -21,7 +21,7 @@
                 "c": 0.1,
                 "logistic": 1
             },
-            "minScore": 0.6,
+            "minScore": 0.60000002,
             "distanceRange": [
                 130,
                 220
@@ -36,11 +36,11 @@
                 "c": 0.2
             },
             "encScoreCurve": {
-                "k": 0.6,
-                "b": 0.4,
-                "c": 0.15
+                "k": 0.60000002,
+                "b": 0.40000001,
+                "c": 0.15000001
             },
-            "minScore": 0.01,
+            "minScore": 0.0099999998,
             "distanceRange": [
                 10,
                 150

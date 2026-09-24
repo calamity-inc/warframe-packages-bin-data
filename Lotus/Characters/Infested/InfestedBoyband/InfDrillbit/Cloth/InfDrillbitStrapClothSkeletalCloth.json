@@ -9,30 +9,30 @@
         "AddedCollision": "InfDrillbitClothCollision",
         "Attribs": {
             "dampeningRange": [
-                0.01,
-                0.03
+                0.0099999998,
+                0.029999999
             ],
             "collidingDampeningRange": [
                 0.02,
                 0.1
             ],
             "massRange": [
-                0.05,
+                0.050000001,
                 0.2
             ],
             "distConstraintRange": [
                 0,
-                0.03
+                0.029999999
             ],
             "useBackstopConstraints": 1,
             "backstopConstraintRange": [
-                0.3,
+                0.30000001,
                 2
             ],
             "useHardConstraints": 1,
-            "reduceStretchExponent": 0.01,
-            "shearingStiffness": 0.03,
-            "compressibility": 0.01,
+            "reduceStretchExponent": 0.0099999998,
+            "shearingStiffness": 0.029999999,
+            "compressibility": 0.0099999998,
             "addXAxisHardContraints": 1,
             "worldVelocityAtten": [
                 1,
@@ -57,9 +57,9 @@
                 0.1
             ],
             "windVolumeScale": [
-                0.05,
-                0.05,
-                0.05
+                0.050000001,
+                0.050000001,
+                0.050000001
             ],
             "windVolumeOffsetRate": [
                 0.1,
@@ -67,7 +67,7 @@
                 0.1
             ],
             "addFloorPlaneCollision": 0,
-            "floorPlaneHeight": 0.05,
+            "floorPlaneHeight": 0.050000001,
             "orientationBasis": "NEG_X_Y",
             "simulateCollisionLast": 0
         },

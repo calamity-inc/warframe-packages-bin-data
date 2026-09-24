@@ -79,10 +79,10 @@
                     0.2
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Tenno/Grimoire/GrimoireProjectileDeco",
@@ -98,7 +98,7 @@
         "AttackData": {
             "Type": "DT_ELECTRICITY",
             "Amount": 100,
-            "ProcChance": 0.26
+            "ProcChance": 0.25999999
         },
         "DealDamageThroughImpactBehavior": 1,
         "CriticalChance": 0.2,
@@ -106,12 +106,12 @@
         "ExplosiveAttack": {
             "Type": "DT_ELECTRICITY",
             "Amount": 50,
-            "ProcChance": 0.26
+            "ProcChance": 0.25999999
         },
         "ExplosionIgnoreSource": 1,
         "ExplosionIgnoreCover": 0,
         "ExplosionIgnoreDynamicCover": 1,
-        "ExplosionFallOff": 0.8,
+        "ExplosionFallOff": 0.80000001,
         "DamageRadius": 1,
         "DieEffect": "/Lotus/Fx/Weapons/Tenno/Grimoire/TnGrimoireImpactElectricitySpawner",
         "DieEffectOffset": [
@@ -130,10 +130,10 @@
         "EmbedEffect": "/Lotus/Fx/Weapons/Tenno/Grimoire/TnGrimoireImpactElectricitySpawner",
         "KinematicMovement": 1,
         "HelixSpreadRate": 0,
-        "KinematicVelocityAccel": 0.6,
+        "KinematicVelocityAccel": 0.60000002,
         "KinematicInitialSpeed": 40,
         "KinematicMaxSpeed": 80,
-        "KinematicNoiseRate": 0.01,
+        "KinematicNoiseRate": 0.0099999998,
         "KinematicRestitution": 0,
         "KinematicRestitutionParallel": 0,
         "KinematicBulletRaycast": 0,
@@ -147,7 +147,7 @@
         "ReducedAimRate": 2000,
         "UseAccumulatedDeltaAfterTurn": 1,
         "UseImprovedTargetting": 1,
-        "TurningSpeed": 0.075,
+        "TurningSpeed": 0.075000003,
         "IgnoreFlares": 1,
         "CanTurnAround": 1,
         "TargetClosestPart": 1

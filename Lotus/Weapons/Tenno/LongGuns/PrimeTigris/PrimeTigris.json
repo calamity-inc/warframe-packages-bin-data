@@ -27,7 +27,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -149,7 +149,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -165,9 +165,9 @@
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
                         "DT_PUNCTURE": 0.1,
-                        "DT_SLASH": 0.8,
+                        "DT_SLASH": 0.80000001,
                         "Amount": 195,
-                        "ProcChance": 0.9,
+                        "ProcChance": 0.89999998,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [
                             "PT_RAGDOLL"
@@ -186,7 +186,7 @@
                     ],
                     "damageFallOffMinDamage": 100,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.095,
+                    "PvpDamageMultiplier": 0.094999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 800,
                     "additionalForce": [
@@ -298,7 +298,7 @@
             "AP_TACTIC",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 0.95,
+        "OmegaAttenuation": 0.94999999,
         "VariantType": "VT_PRIME"
     }
 }

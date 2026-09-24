@@ -1,0 +1,196 @@
+{
+    "parent": "/EE/Types/Engine/HitEffect",
+    "data": {
+        "Create:DEFAULT": "SentMiniGunHitFX",
+        "Sound:DEFAULT": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Ricochet/BulletImpactRicochets"
+        ],
+        "Decal:DEFAULT": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDecalAttribs",
+        "Create:METAL": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXMetal",
+        "Sound:METAL": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/GenericMetal/BulletImpactGenericMetal",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Ricochet/BulletImpactRicochets"
+        ],
+        "Decal:METAL": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDecalAttribs",
+        "Create:PERFORATED_METAL": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXMetal",
+        "Sound:PERFORATED_METAL": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/GenericMetal/BulletImpactGenericMetal",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Ricochet/BulletImpactRicochets"
+        ],
+        "Decal:PERFORATED_METAL": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDecalAttribs",
+        "Create:STONE": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXStone",
+        "Sound:STONE": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Rock/BulletImpactDebrisRock",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric"
+        ],
+        "Decal:STONE": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDecalAttribs",
+        "Create:DIRT": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXDirt",
+        "Sound:DIRT": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Dirt/BulletImpactDebrisDirt",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric"
+        ],
+        "Decal:DIRT": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDullDecalAttribs",
+        "Create:FLUID": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXFluid",
+        "Sound:FLUID": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Water/BulletImpactDebrisWater",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric"
+        ],
+        "Create:WOOD": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXWood",
+        "Sound:WOOD": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Wood/BulletImpactDebrisWood",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric"
+        ],
+        "Decal:WOOD": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDecalAttribs",
+        "Create:GLASS": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXGlass",
+        "Sound:GLASS": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Glass/BulletImpactDebrisGlass",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric"
+        ],
+        "Decal:GLASS": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumGlassDecalAttribs",
+        "Create:NON_BREAKING_GLASS": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXGlass",
+        "Sound:NON_BREAKING_GLASS": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Ricochet/BulletImpactRicochets"
+        ],
+        "Decal:NON_BREAKING_GLASS": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumGlassDecalAttribs",
+        "Create:FLESH": "/Lotus/Fx/Gore/Rework/HitSpangNewFlesh",
+        "Sound:FLESH": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Flesh/BulletImpactFlesh"
+        ],
+        "Create:DRYWALL": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFX",
+        "Sound:DRYWALL": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Ricochet/BulletImpactRicochets"
+        ],
+        "Decal:DRYWALL": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDecalAttribs",
+        "Create:BRICK": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXStone",
+        "Sound:BRICK": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Rock/BulletImpactDebrisRock",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric"
+        ],
+        "Decal:BRICK": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDecalAttribs",
+        "Create:PIPE": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXMetal",
+        "Sound:PIPE": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Pipe/BulletImpactDebrisPipe",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/GenericMetal/BulletImpactGenericMetal"
+        ],
+        "Decal:PIPE": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDecalAttribs",
+        "Create:TEXTILE": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXTextile",
+        "Sound:TEXTILE": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Dirt/BulletImpactDebrisDirt"
+        ],
+        "Create:SYNTHETIC": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXMetal",
+        "Sound:SYNTHETIC": [
+            "/Lotus/Sounds/Characters/Tenno/Shield/ShieldImpactA"
+        ],
+        "Create:TECHNOCITE_FLESH": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXInfFlesh",
+        "Sound:TECHNOCITE_FLESH": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Flesh/BulletImpactFlesh"
+        ],
+        "Create:TECHNOCITE_FLESH_BIG": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXInfFlesh",
+        "Sound:TECHNOCITE_FLESH_BIG": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Flesh/BulletImpactFlesh"
+        ],
+        "Create:SNOW": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXSnow",
+        "Sound:SNOW": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Snow/BulletImpactDebrisSnow"
+        ],
+        "Decal:SNOW": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDullDecalAttribs",
+        "Create:DEEP_SNOW": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXSnow",
+        "Sound:DEEP_SNOW": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Snow/BulletImpactDebrisSnow"
+        ],
+        "Decal:DEEP_SNOW": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDullDecalAttribs",
+        "Create:DEEP_WATER": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXFluid",
+        "Sound:DEEP_WATER": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Water/BulletImpactDebrisWater",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric"
+        ],
+        "Create:ICE": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFX",
+        "Sound:ICE": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Snow/BulletImpactDebrisSnow",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric"
+        ],
+        "Decal:ICE": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDecalAttribs",
+        "Create:IRON": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXMetal",
+        "Sound:IRON": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Ricochet/BulletImpactRicochets",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/GenericMetal/BulletImpactGenericMetal"
+        ],
+        "Decal:IRON": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDecalAttribs",
+        "Create:PLAYER_FLESH": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFX",
+        "Sound:PLAYER_FLESH": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Flesh/PlayerBulletImpactFlesh"
+        ],
+        "Create:STALKER_FLESH": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXFlesh",
+        "Sound:STALKER_FLESH": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Flesh/BulletImpactFlesh"
+        ],
+        "Create:VEGETATION": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXVegetation",
+        "Sound:VEGETATION": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Grass/BulletImpactDebrisGrass"
+        ],
+        "Create:CERAMIC": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXStone",
+        "Sound:CERAMIC": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Ricochet/BulletImpactRicochets"
+        ],
+        "Decal:CERAMIC": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDecalAttribs",
+        "Create:PLASTIC": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFX",
+        "Sound:PLASTIC": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Ricochet/BulletImpactRicochets"
+        ],
+        "Decal:PLASTIC": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDecalAttribs",
+        "Create:GRASS": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXDirt",
+        "Sound:GRASS": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Grass/BulletImpactDebrisGrass"
+        ],
+        "Decal:GRASS": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDullDecalAttribs",
+        "Sound:PAPER": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric"
+        ],
+        "Decal:PAPER": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDullDecalAttribs",
+        "Create:SLUDGE": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXFluid",
+        "Sound:SLUDGE": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Water/BulletImpactDebrisWater"
+        ],
+        "Create:ARMOUR": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXMetal",
+        "Sound:ARMOUR": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Armour/BulletImpactArmour"
+        ],
+        "Create:HEAVY_ARMOUR": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXMetal",
+        "Sound:HEAVY_ARMOUR": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/GenericShield/BulletImpactGenericEnemyShield",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Ricochet/BulletImpactRicochets"
+        ],
+        "Create:WATER_STREAM": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXFluid",
+        "Sound:WATER_STREAM": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Water/BulletImpactDebrisWater"
+        ],
+        "Create:PARRY": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFX",
+        "Create:PARRY_BULLET": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFX",
+        "Create:BONE": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFX",
+        "Create:COOLANT": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXCoolant",
+        "Sound:COOLANT": [
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Surface/Generic/BulletImpactGeneric",
+            "/Lotus/Sounds/Weapons/BulletImpacts/Redux/Debris/Water/BulletImpactDebrisWater"
+        ],
+        "Create:INFESTED_LIQUID": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXInfFluid",
+        "Create:INFESTED_SOLID": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitSpangMediumFXInfSolid",
+        "Decal:INFESTED_SOLID": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitMediumDecalAttribs",
+        "Create:SAND": "/Lotus/Fx/Enemies/Mitw/BallisticHitSandFX",
+        "AlwaysAddDefault": 1,
+        "ThrottledPerSecond": 50,
+        "CreateWaterRipple": 1,
+        "RequiresCreatorForEnergyColor": 1
+    }
+}

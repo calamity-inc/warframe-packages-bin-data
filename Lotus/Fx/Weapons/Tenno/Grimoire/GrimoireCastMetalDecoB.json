@@ -4,15 +4,15 @@
         "ReceivesShadows": 1,
         "ShadowDynamics": 1,
         "Mesh": "GrimoireMetalBubble.fbx",
-        "MeshScale": 0.05,
+        "MeshScale": 0.050000001,
         "DissolveOverride": "/Lotus/Weapons/Thanotech/AlbrechtGrimoire/VoidPage_d.png",
-        "Dissolve": 0.05,
+        "Dissolve": 0.050000001,
         "MaterialFade": [
             {
                 "Parameter": "Dissolve",
                 "Slot": -1,
-                "TimeLength": 0.4,
-                "Multiplier": 0.9,
+                "TimeLength": 0.40000001,
+                "Multiplier": 0.89999998,
                 "FadeRange": [
                     0,
                     1
@@ -21,27 +21,27 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.088889
+                            "Value": 0.088888898
                         },
                         {
-                            "Time": 0.166667,
-                            "Value": 0.702747
+                            "Time": 0.16666667,
+                            "Value": 0.70274699
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.691758
+                            "Time": 0.33333334,
+                            "Value": 0.69175798
                         },
                         {
                             "Time": 0.5,
                             "Value": 0.305769
                         },
                         {
-                            "Time": 0.666667,
-                            "Value": 0.096978
+                            "Time": 0.66666669,
+                            "Value": 0.096978001
                         },
                         {
-                            "Time": 0.833333,
-                            "Value": 0.057143
+                            "Time": 0.83333331,
+                            "Value": 0.057142802
                         },
                         {
                             "Time": 1,
@@ -50,7 +50,7 @@
                     ],
                     "SplineType": "CUBIC_SPLINE"
                 },
-                "BaseValue": 0.05,
+                "BaseValue": 0.050000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 1,
                 "IsDissolve": 1,
@@ -60,7 +60,7 @@
             {
                 "Parameter": "RedVertexClip",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -70,23 +70,23 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.61
+                            "Value": 0.61000001
                         },
                         {
                             "Time": 0.2,
                             "Value": 0.193077
                         },
                         {
-                            "Time": 0.4,
-                            "Value": 0.043846
+                            "Time": 0.40000001,
+                            "Value": 0.043846201
                         },
                         {
-                            "Time": 0.6,
-                            "Value": 0.417692
+                            "Time": 0.60000002,
+                            "Value": 0.41769201
                         },
                         {
-                            "Time": 0.8,
-                            "Value": 0.825385
+                            "Time": 0.80000001,
+                            "Value": 0.82538497
                         },
                         {
                             "Time": 1,
@@ -105,7 +105,7 @@
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -115,19 +115,19 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.002075
+                            "Value": 0.00207503
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.676891
+                            "Time": 0.33333334,
+                            "Value": 0.67689103
                         },
                         {
-                            "Time": 0.666667,
-                            "Value": 0.988513
+                            "Time": 0.66666669,
+                            "Value": 0.98851299
                         },
                         {
                             "Time": 1,
-                            "Value": 0.664475
+                            "Value": 0.66447502
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"

@@ -52,7 +52,7 @@
             "ConsiderOrderType": 0,
             "Order": "StormTarget",
             "FailsOnTargetAcquired": 0,
-            "SuccessRadius": 0.15,
+            "SuccessRadius": 0.15000001,
             "DesiredPosture": "RUN",
             "UseNearTargetPosture": 0,
             "DesiredPostureNearTarget": "RUN",
@@ -69,16 +69,6 @@
             "TeleportToDestination": 1,
             "AllowPartialPath": 1,
             "RestrictToDV": 0
-        },
-        "StormTargetOrderBehavior": {
-            "ConsiderOrderType": 0,
-            "FailsOnTargetAcquired": 0,
-            "SuccessRadius": 0.15,
-            "DesiredPosture": "RUN",
-            "DesiredPostureNearTarget": "RUN",
-            "TryShoot": 0,
-            "ClearOrderOnMoveSuccess": 1,
-            "TeleportToDestination": 1
         },
         "AttackFromTheOpenBehavior": {
             "WeaponSlot": "SLOT_1",

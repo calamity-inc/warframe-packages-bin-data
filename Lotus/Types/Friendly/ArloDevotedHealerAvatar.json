@@ -2,16 +2,16 @@
     "parent": "/Lotus/Types/Game/LotusNpcAvatar",
     "data": {
         "Mesh": "/Lotus/Characters/Civilian/ArloFollower/ArloFollowerHelmetTno_skel.fbx",
-        "MeshScale": 0.8,
+        "MeshScale": 0.80000001,
         "Dissolve": 1,
         "AnimationName": "Guild",
         "RootMotionChannel": "GAME_C1_ROOT",
         "AutoSimChildren": [
             {
                 "LocalPosition": [
-                    -0.005,
-                    -0.05,
-                    0.6
+                    -0.0049999999,
+                    -0.050000001,
+                    0.60000002
                 ],
                 "LocalRotation": [
                     -0.5,
@@ -31,15 +31,15 @@
             },
             {
                 "LocalPosition": [
-                    -0.05,
+                    -0.050000001,
                     0,
                     0.025
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    -0.707107,
-                    0.707107
+                    -0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_L1_ARM1",
                 "Type": "/Lotus/Characters/Tenno/Accessory/DecalProjector/NoraSeasonTwoBadgeDeco",
@@ -55,9 +55,9 @@
         "ServerChildren": [
             {
                 "LocalPosition": [
-                    -0.005,
-                    -0.05,
-                    0.6
+                    -0.0049999999,
+                    -0.050000001,
+                    0.60000002
                 ],
                 "LocalRotation": [
                     -0.5,

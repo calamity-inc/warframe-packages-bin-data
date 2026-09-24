@@ -177,7 +177,7 @@
                     "ShouldRemovePerception": 1,
                     "BlindFireTime": [
                         0.2,
-                        0.8
+                        0.80000001
                     ]
                 },
                 "links": [
@@ -209,7 +209,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 1,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,
@@ -740,11 +740,11 @@
                             "Script": "ArchonAvatarScript.lua",
                             "Function": "OnStruggle",
                             "_counterDecayDelay": 5,
-                            "_damageCounterDecay": 0.01,
-                            "_damageCounterPct": 0.05,
+                            "_damageCounterDecay": 0.0099999998,
+                            "_damageCounterPct": 0.050000001,
                             "_niraPropInstance": "",
                             "_chaseNiraSprintMult": 2.5,
-                            "_chaseNiraWalkMult": 0.3,
+                            "_chaseNiraWalkMult": 0.30000001,
                             "_chaseNiraSprintDist": 30,
                             "_chaseNiraWalkDist": 10,
                             "_killPlayerIfClose": 0,
@@ -754,7 +754,7 @@
                             "_drifterOperatorFinisherType": "",
                             "_adultOperatorCinematicId": "AdultOperator",
                             "_victimCinematicId": "ArchonNira",
-                            "_healthThreshold": 0.7,
+                            "_healthThreshold": 0.69999999,
                             "_flatDistanceToNavOnPreDeathToTeleport": 1.7,
                             "_distanceToNavOnPreDeathToTeleport": 3,
                             "_archonTeleportFx": "",
@@ -762,8 +762,8 @@
                             "_smokeProjectileType": "/Lotus/Types/Friendly/PlayerControllable/Abilities/DrifterTossProjectile",
                             "_struggleSym": "ArchonStruggle",
                             "_struggleHealthThresholds": [
-                                0.7,
-                                0.4,
+                                0.69999999,
+                                0.40000001,
                                 0.1
                             ],
                             "_isPostNewWar": 0,
@@ -979,7 +979,7 @@
                     "RequireVisibleTarget": 1,
                     "ActivationProbability": 0.5,
                     "ExitOnTargeted": 0,
-                    "ExitOnTargetDot": 0.8,
+                    "ExitOnTargetDot": 0.80000001,
                     "TauntOnTargetBeFinished": 0,
                     "StopMovingWhenTaunting": 0
                 },
@@ -1012,7 +1012,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "LookAtTarget": 1,
@@ -1024,7 +1024,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         1,
                         1

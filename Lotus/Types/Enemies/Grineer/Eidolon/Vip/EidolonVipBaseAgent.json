@@ -139,7 +139,7 @@
                             "UPWARD": "",
                             "DOWNWARD": ""
                         },
-                        "DistanceFromTargetPoint": 0.4
+                        "DistanceFromTargetPoint": 0.40000001
                     }
                 }
             ],
@@ -586,7 +586,7 @@
                         "PointBlankRange": 5,
                         "AllowShootingControllerToAim": 0,
                         "MinAngleToTurn": 40,
-                        "MinAimMask": 0.9,
+                        "MinAimMask": 0.89999998,
                         "LookAtTarget": 0,
                         "LookHorizRate": 40,
                         "LookVertRate": 20,
@@ -629,14 +629,14 @@
                                     "m": -3,
                                     "k": 2,
                                     "b": 1,
-                                    "c": 0.6,
+                                    "c": 0.60000002,
                                     "logistic": 0
                                 },
                                 "AggressiveTargetFacingDirectionScoreCurve": {
                                     "m": 10,
                                     "k": -1,
                                     "b": 1,
-                                    "c": 0.6,
+                                    "c": 0.60000002,
                                     "logistic": 1
                                 },
                                 "AggressiveVisibleScore": 1,
@@ -732,7 +732,7 @@
                                 "WalkFacingControl": "MFC_FACE_TARGET",
                                 "RunFacingControl": "MFC_FACE_MOVEDIR",
                                 "SpeedMultiplier": [
-                                    0.8,
+                                    0.80000001,
                                     1.2
                                 ],
                                 "StopMovingOnExit": 1,
@@ -1009,7 +1009,7 @@
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -1153,14 +1153,14 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 20,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 120,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/GrineerChampions/GrineerChampionPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "BaseHitChance": [
-            0.4,
+            0.40000001,
             1
         ],
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",

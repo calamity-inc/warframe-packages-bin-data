@@ -1,14 +1,9 @@
 {
     "parent": "SeasonWeeklyHardChallenge",
     "data": {
-        "RequiredCount": 5,
-        "AttackDir": "AD_SQUAD",
-        "SquadAttackRange": 200,
-        "RequiredKeychainItem": "/Lotus/Types/Keys/NewWarQuest/NewWarQuestKeyChain",
-        "VictimType": [
-            "/Lotus/Types/Enemies/Zariman/Avatars/VoidAngelAvatar"
-        ],
-        "DamageType": "DT_ANY",
+        "RequiredCount": 3,
+        "RequiredKeychainItem": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
+        "GameTag": "VOID_ANGEL_KILLED",
         "Icon": "/Lotus/Interface/Icons/Episodes/Hardcore/FallenAngel.png"
     }
 }

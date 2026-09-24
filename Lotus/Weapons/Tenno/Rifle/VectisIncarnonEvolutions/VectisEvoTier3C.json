@@ -27,9 +27,9 @@
                     "Function": "GetLocValues",
                     "_targetBaseStatType": "WEAPON_CRIT_CHANCE",
                     "_sourceModdedStatType": "WEAPON_PROC_CHANCE",
-                    "_bonusPercentage": 0.3,
+                    "_bonusPercentage": 0.30000001,
                     "_isDynamic": 0,
-                    "_bonusMaxCap": 0.4
+                    "_bonusMaxCap": 0.40000001
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
@@ -47,16 +47,16 @@
             "Function": "OnUpgradeApplied",
             "_targetBaseStatType": "WEAPON_PROC_CHANCE",
             "_sourceModdedStatType": "WEAPON_CRIT_CHANCE",
-            "_bonusPercentage": 0.3,
+            "_bonusPercentage": 0.30000001,
             "_isDynamic": 1,
-            "_bonusMaxCap": 0.4
+            "_bonusMaxCap": 0.40000001
         },
         "UnappliedScript": {
             "Script": "/Lotus/Scripts/Mods/WeaponAddBaseStatForModdedStat.lua",
             "Function": "OnUpgradeRemoved",
             "_targetBaseStatType": "WEAPON_PROC_CHANCE",
             "_sourceModdedStatType": "WEAPON_PROC_CHANCE",
-            "_bonusPercentage": 0.3,
+            "_bonusPercentage": 0.30000001,
             "_isDynamic": 0,
             "_bonusMaxCap": 1.5
         },

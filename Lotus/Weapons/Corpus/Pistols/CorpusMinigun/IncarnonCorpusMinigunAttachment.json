@@ -5,8 +5,8 @@
             {
                 "LocalPosition": [
                     0,
-                    0.05,
-                    0.32
+                    0.050000001,
+                    0.31999999
                 ],
                 "LocalRotation": [
                     0,
@@ -27,14 +27,14 @@
             {
                 "LocalPosition": [
                     0,
-                    0.09,
+                    0.090000004,
                     0.035
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_REARSPINNERATTACH",
                 "Type": "RearSpinnerDeco",
@@ -49,14 +49,14 @@
             {
                 "LocalPosition": [
                     0,
-                    -0.05,
+                    -0.050000001,
                     0.025
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_BARRELSATTACH",
                 "Type": "BarrelsDeco",
@@ -521,7 +521,7 @@
                     "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
                     "Function": "ScaleUp",
                     "_largeScale": 1,
-                    "_smallScale": 0.95,
+                    "_smallScale": 0.94999999,
                     "_scaleDuration": 0.5,
                     "_animation": "",
                     "_runHost": 1,
@@ -706,7 +706,7 @@
                     "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
                     "Function": "ScaleDown",
                     "_largeScale": 1,
-                    "_smallScale": 0.95,
+                    "_smallScale": 0.94999999,
                     "_scaleDuration": 0.5,
                     "_animation": "",
                     "_runHost": 1,

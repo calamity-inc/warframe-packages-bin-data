@@ -8,14 +8,14 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.042,
+                    -0.041999999,
                     -0.07
                 ],
                 "LocalRotation": [
                     0,
-                    -0.043619,
+                    -0.043618999,
                     0,
-                    0.999048
+                    0.99904799
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "ArchLongRifleAttachment"
@@ -34,15 +34,15 @@
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.04,
+            -0.039999999,
             0.16,
             0.25
         ],
         "GripRotationOffset": [
-            -0.450887,
-            0.537711,
-            0.583192,
-            0.409212
+            -0.45088699,
+            0.53771102,
+            0.58319199,
+            0.40921199
         ],
         "GripBone": "GAME_L1_HANDLE",
         "DisableFireWhileMainHandMeleeing": 0,
@@ -66,7 +66,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -262,8 +262,8 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.25,
-                        "DT_PUNCTURE": 0.65,
-                        "DT_SLASH": 0.1,
+                        "DT_PUNCTURE": 0.64999998,
+                        "DT_SLASH": 0.10000002,
                         "Amount": 45,
                         "ProcChance": 0.25,
                         "ForcedProcs": [],
@@ -420,15 +420,15 @@
         "HeavyWeaponAttachments": {
             "MAIN_HAND": {
                 "LocalPosition": [
-                    0.01,
-                    -0.05,
+                    0.0099999998,
+                    -0.050000001,
                     -0.07
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    -0.008727,
-                    0.999962
+                    -0.0087270001,
+                    0.99996197
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "ArchLongRifleAltAttachment"
@@ -449,7 +449,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -577,7 +577,7 @@
                     "WhizDeviation": 1,
                     "WhizChance": 0,
                     "WhizzByRemoteMinDistance": 15,
-                    "TraceRadius": 0.03,
+                    "TraceRadius": 0.029999999,
                     "PvpTraceRadius": 0,
                     "RefinedSweep": 1,
                     "AffectedByStasis": 1,
@@ -591,10 +591,10 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.25,
-                        "DT_PUNCTURE": 0.65,
-                        "DT_SLASH": 0.1,
+                        "DT_PUNCTURE": 0.64999998,
+                        "DT_SLASH": 0.10000002,
                         "Amount": 116,
-                        "ProcChance": 0.3,
+                        "ProcChance": 0.30000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -744,14 +744,14 @@
         "HolsterCategory": "RIFLE",
         "HolsterPosOffset": [
             0.2,
-            -0.06,
+            -0.059999999,
             0
         ],
         "HolsterRotOffset": [
             0.029469,
-            0.03216,
-            0.674947,
-            0.736576
+            0.032159999,
+            0.67494702,
+            0.73657602
         ],
         "RequiredLevel": 3,
         "ArtifactSlots": [

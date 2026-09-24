@@ -2,13 +2,13 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Levels/Corpus/CorpusShip/CSVoidFissure.fbx",
-        "MeshScale": 0.65,
+        "MeshScale": 0.64999998,
         "DissolveOverride": "/Lotus/Fx/Common/ExplodeLines_d.png",
         "MaterialFade": [
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.9,
+                "TimeLength": 0.89999998,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -22,11 +22,11 @@
                         },
                         {
                             "Time": 0.25,
-                            "Value": 0.675033
+                            "Value": 0.67503297
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.992923
+                            "Value": 0.99292302
                         },
                         {
                             "Time": 0.75,
@@ -49,11 +49,11 @@
             {
                 "Parameter": "Scalar3",
                 "Slot": -1,
-                "TimeLength": 0.9,
+                "TimeLength": 0.89999998,
                 "Multiplier": 2,
                 "FadeRange": [
                     0.1,
-                    0.85
+                    0.85000002
                 ],
                 "FadeCurve": {
                     "Values": [],

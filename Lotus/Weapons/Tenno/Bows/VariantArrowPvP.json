@@ -49,14 +49,14 @@
             }
         ],
         "AttackData": {
-            "DT_IMPACT": 0.05,
+            "DT_IMPACT": 0.050000001,
             "DT_PUNCTURE": 0.75,
-            "DT_SLASH": 0.2,
+            "DT_SLASH": 0.19999999,
             "Amount": 105,
             "ProcChance": 1
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.3,
+        "CriticalChance": 0.30000001,
         "CriticalMultiplier": 2,
         "HitEffect": "/Lotus/Fx/ArrowTraditionalHitEffect",
         "DieEffectOffset": [
@@ -83,11 +83,11 @@
         ],
         "KinematicMovement": 1,
         "StopOnCollision": 0,
-        "KinematicPostCollisionsSpeedFactor": 0.4,
+        "KinematicPostCollisionsSpeedFactor": 0.40000001,
         "KinematicInitialSpeed": 200,
         "KinematicMinSpeed": 200,
         "KinematicMaxSpeed": 200,
-        "KinematicNoise": 0.03,
+        "KinematicNoise": 0.029999999,
         "KinematicGravity": 1,
         "KinematicGravityMultiplier": 0.17,
         "KinematicRestitution": 0,
@@ -96,10 +96,10 @@
         "ProjectileReplication": "SYNCED_AUTONOMOUS",
         "InstantTurn": 1,
         "BaseRotation": [
-            0.707107,
+            0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "KinematicIgnoredTypes": [
             "/Lotus/Types/Game/PickUps/LotusPickUp"

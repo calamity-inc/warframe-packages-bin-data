@@ -102,10 +102,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Sounds/Weapons/Duviri/IncarnonAdapters/IncarnonHandRocketLauncherLoopSeq",
@@ -121,17 +121,17 @@
         "AttackData": {
             "Type": "DT_FIRE",
             "Amount": 30,
-            "ProcChance": 0.18,
+            "ProcChance": 0.18000001,
             "ForcedProcs": [
                 "PT_STAGGERED"
             ],
             "HitType": "DHT_PROJECTILE"
         },
-        "CriticalChance": 0.18,
+        "CriticalChance": 0.18000001,
         "CriticalMultiplier": 1.8,
         "ExplosiveAttack": {
             "Type": "DT_FIRE",
-            "ProcChance": 0.18
+            "ProcChance": 0.18000001
         },
         "ExplosionIgnoreSource": 1,
         "ExplosionIgnoreCover": 0,
@@ -150,7 +150,7 @@
         "HitEffect": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/AngstrumVoidHitEffect",
         "HitEffectThrottleRange": [
             0.2,
-            0.3
+            0.30000001
         ],
         "DieEffect": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/AngstrumVoidProjDie",
         "DieEffectMirror": "/Lotus/Fx/Explosions/Generic/ExplosionFXScifiMediumCheap",
@@ -173,7 +173,7 @@
         },
         "EmbedDeathAttack": {
             "Type": "DT_GAS",
-            "ProcChance": 0.32
+            "ProcChance": 0.31999999
         },
         "KinematicAccel": 80,
         "KinematicInitialSpeed": 80,
@@ -198,7 +198,7 @@
         "BounceTowardSeekTarget": 1,
         "MinFlightDistancePerReflect": 20,
         "SweepCapsuleWidth": 1,
-        "BladeRadius": 0.04,
+        "BladeRadius": 0.039999999,
         "AfterTouchFOVSpeed": 1.8,
         "CollisionEffect": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/AngstrumVoidHitEffect",
         "UseAvatarForCatch": 0,

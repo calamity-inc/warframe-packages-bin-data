@@ -7,7 +7,7 @@
                 "name": "AlphaAtten",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.45
+                "value": 0.44999999
             }
         ],
         "CompositedEffect": 1,
@@ -16,7 +16,7 @@
         "AutoKill": 1,
         "Life": [
             2,
-            2.6
+            2.5999999
         ],
         "Size": [
             5,
@@ -26,21 +26,21 @@
             "Values": [
                 {
                     "Time": 0,
-                    "Value": 0.581687
+                    "Value": 0.58168697
                 },
                 {
                     "Time": 0.5,
-                    "Value": 0.852263
+                    "Value": 0.85226297
                 },
                 {
                     "Time": 1,
-                    "Value": 0.997718
+                    "Value": 0.99771798
                 }
             ],
             "SplineType": "CUBIC_SPLINE"
         },
         "Aspect": [
-            0.9,
+            0.89999998,
             1.1
         ],
         "GrowthRate": [
@@ -56,7 +56,7 @@
             {
                 "Parameter": "AlphaAtten",
                 "TimeLength": 2,
-                "Multiplier": 0.45,
+                "Multiplier": 0.44999999,
                 "FadeRange": [
                     0,
                     0
@@ -91,12 +91,12 @@
         ],
         "RandOrientation": 1,
         "Spin": [
-            -0.002,
-            0.002
+            -0.0020000001,
+            0.0020000001
         ],
         "FadeInOut": [
-            0.3,
-            0.4
+            0.30000001,
+            0.40000001
         ],
         "EyeFadeDist": 1,
         "Nozzle": "DISC",
@@ -106,14 +106,14 @@
             0,
             0
         ],
-        "NozzleSize": 4.1,
+        "NozzleSize": 4.0999999,
         "Speed": [
             0.2,
             1
         ],
         "Drag": 2,
         "Mass": [
-            0.05,
+            0.050000001,
             0.2
         ]
     }

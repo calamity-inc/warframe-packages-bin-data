@@ -12,9 +12,9 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.000761,
+                    -0.00076099997,
                     0.017436,
-                    -0.043613,
+                    -0.043613002,
                     0.998896
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -23,9 +23,9 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            -0.005,
-            0.09,
-            0.01
+            -0.0049999999,
+            0.090000004,
+            0.0099999998
         ],
         "HolsterBone1Rotation": [
             0.690346,
@@ -54,19 +54,19 @@
         "WeaponHandAimOffset": [
             0,
             0,
-            0.4
+            0.40000001
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
             -0.07,
             -0.048,
-            0.27
+            0.27000001
         ],
         "GripRotationOffset": [
             0,
-            0.706676,
-            -0.707107,
-            0.024678
+            0.70667601,
+            -0.70710677,
+            0.024677999
         ],
         "Behaviors": [
             {
@@ -83,7 +83,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -292,10 +292,10 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.75,
-                        "DT_PUNCTURE": 0.15,
-                        "DT_SLASH": 0.1,
+                        "DT_PUNCTURE": 0.15000001,
+                        "DT_SLASH": 0.10000002,
                         "Amount": 1,
-                        "ProcChance": 0.05,
+                        "ProcChance": 0.050000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -313,7 +313,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.99,
+                    "PvpDamageMultiplier": 0.99000001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -444,7 +444,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -533,7 +533,7 @@
                         "LocalPos": [
                             0,
                             0,
-                            0.4
+                            0.40000001
                         ],
                         "LocalRot": [
                             0,

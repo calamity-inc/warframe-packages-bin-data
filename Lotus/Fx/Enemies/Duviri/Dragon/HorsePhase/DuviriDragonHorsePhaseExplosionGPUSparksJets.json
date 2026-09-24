@@ -8,7 +8,7 @@
                 "slot": -1,
                 "value": [
                     1,
-                    0.36,
+                    0.36000001,
                     0.16,
                     1
                 ]
@@ -24,16 +24,16 @@
         "SpawnCurve": {
             "Values": [
                 {
-                    "Time": 0.010885,
-                    "Value": 0.991531
+                    "Time": 0.0108853,
+                    "Value": 0.99153101
                 },
                 {
-                    "Time": 0.308511,
-                    "Value": 0.492354
+                    "Time": 0.30851099,
+                    "Value": 0.49235401
                 },
                 {
                     "Time": 1,
-                    "Value": 0.238229
+                    "Value": 0.23822901
                 }
             ]
         },
@@ -42,15 +42,15 @@
             20,
             26
         ],
-        "SystemDrag": 0.7,
+        "SystemDrag": 0.69999999,
         "SystemGravity": [
             0.2,
-            0.4
+            0.40000001
         ],
         "EnergyTintMethod": "ETM_LIFE",
         "fireOnce": 0,
         "affectedByWind": 1,
-        "resilience": 0.3,
+        "resilience": 0.30000001,
         "drag": 0.5,
         "mass": [
             0.2,
@@ -61,8 +61,8 @@
             3
         ],
         "size": [
-            0.03,
-            0.05
+            0.029999999,
+            0.050000001
         ],
         "velocity": [
             0.1,
@@ -70,16 +70,16 @@
         ],
         "windAttenuation": [
             0.1,
-            0.6
+            0.60000002
         ],
         "streaksFactor": 2,
-        "collisionDelay": 0.05,
+        "collisionDelay": 0.050000001,
         "spawnShape": "SP_CONE",
         "velocityDeviation": [
             0,
             0.1
         ],
-        "inheritVelocity": 0.8,
+        "inheritVelocity": 0.80000001,
         "useForceFieldForSpawn": 1,
         "spawnScale": [
             0.5,
@@ -100,9 +100,9 @@
         "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksFadeClose",
         "colorKeys[0]": [
-            0.21,
+            0.20999999,
             1,
-            0.65,
+            0.64999998,
             1
         ],
         "vortexSpeed": 2,

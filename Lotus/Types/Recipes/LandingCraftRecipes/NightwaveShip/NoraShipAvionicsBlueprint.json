@@ -1,0 +1,31 @@
+{
+    "parent": "/Lotus/Types/Game/RecipeItem",
+    "data": {
+        "PickUpText": "MANTYS STAR CHART BLUEPRINT",
+        "SellingPrice": 3500,
+        "ExcludeFromCodex": 0,
+        "TradeCapability": "RO_ALWAYS",
+        "ResultItem": "/Lotus/StoreItems/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipAvionicsComponent",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 11000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 4800
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                "ItemCount": 6
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                "ItemCount": 8
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "ShipFeaturePrereq": "/Lotus/Types/Items/ShipFeatureItems/FoundryVesselUpgradeFeatureItem"
+    }
+}

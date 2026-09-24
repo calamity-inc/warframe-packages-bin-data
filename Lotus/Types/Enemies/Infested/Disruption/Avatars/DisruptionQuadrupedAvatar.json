@@ -7,14 +7,14 @@
         "AutoSimChildren": [
             {
                 "LocalPosition": [
-                    -0.26,
+                    -0.25999999,
                     0,
                     0.1
                 ],
                 "LocalRotation": [
-                    -0.255571,
+                    -0.25557101,
                     0.721241,
-                    0.514124,
+                    0.51412398,
                     0.387519
                 ],
                 "BoneName": "GAME_C1_SPINE3",
@@ -25,19 +25,19 @@
                 "DestroyWithOwner": 1,
                 "DestroyParentOnDeath": 0,
                 "FadeOutOnDestruction": 0,
-                "Scale": 0.6
+                "Scale": 0.60000002
             },
             {
                 "LocalPosition": [
-                    -0.18,
-                    -0.08,
-                    -0.26
+                    -0.18000001,
+                    -0.079999998,
+                    -0.25999999
                 ],
                 "LocalRotation": [
-                    -0.653281,
-                    0.270598,
-                    0.270598,
-                    0.653281
+                    -0.65328097,
+                    0.27059799,
+                    0.27059799,
+                    0.65328097
                 ],
                 "BoneName": "GAME_C1_SPINE3",
                 "Type": "/Lotus/Types/Enemies/Infested/Disruption/Attachments/DisruptionInfestedBoilChargerDeco",
@@ -47,7 +47,7 @@
                 "DestroyWithOwner": 1,
                 "DestroyParentOnDeath": 0,
                 "FadeOutOnDestruction": 0,
-                "Scale": 0.6
+                "Scale": 0.60000002
             },
             {
                 "LocalPosition": [
@@ -210,14 +210,14 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/NPC/AmalgamNullifyDome.lua",
             "Function": "AmalgamDomePulse",
-            "_sizeOnSpawn": 0.05,
+            "_sizeOnSpawn": 0.050000001,
             "_growthDelayOnSpawn": 0.1,
             "_destroyAtMinSize": 1,
             "_destroyAtMaxSize": 0,
             "_destroyAtMaxSizeTime": 8,
-            "_domeMinScale": 0.4,
+            "_domeMinScale": 0.40000001,
             "_growLerpRate": 0.1,
-            "_scaleDelay": 0.05,
+            "_scaleDelay": 0.050000001,
             "_createFx": "",
             "_destroyFx": "",
             "_scriptTriggerType": "",

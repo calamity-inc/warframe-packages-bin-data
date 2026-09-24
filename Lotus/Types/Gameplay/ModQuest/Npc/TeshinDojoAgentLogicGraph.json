@@ -270,7 +270,7 @@
                     "DefaultReevaluationDelay": 0,
                     "OffNavTime": [
                         0.5,
-                        0.8
+                        0.80000001
                     ],
                     "StopChildrenOnFail": 1,
                     "StopIfAgentIsOffNav": 0,
@@ -295,8 +295,8 @@
                             -5,
                             1
                         ],
-                        "OriginOffsetDistance": 0.05,
-                        "DestinationOffsetDistance": 0.05,
+                        "OriginOffsetDistance": 0.050000001,
+                        "DestinationOffsetDistance": 0.050000001,
                         "GroundMovementIdx": 1,
                         "VipMovementIdx": 0,
                         "ChangePathTypeAtEnd": 1,
@@ -382,13 +382,13 @@
                         "DefensiveHealthPercentage": 0,
                         "DefensiveForcedWindow": 0,
                         "StopMovementOnAttack": 1,
-                        "DefensiveParryChance": 0.013793,
+                        "DefensiveParryChance": 0.0137931,
                         "DefensiveTime": [
                             0,
                             2
                         ],
                         "DoReactiveBlocking": 0,
-                        "ReactiveBlockingDefenseTime": 0.4,
+                        "ReactiveBlockingDefenseTime": 0.40000001,
                         "DefensiveCooldownTime": 20,
                         "HeavyAttackProcTypeImmunities": [],
                         "MeleeRange": [
@@ -1269,13 +1269,13 @@
                     "DefensiveHealthPercentage": 0,
                     "DefensiveForcedWindow": 0,
                     "StopMovementOnAttack": 0,
-                    "DefensiveParryChance": 0.013793,
+                    "DefensiveParryChance": 0.0137931,
                     "DefensiveTime": [
                         0,
                         2
                     ],
                     "DoReactiveBlocking": 0,
-                    "ReactiveBlockingDefenseTime": 0.4,
+                    "ReactiveBlockingDefenseTime": 0.40000001,
                     "DefensiveCooldownTime": 20,
                     "HeavyAttackProcTypeImmunities": [],
                     "MeleeRange": [
@@ -1350,7 +1350,7 @@
                         3.5,
                         7
                     ],
-                    "LungeAttackChance": 0.4,
+                    "LungeAttackChance": 0.40000001,
                     "BasicAttackTypes": [
                         "CC_SLIDING"
                     ],

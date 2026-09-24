@@ -751,7 +751,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -769,7 +769,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8
@@ -1282,7 +1282,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -1300,7 +1300,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8
@@ -1450,8 +1450,8 @@
                     "WaitAction:TimeOut": 5,
                     "WaitAction:CoverOnly": 0,
                     "WaitAction:AimPosture": 0,
-                    "WaitAction:TrackTarget": 0,
                     "WaitAction:MinimalEnemyDistance": 0,
+                    "WaitAction:TrackTarget": 0,
                     "WaitAction:TrackTargetNotVisible": 0,
                     "WaitAction:Peek": 0,
                     "WaitAction:FailOnDamaged": 1,
@@ -1518,8 +1518,8 @@
                     "TimeOut": 5,
                     "CoverOnly": 0,
                     "AimPosture": 0,
-                    "TrackTarget": 0,
                     "MinimalEnemyDistance": 0,
+                    "TrackTarget": 0,
                     "TrackTargetNotVisible": 0,
                     "Peek": 0,
                     "FailOnDamaged": 1,
@@ -1600,7 +1600,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 1,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,
@@ -2291,7 +2291,7 @@
                         "LastDamagedWindow": 5,
                         "DistanceToTarget": 6,
                         "MovementSpeedModifier": [
-                            0.8,
+                            0.80000001,
                             1
                         ],
                         "SeekCoverDelayOnFail": 1,
@@ -2380,8 +2380,8 @@
                         "TimeOut": 0,
                         "CoverOnly": 1,
                         "AimPosture": 0,
-                        "TrackTarget": 0,
                         "MinimalEnemyDistance": 0,
+                        "TrackTarget": 0,
                         "TrackTargetNotVisible": 0,
                         "Peek": 0,
                         "FailOnDamaged": 1,
@@ -2435,7 +2435,7 @@
                     "LastDamagedWindow": 5,
                     "DistanceToTarget": 15,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1
                     ],
                     "SeekCoverDelayOnFail": 1,
@@ -2525,7 +2525,7 @@
                     "ReturnToCoverDamageThreshold": 0.5,
                     "ExitCoverOnDamageDuringWait": 0,
                     "ExitCoverOnDamageDuringWaitDamageThreshold": 0.5,
-                    "PushoutFromCrouchDistance": 0.3,
+                    "PushoutFromCrouchDistance": 0.30000001,
                     "RequireCover": 1,
                     "SuppressionUnderFireTime": 3,
                     "LookAtTarget": 0,
@@ -2567,8 +2567,8 @@
                     "TimeOut": 0,
                     "CoverOnly": 0,
                     "AimPosture": 0,
-                    "TrackTarget": 0,
                     "MinimalEnemyDistance": 0,
+                    "TrackTarget": 0,
                     "TrackTargetNotVisible": 0,
                     "Peek": 0,
                     "FailOnDamaged": 0,
@@ -2655,7 +2655,7 @@
                             "LastDamagedWindow": 5,
                             "DistanceToTarget": 6,
                             "MovementSpeedModifier": [
-                                0.8,
+                                0.80000001,
                                 1
                             ],
                             "SeekCoverDelayOnFail": 1,
@@ -2744,8 +2744,8 @@
                             "TimeOut": 0,
                             "CoverOnly": 1,
                             "AimPosture": 0,
-                            "TrackTarget": 0,
                             "MinimalEnemyDistance": 0,
+                            "TrackTarget": 0,
                             "TrackTargetNotVisible": 0,
                             "Peek": 0,
                             "FailOnDamaged": 1,

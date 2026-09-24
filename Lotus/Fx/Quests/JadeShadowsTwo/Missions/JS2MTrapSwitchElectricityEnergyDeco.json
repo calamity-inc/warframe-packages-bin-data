@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/BuildUpMesh.fbx",
-        "MeshScale": 0.6,
+        "MeshScale": 0.60000002,
         "OverrideMaterial": [
             "/Lotus/Fx/Weapons/Procs/ElectricityEnergyMeshMat"
         ],
@@ -13,7 +13,7 @@
                 "slot": -1,
                 "value": [
                     0.012,
-                    0.24,
+                    0.23999999,
                     1,
                     0
                 ]
@@ -27,7 +27,7 @@
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.18,
+                "TimeLength": 0.18000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,
@@ -37,7 +37,7 @@
                     "Values": [],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.01,
+                "BaseValue": 0.0099999998,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
@@ -47,7 +47,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.18,
+                "TimeLength": 0.18000001,
                 "Multiplier": 12,
                 "FadeRange": [
                     0,

@@ -406,7 +406,7 @@
                                     "UPWARD": "/Lotus/Animations/Tenno/Movement/HandlessCartwheelForwardTeleport",
                                     "DOWNWARD": "/Lotus/Animations/Tenno/Movement/HandlessCartwheelForwardTeleport"
                                 },
-                                "DistanceFromTargetPoint": 0.4
+                                "DistanceFromTargetPoint": 0.40000001
                             },
                             "forceFaceReaction": 0,
                             "useTurnToAction": 0,
@@ -680,7 +680,7 @@
                     "UseDistanceFromCreator": 0,
                     "TargetHealthPctRange": [
                         0,
-                        0.01
+                        0.0099999998
                     ],
                     "IsPreDeath": 0,
                     "IsKilled": 0,
@@ -812,7 +812,7 @@
                             0
                         ],
                         "DoReactiveBlocking": 0,
-                        "ReactiveBlockingDefenseTime": 0.4,
+                        "ReactiveBlockingDefenseTime": 0.40000001,
                         "DefensiveCooldownTime": 1,
                         "HeavyAttackProcTypeImmunities": [],
                         "MeleeRange": [
@@ -888,7 +888,7 @@
                         0
                     ],
                     "DoReactiveBlocking": 0,
-                    "ReactiveBlockingDefenseTime": 0.4,
+                    "ReactiveBlockingDefenseTime": 0.40000001,
                     "DefensiveCooldownTime": 1,
                     "HeavyAttackProcTypeImmunities": [],
                     "MeleeRange": [
@@ -1021,7 +1021,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.9,
+                        0.89999998,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -1039,7 +1039,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         1,
                         2
@@ -1049,7 +1049,7 @@
                         5
                     ],
                     "WaitTime": [
-                        0.01,
+                        0.0099999998,
                         0.02
                     ],
                     "RepositionTime": [
@@ -1258,7 +1258,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 1,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,
@@ -1607,7 +1607,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.9,
+                        0.89999998,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -1625,7 +1625,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         1,
                         2
@@ -1635,7 +1635,7 @@
                         1.5
                     ],
                     "WaitTime": [
-                        0.01,
+                        0.0099999998,
                         0.02
                     ],
                     "RepositionTime": [
@@ -1735,7 +1735,7 @@
                         "MinStrafeDistance": 0,
                         "StopRadius": 0.5,
                         "MovementSpeedModifier": [
-                            0.9,
+                            0.89999998,
                             1.2
                         ],
                         "MovementLineOfFireScoring": 0,
@@ -1753,7 +1753,7 @@
                             0
                         ],
                         "MinAngleToTurn": 40,
-                        "MinAimMask": 0.9,
+                        "MinAimMask": 0.89999998,
                         "TargetNotVisibleTimeoutRange": [
                             1,
                             2
@@ -1763,7 +1763,7 @@
                             5
                         ],
                         "WaitTime": [
-                            0.01,
+                            0.0099999998,
                             0.02
                         ],
                         "RepositionTime": [
@@ -1803,7 +1803,7 @@
                         "ShouldConstantlyBarkAttack": 0
                     },
                     "StopWhenChildStops": 1,
-                    "Chance": 0.6,
+                    "Chance": 0.60000002,
                     "RetryDelayAfterFailure": 3,
                     "RetryDelayAfterSuccess": 1
                 },

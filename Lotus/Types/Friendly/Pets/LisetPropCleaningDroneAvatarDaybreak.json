@@ -1,0 +1,126 @@
+{
+    "parent": "LisetPropCleaningDroneAvatar",
+    "data": {
+        "Mesh": "/Lotus/Objects/DomestikDrone/TennoDomestikDrone.fbx",
+        "MeshScale": 0.60000002,
+        "OverrideMaterial": [
+            "/Lotus/Objects/DomestikDrone/TennoDomestikDroneDaybreak"
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0.34999999,
+                    0.5
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Badges/TennoDomestikDroneAttachFlare",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.55000001,
+                    0.25,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.98480803,
+                    0,
+                    0.173648
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Badges/TennoDomestikDroneAttachFx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.55000001,
+                    0.25,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    -0.98480803,
+                    0,
+                    0.173648
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Badges/TennoDomestikDroneAttachFx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.55000001,
+                    0.2,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.98480803,
+                    0,
+                    0.173648
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Badges/TennoDomestikDroneAttachTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.55000001,
+                    0.2,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    -0.98480803,
+                    0,
+                    0.173648
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Badges/TennoDomestikDroneAttachTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "ScriptInstance": {
+            "_hoverSound": "/Lotus/Sounds/Characters/Corpus/GasCityLisetRobotCleaner/CrpGasCityLisetPropCleaningDroneLoopPetTwitch"
+        },
+        "AnimControllerType": "LisetPropCleaningDroneBaroAnimTreeController"
+    }
+}

@@ -19,7 +19,7 @@
         "EnergyTintMethod": "ETM_LIFE",
         "affectedByWind": 1,
         "resilience": 0.2,
-        "drag": 0.15,
+        "drag": 0.15000001,
         "mass": [
             0,
             0.1
@@ -29,8 +29,8 @@
             2
         ],
         "size": [
-            0.004,
-            0.008
+            0.0040000002,
+            0.0080000004
         ],
         "velocity": [
             2,
@@ -41,15 +41,15 @@
         "spawnShape": "SP_CONE",
         "velocityDeviation": [
             0,
-            0.4
+            0.40000001
         ],
         "inheritVelocity": 0.25,
         "spawnScale": [
             0.1,
-            0.05,
+            0.050000001,
             0.1
         ],
-        "spawnFlowBlend": 0.256637,
+        "spawnFlowBlend": 0.25663701,
         "flowForce": [
             2,
             2,
@@ -64,20 +64,20 @@
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSpotFadeCloseAlpha",
         "colorKeys[0]": [
             1,
-            0.067,
+            0.067000002,
             0.011,
             1
         ],
         "colorKeys[1]": [
-            0.68,
+            0.68000001,
             0.022,
             0,
             1
         ],
         "colorKeys[2]": [
-            0.019,
-            0.00098,
-            0.00098,
+            0.018999999,
+            0.00098000001,
+            0.00098000001,
             1
         ],
         "numColors": 3

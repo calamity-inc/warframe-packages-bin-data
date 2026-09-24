@@ -13,8 +13,8 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    0.005,
-                    0.01
+                    0.0049999999,
+                    0.0099999998
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "CrpScopeGunAttachment"
@@ -23,13 +23,13 @@
         "HolsterBone1Name": "GAME_R1_HOLSTERATTACH",
         "HolsterBone1Position": [
             0.02,
-            -0.05,
-            -0.03
+            -0.050000001,
+            -0.029999999
         ],
         "HolsterBone1Rotation": [
-            0.052286,
-            -0.002283,
-            0.04356,
+            0.052285999,
+            -0.0022829999,
+            0.043559998,
             0.997679
         ],
         "GripType": "GUN_ONE_HAND",
@@ -52,7 +52,7 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "AimStartSound": "/Lotus/Sounds/Weapons/Corpus/CrpScopeGun/CrpScopeGunZoomIn",
@@ -62,11 +62,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -82,11 +82,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -115,7 +115,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -250,8 +250,8 @@
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 1,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.05,
-                    "RetractTime": 0.01,
+                    "MaxTraceDistanceTime": 0.050000001,
+                    "RetractTime": 0.0099999998,
                     "AttachToWeapon": 1,
                     "UseWeaponAttachmentFirePos": 0,
                     "AttachToTarget": 0,
@@ -362,10 +362,10 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0,
-                        "DT_PUNCTURE": 0.6,
-                        "DT_SLASH": 0.4,
+                        "DT_PUNCTURE": 0.60000002,
+                        "DT_SLASH": 0.39999998,
                         "Amount": 60,
-                        "ProcChance": 0.26,
+                        "ProcChance": 0.25999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -384,7 +384,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.85,
+                    "PvpDamageMultiplier": 0.85000002,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -416,7 +416,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.18,
+                    "criticalHitChance": 0.18000001,
                     "criticalHitDamageMultiplier": 1.6,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -470,7 +470,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -521,7 +521,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -665,8 +665,8 @@
         "OFF_HAND": {
             "LocalPosition": [
                 0,
-                0.005,
-                -0.01
+                0.0049999999,
+                -0.0099999998
             ],
             "BoneName": "GAME_L1_WEAPON1",
             "Type": "CrpScopeGunDSAttachment"

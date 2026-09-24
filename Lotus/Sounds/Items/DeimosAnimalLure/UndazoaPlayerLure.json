@@ -9,7 +9,7 @@
                     "type": "DSP_PITCH",
                     "pitch": {
                         "paramFinePitch": 0,
-                        "paramCoarsePitch": 0.3,
+                        "paramCoarsePitch": 0.30000001,
                         "paramFeedback": 0,
                         "paramFeedbackPhase": 0,
                         "paramDelay": 0
@@ -21,7 +21,7 @@
                     "type": "DSP_PITCH",
                     "pitch": {
                         "paramFinePitch": 0,
-                        "paramCoarsePitch": 0.65,
+                        "paramCoarsePitch": 0.64999998,
                         "paramFeedback": 0,
                         "paramFeedbackPhase": 0,
                         "paramDelay": 0
@@ -29,7 +29,7 @@
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.15,
+                    "mix": 0.15000001,
                     "type": "DSP_RING_MOD",
                     "ringMod": {
                         "intensity": 0.5,
@@ -41,9 +41,9 @@
                     "mix": 1,
                     "type": "DSP_EQ",
                     "eq": {
-                        "lg": 0.7,
+                        "lg": 0.69999999,
                         "mg": 1,
-                        "hg": 0.9,
+                        "hg": 0.89999998,
                         "eqLowMid": [
                             500,
                             6000
@@ -52,22 +52,22 @@
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.95,
+                    "mix": 0.94999999,
                     "type": "DSP_DELAY",
                     "delay": {
-                        "delayTimeSec": 0.9,
+                        "delayTimeSec": 0.89999998,
                         "delayTime": 1,
-                        "feedback": 0.4
+                        "feedback": 0.40000001
                     }
                 },
                 {
                     "enabled": 0,
-                    "mix": 0.9,
+                    "mix": 0.89999998,
                     "type": "DSP_DELAY",
                     "delay": {
                         "delayTimeSec": 1.5,
                         "delayTime": 1,
-                        "feedback": 0.05
+                        "feedback": 0.050000001
                     }
                 },
                 {

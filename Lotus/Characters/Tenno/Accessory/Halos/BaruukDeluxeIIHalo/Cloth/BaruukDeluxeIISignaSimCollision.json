@@ -1,0 +1,444 @@
+{
+    "parent": "/EE/Types/Effects/SimCollision",
+    "data": {
+        "Elements": [
+            {
+                "bone": "GAME_L1_CLAV1",
+                "offset": [
+                    -0.0173431,
+                    0.0550634,
+                    0
+                ],
+                "boneB": "GAME_L1_CLAV1",
+                "offsetB": [
+                    -0.151831,
+                    0.0044332901,
+                    -0.00168916
+                ],
+                "radius": 0.10189,
+                "radiusB": 0.115444,
+                "tag": "|MainCollidersNew_PartClv_L",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_CLAV1",
+                "offset": [
+                    0.0173431,
+                    -0.0550634,
+                    0
+                ],
+                "boneB": "GAME_R1_CLAV1",
+                "offsetB": [
+                    0.151831,
+                    -0.0044332901,
+                    0.00168916
+                ],
+                "radius": 0.10189,
+                "radiusB": 0.115444,
+                "tag": "|MainCollidersNew_PartClv_R",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_NECK1",
+                "offset": [
+                    0.00219028,
+                    0.017315401,
+                    0
+                ],
+                "boneB": "GAME_C1_NECK1",
+                "offsetB": [
+                    -0.044279501,
+                    0.018301999,
+                    0
+                ],
+                "radius": 0.137655,
+                "radiusB": 0.110314,
+                "tag": "|MainCollidersNew_PartNeck1",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_ARM1",
+                "offset": [
+                    -0.037739299,
+                    -0.0083557405,
+                    0.029268499
+                ],
+                "boneB": "GAME_L1_ARM1",
+                "offsetB": [
+                    -0.242751,
+                    -0.023595,
+                    0.0072086402
+                ],
+                "radius": 0.13964599,
+                "radiusB": 0.119594,
+                "tag": "|MainCollidersNew_PartUprArm1_L",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_ARM1",
+                "offset": [
+                    0.037739299,
+                    0.0083557405,
+                    -0.029268499
+                ],
+                "boneB": "GAME_R1_ARM1",
+                "offsetB": [
+                    0.242751,
+                    0.023595,
+                    -0.0072086402
+                ],
+                "radius": 0.13964599,
+                "radiusB": 0.119594,
+                "tag": "|MainCollidersNew_PartUprArm1_R",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_SPINE5",
+                "offset": [
+                    -0.12413237,
+                    0.037842434,
+                    0.079721197
+                ],
+                "boneB": "GAME_C1_SPINE5",
+                "offsetB": [
+                    -0.12847738,
+                    0.037479833,
+                    -0.091835298
+                ],
+                "radius": 0.18000001,
+                "radiusB": 0,
+                "tag": "|MainCollidersNew_PartSpine1",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_SPINE1",
+                "offset": [
+                    -0.0050810562,
+                    0.025148347,
+                    -0.0095301596
+                ],
+                "boneB": "GAME_C1_SPINE1",
+                "offsetB": [
+                    -0.19806701,
+                    -0.008717549,
+                    -0.0146256
+                ],
+                "radius": 0.20346799,
+                "radiusB": 0.2322,
+                "tag": "|MainCollidersNew_PartSpine1A",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_HEAD1",
+                "offset": [
+                    -0.063029297,
+                    0.041794602,
+                    0
+                ],
+                "boneB": "GAME_C1_HEAD1",
+                "offsetB": [
+                    -0.0129448,
+                    -0.052005202,
+                    0
+                ],
+                "radius": 0.117157,
+                "radiusB": 0.075295001,
+                "tag": "|MainCollidersNew_PartHead",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_LEG1",
+                "offset": [
+                    -0.0013415542,
+                    -0.056988355,
+                    -0.015476092
+                ],
+                "boneB": "GAME_R1_LEG1",
+                "offsetB": [
+                    -0.345175,
+                    -0.0086575001,
+                    0.0079995701
+                ],
+                "radius": 0.18464699,
+                "radiusB": 0.2,
+                "tag": "|MainCollidersNew_Leg_R",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_LEG1",
+                "offset": [
+                    -0.0013415568,
+                    -0.05696407,
+                    0.015170726
+                ],
+                "boneB": "GAME_L1_LEG1",
+                "offsetB": [
+                    -0.345175,
+                    -0.0086575001,
+                    -0.0079995701
+                ],
+                "radius": 0.18464699,
+                "radiusB": 0.2,
+                "tag": "|MainCollidersNew_Leg_L",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_SPINE3",
+                "offset": [
+                    0.00086640997,
+                    0.0000051790998,
+                    0.27862
+                ],
+                "boneB": "GAME_C1_SPINE3",
+                "offsetB": [
+                    -0.229269,
+                    0.89100498,
+                    0.51663101
+                ],
+                "radius": 0.079354398,
+                "radiusB": 0.208854,
+                "tag": "|spine3a",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_SPINE3",
+                "offset": [
+                    -0.00064928801,
+                    -0.00000388122,
+                    -0.20879801
+                ],
+                "boneB": "GAME_C1_SPINE3",
+                "offsetB": [
+                    -0.231995,
+                    0.889404,
+                    -0.41298199
+                ],
+                "radius": 0.050000001,
+                "radiusB": 0.20783301,
+                "tag": "|spine3b",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_CLAV1",
+                "offset": [
+                    -0.110856,
+                    -0.034915902,
+                    0.186197
+                ],
+                "boneB": "GAME_L1_CLAV1",
+                "offsetB": [
+                    -0.28554699,
+                    0.305231,
+                    0.117868
+                ],
+                "radius": 0.146789,
+                "radiusB": 0.180829,
+                "tag": "|clvB_L",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_CLAV1",
+                "offset": [
+                    0.110856,
+                    0.034915902,
+                    -0.186197
+                ],
+                "boneB": "GAME_R1_CLAV1",
+                "offsetB": [
+                    0.30148199,
+                    -0.300212,
+                    -0.063636199
+                ],
+                "radius": 0.146789,
+                "radiusB": 0.1663,
+                "tag": "|clvB_R",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_CLAV1",
+                "offset": [
+                    -0.29195899,
+                    0.0012138,
+                    0.018974399
+                ],
+                "boneB": "GAME_L1_CLAV1",
+                "offsetB": [
+                    -0.47553101,
+                    0.382101,
+                    -0.29408899
+                ],
+                "radius": 0.132411,
+                "radiusB": 0.22718699,
+                "tag": "|clvA_L",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_CLAV1",
+                "offset": [
+                    0.29195899,
+                    -0.0012138,
+                    -0.018974399
+                ],
+                "boneB": "GAME_R1_CLAV1",
+                "offsetB": [
+                    0.47553101,
+                    -0.382101,
+                    0.29408899
+                ],
+                "radius": 0.132411,
+                "radiusB": 0.22718699,
+                "tag": "|clvA_R",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_SPINE5",
+                "offset": [
+                    -0.063382201,
+                    -0.00032728899,
+                    -0.33980101
+                ],
+                "boneB": "GAME_C1_SPINE5",
+                "offsetB": [
+                    -0.386619,
+                    0.66873902,
+                    -0.44575399
+                ],
+                "radius": 0.166529,
+                "radiusB": 0.241008,
+                "tag": "|spine5b",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_SPINE5",
+                "offset": [
+                    -0.053847902,
+                    -0.00027805701,
+                    0.32711399
+                ],
+                "boneB": "GAME_C1_SPINE5",
+                "offsetB": [
+                    -0.37282699,
+                    0.65562099,
+                    0.43932599
+                ],
+                "radius": 0.15020201,
+                "radiusB": 0.207169,
+                "tag": "|spine5a",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_HEAD1",
+                "offset": [
+                    -0.100355,
+                    0.066545099,
+                    -0.15000001
+                ],
+                "boneB": "GAME_C1_HEAD1",
+                "offsetB": [
+                    -0.100355,
+                    0.066545099,
+                    0.15000001
+                ],
+                "radius": 0.116866,
+                "radiusB": 0,
+                "tag": "Head01",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            }
+        ]
+    }
+}

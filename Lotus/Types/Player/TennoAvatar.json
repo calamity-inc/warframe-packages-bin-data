@@ -14,7 +14,7 @@
             "_doReportSoundPerceptionOnMov": 0,
             "_innerRadius": 5,
             "_outerRadius": 15,
-            "_intervalMin": 0.35,
+            "_intervalMin": 0.34999999,
             "_intervalMax": 0.75
         },
         "ReplicaRunScriptInstance": 1,
@@ -87,19 +87,19 @@
         "WaterSimParts": [
             {
                 "BoneName": "GAME_C1_HIP1",
-                "PartSize": 0.6,
+                "PartSize": 0.60000002,
                 "RippleIntensity": 2,
                 "CheckForBelowSurface": 1
             },
             {
                 "BoneName": "GAME_L1_LEG3",
-                "PartSize": 0.35,
+                "PartSize": 0.34999999,
                 "RippleIntensity": 1,
                 "CheckForBelowSurface": 0
             },
             {
                 "BoneName": "GAME_R1_LEG3",
-                "PartSize": 0.35,
+                "PartSize": 0.34999999,
                 "RippleIntensity": 1,
                 "CheckForBelowSurface": 0
             }
@@ -2741,7 +2741,7 @@
             ]
         },
         "AimGravityRechargeRate": 1,
-        "AimGravityCoolOffRatio": 0.18,
+        "AimGravityCoolOffRatio": 0.18000001,
         "VelocitySound": {
             "VelocitySound": "/Lotus/Sounds/Characters/Tenno/Foley/TennoFallWindWhoosh",
             "VelocitySoundRangeExponent": 0.5,
@@ -2920,7 +2920,7 @@
             {
                 "UpgradeType": "AVATAR_MOVEMENT_SPEED",
                 "OperationType": "ADD",
-                "Value": 0.3,
+                "Value": 0.30000001,
                 "ValidType": "",
                 "DamageType": "DT_ANY",
                 "SymbolFilter": "",

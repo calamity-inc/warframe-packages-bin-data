@@ -14,11 +14,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -47,7 +47,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -242,11 +242,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.35,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.34999999,
                         "DT_SLASH": 0.25,
                         "Amount": 40,
-                        "ProcChance": 0.05,
+                        "ProcChance": 0.050000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -403,7 +403,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -598,11 +598,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.35,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.34999999,
                         "DT_SLASH": 0.25,
                         "Amount": 80,
-                        "ProcChance": 0.05,
+                        "ProcChance": 0.050000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -749,7 +749,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -827,9 +827,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 20,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -975,6 +975,6 @@
         ],
         "BatteryRegenRate": 20,
         "HeavyBatteryRegenRate": 20,
-        "OmegaAttenuation": 0.7
+        "OmegaAttenuation": 0.69999999
     }
 }

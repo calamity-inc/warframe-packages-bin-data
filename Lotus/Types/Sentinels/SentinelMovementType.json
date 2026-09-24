@@ -2,24 +2,24 @@
     "parent": "/Lotus/Types/Game/SentinelMovementType",
     "data": {
         "OwnerLocalOffset": [
-            -0.15,
+            -0.15000001,
             0.2,
             0.1
         ],
         "ObstacleAvoidanceOffset": [
-            -0.05,
+            -0.050000001,
             -0.2,
-            -0.4
+            -0.40000001
         ],
         "LeashTolerance": 0.1,
         "VelocityNoise": [
             0.25,
             0.25,
             0.25,
-            0.05
+            0.050000001
         ],
         "MaxForce": 120,
-        "Damping": 0.9,
+        "Damping": 0.89999998,
         "SmoothLag": 0.1,
         "PanicDistanceThreshold": 6,
         "TimeBeforePanicTeleport": 5

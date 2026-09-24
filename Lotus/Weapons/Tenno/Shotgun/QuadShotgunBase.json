@@ -9,8 +9,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    -0.043619,
-                    0.999048
+                    -0.043618999,
+                    0.99904799
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "QuadShotgunAttachment"
@@ -18,13 +18,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
-            0.05,
+            0.050000001,
+            0.050000001,
             0.1
         ],
         "HolsterBone1Rotation": [
-            -0.707107,
-            -0.707107,
+            -0.70710677,
+            -0.70710677,
             0,
             0
         ],
@@ -41,12 +41,12 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "GripPositionOffset": [
             -0.048,
-            -0.038,
+            -0.037999999,
             0.1
         ],
         "Behaviors": [
@@ -64,7 +64,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -204,9 +204,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.15,
-                        "DT_PUNCTURE": 0.65,
-                        "DT_SLASH": 0.2,
+                        "DT_IMPACT": 0.15000001,
+                        "DT_PUNCTURE": 0.64999998,
+                        "DT_SLASH": 0.20000005,
                         "Amount": 75,
                         "ProcChance": 0.25,
                         "ForcedProcs": [],
@@ -228,7 +228,7 @@
                     ],
                     "damageFallOffMinDamage": 15,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.26,
+                    "PvpDamageMultiplier": 0.25999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 1500,
                     "additionalForce": [

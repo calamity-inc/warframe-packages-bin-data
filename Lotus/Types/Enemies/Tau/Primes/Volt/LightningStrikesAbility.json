@@ -9,21 +9,25 @@
             "Function": "ActivateAbility",
             "_strikeDelay": 1.5,
             "_strikeDamages": [
-                35,
-                35,
-                35
+                15,
+                15,
+                15
             ],
             "_trackingTime": 4,
             "_lightningChargeFx": "/Lotus/Fx/Enemies/Eximus/Volt/VoltEximusLightningStrikeWarningDeco",
             "_lightningStrikeFx": "/Lotus/Fx/Enemies/Eximus/Volt/VoltEximusLightningStrikeBurst",
             "_lightnigStrikeZoneFx": "/Lotus/Fx/Enemies/Eximus/Volt/VoltEximusImpactSoftClipFX",
             "_lightningHitAttachFX": "/Lotus/Fx/Enemies/Eximus/Volt/VoltEximusAbilityFXProj",
-            "_abilityStartCastFX": "/Lotus/Fx/Enemies/Eximus/Volt/VoltEximusAbilityFXDeco"
+            "_abilityStartCastFX": "/Lotus/Fx/Enemies/Eximus/Volt/VoltEximusAbilityFXDeco",
+            "_ignoreTargetTypes": [
+                "/Lotus/Types/Friendly/Agents/BaseDefendableAvatar"
+            ]
         },
         "CooldownDuration": 25,
         "EnergyRequiredToActivate": 0,
         "PvpEnergyRequiredToActivate": 0,
         "AllowOnZipLines": 1,
-        "ActivationXP": 25
+        "ActivationXP": 25,
+        "CastSound": "/Lotus/Sounds/Enemies/Eximus/Volt/EximusVoltLightningStrikeCast"
     }
 }

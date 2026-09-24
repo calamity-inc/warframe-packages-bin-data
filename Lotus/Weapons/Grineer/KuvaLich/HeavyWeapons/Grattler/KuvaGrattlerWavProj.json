@@ -29,12 +29,12 @@
         "PhysicsBehavior": "/EE/Types/Physics/KinematicQuery",
         "AttackData": {
             "DT_IMPACT": 0.1,
-            "DT_PUNCTURE": 0.8,
-            "DT_SLASH": 0.1,
+            "DT_PUNCTURE": 0.80000001,
+            "DT_SLASH": 0.099999964,
             "Amount": 140,
-            "ProcChance": 0.27
+            "ProcChance": 0.27000001
         },
-        "CriticalChance": 0.27,
+        "CriticalChance": 0.27000001,
         "CriticalMultiplier": 2,
         "DamageFallOff": [
             1000,
@@ -43,7 +43,7 @@
         "DamageFallOffMinDamage": 150,
         "ExplosiveAttack": {
             "Amount": 235,
-            "ProcChance": 0.27
+            "ProcChance": 0.27000001
         },
         "ForcedSourceProcs": [
             "PT_KNOCKBACK",
@@ -53,11 +53,11 @@
             "PT_BIG_STAGGER"
         ],
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplosionIgnoreCover": 0,
-        "ExplosionFallOff": 0.7,
+        "ExplosionFallOff": 0.69999999,
         "DamageRadius": 9,
         "DieEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXFueledMediumCheap",
         "DieSound": "/Lotus/Sounds/Weapons/Archwing/Primary/ArchAntiAircraftGun/KuvaGrattler/KuvaGrattlerProjExplosion",
@@ -67,7 +67,7 @@
             0
         ],
         "IgnoreCollisionsWithSameType": 1,
-        "MaxLife": 0.9,
+        "MaxLife": 0.89999998,
         "KinematicMovement": 1,
         "KinematicAccel": 250,
         "KinematicInitialSpeed": 250,

@@ -94,8 +94,8 @@
         ],
         "AttackData": {
             "DT_IMPACT": 0.14,
-            "DT_PUNCTURE": 0.8,
-            "DT_SLASH": 0.06,
+            "DT_PUNCTURE": 0.80000001,
+            "DT_SLASH": 0.060000002,
             "Amount": 0,
             "ProcChance": 0.2,
             "HitType": "DHT_PROJECTILE"
@@ -134,10 +134,10 @@
         "HorizontalImpulse": 75,
         "AllowPuncture": 0,
         "KinematicMovement": 1,
-        "KinematicPostCollisionsSpeedFactor": 0.4,
+        "KinematicPostCollisionsSpeedFactor": 0.40000001,
         "KinematicInitialSpeed": 50,
         "KinematicMaxSpeed": 150,
-        "KinematicNoise": 0.03,
+        "KinematicNoise": 0.029999999,
         "KinematicGravity": 1,
         "KinematicGravityMultiplier": 0.17,
         "KinematicRestitution": 0,
@@ -145,10 +145,10 @@
         "SweepRadius": 0,
         "InstantTurn": 1,
         "BaseRotation": [
-            -0.707107,
+            -0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "KinematicIgnoredTypes": [
             "/Lotus/Types/Game/PickUps/LotusPickUp"

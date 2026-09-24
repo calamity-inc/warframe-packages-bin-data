@@ -4,7 +4,7 @@
         "Mesh": "/Lotus/Characters/Wildlife/EphemeraBat/EphemeraBat_skel.fbx",
         "NearCullDistance": 1,
         "CullDistance": 20,
-        "CullDissolveRatio": 0.4,
+        "CullDissolveRatio": 0.40000001,
         "DissolveOverride": "/Lotus/Fx/Common/WrapTextureA_d.png",
         "AutoSimChildren": [
             {
@@ -38,8 +38,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    -0.707107,
-                    0.707107
+                    -0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_BUTTERFLYRWING1",
                 "Type": "BatsEphemeraBatTrail",
@@ -60,8 +60,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_L1_BUTTERFLYLWING1",
                 "Type": "BatsEphemeraBatTrail",
@@ -95,7 +95,7 @@
             30,
             20,
             15,
-            0.4
+            0.40000001
         ],
         "AcceptsHitEffects": 0,
         "RandomMeshScale": [
@@ -109,8 +109,8 @@
                 "TimeLength": 3,
                 "Multiplier": 1,
                 "FadeRange": [
-                    0.15,
-                    0.3
+                    0.15000001,
+                    0.30000001
                 ],
                 "FadeCurve": {
                     "Values": [],
@@ -140,7 +140,7 @@
                 },
                 {
                     "Time": 0.5,
-                    "Value": 0.423988
+                    "Value": 0.42398801
                 },
                 {
                     "Time": 1,

@@ -32,7 +32,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -131,8 +131,8 @@
                     "chargedProjectileType": "",
                     "projectileLaunchOffset": [
                         0,
-                        0.05,
-                        -0.4
+                        0.050000001,
+                        -0.40000001
                     ],
                     "SequentialProjectileLaunchDirectionOffsets": [],
                     "UpdateFirePositionPerIteration": 0,
@@ -188,8 +188,8 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.2,
-                        "DT_PUNCTURE": 0.7,
-                        "DT_SLASH": 0.1,
+                        "DT_PUNCTURE": 0.69999999,
+                        "DT_SLASH": 0.10000002,
                         "Amount": 3,
                         "ProcChance": 0.02,
                         "ForcedProcs": [],

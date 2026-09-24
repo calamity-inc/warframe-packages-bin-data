@@ -2,19 +2,19 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Conservation/SvBurrowedAnimalChunks_skel.fbx",
-        "MeshScale": 0.7,
+        "MeshScale": 0.69999999,
         "OverrideMaterial": [
             "BoneBladeMoundMat"
         ],
         "DissolveOverride": "/Lotus/Fx/Common/WrapTextureA_d.png",
         "UseParentVisibility": 0,
         "AmbientAnimation": "/Lotus/Fx/Conservation/SvBurrowedAnimalChunksJiggleIdle_anim.fbx",
-        "AmbientAnimationRate": 0.8,
+        "AmbientAnimationRate": 0.80000001,
         "TriggeredAnimationRate": 1.6,
         "TriggeredAnimation": "/Lotus/Fx/Conservation/SvBurrowedAnimalChunksTransIn",
         "PlayTriggeredAnimOnStart": 1,
         "RandomMeshScale": [
-            0.8,
+            0.80000001,
             1.3
         ],
         "MaterialFade": [
@@ -43,7 +43,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,

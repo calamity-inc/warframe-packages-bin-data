@@ -27,7 +27,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -39,7 +39,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.3,
+                                    0.30000001,
                                     1
                                 ],
                                 "burstPauseTime": [
@@ -259,7 +259,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.55,
+                    "PvpDamageMultiplier": 0.55000001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -291,7 +291,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 1.5,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -408,7 +408,7 @@
                 ]
             }
         ],
-        "OmegaAttenuation": 0.95,
+        "OmegaAttenuation": 0.94999999,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Rifle/HybridViral",
         "VariantType": "VT_KUVA"
     }

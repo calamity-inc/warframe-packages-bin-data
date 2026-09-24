@@ -34,8 +34,8 @@
             "/EE/Types/Npc/DynamicPathFollowerHover"
         ],
         "LocomotionController:DynamicPathFollowerHover": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "MinimumMoveDistance": 0.1,
@@ -43,7 +43,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 360,
             "StopWhenTurningAngle": 360,
             "CheckFunnelForTightTurns": 0,
@@ -59,7 +59,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,
@@ -131,7 +131,7 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "AlertDecayTime": 600,
         "SuperAlertRadius": 20000,
         "SuperAlertDecayTime": 600,

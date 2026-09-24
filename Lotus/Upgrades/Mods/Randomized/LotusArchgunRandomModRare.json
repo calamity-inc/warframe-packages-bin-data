@@ -64,22 +64,22 @@
                         "Complication": "/Lotus/Types/Challenges/Complications/EquippedSpeedDebuffKey"
                     },
                     {
-                        "Weight": 0.15,
+                        "Weight": 0.15000001,
                         "Multiplier": 2,
                         "Complication": "/Lotus/Types/Challenges/Complications/ResetOnGearHealthRestores"
                     },
                     {
-                        "Weight": 0.15,
+                        "Weight": 0.15000001,
                         "Multiplier": 2,
                         "Complication": "/Lotus/Types/Challenges/Complications/ResetOnGearShieldRestores"
                     },
                     {
-                        "Weight": 0.15,
+                        "Weight": 0.15000001,
                         "Multiplier": 2,
                         "Complication": "/Lotus/Types/Challenges/Complications/ResetOnGearAmmoRestores"
                     },
                     {
-                        "Weight": 0.15,
+                        "Weight": 0.15000001,
                         "Multiplier": 2,
                         "Complication": "/Lotus/Types/Challenges/Complications/ResetOnGearEnergyRestores"
                     },
@@ -101,7 +101,7 @@
                         "Upgrade": {
                             "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": 0.01,
+                            "Value": 0.0099999998,
                             "DamageType": "DT_PUNCTURE",
                             "AutoType": 1,
                             "ValidType": "",
@@ -195,7 +195,7 @@
                         "Upgrade": {
                             "UpgradeType": "WEAPON_CRIT_DAMAGE",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": 0.0089,
+                            "Value": 0.0088999998,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -426,7 +426,7 @@
                         "Upgrade": {
                             "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": 0.01,
+                            "Value": 0.0099999998,
                             "DamageType": "DT_IMPACT",
                             "AutoType": 1,
                             "ValidType": "",
@@ -520,7 +520,7 @@
                         "Upgrade": {
                             "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": 0.01,
+                            "Value": 0.0099999998,
                             "DamageType": "DT_SLASH",
                             "AutoType": 1,
                             "ValidType": "",
@@ -569,7 +569,7 @@
                         "Upgrade": {
                             "UpgradeType": "WEAPON_PROC_CHANCE",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": 0.0067,
+                            "Value": 0.0066999998,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -706,7 +706,7 @@
                         "Upgrade": {
                             "UpgradeType": "WEAPON_CLIP_MAX",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": 0.0067,
+                            "Value": 0.0066999998,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -796,7 +796,7 @@
                         "Upgrade": {
                             "UpgradeType": "WEAPON_FIRE_ITERATIONS",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": 0.0067,
+                            "Value": 0.0066999998,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -841,7 +841,7 @@
                         "Upgrade": {
                             "UpgradeType": "WEAPON_PUNCTURE_DEPTH",
                             "OperationType": "ADD",
-                            "Value": 0.03,
+                            "Value": 0.029999999,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -886,7 +886,7 @@
                         "Upgrade": {
                             "UpgradeType": "WEAPON_RECOIL",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": -0.01,
+                            "Value": -0.0099999998,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -976,7 +976,7 @@
                         "Upgrade": {
                             "UpgradeType": "GAMEPLAY_FACTION_DAMAGE",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": 0.005,
+                            "Value": 0.0049999999,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -998,7 +998,7 @@
                             "DisplayAsPercent": 0,
                             "ReverseValueSymbol": 0,
                             "SmallerIsBetter": 0,
-                            "RoundTo": 0.01,
+                            "RoundTo": 0.0099999998,
                             "RoundingMode": "RM_ROUND",
                             "AllowConditionalLocMerge": 0
                         }
@@ -1021,7 +1021,7 @@
                         "Upgrade": {
                             "UpgradeType": "GAMEPLAY_FACTION_DAMAGE",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": 0.005,
+                            "Value": 0.0049999999,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -1043,7 +1043,7 @@
                             "DisplayAsPercent": 0,
                             "ReverseValueSymbol": 0,
                             "SmallerIsBetter": 0,
-                            "RoundTo": 0.01,
+                            "RoundTo": 0.0099999998,
                             "RoundingMode": "RM_ROUND",
                             "AllowConditionalLocMerge": 0
                         }
@@ -1113,12 +1113,12 @@
             {
                 "ItemType": "/Lotus/Weapons/Grineer/HeavyWeapons/GrnHeavyGrenadeLauncher",
                 "Rarity": "COMMON",
-                "Attenuation": 0.95
+                "Attenuation": 0.94999999
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler",
                 "Rarity": "NONE",
-                "Attenuation": 0.7
+                "Attenuation": 0.69999999
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchBurstGun/ArchBurstGun",
@@ -1148,7 +1148,7 @@
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandal",
                 "Rarity": "NONE",
-                "Attenuation": 0.95
+                "Attenuation": 0.94999999
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon",
@@ -1158,17 +1158,17 @@
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGun",
                 "Rarity": "COMMON",
-                "Attenuation": 0.7
+                "Attenuation": 0.69999999
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeCorvas/PrimeCorvasWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 0.95
+                "Attenuation": 0.94999999
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 0.8
+                "Attenuation": 0.80000001
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/Railgun/ArchRailgun",

@@ -1,0 +1,67 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "DrippyKeychainSugatra_skel.fbx",
+        "Attached": 1,
+        "ReplicaRunScriptInstance": 1,
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "DrippyKeychainSugatraSkelClothData",
+        "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.082000002,
+                0.091872998
+            ],
+            "collidingDampeningRange": [
+                0.028999999,
+                0.059
+            ],
+            "massRange": [
+                0.19,
+                0.58999997
+            ],
+            "useDistConstraints": 0,
+            "distConstraintRange": [
+                0.0049999999,
+                0.018999999
+            ],
+            "backstopConstraintRange": [
+                0.0099999998,
+                0.02
+            ],
+            "useHardConstraints": 1,
+            "reduceStretchExponent": 0.28999999,
+            "shearingStiffness": 0.28999999,
+            "worldVelocitySmooth": 0,
+            "windStrength": [
+                0,
+                0
+            ],
+            "noiseSpeed": 0,
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                1,
+                1,
+                1
+            ],
+            "windVolumeScale": [
+                0.58999997,
+                0.58999997,
+                0.58999997
+            ],
+            "windVolumeOffsetRate": [
+                0.19,
+                0.19,
+                0.19
+            ],
+            "usePeerCollision": 0,
+            "orientationBasis": "NEG_X_Y",
+            "orientationBasisWeighDistance": 1,
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        },
+        "ZoneWindScale": 2
+    }
+}

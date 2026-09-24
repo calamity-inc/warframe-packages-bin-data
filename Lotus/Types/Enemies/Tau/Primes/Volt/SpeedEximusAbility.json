@@ -10,10 +10,11 @@
         "Script": {
             "Script": "SpeedEximus.lua",
             "Function": "ActivateAbility",
-            "_SpeedSound": "/Lotus/Sounds/Enemies/Warframes/VoltPrimeBoss/VoltPrimeBossSpeedDash",
-            "_SpeedEndSound": "/Lotus/Sounds/Enemies/Warframes/VoltPrimeBoss/VoltPrimeBossSpeedDisable",
+            "_SpeedSound": "/Lotus/Sounds/Enemies/Eximus/Volt/EximusVoltSpeedDash",
+            "_SpeedEndSound": "/Lotus/Sounds/Enemies/Eximus/Volt/EximusVoltSpeedDisable",
+            "_SpeedBurstSound": "/Lotus/Sounds/Enemies/Eximus/Volt/EximusVoltSpeedBurst",
             "_SpeedTrail": "/Lotus/Fx/Enemies/Eximus/Volt/VoltEximusSpeedAttach",
-            "_baseSpdMul": 4,
+            "_baseSpdMul": 3.3,
             "_speedMotionController": "VoltEximusSpeedMotionController",
             "_flyerMotionController": "VoltEximusSpeedFlyerMotionController",
             "_eximusAttachFX": ""

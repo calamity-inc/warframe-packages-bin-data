@@ -10,9 +10,9 @@
                 ],
                 "LocalRotation": [
                     0,
-                    0.707107,
+                    0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_BLOCK3",
                 "Type": "Proxies/OctopedeArmSpineProxy",
@@ -33,8 +33,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM1",
                 "Type": "Proxies/OctopedeUpperArmProxy",
@@ -55,8 +55,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_TWIST2",
                 "Type": "Proxies/OctopedeLowerArmProxy",
@@ -70,15 +70,15 @@
             },
             {
                 "LocalPosition": [
-                    0.15,
+                    0.15000001,
                     0.02,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_HAND1",
                 "Type": "Proxies/OctopedeArmHandProxy",
@@ -331,7 +331,7 @@
                             },
                             {
                                 "boneName": "GAME_R1_ARM1",
-                                "probability": 0.3
+                                "probability": 0.30000001
                             }
                         ],
                         "LocalPosition": [
@@ -361,7 +361,7 @@
                             },
                             {
                                 "boneName": "GAME_R1_ARM1",
-                                "probability": 0.3
+                                "probability": 0.30000001
                             }
                         ],
                         "LocalPosition": [
@@ -380,6 +380,6 @@
         "SurfaceHealEffect": {
             "Type": "/Lotus/Fx/Enemies/Zombies/ZombieHealProjectorInf"
         },
-        "SurfaceHealPerSecondPct": 0.05
+        "SurfaceHealPerSecondPct": 0.050000001
     }
 }

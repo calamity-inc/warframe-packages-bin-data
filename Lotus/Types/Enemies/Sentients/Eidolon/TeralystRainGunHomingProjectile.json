@@ -12,9 +12,9 @@
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.03,
-                    0.3,
-                    0.0053,
+                    0.029999999,
+                    0.30000001,
+                    0.0052999998,
                     1
                 ]
             },
@@ -23,7 +23,7 @@
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.45,
+                    0.44999999,
                     1,
                     0.44,
                     0
@@ -61,11 +61,11 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/WeaponAttachments/CrpAirPistolArray.lua",
             "Function": "ProjScale",
-            "_timeLength": 0.33,
+            "_timeLength": 0.33000001,
             "_startScale": 0.1,
             "_endScale": 5,
             "_startUnlit": 2,
-            "_endUnlit": 0.05
+            "_endUnlit": 0.050000001
         },
         "ReplicaRunScriptInstance": 1,
         "AttackData": {
@@ -119,7 +119,7 @@
         "ProjectileReplication": "SYNCED_AUTONOMOUS",
         "ApplyColorCustomization": 1,
         "ForwardVel": 30,
-        "UnguidedFlightTime": 0.3,
+        "UnguidedFlightTime": 0.30000001,
         "AimRate": 100,
         "ReducedAimRate": 100,
         "SeekAllEntities": 1,

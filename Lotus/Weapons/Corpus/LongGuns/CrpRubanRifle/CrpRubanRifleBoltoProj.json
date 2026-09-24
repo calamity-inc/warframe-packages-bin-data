@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Weapons/BoltoProjectile",
     "data": {
         "Mesh": "CrpRubanRifleArrow.fbx",
-        "MeshScale": 0.6,
+        "MeshScale": 0.60000002,
         "AutoSimChildren": [
             {
                 "LocalPosition": [
@@ -34,9 +34,9 @@
                 ],
                 "LocalRotation": [
                     0,
-                    0.707107,
+                    0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Basic/Energy/Muzzle/EnergyProjectileTrail",
@@ -55,10 +55,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Basic/Energy/Muzzle/EnergyProjectileTrailEmbers",
@@ -74,13 +74,13 @@
         "ReplicationOverride": "RO_NEVER",
         "AttackData": {
             "DT_IMPACT": 0.14,
-            "DT_PUNCTURE": 0.32,
-            "DT_SLASH": 0.54,
+            "DT_PUNCTURE": 0.31999999,
+            "DT_SLASH": 0.54000002,
             "Amount": 52,
             "ProcChance": 0.22
         },
         "DealDamageThroughImpactBehavior": 0,
-        "CriticalChance": 0.24,
+        "CriticalChance": 0.23999999,
         "CriticalMultiplier": 1.8,
         "HitEffect": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitEffectLargeThin",
         "WhizzBySound": "/Lotus/Sounds/Weapons/BulletImpacts/Whizzbys/LaserWhizzby",

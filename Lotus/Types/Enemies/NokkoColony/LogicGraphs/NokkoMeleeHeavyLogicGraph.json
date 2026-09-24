@@ -694,7 +694,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -712,7 +712,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8
@@ -877,7 +877,7 @@
                     "DefaultReevaluationDelay": 0,
                     "DistFromNav": 4,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "NearDistance": 5,
@@ -1129,7 +1129,7 @@
                         "StopMovingWhenAttacking": 0,
                         "DisablePostureChangers": 0,
                         "TimeBetweenLunges": 2,
-                        "LowTargetThreshold": 0.8,
+                        "LowTargetThreshold": 0.80000001,
                         "NormalAttack": "MELEE",
                         "LowAttack": "MELEE",
                         "ClearCoverReservationOnStart": 0,
@@ -1137,7 +1137,7 @@
                         "VipAvatarType": "/Lotus/Types/Friendly/Agents/DefenseAvatar",
                         "TimeBetweenBarks": 2,
                         "VisibilityTimeout": 1.2,
-                        "MaxReachableHeight": -9223372036854775808.0,
+                        "MaxReachableHeight": "3.4028235e+38",
                         "Bark": "ATTACK_SCREAM",
                         "IsOffHandWeapon": 0
                     },
@@ -1643,7 +1643,7 @@
                     },
                     "DefaultReevaluationDelay": 0,
                     "StopRadius": 0.5,
-                    "NearDistance": 0.8,
+                    "NearDistance": 0.80000001,
                     "SpeedMultiplier": 1.2,
                     "AlertSpeedMultiplier": 1.2,
                     "AimWhenIdle": 0,
@@ -1696,7 +1696,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 1,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,
@@ -2067,7 +2067,7 @@
                     "StopMovingWhenAttacking": 0,
                     "DisablePostureChangers": 0,
                     "TimeBetweenLunges": 2,
-                    "LowTargetThreshold": 0.8,
+                    "LowTargetThreshold": 0.80000001,
                     "NormalAttack": "MELEE",
                     "LowAttack": "MELEE",
                     "ClearCoverReservationOnStart": 0,
@@ -2075,7 +2075,7 @@
                     "VipAvatarType": "/Lotus/Types/Friendly/Agents/DefenseAvatar",
                     "TimeBetweenBarks": 2,
                     "VisibilityTimeout": 0,
-                    "MaxReachableHeight": -9223372036854775808.0,
+                    "MaxReachableHeight": "3.4028235e+38",
                     "Bark": "ATTACK_SCREAM",
                     "IsOffHandWeapon": 0
                 },

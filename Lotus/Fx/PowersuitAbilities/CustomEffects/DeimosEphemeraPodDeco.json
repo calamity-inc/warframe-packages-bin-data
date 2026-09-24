@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Ice/IceChunkMeshC.fbx",
-        "MeshScale": 0.03,
+        "MeshScale": 0.029999999,
         "OverrideMaterial": [
             "DeimosEphemeraPodDecoMat"
         ],
@@ -20,7 +20,7 @@
                 "Multiplier": 1,
                 "FadeRange": [
                     0.1,
-                    0.3
+                    0.30000001
                 ],
                 "FadeCurve": {
                     "Values": [],
@@ -37,7 +37,7 @@
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
                 "TimeLength": 1.6,
-                "Multiplier": 0.05,
+                "Multiplier": 0.050000001,
                 "FadeRange": [
                     1,
                     1
@@ -46,7 +46,7 @@
                     "Values": [],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.03,
+                "BaseValue": 0.029999999,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,

@@ -72,7 +72,7 @@
         "AttackData": {
             "Type": "DT_IMPACT",
             "Amount": 200,
-            "ProcChance": 0.33,
+            "ProcChance": 0.33000001,
             "ForcedProcs": [
                 "PT_KNOCKBACK",
                 "PT_VOID"
@@ -90,7 +90,7 @@
         "ExplosiveAttack": {
             "Type": "DT_RADIANT",
             "Amount": 2600,
-            "ProcChance": 0.33
+            "ProcChance": 0.33000001
         },
         "ForcedSourceProcs": [
             "PT_IMMOLATION",
@@ -99,7 +99,7 @@
             "PT_KNOCKED_DOWN"
         ],
         "ExplosionIgnoreSource": 1,
-        "ExplosionFallOff": 0.3,
+        "ExplosionFallOff": 0.30000001,
         "DamageRadius": 2.5,
         "HitEffect": "/Lotus/Fx/Weapons/Operator/Corpus/CrpAmpChassisAHitEffect",
         "DieEffectOffset": [
@@ -120,7 +120,7 @@
             "Type": "DT_PHYSICAL",
             "DT_IMPACT": 0,
             "DT_PUNCTURE": 0.22,
-            "DT_SLASH": 0.78,
+            "DT_SLASH": 0.77999997,
             "Amount": 100,
             "ProcChance": 0.22,
             "ForcedProcs": [
@@ -131,7 +131,7 @@
         "KinematicMaxSpeed": 80,
         "KinematicNoise": 0.1,
         "KinematicGravity": 1,
-        "KinematicGravityMultiplier": 0.3,
+        "KinematicGravityMultiplier": 0.30000001,
         "ApplyColorCustomization": 1
     }
 }

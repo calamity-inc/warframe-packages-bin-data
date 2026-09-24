@@ -10,10 +10,10 @@
                     0.16
                 ],
                 "LocalRotation": [
-                    -0.766044,
+                    -0.76604402,
                     0,
                     0,
-                    0.642788
+                    0.64278799
                 ],
                 "BoneName": "GAME_C1_HIP1",
                 "Type": "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/TauDaxWakizashiAttachment",
@@ -32,10 +32,10 @@
                     0.16
                 ],
                 "LocalRotation": [
-                    -0.766044,
+                    -0.76604402,
                     0,
                     0,
-                    0.642788
+                    0.64278799
                 ],
                 "BoneName": "GAME_C1_HIP1",
                 "Type": "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/GeminiWakizashiSheathAttachment",
@@ -81,6 +81,28 @@
                     0,
                     1
                 ],
+                "BoneName": "GAME_C1_HEAD1",
+                "Type": "/Lotus/Characters/Dax/DaxMasks/DaxFemaleMaskDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
                 "BoneName": "",
                 "Type": "/Lotus/Characters/Tenno/Outcast/DaxFemaleHeadDeco",
                 "Chance": 255,
@@ -98,10 +120,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.008727,
+                    -0.0087270001,
                     0,
                     0,
-                    0.999962
+                    0.99996197
                 ],
                 "BoneName": "GAME_C1_HIP1",
                 "Type": "/Lotus/Characters/Tenno/Outcast/Cloth/DaxFemaleSkirtSkeletalCloth",
@@ -117,7 +139,7 @@
         "Icon": "/Lotus/Interface/Icons/Npcs/Tau/AnarchTauDaxSwordsmanFemale.png",
         "VoiceBox": "/Lotus/Sounds/Dialog/Barks/Battle/Tau/Dax/TauDaxKnight/TauDaxKnightFemaleEmpireVoiceBox",
         "Randomizer:RandomizationScript": {
-            "_noCapeChance": 0.7,
+            "_noCapeChance": 0.69999999,
             "_capeTable": [],
             "_accessoryLeft": [],
             "_accessoryRight": [],

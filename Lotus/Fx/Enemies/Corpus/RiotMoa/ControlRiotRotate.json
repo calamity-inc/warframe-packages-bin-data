@@ -4,7 +4,7 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/Effects/RiotMoaEffects.lua",
             "Function": "ControlMoaRotationEffect",
-            "_baseValue": 0.05,
+            "_baseValue": 0.050000001,
             "_decoType": "ControlRiotEnergyBaseDeco"
         },
         "ReplicaRunScriptInstance": 1,
@@ -39,14 +39,14 @@
                 ],
                 "LocalPosition": [
                     0,
-                    0.32,
+                    0.31999999,
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "PositionDeviation": [
                     0,
@@ -73,6 +73,6 @@
         "ColorCorrectionRadius": 10,
         "ColorCorrectionFadeInTime": 0.1,
         "ColorCorrectionDuration": 0.5,
-        "ColorCorrectionFadeOutTime": 0.3
+        "ColorCorrectionFadeOutTime": 0.30000001
     }
 }

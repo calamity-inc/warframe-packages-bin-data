@@ -3,7 +3,7 @@
     "data": {
         "PostProcessInfo": {
             "dynamicExposure": [
-                0.7,
+                0.69999999,
                 8
             ],
             "colorGrading": "/Lotus/Fx/ColorGradingData/NeutralColorGrading",
@@ -16,7 +16,7 @@
             ],
             "focalBlur": 0.5,
             "horizonDOF": 0.5,
-            "horizonRadius": 0.35,
+            "horizonRadius": 0.34999999,
             "fogColor": [
                 123,
                 123,
@@ -74,6 +74,7 @@
             "Script": "/Lotus/Scripts/ProceduralSpawnSetup.lua",
             "Function": "SpawnSetup",
             "_spawnOverrideTag": "",
+            "_cinOverrideString": "",
             "_enableSpawnPoints": 1,
             "_spawnZoneIndexOverride": 0
         },
@@ -91,7 +92,7 @@
                 "/Lotus/Types/PickUps/LootContainers/CorpusLootCrateUncommon"
             ],
             "_itemProbability": [
-                0.8,
+                0.80000001,
                 0.2
             ],
             "_itemTypesSecondary": [],
@@ -114,6 +115,7 @@
                 0.5,
                 0.5
             ],
+            "_barrelTags": [],
             "_barrelMinLevel": [
                 0
             ],
@@ -158,12 +160,13 @@
             "_ultraRareLootWaypointType": "/Lotus/Types/LevelObjects/UltraRareLootCrateWaypoint",
             "_ultraRareCrateType": "/Lotus/Types/PickUps/UltraRareCorpusLootCrate",
             "_altUltraRareCrateType": "",
-            "_ultraRareLootChance": 0.005,
+            "_ultraRareLootChance": 0.0049999999,
             "_floatingCrateWaypointType": "",
             "_floatingCrateTypes": [],
             "_numFloatingCrates": 25,
             "_moonFissureType": "",
             "_disableSpawnedLoot": 0,
+            "_disableFusionTreasures": 0,
             "_disableLockers": 0,
             "_disableCrateLootDrops": 0,
             "_isOpenSpace": 0,
@@ -198,6 +201,7 @@
             "_barrelProbability": [
                 1
             ],
+            "_barrelTags": [],
             "_barrelMinLevel": [
                 0
             ],
@@ -246,6 +250,7 @@
             "_numFloatingCrates": 25,
             "_moonFissureType": "",
             "_disableSpawnedLoot": 0,
+            "_disableFusionTreasures": 0,
             "_disableLockers": 0,
             "_disableCrateLootDrops": 0,
             "_isOpenSpace": 0,

@@ -189,7 +189,7 @@
                 "DefaultReevaluationDelay": 0,
                 "DistFromNav": 4,
                 "MovementSpeedModifier": [
-                    0.8,
+                    0.80000001,
                     1.2
                 ],
                 "NearDistance": 5,
@@ -262,6 +262,7 @@
                 "DefaultReevaluationDelay": 0,
                 "TimeSinceLastSeen": 5,
                 "MaxDistToTarget": 5,
+                "SpeedMultiplier": 1,
                 "ConsiderOrderType": 1,
                 "Order": "StormTarget",
                 "FailsOnTargetAcquired": 1,
@@ -302,7 +303,7 @@
                 ],
                 "ShouldAim": 1,
                 "CanRun": 0,
-                "StopRadius": 4.2,
+                "StopRadius": 4.1999998,
                 "StopSearchIfNoTarget": 0,
                 "StopSearchOnAwarenessLevel": "AW_IDLE",
                 "MaintainedAwarenessLevel": "AW_ALERT",
@@ -454,7 +455,7 @@
                 "ReturnToCoverDamageThreshold": 0.5,
                 "ExitCoverOnDamageDuringWait": 0,
                 "ExitCoverOnDamageDuringWaitDamageThreshold": 0.5,
-                "PushoutFromCrouchDistance": 0.3,
+                "PushoutFromCrouchDistance": 0.30000001,
                 "RequireCover": 0,
                 "SuppressionUnderFireTime": 3,
                 "LookAtTarget": 0,
@@ -481,7 +482,7 @@
                 "LookAtNearbyPlayer": 0,
                 "LookAtTarget": 1,
                 "NearbyTeammatesThreshold": 10,
-                "PlayerBias": 0.6,
+                "PlayerBias": 0.60000002,
                 "ReportAttackOnDamage": 1,
                 "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                 "PatrolBehavior:Enabled": 1,
@@ -531,7 +532,6 @@
                 "RandomWalkBehavior:AimWhenIdle": 0,
                 "RandomWalkBehavior:AimWhenAlert": 1,
                 "RandomWalkBehavior:PermanentAlert": 0,
-                "RandomWalkBehavior:ForceIdleForSinglePointPatrols": 1,
                 "RandomWalkBehavior:AnimAction": "PatrolIdle",
                 "RandomWalkBehavior:GenericAnims": [],
                 "RandomWalkBehavior:MinPlayerDist": [
@@ -719,7 +719,7 @@
                 "CheckArc": 1,
                 "DoTurn": 1,
                 "StopMoving": 1,
-                "Gravity": -9.8,
+                "Gravity": -9.8000002,
                 "FromCoverMinTargetThreat": -5,
                 "FromOpenMinTargetThreat": 0
             },
@@ -756,7 +756,7 @@
                 "ReturnToCoverDamageThreshold": 0.5,
                 "ExitCoverOnDamageDuringWait": 0,
                 "ExitCoverOnDamageDuringWaitDamageThreshold": 0.5,
-                "PushoutFromCrouchDistance": 0.3,
+                "PushoutFromCrouchDistance": 0.30000001,
                 "RequireCover": 0,
                 "SuppressionUnderFireTime": 3,
                 "LookAtTarget": 0,
@@ -828,8 +828,8 @@
                 "_decoType": "ReinforcementBeacon/VenusReinforceBeaconDeco",
                 "_openAnim": "",
                 "_openingAnim": "",
-                "_scaleUpTime": 0.4,
-                "_desiredScale": 0.6,
+                "_scaleUpTime": 0.40000001,
+                "_desiredScale": 0.60000002,
                 "_mainFlareType": "",
                 "_activeFlareType": "",
                 "_alertMarkerType": "",
@@ -1014,7 +1014,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -1032,7 +1032,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8
@@ -1119,6 +1119,7 @@
             "DefaultReevaluationDelay": 0,
             "TimeSinceLastSeen": 5,
             "MaxDistToTarget": 25,
+            "SpeedMultiplier": 1,
             "ConsiderOrderType": 1,
             "Order": "StormTarget",
             "FailsOnTargetAcquired": 1,
@@ -1151,7 +1152,7 @@
             "DefaultReevaluationDelay": 0,
             "DistFromNav": 4,
             "MovementSpeedModifier": [
-                0.8,
+                0.80000001,
                 1.2
             ],
             "NearDistance": 5,
@@ -1307,7 +1308,7 @@
                 ],
                 "ShouldAim": 1,
                 "CanRun": 1,
-                "StopRadius": 4.2,
+                "StopRadius": 4.1999998,
                 "StopSearchIfNoTarget": 0,
                 "StopSearchOnAwarenessLevel": "AW_IDLE",
                 "MaintainedAwarenessLevel": "AW_ALERT",
@@ -1452,7 +1453,7 @@
                     "LastDamagedWindow": 5,
                     "DistanceToTarget": 25,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1
                     ],
                     "SeekCoverDelayOnFail": 1,
@@ -1503,7 +1504,7 @@
                     "CheckArc": 1,
                     "DoTurn": 1,
                     "StopMoving": 1,
-                    "Gravity": -9.8,
+                    "Gravity": -9.8000002,
                     "FromCoverMinTargetThreat": -5,
                     "FromOpenMinTargetThreat": 0
                 },
@@ -1522,7 +1523,7 @@
                         5
                     ],
                     "MinShots": 1,
-                    "MaxHealth": 0.4,
+                    "MaxHealth": 0.40000001,
                     "CrouchCoverOnly": 1
                 },
                 "ControlledShootBehavior": {
@@ -1558,7 +1559,7 @@
                     "ReturnToCoverDamageThreshold": 0.5,
                     "ExitCoverOnDamageDuringWait": 0,
                     "ExitCoverOnDamageDuringWaitDamageThreshold": 0.5,
-                    "PushoutFromCrouchDistance": 0.3,
+                    "PushoutFromCrouchDistance": 0.30000001,
                     "RequireCover": 1,
                     "SuppressionUnderFireTime": 3,
                     "LookAtTarget": 0,
@@ -1637,7 +1638,7 @@
                 "CheckArc": 1,
                 "DoTurn": 1,
                 "StopMoving": 1,
-                "Gravity": -9.8,
+                "Gravity": -9.8000002,
                 "FromCoverMinTargetThreat": -5,
                 "FromOpenMinTargetThreat": 0
             },
@@ -1654,7 +1655,7 @@
                 "MinStrafeDistance": 0,
                 "StopRadius": 0.5,
                 "MovementSpeedModifier": [
-                    0.8,
+                    0.80000001,
                     1.2
                 ],
                 "MovementLineOfFireScoring": 0,
@@ -1672,7 +1673,7 @@
                     0
                 ],
                 "MinAngleToTurn": 40,
-                "MinAimMask": 0.9,
+                "MinAimMask": 0.89999998,
                 "TargetNotVisibleTimeoutRange": [
                     6,
                     8
@@ -2301,7 +2302,7 @@
             "nearbyNavSearchRadius": 4,
             "useAvoidance": 1
         },
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "IsCoverUseEnabled": 1,
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",
         "TargetEvaluatorType": "/Lotus/Types/Enemies/RangedTargetEvaluator"

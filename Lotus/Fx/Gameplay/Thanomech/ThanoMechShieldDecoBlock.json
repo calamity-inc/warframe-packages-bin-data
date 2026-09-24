@@ -1,7 +1,7 @@
 {
     "parent": "/Lotus/Fx/Weapons/Melee/Clean/Trails/MeleeBlockFistDeco",
     "data": {
-        "MeshScale": 0.045,
+        "MeshScale": 0.045000002,
         "OverrideMaterial": [
             "ThanoMechShieldMat"
         ],
@@ -26,7 +26,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 60,
                 "FadeRange": [
                     0,
@@ -39,7 +39,7 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.4,
+                            "Time": 0.40000001,
                             "Value": 0.1
                         },
                         {
@@ -60,7 +60,7 @@
                 "Parameter": "",
                 "Slot": -1,
                 "TimeLength": 0.5,
-                "Multiplier": 0.05,
+                "Multiplier": 0.050000001,
                 "FadeRange": [
                     1,
                     1
@@ -69,7 +69,7 @@
                     "Values": [],
                     "SplineType": "CUBIC_SPLINE"
                 },
-                "BaseValue": 0.08,
+                "BaseValue": 0.079999998,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
@@ -93,7 +93,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.8
+                            "Value": 0.80000001
                         },
                         {
                             "Time": 1,

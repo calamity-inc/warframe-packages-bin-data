@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/Priest/FlowingChains.fbx",
-        "MeshScale": 0.9,
+        "MeshScale": 0.89999998,
         "OverrideMaterial": [
             "RellGhostChainVolMat"
         ],
@@ -15,7 +15,7 @@
                 "value": 0,
                 "value1": -0.5,
                 "value2": 1,
-                "value3": 0.6
+                "value3": 0.60000002
             },
             {
                 "name": "TintColor",
@@ -53,8 +53,8 @@
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.3,
-                "Multiplier": 0.9,
+                "TimeLength": 0.30000001,
+                "Multiplier": 0.89999998,
                 "FadeRange": [
                     1,
                     1
@@ -74,7 +74,7 @@
         "TriggeredMaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,

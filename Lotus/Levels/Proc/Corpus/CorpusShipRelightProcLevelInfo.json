@@ -6,6 +6,7 @@
             "Script": "/Lotus/Scripts/ProceduralSpawnSetup.lua",
             "Function": "SpawnSetup",
             "_spawnOverrideTag": "",
+            "_cinOverrideString": "",
             "_enableSpawnPoints": 1,
             "_spawnZoneIndexOverride": 0
         },
@@ -23,7 +24,7 @@
                 "/Lotus/Types/PickUps/LootContainers/CorpusLootCrateUncommon"
             ],
             "_itemProbability": [
-                0.8,
+                0.80000001,
                 0.2
             ],
             "_itemTypesSecondary": [],
@@ -41,11 +42,9 @@
             "_barrelTypes": [
                 "/Lotus/Objects/ExplodingBarrel",
                 "/Lotus/Objects/ExplodingBarrelFrozen",
-                "/Lotus/Objects/Guild/GasCityRemaster/Props/CrpExplodingBarrelGas",
-                "/Lotus/Objects/Guild/GasCityRemaster/Props/CrpExplodingBarrelRadiation"
+                "/Lotus/Objects/Guild/GasCityRemaster/Props/CrpExplodingBarrelGas"
             ],
             "_barrelProbability": [
-                0.75,
                 0.75,
                 0.75,
                 0.75
@@ -99,7 +98,7 @@
             "_ultraRareLootWaypointType": "/Lotus/Types/LevelObjects/UltraRareLootCrateWaypoint",
             "_ultraRareCrateType": "/Lotus/Types/PickUps/UltraRareCorpusLootCrate",
             "_altUltraRareCrateType": "",
-            "_ultraRareLootChance": 0.005,
+            "_ultraRareLootChance": 0.0049999999,
             "_floatingCrateWaypointType": "",
             "_floatingCrateTypes": [],
             "_numFloatingCrates": 25,

@@ -8,14 +8,14 @@
         "AutoSimChildren": [
             {
                 "LocalPosition": [
-                    0.005,
-                    -0.005,
+                    0.0049999999,
+                    -0.0049999999,
                     0
                 ],
                 "LocalRotation": [
-                    0.395409,
+                    0.39540899,
                     -0.586218,
-                    0.395409,
+                    0.39540899,
                     0.586218
                 ],
                 "BoneName": "GAME_C1_HEAD1",
@@ -242,6 +242,32 @@
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Grineer/Marine/GrineerBodyLeaderVolt",
+                        "/Lotus/Characters/Grineer/Marine/GrineerAccessoriesLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/Marine/GrineerHelmetLeaderVolt"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/Marine/GrineerHelmetLeaderVolt"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
                     "MeshScale": 1.1
                 },
                 "Probability": 1

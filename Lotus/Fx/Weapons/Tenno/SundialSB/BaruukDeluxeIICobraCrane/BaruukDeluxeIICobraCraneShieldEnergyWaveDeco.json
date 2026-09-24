@@ -1,0 +1,34 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "BaruukDeluxeIICobraCraneShieldEnergyWave.fbx",
+        "OverrideMaterial": [
+            "BaruukDeluxeIIShieldEnergyGlowMat"
+        ],
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "MaterialFade": [
+            {
+                "Parameter": "vScalesFade",
+                "Slot": -1,
+                "TimeLength": 0.2,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "ApplyColorCustomization": 1
+    }
+}

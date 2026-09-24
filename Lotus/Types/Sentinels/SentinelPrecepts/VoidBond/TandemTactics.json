@@ -28,11 +28,11 @@
                     "Script": "/Lotus/Types/Sentinels/SentinelAbilities/TandemTactics.lua",
                     "Function": "GetDescription",
                     "_comboGainPerLevel": 1,
-                    "_damagePctPerLevel": 0.05,
+                    "_damagePctPerLevel": 0.050000001,
                     "_duration": 30
                 },
                 "SmallerIsBetter": 0,
-                "RoundTo": 0.05,
+                "RoundTo": 0.050000001,
                 "RoundingMode": "RM_ROUND",
                 "AllowConditionalLocMerge": 0
             }
@@ -49,7 +49,7 @@
                 "Script": "/Lotus/Types/Sentinels/SentinelAbilities/TandemTactics.lua",
                 "Function": "ActivateAbility",
                 "_comboGainPerLevel": 1,
-                "_damagePctPerLevel": 0.05,
+                "_damagePctPerLevel": 0.050000001,
                 "_duration": 30
             },
             "SecondaryScripts": [
@@ -62,7 +62,7 @@
                         "Script": "/Lotus/Types/Sentinels/SentinelAbilities/TandemTactics.lua",
                         "Function": "ApplyUpgrade",
                         "_comboGainPerLevel": 1,
-                        "_damagePctPerLevel": 0.05,
+                        "_damagePctPerLevel": 0.050000001,
                         "_duration": 30
                     }
                 }
@@ -75,7 +75,7 @@
                         "Script": "/Lotus/Types/Sentinels/SentinelAbilities/TandemTactics.lua",
                         "Function": "OnPetMeleeHit",
                         "_comboGainPerLevel": 1,
-                        "_damagePctPerLevel": 0.05,
+                        "_damagePctPerLevel": 0.050000001,
                         "_duration": 30
                     }
                 }

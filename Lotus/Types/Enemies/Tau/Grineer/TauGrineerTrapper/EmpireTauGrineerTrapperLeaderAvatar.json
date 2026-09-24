@@ -1,65 +1,137 @@
 {
     "parent": "EmpireTauGrineerTrapperAvatar",
     "data": {
-        "KillXPReward": 750,
+        "KillXPReward": 500,
+        "AiDirEncounterScore": 150,
+        "PartialFrozenWarmUpRate": 0.25,
         "AvatarEnhancements": [
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ArcticEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleBodyLeaderArctic"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleHelmetLeaderArctic"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/TauGrnFemaleGrenadeBackpack/TauGrnFemaleGrenadeBackpackMATLeaderArctic",
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleBodyLeaderArctic"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/BlitzEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleBodyLeaderBlitz"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleHelmetLeaderBlitz"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/TauGrnFemaleGrenadeBackpack/TauGrnFemaleGrenadeBackpackMATLeaderBlitz",
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleBodyLeaderBlitz"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/BlitzLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/BlitzLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/EnergyLeechEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleBodyLeaderEnergyLeech"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleHelmetLeaderLeech"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/TauGrnFemaleGrenadeBackpack/TauGrnFemaleGrenadeBackpackMATLeaderEnergyLeech",
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleBodyLeaderEnergyLeech"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/EnergyLeechLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/EnergyLeechLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/LeechEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleBodyLeaderLeech"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleHelmetLeaderLeech"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/TauGrnFemaleGrenadeBackpack/TauGrnFemaleGrenadeBackpackMATLeaderLeech",
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleBodyLeaderLeech"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/LeechLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/LeechLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ArsonEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleBodyLeaderArson"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleHelmetLeaderArson"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/TauGrnFemaleGrenadeBackpack/TauGrnFemaleGrenadeBackpackMATLeaderArson",
+                                "/Lotus/Characters/Grineer/TauPrequelGrineer/Female/Textures/TauPrequelGrineerFemaleBodyLeaderArson"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/ArsonLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ArsonLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             }

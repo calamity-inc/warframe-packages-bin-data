@@ -6,7 +6,7 @@
         "ShadowDynamics": 1,
         "UseAmbient": 1,
         "Mesh": "/Lotus/Fx/Corpus/Arachnoids/SpiderCoolantCarryVesselMesh.fbx",
-        "MeshScale": 0.4,
+        "MeshScale": 0.40000001,
         "OverrideMaterial": [
             "WaterSprayerLiquidMat"
         ],
@@ -15,7 +15,7 @@
             "Script": "/Lotus/Scripts/Effects/SpiderCoolant.lua",
             "Function": "SpiderLiquid",
             "_fillBasedOnAmmo": 1,
-            "_reloadRefillSpeed": 0.42,
+            "_reloadRefillSpeed": 0.41999999,
             "_reloadRefillDelay": 1.2,
             "_liquidType": 1
         },

@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Common/Sphere1.fbx",
-        "MeshScale": 0.01,
+        "MeshScale": 0.0099999998,
         "OverrideMaterial": [
             "EphemeraPrimeABeamGlowMat"
         ],
@@ -16,11 +16,11 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 4,
                 "FadeRange": [
-                    0.6,
-                    0.9
+                    0.60000002,
+                    0.89999998
                 ],
                 "FadeCurve": {
                     "Values": [
@@ -34,7 +34,7 @@
                         },
                         {
                             "Time": 1,
-                            "Value": 0.972153
+                            "Value": 0.97215301
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"
@@ -49,7 +49,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 2,
                 "FadeRange": [
                     0,

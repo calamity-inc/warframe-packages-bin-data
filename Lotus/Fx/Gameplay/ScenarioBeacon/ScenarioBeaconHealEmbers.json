@@ -8,8 +8,8 @@
                 "slot": -1,
                 "value": [
                     0,
-                    0.33,
-                    0.18,
+                    0.33000001,
+                    0.18000001,
                     1
                 ]
             },
@@ -26,7 +26,7 @@
         "EnergyTintMethod": "ETM_LIFE",
         "fireOnce": 0,
         "affectedByWind": 1,
-        "resilience": 0.05,
+        "resilience": 0.050000001,
         "drag": 0.5,
         "mass": [
             0,
@@ -38,14 +38,14 @@
         ],
         "size": [
             0.02,
-            0.03
+            0.029999999
         ],
         "velocity": [
             1,
             2
         ],
         "windAttenuation": [
-            0.8,
+            0.80000001,
             1
         ],
         "windKillDistance": 0,
@@ -59,15 +59,15 @@
         "inheritVelocity": 0.5,
         "useForceFieldForSpawn": 1,
         "spawnScale": [
-            0.05,
-            0.05,
-            0.4
+            0.050000001,
+            0.050000001,
+            0.40000001
         ],
-        "spawnFlowBlend": 0.3,
+        "spawnFlowBlend": 0.30000001,
         "flowScale": [
-            0.3,
-            0.3,
-            0.3
+            0.30000001,
+            0.30000001,
+            0.30000001
         ],
         "flowForce": [
             12,
@@ -87,9 +87,9 @@
         "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSpotFadeMidAlpha",
         "colorKeys[0]": [
-            0.0096,
+            0.0096000005,
             1,
-            0.53,
+            0.52999997,
             1
         ],
         "colorKeys[1]": [

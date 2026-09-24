@@ -61,7 +61,7 @@
                 5,
                 6
             ],
-            "MeleeHitManeuverProbability": 0.3
+            "MeleeHitManeuverProbability": 0.30000001
         },
         "BlockingBehavior": {
             "Enabled": 1,
@@ -163,7 +163,7 @@
                 "UseNewFormat": 0,
                 "Type": "DT_IMPACT",
                 "Amount": 20,
-                "ProcChance": 2.491639,
+                "ProcChance": 2.4916389,
                 "ForcedProcs": [
                     "PT_STAGGERED"
                 ],
@@ -393,7 +393,7 @@
                     "m": 1,
                     "k": -1,
                     "b": 1,
-                    "c": 0.3,
+                    "c": 0.30000001,
                     "logistic": 1
                 },
                 "StopRadius": 1,
@@ -869,7 +869,7 @@
                 "UseEndNodePos": 0,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1
         },
@@ -894,12 +894,12 @@
             "MoveSuccessRadius": 1,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 1,
             "StopWhenMovementInactive": 1,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1
         },
         "LocomotionController:DynamicPathFollowerHover": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "TurnRateMultiplierOnMoveDirFacing": 1,
@@ -908,7 +908,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 50,
             "StopWhenTurningAngle": 90,
             "CheckFunnelForTightTurns": 0,
@@ -924,7 +924,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,
@@ -1053,11 +1053,11 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/MicroPlanetInfestedPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",
         "TargetEvaluatorType": "/Lotus/Types/Enemies/RangedTargetEvaluator"
     }

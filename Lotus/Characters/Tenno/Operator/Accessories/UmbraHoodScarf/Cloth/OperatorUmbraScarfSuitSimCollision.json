@@ -3,38 +3,27 @@
     "data": {
         "Elements": [
             {
-                "bone": "GAME_C1_HEAD1",
-                "offset": [
-                    -0.075,
-                    0.04,
-                    0
-                ],
-                "boneB": "GAME_C1_HEAD1",
-                "offsetB": [
-                    -0.025,
-                    0,
-                    0
-                ],
-                "radius": 0.125,
-                "radiusB": 0,
-                "tag": "Head"
-            },
-            {
                 "bone": "GAME_L1_CLAV1",
                 "offset": [
                     -0.1,
-                    -0.05,
+                    -0.050000001,
                     0
                 ],
                 "boneB": "GAME_R1_CLAV1",
                 "offsetB": [
                     0.1,
-                    0.05,
+                    0.050000001,
                     0
                 ],
                 "radius": 0.1,
                 "radiusB": 0,
-                "tag": "Clav"
+                "tag": "Clav",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
             },
             {
                 "bone": "GAME_C1_SPINE1",
@@ -51,7 +40,13 @@
                 ],
                 "radius": 0.125,
                 "radiusB": 0,
-                "tag": "Spine"
+                "tag": "Spine",
+                "debugColor": [
+                    255,
+                    209,
+                    0,
+                    128
+                ]
             },
             {
                 "bone": "GAME_C1_SPINE2",
@@ -62,13 +57,19 @@
                 ],
                 "boneB": "GAME_C1_SPINE5",
                 "offsetB": [
-                    -0.1,
+                    -0.050000001,
                     0,
                     0
                 ],
-                "radius": 0.12,
-                "radiusB": 0,
-                "tag": "chest"
+                "radius": 0.14,
+                "radiusB": 0.16,
+                "tag": "chest",
+                "debugColor": [
+                    255,
+                    0,
+                    137,
+                    128
+                ]
             },
             {
                 "bone": "GAME_R1_ARM1",
@@ -85,7 +86,13 @@
                 ],
                 "radius": 0.07,
                 "radiusB": 0,
-                "tag": "Arm1Right"
+                "tag": "Arm1Right",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
             },
             {
                 "bone": "GAME_R1_ARM2",
@@ -96,13 +103,19 @@
                 ],
                 "boneB": "GAME_R1_ARM3",
                 "offsetB": [
-                    -0.05,
+                    -0.050000001,
                     0,
                     0
                 ],
                 "radius": 0.07,
                 "radiusB": 0,
-                "tag": "Arm2Right"
+                "tag": "Arm2Right",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
             },
             {
                 "bone": "GAME_R1_ARM3",
@@ -113,13 +126,19 @@
                 ],
                 "boneB": "",
                 "offsetB": [
-                    0.05,
+                    0.050000001,
                     0,
                     0
                 ],
-                "radius": 0.05,
+                "radius": 0.050000001,
                 "radiusB": 0,
-                "tag": "Arm3Right"
+                "tag": "Arm3Right",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
             },
             {
                 "bone": "GAME_L1_ARM1",
@@ -136,7 +155,13 @@
                 ],
                 "radius": 0.07,
                 "radiusB": 0,
-                "tag": "Arm1Left"
+                "tag": "Arm1Left",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
             },
             {
                 "bone": "GAME_L1_ARM2",
@@ -147,13 +172,19 @@
                 ],
                 "boneB": "GAME_L1_ARM3",
                 "offsetB": [
-                    0.05,
+                    0.050000001,
                     0,
                     0
                 ],
                 "radius": 0.07,
                 "radiusB": 0,
-                "tag": "Arm2Left"
+                "tag": "Arm2Left",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
             },
             {
                 "bone": "GAME_L1_ARM3",
@@ -164,81 +195,19 @@
                 ],
                 "boneB": "",
                 "offsetB": [
-                    -0.05,
+                    -0.050000001,
                     0,
                     0
                 ],
-                "radius": 0.05,
+                "radius": 0.050000001,
                 "radiusB": 0,
-                "tag": "Arm3Left"
-            },
-            {
-                "bone": "GAME_R1_LEG1",
-                "offset": [
+                "tag": "Arm3Left",
+                "debugColor": [
                     0,
-                    -0.05,
-                    0
-                ],
-                "boneB": "GAME_R1_LEG2",
-                "offsetB": [
+                    255,
                     0,
-                    0,
-                    0
-                ],
-                "radius": 0.115,
-                "radiusB": 0,
-                "tag": "Leg1Right"
-            },
-            {
-                "bone": "GAME_R1_LEG2",
-                "offset": [
-                    0,
-                    0,
-                    0
-                ],
-                "boneB": "GAME_R1_LEG3",
-                "offsetB": [
-                    0,
-                    0,
-                    0
-                ],
-                "radius": 0.08,
-                "radiusB": 0,
-                "tag": "Leg2Right"
-            },
-            {
-                "bone": "GAME_L1_LEG1",
-                "offset": [
-                    0,
-                    -0.05,
-                    0
-                ],
-                "boneB": "GAME_L1_LEG2",
-                "offsetB": [
-                    0,
-                    0,
-                    0
-                ],
-                "radius": 0.115,
-                "radiusB": 0,
-                "tag": "Leg1Left"
-            },
-            {
-                "bone": "GAME_L1_LEG2",
-                "offset": [
-                    0,
-                    0,
-                    0
-                ],
-                "boneB": "GAME_L1_LEG3",
-                "offsetB": [
-                    0,
-                    0,
-                    0
-                ],
-                "radius": 0.08,
-                "radiusB": 0,
-                "tag": "Leg2Left"
+                    128
+                ]
             },
             {
                 "bone": "GAME_C1_HIP1",
@@ -250,46 +219,18 @@
                 "boneB": "GAME_C1_HIP1",
                 "offsetB": [
                     0,
-                    -0.05,
+                    -0.050000001,
                     0
                 ],
                 "radius": 0.17,
                 "radiusB": 0,
-                "tag": ""
-            },
-            {
-                "bone": "GAME_R1_LEG1",
-                "offset": [
-                    -0.15,
+                "tag": "",
+                "debugColor": [
                     0,
-                    0
-                ],
-                "boneB": "GAME_R1_LEG2",
-                "offsetB": [
+                    255,
                     0,
-                    0,
-                    0
-                ],
-                "radius": 0.115,
-                "radiusB": 0,
-                "tag": "can delete if nec."
-            },
-            {
-                "bone": "GAME_L1_LEG1",
-                "offset": [
-                    -0.15,
-                    0,
-                    0
-                ],
-                "boneB": "GAME_L1_LEG1",
-                "offsetB": [
-                    0,
-                    0,
-                    0
-                ],
-                "radius": 0.11,
-                "radiusB": 0,
-                "tag": "can delete if nec."
+                    128
+                ]
             }
         ]
     }

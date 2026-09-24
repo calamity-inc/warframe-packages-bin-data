@@ -19,9 +19,9 @@
                 "Script": ""
             },
             "DefaultReevaluationDelay": 0,
-            "Probability": 0.51,
+            "Probability": 0.50999999,
             "AverageResponseTime": 2,
-            "ResponseTimeStdDev": 0.8,
+            "ResponseTimeStdDev": 0.80000001,
             "ResponseTimeMaxDev": 1.5,
             "DeadTime": 4,
             "NoResponseDeadTime": 1
@@ -719,7 +719,6 @@
                 "AimWhenIdle": 0,
                 "AimWhenAlert": 1,
                 "PermanentAlert": 0,
-                "ForceIdleForSinglePointPatrols": 1,
                 "AnimAction": "PatrolIdle",
                 "GenericAnims": [],
                 "MinPlayerDist": [
@@ -796,7 +795,7 @@
                 "LookAtNearbyPlayer": 0,
                 "LookAtTarget": 0,
                 "NearbyTeammatesThreshold": 10,
-                "PlayerBias": 0.6,
+                "PlayerBias": 0.60000002,
                 "ReportAttackOnDamage": 1,
                 "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                 "PatrolBehavior:Enabled": 1,
@@ -846,7 +845,6 @@
                 "RandomWalkBehavior:AimWhenIdle": 0,
                 "RandomWalkBehavior:AimWhenAlert": 1,
                 "RandomWalkBehavior:PermanentAlert": 0,
-                "RandomWalkBehavior:ForceIdleForSinglePointPatrols": 1,
                 "RandomWalkBehavior:AnimAction": "PatrolIdle",
                 "RandomWalkBehavior:GenericAnims": [],
                 "RandomWalkBehavior:MinPlayerDist": [
@@ -998,12 +996,12 @@
             "OnDamagedScript": {
                 "Script": ""
             },
-            "DefaultReevaluationDelay": 0.05,
+            "DefaultReevaluationDelay": 0.050000001,
             "LookAtNearbyTeammates": 1,
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -1053,7 +1051,6 @@
             "RandomWalkBehavior:AimWhenIdle": 0,
             "RandomWalkBehavior:AimWhenAlert": 1,
             "RandomWalkBehavior:PermanentAlert": 0,
-            "RandomWalkBehavior:ForceIdleForSinglePointPatrols": 1,
             "RandomWalkBehavior:AnimAction": "PatrolIdle",
             "RandomWalkBehavior:GenericAnims": [],
             "RandomWalkBehavior:MinPlayerDist": [
@@ -1154,7 +1151,7 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 30,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGrineerReactionController",

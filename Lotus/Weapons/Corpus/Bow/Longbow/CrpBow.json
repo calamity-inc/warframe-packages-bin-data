@@ -17,7 +17,7 @@
                 "LocalPosition": [
                     0,
                     0.07,
-                    0.05
+                    0.050000001
                 ],
                 "BoneName": "GAME_L1_WEAPON1",
                 "Type": "CrpBowAttachment"
@@ -49,18 +49,18 @@
         "WeaponHandAimOffset": [
             0,
             0,
-            0.4
+            0.40000001
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.085,
+            -0.085000001,
             0,
-            0.135
+            0.13500001
         ],
         "GripRotationOffset": [
             -0.347803,
-            -0.675491,
-            0.637074,
+            -0.67549098,
+            0.63707399,
             -0.129932
         ],
         "NotifyAttachmentState": 1,
@@ -68,11 +68,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -101,7 +101,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -309,9 +309,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -382,7 +382,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponChargedStateBehavior",
                 "state:WeaponChargedStateBehavior": {
-                    "reloadTime": 0.6,
+                    "reloadTime": 0.60000002,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -521,13 +521,13 @@
             "OFF_HAND": 1
         },
         "HolsterPosOffset": [
-            0.06,
-            -0.26,
+            0.059999999,
+            -0.25999999,
             -0.02
         ],
         "HolsterRotOffset": [
-            -0.492404,
-            -0.492404,
+            -0.49240401,
+            -0.49240401,
             -0.413176,
             0.586824
         ],
@@ -548,14 +548,14 @@
             {
                 "Attachment": {
                     "LocalPosition": [
-                        -0.05,
-                        -0.06,
+                        -0.050000001,
+                        -0.059999999,
                         0
                     ],
                     "LocalRotation": [
                         0.069587,
                         -0.069587,
-                        0.004866,
+                        0.0048659998,
                         0.995134
                     ],
                     "BoneName": "GAME_C1_RIFLEATTACH",
@@ -571,14 +571,14 @@
                 "SwapHands": 1,
                 "OffHandBone": "GAME_C1_RIFLEATTACH",
                 "OffHandOffset": [
-                    -0.075,
-                    0.03,
+                    -0.075000003,
+                    0.029999999,
                     0
                 ],
                 "OffHandRotation": [
                     0.182806,
-                    -0.683196,
-                    -0.682957,
+                    -0.68319601,
+                    -0.68295699,
                     -0.182742
                 ],
                 "UseSkinnedOffset": 0,
@@ -620,14 +620,14 @@
                 "Attachment": {
                     "LocalPosition": [
                         0,
-                        -0.03,
+                        -0.029999999,
                         0.69
                     ],
                     "LocalRotation": [
-                        -0.69151,
+                        -0.69151002,
                         0,
                         0,
-                        0.72236
+                        0.72236001
                     ],
                     "BoneName": "GAME_R1_WEAPON1",
                     "Type": "CrpBowArrowAttachment",
@@ -647,10 +647,10 @@
                     0.69
                 ],
                 "OffHandRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "UseSkinnedOffset": 0,
                 "SkinnedOffset": [
@@ -665,14 +665,14 @@
                 "DisableLookAtEvent": "UnnockArrow",
                 "LookAtBone": "GAME_L1_WEAPON1",
                 "LookAtOffset": [
-                    -0.018,
-                    0.075,
+                    -0.017999999,
+                    0.075000003,
                     0
                 ],
                 "OffHandLookAtBone": "GAME_R1_WEAPON1",
                 "OffHandLookAtOffset": [
-                    -0.018,
-                    0.075,
+                    -0.017999999,
+                    0.075000003,
                     0
                 ],
                 "MatchHandVisibility": 0,
@@ -713,8 +713,8 @@
             ],
             "_fxToAttach": "/Lotus/Fx/Weapons/Corpus/Railgun/RailgunDeathEffects",
             "_decoEffect": "/Lotus/Fx/Fire/ChannelingDissolveDeco",
-            "_weightModifier": 0.9,
-            "_speed": 0.55,
+            "_weightModifier": 0.89999998,
+            "_speed": 0.55000001,
             "_cloakColorMult": 2,
             "_useRootAvatar": 0,
             "_excludedAvatarTypes": [

@@ -55,9 +55,9 @@
             },
             {
                 "LocalPosition": [
-                    -0.129,
-                    0.036,
-                    -0.002
+                    -0.12899999,
+                    0.035999998,
+                    -0.0020000001
                 ],
                 "LocalRotation": [
                     0.676,
@@ -78,14 +78,14 @@
             {
                 "LocalPosition": [
                     -0.112,
-                    0.095,
-                    -0.031
+                    0.094999999,
+                    -0.030999999
                 ],
                 "LocalRotation": [
-                    0.413,
-                    -0.669,
+                    0.41299999,
+                    -0.66900003,
                     0.414,
-                    0.459
+                    0.45899999
                 ],
                 "BoneName": "GAME_C1_HEAD1",
                 "Type": "/Lotus/Fx/PowersuitAbilities/Nokko/Cloth/NokkoEphemeraMushroomA2SkelClothEx",
@@ -101,12 +101,12 @@
                 "LocalPosition": [
                     -0.12,
                     0.033,
-                    0.058
+                    0.057999998
                 ],
                 "LocalRotation": [
                     0.537,
-                    -0.179,
-                    0.332,
+                    -0.17900001,
+                    0.33199999,
                     0.755
                 ],
                 "BoneName": "GAME_C1_HEAD1",
@@ -123,11 +123,11 @@
                 "LocalPosition": [
                     -0.124,
                     0.105,
-                    0.029
+                    0.028999999
                 ],
                 "LocalRotation": [
-                    0.256,
-                    -0.319,
+                    0.25600001,
+                    -0.31900001,
                     0.13,
                     0.903
                 ],
@@ -139,7 +139,7 @@
                 "DestroyWithOwner": 1,
                 "DestroyParentOnDeath": 0,
                 "FadeOutOnDestruction": 0,
-                "Scale": 0.35
+                "Scale": 0.34999999
             }
         ],
         "VoiceBox": "/Lotus/Sounds/Dialog/Barks/Battle/Eximus/EximusCorpusCrewmen/EximusCorpusCrewmenVoiceBox",
@@ -233,6 +233,18 @@
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
                     "MeshScale": 1.1
                 },
                 "Probability": 1

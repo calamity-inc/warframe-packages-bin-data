@@ -9,8 +9,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    -0.043619,
-                    0.999048
+                    -0.043618999,
+                    0.99904799
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "TnBeltFedRifleAttachment"
@@ -18,13 +18,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
-            0.05,
+            0.050000001,
+            0.050000001,
             0.1
         ],
         "HolsterBone1Rotation": [
-            -0.707107,
-            -0.707107,
+            -0.70710677,
+            -0.70710677,
             0,
             0
         ],
@@ -42,30 +42,30 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.065,
-            -0.05,
-            0.15
+            -0.064999998,
+            -0.050000001,
+            0.15000001
         ],
         "GripRotationOffset": [
-            0.061628,
-            0.704416,
-            -0.704416,
-            0.061628
+            0.061627999,
+            0.70441598,
+            -0.70441598,
+            0.061627999
         ],
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -98,7 +98,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -225,7 +225,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -239,8 +239,8 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.6,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.60000002,
                         "DT_SLASH": 0,
                         "Amount": 40,
                         "ProcChance": 0.16,

@@ -1,0 +1,997 @@
+{
+    "parent": "/EE/Types/Effects/Spawner",
+    "data": {
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Sentients/Shedu/SheduExplosionRipple",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "CreatedTypes": [
+            {
+                "Type": "SentMiniGunReloadLight",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARRELMAIN",
+                "WorldRotation": 0,
+                "Delay": [
+                    2,
+                    2
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    3,
+                    3
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    -0.2,
+                    0.2,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "SentMiniGunReloadProj",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARRELMAIN",
+                "WorldRotation": 0,
+                "Delay": [
+                    1.9,
+                    1.9
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    3,
+                    3
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGunPetalReload",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL1",
+                "WorldRotation": 0,
+                "Delay": [
+                    0.25,
+                    0.25
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "SentMiniGunReloadFlare",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL1",
+                "WorldRotation": 0,
+                "Delay": [
+                    2,
+                    2
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGunPetalReload",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL2",
+                "WorldRotation": 0,
+                "Delay": [
+                    0.25,
+                    0.25
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "SentMiniGunReloadFlare",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL2",
+                "WorldRotation": 0,
+                "Delay": [
+                    2,
+                    2
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGunPetalReload",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL3",
+                "WorldRotation": 0,
+                "Delay": [
+                    0.25,
+                    0.25
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "SentMiniGunReloadFlare",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL3",
+                "WorldRotation": 0,
+                "Delay": [
+                    2,
+                    2
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGunPetalReload",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL4",
+                "WorldRotation": 0,
+                "Delay": [
+                    0.25,
+                    0.25
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "SentMiniGunReloadFlare",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL4",
+                "WorldRotation": 0,
+                "Delay": [
+                    2,
+                    2
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGunPetalReload",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL5",
+                "WorldRotation": 0,
+                "Delay": [
+                    0.25,
+                    0.25
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "SentMiniGunReloadFlare",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL5",
+                "WorldRotation": 0,
+                "Delay": [
+                    2,
+                    2
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGunPetalReload",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL6",
+                "WorldRotation": 0,
+                "Delay": [
+                    0.25,
+                    0.25
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "SentMiniGunReloadFlare",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL6",
+                "WorldRotation": 0,
+                "Delay": [
+                    2,
+                    2
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGunPetalReload",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL7",
+                "WorldRotation": 0,
+                "Delay": [
+                    0.25,
+                    0.25
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "SentMiniGunReloadFlare",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL7",
+                "WorldRotation": 0,
+                "Delay": [
+                    2,
+                    2
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGunPetalReload",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL8",
+                "WorldRotation": 0,
+                "Delay": [
+                    0.25,
+                    0.25
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "SentMiniGunReloadFlare",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARREL8",
+                "WorldRotation": 0,
+                "Delay": [
+                    2,
+                    2
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    2,
+                    2
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            },
+            {
+                "Type": "SentMiniGunReloadSparks",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "GAME_C1_BARRELMAIN",
+                "WorldRotation": 0,
+                "Delay": [
+                    2,
+                    2
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 1
+            }
+        ],
+        "Mode": "ONE_SHOT",
+        "ApplyColorCustomization": 1,
+        "ScreenEffectsOnInstigatorOnly": 1,
+        "AllowCreateWhenInvisible": 1,
+        "CameraShake": [
+            20,
+            20
+        ],
+        "CameraShakeType": "ST_DOLLY",
+        "CameraShakeRadius": 10,
+        "ColorCorrectionRadius": 4,
+        "ColorCorrectionFadeInTime": 0.1,
+        "ColorCorrectionDuration": 0,
+        "ColorCorrectionFadeOutTime": 0.5
+    }
+}

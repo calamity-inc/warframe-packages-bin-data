@@ -10,7 +10,7 @@
                     0,
                     0,
                     -0.052336,
-                    0.99863
+                    0.99862999
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "/Lotus/Weapons/Tenno/LongGuns/RepeatingCrossbow/RepeatingCrossbowWeaponAttachment"
@@ -18,13 +18,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -45,18 +45,18 @@
         "WeaponHandAimOffset": [
             0,
             0,
-            0.4
+            0.40000001
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.06,
-            -0.06,
+            -0.059999999,
+            -0.059999999,
             0.17
         ],
         "GripRotationOffset": [
             0,
-            0.696364,
-            -0.707107,
+            0.69636399,
+            -0.70710677,
             0.122788
         ],
         "Behaviors": [
@@ -74,7 +74,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -159,7 +159,7 @@
                         "LocalPos": [
                             0,
                             0,
-                            0.4
+                            0.40000001
                         ],
                         "LocalRot": [
                             0,
@@ -240,9 +240,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.15,
-                        "DT_PUNCTURE": 0.7,
-                        "DT_SLASH": 0.15,
+                        "DT_IMPACT": 0.15000001,
+                        "DT_PUNCTURE": 0.69999999,
+                        "DT_SLASH": 0.14999998,
                         "Amount": 55,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -261,7 +261,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.84,
+                    "PvpDamageMultiplier": 0.83999997,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -319,7 +319,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
-                    "autoReloadEmptyTime": 0.3,
+                    "autoReloadEmptyTime": 0.30000001,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
                     "ShouldAutoPreFireToFire": 0,
@@ -375,7 +375,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -626,13 +626,13 @@
         "HolsterPosOffset": [
             0,
             0,
-            -0.05
+            -0.050000001
         ],
         "HolsterRotOffset": [
             -0.029469,
-            0.03216,
-            0.736576,
-            0.674947
+            0.032159999,
+            0.73657602,
+            0.67494702
         ],
         "ArtifactSlots": [
             "AP_UNIVERSAL",

@@ -41,7 +41,7 @@
                 "Frequency": 2.2,
                 "Amplitude": [
                     0.025,
-                    0.05,
+                    0.050000001,
                     0
                 ],
                 "RadiusAmplitude": 0.1,
@@ -50,7 +50,7 @@
             {
                 "Frequency": 1.7,
                 "Amplitude": [
-                    -0.05,
+                    -0.050000001,
                     -0.02,
                     0
                 ],
@@ -58,10 +58,10 @@
                 "PhaseShift": -12
             },
             {
-                "Frequency": 0.8,
+                "Frequency": 0.80000001,
                 "Amplitude": [
-                    0.05,
-                    0.05,
+                    0.050000001,
+                    0.050000001,
                     0
                 ],
                 "RadiusAmplitude": 0.1,
@@ -79,11 +79,11 @@
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.15,
+                "TimeLength": 0.15000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
-                    0.428571
+                    0.42857099
                 ],
                 "BaseValue": 0,
                 "Delay": 0,
@@ -96,8 +96,8 @@
             }
         ],
         "Lifespan": [
-            0.15,
-            0.15
+            0.15000001,
+            0.15000001
         ]
     }
 }

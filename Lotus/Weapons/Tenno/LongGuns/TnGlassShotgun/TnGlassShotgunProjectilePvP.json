@@ -30,7 +30,7 @@
             "DT_PUNCTURE": 0,
             "DT_SLASH": 0,
             "Amount": 30,
-            "ProcChance": 0.33,
+            "ProcChance": 0.33000001,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ],
@@ -47,10 +47,10 @@
         "ExplosiveAttack": {
             "Type": "DT_PHYSICAL",
             "DT_IMPACT": 0,
-            "DT_PUNCTURE": 0.4,
-            "DT_SLASH": 0.6,
+            "DT_PUNCTURE": 0.40000001,
+            "DT_SLASH": 0.60000002,
             "Amount": 30,
-            "ProcChance": 0.33
+            "ProcChance": 0.33000001
         },
         "ExplosionIgnoreSource": 1,
         "ExplodeOnImpact": 1,
@@ -75,7 +75,7 @@
             "Type": "DT_PHYSICAL",
             "DT_IMPACT": 0,
             "DT_PUNCTURE": 0.22,
-            "DT_SLASH": 0.78,
+            "DT_SLASH": 0.77999997,
             "Amount": 100,
             "ProcChance": 0.22,
             "ForcedProcs": [
@@ -86,7 +86,7 @@
         "KinematicMaxSpeed": 120,
         "KinematicNoise": 0.1,
         "KinematicGravity": 1,
-        "KinematicGravityMultiplier": 0.3,
+        "KinematicGravityMultiplier": 0.30000001,
         "ApplyColorCustomization": 1
     }
 }

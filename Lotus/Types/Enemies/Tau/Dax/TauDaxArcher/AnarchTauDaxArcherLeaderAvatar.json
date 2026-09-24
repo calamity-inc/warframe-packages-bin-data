@@ -2,64 +2,106 @@
     "parent": "AnarchTauDaxArcherAvatar",
     "data": {
         "KillXPReward": 500,
+        "AiDirEncounterScore": 150,
+        "PartialFrozenWarmUpRate": 0.25,
         "AvatarEnhancements": [
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ArcticEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Dax/DaxArcher/Textures/DaxArcherFemaleBodyLeaderArctic"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Dax/DaxArcher/Textures/DaxArcherFemaleHelmetLeaderArctic"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/BlitzEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Dax/DaxArcher/Textures/DaxArcherFemaleBodyLeaderBlitz"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Dax/DaxArcher/Textures/DaxArcherFemaleHelmetLeaderBlitz"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/BlitzLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/BlitzLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/EnergyLeechEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Dax/DaxArcher/Textures/DaxArcherFemaleBodyLeaderEnergyLeech"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Dax/DaxArcher/Textures/DaxArcherFemaleHelmetLeaderEnergyLeech"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/EnergyLeechLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/EnergyLeechLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/LeechEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Dax/DaxArcher/Textures/DaxArcherFemaleBodyLeaderLeech"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Dax/DaxArcher/Textures/DaxArcherFemaleHelmetLeaderLeech"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/LeechLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/EnergyLeechLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ShockEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Dax/DaxArcher/Textures/DaxArcherFemaleBodyLeaderShock"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Dax/DaxArcher/Textures/DaxArcherFemaleHelmetLeaderShock"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/ShockLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ShockLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             }

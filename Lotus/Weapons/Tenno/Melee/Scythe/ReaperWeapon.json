@@ -38,7 +38,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -227,9 +227,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.15,
-                        "DT_PUNCTURE": 0.15,
-                        "DT_SLASH": 0.7,
+                        "DT_IMPACT": 0.15000001,
+                        "DT_PUNCTURE": 0.15000001,
+                        "DT_SLASH": 0.69999999,
                         "Amount": 200,
                         "ProcChance": 0.25,
                         "ForcedProcs": [],
@@ -249,7 +249,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.326,
+                    "PvpDamageMultiplier": 0.32600001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 300,
                     "additionalForce": [
@@ -281,7 +281,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.35,
+                    "criticalHitChance": 0.34999999,
                     "criticalHitDamageMultiplier": 2.5,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -334,9 +334,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -434,7 +434,7 @@
                     "SetToPreviousBehaviorWhenMeleeActionEnds": 1,
                     "RecordFireEvent": 1,
                     "ComboData": {
-                        "HeavyMeleeChargeTime": 0.7,
+                        "HeavyMeleeChargeTime": 0.69999999,
                         "UseCurrentContextAfterCharge": 0
                     },
                     "GroundHitLerpRate": 0.25,
@@ -474,7 +474,7 @@
                         "BoneOverride": "",
                         "PosOffset": [
                             0,
-                            -0.24,
+                            -0.23999999,
                             -0.02
                         ],
                         "PosOffsetSecondary": [
@@ -483,10 +483,10 @@
                             0
                         ],
                         "RotOffset": [
-                            -0.642788,
+                            -0.64278799,
                             0,
                             0,
-                            0.766044
+                            0.76604402
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -512,7 +512,7 @@
             159,
             255
         ],
-        "OmegaAttenuation": 0.8,
+        "OmegaAttenuation": 0.80000001,
         "ArcaneApertureType": "/Lotus/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker",
         "DefaultModTemplate": "/Lotus/Types/ModLists/Melee/HybridSlash",
         "DefaultModOverrides": {
@@ -592,7 +592,7 @@
                 "RadiusMin": 0,
                 "Radius": 9,
                 "FallOff": 1,
-                "FallOffMax": 0.7,
+                "FallOffMax": 0.69999999,
                 "CanCrit": 0,
                 "CanUseComboMultiplier": 1,
                 "UseImpactBehaviorAttackDataAmount": 1,
@@ -718,7 +718,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             }
         ],
@@ -788,7 +788,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 1,
                 "HitAirborneTargets": 0,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -854,7 +854,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -862,7 +862,7 @@
                 "RadiusMin": 0,
                 "Radius": 3,
                 "FallOff": 1,
-                "FallOffMax": 0.7,
+                "FallOffMax": 0.69999999,
                 "CanCrit": 0,
                 "CanUseComboMultiplier": 1,
                 "UseImpactBehaviorAttackDataAmount": 1,

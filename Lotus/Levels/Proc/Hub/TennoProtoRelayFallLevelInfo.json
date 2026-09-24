@@ -72,37 +72,37 @@
             "fogTexture": "/Lotus/Objects/Natural/Skybox/FogTextures/CorpusGasCityFogTexture.png",
             "focalFarPlane": 125,
             "sunPosition": [
-                0.183013,
-                0.718919,
-                -0.670568
+                0.18301301,
+                0.71891898,
+                -0.67056799
             ],
             "sunColor": [
                 1.25,
-                0.96,
-                0.66,
+                0.95999998,
+                0.66000003,
                 0
             ],
             "cloudShadowsMovementParams": [
-                0.005,
-                0.005,
-                0.01,
+                0.0049999999,
+                0.0049999999,
+                0.0099999998,
                 -0.001
             ],
             "volumetricFog": {
                 "FogRange": 256,
-                "NearDistance": 0.01,
+                "NearDistance": 0.0099999998,
                 "GlobalIlluminationMultiplier": 2.3,
-                "Extinction": 0.65,
+                "Extinction": 0.64999998,
                 "ScatteringConfusion": 1,
                 "GlobalFog": {
-                    "Density": 0.0025,
-                    "G": 0.33
+                    "Density": 0.0024999999,
+                    "G": 0.33000001
                 },
                 "HeightFog": {
                     "HeightFogMinHeight": -5,
                     "HeightFogParticipatingMedia": {
-                        "G": 0.4,
-                        "NoiseScale": 0.05
+                        "G": 0.40000001,
+                        "NoiseScale": 0.050000001
                     },
                     "SecondaryHeightFogMinHeight": -5,
                     "SecondaryHeightFogMaxHeight": 0.5,
@@ -115,7 +115,7 @@
                     "WindSpeedMultiplier": 0.1
                 },
                 "ClumpyNoise": {
-                    "ClumpAmount": 0.35,
+                    "ClumpAmount": 0.34999999,
                     "ClumpStart": 0.5
                 },
                 "ColorGrading": {

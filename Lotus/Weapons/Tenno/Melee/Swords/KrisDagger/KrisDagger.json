@@ -39,7 +39,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -242,7 +242,7 @@
                         "DT_CORROSIVE": 0,
                         "DT_RADIANT": 0,
                         "Amount": 273,
-                        "ProcChance": 0.26,
+                        "ProcChance": 0.25999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -345,9 +345,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -445,7 +445,7 @@
                     "SetToPreviousBehaviorWhenMeleeActionEnds": 1,
                     "RecordFireEvent": 1,
                     "ComboData": {
-                        "HeavyMeleeChargeTime": 0.7,
+                        "HeavyMeleeChargeTime": 0.69999999,
                         "UseCurrentContextAfterCharge": 0
                     },
                     "GroundHitLerpRate": 0.25,
@@ -484,7 +484,7 @@
                         "BoneOverride": "",
                         "PosOffset": [
                             0,
-                            -0.04,
+                            -0.039999999,
                             0
                         ],
                         "PosOffsetSecondary": [
@@ -576,7 +576,7 @@
                 "FXOffset": [
                     -0.1,
                     0,
-                    0.4
+                    0.40000001
                 ],
                 "UseWeaponAttachment": 0,
                 "WeaponAttachmentHand": "MAIN_HAND",
@@ -590,7 +590,7 @@
                 "RadiusMin": 0,
                 "Radius": 6,
                 "FallOff": 1,
-                "FallOffMax": 0.7,
+                "FallOffMax": 0.69999999,
                 "CanCrit": 0,
                 "CanUseComboMultiplier": 1,
                 "UseImpactBehaviorAttackDataAmount": 1,
@@ -601,7 +601,7 @@
                     "UseNewFormat": 0,
                     "Type": "DT_POISON",
                     "Amount": 50,
-                    "ProcChance": 0.26,
+                    "ProcChance": 0.25999999,
                     "ForcedProcs": [
                         "PT_LIFT_HIT"
                     ],
@@ -644,7 +644,7 @@
                 "FXOffset": [
                     -0.1,
                     0,
-                    0.4
+                    0.40000001
                 ],
                 "UseWeaponAttachment": 0,
                 "WeaponAttachmentHand": "MAIN_HAND",
@@ -716,7 +716,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             }
         ],
@@ -786,7 +786,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 1,
                 "HitAirborneTargets": 0,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -852,7 +852,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -860,7 +860,7 @@
                 "RadiusMin": 0,
                 "Radius": 2,
                 "FallOff": 1,
-                "FallOffMax": 0.7,
+                "FallOffMax": 0.69999999,
                 "CanCrit": 0,
                 "CanUseComboMultiplier": 1,
                 "UseImpactBehaviorAttackDataAmount": 1,
@@ -914,7 +914,7 @@
                 "FXOffset": [
                     -0.1,
                     0,
-                    0.4
+                    0.40000001
                 ],
                 "UseWeaponAttachment": 0,
                 "WeaponAttachmentHand": "MAIN_HAND",
@@ -927,7 +927,7 @@
         "ParryDamagePercentBlocked": 1,
         "ParryDamagePercentBlockedPvp": 1,
         "ParryAngle": 45,
-        "ChannelingReflectAmountPvp": 0.3,
+        "ChannelingReflectAmountPvp": 0.30000001,
         "EquippedBonuses": [
             {
                 "UpgradeType": "AVATAR_MOVEMENT_SPEED",

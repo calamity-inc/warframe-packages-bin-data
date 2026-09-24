@@ -18,7 +18,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -105,7 +105,7 @@
                             "BoneName": "GAME_R1_WEAPON1",
                             "LocalPosition": [
                                 0,
-                                2.4,
+                                2.4000001,
                                 0
                             ],
                             "LocalRotation": [
@@ -124,7 +124,7 @@
                             "BoneName": "GAME_L1_WEAPON1",
                             "LocalPosition": [
                                 0,
-                                2.4,
+                                2.4000001,
                                 0
                             ],
                             "LocalRotation": [
@@ -206,11 +206,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.05,
+                        "DT_IMPACT": 0.050000001,
                         "DT_PUNCTURE": 0.1,
-                        "DT_SLASH": 0.85,
+                        "DT_SLASH": 0.85000002,
                         "Amount": 250,
-                        "ProcChance": 0.15,
+                        "ProcChance": 0.15000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -228,7 +228,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.595,
+                    "PvpDamageMultiplier": 0.59500003,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 300,
                     "additionalForce": [
@@ -313,9 +313,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.3333,
-                        "DT_SLASH": 0.333367,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33329999,
+                        "DT_SLASH": 0.33336699,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -413,7 +413,7 @@
                     "SetToPreviousBehaviorWhenMeleeActionEnds": 1,
                     "RecordFireEvent": 1,
                     "ComboData": {
-                        "HeavyMeleeChargeTime": 0.7,
+                        "HeavyMeleeChargeTime": 0.69999999,
                         "UseCurrentContextAfterCharge": 0
                     },
                     "GroundHitLerpRate": 0.25,

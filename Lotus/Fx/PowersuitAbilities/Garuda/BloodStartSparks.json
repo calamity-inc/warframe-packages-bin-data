@@ -8,8 +8,8 @@
                 "slot": -1,
                 "value": [
                     0.022,
-                    0.00033,
-                    0.00033,
+                    0.00033000001,
+                    0.00033000001,
                     0
                 ]
             },
@@ -18,7 +18,7 @@
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.84,
+                    0.83999997,
                     0.1,
                     0.1,
                     0
@@ -32,10 +32,10 @@
         "useCollisions": 0,
         "affectedByWind": 1,
         "resilience": 0.2,
-        "drag": 0.6,
+        "drag": 0.60000002,
         "mass": [
-            0.4,
-            0.6
+            0.40000001,
+            0.60000002
         ],
         "life": [
             1,
@@ -43,7 +43,7 @@
         ],
         "size": [
             0.025,
-            0.03
+            0.029999999
         ],
         "velocity": [
             2,
@@ -51,12 +51,12 @@
         ],
         "useForceFieldForSpawn": 1,
         "spawnScale": [
-            0.05,
-            0.05,
-            0.05
+            0.050000001,
+            0.050000001,
+            0.050000001
         ],
         "spawnDelay": 0.1,
-        "spawnFlowForcePosScale": 0.6,
+        "spawnFlowForcePosScale": 0.60000002,
         "flowScale": [
             0.5,
             0.5,
@@ -75,14 +75,14 @@
         "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColor",
         "colorKeys[0]": [
-            0.67,
-            0.0096,
-            0.0096,
+            0.67000002,
+            0.0096000005,
+            0.0096000005,
             1
         ],
         "colorKeys[1]": [
-            0.36,
-            0.0075,
+            0.36000001,
+            0.0074999998,
             0.0016,
             1
         ],
@@ -95,7 +95,7 @@
         "colorKeys[3]": [
             0.0013,
             0.37,
-            0.79,
+            0.79000002,
             1
         ],
         "numColors": 4

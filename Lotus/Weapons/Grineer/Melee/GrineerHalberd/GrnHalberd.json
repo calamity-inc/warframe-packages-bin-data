@@ -11,9 +11,9 @@
                 ],
                 "LocalRotation": [
                     0,
-                    0.707107,
+                    0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "GrnHalberdAttachment"
@@ -44,7 +44,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -123,7 +123,7 @@
                     "MaxHitAvatarsPerAttack": 5,
                     "InterruptAttackOnMaxAvatarsHit": 0,
                     "DistanceBetweenHittingSameNonAvatar": 2,
-                    "SweepRadius": 0.15,
+                    "SweepRadius": 0.15000001,
                     "SweepCapsuleHalfHeight": 1,
                     "DefaultMeleeProxies": {
                         "MAIN_HAND": {
@@ -131,7 +131,7 @@
                             "BoneName": "GAME_R1_WEAPON1",
                             "LocalPosition": [
                                 0,
-                                2.9,
+                                2.9000001,
                                 0
                             ],
                             "LocalRotation": [
@@ -150,7 +150,7 @@
                             "BoneName": "GAME_R1_WEAPON1",
                             "LocalPosition": [
                                 0,
-                                -2.9,
+                                -2.9000001,
                                 0
                             ],
                             "LocalRotation": [
@@ -232,7 +232,7 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
+                        "DT_IMPACT": 0.40000001,
                         "DT_PUNCTURE": 0.1,
                         "DT_SLASH": 0.5,
                         "Amount": 241,
@@ -339,9 +339,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -439,7 +439,7 @@
                     "SetToPreviousBehaviorWhenMeleeActionEnds": 1,
                     "RecordFireEvent": 1,
                     "ComboData": {
-                        "HeavyMeleeChargeTime": 0.7,
+                        "HeavyMeleeChargeTime": 0.69999999,
                         "UseCurrentContextAfterCharge": 0
                     },
                     "GroundHitLerpRate": 0.25,
@@ -650,7 +650,7 @@
                 "RadiusMin": 0,
                 "Radius": 8,
                 "FallOff": 1,
-                "FallOffMax": 0.7,
+                "FallOffMax": 0.69999999,
                 "CanCrit": 0,
                 "CanUseComboMultiplier": 1,
                 "UseImpactBehaviorAttackDataAmount": 1,
@@ -776,7 +776,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             }
         ],
@@ -846,7 +846,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 1,
                 "HitAirborneTargets": 0,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -912,7 +912,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -920,7 +920,7 @@
                 "RadiusMin": 0,
                 "Radius": 3.5,
                 "FallOff": 1,
-                "FallOffMax": 0.7,
+                "FallOffMax": 0.69999999,
                 "CanCrit": 0,
                 "CanUseComboMultiplier": 1,
                 "UseImpactBehaviorAttackDataAmount": 1,
@@ -985,12 +985,12 @@
             }
         ],
         "SlamRadiusPercentageClamps": [
-            0.357143,
+            0.35714287,
             1.5
         ],
         "ParryDamagePercentBlocked": 1,
         "ParryDamagePercentBlockedPvp": 1,
         "ParryAngle": 55,
-        "ChannelingReflectAmountPvp": 0.15
+        "ChannelingReflectAmountPvp": 0.15000001
     }
 }

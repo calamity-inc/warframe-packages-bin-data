@@ -55,7 +55,7 @@
                 6,
                 9
             ],
-            "MeleeHitManeuverProbability": 0.05
+            "MeleeHitManeuverProbability": 0.050000001
         },
         "BlockingBehaviorFighter": {
             "Enabled": 1,
@@ -97,7 +97,7 @@
                 "Script": ""
             },
             "DefaultReevaluationDelay": 0,
-            "AvatarOutOfBoundsRatioToDisappear": 0.9,
+            "AvatarOutOfBoundsRatioToDisappear": 0.89999998,
             "AllowCombat": 0,
             "AlwaysDestroyOutsidePlayingSpace": 1,
             "RetreatOrder": "RetreatOffMap"
@@ -221,7 +221,7 @@
                 },
                 "DefaultReevaluationDelay": 0,
                 "SpeedMultiplier": 1.2,
-                "AvatarOutOfBoundsRatioRequired": 0.8
+                "AvatarOutOfBoundsRatioRequired": 0.80000001
             },
             "LeaderAction:FighterManeuverBehavior": {
                 "Enabled": 1,
@@ -239,9 +239,9 @@
                 "ManeuverProbability": 0.5,
                 "ManeuverCooldownFacingAwayTarget": [
                     1.5,
-                    2.4
+                    2.4000001
                 ],
-                "ManeuverProbabilityFacingAwayTarget": 0.85,
+                "ManeuverProbabilityFacingAwayTarget": 0.85000002,
                 "UnderFireManeuverDistance": 150,
                 "CloseToTargetManeuverDistance": 80,
                 "ShouldManeuverUnderFire": 1,
@@ -317,7 +317,7 @@
                 "AttackAction:OffsetTargetDestinationByTargetWidthMultiplier": 0.5,
                 "AttackAction:AlwaysHeadForOffsetDestination": 0,
                 "AttackAction:MaxSpeedModifier": 1.4,
-                "AttackAction:MinSpeedModifier": 0.8,
+                "AttackAction:MinSpeedModifier": 0.80000001,
                 "AttackAction:ExtraSpeedModifierWhenFiring": 1,
                 "AttackAction:FiringIntervalScalingByTargetCrewCount": [
                     3,
@@ -470,9 +470,9 @@
                 "ManeuverProbability": 0.5,
                 "ManeuverCooldownFacingAwayTarget": [
                     1.5,
-                    2.4
+                    2.4000001
                 ],
-                "ManeuverProbabilityFacingAwayTarget": 0.85,
+                "ManeuverProbabilityFacingAwayTarget": 0.85000002,
                 "UnderFireManeuverDistance": 400,
                 "CloseToTargetManeuverDistance": 250,
                 "ShouldManeuverUnderFire": 1,
@@ -504,7 +504,7 @@
             "AllowableLinearOffsetFromPos": 300,
             "AllowableDistanceOffsetFromAlignment": 60,
             "CatchUpDistance": 80,
-            "SlowDownSpeedModifier": 0.85,
+            "SlowDownSpeedModifier": 0.85000002,
             "CatchUpSpeedModifier": 1.25,
             "InFormationScript": {
                 "Script": ""
@@ -531,9 +531,9 @@
             "ManeuverProbability": 0.5,
             "ManeuverCooldownFacingAwayTarget": [
                 1.5,
-                2.4
+                2.4000001
             ],
-            "ManeuverProbabilityFacingAwayTarget": 0.85,
+            "ManeuverProbabilityFacingAwayTarget": 0.85000002,
             "UnderFireManeuverDistance": 150,
             "CloseToTargetManeuverDistance": 80,
             "ShouldManeuverUnderFire": 1,
@@ -609,7 +609,7 @@
             "AttackAction:OffsetTargetDestinationByTargetWidthMultiplier": 0.5,
             "AttackAction:AlwaysHeadForOffsetDestination": 0,
             "AttackAction:MaxSpeedModifier": 1.4,
-            "AttackAction:MinSpeedModifier": 0.8,
+            "AttackAction:MinSpeedModifier": 0.80000001,
             "AttackAction:ExtraSpeedModifierWhenFiring": 1,
             "AttackAction:FiringIntervalScalingByTargetCrewCount": [
                 3,
@@ -701,7 +701,7 @@
             },
             "DefaultReevaluationDelay": 0,
             "SpeedMultiplier": 1.2,
-            "AvatarOutOfBoundsRatioRequired": 0.8
+            "AvatarOutOfBoundsRatioRequired": 0.80000001
         },
         "FlyAfterTargetBehavior": {
             "Enabled": 0,
@@ -943,7 +943,7 @@
             "AllowableLinearOffsetFromPos": 300,
             "AllowableDistanceOffsetFromAlignment": 60,
             "CatchUpDistance": 200,
-            "SlowDownSpeedModifier": 0.85,
+            "SlowDownSpeedModifier": 0.85000002,
             "CatchUpSpeedModifier": 1.25,
             "InFormationScript": {
                 "Script": ""
@@ -991,7 +991,7 @@
                 "UseEndNodePos": 0,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1
         },
@@ -1016,7 +1016,7 @@
             "MoveSuccessRadius": 1,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 0,
             "StopWhenMovementInactive": 0,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1
         },
         "LocomotionController:MoveModifierCollection": [
@@ -1034,12 +1034,12 @@
                         1
                     ],
                     "PreserveVelocity": 1,
-                    "MinAvoidanceReducedVelocityPct": 0.33,
+                    "MinAvoidanceReducedVelocityPct": 0.33000001,
                     "FlyerControlMode": 1,
                     "AllowedObstacleCountForMaxSpeed": 60,
                     "ObstacleCountForMinSpeed": 200,
                     "ObstacleSlowdownScalingExponent": 1.8,
-                    "MinSpeedScalingFromObstacles": 0.66,
+                    "MinSpeedScalingFromObstacles": 0.66000003,
                     "AvoidDynamicObstaclesOnly": 0
                 },
                 "LocomotionMoveModifierFreezeDesiredSpeed": [],
@@ -1100,7 +1100,7 @@
         ],
         "AwarenessDecayTime": 0,
         "TargetLostTime": 20,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 600,
         "ReportTargetPortalCheck": 0,
         "ReportAwareness": 1,
@@ -1113,7 +1113,7 @@
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "Grineer/Fighters/RailjackFighterReactionControllerImpl",
         "PerceiverType": "Grineer/Fighters/RailjackShipPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "IsCoverUseEnabled": 0,
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",
         "TargetEvaluatorType": "AntiRailjackSpaceFighterTargetEvaluator"

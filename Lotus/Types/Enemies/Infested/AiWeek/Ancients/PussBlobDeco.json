@@ -4,7 +4,7 @@
         "UseLightMap": 0,
         "BakeShadowsOnLightMaps": 0,
         "Mesh": "/Lotus/Objects/Infestation/InfestedSpawnPod.fbx",
-        "MeshScale": 0.3,
+        "MeshScale": 0.30000001,
         "ServerChildren": [
             {
                 "LocalPosition": [
@@ -57,10 +57,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.608761,
+                    -0.60876101,
                     0,
                     0,
-                    0.793353
+                    0.79335302
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Enemies/Zombies/Ancients/PussAncient/PussPodEnergy",
@@ -75,14 +75,14 @@
             {
                 "LocalPosition": [
                     0,
-                    0.8,
+                    0.80000001,
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Enemies/Zombies/Ancients/PussAncient/PussPodLight",
@@ -106,8 +106,8 @@
             ],
             "_spawnType": "/Lotus/Types/Enemies/Infested/Vip/GolemNpcSpawnPointOne",
             "_spawnDelay": 2.5,
-            "_scaleUpTime": 0.8,
-            "_desiredScale": 0.7,
+            "_scaleUpTime": 0.80000001,
+            "_desiredScale": 0.69999999,
             "_levelMod": 1
         },
         "ReplicaRunScriptInstance": 1,
@@ -116,7 +116,7 @@
         "Health": 400,
         "DamageMultipliers": {
             "DT_SLASH": 3,
-            "DT_POISON": 0.3
+            "DT_POISON": 0.30000001
         },
         "RemoveOnDestroy": 1,
         "MasterCreateOnDestroy": {

@@ -5,9 +5,9 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalPosition": [
-                    -0.005,
+                    -0.0049999999,
                     -0.02,
-                    -0.01
+                    -0.0099999998
                 ],
                 "Type": "PrimeLightningGunAttachment"
             },
@@ -29,13 +29,13 @@
         "GripPositionOffset": [
             -0.07,
             -0.11,
-            0.03
+            0.029999999
         ],
         "GripRotationOffset": [
-            -0.21124,
-            -0.669187,
-            0.706251,
-            -0.093687
+            -0.21123999,
+            -0.66918701,
+            0.70625103,
+            -0.093686998
         ],
         "GripBone": "GAME_C1_BARREL",
         "NotifyAttachmentState": 1,
@@ -46,11 +46,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -82,11 +82,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -131,7 +131,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -144,7 +144,7 @@
                                 "firingType": "FT_CHARGED",
                                 "burstTime": [
                                     0,
-                                    0.32
+                                    0.31999999
                                 ],
                                 "burstPauseTime": [
                                     0,
@@ -276,8 +276,8 @@
                         {
                             "LocalPosition": [
                                 0,
-                                0.04,
-                                0.72
+                                0.039999999,
+                                0.72000003
                             ],
                             "LocalRotation": [
                                 0,
@@ -334,7 +334,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_ELECTRICITY",
                         "Amount": 400,
-                        "ProcChance": 0.18,
+                        "ProcChance": 0.18000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -385,7 +385,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.4,
+                    "criticalHitChance": 0.40000001,
                     "criticalHitDamageMultiplier": 2.8,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -422,7 +422,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponCommonBeamStateBehavior",
                 "state:WeaponCommonBeamStateBehavior": {
-                    "reloadTime": 2.6,
+                    "reloadTime": 2.5999999,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -548,19 +548,19 @@
             "Script": "PrimeLightningGun.lua",
             "Function": "OnDamageDone",
             "_targetSearchRadius": 10,
-            "_baseLightningProcChance": 0.7,
+            "_baseLightningProcChance": 0.69999999,
             "_maxNonProcsCount": 3,
             "_useLinearProcFunction": 0,
             "_strikeDelays": [
                 0.5,
-                0.3,
+                0.30000001,
                 0.2
             ],
             "_chainingChances": [
                 0.5,
                 0.5
             ],
-            "_distanceWeightMultiplier": 0.4,
+            "_distanceWeightMultiplier": 0.40000001,
             "_initialVictimPenalty": 0.5,
             "_lightningBoltFx": "/Lotus/Fx/Weapons/LongGuns/CalibanPrimeLightningChargeBurst",
             "_scopedAimSound": "",

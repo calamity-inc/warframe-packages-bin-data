@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Common/Sphere10Invert.fbx",
-        "MeshScale": 0.85,
+        "MeshScale": 0.85000002,
         "OverrideMaterial": [
             "/Lotus/Fx/PowersuitAbilities/Frost/IcicleSlowDecoCausticsMat"
         ],
@@ -27,10 +27,10 @@
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.85,
+                "TimeLength": 0.85000002,
                 "Multiplier": 1,
                 "FadeRange": [
-                    0.15,
+                    0.15000001,
                     0.5
                 ],
                 "FadeCurve": {

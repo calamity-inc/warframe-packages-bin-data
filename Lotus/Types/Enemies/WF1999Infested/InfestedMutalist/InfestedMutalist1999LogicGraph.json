@@ -7,6 +7,7 @@
                 "value": {
                     "type": "Selector",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 0,
                     "posY": 103
                 }
@@ -16,6 +17,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 108,
                     "posY": -275
                 }
@@ -25,6 +27,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 199,
                     "posY": 675
                 }
@@ -34,6 +37,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 544,
                     "posY": 651
                 }
@@ -43,6 +47,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 499,
                     "posY": 719
                 }
@@ -52,6 +57,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 544,
                     "posY": 787
                 }
@@ -61,6 +67,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 157,
                     "posY": -71
                 }
@@ -70,6 +77,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 121,
                     "posY": 21
                 }
@@ -79,6 +87,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 135,
                     "posY": -139
                 }
@@ -88,6 +97,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 136,
                     "posY": 157
                 }
@@ -97,6 +107,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 141,
                     "posY": 429
                 }
@@ -106,6 +117,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 166,
                     "posY": 607
                 }
@@ -115,6 +127,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 455,
                     "posY": -38
                 }
@@ -124,6 +137,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 135,
                     "posY": 89
                 }
@@ -133,6 +147,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 110,
                     "posY": 225
                 }
@@ -142,6 +157,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 139,
                     "posY": 361
                 }
@@ -151,6 +167,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 136,
                     "posY": 293
                 }
@@ -160,6 +177,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 176,
                     "posY": -207
                 }
@@ -169,6 +187,7 @@
                 "value": {
                     "type": "Action",
                     "comment": "",
+                    "requiresChildAction": 0,
                     "posX": 143,
                     "posY": 497
                 }
@@ -219,7 +238,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 1,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,
@@ -269,7 +288,6 @@
                     "RandomWalkBehavior:AimWhenIdle": 0,
                     "RandomWalkBehavior:AimWhenAlert": 1,
                     "RandomWalkBehavior:PermanentAlert": 0,
-                    "RandomWalkBehavior:ForceIdleForSinglePointPatrols": 1,
                     "RandomWalkBehavior:AnimAction": "PatrolIdle",
                     "RandomWalkBehavior:GenericAnims": [],
                     "RandomWalkBehavior:MinPlayerDist": [
@@ -437,7 +455,6 @@
                     "AimWhenIdle": 0,
                     "AimWhenAlert": 1,
                     "PermanentAlert": 0,
-                    "ForceIdleForSinglePointPatrols": 1,
                     "AnimAction": "PatrolIdle",
                     "GenericAnims": [],
                     "MinPlayerDist": [
@@ -693,6 +710,7 @@
                     "DefaultReevaluationDelay": 0,
                     "TimeSinceLastSeen": 5,
                     "MaxDistToTarget": 25,
+                    "SpeedMultiplier": 1,
                     "ConsiderOrderType": 1,
                     "Order": "StormTarget",
                     "FailsOnTargetAcquired": 1,

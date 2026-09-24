@@ -35,13 +35,13 @@
         ],
         "AttackData": {
             "DT_IMPACT": 0.2,
-            "DT_PUNCTURE": 0.05,
+            "DT_PUNCTURE": 0.050000001,
             "DT_SLASH": 0.75,
             "Amount": 127,
-            "ProcChance": 0.15
+            "ProcChance": 0.15000001
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.15,
+        "CriticalChance": 0.15000001,
         "CriticalMultiplier": 1.5,
         "ExplosiveAttack": {
             "Type": "DT_FREEZE",
@@ -53,12 +53,12 @@
         "Toughness": 10000,
         "MaxLife": 15,
         "RaycastMovement": 0,
-        "VerticalImpulse": 0.05,
+        "VerticalImpulse": 0.050000001,
         "HorizontalImpulse": 0.2,
         "KinematicAccel": 100,
         "KinematicInitialSpeed": 20,
         "KinematicMaxSpeed": 20,
-        "KinematicNoiseRate": 0.0001,
+        "KinematicNoiseRate": 0.000099999997,
         "SilentProjectile": 1,
         "SeekDistance": 20,
         "SeekCone": 4,
@@ -72,7 +72,7 @@
         ],
         "ImpactVelocityDampen": 1,
         "AutoRecallTimer": 0.75,
-        "DestructionTimer": 0.6,
+        "DestructionTimer": 0.60000002,
         "CatchRadius": 5,
         "MaxReflections": 4,
         "MinFlightDistance": 29.5,
@@ -94,8 +94,8 @@
         "HoverRotation": [
             0,
             0,
-            0.707107,
-            0.707107
+            0.70710677,
+            0.70710677
         ],
         "RotationSpeed": 1080
     }

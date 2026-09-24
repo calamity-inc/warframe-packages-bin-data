@@ -58,16 +58,17 @@
             "/EE/Types/Npc/DynamicPathFollowerGround"
         ],
         "LocomotionController:DynamicPathFollowerGroundUsingVip": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
+            "TurnRateMultiplierOnMoveDirFacing": 1,
             "MinimumMoveDistance": 0.1,
             "MinimumRunDistance": 3,
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 360,
             "StopWhenTurningAngle": 360,
             "CheckFunnelForTightTurns": 0,
@@ -83,15 +84,18 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,
             "SlopeThrottleMapping": [],
             "EnableViewChange": 1,
             "InitialAngleDiffForTurn": 0,
+            "MaxAngleDiffForTurn": 360,
+            "AngleDiffTolerance": 0,
             "ForceLookTarget": 0,
             "ForcePredictUsingDesiredViewHeading": 0,
+            "MaxLookAheadDistanceForPeakHeight": 5,
             "TransitionDistance": 2,
             "CoverWalkTransitionDistance": 0.5,
             "AlternateCoverPoseTransitionDistance": 0,
@@ -116,7 +120,9 @@
                     "/Lotus/Types/Game/VipNavLocomotionModifier",
                     "/EE/Types/Npc/LocomotionMoveModifierSwitchMoveTypeOffNav"
                 ],
-                "VipNavLocomotionModifier": [],
+                "VipNavLocomotionModifier": {
+                    "SupportedVipNavList": []
+                },
                 "LocomotionMoveModifierSwitchMoveTypeOffNav": {
                     "ModifierSwitchingCondition": "NAVMESH_NEARBY_AND_OFF_NAV",
                     "PathFinderTargetIdx": 1,
@@ -132,7 +138,9 @@
                     "/Lotus/Types/Game/VipNavLocomotionModifier",
                     "/EE/Types/Npc/LocomotionMoveModifierSwitchMoveTypeOffNav"
                 ],
-                "VipNavLocomotionModifier": [],
+                "VipNavLocomotionModifier": {
+                    "SupportedVipNavList": []
+                },
                 "LocomotionMoveModifierSwitchMoveTypeOffNav": {
                     "ModifierSwitchingCondition": "VIP_NAVMESH_NEARBY",
                     "PathFinderTargetIdx": 0,
@@ -151,7 +159,6 @@
             "maxHeight": 20,
             "minHeight": -10,
             "nearbyNavSearchRadius": 8,
-            "shorteningType": "ST_NONE",
             "avoidanceRadius": 1,
             "dangerRadius": 0.5,
             "avoidSpeedMultiplier": 1,
@@ -171,7 +178,7 @@
         ],
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGrineerReactionController",
         "PerceiverType": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/MicroPlanetInfestedPerceiver",
-        "SightReactionProbability": 0.6,
+        "SightReactionProbability": 0.60000002,
         "OnlyTargetAvatars": 1,
         "CoverIllumBias": 0.5,
         "IsCoverUseEnabled": 1,

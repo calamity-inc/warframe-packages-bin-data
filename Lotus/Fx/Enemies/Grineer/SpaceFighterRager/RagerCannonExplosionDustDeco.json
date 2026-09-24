@@ -2,13 +2,13 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Explosions/ExplosionRings.fbx",
-        "MeshScale": 0.8,
+        "MeshScale": 0.80000001,
         "MaterialParams": [
             {
                 "name": "LightingAtten",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.8
+                "value": 0.80000001
             }
         ],
         "UseParentDissolve": 0,
@@ -24,7 +24,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 0.1,
                 "FadeRange": [
                     0,
@@ -34,11 +34,11 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.085362
+                            "Value": 0.085362397
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.769083
+                            "Value": 0.76908302
                         },
                         {
                             "Time": 1,
@@ -57,7 +57,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 2,
                 "FadeRange": [
                     0,
@@ -71,15 +71,15 @@
                         },
                         {
                             "Time": 0.25,
-                            "Value": 0.992986
+                            "Value": 0.99298602
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.421043
+                            "Value": 0.42104301
                         },
                         {
                             "Time": 0.75,
-                            "Value": 0.052515
+                            "Value": 0.052515201
                         },
                         {
                             "Time": 1,

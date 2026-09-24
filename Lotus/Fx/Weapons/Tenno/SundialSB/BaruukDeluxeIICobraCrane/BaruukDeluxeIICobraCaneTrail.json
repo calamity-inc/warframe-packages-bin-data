@@ -1,0 +1,41 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWeaponTrail",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 50
+            }
+        ],
+        "ReplicateCreator": 1,
+        "EdgeTime": 0.27500001,
+        "Length": 0.15000001,
+        "EaseInRate": 0.039999999,
+        "InitialVelocity": [
+            0,
+            1,
+            0
+        ],
+        "Material": "/Lotus/Fx/Weapons/Melee/Clean/Trails/MeleeTrailCleanMat",
+        "NormalizedUvOverLife": 1,
+        "Tint": [
+            10,
+            163,
+            255,
+            255
+        ],
+        "TintOnlyAlpha": 1,
+        "TintOverLife": 1,
+        "EndTint": [
+            0,
+            54,
+            111,
+            255
+        ],
+        "TintOverLifeSharpness": 4,
+        "NumHorzSlices": 2,
+        "ApplyColorCustomization": 1
+    }
+}

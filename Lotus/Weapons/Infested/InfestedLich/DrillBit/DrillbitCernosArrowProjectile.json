@@ -73,9 +73,9 @@
         "AttackData": {
             "DT_IMPACT": 0.37,
             "DT_PUNCTURE": 0.11,
-            "DT_SLASH": 0.52,
+            "DT_SLASH": 0.51999998,
             "Amount": 279,
-            "ProcChance": 0.43
+            "ProcChance": 0.43000001
         },
         "CriticalChance": 0.07,
         "CriticalMultiplier": 1.9,
@@ -104,17 +104,17 @@
         "EmbedDeathAttack": {
             "Type": "DT_VIRAL",
             "Amount": 1003,
-            "ProcChance": 0.43
+            "ProcChance": 0.43000001
         },
         "EmbedEffect": "/Lotus/Fx/Weapons/Bow/DerelictCernosEmbedFX",
         "OwnEmbedEffect": 1,
         "EmbedDeathEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXOrganicLargeNoSound",
-        "KinematicPostCollisionsSpeedFactor": 0.4,
+        "KinematicPostCollisionsSpeedFactor": 0.40000001,
         "KinematicInitialSpeed": 45,
         "KinematicMaxSpeed": 45,
-        "KinematicNoise": 0.03,
+        "KinematicNoise": 0.029999999,
         "KinematicGravity": 1,
-        "KinematicGravityMultiplier": 0.33,
+        "KinematicGravityMultiplier": 0.33000001,
         "SweepRadius": 0,
         "OnProjectileStoppedScript": {
             "Script": "/Lotus/Scripts/WeaponAttachments/DerelictCernos.lua",
@@ -129,14 +129,14 @@
         "SilentProjectile": 1,
         "ApplyColorCustomization": 1,
         "PinnedRagdollsAddWeight": 1,
-        "RagdollWeightGravityMultiplier": 0.3,
+        "RagdollWeightGravityMultiplier": 0.30000001,
         "FlightUpVector": [
             1,
             0,
             0
         ],
         "RagdollEmbedLife": 2.7,
-        "EmbedOffset": -0.03,
+        "EmbedOffset": -0.029999999,
         "AttachmentOffsets": [
             0.25
         ],

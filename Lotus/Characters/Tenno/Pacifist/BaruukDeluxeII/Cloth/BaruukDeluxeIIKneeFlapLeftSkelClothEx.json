@@ -1,0 +1,27 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "BaruukDeluxeIIKneeFlapLeft_skel.fbx",
+        "Attached": 1,
+        "ControlData": "BaruukDeluxeIIKneeFlapLeftSkelClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.2,
+                0.2
+            ],
+            "massRange": [
+                0.1,
+                1
+            ],
+            "distConstraintRange": [
+                0.0099999998,
+                0.050000001
+            ],
+            "reduceStretchExponent": 2,
+            "shearingStiffness": 1,
+            "simulateCollisionLast": 0
+        },
+        "UseDynamicCollision": 0,
+        "UseClothCollision": 1
+    }
+}

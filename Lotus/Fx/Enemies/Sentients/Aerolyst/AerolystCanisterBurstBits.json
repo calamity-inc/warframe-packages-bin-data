@@ -2,7 +2,7 @@
     "parent": "/EE/Types/Effects/GPUParticleSys",
     "data": {
         "SpawnRate": 300,
-        "resilience": 0.3,
+        "resilience": 0.30000001,
         "drag": 0.2,
         "mass": [
             0.5,
@@ -21,15 +21,15 @@
         "spawnShape": "SP_CONE",
         "velocityDeviation": [
             0,
-            0.3
+            0.30000001
         ],
         "useForceFieldForSpawn": 1,
         "spawnFlowBlend": 0.5,
-        "spawnDelay": 0.3,
+        "spawnDelay": 0.30000001,
         "flowScale": [
-            0.3,
-            0.3,
-            0.3
+            0.30000001,
+            0.30000001,
+            0.30000001
         ],
         "flowForce": [
             4,
@@ -50,8 +50,8 @@
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparks",
         "colorKeys[0]": [
             0.092,
-            0.78,
-            0.84,
+            0.77999997,
+            0.83999997,
             1
         ]
     }

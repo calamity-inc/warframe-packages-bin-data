@@ -16,7 +16,7 @@
             "Values": [
                 {
                     "Time": 0,
-                    "Value": 0.99334
+                    "Value": 0.99334002
                 },
                 {
                     "Time": 0.5,
@@ -24,12 +24,12 @@
                 },
                 {
                     "Time": 1,
-                    "Value": 0.03825
+                    "Value": 0.0382501
                 }
             ],
             "SplineType": "CUBIC_SPLINE"
         },
-        "EmissionTime": 0.8,
+        "EmissionTime": 0.80000001,
         "VelocityCurve": {
             "Values": [
                 {
@@ -38,7 +38,7 @@
                 },
                 {
                     "Time": 1,
-                    "Value": 0.15
+                    "Value": 0.15000001
                 }
             ]
         },
@@ -53,37 +53,37 @@
         ],
         "fireOnce": 0,
         "resilience": 0.25,
-        "drag": 0.3,
+        "drag": 0.30000001,
         "mass": [
-            0.05,
-            0.15
+            0.050000001,
+            0.15000001
         ],
         "life": [
-            0.6,
+            0.60000002,
             1
         ],
         "size": [
             0.035,
-            0.04
+            0.039999999
         ],
         "velocity": [
             0.2,
             1.2
         ],
-        "collisionDelay": 0.15,
+        "collisionDelay": 0.15000001,
         "useForceFieldForSpawn": 1,
         "spawnScale": [
-            0.05,
-            0.05,
-            0.05
+            0.050000001,
+            0.050000001,
+            0.050000001
         ],
         "spawnFlowBlend": 0.5,
         "spawnDelay": 0.1,
         "spawnFlowForcePosScale": 0.2,
         "flowScale": [
-            0.3,
-            0.3,
-            0.3
+            0.30000001,
+            0.30000001,
+            0.30000001
         ],
         "flowForceEnd": [
             2,
@@ -98,28 +98,28 @@
         "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColor",
         "colorKeys[0]": [
-            0.072,
+            0.071999997,
             0.44,
             0.75,
-            0.67
+            0.67000002
         ],
         "colorKeys[1]": [
-            0.072,
+            0.071999997,
             0.44,
             0.75,
-            0.67
+            0.67000002
         ],
         "colorKeys[2]": [
             0.012,
-            0.18,
-            0.35,
-            0.67
+            0.18000001,
+            0.34999999,
+            0.67000002
         ],
         "colorKeys[3]": [
             0.0011,
-            0.043,
-            0.091,
-            0.67
+            0.043000001,
+            0.090999998,
+            0.67000002
         ],
         "numColors": 3
     }

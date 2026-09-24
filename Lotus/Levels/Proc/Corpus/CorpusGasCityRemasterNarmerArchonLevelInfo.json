@@ -1,14 +1,6 @@
 {
     "parent": "CorpusGasCityRemasterLevelInfo",
     "data": {
-        "OnLocalAvatarCreatedScript": {
-            "_MusicSequencerType": "/Lotus/Music/DynamicMusic/Veilbreaker/VeilbreakerOneMusicSequencer",
-            "_RandomMusicSequencerType": [
-                "/Lotus/Music/DynamicMusic/Veilbreaker/VeilbreakerOneMusicSequencer",
-                "/Lotus/Music/DynamicMusic/Veilbreaker/VeilbreakerTwoMusicSequencer",
-                "/Lotus/Music/DynamicMusic/Veilbreaker/VeilbreakerThreeMusicSequencer"
-            ]
-        },
         "ConfigureScript": {
             "_itemTypes": [
                 "/Lotus/Types/PickUps/Narmer/NarmerLootCrate"
@@ -17,6 +9,14 @@
                 1
             ],
             "_itemProbabilitySecondary": []
+        },
+        "OnLocalAvatarCreatedScript": {
+            "_MusicSequencerType": "/Lotus/Music/DynamicMusic/Veilbreaker/VeilbreakerOneMusicSequencer",
+            "_RandomMusicSequencerType": [
+                "/Lotus/Music/DynamicMusic/Veilbreaker/VeilbreakerOneMusicSequencer",
+                "/Lotus/Music/DynamicMusic/Veilbreaker/VeilbreakerTwoMusicSequencer",
+                "/Lotus/Music/DynamicMusic/Veilbreaker/VeilbreakerThreeMusicSequencer"
+            ]
         }
     }
 }

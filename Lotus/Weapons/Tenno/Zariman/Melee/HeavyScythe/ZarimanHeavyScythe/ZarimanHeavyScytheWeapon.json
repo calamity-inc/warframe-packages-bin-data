@@ -5,30 +5,30 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalPosition": [
-                    0.01,
-                    -0.35,
+                    0.0099999998,
+                    -0.34999999,
                     0.015
                 ],
                 "LocalRotation": [
-                    0.006545,
+                    0.0065449998,
                     0,
                     0,
-                    0.999979
+                    0.99997902
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "ZarimanHeavyScytheAttachment"
             },
             "EXTRA1": {
                 "LocalPosition": [
-                    0.01,
-                    -0.35,
+                    0.0099999998,
+                    -0.34999999,
                     0.015
                 ],
                 "LocalRotation": [
-                    0.006545,
+                    0.0065449998,
                     0,
                     0,
-                    0.999979
+                    0.99997902
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "Incarnon/VoidHeavyScytheIncarnonAttachment"
@@ -61,7 +61,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -251,10 +251,10 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0,
-                        "DT_PUNCTURE": 0.3,
-                        "DT_SLASH": 0.7,
+                        "DT_PUNCTURE": 0.30000001,
+                        "DT_SLASH": 0.69999999,
                         "Amount": 300,
-                        "ProcChance": 0.24,
+                        "ProcChance": 0.23999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -273,7 +273,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.261,
+                    "PvpDamageMultiplier": 0.26100001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 300,
                     "additionalForce": [
@@ -305,7 +305,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.3,
+                    "criticalHitChance": 0.30000001,
                     "criticalHitDamageMultiplier": 2.2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -374,9 +374,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -514,10 +514,10 @@
         "BulletAttractorType": "",
         "HolsterCategory": "STAFF",
         "HolsterRotOffset": [
-            0.21644,
+            0.21644001,
             0,
             0,
-            0.976296
+            0.97629601
         ],
         "RequiredLevel": 12,
         "ArtifactSlots": [
@@ -544,8 +544,8 @@
                         "BoneOverride": "",
                         "PosOffset": [
                             0,
-                            0.8,
-                            -0.06
+                            0.80000001,
+                            -0.059999999
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -553,9 +553,9 @@
                             0
                         ],
                         "RotOffset": [
-                            0.541675,
+                            0.54167497,
                             0.454519,
-                            0.541675,
+                            0.54167497,
                             0.454519
                         ],
                         "RotOffsetSecondary": [
@@ -571,8 +571,8 @@
                         "BoneOverride": "",
                         "PosOffset": [
                             0,
-                            0.4,
-                            -0.06
+                            0.40000001,
+                            -0.059999999
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -580,9 +580,9 @@
                             0
                         ],
                         "RotOffset": [
-                            0.541675,
+                            0.54167497,
                             0.454519,
-                            0.541675,
+                            0.54167497,
                             0.454519
                         ],
                         "RotOffsetSecondary": [
@@ -636,7 +636,7 @@
             0,
             255
         ],
-        "OmegaAttenuation": 0.6,
+        "OmegaAttenuation": 0.60000002,
         "IsPermanentEvolutionWeapon": 1,
         "Evolutions": [
             {
@@ -863,7 +863,7 @@
                 "RadiusMin": 0,
                 "Radius": 9,
                 "FallOff": 1,
-                "FallOffMax": 0.7,
+                "FallOffMax": 0.69999999,
                 "CanCrit": 0,
                 "CanUseComboMultiplier": 1,
                 "UseImpactBehaviorAttackDataAmount": 1,
@@ -989,7 +989,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             }
         ],
@@ -1059,7 +1059,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 1,
                 "HitAirborneTargets": 0,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -1125,7 +1125,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             }
         ],
@@ -1137,7 +1137,7 @@
         "ParryDamagePercentBlockedPvp": 1,
         "ParryAngle": 65,
         "ChannelingReflectAmount": 0.2,
-        "ChannelingReflectAmountPvp": 0.15,
+        "ChannelingReflectAmountPvp": 0.15000001,
         "HeavySlamStartSound": "/Lotus/Sounds/Weapons/Melee/Whooshes/JumpSlam/MeleeJumpSlamLargeCharge3D",
         "QuickSlamStartSound": "/Lotus/Sounds/Weapons/Melee/Whooshes/JumpSlam/MeleeJumpSlamLargeCharge3D"
     }

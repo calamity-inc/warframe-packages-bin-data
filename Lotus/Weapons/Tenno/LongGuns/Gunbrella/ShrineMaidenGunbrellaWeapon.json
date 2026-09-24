@@ -12,9 +12,9 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalRotation": [
-                    -0.000761,
+                    -0.00076099997,
                     0.017436,
-                    -0.043613,
+                    -0.043613002,
                     0.998896
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -23,13 +23,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -53,15 +53,15 @@
         "UseWeaponHandForAim": 1,
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.065,
-            -0.05,
+            -0.064999998,
+            -0.050000001,
             0.17
         ],
         "GripRotationOffset": [
             0,
-            0.704416,
-            -0.707107,
-            0.061628
+            0.70441598,
+            -0.70710677,
+            0.061627999
         ],
         "AimStartSound": "",
         "AimStopSound": "/Lotus/Sounds/Weapons/Tenno/TnKoumeiGunbrella/TnKoumeiGunbrellaAimTransitionOut",
@@ -80,7 +80,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -276,9 +276,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.3333,
-                        "DT_PUNCTURE": 0.3333,
-                        "DT_SLASH": 0.3334,
+                        "DT_IMPACT": 0.33329999,
+                        "DT_PUNCTURE": 0.33329999,
+                        "DT_SLASH": 0.33340001,
                         "Amount": 25,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -431,7 +431,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -560,7 +560,7 @@
                     "WhizDeviation": 1,
                     "WhizChance": 0,
                     "WhizzByRemoteMinDistance": 15,
-                    "TraceRadius": 0.3,
+                    "TraceRadius": 0.30000001,
                     "PvpTraceRadius": 0,
                     "RefinedSweep": 0,
                     "AffectedByStasis": 1,
@@ -577,7 +577,7 @@
                         {
                             "LocalPosition": [
                                 0.02,
-                                0.06,
+                                0.059999999,
                                 0.22
                             ],
                             "LocalRotation": [
@@ -601,7 +601,7 @@
                     "CentralBeamChild": {
                         "LocalPosition": [
                             0.02,
-                            0.06,
+                            0.059999999,
                             0.22
                         ],
                         "LocalRotation": [
@@ -657,7 +657,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_EXPLOSION",
                         "Amount": 390,
-                        "ProcChance": 0.18,
+                        "ProcChance": 0.18000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -708,7 +708,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.24,
+                    "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -817,7 +817,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,

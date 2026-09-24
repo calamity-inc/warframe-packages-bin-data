@@ -7,16 +7,16 @@
         "AddedCollision": "InfestedPacketClothCollision",
         "Attribs": {
             "dampeningRange": [
-                0.082,
-                0.083
+                0.082000002,
+                0.082999997
             ],
             "collidingDampeningRange": [
-                0.01,
-                0.05
+                0.0099999998,
+                0.050000001
             ],
             "massRange": [
-                0.3,
-                0.4
+                0.30000001,
+                0.40000001
             ],
             "distConstraintRange": [
                 0.001,
@@ -24,12 +24,12 @@
             ],
             "useBackstopConstraints": 1,
             "backstopConstraintRange": [
-                0.05,
+                0.050000001,
                 0.2
             ],
             "useHardConstraints": 1,
             "reduceStretchExponent": 2,
-            "shearingStiffness": 0.01,
+            "shearingStiffness": 0.0099999998,
             "worldVelocityAtten": [
                 1,
                 1,
@@ -62,7 +62,7 @@
                 0.2
             ],
             "addFloorPlaneCollision": 0,
-            "floorPlaneHeight": 0.01,
+            "floorPlaneHeight": 0.0099999998,
             "addDividingPlaneCollision": 1,
             "orientationBasisWeighDistance": 1,
             "simulateCollisionLast": 0

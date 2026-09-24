@@ -153,7 +153,7 @@
         "KinematicMaxSpeed": 15,
         "KinematicGravity": 1,
         "KinematicRestitution": 0.5,
-        "KinematicRestitutionParallel": 0.3,
+        "KinematicRestitutionParallel": 0.30000001,
         "KinematicAngleSpeed": [
             15,
             20
@@ -178,7 +178,7 @@
         "OnProjectileDeathScript": {
             "Script": "/Lotus/Scripts/WeaponAttachments/GrenadeMarker.lua",
             "Function": "OnDeathPassSequencer",
-            "_ampThreshold": 0.6,
+            "_ampThreshold": 0.60000002,
             "_pulseEffectType": "",
             "_postCameraUpdateHud": "",
             "_mirrorGrenadeType": "GrineerNPCIceLineGrenadeProjectileNoSound"

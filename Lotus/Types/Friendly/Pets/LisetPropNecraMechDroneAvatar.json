@@ -2,14 +2,14 @@
     "parent": "/Lotus/Types/Game/LotusNpcAvatar",
     "data": {
         "Mesh": "/Lotus/Characters/NewWar/NecraMechDrone/NecraMechDrone_skel.fbx",
-        "MeshScale": 0.3,
+        "MeshScale": 0.30000001,
         "AnimationName": "Kubrow",
         "AutoSimChildren": [
             {
                 "LocalPosition": [
                     0,
                     0.1,
-                    0.55
+                    0.55000001
                 ],
                 "LocalRotation": [
                     0,
@@ -30,7 +30,7 @@
             {
                 "LocalPosition": [
                     0,
-                    0.4,
+                    0.40000001,
                     -0.5
                 ],
                 "LocalRotation": [
@@ -52,8 +52,8 @@
             {
                 "LocalPosition": [
                     0,
-                    0.4,
-                    -0.4
+                    0.40000001,
+                    -0.40000001
                 ],
                 "LocalRotation": [
                     0,
@@ -79,7 +79,7 @@
             "Function": "DroneHover",
             "_hoverSound": "/Lotus/Sounds/Characters/Corpus/GasCityLisetRobotCleaner/CrpGasCityLisetPropCleaningDroneLoopPet",
             "_pitchMin": 0.5,
-            "_pitchMax": 0.8,
+            "_pitchMax": 0.80000001,
             "_boneDirectorInit": "GAME_C1_BODY",
             "_boneOffset": [
                 0,

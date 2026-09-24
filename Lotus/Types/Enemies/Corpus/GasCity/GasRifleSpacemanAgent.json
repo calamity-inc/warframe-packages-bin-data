@@ -283,7 +283,7 @@
                 ],
                 "ShouldAim": 1,
                 "CanRun": 0,
-                "StopRadius": 4.2,
+                "StopRadius": 4.1999998,
                 "StopSearchIfNoTarget": 0,
                 "StopSearchOnAwarenessLevel": "AW_IDLE",
                 "MaintainedAwarenessLevel": "AW_ALERT",
@@ -434,7 +434,7 @@
                 "ReturnToCoverDamageThreshold": 0.5,
                 "ExitCoverOnDamageDuringWait": 0,
                 "ExitCoverOnDamageDuringWaitDamageThreshold": 0.5,
-                "PushoutFromCrouchDistance": 0.3,
+                "PushoutFromCrouchDistance": 0.30000001,
                 "RequireCover": 0,
                 "SuppressionUnderFireTime": 3,
                 "LookAtTarget": 0,
@@ -461,7 +461,7 @@
                 "LookAtNearbyPlayer": 0,
                 "LookAtTarget": 1,
                 "NearbyTeammatesThreshold": 10,
-                "PlayerBias": 0.6,
+                "PlayerBias": 0.60000002,
                 "ReportAttackOnDamage": 1,
                 "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                 "PatrolBehavior:Enabled": 1,
@@ -698,7 +698,7 @@
                 "CheckArc": 1,
                 "DoTurn": 1,
                 "StopMoving": 1,
-                "Gravity": -9.8,
+                "Gravity": -9.8000002,
                 "FromCoverMinTargetThreat": -5,
                 "FromOpenMinTargetThreat": 0
             },
@@ -734,7 +734,7 @@
                 "ReturnToCoverDamageThreshold": 0.5,
                 "ExitCoverOnDamageDuringWait": 0,
                 "ExitCoverOnDamageDuringWaitDamageThreshold": 0.5,
-                "PushoutFromCrouchDistance": 0.3,
+                "PushoutFromCrouchDistance": 0.30000001,
                 "RequireCover": 0,
                 "SuppressionUnderFireTime": 3,
                 "LookAtTarget": 0,
@@ -957,7 +957,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -975,7 +975,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8
@@ -1094,7 +1094,7 @@
             "DefaultReevaluationDelay": 0,
             "DistFromNav": 4,
             "MovementSpeedModifier": [
-                0.8,
+                0.80000001,
                 1.2
             ],
             "NearDistance": 5,
@@ -1243,10 +1243,10 @@
                     -0.2
                 ],
                 "LocalRotation": [
-                    0.541675,
+                    0.54167497,
                     0.454519,
                     -0.454519,
-                    0.541675
+                    0.54167497
                 ],
                 "BoneName": "GAME_L1_LEG1",
                 "Type": "/Lotus/Weapons/Corpus/Emplacement/CrpDeployableCover/CrpDeployableCoverAttachment",
@@ -1431,7 +1431,7 @@
                 "LastDamagedWindow": 5,
                 "DistanceToTarget": 15,
                 "MovementSpeedModifier": [
-                    0.8,
+                    0.80000001,
                     1
                 ],
                 "SeekCoverDelayOnFail": 1,
@@ -1482,7 +1482,7 @@
                 "CheckArc": 1,
                 "DoTurn": 1,
                 "StopMoving": 1,
-                "Gravity": -9.8,
+                "Gravity": -9.8000002,
                 "FromCoverMinTargetThreat": -5,
                 "FromOpenMinTargetThreat": 0
             },
@@ -1501,7 +1501,7 @@
                     5
                 ],
                 "MinShots": 1,
-                "MaxHealth": 0.4,
+                "MaxHealth": 0.40000001,
                 "CrouchCoverOnly": 1
             },
             "ControlledShootBehavior": {
@@ -1536,7 +1536,7 @@
                 "ReturnToCoverDamageThreshold": 0.5,
                 "ExitCoverOnDamageDuringWait": 0,
                 "ExitCoverOnDamageDuringWaitDamageThreshold": 0.5,
-                "PushoutFromCrouchDistance": 0.3,
+                "PushoutFromCrouchDistance": 0.30000001,
                 "RequireCover": 1,
                 "SuppressionUnderFireTime": 3,
                 "LookAtTarget": 0,
@@ -1615,7 +1615,7 @@
             "CheckArc": 1,
             "DoTurn": 1,
             "StopMoving": 1,
-            "Gravity": -9.8,
+            "Gravity": -9.8000002,
             "FromCoverMinTargetThreat": -5,
             "FromOpenMinTargetThreat": 0
         },
@@ -1632,7 +1632,7 @@
             "MinStrafeDistance": 0,
             "StopRadius": 0.5,
             "MovementSpeedModifier": [
-                0.8,
+                0.80000001,
                 1.2
             ],
             "MovementLineOfFireScoring": 0,
@@ -1650,7 +1650,7 @@
                 0
             ],
             "MinAngleToTurn": 40,
-            "MinAimMask": 0.9,
+            "MinAimMask": 0.89999998,
             "TargetNotVisibleTimeoutRange": [
                 6,
                 8
@@ -2013,7 +2013,7 @@
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -2057,7 +2057,7 @@
             "RandomWalkBehavior:DefaultReevaluationDelay": 0,
             "RandomWalkBehavior:StopRadius": 2,
             "RandomWalkBehavior:NearDistance": 4,
-            "RandomWalkBehavior:SpeedMultiplier": 0.7,
+            "RandomWalkBehavior:SpeedMultiplier": 0.69999999,
             "RandomWalkBehavior:AlertSpeedMultiplier": 1,
             "RandomWalkBehavior:AllowTarget": 0,
             "RandomWalkBehavior:AimWhenIdle": 0,
@@ -2165,13 +2165,13 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/Grineer/GrineerPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "BaseHitChance": [
-            0.65,
+            0.64999998,
             1
         ],
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",

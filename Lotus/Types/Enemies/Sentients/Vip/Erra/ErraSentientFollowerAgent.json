@@ -101,7 +101,7 @@
             "StopMovingWhenAttacking": 0,
             "DisablePostureChangers": 0,
             "TimeBetweenLunges": 2,
-            "LowTargetThreshold": 0.8,
+            "LowTargetThreshold": 0.80000001,
             "NormalAttack": "MELEE",
             "LowAttack": "MELEE",
             "ClearCoverReservationOnStart": 0,
@@ -109,7 +109,7 @@
             "VipAvatarType": "",
             "TimeBetweenBarks": 2,
             "VisibilityTimeout": 0,
-            "MaxReachableHeight": -9223372036854775808.0,
+            "MaxReachableHeight": "3.4028235e+38",
             "Bark": "ATTACK_SCREAM",
             "IsOffHandWeapon": 0
         },
@@ -124,7 +124,7 @@
             "DefaultReevaluationDelay": 0,
             "MaxStrafeDistance": 10,
             "MinStrafeDistance": 0,
-            "StopRadius": 0.6,
+            "StopRadius": 0.60000002,
             "MovementSpeedModifier": [
                 1,
                 1
@@ -138,7 +138,7 @@
                 0
             ],
             "MinAngleToTurn": 40,
-            "MinAimMask": 0.9,
+            "MinAimMask": 0.89999998,
             "TargetNotVisibleTimeoutRange": [
                 6,
                 8
@@ -217,7 +217,7 @@
             "ReleaseTeamMeleeLock": 1,
             "AimWhileMoving": 0,
             "MoveFacingControl": "MFC_FACE_MOVEDIR",
-            "StopRadius": 0.6,
+            "StopRadius": 0.60000002,
             "RunWhenShocked": 0,
             "ShockedDamageTime": 30,
             "OnlyTravelWhenVisible": 0,

@@ -5,22 +5,22 @@
         "PIXEL_EFFECT": "FLOW_MAP",
         "DETAILING": "IRIDESCENCE",
         "WORLD_POS_CLIP": 1,
-        "PS:Roughness": 0.3,
+        "PS:Roughness": 0.30000001,
         "PS:IridescentFrequency": [
             1,
             1.5,
             2
         ],
-        "PS:IridescentStrength": 0.3,
+        "PS:IridescentStrength": 0.30000001,
         "PS:IridescentUvPanScale": [
-            0.004,
-            -0.01,
+            0.0040000002,
+            -0.0099999998,
             25,
             25
         ],
         "PS:IridescentUvPanScaleTwo": [
-            0.01,
-            0.01,
+            0.0099999998,
+            0.0099999998,
             1,
             1
         ],
@@ -29,7 +29,7 @@
         "PS:FlowAmount": 0.1,
         "PS:FlowSpeed": -0.25,
         "PS:FlowUvPan": [
-            0.01,
+            0.0099999998,
             0.02
         ],
         "PS:TintColor": [
@@ -60,15 +60,15 @@
         "TX:FlowMap": "/Lotus/Fx/Common/FlowSim03_d.png",
         "TX:IridescentCubeMap": "/Lotus/Materials/Cubemaps/HabourLevel2_cmcross.hdr",
         "VS:NormalOffsetScale": [
-            0.01,
-            0.01,
-            0.01
+            0.0099999998,
+            0.0099999998,
+            0.0099999998
         ],
         "VS:NormalOffsetFade": 0.1,
         "VS:OffsetPulseSize": 0,
         "VS:OffsetPulseScale": 0,
         "VS:OffsetPulseSpeed": 0,
         "AlphaTest": 1,
-        "DepthBias": -0.00002
+        "DepthBias": -0.000019999999
     }
 }

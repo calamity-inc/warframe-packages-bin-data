@@ -8,7 +8,7 @@
                 "Startup": [],
                 "Events": [
                     {
-                        "Sound": "SentOctaMiniGunAltFireShotLoopLocal",
+                        "Sound": "SentOctaMiniGunAltFireShotLoop",
                         "Parameter": [
                             0,
                             0
@@ -22,7 +22,22 @@
                         "FadeAmount": 1
                     }
                 ],
-                "Shutdown": []
+                "Shutdown": [
+                    {
+                        "Sound": "SentOctaMiniGunAltFireStop",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            0
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ]
             }
         ]
     }

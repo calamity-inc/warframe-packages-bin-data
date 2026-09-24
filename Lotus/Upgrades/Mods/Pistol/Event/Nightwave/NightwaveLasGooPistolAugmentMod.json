@@ -1,0 +1,58 @@
+{
+    "parent": "/Lotus/Types/Game/LotusArtifactUpgrade",
+    "data": {
+        "Rarity": "RARE",
+        "MarketMode": "MM_HIDDEN",
+        "LocalizeTag": "/Lotus/Language/Mods/NightwaveLasGooPistolAugmentModName",
+        "LocalizeDescTag": "",
+        "Icon": "/Lotus/Interface/Cards/Images/Nightwave/NightwaveLasGooPistolAugmentMod.png",
+        "ExcludeFromCodex": 0,
+        "Weapon": "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolWeapon",
+        "Upgrades": [
+            {
+                "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                "OperationType": "ADD",
+                "Value": 0.15000001,
+                "DamageType": "DT_ELECTRICITY",
+                "AutoType": 1,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": [],
+                "OverrideLocalization": 1,
+                "LocTag": "/Lotus/Language/Mods/NightwaveLasGooPistolAugmentModDesc",
+                "LocKeyWordScript": {
+                    "Script": ""
+                },
+                "DisplayAsMultiplier": 0,
+                "DisplayAsPercent": 1,
+                "ReverseValueSymbol": 0,
+                "SmallerIsBetter": 0,
+                "RoundTo": 0.1,
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
+            }
+        ],
+        "ArtifactPolarity": "AP_ATTACK",
+        "ItemCompatibility": "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolPlayerWeapon",
+        "Script": {
+            "Script": "/Lotus/Scripts/Mods/IndependentStatusProcOnDamage.lua",
+            "Function": "OnApplyUpgrade",
+            "_statusChance": 0.2,
+            "_procType": "PT_ELECTROCUTION",
+            "_procEpsilon": 0.000099999997
+        },
+        "UnappliedScript": {
+            "Script": "/Lotus/Scripts/Mods/IndependentStatusProcOnDamage.lua",
+            "Function": "OnRemoveUpgrade",
+            "_statusChance": 0.2,
+            "_procType": "PT_ELECTROCUTION",
+            "_procEpsilon": 0.000099999997
+        },
+        "UpgradeChance": 1
+    }
+}

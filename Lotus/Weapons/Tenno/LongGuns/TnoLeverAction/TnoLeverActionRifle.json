@@ -13,13 +13,13 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    0.01,
+                    0.0099999998,
                     0
                 ],
                 "LocalRotation": [
-                    -0.000761,
+                    -0.00076099997,
                     0.017436,
-                    -0.043613,
+                    -0.043613002,
                     0.998896
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -28,13 +28,13 @@
             "EXTRA1": {
                 "LocalPosition": [
                     0,
-                    0.01,
+                    0.0099999998,
                     0
                 ],
                 "LocalRotation": [
-                    -0.000761,
+                    -0.00076099997,
                     0.017436,
-                    -0.043613,
+                    -0.043613002,
                     0.998896
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -43,13 +43,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
-            0.35,
+            0.050000001,
+            0.34999999,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -71,19 +71,19 @@
         "WeaponHandAimOffset": [
             0,
             0,
-            0.4
+            0.40000001
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.085,
+            -0.085000001,
             -0.015,
             0.2
         ],
         "GripRotationOffset": [
             0,
-            0.706676,
-            -0.707107,
-            0.024678
+            0.70667601,
+            -0.70710677,
+            0.024677999
         ],
         "Behaviors": [
             {
@@ -100,7 +100,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -112,7 +112,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.3,
+                                    0.30000001,
                                     1
                                 ],
                                 "burstPauseTime": [
@@ -226,7 +226,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -240,9 +240,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.33,
-                        "DT_PUNCTURE": 0.33,
-                        "DT_SLASH": 0.34,
+                        "DT_IMPACT": 0.33000001,
+                        "DT_PUNCTURE": 0.33000001,
+                        "DT_SLASH": 0.33999997,
                         "Amount": 80,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -262,7 +262,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.82,
+                    "PvpDamageMultiplier": 0.81999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -393,7 +393,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -405,7 +405,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.3,
+                                    0.30000001,
                                     1
                                 ],
                                 "burstPauseTime": [
@@ -519,7 +519,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -533,9 +533,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.33,
-                        "DT_PUNCTURE": 0.33,
-                        "DT_SLASH": 0.34,
+                        "DT_IMPACT": 0.33000001,
+                        "DT_PUNCTURE": 0.33000001,
+                        "DT_SLASH": 0.33999997,
                         "Amount": 90,
                         "ProcChance": 0.2,
                         "ForcedProcs": [
@@ -557,7 +557,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.82,
+                    "PvpDamageMultiplier": 0.81999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -616,7 +616,7 @@
                     "fireRate": 200,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 0,
-                    "ModeSwitchTime": 0.6,
+                    "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "autoReloadEmptyTime": 0,

@@ -5,7 +5,7 @@
             "Stages": [
                 {
                     "enabled": 1,
-                    "mix": 0.4,
+                    "mix": 0.40000001,
                     "type": "DSP_BIT_CRUSH",
                     "bitCrush": {
                         "bitDepth": 4,
@@ -18,9 +18,9 @@
                     "type": "DSP_PITCH",
                     "pitch": {
                         "paramFinePitch": 0.5,
-                        "paramCoarsePitch": 0.45,
+                        "paramCoarsePitch": 0.44999999,
                         "paramFeedback": 0,
-                        "paramFeedbackPhase": -0.002079,
+                        "paramFeedbackPhase": -0.00207901,
                         "paramDelay": 0
                     }
                 },
@@ -30,20 +30,20 @@
                     "type": "DSP_DELAY",
                     "delay": {
                         "delayTimeSec": 0,
-                        "delayTime": 0.073969,
-                        "feedback": 0.616736
+                        "delayTime": 0.073968701,
+                        "feedback": 0.61673599
                     }
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.4,
+                    "mix": 0.40000001,
                     "type": "DSP_FLANGER",
                     "flanger": {
                         "paramSweepRate": 0.436111,
                         "paramWidth": 0.359736,
-                        "paramFeedback": 0.433784,
-                        "paramDelay": 0.817048,
-                        "paramMixMode": 0.066667
+                        "paramFeedback": 0.43378401,
+                        "paramDelay": 0.81704801,
+                        "paramMixMode": 0.0666667
                     }
                 },
                 {

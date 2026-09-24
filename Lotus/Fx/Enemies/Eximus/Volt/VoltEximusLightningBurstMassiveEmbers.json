@@ -1,0 +1,85 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 12
+            }
+        ],
+        "SpawnRate": 2000,
+        "drag": 0.050000001,
+        "mass": [
+            -0.050000001,
+            0
+        ],
+        "life": [
+            0.1,
+            2
+        ],
+        "size": [
+            0.0049999999,
+            0.02
+        ],
+        "velocity": [
+            1,
+            12
+        ],
+        "streaksFactor": 2,
+        "spawnShape": "SP_DISC",
+        "velocityDeviation": [
+            0.80000001,
+            1
+        ],
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            1,
+            1,
+            0.1
+        ],
+        "spawnFlowBlend": 0.35555601,
+        "flowScale": [
+            0.2,
+            0.2,
+            0.2
+        ],
+        "flowForce": [
+            4,
+            4,
+            4
+        ],
+        "flowForceEnd": [
+            4,
+            4,
+            4
+        ],
+        "flowScrolling": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "forceField": "/EE/Materials/Util/CurlNoiseFlowVolumeNoise_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSpotFadeCloseAlpha",
+        "colorKeys[0]": [
+            1,
+            0.17,
+            0.022,
+            2
+        ],
+        "colorKeys[1]": [
+            0.46000001,
+            0.037999999,
+            0.0057999999,
+            1
+        ],
+        "colorKeys[2]": [
+            0.077,
+            0.0093999999,
+            0.0041,
+            1
+        ],
+        "numColors": 3
+    }
+}

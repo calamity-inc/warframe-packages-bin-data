@@ -55,10 +55,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.298836,
-                    -0.640856,
-                    -0.298836,
-                    0.640856
+                    -0.29883599,
+                    -0.64085603,
+                    -0.29883599,
+                    0.64085603
                 ],
                 "BoneName": "GAME_C1_HANDLEBARS",
                 "Type": "/Lotus/Characters/Lasria/Motorcycles/LasMotorcycle/MotorcycleRusalkaLight",
@@ -143,10 +143,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_HANDLEBARS",
                 "Type": "/Lotus/Fx/Gameplay/Motorcycle/MotorcycleImpactTerrainCaster",
@@ -183,7 +183,7 @@
             {
                 "LocalPosition": [
                     0,
-                    0.6,
+                    0.60000002,
                     -0.5
                 ],
                 "LocalRotation": [
@@ -272,12 +272,12 @@
             "_stationaryMaxSpeed": 0.1,
             "_forwardDismountMaxSpeed": 5,
             "_forwardDismountClampSpeed": 10,
-            "_forwardDismountSpeedMultiplier": 0.3,
+            "_forwardDismountSpeedMultiplier": 0.30000001,
             "_AvatarFadeInTimeMultiplier": 2,
             "_equipBestWeapon": 1,
             "_innerRadius": 1,
             "_outerRadius": 30,
-            "_intervalMin": 0.35,
+            "_intervalMin": 0.34999999,
             "_intervalMax": 0.75,
             "_mountedEffect": "",
             "_headLightTag": "MotorCycleLight",
@@ -305,7 +305,7 @@
             "_mountCameraResetAnim": "",
             "_frontWheelBone": "",
             "_backWheelBone": "",
-            "_wheelRadius": 0.3,
+            "_wheelRadius": 0.30000001,
             "_motorcycleMarkerType": ""
         },
         "ReplicationOverride": "RO_ALWAYS",
@@ -339,7 +339,7 @@
         "RaycastProxy": {
             "LocalPosition": [
                 0,
-                0.8,
+                0.80000001,
                 0
             ],
             "Type": ""
@@ -358,7 +358,7 @@
             "Script": "/Lotus/Types/Enemies/Grineer/Eidolon/GrineerSkiff/UnmannedSkiff/HandlePilotOnSkiffDeath.lua",
             "Function": "RagdollPilot",
             "_pilotAvatarType": "/Lotus/Types/Enemies/Grineer/Eidolon/Avatars/EidolonSkiffPilotAvatar",
-            "_maxHealthAsDamagePct": 0.8
+            "_maxHealthAsDamagePct": 0.80000001
         },
         "SoundEvents": [
             {
@@ -539,15 +539,15 @@
         "MountedEffects": [
             {
                 "LocalPosition": [
-                    -0.6,
+                    -0.60000002,
                     0,
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_SWINGARM",
                 "Type": "/Lotus/Fx/Gameplay/Motorcycle/MotorcycleTerrainCaster",
@@ -566,10 +566,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_SWINGARM",
                 "Type": "/Lotus/Fx/Gameplay/Motorcycle/MotorcycleTerrainCaster",
@@ -588,10 +588,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_HANDLEBARS",
                 "Type": "/Lotus/Sounds/Vehicles/Motorcycle/MotorcycleNinetyNine/MC99SFXImpactCasterFast",
@@ -608,12 +608,12 @@
         "HudMovie": "/Lotus/Interface/EmplacementHud.swf",
         "HudLocalAttachPos": [
             0.2,
-            4.15,
+            4.1500001,
             0.1
         ],
         "HudScale": [
             0.5,
-            0.6,
+            0.60000002,
             0.5
         ],
         "QuickMountCameraTransitionTime": 0,
@@ -648,12 +648,12 @@
             "_stationaryMaxSpeed": 0.1,
             "_forwardDismountMaxSpeed": 5,
             "_forwardDismountClampSpeed": 10,
-            "_forwardDismountSpeedMultiplier": 0.3,
+            "_forwardDismountSpeedMultiplier": 0.30000001,
             "_AvatarFadeInTimeMultiplier": 2,
             "_equipBestWeapon": 1,
             "_innerRadius": 1,
             "_outerRadius": 30,
-            "_intervalMin": 0.35,
+            "_intervalMin": 0.34999999,
             "_intervalMax": 0.75,
             "_mountedEffect": "/Lotus/Fx/Gameplay/Motorcycle/MotorcycleEffectsAttach",
             "_headLightTag": "MotorCycleLight",
@@ -681,7 +681,7 @@
             "_mountCameraResetAnim": "",
             "_frontWheelBone": "",
             "_backWheelBone": "",
-            "_wheelRadius": 0.3,
+            "_wheelRadius": 0.30000001,
             "_motorcycleMarkerType": ""
         },
         "DismountScript": {
@@ -705,12 +705,12 @@
             "_stationaryMaxSpeed": 0.1,
             "_forwardDismountMaxSpeed": 5,
             "_forwardDismountClampSpeed": 10,
-            "_forwardDismountSpeedMultiplier": 0.3,
+            "_forwardDismountSpeedMultiplier": 0.30000001,
             "_AvatarFadeInTimeMultiplier": 2,
             "_equipBestWeapon": 1,
             "_innerRadius": 1,
             "_outerRadius": 30,
-            "_intervalMin": 0.35,
+            "_intervalMin": 0.34999999,
             "_intervalMax": 0.75,
             "_mountedEffect": "/Lotus/Fx/Gameplay/Motorcycle/MotorcycleEffectsAttach",
             "_headLightTag": "MotorCycleLight",
@@ -738,7 +738,7 @@
             "_mountCameraResetAnim": "",
             "_frontWheelBone": "",
             "_backWheelBone": "",
-            "_wheelRadius": 0.3,
+            "_wheelRadius": 0.30000001,
             "_motorcycleMarkerType": ""
         },
         "SetupMountAnimScript": {
@@ -762,12 +762,12 @@
             "_stationaryMaxSpeed": 0.1,
             "_forwardDismountMaxSpeed": 5,
             "_forwardDismountClampSpeed": 10,
-            "_forwardDismountSpeedMultiplier": 0.3,
+            "_forwardDismountSpeedMultiplier": 0.30000001,
             "_AvatarFadeInTimeMultiplier": 2,
             "_equipBestWeapon": 1,
             "_innerRadius": 1,
             "_outerRadius": 30,
-            "_intervalMin": 0.35,
+            "_intervalMin": 0.34999999,
             "_intervalMax": 0.75,
             "_mountedEffect": "",
             "_headLightTag": "MotorCycleLight",
@@ -795,7 +795,7 @@
             "_mountCameraResetAnim": "",
             "_frontWheelBone": "",
             "_backWheelBone": "",
-            "_wheelRadius": 0.3,
+            "_wheelRadius": 0.30000001,
             "_motorcycleMarkerType": ""
         },
         "SetupDismountAnimScript": {
@@ -819,12 +819,12 @@
             "_stationaryMaxSpeed": 0.1,
             "_forwardDismountMaxSpeed": 8.5,
             "_forwardDismountClampSpeed": 10,
-            "_forwardDismountSpeedMultiplier": 0.3,
+            "_forwardDismountSpeedMultiplier": 0.30000001,
             "_AvatarFadeInTimeMultiplier": 2,
             "_equipBestWeapon": 1,
             "_innerRadius": 1,
             "_outerRadius": 30,
-            "_intervalMin": 0.35,
+            "_intervalMin": 0.34999999,
             "_intervalMax": 0.75,
             "_mountedEffect": "",
             "_headLightTag": "MotorCycleLight",
@@ -852,7 +852,7 @@
             "_mountCameraResetAnim": "",
             "_frontWheelBone": "",
             "_backWheelBone": "",
-            "_wheelRadius": 0.3,
+            "_wheelRadius": 0.30000001,
             "_motorcycleMarkerType": ""
         },
         "UngracefulDismountForceMultiplier": 1,

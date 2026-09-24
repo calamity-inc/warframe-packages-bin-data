@@ -12,13 +12,13 @@
         "MirrorDraw": "MF_CULL_FROM_MIRRORS",
         "IgnoreParentScale": 1,
         "Tag": "LightFlare",
-        "Size": 0.3,
+        "Size": 0.30000001,
         "AspectRatio": 1,
         "Range": 120,
         "DepthCue": 1,
         "QueryScale": 2,
         "OcclusionAttenExponent": 0.1,
-        "FlareBoundsExpansion": 0.05,
+        "FlareBoundsExpansion": 0.050000001,
         "QueryViewOffset": 0.1,
         "Material": "/Lotus/Fx/LensFlares/LensFlarePackA",
         "OpacityByLife": {
@@ -46,7 +46,7 @@
                 },
                 {
                     "Time": 1,
-                    "Value": 0.777497
+                    "Value": 0.77749699
                 }
             ],
             "SplineType": "CUBIC_SPLINE"
@@ -135,7 +135,7 @@
                     255
                 ],
                 "FlareTintMethod": "FTM_PRIMARY",
-                "Brightness": 0.4,
+                "Brightness": 0.40000001,
                 "Rotating": 0,
                 "Orientation": 0,
                 "SpinRate": 0,

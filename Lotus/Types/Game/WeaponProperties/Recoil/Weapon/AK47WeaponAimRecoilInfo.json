@@ -5,11 +5,11 @@
             "RotationSpring": {
                 "enable": 1,
                 "xDeflection": [
-                    -0.05,
-                    0.05
+                    -0.050000001,
+                    0.050000001
                 ],
                 "yDeflection": [
-                    0.08,
+                    0.079999998,
                     0.12
                 ],
                 "deflectionStrength": [
@@ -31,7 +31,7 @@
                 ],
                 "zDeflection": [
                     0.02,
-                    0.026
+                    0.026000001
                 ],
                 "deflectionStrength": [
                     60,
@@ -42,18 +42,18 @@
             },
             "RotationNoise": {
                 "xDeflection": [
-                    -0.03,
-                    0.03
+                    -0.029999999,
+                    0.029999999
                 ],
                 "yDeflection": [
                     0,
                     0
                 ],
                 "deflectionStrength": [
-                    0.4,
+                    0.40000001,
                     0.5
                 ],
-                "rate": 0.15,
+                "rate": 0.15000001,
                 "dampening": 5
             },
             "TranslationNoise": {
@@ -66,7 +66,7 @@
                     0
                 ],
                 "deflectionStrength": [
-                    0.64,
+                    0.63999999,
                     0.69
                 ],
                 "rate": 2,

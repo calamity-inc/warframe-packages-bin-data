@@ -21,7 +21,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -166,8 +166,8 @@
                         {
                             "LocalPosition": [
                                 0,
-                                0.04,
-                                0.48
+                                0.039999999,
+                                0.47999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -190,8 +190,8 @@
                     "CentralBeamChild": {
                         "LocalPosition": [
                             0,
-                            0.04,
-                            0.48
+                            0.039999999,
+                            0.47999999
                         ],
                         "LocalRotation": [
                             0,
@@ -246,10 +246,10 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
-                        "DT_PUNCTURE": 0.85,
-                        "DT_SLASH": 0.05,
+                        "DT_PUNCTURE": 0.85000002,
+                        "DT_SLASH": 0.049999952,
                         "Amount": 60,
-                        "ProcChance": 0.15,
+                        "ProcChance": 0.15000001,
                         "ForcedProcs": [
                             "PT_BIG_STAGGER"
                         ],
@@ -269,7 +269,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.263,
+                    "PvpDamageMultiplier": 0.26300001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -301,7 +301,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.15,
+                    "criticalHitChance": 0.15000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -355,7 +355,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_RADIAL",
                         "hostAuthoritative": 0,
@@ -405,7 +405,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_RADIAL",
                         "hostAuthoritative": 0,
@@ -484,7 +484,7 @@
                     "AccessibilityTrigger": 1,
                     "ClipSizeAffectsChargeTime": 0,
                     "ChargeTime": 1.1,
-                    "MinChargeRatio": 0.4,
+                    "MinChargeRatio": 0.40000001,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 2,
                     "AutoFireWhenChargeCompleted": 1,
@@ -511,8 +511,8 @@
                     "BeamChild": {
                         "LocalPosition": [
                             0,
-                            0.04,
-                            0.48
+                            0.039999999,
+                            0.47999999
                         ],
                         "LocalRotation": [
                             0,

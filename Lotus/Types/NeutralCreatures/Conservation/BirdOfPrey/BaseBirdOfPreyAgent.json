@@ -145,7 +145,7 @@
                         "PerceptionLevel": "PTL_INVESTIGATE",
                         "OnlyReactOnParticularFaction": 0,
                         "Faction": "",
-                        "FleeDirectionRandomness": 0.15,
+                        "FleeDirectionRandomness": 0.15000001,
                         "SpeedMultiplier": 3,
                         "FleeContinuationMode": "FCM_FLEE_FOREVER",
                         "FleePointTag": "",
@@ -358,7 +358,7 @@
                 "UseEndNodePos": 0,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1
         },
@@ -378,7 +378,7 @@
             "MoveSuccessRadius": 0.25,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 1,
             "StopWhenMovementInactive": 1,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1,
             "PreferedDistAboveNav": [
                 8,
@@ -389,7 +389,7 @@
             "DistanceToSlow": 12,
             "MinimumSlowedSpeed": 8,
             "MinimumSpeed": 0,
-            "RecoverySpeedPct": 0.6,
+            "RecoverySpeedPct": 0.60000002,
             "CorrectHeightOnIdle": 0,
             "AirplaneControls": 0,
             "DesiredAngleRangeForBank": [
@@ -410,7 +410,7 @@
                     "AvoidanceInputMultiplier": [
                         1.2,
                         1.2,
-                        0.8
+                        0.80000001
                     ],
                     "PreserveVelocity": 1,
                     "MinAvoidanceReducedVelocityPct": 0,

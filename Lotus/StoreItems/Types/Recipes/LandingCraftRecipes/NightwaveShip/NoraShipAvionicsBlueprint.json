@@ -1,0 +1,40 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/CraftingComponents/CraftingComponent_NoraShipAvionicsName",
+        "LocalizeDescTag": "/Lotus/Language/CraftingComponents/CraftingComponent_NoraShipAvionicsDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericLandingCraftSystems.png",
+        "TypeName": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipAvionicsBlueprint",
+        "SellingPrice": 3500,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1783970553,
+        "Tradeable": 1,
+        "Giftable": 0,
+        "ExcludeFromCodex": 0,
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "NoraShipAvionicsComponent",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 11000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 4800
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                "ItemCount": 6
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                "ItemCount": 8
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "SkipBuildTimePrice": 25,
+        "ShipFeaturePrereq": "/Lotus/Types/Items/ShipFeatureItems/FoundryVesselUpgradeFeatureItem"
+    }
+}

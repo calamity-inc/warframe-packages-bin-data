@@ -24,7 +24,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -114,7 +114,7 @@
                         "attackBone": "GAME_C2_WEAPON1",
                         "attackEndBone": "GAME_C2_WEAPON1_END",
                         "distance": 0,
-                        "radius": 3.4
+                        "radius": 3.4000001
                     },
                     "PreRadiusRaycastDealsDamage": 1
                 },
@@ -123,8 +123,8 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.6,
-                        "DT_PUNCTURE": 0.15,
+                        "DT_IMPACT": 0.60000002,
+                        "DT_PUNCTURE": 0.15000001,
                         "DT_SLASH": 0.25,
                         "Amount": 100,
                         "ProcChance": 0.1,
@@ -177,7 +177,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 1.5,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,

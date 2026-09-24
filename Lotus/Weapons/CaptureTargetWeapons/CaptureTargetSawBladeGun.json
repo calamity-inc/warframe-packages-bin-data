@@ -9,8 +9,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    -0.043619,
-                    0.999048
+                    -0.043618999,
+                    0.99904799
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "/Lotus/Weapons/Grineer/LongGuns/GrineerSawbladeGun/SawBladeGunAttachment"
@@ -18,13 +18,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
-            0.05,
+            0.050000001,
+            0.050000001,
             0.1
         ],
         "HolsterBone1Rotation": [
-            -0.707107,
-            -0.707107,
+            -0.70710677,
+            -0.70710677,
             0,
             0
         ],
@@ -36,19 +36,19 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.075,
-            -0.04,
+            -0.075000003,
+            -0.039999999,
             0.2
         ],
         "GripRotationOffset": [
-            -0.289892,
-            -0.813735,
-            0.489067,
+            -0.28989199,
+            -0.81373501,
+            0.48906699,
             -0.12088
         ],
         "Behaviors": [
@@ -66,7 +66,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -378,7 +378,7 @@
                     },
                     "ClipSizeAffectsChargeTime": 0,
                     "ChargeTime": 1,
-                    "MinChargeRatio": 0.05,
+                    "MinChargeRatio": 0.050000001,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 2,
                     "AutoFireWhenChargeCompleted": 0,
@@ -406,8 +406,8 @@
         "HolsterRotOffset": [
             0,
             0,
-            0.707107,
-            0.707107
+            0.70710677,
+            0.70710677
         ],
         "RequiredLevel": 4,
         "ArtifactSlots": [

@@ -12,8 +12,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    -0.043619,
-                    0.999048
+                    -0.043618999,
+                    0.99904799
                 ],
                 "Type": "TennoSemiAutoNewRifleAttachment"
             }
@@ -26,25 +26,25 @@
         "LocalizeDescTag": "/Lotus/Language/Items/SemiAutoRifleDesc",
         "Icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/Latron.png",
         "GripPositionOffset": [
-            -0.06,
-            -0.06,
+            -0.059999999,
+            -0.059999999,
             0.17
         ],
         "GripRotationOffset": [
             0,
-            0.696364,
-            -0.707107,
+            0.69636399,
+            -0.70710677,
             0.122788
         ],
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -52,7 +52,7 @@
                     "SwaySpeed": 1,
                     "SwayAmplitude": 0.1
                 },
-                "aimFOVMultiplier": 3.33,
+                "aimFOVMultiplier": 3.3299999,
                 "Upgrades": [],
                 "LocOverrides": [],
                 "Sound": ""
@@ -73,7 +73,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -197,7 +197,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -211,9 +211,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.15,
-                        "DT_PUNCTURE": 0.7,
-                        "DT_SLASH": 0.15,
+                        "DT_IMPACT": 0.15000001,
+                        "DT_PUNCTURE": 0.69999999,
+                        "DT_SLASH": 0.14999998,
                         "Amount": 55,
                         "ProcChance": 0.12,
                         "ForcedProcs": [],
@@ -284,7 +284,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponSemiAutomaticStateBehavior",
                 "state:WeaponSemiAutomaticStateBehavior": {
-                    "reloadTime": 2.4,
+                    "reloadTime": 2.4000001,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -358,7 +358,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -474,7 +474,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.7,
+                    "PvpDamageMultiplier": 0.69999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [

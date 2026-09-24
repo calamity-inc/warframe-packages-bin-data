@@ -73,15 +73,15 @@
         ],
         "AttackData": {
             "DT_IMPACT": 0.2,
-            "DT_PUNCTURE": 0.6,
-            "DT_SLASH": 0.2,
+            "DT_PUNCTURE": 0.60000002,
+            "DT_SLASH": 0.19999999,
             "Amount": 100,
-            "ProcChance": 0.24,
+            "ProcChance": 0.23999999,
             "ForcedProcs": [
                 "PT_KNOCKED_DOWN"
             ]
         },
-        "CriticalChance": 0.26,
+        "CriticalChance": 0.25999999,
         "CriticalMultiplier": 2.2,
         "ForcedSourceProcs": [
             "PT_STAGGERED",
@@ -104,20 +104,20 @@
             "Type": "DT_IMPACT"
         },
         "Embed": 1,
-        "EmbedFallOff": 0.3,
+        "EmbedFallOff": 0.30000001,
         "EmbedTime": [
-            0.8,
-            0.8
+            0.80000001,
+            0.80000001
         ],
         "EmbedDeathAttack": {
             "Amount": 800,
-            "ProcChance": 0.24,
+            "ProcChance": 0.23999999,
             "ForcedProcs": [
                 "PT_RAGDOLL"
             ]
         },
         "EmbedDeathEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXFueledMedium",
-        "KinematicPostCollisionsSpeedFactor": 0.15,
+        "KinematicPostCollisionsSpeedFactor": 0.15000001,
         "KinematicInitialSpeed": 90,
         "KinematicMaxSpeed": 90,
         "KinematicGravity": 1,
@@ -130,7 +130,7 @@
             0,
             0
         ],
-        "RagdollEmbedLife": 0.8,
+        "RagdollEmbedLife": 0.80000001,
         "EmbedOffset": 0.02,
         "AttachmentOffsets": [
             0.25

@@ -33,15 +33,15 @@
         "AttackData": {
             "DT_IMPACT": 0.1,
             "DT_PUNCTURE": 0.1,
-            "DT_SLASH": 0.8,
+            "DT_SLASH": 0.80000001,
             "Amount": 46,
-            "ProcChance": 0.9,
+            "ProcChance": 0.89999998,
             "ForcedDeathProcs": [
                 "PT_RAGDOLL"
             ]
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.21,
+        "CriticalChance": 0.20999999,
         "CriticalMultiplier": 2.5,
         "HitEffect": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitEffectLarge",
         "DieEffectOffset": [
@@ -54,7 +54,7 @@
         ],
         "Toughness": 1000,
         "MaxLife": 0.5,
-        "MaxLifeVariance": 0.05,
+        "MaxLifeVariance": 0.050000001,
         "MaxBounces": 3,
         "BounceOnAvatars": 0,
         "SetLifeOnImpact": 1,
@@ -68,7 +68,7 @@
         "KinematicMaxSpeed": 190,
         "KinematicNoise": 0.02,
         "KinematicGravity": 1,
-        "KinematicGravityMultiplier": 0.3,
+        "KinematicGravityMultiplier": 0.30000001,
         "KinematicRestitution": 0.2,
         "KinematicRestitutionParallel": 0.2,
         "KinematicSpinRate": [

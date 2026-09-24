@@ -1,0 +1,27 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "BaruukDeluxeIIKneeTubeLeft_skel.fbx",
+        "Attached": 1,
+        "ControlData": "BaruukDeluxeIIKneeTubeLeftSkelClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.2,
+                0.2
+            ],
+            "massRange": [
+                0.5,
+                1
+            ],
+            "distConstraintRange": [
+                0.001,
+                0.12
+            ],
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 1,
+            "simulateCollisionLast": 0
+        },
+        "UseDynamicCollision": 0,
+        "UseClothCollision": 1
+    }
+}

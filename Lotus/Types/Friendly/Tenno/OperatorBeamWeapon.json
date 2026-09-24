@@ -13,8 +13,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    -0.061049,
-                    0.998135
+                    -0.061048999,
+                    0.99813497
                 ],
                 "BoneName": "GAME_R1_ARM3"
             },
@@ -25,12 +25,12 @@
         "HolsterBone1Name": "GAME_R1_ARM3",
         "HolsterBone1Position": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -48,8 +48,8 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.075,
-            0.24
+            0.075000003,
+            0.23999999
         ],
         "DisableFireWhileMainHandMeleeing": 0,
         "AimStartSound": "/Lotus/Sounds/Weapons/Generic/GenericWeaponAimTransitionInLocal",
@@ -58,11 +58,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -91,7 +91,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -240,7 +240,7 @@
                     "RiftStasisWeight": 1,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
                     "MaxTraceDistanceTime": 0.1,
-                    "RetractTime": 0.05,
+                    "RetractTime": 0.050000001,
                     "AttachToWeapon": 1,
                     "UseWeaponAttachmentFirePos": 0,
                     "AttachToTarget": 0,
@@ -248,7 +248,7 @@
                     "BeamChild": {
                         "LocalPosition": [
                             0,
-                            -0.05,
+                            -0.050000001,
                             0
                         ],
                         "LocalRotation": [
@@ -332,7 +332,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_RADIAL",
                         "hostAuthoritative": 0,
@@ -385,7 +385,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -587,10 +587,10 @@
             }
         },
         "ClipIsBattery": 1,
-        "BatteryRegenDelay": 0.01,
+        "BatteryRegenDelay": 0.0099999998,
         "BatteryRegenDelayFromEmpty": 1.5,
         "BatteryRegenRate": 1000,
-        "HeavyBatteryRegenDelay": 0.01,
+        "HeavyBatteryRegenDelay": 0.0099999998,
         "HeavyBatteryRegenDelayFromEmpty": 1.5,
         "HeavyBatteryRegenRate": 1000,
         "StealthXpMultiplier": [

@@ -16,7 +16,7 @@
             "OFF_HAND": {
                 "LocalPosition": [
                     0,
-                    0.03,
+                    0.029999999,
                     0
                 ],
                 "BoneName": "GAME_L1_WEAPON1",
@@ -46,18 +46,18 @@
         "WeaponHandAimOffset": [
             0,
             0,
-            0.4
+            0.40000001
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.085,
+            -0.085000001,
             0,
-            0.135
+            0.13500001
         ],
         "GripRotationOffset": [
             -0.347803,
-            -0.675491,
-            0.637074,
+            -0.67549098,
+            0.63707399,
             -0.129932
         ],
         "NotifyAttachmentState": 1,
@@ -65,11 +65,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -98,7 +98,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -308,9 +308,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -382,7 +382,7 @@
                 },
                 "state:Type": "/Lotus/Types/Weapon/ChargedRemoteMineStateBehavior",
                 "state:ChargedRemoteMineStateBehavior": {
-                    "reloadTime": 0.6,
+                    "reloadTime": 0.60000002,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -439,7 +439,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 0,
                     "ClipSizeAffectsChargeTime": 0,
-                    "ChargeTime": 0.4,
+                    "ChargeTime": 0.40000001,
                     "MinChargeRatio": 1,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 1,
@@ -491,10 +491,10 @@
             0.02
         ],
         "HolsterRotOffset": [
-            0.061394,
-            0.590027,
-            -0.348182,
-            0.725857
+            0.061393999,
+            0.59002697,
+            -0.34818199,
+            0.72585702
         ],
         "RequiredLevel": 15,
         "ArtifactSlots": [
@@ -513,15 +513,15 @@
             {
                 "Attachment": {
                     "LocalPosition": [
-                        -0.05,
-                        -0.06,
-                        0.05
+                        -0.050000001,
+                        -0.059999999,
+                        0.050000001
                     ],
                     "LocalRotation": [
                         0.086824,
                         0.086824,
-                        -0.007596,
-                        0.992404
+                        -0.0075960001,
+                        0.99240398
                     ],
                     "BoneName": "GAME_C1_RIFLEATTACH",
                     "Type": "GrnBowQuiverAttachment",
@@ -536,8 +536,8 @@
                 "SwapHands": 1,
                 "OffHandBone": "GAME_C1_RIFLEATTACH",
                 "OffHandOffset": [
-                    -0.075,
-                    0.03,
+                    -0.075000003,
+                    0.029999999,
                     0
                 ],
                 "OffHandRotation": [
@@ -589,13 +589,13 @@
                     "LocalPosition": [
                         -0.02,
                         0,
-                        0.18
+                        0.18000001
                     ],
                     "LocalRotation": [
-                        -0.707107,
+                        -0.70710677,
                         0,
                         0,
-                        0.707107
+                        0.70710677
                     ],
                     "BoneName": "GAME_R1_WEAPON1",
                     "Type": "GrnBowArrowAttachment",
@@ -612,13 +612,13 @@
                 "OffHandOffset": [
                     -0.02,
                     0,
-                    0.18
+                    0.18000001
                 ],
                 "OffHandRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "UseSkinnedOffset": 1,
                 "SkinnedOffset": [
@@ -633,14 +633,14 @@
                 "DisableLookAtEvent": "UnnockArrow",
                 "LookAtBone": "GAME_L1_WEAPON1",
                 "LookAtOffset": [
-                    -0.018,
-                    0.075,
+                    -0.017999999,
+                    0.075000003,
                     0
                 ],
                 "OffHandLookAtBone": "GAME_R1_WEAPON1",
                 "OffHandLookAtOffset": [
-                    -0.018,
-                    0.075,
+                    -0.017999999,
+                    0.075000003,
                     0
                 ],
                 "MatchHandVisibility": 0,
@@ -664,7 +664,7 @@
             "Script": "/Lotus/Interface/TouchInterface/AltFireButtonStyle.lua",
             "Function": "AltFireStyleStandard"
         },
-        "OmegaAttenuation": 0.65,
+        "OmegaAttenuation": 0.64999998,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Rifle/HybridBlast"
     }
 }

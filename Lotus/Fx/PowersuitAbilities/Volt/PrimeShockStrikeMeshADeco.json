@@ -2,15 +2,15 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Env/Lightning/LightningStrikeMeshA.fbx",
-        "MeshScale": 0.4,
+        "MeshScale": 0.40000001,
         "MaterialParams": [
             {
                 "name": "TintColor",
                 "type": "Float4",
                 "slot": -1,
                 "value": 1,
-                "value1": 0.95,
-                "value2": 0.8,
+                "value1": 0.94999999,
+                "value2": 0.80000001,
                 "value3": 1
             }
         ],
@@ -35,7 +35,7 @@
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 15,
                 "FadeRange": [
                     0,

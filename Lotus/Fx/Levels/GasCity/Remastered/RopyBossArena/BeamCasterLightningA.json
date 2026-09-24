@@ -11,7 +11,7 @@
         ],
         "TextureScaleV": 0.2,
         "Radius": 0.5,
-        "RadiusDistanceIncrease": 0.005,
+        "RadiusDistanceIncrease": 0.0049999999,
         "SectionLength": 10,
         "MaxSections": 500,
         "Waves": [
@@ -26,11 +26,11 @@
                 "PhaseShift": 2
             },
             {
-                "Frequency": 0.06,
+                "Frequency": 0.059999999,
                 "Amplitude": [
                     -0.5,
                     -1.2,
-                    0.3
+                    0.30000001
                 ],
                 "RadiusAmplitude": 0.5,
                 "PhaseShift": 12
@@ -52,11 +52,11 @@
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.65,
+                "TimeLength": 0.64999998,
                 "Multiplier": 2500,
                 "FadeRange": [
                     0,
-                    0.6
+                    0.60000002
                 ],
                 "BaseValue": 0,
                 "Delay": 0,
@@ -69,7 +69,7 @@
             }
         ],
         "Lifespan": [
-            0.15,
+            0.15000001,
             0.25
         ],
         "ApplyColorCustomization": 0

@@ -22,60 +22,13 @@
                 "LocKeyWordScript": {
                     "Script": "RailjackSubroutines.lua",
                     "Function": "GetArchwingSpeedIncreaseOnExitDescriptionInfo",
-                    "_upgradeVal": 0.6,
-                    "_threshold": 0.5,
-                    "_duration": 10,
-                    "_launcherOvershield": 150,
-                    "_shieldRegenerationBoost": 1.5,
-                    "_electrifyRadius": 50,
-                    "_electrifyTimer": 5,
-                    "_onKillShield": 50,
-                    "_shieldDamageRedirection": 0.3,
-                    "_maxDamageRedirectionBonus": 300,
-                    "_shieldDamageConversionRate": 1,
-                    "_damageIncreasePercentThreshold": 0.25,
-                    "_lowShieldDamageMult": 1.25,
-                    "_onExitDamageDuration": 10,
-                    "_onExitDamageMultiplier": 1.25,
-                    "_onExitMoveSpeedDuration": 20,
-                    "_onExitMoveSpeedMultiplier": 50,
-                    "_chanceToRepairBreach": 10,
-                    "_repairBreachInterval": 10,
-                    "_chanceOfAutomaticBreachRepair": 80,
-                    "_repairInvulnerabilityMultiplier": 2,
-                    "_validHullTypes": []
+                    "Args": []
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
                 "RoundingMode": "RM_ROUND",
                 "AllowConditionalLocMerge": 0
             }
-        ],
-        "Script": {
-            "Script": "RailjackSubroutines.lua",
-            "Function": "ArchwingSpeedIncreaseOnExit",
-            "_upgradeVal": 0.6,
-            "_threshold": 0.5,
-            "_duration": 10,
-            "_launcherOvershield": 150,
-            "_shieldRegenerationBoost": 1.5,
-            "_electrifyRadius": 50,
-            "_electrifyTimer": 5,
-            "_onKillShield": 50,
-            "_shieldDamageRedirection": 0.3,
-            "_maxDamageRedirectionBonus": 300,
-            "_shieldDamageConversionRate": 1,
-            "_damageIncreasePercentThreshold": 0.25,
-            "_lowShieldDamageMult": 1.25,
-            "_onExitDamageDuration": 10,
-            "_onExitDamageMultiplier": 1.25,
-            "_onExitMoveSpeedDuration": 20,
-            "_onExitMoveSpeedMultiplier": 0.5,
-            "_chanceToRepairBreach": 10,
-            "_repairBreachInterval": 10,
-            "_chanceOfAutomaticBreachRepair": 80,
-            "_repairInvulnerabilityMultiplier": 2,
-            "_validHullTypes": []
-        }
+        ]
     }
 }

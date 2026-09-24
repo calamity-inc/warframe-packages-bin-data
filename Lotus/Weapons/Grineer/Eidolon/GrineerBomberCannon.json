@@ -10,12 +10,12 @@
         "HolsterBone1Name": "GAME_R1_ARM2",
         "HolsterBone1Position": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -296,7 +296,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponAutomaticStateBehavior",
                 "state:WeaponAutomaticStateBehavior": {
-                    "reloadTime": 0.01,
+                    "reloadTime": 0.0099999998,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -374,7 +374,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,

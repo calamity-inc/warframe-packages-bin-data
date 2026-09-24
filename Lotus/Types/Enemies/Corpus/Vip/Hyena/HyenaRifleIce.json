@@ -16,7 +16,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -27,7 +27,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.3,
+                                    0.30000001,
                                     0.5
                                 ],
                                 "burstPauseTime": [
@@ -102,7 +102,7 @@
                         "LocalPos": [
                             0,
                             0,
-                            0.4
+                            0.40000001
                         ],
                         "LocalRot": [
                             0,
@@ -185,11 +185,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.4,
-                        "DT_SLASH": 0.2,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.40000001,
+                        "DT_SLASH": 0.19999999,
                         "Amount": 4,
-                        "ProcChance": 0.01,
+                        "ProcChance": 0.0099999998,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "HitType": "DHT_NONE",
@@ -332,7 +332,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -419,7 +419,7 @@
                         "attackBone": "",
                         "attackEndBone": "",
                         "distance": 0.75,
-                        "radius": 0.6
+                        "radius": 0.60000002
                     },
                     "PreRadiusRaycastDealsDamage": 1
                 },
@@ -428,9 +428,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
+                        "DT_IMPACT": 0.40000001,
                         "DT_PUNCTURE": 0.2,
-                        "DT_SLASH": 0.4,
+                        "DT_SLASH": 0.39999998,
                         "Amount": 50,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],

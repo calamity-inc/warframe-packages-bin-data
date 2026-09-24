@@ -69,14 +69,14 @@
             30,
             30,
             30,
-            0.3
+            0.30000001
         ],
         "MaterialFade": [
             {
                 "Parameter": "",
                 "Slot": -1,
-                "TimeLength": 0.3,
-                "Multiplier": 0.4,
+                "TimeLength": 0.30000001,
+                "Multiplier": 0.40000001,
                 "FadeRange": [
                     0,
                     1
@@ -85,14 +85,14 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 1.004152
+                            "Value": 1.0041521
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.997804
+                            "Time": 0.33333334,
+                            "Value": 0.99780399
                         },
                         {
-                            "Time": 0.666667,
+                            "Time": 0.66666669,
                             "Value": 0.230955
                         },
                         {
@@ -102,7 +102,7 @@
                     ],
                     "SplineType": "CUBIC_SPLINE"
                 },
-                "BaseValue": 0.4,
+                "BaseValue": 0.40000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
@@ -132,7 +132,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,
@@ -155,7 +155,7 @@
                 "Parameter": "",
                 "Slot": -1,
                 "TimeLength": 0.2,
-                "Multiplier": 0.6,
+                "Multiplier": 0.60000002,
                 "FadeRange": [
                     0,
                     1
@@ -163,29 +163,29 @@
                 "FadeCurve": {
                     "Values": [
                         {
-                            "Time": 0.048918,
+                            "Time": 0.0489177,
                             "Value": 0
                         },
                         {
                             "Time": 0.35777,
-                            "Value": 0.096964
+                            "Value": 0.096963897
                         },
                         {
                             "Time": 0.700176,
                             "Value": 0.350088
                         },
                         {
-                            "Time": 0.848551,
+                            "Time": 0.84855098,
                             "Value": 0.628658
                         },
                         {
                             "Time": 0.997805,
-                            "Value": 0.994282
+                            "Value": 0.99428201
                         }
                     ],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.4,
+                "BaseValue": 0.40000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 1,
                 "IsDissolve": 0,
@@ -215,7 +215,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -228,11 +228,11 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.3,
+                            "Time": 0.30000001,
                             "Value": 5
                         },
                         {
-                            "Time": 0.6,
+                            "Time": 0.60000002,
                             "Value": 0.2
                         },
                         {

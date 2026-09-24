@@ -152,6 +152,27 @@
                     "MeshScale": 1
                 },
                 "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Grineer/Marine/GrineerBodyLeaderVolt",
+                        "/Lotus/Characters/Grineer/Marine/GrineerAccessoriesLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/Marine/Eximus/MushroomHelmetEximusVolt"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
+                    "MeshScale": 1
+                },
+                "Probability": 1
             }
         ]
     }

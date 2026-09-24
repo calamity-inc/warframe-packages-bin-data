@@ -10,10 +10,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.704416,
-                    0.704416,
-                    0.061628,
-                    -0.061628
+                    0.70441598,
+                    0.70441598,
+                    0.061627999,
+                    -0.061627999
                 ],
                 "BoneName": "GAME_L1_SHIELDARM2",
                 "Type": "/Lotus/Types/Enemies/Corpus/Venus/Heavies/VenusGrenadierSpacemanShoulderLDeco",
@@ -32,10 +32,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.061628,
-                    -0.061628,
-                    0.704416,
-                    0.704416
+                    0.061627999,
+                    -0.061627999,
+                    0.70441598,
+                    0.70441598
                 ],
                 "BoneName": "GAME_R1_SHIELDARM2",
                 "Type": "/Lotus/Types/Enemies/Corpus/Venus/Heavies/VenusGrenadierSpacemanShoulderLDeco",
@@ -50,7 +50,7 @@
             {
                 "LocalPosition": [
                     1.3,
-                    -0.04,
+                    -0.039999999,
                     0
                 ],
                 "LocalRotation": [
@@ -73,13 +73,13 @@
                 "LocalPosition": [
                     -0.2,
                     0.1,
-                    -0.03
+                    -0.029999999
                 ],
                 "LocalRotation": [
                     0,
                     0,
                     0.173648,
-                    0.984808
+                    0.98480803
                 ],
                 "BoneName": "GAME_L1_LEG1",
                 "Type": "/Lotus/Types/Enemies/Corpus/Venus/Heavies/VenusIcewaveEliteBipedLLDeco",
@@ -95,13 +95,13 @@
                 "LocalPosition": [
                     -0.2,
                     0.1,
-                    0.03
+                    0.029999999
                 ],
                 "LocalRotation": [
                     0,
                     0,
                     0.173648,
-                    0.984808
+                    0.98480803
                 ],
                 "BoneName": "GAME_R1_LEG1",
                 "Type": "/Lotus/Types/Enemies/Corpus/Venus/Heavies/VenusIcewaveEliteBipedLRDeco",
@@ -115,7 +115,7 @@
             },
             {
                 "LocalPosition": [
-                    0.35,
+                    0.34999999,
                     -0.1,
                     0
                 ],
@@ -219,9 +219,21 @@
                     "MaterialOverrides": [],
                     "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             }

@@ -1,0 +1,12 @@
+{
+    "parent": "/Lotus/Characters/Tenno/WarframeHelmetDeco",
+    "data": {
+        "Mesh": "WolfHoodAdultHelmetOpen_skel.fbx",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Effects/HoodEffects.lua",
+            "Function": "HoodNUpdate",
+            "_spawnerType": "/Lotus/Fx/Levels/SolarisVenus/RokyHelmetOperatorEffect"
+        },
+        "ReplicaRunScriptInstance": 1
+    }
+}

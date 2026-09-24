@@ -1,0 +1,33 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "BaruukDeluxeIIExtrasArmTube1_skel.fbx",
+        "Attached": 1,
+        "ControlData": "BaruukDeluxeIIExtrasArmTube1SkelClothData",
+        "Collision": "BaruukDeluxeIISimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.25,
+                0.25
+            ],
+            "massRange": [
+                1,
+                1
+            ],
+            "distConstraintRange": [
+                0.0099999998,
+                0.050000001
+            ],
+            "useBackstopConstraints": 1,
+            "backstopConstraintRange": [
+                0,
+                0.2
+            ],
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 1,
+            "simulateCollisionLast": 0
+        },
+        "UseDynamicCollision": 0,
+        "UseClothCollision": 1
+    }
+}

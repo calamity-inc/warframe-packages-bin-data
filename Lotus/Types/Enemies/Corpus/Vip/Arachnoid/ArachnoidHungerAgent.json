@@ -332,8 +332,8 @@
                     "InTimer": 1,
                     "Timer": 0.5,
                     "TimeBetweenAttacksRange": [
-                        0.05,
-                        0.05
+                        0.050000001,
+                        0.050000001
                     ],
                     "ShouldModifyPosture": 1,
                     "UsePredictedPosition": 0,
@@ -486,7 +486,7 @@
                 "LookAtNearbyPlayer": 0,
                 "LookAtTarget": 1,
                 "NearbyTeammatesThreshold": 10,
-                "PlayerBias": 0.6,
+                "PlayerBias": 0.60000002,
                 "ReportAttackOnDamage": 1,
                 "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                 "PatrolBehavior:Enabled": 1,
@@ -772,8 +772,8 @@
                 "InTimer": 1,
                 "Timer": 1,
                 "TimeBetweenAttacksRange": [
-                    0.05,
-                    0.05
+                    0.050000001,
+                    0.050000001
                 ],
                 "ShouldModifyPosture": 1,
                 "UsePredictedPosition": 0,
@@ -826,7 +826,7 @@
                 "PointBlankRange": 5,
                 "AllowShootingControllerToAim": 0,
                 "MinAngleToTurn": 40,
-                "MinAimMask": 0.9,
+                "MinAimMask": 0.89999998,
                 "LookAtTarget": 1,
                 "LookHorizRate": 40,
                 "LookVertRate": 20,
@@ -889,14 +889,14 @@
                                 "m": -3,
                                 "k": 2,
                                 "b": 1,
-                                "c": 0.6,
+                                "c": 0.60000002,
                                 "logistic": 0
                             },
                             "AggressiveTargetFacingDirectionScoreCurve": {
                                 "m": 10,
                                 "k": -1,
                                 "b": 1,
-                                "c": 0.6,
+                                "c": 0.60000002,
                                 "logistic": 1
                             },
                             "AggressiveVisibleScore": 1,
@@ -1090,7 +1090,7 @@
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -1264,7 +1264,7 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "alertRadiusBounds": [
             2,
             100
@@ -1272,8 +1272,8 @@
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Infested/ZombieReactionController",
         "PerceiverType": "ArachnoidHungerPerceiver",
-        "SightReactionProbability": 0.8,
-        "CoverIllumBias": 0.8,
+        "SightReactionProbability": 0.80000001,
+        "CoverIllumBias": 0.80000001,
         "IsCoverUseEnabled": 0,
         "TargetEvaluatorType": "/Lotus/Types/Enemies/MeleeTargetEvaluator"
     }

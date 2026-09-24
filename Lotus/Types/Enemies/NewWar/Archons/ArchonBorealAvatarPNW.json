@@ -26,13 +26,13 @@
             },
             {
                 "LocalPosition": [
-                    -0.06,
-                    0.03,
-                    -0.05
+                    -0.059999999,
+                    0.029999999,
+                    -0.050000001
                 ],
                 "LocalRotation": [
-                    0.44668,
-                    -0.516812,
+                    0.44668001,
+                    -0.51681203,
                     -0.721228,
                     0.114948
                 ],
@@ -49,13 +49,13 @@
             {
                 "LocalPosition": [
                     -0.25,
-                    0.05,
-                    -0.05
+                    0.050000001,
+                    -0.050000001
                 ],
                 "LocalRotation": [
                     0,
                     0.5,
-                    0.866025,
+                    0.86602497,
                     0
                 ],
                 "BoneName": "GAME_L1_SSHOULDER",
@@ -71,13 +71,13 @@
             {
                 "LocalPosition": [
                     0,
-                    0.05,
-                    -0.05
+                    0.050000001,
+                    -0.050000001
                 ],
                 "LocalRotation": [
                     0,
                     0.819152,
-                    0.573576,
+                    0.57357597,
                     0
                 ],
                 "BoneName": "GAME_L1_SELBOW",
@@ -92,15 +92,15 @@
             },
             {
                 "LocalPosition": [
-                    0.26,
-                    -0.09,
+                    0.25999999,
+                    -0.090000004,
                     -0.25
                 ],
                 "LocalRotation": [
-                    0.830578,
-                    -0.146453,
-                    0.529137,
-                    -0.093301
+                    0.83057803,
+                    -0.14645299,
+                    0.52913702,
+                    -0.093300998
                 ],
                 "BoneName": "GAME_C1_SHEAD",
                 "Type": "/Lotus/Types/Enemies/Narmer/Attachments/BorealOwlGroupTwoDeco",
@@ -115,14 +115,14 @@
             {
                 "LocalPosition": [
                     0.16,
-                    0.08,
-                    0.18
+                    0.079999998,
+                    0.18000001
                 ],
                 "LocalRotation": [
                     -0.083379,
                     0.725555,
-                    -0.496836,
-                    0.468798
+                    -0.49683601,
+                    0.46879801
                 ],
                 "BoneName": "GAME_R1_UPPWING",
                 "Type": "/Lotus/Types/Enemies/Narmer/Attachments/BorealOwlGroupThreeDeco",
@@ -136,13 +136,13 @@
             },
             {
                 "LocalPosition": [
-                    0.45,
-                    -0.05,
-                    0.05
+                    0.44999999,
+                    -0.050000001,
+                    0.050000001
                 ],
                 "LocalRotation": [
                     0,
-                    0.866025,
+                    0.86602497,
                     -0.5,
                     0
                 ],
@@ -159,13 +159,13 @@
             {
                 "LocalPosition": [
                     0.1,
-                    -0.05,
-                    0.05
+                    -0.050000001,
+                    0.050000001
                 ],
                 "LocalRotation": [
                     0,
                     0.5,
-                    -0.866025,
+                    -0.86602497,
                     0
                 ],
                 "BoneName": "GAME_R1_SELBOW",
@@ -180,14 +180,14 @@
             },
             {
                 "LocalPosition": [
-                    0.26,
-                    -0.09,
+                    0.25999999,
+                    -0.090000004,
                     0.23
                 ],
                 "LocalRotation": [
-                    0.416198,
-                    0.073387,
-                    0.892539,
+                    0.41619799,
+                    0.073386997,
+                    0.89253902,
                     0.157379
                 ],
                 "BoneName": "GAME_C1_SHEAD",
@@ -208,8 +208,8 @@
                 ],
                 "LocalRotation": [
                     -0.245984,
-                    -0.293153,
-                    -0.707733,
+                    -0.29315299,
+                    -0.70773298,
                     0.593858
                 ],
                 "BoneName": "GAME_L1_SELBOW",
@@ -229,10 +229,10 @@
                     0.1
                 ],
                 "LocalRotation": [
-                    -0.707733,
+                    -0.70773298,
                     0.593858,
                     -0.245984,
-                    -0.293153
+                    -0.29315299
                 ],
                 "BoneName": "GAME_R1_SELBOW",
                 "Type": "/Lotus/Characters/Narmer/ArchonArmor/NrmArchonArmorARDeco",
@@ -248,7 +248,7 @@
                 "LocalPosition": [
                     0,
                     -0.1,
-                    -0.01
+                    -0.0099999998
                 ],
                 "LocalRotation": [
                     0,
@@ -359,11 +359,11 @@
             "Script": "ArchonAvatarScript.lua",
             "Function": "BorealAvatarPNW",
             "_counterDecayDelay": 5,
-            "_damageCounterDecay": 0.01,
-            "_damageCounterPct": 0.01,
+            "_damageCounterDecay": 0.0099999998,
+            "_damageCounterPct": 0.0099999998,
             "_niraPropInstance": "",
             "_chaseNiraSprintMult": 2.5,
-            "_chaseNiraWalkMult": 0.3,
+            "_chaseNiraWalkMult": 0.30000001,
             "_chaseNiraSprintDist": 30,
             "_chaseNiraWalkDist": 10,
             "_killPlayerIfClose": 0,
@@ -380,8 +380,8 @@
             "_smokeProjectileType": "/Lotus/Types/Friendly/PlayerControllable/Abilities/DrifterTossProjectile",
             "_struggleSym": "ArchonStruggle",
             "_struggleHealthThresholds": [
-                0.7,
-                0.4,
+                0.69999999,
+                0.40000001,
                 0.1
             ]
         },

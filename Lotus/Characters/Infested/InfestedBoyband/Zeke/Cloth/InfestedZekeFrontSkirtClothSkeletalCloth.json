@@ -11,15 +11,15 @@
         "AddedCollision": "InfestedZekeClothCollision",
         "Attribs": {
             "dampeningRange": [
-                0.082,
-                0.083
+                0.082000002,
+                0.082999997
             ],
             "collidingDampeningRange": [
                 0.02,
-                0.05
+                0.050000001
             ],
             "massRange": [
-                0.29,
+                0.28999999,
                 1
             ],
             "distConstraintRange": [
@@ -27,12 +27,12 @@
                 1
             ],
             "backstopConstraintRange": [
-                0.01,
+                0.0099999998,
                 0.2
             ],
             "useHardConstraints": 1,
-            "reduceStretchExponent": 0.05,
-            "shearingStiffness": 0.01,
+            "reduceStretchExponent": 0.050000001,
+            "shearingStiffness": 0.0099999998,
             "worldVelocityAtten": [
                 1,
                 1,
@@ -65,7 +65,7 @@
                 0.2
             ],
             "addFloorPlaneCollision": 0,
-            "floorPlaneHeight": 0.01,
+            "floorPlaneHeight": 0.0099999998,
             "simulateCollisionLast": 0
         },
         "UseClothCollision": 1,

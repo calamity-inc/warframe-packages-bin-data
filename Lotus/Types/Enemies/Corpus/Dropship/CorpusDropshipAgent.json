@@ -34,11 +34,11 @@
                 "_spawnOverrideAgentCountMin": 3,
                 "_spawnOverrideAgentCountMax": 6,
                 "_spawnOverrideAgentType": "",
-                "_hunterFarAwayScale": 0.01,
+                "_hunterFarAwayScale": 0.0099999998,
                 "_hunterCloseByScale": 1,
                 "_hunterResizeTime": 2.2,
                 "_hunterShipShallReturn": 0,
-                "_chanceToBeFighterTypeHunter": 0.4,
+                "_chanceToBeFighterTypeHunter": 0.40000001,
                 "_hunterFighterFirstAttachToInstance": ""
             },
             "OnDamagedScript": {
@@ -62,7 +62,7 @@
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -206,8 +206,8 @@
             "/EE/Types/Npc/DynamicPathFollowerHover"
         ],
         "LocomotionController:DynamicPathFollowerHover": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "TurnRateMultiplierOnMoveDirFacing": 1,
@@ -216,7 +216,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 50,
             "StopWhenTurningAngle": 90,
             "CheckFunnelForTightTurns": 0,
@@ -232,7 +232,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,
@@ -301,7 +301,7 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Corpus/Drones/DroneReactionController",
         "PerceiverType": "/Lotus/Types/Enemies/Corpus/Drones/DronePerceiver"

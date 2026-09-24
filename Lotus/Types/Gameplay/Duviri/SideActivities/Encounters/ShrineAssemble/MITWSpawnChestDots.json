@@ -25,8 +25,8 @@
         "affectedByZoneWind": 0,
         "drag": 5,
         "mass": [
-            -0.15,
-            -0.05
+            -0.15000001,
+            -0.050000001
         ],
         "life": [
             2,
@@ -34,7 +34,7 @@
         ],
         "size": [
             0.035,
-            0.08
+            0.079999998
         ],
         "sizeByLifeMultiplier": [
             0,
@@ -85,14 +85,14 @@
         "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColorAdd",
         "colorKeys[0]": [
-            0.08,
-            0.65,
-            0.8,
+            0.079999998,
+            0.64999998,
+            0.80000001,
             1
         ],
         "simVortex": 1,
         "vortexSpeed": 1.25,
-        "vortexDecay": 0.35,
+        "vortexDecay": 0.34999999,
         "vortexRadialForce": 0.23,
         "vortexAlongFullAxis": 1,
         "followSpline": 1,

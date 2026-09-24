@@ -15,11 +15,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -48,7 +48,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -293,7 +293,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -683,7 +683,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_FIRE",
                         "Amount": 22,
-                        "ProcChance": 0.4,
+                        "ProcChance": 0.40000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "HitType": "DHT_NONE",
@@ -752,16 +752,16 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": "",
                     "NumChains": 2,
                     "SequentialChains": 0,
                     "ChainDistance": 8,
                     "AttachBeamToTorso": 0,
-                    "ChainDamageMultiplier": 0.6,
+                    "ChainDamageMultiplier": 0.60000002,
                     "StopChainOnParry": 0,
                     "ChainEffectType": "/Lotus/Fx/Weapons/Corpus/ChargeGun/BECycronChainBeam",
                     "ChainableTypes": []
@@ -841,7 +841,7 @@
         "BatteryRegenDelayFromEmpty": 0.5,
         "HeavyBatteryRegenDelay": 0.5,
         "HeavyBatteryRegenDelayFromEmpty": 0.5,
-        "OmegaAttenuation": 0.7,
+        "OmegaAttenuation": 0.69999999,
         "OFF_HAND": {
             "Type": "CrpBECycronDSAttachment"
         },

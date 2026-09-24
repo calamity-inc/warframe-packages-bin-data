@@ -18,7 +18,7 @@
         "drag": 1,
         "mass": [
             0.02,
-            0.05
+            0.050000001
         ],
         "life": [
             0.2,
@@ -34,21 +34,21 @@
             0
         ],
         "velocity": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "collisionDelay": 0.1,
         "velocityDeviation": [
             0,
-            0.3
+            0.30000001
         ],
         "useForceFieldForSpawn": 1,
         "spawnScale": [
             0.5,
-            0.15,
-            0.15
+            0.15000001,
+            0.15000001
         ],
-        "spawnFlowBlend": 0.1667,
+        "spawnFlowBlend": 0.16670001,
         "flowForce": [
             1.2,
             1.7,
@@ -56,37 +56,37 @@
         ],
         "flowForceEnd": [
             0.81,
-            0.97,
+            0.97000003,
             1.2
         ],
         "flowScrolling": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "flowAtten": [
             0.5,
-            0.9
+            0.89999998
         ],
         "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
         "localSimulation": 1,
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColorAdd",
         "colorKeys[0]": [
             0.013,
-            0.92,
+            0.92000002,
             1,
             1
         ],
         "colorKeys[1]": [
             0.16,
-            0.72,
-            0.42,
+            0.72000003,
+            0.41999999,
             1
         ],
         "colorKeys[2]": [
-            0.0053,
-            0.034,
-            0.026,
+            0.0052999998,
+            0.034000002,
+            0.026000001,
             0.5
         ],
         "numColors": 3

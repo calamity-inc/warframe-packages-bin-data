@@ -1,0 +1,25 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "BaruukShieldCloth_skel.fbx",
+        "DebugVis": "CV_JOINTS",
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "BaruukShieldSkeletalClothData",
+        "Attribs": {
+            "massRange": [
+                1,
+                1
+            ],
+            "distConstraintRange": [
+                0,
+                0.090000004
+            ],
+            "backstopConstraintRange": [
+                0,
+                0.1
+            ],
+            "useHardConstraints": 1
+        },
+        "UseClothCollision": 1
+    }
+}

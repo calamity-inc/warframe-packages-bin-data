@@ -9,7 +9,7 @@
             174,
             255
         ],
-        "TexturePanRateV": 0.65,
+        "TexturePanRateV": 0.64999998,
         "TextureScaleV": 0.1,
         "TextureOffsetV": 1,
         "NumPlanes": 1,
@@ -20,10 +20,10 @@
                 "Frequency": 1,
                 "Amplitude": [
                     -0.1,
-                    -0.06,
-                    -0.01
+                    -0.059999999,
+                    -0.0099999998
                 ],
-                "RadiusAmplitude": 0.05,
+                "RadiusAmplitude": 0.050000001,
                 "PhaseShift": 2
             }
         ],
@@ -31,16 +31,16 @@
         "GrowthRate": 200,
         "RandomBeamAmplitude": [
             0,
-            0.05
+            0.050000001
         ],
         "FadeBetweenPoints": [
-            0.3,
-            0.7
+            0.30000001,
+            0.69999999
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,
@@ -59,7 +59,7 @@
         "TriggeredMaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,

@@ -51,13 +51,13 @@
         "PhysicsBehavior": "/EE/Types/Physics/KinematicQuery",
         "AttackData": {
             "DT_IMPACT": 0,
-            "DT_PUNCTURE": 0.3,
-            "DT_SLASH": 0.7,
+            "DT_PUNCTURE": 0.30000001,
+            "DT_SLASH": 0.69999999,
             "Amount": 90,
             "ProcChance": 0.22
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.18,
+        "CriticalChance": 0.18000001,
         "CriticalMultiplier": 2,
         "ExplosionIgnoreCover": 0,
         "ExplosionCoverMinDistance": 0,
@@ -94,7 +94,7 @@
         "KinematicInitialSpeed": 70,
         "KinematicMaxSpeed": 70,
         "KinematicGravity": 1,
-        "KinematicGravityMultiplier": 0.6,
+        "KinematicGravityMultiplier": 0.60000002,
         "KinematicRestitution": 0,
         "KinematicRestitutionParallel": 0,
         "KinematicBulletRaycast": 0,
@@ -107,17 +107,17 @@
         "ProjectileReplication": "SYNCED_AUTONOMOUS",
         "FaceVelocity": 1,
         "BaseRotation": [
-            0.707107,
+            0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "SilentProjectile": 1,
         "ApplyColorCustomization": 1,
         "Recall": {
             "DoRecall": 1,
             "Speed": 70,
-            "CatchDistance": 0.15,
+            "CatchDistance": 0.15000001,
             "OnRecallEffect": "/Lotus/Fx/Weapons/Tenno/ThrowingWeapons/ChoirKunaiRecall",
             "OnRecallScript": {
                 "Script": "TnChoirframeKunai.lua",

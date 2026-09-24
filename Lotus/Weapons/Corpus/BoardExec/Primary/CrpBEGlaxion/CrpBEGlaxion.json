@@ -26,7 +26,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -158,8 +158,8 @@
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 42,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.3,
-                    "RetractTime": 0.01,
+                    "MaxTraceDistanceTime": 0.30000001,
+                    "RetractTime": 0.0099999998,
                     "AttachToWeapon": 0,
                     "UseWeaponAttachmentFirePos": 0,
                     "MultiBeam": 1,
@@ -167,8 +167,8 @@
                         {
                             "LocalPosition": [
                                 0.02,
-                                0.05,
-                                0.86
+                                0.050000001,
+                                0.86000001
                             ],
                             "LocalRotation": [
                                 0,
@@ -190,8 +190,8 @@
                         {
                             "LocalPosition": [
                                 0.02,
-                                0.05,
-                                0.86
+                                0.050000001,
+                                0.86000001
                             ],
                             "LocalRotation": [
                                 0,
@@ -276,7 +276,7 @@
                     "StasisCollapseTime": 2.5,
                     "RecoilOnFire": 0,
                     "RecoilRate": 120,
-                    "RecoilIntensityFireTime": 0.3,
+                    "RecoilIntensityFireTime": 0.30000001,
                     "RecoilCurve": "RC_LINEAR",
                     "RecoilStrength": [
                         0.2,
@@ -300,7 +300,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -690,7 +690,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_FREEZE",
                         "Amount": 34,
-                        "ProcChance": 0.4,
+                        "ProcChance": 0.40000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -760,9 +760,9 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": "",
                     "NumChains": 3,
@@ -835,7 +835,7 @@
         "AmmoClipSize": 90,
         "LevelCap": 40,
         "RequiredLevel": 16,
-        "OmegaAttenuation": 0.65,
+        "OmegaAttenuation": 0.64999998,
         "VariantType": "VT_KUVA"
     }
 }

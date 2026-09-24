@@ -14,7 +14,7 @@
         "RecipeHelpText": "",
         "GripPositionOffset": [
             -0.1,
-            -0.075,
+            -0.075000003,
             0.13
         ],
         "Behaviors": [
@@ -32,7 +32,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -175,7 +175,7 @@
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.12,
                         "DT_PUNCTURE": 0.56,
-                        "DT_SLASH": 0.32,
+                        "DT_SLASH": 0.31999999,
                         "Amount": 184,
                         "ProcChance": 0.2,
                         "ForcedProcs": [],
@@ -196,7 +196,7 @@
                     ],
                     "damageFallOffMinDamage": 62,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.615,
+                    "PvpDamageMultiplier": 0.61500001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -228,8 +228,8 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.32,
-                    "criticalHitDamageMultiplier": 2.6,
+                    "criticalHitChance": 0.31999999,
+                    "criticalHitDamageMultiplier": 2.5999999,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -322,7 +322,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 1,
                     "NumShots": 4,
-                    "BurstDelay": 0.04,
+                    "BurstDelay": 0.039999999,
                     "IgnoreFireRate": 0,
                     "EatAmmoOnUnequip": 1,
                     "QueueBursts": 0,
@@ -349,7 +349,7 @@
             "AP_ATTACK",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 0.65,
+        "OmegaAttenuation": 0.64999998,
         "VariantType": "VT_PRIME"
     }
 }

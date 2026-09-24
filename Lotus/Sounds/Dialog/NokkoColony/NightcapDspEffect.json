@@ -5,12 +5,12 @@
             "Stages": [
                 {
                     "enabled": 1,
-                    "mix": 0.45,
+                    "mix": 0.44999999,
                     "type": "DSP_DELAY",
                     "delay": {
                         "delayTimeSec": 0,
-                        "delayTime": 0.089552,
-                        "feedback": 0.6026
+                        "delayTime": 0.089552201,
+                        "feedback": 0.60259998
                     }
                 },
                 {
@@ -18,8 +18,8 @@
                     "mix": 1,
                     "type": "DSP_PHASER",
                     "phaser": {
-                        "fb": 0.76088,
-                        "depth": 0.32,
+                        "fb": 0.76087999,
+                        "depth": 0.31999999,
                         "rate": 0.246914,
                         "range": [
                             960.6344,
@@ -59,8 +59,8 @@
                     "mix": 0,
                     "type": "DSP_DISTORTION",
                     "distortion": {
-                        "preAtten": 0.9,
-                        "saturateThreshold": 0.99,
+                        "preAtten": 0.89999998,
+                        "saturateThreshold": 0.99000001,
                         "distortionThreshold": 1,
                         "postAtten": 1
                     }

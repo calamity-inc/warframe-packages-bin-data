@@ -10,7 +10,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.8
+                    0.80000001
                 ],
                 "LocalRotation": [
                     0,
@@ -53,14 +53,14 @@
         ],
         "PhysicsBehavior": "/EE/Types/Physics/KinematicNonCollidable",
         "AttackData": {
-            "DT_IMPACT": 0.4,
-            "DT_PUNCTURE": 0.32,
-            "DT_SLASH": 0.28,
+            "DT_IMPACT": 0.40000001,
+            "DT_PUNCTURE": 0.31999999,
+            "DT_SLASH": 0.27999997,
             "Amount": 28,
             "ProcChance": 0.14,
             "HitType": "DHT_PROJECTILE"
         },
-        "CriticalChance": 0.36,
+        "CriticalChance": 0.36000001,
         "CriticalMultiplier": 2.2,
         "HitEffect": "/Lotus/Fx/Weapons/Grineer/GrnAmphisPistol/GrnAmphisPistolHitEffect",
         "IgnoreCollisionsWithSameType": 1,
@@ -75,7 +75,7 @@
         "KinematicInitialSpeed": 50,
         "KinematicMinSpeed": 50,
         "KinematicMaxSpeed": 50,
-        "KinematicNoiseRate": 0.01,
+        "KinematicNoiseRate": 0.0099999998,
         "KinematicRestitution": 0,
         "KinematicRestitutionParallel": 0,
         "KinematicBulletRaycast": 0,
@@ -83,9 +83,9 @@
         "FaceVelocity": 1,
         "ApplyColorCustomization": 1,
         "ForwardVel": 30,
-        "UnguidedFlightTime": 0.04,
+        "UnguidedFlightTime": 0.039999999,
         "SmoothUnguidedFlightTransition": 1,
-        "SmoothUnguidedFlightTime": 0.3,
+        "SmoothUnguidedFlightTime": 0.30000001,
         "AimRate": 2000,
         "ReducedAimRate": 2000,
         "CanTurnAround": 1,

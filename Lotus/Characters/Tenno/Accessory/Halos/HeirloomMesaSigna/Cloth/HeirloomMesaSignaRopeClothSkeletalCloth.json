@@ -1,0 +1,78 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "HeirloomMesaSignaRopeCloth_skel.fbx",
+        "Attached": 1,
+        "AttachBone": "GAME_C1_SPINE5",
+        "CollisionDebugVis": "CDV_ALL",
+        "ShowSimCollisionTags": 1,
+        "ControlData": "HeirloomMesaSignaRopeClothData",
+        "Collision": "HeirloomMesaSignaRopeClothSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.045499999,
+                0.082999997
+            ],
+            "collidingDampeningRange": [
+                0.040437002,
+                0.070436999
+            ],
+            "massRange": [
+                0.221,
+                0.29903501
+            ],
+            "distConstraintRange": [
+                0.0099999998,
+                0.34999999
+            ],
+            "useBackstopConstraints": 1,
+            "backstopConstraintRange": [
+                0,
+                1
+            ],
+            "useHardConstraints": 1,
+            "shearingStiffness": 1,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "windAffected": 0,
+            "windStrength": [
+                0,
+                0
+            ],
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                1,
+                1,
+                1
+            ],
+            "windVolumeScale": [
+                1,
+                1,
+                1
+            ],
+            "windVolumeOffsetRate": [
+                1,
+                1,
+                1
+            ],
+            "addFloorPlaneCollision": 0,
+            "floorPlaneHeight": 0.090000004,
+            "collisionExemptions": [
+                "Arm2Left",
+                "Arm2Right",
+                "Arm2Left",
+                "Arm3Right"
+            ],
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        },
+        "UseClothCollision": 1,
+        "ZoneWindScale": 1
+    }
+}

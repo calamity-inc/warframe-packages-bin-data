@@ -10,12 +10,12 @@
                 "LocalPosition": [
                     0,
                     -0.1,
-                    -0.05
+                    -0.050000001
                 ],
                 "LocalRotation": [
                     -0.017436,
-                    -0.043613,
-                    -0.000761,
+                    -0.043613002,
+                    -0.00076099997,
                     0.998896
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -32,14 +32,14 @@
         "UseGripOffset": 1,
         "GripPositionOffset": [
             0,
-            0.05,
-            -0.03
+            0.050000001,
+            -0.029999999
         ],
         "GripRotationOffset": [
             -0.321394,
-            0.383022,
+            0.38302201,
             0.663414,
-            0.55667
+            0.55667001
         ],
         "GripBone": "GAME_C1_HANDLEBAR8",
         "DisableFireWhileMainHandMeleeing": 0,
@@ -51,11 +51,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -258,7 +258,7 @@
                     "AllowSelfDamage": 0,
                     "IgnoreInvisibleAvatars": 1,
                     "DestroyBeamOnFire": 0,
-                    "BeamTime": 0.08,
+                    "BeamTime": 0.079999998,
                     "ApplyRadialDamageOnMiss": 0,
                     "ApplyRadialDamageOnHit": 0
                 },
@@ -282,7 +282,7 @@
                         "DT_CORROSIVE": 0,
                         "DT_RADIANT": 0,
                         "Amount": 30,
-                        "ProcChance": 0.05,
+                        "ProcChance": 0.050000001,
                         "ForcedProcs": [
                             "PT_KNOCKBACK"
                         ],
@@ -302,7 +302,7 @@
                     ],
                     "damageFallOffMinDamage": 2,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.54,
+                    "PvpDamageMultiplier": 0.54000002,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 300,
                     "additionalForce": [
@@ -334,7 +334,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.3,
+                    "criticalHitChance": 0.30000001,
                     "criticalHitDamageMultiplier": 2.2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -388,7 +388,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -438,7 +438,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -536,7 +536,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -635,8 +635,8 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.8,
-                        "DT_PUNCTURE": 0.2,
+                        "DT_IMPACT": 0.80000001,
+                        "DT_PUNCTURE": 0.19999999,
                         "DT_SLASH": 0,
                         "Amount": 100,
                         "ProcChance": 0.1,
@@ -675,7 +675,7 @@
                     "applyPushVelocity": 0,
                     "applyPushVelocityOnlyToBlockingTarget": 0,
                     "pushMagnitude": [
-                        4.474708,
+                        4.4747081,
                         5.47471
                     ],
                     "pushMagnitudeFallOff": [
@@ -909,8 +909,8 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.08,
-                    -0.05
+                    -0.079999998,
+                    -0.050000001
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechMechLongGunAIAttachment"
@@ -1100,7 +1100,7 @@
                     "AllowSelfDamage": 0,
                     "IgnoreInvisibleAvatars": 1,
                     "DestroyBeamOnFire": 0,
-                    "BeamTime": 0.08,
+                    "BeamTime": 0.079999998,
                     "ApplyRadialDamageOnMiss": 0,
                     "ApplyRadialDamageOnHit": 0
                 },
@@ -1174,7 +1174,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.3,
+                    "criticalHitChance": 0.30000001,
                     "criticalHitDamageMultiplier": 2.2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -1228,7 +1228,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -1278,7 +1278,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -1376,7 +1376,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -1475,8 +1475,8 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.8,
-                        "DT_PUNCTURE": 0.2,
+                        "DT_IMPACT": 0.80000001,
+                        "DT_PUNCTURE": 0.19999999,
                         "DT_SLASH": 0,
                         "Amount": 100,
                         "ProcChance": 0.1,
@@ -1663,13 +1663,13 @@
         "HolsterPosOffset": [
             0.1,
             -0.2,
-            -0.3
+            -0.30000001
         ],
         "HolsterRotOffset": [
             0,
             0,
-            0.707107,
-            0.707107
+            0.70710677,
+            0.70710677
         ],
         "RequiredLevel": 14,
         "ArtifactSlots": [

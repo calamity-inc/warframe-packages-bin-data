@@ -4,9 +4,9 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalPosition": [
-                    -0.005,
+                    -0.0049999999,
                     0,
-                    0.03
+                    0.029999999
                 ],
                 "Type": "RedeemerPrimeWepAttachment"
             }
@@ -31,7 +31,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -222,9 +222,9 @@
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
                         "DT_PUNCTURE": 0.2,
-                        "DT_SLASH": 0.7,
+                        "DT_SLASH": 0.69999999,
                         "Amount": 212,
-                        "ProcChance": 0.3,
+                        "ProcChance": 0.30000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -274,7 +274,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.24,
+                    "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 2.2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -327,9 +327,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -480,7 +480,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -622,7 +622,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_EXPLOSION",
                         "Amount": 80,
-                        "ProcChance": 0.9,
+                        "ProcChance": 0.89999998,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -672,7 +672,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.24,
+                    "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 2.2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -725,9 +725,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -822,7 +822,7 @@
             159,
             255
         ],
-        "OmegaAttenuation": 0.65,
+        "OmegaAttenuation": 0.64999998,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Melee/CritBlast",
         "VariantType": "VT_PRIME",
         "Slams": [
@@ -892,7 +892,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -1000,8 +1000,8 @@
                     "LocalRotation": [
                         0,
                         0,
-                        0.008727,
-                        0.999962
+                        0.0087270001,
+                        0.99996197
                     ],
                     "BoneName": "",
                     "Type": "/Lotus/Fx/Weapons/Melee/Clean/Slams/ScaledSlam/MeleeSlamScaled",
@@ -1022,7 +1022,7 @@
                 "FXOffset": [
                     -0.1,
                     0,
-                    0.4
+                    0.40000001
                 ],
                 "UseWeaponAttachment": 0,
                 "WeaponAttachmentHand": "MAIN_HAND",
@@ -1036,7 +1036,7 @@
                 "RadiusMin": 0,
                 "Radius": 6,
                 "FallOff": 1,
-                "FallOffMax": 0.7,
+                "FallOffMax": 0.69999999,
                 "CanCrit": 0,
                 "CanUseComboMultiplier": 1,
                 "UseImpactBehaviorAttackDataAmount": 1,
@@ -1090,7 +1090,7 @@
                 "FXOffset": [
                     -0.1,
                     0,
-                    0.4
+                    0.40000001
                 ],
                 "UseWeaponAttachment": 0,
                 "WeaponAttachmentHand": "MAIN_HAND",
@@ -1162,7 +1162,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {

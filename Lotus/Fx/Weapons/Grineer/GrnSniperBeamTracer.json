@@ -6,17 +6,17 @@
                 "name": "DistortPan",
                 "type": "Float4",
                 "slot": -1,
-                "value": 0.03,
-                "value1": 0.03,
-                "value2": 0.7,
-                "value3": 0.7
+                "value": 0.029999999,
+                "value1": 0.029999999,
+                "value2": 0.69999999,
+                "value3": 0.69999999
             },
             {
                 "name": "DistortScale",
                 "type": "Float4",
                 "slot": -1,
-                "value": 0.15,
-                "value1": 0.15,
+                "value": 0.15000001,
+                "value1": 0.15000001,
                 "value2": 0,
                 "value3": 0
             }
@@ -28,21 +28,21 @@
             255
         ],
         "TexturePanRateV": -0.5,
-        "TextureScaleV": 0.085,
+        "TextureScaleV": 0.085000001,
         "NumPlanes": 1,
         "Radius": 0.035,
         "FadeBetweenPoints": [
-            0.05,
-            0.85
+            0.050000001,
+            0.85000002
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.85,
+                "TimeLength": 0.85000002,
                 "Multiplier": 7,
                 "FadeRange": [
                     0,
-                    0.15
+                    0.15000001
                 ],
                 "BaseValue": 0,
                 "Delay": 0,

@@ -5,7 +5,7 @@
             "Stages": [
                 {
                     "enabled": 1,
-                    "mix": 0.15,
+                    "mix": 0.15000001,
                     "type": "DSP_BIT_CRUSH",
                     "bitCrush": {
                         "bitDepth": 4,
@@ -41,13 +41,13 @@
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.3,
+                    "mix": 0.30000001,
                     "type": "DSP_PITCH",
                     "pitch": {
                         "paramFinePitch": 0.5,
                         "paramCoarsePitch": 0.531977,
                         "paramFeedback": 0,
-                        "paramFeedbackPhase": -0.002079,
+                        "paramFeedbackPhase": -0.00207901,
                         "paramDelay": 0
                     }
                 },
@@ -62,21 +62,21 @@
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.3,
+                    "mix": 0.30000001,
                     "type": "DSP_DELAY",
                     "delay": {
                         "delayTimeSec": 0,
-                        "delayTime": 0.043659,
-                        "feedback": 0.6167
+                        "delayTime": 0.043659002,
+                        "feedback": 0.61669999
                     }
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.4,
+                    "mix": 0.40000001,
                     "type": "DSP_DISTORTION",
                     "distortion": {
                         "preAtten": 1.517151,
-                        "saturateThreshold": 0.99,
+                        "saturateThreshold": 0.99000001,
                         "distortionThreshold": 1,
                         "postAtten": 1
                     }

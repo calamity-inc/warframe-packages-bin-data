@@ -114,7 +114,7 @@
                 },
                 "StopWhenChildStops": 1,
                 "DelayDuration": [
-                    0.7,
+                    0.69999999,
                     1.5
                 ],
                 "ResetDelayOnFailedEval": 1,
@@ -257,6 +257,7 @@
                     "AimWhileMoving": 1,
                     "SetViewWhileMoving": 1,
                     "ShootingDistance": 1,
+                    "NeedsVisibilityForShooting": 1,
                     "ChangeWeapons": 0,
                     "WeaponSlot": "SLOT_1",
                     "WeaponHand": "MAIN_HAND",
@@ -275,7 +276,7 @@
                     "MinShots": 1,
                     "ShootTime": [
                         0.5,
-                        0.7
+                        0.69999999
                     ],
                     "WaitTime": [
                         1,

@@ -23,8 +23,8 @@
                     "Function": "GetDescription",
                     "_breachChance": 0.02,
                     "_ShieldRegenOnBrech": 0.025,
-                    "_HealthThresholdRJ": 0.3,
-                    "_ArmourBoostRJ": 0.06
+                    "_HealthThresholdRJ": 0.30000001,
+                    "_ArmourBoostRJ": 0.059999999
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.001,
@@ -38,15 +38,15 @@
             "Function": "ModApplied",
             "_breachChance": 0.02,
             "_ShieldRegenOnBrech": 0.025,
-            "_HealthThresholdRJ": 0.3,
-            "_ArmourBoostRJ": 0.06
+            "_HealthThresholdRJ": 0.30000001,
+            "_ArmourBoostRJ": 0.059999999
         },
         "UnappliedScript": {
             "Script": "SiegeMatrix.lua",
             "Function": "ModUnapplied",
             "_breachChance": 0.02,
             "_ShieldRegenOnBrech": 0.1,
-            "_HealthThresholdRJ": 0.3,
+            "_HealthThresholdRJ": 0.30000001,
             "_ArmourBoostRJ": 0.025
         }
     }

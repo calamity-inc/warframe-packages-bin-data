@@ -5,7 +5,7 @@
             "toneMapLUT": "/EE/Materials/PostFX/TriuneLUTs/DaytheEarthStoodStillLogC.cube",
             "colorCorrectCurveLift": [
                 1.01,
-                0.99,
+                0.99000001,
                 1.05,
                 0
             ],
@@ -39,34 +39,34 @@
                 255
             ],
             "sunPosition": [
-                -0.368688,
-                0.775117,
-                -0.513091
+                -0.36868799,
+                0.77511698,
+                -0.51309103
             ],
             "sunColor": [
-                0.86,
-                0.98,
+                0.86000001,
+                0.98000002,
                 1.63,
                 0
             ],
             "cloudShadowsTexture": "/EE/Materials/Util/CloudShadow.png",
             "cloudShadowsMovementParams": [
-                0.005,
-                0.005,
-                0.005,
-                0.01
+                0.0049999999,
+                0.0049999999,
+                0.0049999999,
+                0.0099999998
             ],
             "cloudShadowsAttenuationsParams": [
                 0.1,
                 2
             ],
             "volumetricFog": {
-                "NearDistance": 0.01,
-                "Extinction": 0.35,
-                "ExtinctionConfusion": 0.3,
+                "NearDistance": 0.0099999998,
+                "Extinction": 0.34999999,
+                "ExtinctionConfusion": 0.30000001,
                 "GlobalFog": {
-                    "Density": 0.075,
-                    "G": 0.669866
+                    "Density": 0.075000003,
+                    "G": 0.66986603
                 },
                 "HeightFog": {
                     "HeightFogMaxHeight": 10,
@@ -80,7 +80,7 @@
                 },
                 "ClumpyNoise": {
                     "ClumpAmount": 0.75,
-                    "ClumpStart": 0.45
+                    "ClumpStart": 0.44999999
                 }
             }
         },
@@ -162,7 +162,7 @@
             "_ultraRareLootWaypointType": "/Lotus/Types/LevelObjects/UltraRareLootCrateWaypoint",
             "_ultraRareCrateType": "/Lotus/Types/LevelObjects/1999Loot/LASxEntertechmentLootCrateUltraRare",
             "_altUltraRareCrateType": "",
-            "_ultraRareLootChance": 0.01,
+            "_ultraRareLootChance": 0.0099999998,
             "_floatingCrateWaypointType": "",
             "_floatingCrateTypes": [],
             "_numFloatingCrates": 25,

@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Objects/Infestation/InfestedMicroplanet/Tentacles/InfCystB.fbx",
-        "MeshScale": 0.3,
+        "MeshScale": 0.30000001,
         "OverrideMaterial": [
             "/Lotus/Objects/Infestation/InfestedMicroplanet/WIP/InfFleshscapeCystBTruffle"
         ],
@@ -18,15 +18,15 @@
         "Tag": "TruffleMoundVisuals",
         "ReplicationOverride": "RO_ALWAYS",
         "ReplicaPositionNoise": [
-            0.01,
+            0.0099999998,
             0,
-            0.01,
+            0.0099999998,
             2
         ],
         "ReplicaRotationNoise": [
-            0.3,
-            0.3,
-            0.3,
+            0.30000001,
+            0.30000001,
+            0.30000001,
             1
         ],
         "CensoredOverrides": [
@@ -34,10 +34,10 @@
         ],
         "CreateOnDestroy": {
             "LocalRotation": [
-                -0.707107,
+                -0.70710677,
                 0,
                 0,
-                0.707107
+                0.70710677
             ],
             "Type": "/Lotus/Fx/Enemies/Grineer/Ghouls/GhoulMoundSpawn",
             "Attach": 1
@@ -79,12 +79,12 @@
                             "Value": 0
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.574402
+                            "Time": 0.33333334,
+                            "Value": 0.57440197
                         },
                         {
-                            "Time": 0.666667,
-                            "Value": 0.917703
+                            "Time": 0.66666669,
+                            "Value": 0.91770297
                         },
                         {
                             "Time": 1,
@@ -104,7 +104,7 @@
                 "Parameter": "EmissiveMapAtten",
                 "Slot": -1,
                 "TimeLength": 3,
-                "Multiplier": 0.29,
+                "Multiplier": 0.28999999,
                 "FadeRange": [
                     1,
                     1
@@ -113,7 +113,7 @@
                     "Values": [],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.01,
+                "BaseValue": 0.0099999998,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,

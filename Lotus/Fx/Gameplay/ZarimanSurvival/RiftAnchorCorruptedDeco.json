@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "AuraCone.fbx",
-        "MeshScale": 0.8,
+        "MeshScale": 0.80000001,
         "OverrideMaterial": [
             "RiftAnchorCorruptedDecoMatB"
         ],
@@ -14,10 +14,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "RiftAnchorCorruptedGPUSparks",
@@ -86,13 +86,13 @@
             360,
             0,
             0,
-            0.002
+            0.0020000001
         ],
         "MaterialFade": [
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,
@@ -112,7 +112,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 0.5,
                 "FadeRange": [
                     1,
@@ -134,7 +134,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 0.5,
                 "FadeRange": [
                     0,
@@ -167,8 +167,8 @@
             {
                 "Parameter": "Scale",
                 "Slot": -1,
-                "TimeLength": 0.4,
-                "Multiplier": 0.4,
+                "TimeLength": 0.40000001,
+                "Multiplier": 0.40000001,
                 "FadeRange": [
                     0,
                     1
@@ -181,7 +181,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.7
+                            "Value": 0.69999999
                         },
                         {
                             "Time": 1,
@@ -190,7 +190,7 @@
                     ],
                     "SplineType": "CUBIC_SPLINE"
                 },
-                "BaseValue": 0.8,
+                "BaseValue": 0.80000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 1,
                 "IsDissolve": 0,

@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Characters/Tenno/Lycath/LycathHeadVonellLegL_skel.fbx",
-        "MeshScale": 0.65,
+        "MeshScale": 0.64999998,
         "OverrideMaterial": [
             "WerewolfHeadMatVonell"
         ],
@@ -11,9 +11,9 @@
                 "name": "TransformOffset",
                 "type": "Float4",
                 "slot": -1,
-                "value": 0.27,
-                "value1": -0.96,
-                "value2": 0.016,
+                "value": 0.27000001,
+                "value1": -0.95999998,
+                "value2": 0.016000001,
                 "value3": 0
             },
             {
@@ -91,7 +91,7 @@
             "Script": "/Lotus/Powersuits/Werewolf/WerewolfPassive.lua",
             "Function": "SplineUpdate",
             "_idleEffect": "",
-            "_passiveSpeed": 0.4,
+            "_passiveSpeed": 0.40000001,
             "_passiveInvertDirection": 0,
             "_shoulderEffectDeco": "",
             "_isRightShoulder": 0
@@ -104,7 +104,7 @@
             0
         ],
         "RandomMeshScale": [
-            0.9,
+            0.89999998,
             1.1
         ],
         "BoundsExpansion": [
@@ -116,7 +116,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,

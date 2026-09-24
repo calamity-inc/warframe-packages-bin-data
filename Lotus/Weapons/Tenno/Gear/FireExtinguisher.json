@@ -12,13 +12,13 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.01
+                    0.0099999998
                 ],
                 "LocalRotation": [
                     0,
-                    0.087156,
+                    0.087155998,
                     0,
-                    0.996195
+                    0.99619502
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "/Lotus/Weapons/Grineer/Pistols/RailJackFireExtinguisher/RJFireExtinguisherArm"
@@ -27,14 +27,14 @@
         "HolsterBone1Name": "GAME_R1_LEG1",
         "HolsterBone1Position": [
             -0.125,
-            -0.03,
+            -0.029999999,
             0.17
         ],
         "HolsterBone1Rotation": [
             0,
-            -0.793353,
+            -0.79335302,
             0,
-            0.608761
+            0.60876101
         ],
         "PickUpText": "/Lotus/Language/Items/PistolPickup",
         "PremiumPrice": 200,
@@ -52,30 +52,30 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.05,
+            -0.050000001,
             0.185,
             0.055
         ],
         "GripRotationOffset": [
             -0.353553,
-            0.612372,
-            0.612372,
+            0.61237198,
+            0.61237198,
             0.353553
         ],
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -104,7 +104,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -178,7 +178,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/MediumWeaponHipRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/MediumWeaponAimRecoilInfo",
                     "spreadUniform": 0,
-                    "SpreadRatioHorizontal": 0.6,
+                    "SpreadRatioHorizontal": 0.60000002,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -243,9 +243,9 @@
                     "BeamChildren": [
                         {
                             "LocalPosition": [
-                                0.03,
-                                -0.04,
-                                0.15
+                                0.029999999,
+                                -0.039999999,
+                                0.15000001
                             ],
                             "LocalRotation": [
                                 0,
@@ -354,7 +354,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -744,7 +744,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_FREEZE",
                         "Amount": 35,
-                        "ProcChance": 0.21,
+                        "ProcChance": 0.20999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "HitType": "DHT_NONE",
@@ -761,7 +761,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.98,
+                    "PvpDamageMultiplier": 0.98000002,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -792,7 +792,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.15,
+                    "criticalHitChance": 0.15000001,
                     "criticalHitDamageMultiplier": 1.7,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -810,9 +810,9 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": "",
                     "NumChains": 3,
@@ -886,7 +886,7 @@
             "_repairProxyType": "/Lotus/Types/Game/CrewShip/Malfunctions/MultiToolHitProxy",
             "_baseAcceptableDistanceToSpline": 0.1,
             "_expertAcceptableDistanceToSpline": 0.2,
-            "_breachCompletionRequired": 0.8,
+            "_breachCompletionRequired": 0.80000001,
             "_multiToolAmmoType": "/Lotus/Weapons/CrewShip/MultitoolAmmo",
             "_startingAmmoCount": 100,
             "_debugDraw": 0,
@@ -926,9 +926,9 @@
         "UsesExtraHandAttachments": 1,
         "HolsterRotOffset": [
             0,
-            -0.707107,
+            -0.70710677,
             0,
-            0.707107
+            0.70710677
         ],
         "RequiredLevel": 5,
         "ArtifactSlots": [
@@ -962,9 +962,9 @@
             0
         ],
         "DarkSectorHolsterRotOffset": [
-            0.707107,
+            0.70710677,
             0,
-            0.707107,
+            0.70710677,
             0
         ],
         "DarkSectorAttachmentsToCreate": {
@@ -1047,8 +1047,8 @@
             ],
             "LocalRotation": [
                 0,
-                -0.99725,
-                -0.074108,
+                -0.99725002,
+                -0.074107997,
                 0
             ],
             "BoneName": "GAME_L1_TWIST2",

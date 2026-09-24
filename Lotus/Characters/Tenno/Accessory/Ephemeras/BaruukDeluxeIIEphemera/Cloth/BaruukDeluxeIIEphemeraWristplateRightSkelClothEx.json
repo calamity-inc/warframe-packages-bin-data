@@ -1,0 +1,30 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "BaruukDeluxeIIEphemeraWristplateRight_skel.fbx",
+        "ControlData": "BaruukDeluxeIIEphemeraWristplateRightSkelClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.1,
+                0.1
+            ],
+            "collidingDampeningRange": [
+                0.2,
+                0.2
+            ],
+            "massRange": [
+                1,
+                1
+            ],
+            "distConstraintRange": [
+                0.60000002,
+                0.60000002
+            ],
+            "useHardConstraints": 1,
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 1,
+            "simulateCollisionLast": 0
+        },
+        "UseClothCollision": 1
+    }
+}

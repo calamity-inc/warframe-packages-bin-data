@@ -4,15 +4,15 @@
         "HitProxies": [
             {
                 "LocalPosition": [
-                    -0.05,
+                    -0.050000001,
                     0.1,
                     0
                 ],
                 "LocalRotation": [
-                    0.492404,
+                    0.49240401,
                     0.086824,
-                    -0.150384,
-                    0.852868
+                    -0.15038399,
+                    0.85286802
                 ],
                 "BoneName": "GAME_C1_HEAD1",
                 "Type": "Hitproxy/LasrianChemStrikeNoxHead",
@@ -55,8 +55,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM1",
                 "Type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperArm",
@@ -70,15 +70,15 @@
             },
             {
                 "LocalPosition": [
-                    0.15,
+                    0.15000001,
                     0,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM2",
                 "Type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerArm",
@@ -114,7 +114,7 @@
             },
             {
                 "LocalPosition": [
-                    -0.15,
+                    -0.15000001,
                     0,
                     0
                 ],
@@ -224,9 +224,9 @@
             },
             {
                 "LocalPosition": [
-                    -0.06383,
-                    0.06383,
-                    -0.06383
+                    -0.063829802,
+                    0.063829802,
+                    -0.063829802
                 ],
                 "LocalRotation": [
                     0,
@@ -246,9 +246,9 @@
             },
             {
                 "LocalPosition": [
-                    0.021277,
-                    -0.031915,
-                    0.053192
+                    0.021276601,
+                    -0.031914901,
+                    0.053191502
                 ],
                 "LocalRotation": [
                     0,
@@ -268,15 +268,15 @@
             },
             {
                 "LocalPosition": [
-                    -0.05,
-                    0.3,
+                    -0.050000001,
+                    0.30000001,
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_SPINE3",
                 "Type": "Hitproxy/LasrianChemStrikeNoxBackpack",
@@ -290,9 +290,9 @@
             },
             {
                 "LocalPosition": [
-                    -0.01,
+                    -0.0099999998,
                     -0.28,
-                    0.05
+                    0.050000001
                 ],
                 "LocalRotation": [
                     0.5,
@@ -520,7 +520,7 @@
                 "MaxHealth": 200,
                 "ScaleHealth": 1,
                 "RemoveProcs": 0,
-                "Strength": 0.7,
+                "Strength": 0.69999999,
                 "AllowCarryOverDamage": 1,
                 "ProtectedByOverguard": 0,
                 "ProtectedByShields": 1,
@@ -565,13 +565,13 @@
                     0,
                     1
                 ],
-                "MaxVisibilityHealthRatio": 0.85,
+                "MaxVisibilityHealthRatio": 0.85000002,
                 "NotifyWeaponOnDamaged": 1,
                 "OnDamagedScript": {
                     "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/WF1999Abilities/LasrianChemNoxPassive.lua",
                     "Function": "OnNoxArmourDamaged",
                     "_fireRateBuff": 2,
-                    "_bark": "VoiceBox_NEAR_DEATH",
+                    "_bark": "VoiceBoxPhrase_NEAR_DEATH",
                     "_barkFilter": "",
                     "_sound": "/Lotus/Sounds/Enemies/GrnChemNox/GrnChemNoxHelmetImpact",
                     "_toxicCloud": "",
@@ -585,7 +585,7 @@
                 "MaxHealth": 200,
                 "ScaleHealth": 1,
                 "RemoveProcs": 0,
-                "Strength": 0.7,
+                "Strength": 0.69999999,
                 "AllowCarryOverDamage": 1,
                 "ProtectedByOverguard": 0,
                 "ProtectedByShields": 1,
@@ -630,13 +630,13 @@
                     0,
                     1
                 ],
-                "MaxVisibilityHealthRatio": 0.85,
+                "MaxVisibilityHealthRatio": 0.85000002,
                 "NotifyWeaponOnDamaged": 1,
                 "OnDamagedScript": {
                     "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/WF1999Abilities/LasrianChemNoxPassive.lua",
                     "Function": "OnNoxArmourDamaged",
                     "_fireRateBuff": 2,
-                    "_bark": "VoiceBox_NEAR_DEATH",
+                    "_bark": "VoiceBoxPhrase_NEAR_DEATH",
                     "_barkFilter": "",
                     "_sound": "/Lotus/Sounds/Enemies/GrnChemNox/GrnChemNoxHelmetImpact",
                     "_toxicCloud": "",
@@ -650,7 +650,7 @@
             "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/WF1999Abilities/LasrianChemNoxPassive.lua",
             "Function": "OnNoxArmourDestroyed",
             "_fireRateBuff": 1,
-            "_bark": "VoiceBox_USING_ABILITY",
+            "_bark": "VoiceBoxPhrase_NEAR_DEATH",
             "_barkFilter": "NoxEnrageScream",
             "_sound": "/Lotus/Sounds/Enemies/GrnChemNox/GrnChemNoxHelmetSmash",
             "_toxicCloud": "/Lotus/Fx/Enemies/WF1999Lasrian/NoxEnrage",
@@ -682,7 +682,7 @@
                             },
                             {
                                 "boneName": "GAME_R1_ARM1",
-                                "probability": 0.3
+                                "probability": 0.30000001
                             }
                         ],
                         "LocalPosition": [
@@ -712,7 +712,7 @@
                             },
                             {
                                 "boneName": "GAME_R1_ARM1",
-                                "probability": 0.3
+                                "probability": 0.30000001
                             }
                         ],
                         "LocalPosition": [
@@ -731,10 +731,10 @@
         "SmoothDPSDecayTime": 3,
         "MaxDamagePerSecondHealthPercentLower": 0.75,
         "MaxDamagePerSecondHealthPercentUpper": 0.25,
-        "MaxPeakDamageHealthPercentLower": 0.075,
-        "MaxPeakDamageHealthPercentUpper": 0.05,
+        "MaxPeakDamageHealthPercentLower": 0.075000003,
+        "MaxPeakDamageHealthPercentUpper": 0.050000001,
         "UpperLevelForMaxDamageScaling": 150,
         "ScaleCrits": 1,
-        "AfterCritShotgunDPSCompensation": 0.7
+        "AfterCritShotgunDPSCompensation": 0.69999999
     }
 }

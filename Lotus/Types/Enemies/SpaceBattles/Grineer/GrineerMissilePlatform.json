@@ -118,7 +118,7 @@
                 "UseEndNodePos": 0,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1
         },
@@ -138,7 +138,7 @@
             "MoveSuccessRadius": 1,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 1,
             "StopWhenMovementInactive": 1,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1
         },
         "LocomotionController:MoveModifierCollection": [
@@ -152,7 +152,7 @@
                     "AvoidanceInputMultiplier": [
                         1.2,
                         1.2,
-                        0.8
+                        0.80000001
                     ],
                     "PreserveVelocity": 0,
                     "MinAvoidanceReducedVelocityPct": 0,
@@ -194,11 +194,11 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/Grineer/GrineerPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",
         "TargetEvaluatorType": "/Lotus/Types/Enemies/RangedTargetEvaluator"
     }

@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "StoreModifierCylinder.fbx",
-        "MeshScale": 0.9,
+        "MeshScale": 0.89999998,
         "OverrideMaterial": [
             "StoreItemBlockedDecoBMat"
         ],
@@ -13,8 +13,8 @@
             "DestroyWithOwner": 0
         },
         "RandomMeshScale": [
-            0.135,
-            0.135
+            0.13500001,
+            0.13500001
         ],
         "MaterialFade": [
             {
@@ -40,7 +40,7 @@
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": -1,
                 "FadeRange": [
                     1,
@@ -100,7 +100,7 @@
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.8,
+                "TimeLength": 0.80000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,
@@ -113,16 +113,16 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.8
+                            "Time": 0.33333334,
+                            "Value": 0.80000001
                         },
                         {
-                            "Time": 0.666667,
+                            "Time": 0.66666669,
                             "Value": 0.5
                         },
                         {
                             "Time": 1,
-                            "Value": 0.35
+                            "Value": 0.34999999
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"

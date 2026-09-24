@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/BuildUpMesh.fbx",
-        "MeshScale": 0.4,
+        "MeshScale": 0.40000001,
         "OverrideMaterial": [
             "1999TankHitAuraDeco"
         ],
@@ -18,15 +18,15 @@
         ],
         "LifeSpan": 0.1,
         "RandomMeshScale": [
-            0.4,
-            0.7
+            0.40000001,
+            0.69999999
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.9,
-                "Multiplier": 0.4,
+                "TimeLength": 0.89999998,
+                "Multiplier": 0.40000001,
                 "FadeRange": [
                     0,
                     0
@@ -35,7 +35,7 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.998311
+                            "Value": 0.99831098
                         },
                         {
                             "Time": 0.5,
@@ -68,11 +68,11 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.59933
+                            "Value": 0.59933001
                         },
                         {
                             "Time": 0.25,
-                            "Value": 0.233276
+                            "Value": 0.23327599
                         },
                         {
                             "Time": 0.5,
@@ -80,7 +80,7 @@
                         },
                         {
                             "Time": 0.75,
-                            "Value": 0.850735
+                            "Value": 0.85073501
                         },
                         {
                             "Time": 1,
@@ -99,7 +99,7 @@
             {
                 "Parameter": "CustomTime",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -113,7 +113,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.8
+                            "Value": 0.80000001
                         },
                         {
                             "Time": 1,

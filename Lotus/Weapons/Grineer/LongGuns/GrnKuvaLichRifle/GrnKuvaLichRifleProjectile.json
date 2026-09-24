@@ -29,7 +29,7 @@
         "AttackData": {
             "Type": "DT_IMPACT",
             "Amount": 260,
-            "ProcChance": 0.27,
+            "ProcChance": 0.27000001,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ],
@@ -58,7 +58,7 @@
             "DT_CORROSIVE": 0,
             "DT_RADIANT": 0,
             "Amount": 106,
-            "ProcChance": 0.27,
+            "ProcChance": 0.27000001,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ]
@@ -71,12 +71,12 @@
             "PT_STAGGERED"
         ],
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplosionIgnoreCover": 0,
-        "ExplosionFallOff": 0.3,
-        "DamageRadius": 2.9,
+        "ExplosionFallOff": 0.30000001,
+        "DamageRadius": 2.9000001,
         "HitEffect": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitEffectLarge",
         "DieEffect": "/Lotus/Fx/Weapons/Grineer/GrnKuvaLichRifle/GrnKuvaLichRifleProjDeathFx",
         "DieEffectOffset": [
@@ -91,8 +91,8 @@
         "HorizontalImpulse": 350,
         "KinematicMinSpeed": 200,
         "KinematicMaxSpeed": 200,
-        "KinematicNoise": 0.03,
-        "KinematicNoiseRate": 0.03,
+        "KinematicNoise": 0.029999999,
+        "KinematicNoiseRate": 0.029999999,
         "KinematicGravity": 1,
         "ApplyColorCustomization": 1
     }

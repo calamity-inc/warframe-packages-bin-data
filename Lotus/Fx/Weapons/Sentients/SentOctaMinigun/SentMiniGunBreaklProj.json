@@ -1,0 +1,111 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "UseParentDissolve": 0,
+        "DeadParentInheritanceRule": "NONE",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Effects/EnergyColorEffects.lua",
+            "Function": "ApplyEnergyColor",
+            "_Param": "TintColor",
+            "_minScale": 1,
+            "_getParentFirst": 0,
+            "_isLightningParticle": 0,
+            "_swapMinMax": 0,
+            "_sleepFirst": 0,
+            "_applyToParentColor": 0,
+            "_applyToChildren": 0,
+            "_invertColor": 0,
+            "_isWeaponProjectile": 1,
+            "_isAttachedToWeapon": 1,
+            "_projectileParents": 0,
+            "_isHitEffect": 0,
+            "_isPrimaryWeapon": 1,
+            "_isMeleeWeapon": 0,
+            "_passCreatorThrough": 0,
+            "_isSentinelWeapon": 0,
+            "_isSecondaryWeapon": 0,
+            "_lensFlareAtten": 1,
+            "_applyLowHigh": 0,
+            "_useAltEnergyColor": 0,
+            "_useOperatorEyes": 0,
+            "_destroyIfIllusionAvatar": 0,
+            "_HueClamp": 0,
+            "_newSaturate": 0.5,
+            "_newBrightness": 1,
+            "_disableParticles": 0,
+            "_isArchwing": 0,
+            "_newEnergyColor": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "_applyToWeaponsToo": 0,
+            "_isBaroDangle": 0,
+            "_getRootObjectColor": 0,
+            "_useBossBar": 0
+        },
+        "Material": "SentMiniGunBreaklProjMat",
+        "UseAttachRoot": 0,
+        "CloneOnParentAnimStateSiblings": 0,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 1.8,
+                "Multiplier": 5,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.2,
+                            "Value": 1
+                        },
+                        {
+                            "Time": 0.90164399,
+                            "Value": 1
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 1,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "ExtrudeAtten",
+                "TimeLength": 2,
+                "Multiplier": -6,
+                "FadeRange": [
+                    0.2,
+                    0.2
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 0,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "ApplyColorCustomization": 1,
+        "ForceApplyColorCustomizationUntilDone": 1
+    }
+}

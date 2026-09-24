@@ -87,7 +87,7 @@
         "ExplosiveAttack": {
             "Type": "DT_GAS",
             "Amount": 5,
-            "ProcChance": 0.05
+            "ProcChance": 0.050000001
         },
         "DamageRadius": 2,
         "HitEffect": "LasrianChemNoxLauncherHitEffect",
@@ -159,7 +159,7 @@
         "OnProjectileStartScript": {
             "Script": "/Lotus/Scripts/WeaponAttachments/LasrianNoxWeapon.lua",
             "Function": "OnStart",
-            "_scaleDuration": 0.4,
+            "_scaleDuration": 0.40000001,
             "_meshScaleStart": 0.25,
             "_meshScaleMin": 0.56,
             "_meshScaleMax": 1.12,
@@ -172,11 +172,11 @@
         "OnProjectileStoppedScript": {
             "Script": "/Lotus/Scripts/WeaponAttachments/LasrianNoxWeapon.lua",
             "Function": "OnStop",
-            "_scaleDuration": 0.4,
+            "_scaleDuration": 0.40000001,
             "_meshScaleStart": 0.5,
             "_meshScaleMin": 2,
             "_meshScaleMax": 2.25,
-            "_slowAtten": 0.15,
+            "_slowAtten": 0.15000001,
             "_growthTriggerType": "/Lotus/Types/Enemies/Grineer/ChemStrike/NoxGooTrigger",
             "_projectileDamageRadius": 3,
             "_trailVFX": "",
@@ -185,7 +185,7 @@
         "OnProjectileDeathScript": {
             "Script": "/Lotus/Scripts/WeaponAttachments/LasrianNoxWeapon.lua",
             "Function": "OnDeath",
-            "_scaleDuration": 0.6,
+            "_scaleDuration": 0.60000002,
             "_meshScaleStart": 0.25,
             "_meshScaleMin": 1,
             "_meshScaleMax": 5,

@@ -7,7 +7,7 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalPosition": [
-                    -0.01,
+                    -0.0099999998,
                     0,
                     0
                 ],
@@ -18,14 +18,14 @@
         "HolsterBone1Name": "GAME_R1_LEG1",
         "HolsterBone1Position": [
             -0.125,
-            -0.03,
+            -0.029999999,
             0.17
         ],
         "HolsterBone1Rotation": [
             0,
-            -0.793353,
+            -0.79335302,
             0,
-            0.608761
+            0.60876101
         ],
         "GripType": "GUN_ONE_HAND",
         "PickUpText": "/Lotus/Language/Items/PistolPickup",
@@ -38,7 +38,7 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "Behaviors": [
@@ -56,7 +56,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -76,8 +76,8 @@
                                     1
                                 ],
                                 "fireRate": [
-                                    0.4,
-                                    0.6
+                                    0.40000001,
+                                    0.60000002
                                 ]
                             }
                         },
@@ -182,7 +182,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -198,9 +198,9 @@
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.5,
                         "DT_PUNCTURE": 0.1,
-                        "DT_SLASH": 0.4,
+                        "DT_SLASH": 0.39999998,
                         "Amount": 15,
-                        "ProcChance": 0.3,
+                        "ProcChance": 0.30000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -250,7 +250,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.15,
+                    "criticalHitChance": 0.15000001,
                     "criticalHitDamageMultiplier": 1.5,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -269,7 +269,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponSemiAutomaticStateBehavior",
                 "state:WeaponSemiAutomaticStateBehavior": {
-                    "reloadTime": 1.667,
+                    "reloadTime": 1.6670001,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -344,7 +344,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,

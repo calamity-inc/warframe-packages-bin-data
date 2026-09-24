@@ -8,8 +8,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.043619,
-                    0.999048
+                    0.043618999,
+                    0.99904799
                 ],
                 "BoneName": "GAME_R1_WEAPON1"
             },
@@ -20,20 +20,20 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.043619,
-                    0.999048
+                    0.043618999,
+                    0.99904799
                 ]
             }
         },
         "HolsterBone1Name": "GAME_R1_WEAPON",
         "HolsterBone1Position": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -51,31 +51,31 @@
         "AlternateFireDisabled": 1,
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
-            0.05,
-            0.06,
+            0.050000001,
+            0.059999999,
             0.5
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.08,
-            -0.04,
-            0.135
+            -0.079999998,
+            -0.039999999,
+            0.13500001
         ],
         "GripRotationOffset": [
             0,
-            0.704416,
-            -0.707107,
-            0.061629
+            0.70441598,
+            -0.70710677,
+            0.061629001
         ],
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -104,7 +104,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -446,7 +446,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -579,8 +579,8 @@
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 1,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.03,
-                    "RetractTime": 0.03,
+                    "MaxTraceDistanceTime": 0.029999999,
+                    "RetractTime": 0.029999999,
                     "AttachToWeapon": 1,
                     "UseWeaponAttachmentFirePos": 1,
                     "MultiBeam": 0,
@@ -671,11 +671,11 @@
                     "StasisCollapseTime": 2.5,
                     "RecoilOnFire": 0,
                     "RecoilRate": 30,
-                    "RecoilIntensityFireTime": 0.3,
+                    "RecoilIntensityFireTime": 0.30000001,
                     "RecoilCurve": "RC_LINEAR",
                     "RecoilStrength": [
                         0,
-                        0.3
+                        0.30000001
                     ],
                     "LockOnRecoilTime": 0,
                     "LockOnRecoilStrength": [
@@ -693,7 +693,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -1083,7 +1083,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_POISON",
                         "Amount": 51,
-                        "ProcChance": 0.39,
+                        "ProcChance": 0.38999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -1133,8 +1133,8 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.29,
-                    "criticalHitDamageMultiplier": 3.1,
+                    "criticalHitChance": 0.28999999,
+                    "criticalHitDamageMultiplier": 3.0999999,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -1153,9 +1153,9 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": "",
                     "NumChains": 5,
@@ -1177,7 +1177,7 @@
                     "fireRate": 480,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 0,
-                    "ModeSwitchTime": 0.6,
+                    "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "autoReloadEmptyTime": 0,

@@ -26,8 +26,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Tenno/Priest/PriestPimaryProjTrail",
@@ -111,26 +111,26 @@
         "AttackData": {
             "Type": "DT_CORROSIVE",
             "Amount": 70,
-            "ProcChance": 0.3
+            "ProcChance": 0.30000001
         },
         "CriticalChance": 0.02,
         "CriticalMultiplier": 1.5,
         "ExplosiveAttack": {
             "Type": "DT_CORROSIVE",
             "Amount": 55,
-            "ProcChance": 0.3
+            "ProcChance": 0.30000001
         },
         "ForcedSourceProcs": [
             "PT_IMMOLATION",
             "PT_STAGGERED"
         ],
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplosionIgnoreCover": 0,
         "ExplodeOnImpact": 1,
-        "ExplosionFallOff": 0.3,
+        "ExplosionFallOff": 0.30000001,
         "DamageRadius": 1.7,
         "DieEffect": "/Lotus/Fx/Weapons/Tenno/PriestSpear/PriestSpearProjHit",
         "DieEffectOffset": [

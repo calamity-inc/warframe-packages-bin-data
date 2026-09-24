@@ -11,18 +11,18 @@
             }
         ],
         "RandomMeshScale": [
-            0.6,
-            0.8
+            0.60000002,
+            0.80000001
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
                 "TimeLength": 0.75,
-                "Multiplier": 0.6,
+                "Multiplier": 0.60000002,
                 "FadeRange": [
-                    0.4,
-                    0.6
+                    0.40000001,
+                    0.60000002
                 ],
                 "FadeCurve": {
                     "Values": [],
@@ -38,7 +38,7 @@
             {
                 "Parameter": "CustomTime",
                 "Slot": -1,
-                "TimeLength": 0.7,
+                "TimeLength": 0.69999999,
                 "Multiplier": 1.4,
                 "FadeRange": [
                     1,
@@ -51,12 +51,12 @@
                             "Value": 0
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.207299
+                            "Time": 0.33333334,
+                            "Value": 0.20729899
                         },
                         {
-                            "Time": 0.666667,
-                            "Value": 0.754745
+                            "Time": 0.66666669,
+                            "Value": 0.75474501
                         },
                         {
                             "Time": 1,
@@ -75,7 +75,7 @@
             {
                 "Parameter": "BlueClipThreshold",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -95,7 +95,7 @@
             {
                 "Parameter": "BlueClipThreshold",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -119,7 +119,7 @@
                     "SplineType": "CUBIC_SPLINE"
                 },
                 "BaseValue": 0,
-                "Delay": 0.4,
+                "Delay": 0.40000001,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
                 "IsMeshScale": 0,

@@ -148,7 +148,7 @@
                     "MaterialOverrides": [
                         "/Lotus/Characters/Grineer/GrineerChemStrikeNox/ChemNoxUpperAvatarLeaderJadelight",
                         "",
-                        "/Lotus/Characters/Grineer/GrineerChemStrikeNox/ChemNoxUpperAvatarLeaderJadelight"
+                        "/Lotus/Characters/Grineer/GrineerChemStrikeNox/ChemNoxLowerAvatarLeaderJadelight"
                     ],
                     "ChildMaterialOverrides": [
                         {
@@ -163,6 +163,30 @@
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
                     "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Grineer/GrineerChemStrikeNox/ChemNoxUpperAvatarLeaderVolt",
+                        "",
+                        "/Lotus/Characters/Grineer/GrineerChemStrikeNox/ChemNoxLowerAvatarLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "",
+                                "",
+                                "/Lotus/Characters/Grineer/GrineerChemStrikeNox/ChemNoxUpperAvatarLeaderVolt"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
+                    "MeshScale": 1
                 },
                 "Probability": 1
             }

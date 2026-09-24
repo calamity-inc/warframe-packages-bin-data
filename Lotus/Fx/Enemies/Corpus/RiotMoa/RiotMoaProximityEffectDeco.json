@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/EE/Interface/Widgets/TestSphere.x",
-        "MeshScale": 0.05,
+        "MeshScale": 0.050000001,
         "OverrideMaterial": [
             "/Lotus/Fx/Enemies/Corpus/EnergyDiscDrone/DiscRisingMat"
         ],
@@ -46,7 +46,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.810964
+                            "Value": 0.81096399
                         },
                         {
                             "Time": 1,
@@ -55,7 +55,7 @@
                     ],
                     "SplineType": "CUBIC_SPLINE"
                 },
-                "BaseValue": 0.05,
+                "BaseValue": 0.050000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
@@ -67,7 +67,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 0.5,
                 "FadeRange": [
                     0,

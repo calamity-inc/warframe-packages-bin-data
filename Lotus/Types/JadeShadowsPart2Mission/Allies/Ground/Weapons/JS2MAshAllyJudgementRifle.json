@@ -32,7 +32,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 1,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -167,7 +167,7 @@
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 1,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.4,
+                    "MaxTraceDistanceTime": 0.40000001,
                     "RetractTime": 0.001,
                     "AttachToWeapon": 1,
                     "UseWeaponAttachmentFirePos": 0,
@@ -176,7 +176,7 @@
                     "BeamChildren": [
                         {
                             "LocalPosition": [
-                                0.038,
+                                0.037999999,
                                 0.055,
                                 0.1
                             ],
@@ -225,7 +225,7 @@
                     "AllowSelfDamage": 0,
                     "IgnoreInvisibleAvatars": 1,
                     "DestroyBeamOnFire": 0,
-                    "BeamTime": 0.06,
+                    "BeamTime": 0.059999999,
                     "ApplyRadialDamageOnMiss": 0,
                     "ApplyRadialDamageOnHit": 1,
                     "RadialDamage": {
@@ -263,7 +263,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -314,7 +314,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -339,7 +339,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_ELECTRICITY",
                         "Amount": 24,
-                        "ProcChance": 0.26,
+                        "ProcChance": 0.25999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -444,7 +444,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -495,7 +495,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -516,7 +516,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponAutomaticStateBehavior",
                 "state:WeaponAutomaticStateBehavior": {
-                    "reloadTime": 2.6,
+                    "reloadTime": 2.5999999,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -524,7 +524,7 @@
                     "fireRate": 400,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 1,
-                    "ModeSwitchTime": 2.6,
+                    "ModeSwitchTime": 2.5999999,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
                     "ForceReturnToPreviousBehavior": 0,
@@ -595,7 +595,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -741,7 +741,7 @@
                             "LocalPosition": [
                                 0,
                                 -0.02,
-                                0.6
+                                0.60000002
                             ],
                             "LocalRotation": [
                                 0,
@@ -793,7 +793,7 @@
                     "ApplyRadialDamageOnHit": 1,
                     "RadialDamage": {
                         "baseAmount": 800,
-                        "baseProcChance": 0.32,
+                        "baseProcChance": 0.31999999,
                         "DamagePercent": {
                             "DT_IMPACT": 0,
                             "DT_PUNCTURE": 0,
@@ -826,7 +826,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -877,7 +877,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -902,7 +902,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_ELECTRICITY",
                         "Amount": 600,
-                        "ProcChance": 0.32,
+                        "ProcChance": 0.31999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -974,7 +974,7 @@
                     "MultiShotBuffsRadialDamage": 0,
                     "RadialDamage": {
                         "baseAmount": 800,
-                        "baseProcChance": 0.32,
+                        "baseProcChance": 0.31999999,
                         "DamagePercent": {
                             "DT_IMPACT": 0,
                             "DT_PUNCTURE": 0,
@@ -1063,7 +1063,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -1086,7 +1086,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponChargeBeamStateBehavior",
                 "state:WeaponChargeBeamStateBehavior": {
-                    "reloadTime": 2.6,
+                    "reloadTime": 2.5999999,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -1094,7 +1094,7 @@
                     "fireRate": 60,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 1,
-                    "ModeSwitchTime": 2.6,
+                    "ModeSwitchTime": 2.5999999,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "ForceReturnToPreviousBehavior": 0,

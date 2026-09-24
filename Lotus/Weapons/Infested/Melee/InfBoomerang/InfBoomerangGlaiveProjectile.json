@@ -50,7 +50,7 @@
             "DT_CORROSIVE": 0,
             "DT_RADIANT": 0,
             "Amount": 288,
-            "ProcChance": 0.33
+            "ProcChance": 0.33000001
         },
         "DealDamageThroughImpactBehavior": 1,
         "CriticalChance": 0.17,
@@ -58,7 +58,7 @@
         "ExplosiveAttack": {
             "Type": "DT_VIRAL",
             "Amount": 393,
-            "ProcChance": 0.33
+            "ProcChance": 0.33000001
         },
         "ForcedSourceProcs": [
             "PT_IMMOLATION",
@@ -68,16 +68,16 @@
         "ExplodeOnFriendlies": 0,
         "ExplosionFallOff": 0.5,
         "ExplodeEffect": "/Lotus/Fx/Weapons/Melee/WeaponTrails/Glaives/Infested/InfestedGlaiveProjectileRecallSparks",
-        "DamageRadius": 4.9,
+        "DamageRadius": 4.9000001,
         "Toughness": 10000,
         "MaxLife": 11,
         "RaycastMovement": 0,
-        "VerticalImpulse": 0.05,
+        "VerticalImpulse": 0.050000001,
         "HorizontalImpulse": 0.2,
         "KinematicAccel": 100,
         "KinematicInitialSpeed": 30,
         "KinematicMaxSpeed": 30,
-        "KinematicNoiseRate": 0.0001,
+        "KinematicNoiseRate": 0.000099999997,
         "OnProjectileStartScript": {
             "Script": "/Lotus/Scripts/WeaponAttachments/InfBoomerang.lua",
             "Function": "SpawnSporePeriodically",
@@ -106,12 +106,12 @@
         ],
         "ImpactVelocityDampen": 1,
         "AutoRecallTimer": 0.75,
-        "DestructionTimer": 0.6,
+        "DestructionTimer": 0.60000002,
         "CatchRadius": 5,
         "MaxReflections": 4,
         "MinFlightDistance": 29.5,
         "MinFlightDistancePerReflect": 29.5,
-        "MinFlightDistancePerExplosion": 0.05,
+        "MinFlightDistancePerExplosion": 0.050000001,
         "AfterTouchFOVSpeed": 1.8,
         "CollisionEffect": "/Lotus/Fx/Weapons/Melee/Clean/HitEffects/MeleeHitEffectDagger",
         "InFlightEffect": {

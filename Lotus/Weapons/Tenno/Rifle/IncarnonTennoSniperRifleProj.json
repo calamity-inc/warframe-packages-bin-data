@@ -57,16 +57,16 @@
         "AttackData": {
             "Type": "DT_FREEZE",
             "Amount": 5,
-            "ProcChance": 0.3
+            "ProcChance": 0.30000001
         },
         "DealDamageThroughImpactBehavior": 1,
         "NotifyImpactBehavior": 1,
-        "CriticalChance": 0.3,
+        "CriticalChance": 0.30000001,
         "CriticalMultiplier": 2.5,
         "ExplosiveAttack": {
             "Type": "DT_FREEZE",
             "Amount": 5,
-            "ProcChance": 0.3,
+            "ProcChance": 0.30000001,
             "ForcedProcs": [
                 "PT_CHILLED"
             ],
@@ -74,9 +74,9 @@
         },
         "ExplosionIgnoreSource": 1,
         "ExplosionDirectHitDamageHitType": "DHT_RADIAL",
-        "ExplosionFallOff": 0.7,
+        "ExplosionFallOff": 0.69999999,
         "ExplodeEffect": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/IncarnonSniperOrbExplosion",
-        "DamageRadius": 6.7,
+        "DamageRadius": 6.6999998,
         "DamageMultAppliesToExplosiveRadius": 1,
         "HitEffect": "/Lotus/Sounds/Weapons/TennoSniperRifle/Incarnon/IncarnonSniperProjHitEffect",
         "DieEffectOffset": [
@@ -90,13 +90,13 @@
         "EmbedAttack": {
             "Type": "DT_FREEZE",
             "Amount": 5,
-            "ProcChance": 0.3,
+            "ProcChance": 0.30000001,
             "ForcedProcs": [
                 "PT_CHILLED"
             ]
         },
-        "EmbedDamageRadius": 0.15,
-        "EmbedFallOff": 0.7,
+        "EmbedDamageRadius": 0.15000001,
+        "EmbedFallOff": 0.69999999,
         "EmbedTime": [
             2.5,
             2.5
@@ -111,7 +111,7 @@
         "OnProjectileStoppedScript": {
             "Script": "VectisIncarnon.lua",
             "Function": "IncarnonProjectileStopped",
-            "_growthDuration": 0.4,
+            "_growthDuration": 0.40000001,
             "_maxScaleMult": 10,
             "_explosionForeshadowDeco": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/VectisEmbedFX",
             "_explosionForeshadowDecoScale": 3.5

@@ -206,7 +206,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "LookAtTarget": 0,
@@ -218,7 +218,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8
@@ -449,7 +449,7 @@
             "MinStrafeDistance": 0,
             "StopRadius": 0.5,
             "MovementSpeedModifier": [
-                0.8,
+                0.80000001,
                 1.2
             ],
             "LookAtTarget": 1,
@@ -461,7 +461,7 @@
                 0
             ],
             "MinAngleToTurn": 40,
-            "MinAimMask": 0.9,
+            "MinAimMask": 0.89999998,
             "TargetNotVisibleTimeoutRange": [
                 6,
                 8
@@ -645,7 +645,7 @@
             "CheckArc": 1,
             "DoTurn": 1,
             "StopMoving": 1,
-            "Gravity": -9.8,
+            "Gravity": -9.8000002,
             "FromCoverMinTargetThreat": -5,
             "FromOpenMinTargetThreat": 0
         },
@@ -986,13 +986,13 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/Grineer/GrineerPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "BaseHitChance": [
-            0.65,
+            0.64999998,
             1
         ],
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",

@@ -1,0 +1,41 @@
+{
+    "parent": "/Lotus/Types/Game/DojoPlaceableDecorations/VendorPlaceableDecoration",
+    "data": {
+        "Mesh": "/Lotus/Objects/DomestikDrone/TennoDomestikDrone.fbx",
+        "MeshScale": 0.60000002,
+        "OverrideMaterial": [
+            "/Lotus/Objects/DomestikDrone/TennoDomestikDroneDaybreak"
+        ],
+        "Tag": "HiddenShipDeco",
+        "ScriptInstance": {
+            "Script": "/Lotus/Types/Friendly/Pets/LisetPropCleaningDroneSpawner.lua",
+            "Function": "SpawnCleanerDrone",
+            "_agentType": "/Lotus/Types/Friendly/Pets/LisetPropCleaningDroneAgentDaybreak",
+            "_projAttachmentType": "/Lotus/Fx/Levels/Hub/CleaningDroneProj",
+            "_showProjAttachInDiorama": 0
+        },
+        "LocTag": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneDaybreakName",
+        "LongDesc": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneDaybreakDesc",
+        "InitAmbientAnimationAtStart": 1,
+        "DisablePhysicsWhenInvisible": 0,
+        "MaterialOverridePolicy": "MOP_IGNORE",
+        "NonDojoPlaceableDecorationChildRenderPolicy": "MOP_APPLY_MAT_OVERRIDE",
+        "KinematicPhysics": "/EE/Types/Physics/KinematicAvatarsWalkThroughIgnoreCamera",
+        "OverridePreviewCamera": 1,
+        "PreviewCameraPositionOffset": [
+            0,
+            0,
+            -1.5
+        ],
+        "PreviewCameraTargetOffset": [
+            0.5,
+            0.60000002,
+            0
+        ],
+        "PreviewRotationOverride": [
+            25.000036,
+            -4.9999537,
+            0.000013279151
+        ]
+    }
+}

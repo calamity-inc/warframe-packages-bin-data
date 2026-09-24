@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Characters/Tenno/Excalibur/ExcaliburFemaleBody_skel.fbx",
-        "MeshScale": 0.3,
+        "MeshScale": 0.30000001,
         "OverrideMaterial": [
             "HologramCloneMat",
             "HologramCloneMat"
@@ -28,7 +28,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 3,
                 "FadeRange": [
                     0.1,
@@ -49,14 +49,14 @@
         "TriggeredFadeChild": {
             "LocalPosition": [
                 0,
-                0.7,
+                0.69999999,
                 0
             ],
             "LocalRotation": [
-                -0.707107,
+                -0.70710677,
                 0,
                 0,
-                0.707107
+                0.70710677
             ],
             "DestroyWithOwner": 0
         }

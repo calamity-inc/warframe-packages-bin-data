@@ -1,7 +1,8 @@
 {
     "parent": "/Lotus/Types/Game/Transmission",
     "data": {
-        "Fullscreen": 1,
+        "PortraitLevel": "/Lotus/Levels/Lore/CorpusLich.level",
+        "UseRightSide": 1,
         "RandomSounds": [
             "/Lotus/Sounds/Dialog/CorpusLich/PersonaB/DLichAssTaunt2840CrpLichB_en.wav",
             "/Lotus/Sounds/Dialog/CorpusLich/PersonaB/DLichQuirkBloodhound3350CrpLichB_en.wav",
@@ -12,6 +13,7 @@
             "/Lotus/Language/Subtitles/CorpusLich/DLichQuirkBloodhound3350CrpLichB",
             "/Lotus/Language/Subtitles/CorpusLich/DLichStalkIntro2670CrpLichB"
         ],
-        "Severity": "TS_ALERT"
+        "Severity": "TS_ALERT",
+        "MaxRepeats": 0
     }
 }

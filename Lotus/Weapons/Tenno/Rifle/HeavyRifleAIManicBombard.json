@@ -12,9 +12,9 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.000761,
+                    -0.00076099997,
                     0.017436,
-                    -0.043613,
+                    -0.043613002,
                     0.998896
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -23,9 +23,9 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            -0.005,
-            0.09,
-            0.01
+            -0.0049999999,
+            0.090000004,
+            0.0099999998
         ],
         "HolsterBone1Rotation": [
             0.690346,
@@ -44,19 +44,19 @@
         "WeaponHandAimOffset": [
             0,
             0,
-            0.4
+            0.40000001
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.05,
+            -0.050000001,
             -0.035,
             0.16
         ],
         "GripRotationOffset": [
             0,
-            0.706676,
-            -0.707107,
-            0.024678
+            0.70667601,
+            -0.70710677,
+            0.024677999
         ],
         "Behaviors": [
             {
@@ -73,7 +73,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -89,7 +89,7 @@
                                 ],
                                 "burstPauseTime": [
                                     0.2,
-                                    0.3
+                                    0.30000001
                                 ],
                                 "fireRate": [
                                     0,
@@ -148,7 +148,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/HeavyRifleHipRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/HeavyRifleAimRecoilInfo",
                     "spreadUniform": 0,
-                    "SpreadRatioHorizontal": 0.65,
+                    "SpreadRatioHorizontal": 0.64999998,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -212,10 +212,10 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.75,
-                        "DT_PUNCTURE": 0.15,
-                        "DT_SLASH": 0.1,
+                        "DT_PUNCTURE": 0.15000001,
+                        "DT_SLASH": 0.10000002,
                         "Amount": 8,
-                        "ProcChance": 0.05,
+                        "ProcChance": 0.050000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -284,7 +284,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponAutomaticStateBehavior",
                 "state:WeaponAutomaticStateBehavior": {
-                    "reloadTime": 4.2,
+                    "reloadTime": 4.1999998,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -361,7 +361,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,

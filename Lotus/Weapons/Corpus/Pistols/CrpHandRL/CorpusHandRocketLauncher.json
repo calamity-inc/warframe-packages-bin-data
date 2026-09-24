@@ -18,14 +18,14 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.01,
-                    0.01
+                    -0.0099999998,
+                    0.0099999998
                 ],
                 "LocalRotation": [
                     0,
                     0,
                     -0.017452,
-                    0.999848
+                    0.99984801
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "CorpusHandRocketLauncherAttachment"
@@ -33,14 +33,14 @@
             "EXTRA1": {
                 "LocalPosition": [
                     0,
-                    -0.01,
-                    0.01
+                    -0.0099999998,
+                    0.0099999998
                 ],
                 "LocalRotation": [
                     0,
                     0,
                     -0.017452,
-                    0.999848
+                    0.99984801
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "IncarnonCorpusHandRocketLauncherAttachment"
@@ -49,14 +49,14 @@
         "HolsterBone1Name": "GAME_R1_LEG1",
         "HolsterBone1Position": [
             -0.125,
-            -0.03,
+            -0.029999999,
             0.17
         ],
         "HolsterBone1Rotation": [
             0,
-            -0.793353,
+            -0.79335302,
             0,
-            0.608761
+            0.60876101
         ],
         "GripType": "GUN_ONE_HAND",
         "PickUpText": "/Lotus/Language/Items/PistolPickup",
@@ -91,7 +91,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -178,8 +178,8 @@
                         "UseWeaponAttachment": 0,
                         "OverrideLaunchBone": 0,
                         "LocalPos": [
-                            -0.01,
-                            0.095,
+                            -0.0099999998,
+                            0.094999999,
                             0
                         ],
                         "LocalRot": [
@@ -205,8 +205,8 @@
                     "AimIgnoresChargedProjectile": 0,
                     "chargedProjectileType": "",
                     "projectileLaunchOffset": [
-                        -0.01,
-                        0.095,
+                        -0.0099999998,
+                        0.094999999,
                         0
                     ],
                     "SequentialProjectileLaunchDirectionOffsets": [],
@@ -319,9 +319,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 12,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -341,7 +341,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.3,
+                    "PvpDamageMultiplier": 0.30000001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -490,7 +490,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -502,8 +502,8 @@
                             "firingPreferences": {
                                 "firingType": "FT_NORMAL",
                                 "burstTime": [
-                                    0.3,
-                                    0.7
+                                    0.30000001,
+                                    0.69999999
                                 ],
                                 "burstPauseTime": [
                                     0,
@@ -763,7 +763,7 @@
                     "fireRate": 360,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 0,
-                    "ModeSwitchTime": 0.6,
+                    "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "autoReloadEmptyTime": 0,
@@ -965,8 +965,8 @@
         "OFF_HAND": {
             "LocalPosition": [
                 0,
-                -0.01,
-                -0.01
+                -0.0099999998,
+                -0.0099999998
             ],
             "BoneName": "GAME_L1_WEAPON1",
             "Type": "CorpusHandRocketLauncherDSAttachment"
@@ -974,14 +974,14 @@
         "EXTRA2": {
             "LocalPosition": [
                 0,
-                -0.01,
-                -0.01
+                -0.0099999998,
+                -0.0099999998
             ],
             "LocalRotation": [
                 0,
                 0,
                 -0.017452,
-                0.999848
+                0.99984801
             ],
             "BoneName": "GAME_L1_WEAPON1",
             "Type": "IncarnonCorpusHandRocketLauncherAttachment"

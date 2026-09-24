@@ -23,8 +23,8 @@
         "HolsterBone1Name": "GAME_R1_HOLSTERATTACH",
         "HolsterBone1Position": [
             0.02,
-            -0.05,
-            -0.03
+            -0.050000001,
+            -0.029999999
         ],
         "MarketMode": "MM_HIDDEN",
         "PremiumPrice": 235,
@@ -36,11 +36,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -69,7 +69,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -193,7 +193,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -202,7 +202,7 @@
                     "RiftStasisWeight": 1,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
                     "RecoilStrength": [
-                        0.3,
+                        0.30000001,
                         1
                     ],
                     "RecoilCurve": "ET_LINEAR"
@@ -213,10 +213,10 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
-                        "DT_PUNCTURE": 0.4,
+                        "DT_PUNCTURE": 0.40000001,
                         "DT_SLASH": 0.5,
                         "Amount": 20,
-                        "ProcChance": 0.18,
+                        "ProcChance": 0.18000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -234,7 +234,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.65,
+                    "PvpDamageMultiplier": 0.64999998,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 350,
                     "additionalForce": [
@@ -266,7 +266,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.24,
+                    "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 3,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,

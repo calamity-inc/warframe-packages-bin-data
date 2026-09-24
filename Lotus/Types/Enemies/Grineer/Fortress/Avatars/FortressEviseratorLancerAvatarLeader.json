@@ -168,6 +168,36 @@
                     "MeshScale": 1.1
                 },
                 "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Grineer/Marine/GrineerBodyLeaderVolt",
+                        "/Lotus/Characters/Grineer/Marine/GrineerBodyLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/Marine/GrineerHoodLeaderVolt"
+                            ]
+                        },
+                        {
+                            "materials": []
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/Helmets/Goggles/GrineerGogglesLeaderVolt"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
             }
         ]
     }

@@ -1,0 +1,138 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "BaruukMaceCloth_skel.fbx",
+        "AttachBone": "GAME_C1_SWORD",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    -0.050000001,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "BaruukmaceClothMeshClothBoneB10",
+                "Type": "/Lotus/Fx/Weapons/Tenno/SundialSB/BaruukDeluxeIICobraCrane/BaruukDeluxeIIMaceHead",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.07,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "BaruukmaceClothMeshClothBoneB10",
+                "Type": "/Lotus/Fx/Weapons/Tenno/SundialSB/BaruukDeluxeIICobraCrane/BaruukDeluxeIICobraCraneMaceHeadEmissiveDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.1,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0.46193999,
+                    0.191342,
+                    0.191342,
+                    0.84462303
+                ],
+                "BoneName": "BaruukmaceClothMeshClothBoneB10",
+                "Type": "/Lotus/Fx/Weapons/Tenno/SundialSB/BaruukDeluxeIICobraCrane/BaruukDeluxeIIMaceGlowDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "BaruukmaceClothMeshClothBoneB10",
+                "Type": "/Lotus/Fx/Weapons/Tenno/SundialSB/BaruukDeluxeIICobraCrane/BaruukDeluxeIIMaceEmber",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "ReplicaRunScriptInstance": 1,
+        "DebugVis": "CV_JOINTS",
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "BaruukMaceSkeletalClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.15000001,
+                0.15000001
+            ],
+            "massRange": [
+                1,
+                1
+            ],
+            "distConstraintRange": [
+                0,
+                1
+            ],
+            "useHardConstraints": 1,
+            "shearingStiffness": 1,
+            "compressibility": 0.001,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeOffsetRate": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "dividingPlane": [
+                0,
+                0,
+                -1,
+                0
+            ],
+            "orientationBasis": "NEG_X_Y",
+            "simulateCollisionLast": 0
+        }
+    }
+}

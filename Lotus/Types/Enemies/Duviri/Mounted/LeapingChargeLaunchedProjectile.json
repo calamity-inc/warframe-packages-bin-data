@@ -176,8 +176,8 @@
         "ReplicationOverride": "RO_NEVER",
         "ReplicateCreator": 1,
         "AttackData": {
-            "DT_IMPACT": 0.8,
-            "DT_PUNCTURE": 0.2,
+            "DT_IMPACT": 0.80000001,
+            "DT_PUNCTURE": 0.19999999,
             "DT_SLASH": 0,
             "Amount": 0,
             "ProcChance": 0
@@ -270,13 +270,13 @@
         "EmbedEffect": "/Lotus/Fx/Enemies/Duviri/RangedDaxDisengageProjBuildup",
         "EmbedDeathEffect": "/Lotus/Fx/Enemies/Duviri/RangedDaxNormalDisengageExplode",
         "KinematicMovement": 1,
-        "KinematicPostCollisionsSpeedFactor": 0.15,
+        "KinematicPostCollisionsSpeedFactor": 0.15000001,
         "KinematicInitialSpeed": 13,
         "KinematicMaxSpeed": 30,
         "KinematicNoise": 0.25,
         "KinematicNoiseRate": 1,
         "KinematicGravity": 1,
-        "KinematicGravityMultiplier": 0.6,
+        "KinematicGravityMultiplier": 0.60000002,
         "KinematicRestitution": 0,
         "KinematicRestitutionParallel": 0,
         "KinematicBulletRaycast": 0,
@@ -285,10 +285,10 @@
         "InstantTurn": 1,
         "FaceVelocity": 1,
         "BaseRotation": [
-            -0.707107,
+            -0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "IgnoreInstigatorUntilBounced": 1
     }

@@ -11,8 +11,8 @@
         "FRESNEL_GRADIENT_MAPPING": 1,
         "USE_FLOW_MAP": 1,
         "VS:PanSecond": [
-            -0.05,
-            -0.15,
+            -0.050000001,
+            -0.15000001,
             0
         ],
         "VS:uvScales": [
@@ -22,14 +22,14 @@
             2
         ],
         "PS:PanScaleThird": [
-            0.01,
+            0.0099999998,
             -0.1,
             8,
             4
         ],
         "PS:FadeParams": [
             0.1,
-            0.3
+            0.30000001
         ],
         "PS:Hardness": 8,
         "PS:FresnelPower": 2,
@@ -44,11 +44,11 @@
         ],
         "PS:FlowUvScaleX": 8,
         "PS:FlowUvScaleY": 8,
-        "PS:FlowAmount": 0.008,
+        "PS:FlowAmount": 0.0080000004,
         "PS:FlowSpeed": 1,
         "PS:FlowUvPan": [
             0,
-            -0.3
+            -0.30000001
         ],
         "TX:DiffuseMap": "VorunaDeluxeEphemeraFX_e.png",
         "TX:SecondaryMap": "/Lotus/Fx/Common/SmoothBillowF_d.png",
@@ -57,8 +57,8 @@
         "TX:FlowMap": "/Lotus/Fx/Common/FlowMapD_d.png",
         "TX:NoiseMap": "/Lotus/Fx/Common/WrapTextureA_d.png",
         "PS:TintColor": [
-            0.029,
-            0.21,
+            0.028999999,
+            0.20999999,
             1,
             1
         ],
@@ -74,7 +74,7 @@
         ],
         "PS:HighColor": [
             0.022,
-            0.39,
+            0.38999999,
             1,
             1
         ],
@@ -86,7 +86,7 @@
         ],
         "PS:TintSmoothRange": [
             0.2,
-            0.8
+            0.80000001
         ]
     }
 }

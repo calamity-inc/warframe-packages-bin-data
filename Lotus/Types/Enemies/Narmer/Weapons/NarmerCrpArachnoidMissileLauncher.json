@@ -5,7 +5,7 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.05,
+                    -0.050000001,
                     0
                 ],
                 "Type": "/Lotus/Types/Enemies/Corpus/Narmer/Weapons/NarmerCrpArachnoidMissileLauncherAttachment"
@@ -26,7 +26,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -99,7 +99,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "spreadUniform": 1,
-                    "SpreadRatioHorizontal": 0.8,
+                    "SpreadRatioHorizontal": 0.80000001,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -213,9 +213,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 3,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -324,7 +324,7 @@
                     "AmmoOverheatSoundResetThreshold": 0.75,
                     "ReplicateAmmoConsumption": 0,
                     "NumShots": 4,
-                    "BurstDelay": 0.15,
+                    "BurstDelay": 0.15000001,
                     "IgnoreFireRate": 0,
                     "EatAmmoOnUnequip": 1,
                     "QueueBursts": 0,
@@ -348,7 +348,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,

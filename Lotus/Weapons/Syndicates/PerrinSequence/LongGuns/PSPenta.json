@@ -27,7 +27,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -38,8 +38,8 @@
                             "firingPreferences": {
                                 "firingType": "FT_MANUAL_DETONATE",
                                 "CheckTime": [
-                                    0.3,
-                                    0.7
+                                    0.30000001,
+                                    0.69999999
                                 ],
                                 "MaxTime": [
                                     0,
@@ -196,7 +196,7 @@
                     "SpreadRotationOffset": 0,
                     "DrawGrenadeArc": 0,
                     "FudgeAngle": 0,
-                    "RaysPerMeter": 0.3,
+                    "RaysPerMeter": 0.30000001,
                     "MaxRays": 0,
                     "DrawCondition": "DC_AIMING",
                     "SplineDrawType": "",
@@ -240,7 +240,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.82,
+                    "PvpDamageMultiplier": 0.81999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -354,7 +354,7 @@
                     "ReplicateDetonate": 0,
                     "RecallProjectiles": 0,
                     "PostExplosionZoomDelay": 0.5,
-                    "DestroyDelay": 0.05,
+                    "DestroyDelay": 0.050000001,
                     "RecallBones": []
                 }
             }

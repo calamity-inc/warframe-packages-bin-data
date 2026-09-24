@@ -1,0 +1,337 @@
+{
+    "parent": "VenusRifleSpacemanAvatar",
+    "data": {
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_SPINE3",
+                "Type": "/Lotus/Characters/Guild/Spaceman/Venus/TheEngineerHelmetLeaderDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_SPINE1",
+                "Type": "/Lotus/Characters/Guild/Spaceman/Venus/Cloth/EngineerHipRingsClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_L1_TWIST2",
+                "Type": "/Lotus/Characters/Guild/Spaceman/Venus/Cloth/EngineerLArmRingClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_R1_TWIST2",
+                "Type": "/Lotus/Characters/Guild/Spaceman/Venus/Cloth/EngineerRArmRingClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_L1_LEG2",
+                "Type": "/Lotus/Characters/Guild/Spaceman/Venus/Cloth/EngineerLLegRingClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_R1_LEG2",
+                "Type": "/Lotus/Characters/Guild/Spaceman/Venus/Cloth/EngineerRLegRingClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_R1_FTUBEATTCH1",
+                "Type": "/Lotus/Characters/Guild/Spaceman/Venus/Cloth/EngineerTubeClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0.15000001,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "GAME_C1_SPINE3",
+                "Type": "/Lotus/Types/Enemies/Corpus/Venus/ReinforcementBeacon/CrpBeaconBackpack",
+                "Chance": 178,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "DropTable": "/Lotus/Types/DropTables/VenusDropTables/Enemies/VenusCrewmenLeaderDropTable",
+        "DamageControllerType": "/Lotus/Types/Enemies/Corpus/Spaceman/Venus/VenusRifleSpacemanLeaderDamageController",
+        "KillXPReward": 500,
+        "PartialFrozenWarmUpRate": 0.25,
+        "AvatarEnhancements": [
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ArcticEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Guild/Spaceman/Venus/EngineerHelmetLeaderArctic",
+                        "",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusHelmetLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusEngineerVenusHoodLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusSpacemanVenusLeaderArctic"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/BlitzEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Guild/Spaceman/Venus/EngineerHelmetLeaderBlitz",
+                        "",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusHelmetLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusEngineerVenusHoodLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusSpacemanVenusLeaderBlitz"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/BlitzLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/BlitzLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/EnergyLeechEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Guild/Spaceman/Venus/EngineerHelmetLeaderEnergyLeech",
+                        "",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusHelmetLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusEngineerVenusHoodLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusSpacemanVenusLeaderEnergyLeech"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/EnergyLeechLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/EnergyLeechLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/LeechEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Guild/Spaceman/Venus/EngineerHelmetLeaderLeech",
+                        "",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusHelmetLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusEngineerVenusHoodLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusSpacemanVenusLeaderLeech"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/LeechLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/LeechLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ShockEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Guild/Spaceman/Venus/EngineerHelmetLeaderShock",
+                        "",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusHelmetLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusEngineerVenusHoodLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusSpacemanVenusLeaderShock"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/ShockLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ShockLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/GuardianEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Guild/Spaceman/Venus/EngineerHelmetLeaderGuardian",
+                        "",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusHelmetLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusEngineerVenusHoodLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusSpacemanVenusLeaderGuardian"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/GuardianLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/GuardianLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/JadeLightEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Guild/Spaceman/Venus/EngineerHelmetLeaderJadelight",
+                        "",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusHelmetLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusEngineerVenusHoodLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusSpacemanVenusLeaderJadelight"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "",
+                    "ShortDescOverride": "",
+                    "MeshScale": 1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Guild/Spaceman/Venus/EngineerHelmetLeaderVolt",
+                        "",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusHelmetLeaderVolt",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusEngineerVenusHoodLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusSpacemanVenusLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            }
+        ]
+    }
+}

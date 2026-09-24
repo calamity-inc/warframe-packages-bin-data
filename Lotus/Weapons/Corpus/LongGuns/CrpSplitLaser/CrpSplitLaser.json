@@ -8,8 +8,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    -0.043619,
-                    0.999048
+                    -0.043618999,
+                    0.99904799
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "CrpSplitLaserAttachment"
@@ -17,13 +17,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
-            0.05,
+            0.050000001,
+            0.050000001,
             0.1
         ],
         "HolsterBone1Rotation": [
-            -0.707107,
-            -0.707107,
+            -0.70710677,
+            -0.70710677,
             0,
             0
         ],
@@ -44,23 +44,23 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "GripPositionOffset": [
-            -0.074,
-            -0.089,
-            0.15
+            -0.074000001,
+            -0.089000002,
+            0.15000001
         ],
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -89,7 +89,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -166,7 +166,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "spreadUniform": 1,
-                    "SpreadRatioHorizontal": 0.7,
+                    "SpreadRatioHorizontal": 0.69999999,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -188,7 +188,7 @@
                     "PvpTraceDistance": 30,
                     "punctureHitEffect": "",
                     "InfinitePunctureDepth": 0,
-                    "tracePunctureDepth": 0.6,
+                    "tracePunctureDepth": 0.60000002,
                     "PunchthroughIgnoresAvatars": 0,
                     "RicochetChance": 0,
                     "RicochetRange": 15,
@@ -224,7 +224,7 @@
                     "RiftStasisWeight": 42,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
                     "MaxTraceDistanceTime": 0.25,
-                    "RetractTime": 0.01,
+                    "RetractTime": 0.0099999998,
                     "AttachToWeapon": 1,
                     "UseWeaponAttachmentFirePos": 0,
                     "MultiBeam": 1,
@@ -360,10 +360,10 @@
                     "ReverseSpread": 0,
                     "UseSmoothedAccuracy": 0,
                     "AttenuateSpreadForCharge": 1,
-                    "AttenuationAtMaxCharge": 0.0025,
+                    "AttenuationAtMaxCharge": 0.0024999999,
                     "ExpansionTime": 0.75,
-                    "CollapseTime": 0.01,
-                    "InnerRingMultiplier": 0.9,
+                    "CollapseTime": 0.0099999998,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 0,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 1,
@@ -754,9 +754,9 @@
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
                         "DT_PUNCTURE": 0.1,
-                        "DT_SLASH": 0.8,
+                        "DT_SLASH": 0.80000001,
                         "Amount": 12,
-                        "ProcChance": 0.9,
+                        "ProcChance": 0.89999998,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -807,7 +807,7 @@
                     "AltEffectHands": [],
                     "ragdollChance": 0,
                     "criticalHitChance": 0.16,
-                    "criticalHitDamageMultiplier": 2.4,
+                    "criticalHitDamageMultiplier": 2.4000001,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0.5,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -823,12 +823,12 @@
                     "IgnoreHeadshotBonusPvp": 0,
                     "AlwaysOverrideFiringAvatar": 0,
                     "ContinuousDamageAttenuation": [
-                        0.6,
+                        0.60000002,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": ""
                 },
@@ -903,7 +903,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -980,7 +980,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "spreadUniform": 1,
-                    "SpreadRatioHorizontal": 0.6,
+                    "SpreadRatioHorizontal": 0.60000002,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -1002,7 +1002,7 @@
                     "PvpTraceDistance": 30,
                     "punctureHitEffect": "",
                     "InfinitePunctureDepth": 0,
-                    "tracePunctureDepth": 0.6,
+                    "tracePunctureDepth": 0.60000002,
                     "PunchthroughIgnoresAvatars": 0,
                     "RicochetChance": 0,
                     "RicochetRange": 15,
@@ -1174,10 +1174,10 @@
                     "ReverseSpread": 1,
                     "UseSmoothedAccuracy": 0,
                     "AttenuateSpreadForCharge": 1,
-                    "AttenuationAtMaxCharge": 0.0025,
+                    "AttenuationAtMaxCharge": 0.0024999999,
                     "ExpansionTime": 1.5,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 1,
@@ -1568,9 +1568,9 @@
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
                         "DT_PUNCTURE": 0.1,
-                        "DT_SLASH": 0.8,
+                        "DT_SLASH": 0.80000001,
                         "Amount": 9,
-                        "ProcChance": 0.9,
+                        "ProcChance": 0.89999998,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -1621,7 +1621,7 @@
                     "AltEffectHands": [],
                     "ragdollChance": 0,
                     "criticalHitChance": 0.16,
-                    "criticalHitDamageMultiplier": 2.4,
+                    "criticalHitDamageMultiplier": 2.4000001,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0.5,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -1637,12 +1637,12 @@
                     "IgnoreHeadshotBonusPvp": 0,
                     "AlwaysOverrideFiringAvatar": 0,
                     "ContinuousDamageAttenuation": [
-                        0.8,
+                        0.80000001,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": ""
                 },

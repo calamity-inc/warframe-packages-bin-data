@@ -47,12 +47,12 @@
                 "gainAdjust": -2
             }
         ],
-        "StartDelayTime": 0.15,
+        "StartDelayTime": 0.15000001,
         "AttackTime": 0.25,
         "DecayTime": 0.2,
         "ReleaseCurve": {
             "Type": "FC_EXP_SIGMOID",
-            "K": 0.3
+            "K": 0.30000001
         }
     }
 }

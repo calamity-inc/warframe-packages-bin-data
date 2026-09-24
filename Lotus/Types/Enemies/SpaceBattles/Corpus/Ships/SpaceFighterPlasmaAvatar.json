@@ -13,8 +13,8 @@
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.32,
-                    0.73,
+                    0.31999999,
+                    0.73000002,
                     1,
                     1
                 ]
@@ -26,14 +26,14 @@
             {
                 "LocalPosition": [
                     -0.1,
-                    -0.55,
+                    -0.55000001,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
                     -0.173648,
-                    0.984808
+                    0.98480803
                 ],
                 "BoneName": "ATT_L1_EXHAUSTFX",
                 "Type": "/Lotus/Fx/Enemies/Corpus/RailJack/CrpFighterTrail",
@@ -48,14 +48,14 @@
             {
                 "LocalPosition": [
                     0.1,
-                    -0.55,
+                    -0.55000001,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
                     0.173648,
-                    0.984808
+                    0.98480803
                 ],
                 "BoneName": "ATT_R1_EXHAUSTFX",
                 "Type": "/Lotus/Fx/Enemies/Corpus/RailJack/CrpFighterTrail",
@@ -93,7 +93,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.4
+                    0.40000001
                 ],
                 "LocalRotation": [
                     0,
@@ -115,7 +115,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.4
+                    0.40000001
                 ],
                 "LocalRotation": [
                     0,
@@ -221,7 +221,7 @@
             "Script": "CorpusFighterScripts.lua",
             "Function": "OnDamaged",
             "_weaponAttachmentAnimation": "",
-            "_animRateMin": 0.01,
+            "_animRateMin": 0.0099999998,
             "_animRateMax": 2,
             "_timeToMaxSpeed": 2,
             "_timeToStop": 1,
@@ -233,7 +233,7 @@
             "_weaponRotationPivotOffset": [
                 0,
                 0,
-                -2.4
+                -2.4000001
             ],
             "_rotationPitchMax": 15,
             "_rotationHeadingMax": 75,
@@ -323,7 +323,7 @@
                 "MinSpeed": 10,
                 "IsInCrewShip": 1,
                 "UseRelativeSpeed": 0,
-                "Cooldown": 0.01,
+                "Cooldown": 0.0099999998,
                 "ConeAngle": 110,
                 "StopPrevious": 0
             },
@@ -345,7 +345,7 @@
                 "MinSpeed": 10,
                 "IsInCrewShip": 0,
                 "UseRelativeSpeed": 0,
-                "Cooldown": 0.01,
+                "Cooldown": 0.0099999998,
                 "ConeAngle": 180,
                 "StopPrevious": 0
             },

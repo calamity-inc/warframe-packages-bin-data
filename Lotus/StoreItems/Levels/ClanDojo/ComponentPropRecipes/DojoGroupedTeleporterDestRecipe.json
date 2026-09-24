@@ -1,0 +1,37 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/DojoDecosTenno/DojoGroupedTeleporterDestName",
+        "LocalizeDescTag": "/Lotus/Language/DojoDecosTenno/DojoGroupedTeleporterDestDescription",
+        "Icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/DojoTeleporter.png",
+        "TypeName": "/Lotus/Levels/ClanDojo/ComponentPropRecipes/DojoGroupedTeleporterDestRecipe",
+        "RegularPrice": 50000,
+        "SellingPrice": 2500,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1785949908,
+        "Giftable": 0,
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 40000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 15000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                "ItemCount": 10000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                "ItemCount": 3500
+            }
+        ],
+        "BuildTime": 86400,
+        "BuildPrice": 50000,
+        "SkipBuildTimePrice": 750,
+        "ConsumeOnUse": 0
+    }
+}

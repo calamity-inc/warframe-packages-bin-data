@@ -12,7 +12,7 @@
             {
                 "UpgradeType": "AVATAR_HEALTH_MAX",
                 "OperationType": "STACKING_MULTIPLY",
-                "Value": 0.05,
+                "Value": 0.050000001,
                 "DamageType": "DT_ANY",
                 "AutoType": 0,
                 "ValidType": "",
@@ -39,7 +39,7 @@
             "Script": "/Lotus/Scripts/WeaponAttachments/InfestedPunchKick.lua",
             "Function": "OnUpgradeApplied",
             "_sound": "/Lotus/Sounds/Weapons/Infested/InfKickPunch/InfPunchLifeSteal",
-            "_lifestealPct": 0.05
+            "_lifestealPct": 0.050000001
         },
         "HiddenInInterface": 1,
         "UpgradeChance": 1,

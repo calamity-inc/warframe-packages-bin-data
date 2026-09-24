@@ -130,8 +130,8 @@
         "KinematicMaxSpeed": 17,
         "KinematicGravity": 1,
         "KinematicGravityMultiplier": 2,
-        "KinematicRestitution": 0.15,
-        "KinematicRestitutionParallel": 0.15,
+        "KinematicRestitution": 0.15000001,
+        "KinematicRestitutionParallel": 0.15000001,
         "KinematicBulletRaycast": 0,
         "ProjectileReplication": "REPLICATED",
         "OnProjectileStoppedScript": {
@@ -139,8 +139,8 @@
             "Function": "SpawnTurret",
             "_turretAgentType": "/Lotus/Types/Enemies/NokkoColony/Agents/NokkoGuardTurretAgent",
             "_parentAvatarType": "/Lotus/Types/Enemies/NokkoColony/Avatars/NokkoSniperSpacemanAvatar",
-            "_parentRankMin": 0.6,
-            "_parentRankMax": 0.9,
+            "_parentRankMin": 0.60000002,
+            "_parentRankMax": 0.89999998,
             "_turretMaxLife": 30,
             "_setAgentParent": 0
         }

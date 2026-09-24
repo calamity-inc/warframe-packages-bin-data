@@ -24,10 +24,10 @@
                 },
                 "NPC_ARMOUR": {
                     "Exponent": 1.75,
-                    "Multiplier": 0.005,
+                    "Multiplier": 0.0049999999,
                     "BlendCurves": 1,
                     "BlendedExponent": 0.75,
-                    "BlendedMultiplier": 0.4,
+                    "BlendedMultiplier": 0.40000001,
                     "BlendRange": [
                         70,
                         80
@@ -56,7 +56,7 @@
                     "Exponent": 4,
                     "Multiplier": 0.0015,
                     "BlendCurves": 1,
-                    "BlendedExponent": 0.9,
+                    "BlendedExponent": 0.89999998,
                     "BlendedMultiplier": 260,
                     "BlendRange": [
                         45,
@@ -113,8 +113,8 @@
                     "EVEN_MORE_HIGHEST": 5
                 },
                 "NPC_MAX_ATTACK_SCORE": {
-                    "LOWEST": 0.6,
-                    "LOW": 0.8,
+                    "LOWEST": 0.60000002,
+                    "LOW": 0.80000001,
                     "NORMAL": 1,
                     "HIGH": 1,
                     "HIGHEST": 1.2,
@@ -140,8 +140,8 @@
                 "LOW": {
                     "MaxLevelInRange": 10,
                     "AggroClamp": [
-                        0.15,
-                        0.65
+                        0.15000001,
+                        0.64999998
                     ]
                 },
                 "NORMAL": {
@@ -155,7 +155,7 @@
                     "MaxLevelInRange": 40,
                     "AggroClamp": [
                         0.5,
-                        0.85
+                        0.85000002
                     ]
                 },
                 "HIGHEST": {
@@ -168,7 +168,7 @@
                 "EVEN_MORE_HIGHEST": {
                     "MaxLevelInRange": 75,
                     "AggroClamp": [
-                        0.8,
+                        0.80000001,
                         1
                     ]
                 }
@@ -176,23 +176,23 @@
             "AgentLevel/AimAccuracyMultiplier": {
                 "LOWEST": {
                     "MaxLevelInRange": 5,
-                    "AimAggroOverride": 0.35
+                    "AimAggroOverride": 0.34999999
                 },
                 "LOW": {
                     "MaxLevelInRange": 10,
-                    "AimAggroOverride": 0.45
+                    "AimAggroOverride": 0.44999999
                 },
                 "NORMAL": {
                     "MaxLevelInRange": 25,
-                    "AimAggroOverride": 0.6
+                    "AimAggroOverride": 0.60000002
                 },
                 "HIGH": {
                     "MaxLevelInRange": 40,
-                    "AimAggroOverride": 0.7
+                    "AimAggroOverride": 0.69999999
                 },
                 "HIGHEST": {
                     "MaxLevelInRange": 60,
-                    "AimAggroOverride": 0.85
+                    "AimAggroOverride": 0.85000002
                 },
                 "EVEN_MORE_HIGHEST": {
                     "MaxLevelInRange": 75,
@@ -309,31 +309,31 @@
             "AgentLevelAttenuationCurves": {
                 "DAMAGE": {
                     "Exponent": 1.35,
-                    "Multiplier": 0.01,
+                    "Multiplier": 0.0099999998,
                     "BlendCurves": 0,
                     "IgnoreBaseLevel": 0
                 },
                 "NPC_HEALTH": {
                     "Exponent": 1.75,
-                    "Multiplier": 0.01,
+                    "Multiplier": 0.0099999998,
                     "BlendCurves": 0,
                     "IgnoreBaseLevel": 0
                 },
                 "NPC_ARMOUR": {
                     "Exponent": 1.35,
-                    "Multiplier": 0.01,
+                    "Multiplier": 0.0099999998,
                     "BlendCurves": 0,
                     "IgnoreBaseLevel": 0
                 },
                 "NPC_MAX_SHIELD": {
                     "Exponent": 1.25,
-                    "Multiplier": 0.01,
+                    "Multiplier": 0.0099999998,
                     "BlendCurves": 0,
                     "IgnoreBaseLevel": 0
                 },
                 "NPC_SHIELD_STRENGTH": {
                     "Exponent": 1,
-                    "Multiplier": 0.05,
+                    "Multiplier": 0.050000001,
                     "BlendCurves": 0,
                     "IgnoreBaseLevel": 0
                 },
@@ -392,7 +392,7 @@
                     "EVEN_MORE_HIGHEST": 5
                 },
                 "NPC_MAX_ATTACK_SCORE": {
-                    "LOWEST": 0.8,
+                    "LOWEST": 0.80000001,
                     "LOW": 1,
                     "NORMAL": 1.1,
                     "HIGH": 1.2,
@@ -447,7 +447,7 @@
                 "EVEN_MORE_HIGHEST": {
                     "MaxLevelInRange": 30,
                     "AggroClamp": [
-                        0.8,
+                        0.80000001,
                         1
                     ]
                 }
@@ -459,19 +459,19 @@
                 },
                 "LOW": {
                     "MaxLevelInRange": 10,
-                    "AimAggroOverride": 0.6
+                    "AimAggroOverride": 0.60000002
                 },
                 "NORMAL": {
                     "MaxLevelInRange": 15,
-                    "AimAggroOverride": 0.7
+                    "AimAggroOverride": 0.69999999
                 },
                 "HIGH": {
                     "MaxLevelInRange": 20,
-                    "AimAggroOverride": 0.8
+                    "AimAggroOverride": 0.80000001
                 },
                 "HIGHEST": {
                     "MaxLevelInRange": 25,
-                    "AimAggroOverride": 0.9
+                    "AimAggroOverride": 0.89999998
                 },
                 "EVEN_MORE_HIGHEST": {
                     "MaxLevelInRange": 30,

@@ -30,7 +30,7 @@
         "FactionResistanceKeyword": "RK_CORPUS_FACTION",
         "DisarmAction": "DA_DAMAGE_ONLY",
         "ReactionAnims": "/Lotus/Types/Game/ReactionAnims/ArachnoidHungerReactionAnims",
-        "HealthPctForBerserkState": 0.55,
+        "HealthPctForBerserkState": 0.55000001,
         "BerserkStartAnimation": "/Lotus/Animations/Corpus/Arachnoid/HungerRupturedToxinPackBerserk_anim.fbx",
         "BerserkStartScript": {
             "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/Arachnoid/ArachnoidHungerPassive.lua",
@@ -124,8 +124,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "ATTCH_C1_TAIL18B",
                 "Type": "/Lotus/Characters/Guild/Arachnoid/Hunger/Cloth/HungerTubeExplodedCloth",

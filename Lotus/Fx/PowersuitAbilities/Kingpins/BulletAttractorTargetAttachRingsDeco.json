@@ -11,7 +11,7 @@
         "EnableReplicaMoveNoise": 1,
         "ReplicaPositionNoise": [
             0,
-            0.3,
+            0.30000001,
             0,
             0.1
         ],
@@ -19,10 +19,10 @@
             30,
             30,
             30,
-            0.01
+            0.0099999998
         ],
         "RandomMeshScale": [
-            0.8,
+            0.80000001,
             1.2
         ],
         "MaterialFade": [
@@ -32,8 +32,8 @@
                 "TimeLength": 0.2,
                 "Multiplier": 30,
                 "FadeRange": [
-                    0.05,
-                    0.05
+                    0.050000001,
+                    0.050000001
                 ],
                 "FadeCurve": {
                     "Values": [],
@@ -49,7 +49,7 @@
             {
                 "Parameter": "nScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.15,
+                "TimeLength": 0.15000001,
                 "Multiplier": -1,
                 "FadeRange": [
                     0,
@@ -63,10 +63,10 @@
                         },
                         {
                             "Time": 0.2,
-                            "Value": 0.4
+                            "Value": 0.40000001
                         },
                         {
-                            "Time": 0.7,
+                            "Time": 0.69999999,
                             "Value": -0.1
                         },
                         {
@@ -101,7 +101,7 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.05,
+                            "Time": 0.050000001,
                             "Value": 20
                         },
                         {
@@ -121,7 +121,7 @@
             {
                 "Parameter": "nScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -134,12 +134,12 @@
                             "Value": 0
                         },
                         {
-                            "Time": 0.3,
+                            "Time": 0.30000001,
                             "Value": 0.1
                         },
                         {
-                            "Time": 0.8,
-                            "Value": 0.7
+                            "Time": 0.80000001,
+                            "Value": 0.69999999
                         },
                         {
                             "Time": 1,
@@ -158,8 +158,8 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
-                "Multiplier": 0.3,
+                "TimeLength": 0.30000001,
+                "Multiplier": 0.30000001,
                 "FadeRange": [
                     0,
                     1
@@ -171,15 +171,15 @@
                             "Value": 0
                         },
                         {
-                            "Time": 0.097599,
-                            "Value": 0.025342
+                            "Time": 0.097599201,
+                            "Value": 0.025342399
                         },
                         {
-                            "Time": 0.347077,
+                            "Time": 0.34707701,
                             "Value": 0.633219
                         },
                         {
-                            "Time": 0.650835,
+                            "Time": 0.65083498,
                             "Value": 0.879794
                         },
                         {
@@ -199,10 +199,10 @@
         ],
         "TriggeredFadeChild": {
             "LocalRotation": [
-                -0.707107,
+                -0.70710677,
                 0,
                 0,
-                0.707107
+                0.70710677
             ],
             "Type": "CastSlamSparks",
             "DestroyWithOwner": 0,

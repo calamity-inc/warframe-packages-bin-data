@@ -49,11 +49,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -82,7 +82,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -102,8 +102,8 @@
                                     0
                                 ],
                                 "fireRate": [
-                                    0.05,
-                                    0.05
+                                    0.050000001,
+                                    0.050000001
                                 ]
                             }
                         },
@@ -285,7 +285,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_IMPACT",
                         "Amount": 10,
-                        "ProcChance": 0.35,
+                        "ProcChance": 0.34999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -355,7 +355,7 @@
                 },
                 "state:Type": "/Lotus/Types/Weapon/LotusSemiAutomaticStateBehavior",
                 "state:LotusSemiAutomaticStateBehavior": {
-                    "reloadTime": 2.1,
+                    "reloadTime": 2.0999999,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -453,7 +453,7 @@
             0.991445,
             0,
             0,
-            -0.130526
+            -0.13052601
         ],
         "RequiredLevel": 15,
         "ArtifactSlots": [
@@ -480,7 +480,7 @@
             20,
             255
         ],
-        "OmegaAttenuation": 0.7,
+        "OmegaAttenuation": 0.69999999,
         "VariantType": "VT_KUVA"
     }
 }

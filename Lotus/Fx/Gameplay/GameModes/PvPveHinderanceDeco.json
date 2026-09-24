@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Gameplay/ZarimanSurvival/BonusAreaCylinderCentered.fbx",
-        "MeshScale": 0.9,
+        "MeshScale": 0.89999998,
         "OverrideMaterial": [
             "PvPveHinderanceDecoMat"
         ],
@@ -32,8 +32,8 @@
         ],
         "ReplicationOverride": "RO_DEFAULT",
         "RandomMeshScale": [
-            0.95,
-            0.95
+            0.94999999,
+            0.94999999
         ],
         "MaterialFade": [
             {
@@ -59,7 +59,7 @@
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": -1,
                 "FadeRange": [
                     1,
@@ -72,11 +72,11 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.7
+                            "Time": 0.33333334,
+                            "Value": 0.69999999
                         },
                         {
-                            "Time": 0.666667,
+                            "Time": 0.66666669,
                             "Value": 0.5
                         },
                         {
@@ -144,16 +144,16 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.8
+                            "Time": 0.33333334,
+                            "Value": 0.80000001
                         },
                         {
-                            "Time": 0.666667,
+                            "Time": 0.66666669,
                             "Value": 0.5
                         },
                         {
                             "Time": 1,
-                            "Value": 0.35
+                            "Value": 0.34999999
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"

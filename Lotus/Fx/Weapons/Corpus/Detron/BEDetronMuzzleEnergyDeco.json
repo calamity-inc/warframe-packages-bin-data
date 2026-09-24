@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Common/RadialDirectionalEnergyMesh.fbx",
-        "MeshScale": 0.65,
+        "MeshScale": 0.64999998,
         "OverrideMaterial": [
             "/Lotus/Fx/Weapons/Laser/CrpLaserRifleMuzzleBackMat"
         ],
@@ -20,7 +20,7 @@
                 "name": "vScalesStart",
                 "type": "Float4",
                 "slot": -1,
-                "value": 0.8,
+                "value": 0.80000001,
                 "value1": 1,
                 "value2": 2,
                 "value3": 1
@@ -30,7 +30,7 @@
         "DrawInTransparentPass": 1,
         "DistortionMaterial": "/Lotus/Fx/Common/EnergyDistortionHMat",
         "RandomMeshScale": [
-            0.6,
+            0.60000002,
             1
         ],
         "MaterialFade": [
@@ -68,7 +68,7 @@
             },
             {
                 "Parameter": "vScalesFade",
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,

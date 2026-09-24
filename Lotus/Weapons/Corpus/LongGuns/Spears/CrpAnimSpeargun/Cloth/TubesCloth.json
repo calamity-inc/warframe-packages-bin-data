@@ -8,15 +8,15 @@
         "ControlData": "TubesClothData",
         "Attribs": {
             "dampeningRange": [
-                0.075,
-                0.075
+                0.075000003,
+                0.075000003
             ],
             "collidingDampeningRange": [
-                0.15,
+                0.15000001,
                 0.2
             ],
             "distConstraintRange": [
-                0.01,
+                0.0099999998,
                 0.02
             ],
             "reduceStretchExponent": 1,
@@ -55,7 +55,7 @@
                 0.1
             ],
             "addFloorPlaneCollision": 0,
-            "floorPlaneHeight": 0.08,
+            "floorPlaneHeight": 0.079999998,
             "orientationBasis": "X_Z",
             "simulateCollisionLast": 0
         },
@@ -67,8 +67,8 @@
                 "parentBone": "GAME_L1_TOPSIDE",
                 "localBone": "GAME_C1_CLOTH7",
                 "offset": [
-                    -0.08,
-                    -0.04,
+                    -0.079999998,
+                    -0.039999999,
                     0.14
                 ],
                 "rotation": [
@@ -84,7 +84,7 @@
                 "localBone": "GAME_C1_CLOTH8",
                 "offset": [
                     -0.07,
-                    -0.04,
+                    -0.039999999,
                     0.17
                 ],
                 "rotation": [
@@ -99,7 +99,7 @@
                 "parentBone": "GAME_L1_TOPSIDE",
                 "localBone": "GAME_C2_CLOTH7",
                 "offset": [
-                    -0.08,
+                    -0.079999998,
                     0,
                     0.14
                 ],
@@ -131,8 +131,8 @@
                 "parentBone": "GAME_L1_TOPSIDE",
                 "localBone": "GAME_C3_CLOTH7",
                 "offset": [
-                    -0.08,
-                    0.04,
+                    -0.079999998,
+                    0.039999999,
                     0.14
                 ],
                 "rotation": [
@@ -148,7 +148,7 @@
                 "localBone": "GAME_C3_CLOTH8",
                 "offset": [
                     -0.07,
-                    0.04,
+                    0.039999999,
                     0.17
                 ],
                 "rotation": [
@@ -163,8 +163,8 @@
                 "parentBone": "GAME_R1_TOPSIDE",
                 "localBone": "GAME_C4_CLOTH7",
                 "offset": [
-                    0.08,
-                    0.04,
+                    0.079999998,
+                    0.039999999,
                     -0.14
                 ],
                 "rotation": [
@@ -180,7 +180,7 @@
                 "localBone": "GAME_C4_CLOTH8",
                 "offset": [
                     0.07,
-                    0.04,
+                    0.039999999,
                     -0.17
                 ],
                 "rotation": [
@@ -195,7 +195,7 @@
                 "parentBone": "GAME_R1_TOPSIDE",
                 "localBone": "GAME_C5_CLOTH7",
                 "offset": [
-                    0.08,
+                    0.079999998,
                     0,
                     -0.14
                 ],
@@ -227,8 +227,8 @@
                 "parentBone": "GAME_R1_TOPSIDE",
                 "localBone": "GAME_C6_CLOTH7",
                 "offset": [
-                    0.08,
-                    -0.04,
+                    0.079999998,
+                    -0.039999999,
                     -0.14
                 ],
                 "rotation": [
@@ -244,7 +244,7 @@
                 "localBone": "GAME_C6_CLOTH8",
                 "offset": [
                     0.07,
-                    -0.04,
+                    -0.039999999,
                     -0.17
                 ],
                 "rotation": [

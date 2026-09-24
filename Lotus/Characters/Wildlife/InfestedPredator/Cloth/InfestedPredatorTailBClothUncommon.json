@@ -12,19 +12,19 @@
         "Collision": "/Lotus/Characters/Wildlife/Kubrow/KubrowSimCollision",
         "Attribs": {
             "dampeningRange": [
-                0.075,
-                0.075
+                0.075000003,
+                0.075000003
             ],
             "collidingDampeningRange": [
-                0.15,
+                0.15000001,
                 0.2
             ],
             "distConstraintRange": [
-                0.01,
+                0.0099999998,
                 2
             ],
             "reduceStretchExponent": 1,
-            "shearingStiffness": 0.8,
+            "shearingStiffness": 0.80000001,
             "worldVelocityAtten": [
                 1,
                 1,
@@ -58,7 +58,7 @@
                 0.1,
                 0.1
             ],
-            "floorPlaneHeight": 0.08,
+            "floorPlaneHeight": 0.079999998,
             "orientationBasis": "X_Z",
             "simulateCollisionLast": 0
         },

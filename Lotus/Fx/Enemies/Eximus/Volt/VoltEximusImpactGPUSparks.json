@@ -1,9 +1,10 @@
 {
     "parent": "/Lotus/Fx/Weapons/Tenno/Grimoire/GrimoireVoidElectricityImpactGPUSparks",
     "data": {
+        "SpawnRate": 200,
         "drag": 0.5,
         "velocity": [
-            6,
+            15,
             40
         ],
         "spawnScale": [
@@ -11,6 +12,30 @@
             0.1,
             0.1
         ],
-        "spawnFlowBlend": 0.7
+        "spawnFlowBlend": 0.69999999,
+        "colorKeys[0]": [
+            0.14,
+            0.077,
+            1,
+            1
+        ],
+        "colorKeys[1]": [
+            0.34,
+            0.048999999,
+            1,
+            1
+        ],
+        "colorKeys[2]": [
+            0.23,
+            0.054000001,
+            1,
+            1
+        ],
+        "colorKeys[3]": [
+            0.078000002,
+            0.015,
+            0.66000003,
+            1
+        ]
     }
 }

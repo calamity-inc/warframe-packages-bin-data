@@ -76,13 +76,13 @@
                 "LocalPosition": [
                     0,
                     0.22,
-                    -0.33
+                    -0.33000001
                 ],
                 "LocalRotation": [
-                    -0.183013,
-                    0.683013,
-                    -0.683013,
-                    0.183013
+                    -0.18301301,
+                    0.68301302,
+                    -0.68301302,
+                    0.18301301
                 ],
                 "BoneName": "GAME_C1_SPINE4",
                 "Type": "/Lotus/Types/Enemies/Infested/Disruption/Attachments/DisruptionInfestedBoilDeco",
@@ -96,15 +96,15 @@
             },
             {
                 "LocalPosition": [
-                    0.39,
+                    0.38999999,
                     0.12,
-                    0.3
+                    0.30000001
                 ],
                 "LocalRotation": [
-                    0.538986,
+                    0.53898603,
                     0.280166,
-                    -0.196175,
-                    0.769751
+                    -0.19617499,
+                    0.76975101
                 ],
                 "BoneName": "GAME_C1_SPINE4",
                 "Type": "/Lotus/Types/Enemies/Infested/Disruption/Attachments/DisruptionInfestedBoilDeco",
@@ -114,19 +114,19 @@
                 "DestroyWithOwner": 1,
                 "DestroyParentOnDeath": 0,
                 "FadeOutOnDestruction": 0,
-                "Scale": 0.9
+                "Scale": 0.89999998
             },
             {
                 "LocalPosition": [
-                    -0.18,
-                    -0.08,
+                    -0.18000001,
+                    -0.079999998,
                     0.2
                 ],
                 "LocalRotation": [
-                    0.612372,
+                    0.61237198,
                     -0.353553,
                     0.353553,
-                    0.612372
+                    0.61237198
                 ],
                 "BoneName": "GAME_C1_SPINE4",
                 "Type": "/Lotus/Types/Enemies/Infested/Disruption/Attachments/DisruptionInfestedBoilDeco",
@@ -136,7 +136,7 @@
                 "DestroyWithOwner": 1,
                 "DestroyParentOnDeath": 0,
                 "FadeOutOnDestruction": 0,
-                "Scale": 0.6
+                "Scale": 0.60000002
             },
             {
                 "LocalPosition": [
@@ -300,14 +300,14 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/NPC/AmalgamNullifyDome.lua",
             "Function": "AmalgamDomePulse",
-            "_sizeOnSpawn": 0.05,
+            "_sizeOnSpawn": 0.050000001,
             "_growthDelayOnSpawn": 0.1,
             "_destroyAtMinSize": 1,
             "_destroyAtMaxSize": 0,
             "_destroyAtMaxSizeTime": 8,
-            "_domeMinScale": 0.4,
+            "_domeMinScale": 0.40000001,
             "_growLerpRate": 0.1,
-            "_scaleDelay": 0.05,
+            "_scaleDelay": 0.050000001,
             "_createFx": "",
             "_destroyFx": "",
             "_scriptTriggerType": "",

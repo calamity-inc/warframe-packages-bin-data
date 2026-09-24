@@ -1,0 +1,61 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "OperatorumbrahoodscarfAdultCloth_skel.fbx",
+        "DebugVis": "CV_JOINTS",
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "OperatorumbrahoodscarfAdultClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.108514,
+                0.1202
+            ],
+            "collidingDampeningRange": [
+                0.034499999,
+                0.051399998
+            ],
+            "massRange": [
+                0.34999999,
+                0.64999998
+            ],
+            "distConstraintRange": [
+                0,
+                1
+            ],
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 0.23,
+            "addXAxisHardContraints": 1,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "windVelocityScale": 2,
+            "windStrength": [
+                0,
+                0
+            ],
+            "noiseSpeed": 2,
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "windVolumeScale": [
+                1,
+                1,
+                1
+            ],
+            "windVolumeOffsetRate": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "usePeerCollision": 0,
+            "orientationBasis": "X_Z",
+            "simulateCollisionLast": 0
+        }
+    }
+}

@@ -30,17 +30,17 @@
             {
                 "Parameter": "FresnelPower",
                 "Slot": -1,
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 4,
                 "FadeRange": [
                     0,
-                    0.3
+                    0.30000001
                 ],
                 "FadeCurve": {
                     "Values": [],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.01,
+                "BaseValue": 0.0099999998,
                 "Delay": 0,
                 "DestroyWhenComplete": 1,
                 "IsDissolve": 0,
@@ -50,7 +50,7 @@
             {
                 "Parameter": "Scale",
                 "Slot": -1,
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 4,
                 "FadeRange": [
                     0,
@@ -60,15 +60,15 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.3
+                            "Value": 0.30000001
                         },
                         {
                             "Time": 0.2,
-                            "Value": 0.7
+                            "Value": 0.69999999
                         },
                         {
-                            "Time": 0.6,
-                            "Value": 0.8
+                            "Time": 0.60000002,
+                            "Value": 0.80000001
                         },
                         {
                             "Time": 1,
@@ -77,7 +77,7 @@
                     ],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.3,
+                "BaseValue": 0.30000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
@@ -87,7 +87,7 @@
             {
                 "Parameter": "Dissolve",
                 "Slot": -1,
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -100,7 +100,7 @@
                             "Value": 0.5
                         },
                         {
-                            "Time": 0.05,
+                            "Time": 0.050000001,
                             "Value": 1
                         },
                         {
@@ -108,7 +108,7 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.546262,
+                            "Time": 0.54626203,
                             "Value": 0.206249
                         },
                         {

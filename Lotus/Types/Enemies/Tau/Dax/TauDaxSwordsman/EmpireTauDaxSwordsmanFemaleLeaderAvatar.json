@@ -1,64 +1,136 @@
 {
     "parent": "EmpireTauDaxSwordsmanFemaleAvatar",
     "data": {
+        "AiDirEncounterScore": 150,
+        "PartialFrozenWarmUpRate": 0.25,
         "AvatarEnhancements": [
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ArcticEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Tenno/Outcast/DaxSwordsmanBodyMatLeaderArctic"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": []
+                        },
+                        {
+                            "materials": []
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Tenno/Outcast/DaxSwordsmanHelmetMatLeaderArctic"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/BlitzEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Tenno/Outcast/DaxSwordsmanBodyMatLeaderBlitz"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": []
+                        },
+                        {
+                            "materials": []
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Tenno/Outcast/DaxSwordsmanHelmetMatLeaderBlitz"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/BlitzLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/BlitzLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/EnergyLeechEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Tenno/Outcast/DaxSwordsmanBodyMatLeaderEnergyLeech"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": []
+                        },
+                        {
+                            "materials": []
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Tenno/Outcast/DaxSwordsmanHelmetMatLeaderEnergyLeech"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/EnergyLeechLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/EnergyLeechLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/LeechEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Tenno/Outcast/DaxSwordsmanBodyMatLeaderLeech"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": []
+                        },
+                        {
+                            "materials": []
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Tenno/Outcast/DaxSwordsmanHelmetMatLeaderLeech"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/LeechLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/LeechLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ShockEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Tenno/Outcast/DaxSwordsmanBodyMatLeaderShock"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": []
+                        },
+                        {
+                            "materials": []
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Tenno/Outcast/DaxSwordsmanHelmetMatLeaderShock"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/ShockLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ShockLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             }

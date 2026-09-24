@@ -1,0 +1,74 @@
+{
+    "parent": "/Lotus/Types/Game/DojoPlaceableDecorations/PlushyPlaceableDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Weapons/Ballistic/PistolShell.fbx",
+        "OverrideMaterial": [
+            "/EE/Materials/HiddenNonShadowing"
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "NightwaveOrigamiCraneBHitProxyDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.02,
+                    0.039999999,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "NightwaveOrigamiCraneBAttachDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "LocTag": "/Lotus/Language/ShipDecorations/NightwaveOrigamiCraneBName",
+        "LongDesc": "/Lotus/Language/ShipDecorations/NightwaveOrigamiCraneBDesc",
+        "OverridePreviewCamera": 1,
+        "PreviewCameraPositionOffset": [
+            0,
+            0,
+            -4
+        ],
+        "PreviewCameraTargetOffset": [
+            0,
+            0,
+            0
+        ],
+        "PreviewScaleOverride": 2.5,
+        "PreviewPositionOverride": [
+            0,
+            0.079999998,
+            1
+        ]
+    }
+}

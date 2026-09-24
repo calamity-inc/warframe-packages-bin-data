@@ -13,7 +13,7 @@
                 "slot": -1,
                 "value": 1,
                 "value1": 1,
-                "value2": 0.65,
+                "value2": 0.64999998,
                 "value3": 0
             }
         ],
@@ -108,15 +108,15 @@
             },
             {
                 "LocalPosition": [
-                    0.6,
+                    0.60000002,
                     0,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    -0.707107,
-                    0.707107
+                    -0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/SolarisUnited/BarrelAWaveProjDetailTrail",
@@ -130,15 +130,15 @@
             },
             {
                 "LocalPosition": [
-                    -0.6,
+                    -0.60000002,
                     0,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/SolarisUnited/BarrelAWaveProjDetailTrail",
@@ -153,7 +153,7 @@
             {
                 "LocalPosition": [
                     0,
-                    0.6,
+                    0.60000002,
                     0
                 ],
                 "LocalRotation": [
@@ -175,7 +175,7 @@
             {
                 "LocalPosition": [
                     0,
-                    -0.6,
+                    -0.60000002,
                     0
                 ],
                 "LocalRotation": [
@@ -311,13 +311,13 @@
         "AttackData": {
             "Type": "DT_FIRE",
             "Amount": 131,
-            "ProcChance": 0.33,
+            "ProcChance": 0.33000001,
             "ForcedDeathProcs": [
                 "PT_RAGDOLL"
             ],
             "HitType": "DHT_PROJECTILE"
         },
-        "CriticalChance": 0.21,
+        "CriticalChance": 0.20999999,
         "CriticalMultiplier": 2.3,
         "ExplosiveAttack": {
             "Type": "DT_RADIATION",
@@ -349,7 +349,7 @@
         "AllowNormalContactBehavior": 1,
         "ProjectileResizes": [
             {
-                "Time": 0.45,
+                "Time": 0.44999999,
                 "ResizeWidth": 1.5,
                 "ResizeRadius": 1.5
             }

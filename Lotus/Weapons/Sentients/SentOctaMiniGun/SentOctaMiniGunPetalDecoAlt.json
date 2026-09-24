@@ -1,0 +1,53 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "Mesh": "SentOctaMiniGunPedal1.fbx",
+        "MeshScale": 0.001,
+        "MotionBlurred": 1,
+        "PhysicsBehavior": "",
+        "IgnoreParentRotation": 1,
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/WeaponAttachments/Furis.lua",
+            "Function": "LoadedClipApplyCustomization",
+            "_clipType": "",
+            "_createdClipType": "",
+            "_darkSectorCreatedClipType": "",
+            "_clipBone": "",
+            "_shellBones": [],
+            "_secondClipBone": "",
+            "_darkSectorModeOnly": 1,
+            "_alsoHideAttachment": 0,
+            "_diffMultiplier": 1,
+            "_priString": "DexFuris",
+            "_altString": "AltDexFuris",
+            "_spinMinVelocity": [
+                0,
+                0,
+                110
+            ],
+            "_spinMaxVelocity": [
+                0,
+                0,
+                1010
+            ],
+            "_decayRate": 2,
+            "_maxCharge": 20,
+            "_fastCharge": 10,
+            "_offsetPos": [
+                0,
+                0,
+                0
+            ],
+            "_defaultRotation": [
+                0,
+                0,
+                0
+            ],
+            "_primaryIncrement": 1,
+            "_secondaryIncrement": 1,
+            "_drawOnTopWhileAiming": 0,
+            "_applyCustomization": 0,
+            "_projectileIndex": 0
+        }
+    }
+}

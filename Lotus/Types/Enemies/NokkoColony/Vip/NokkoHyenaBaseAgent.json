@@ -322,7 +322,7 @@
                 "StopMovingWhenAttacking": 1,
                 "DisablePostureChangers": 0,
                 "TimeBetweenLunges": 2,
-                "LowTargetThreshold": 0.8,
+                "LowTargetThreshold": 0.80000001,
                 "NormalAttack": "MELEE",
                 "LowAttack": "MELEE",
                 "ClearCoverReservationOnStart": 0,
@@ -330,7 +330,7 @@
                 "VipAvatarType": "/Lotus/Types/Friendly/Agents/DefenseAvatar",
                 "TimeBetweenBarks": 2,
                 "VisibilityTimeout": 0,
-                "MaxReachableHeight": -9223372036854775808.0,
+                "MaxReachableHeight": "3.4028235e+38",
                 "Bark": "ATTACK_SCREAM",
                 "IsOffHandWeapon": 0
             },
@@ -497,14 +497,14 @@
             "MaxRingSlots": 6,
             "MaxUsableSlots": 6,
             "RingDist": [
-                0.4,
-                0.7
+                0.40000001,
+                0.69999999
             ],
             "FallbackRange": [
                 1.55,
                 10
             ],
-            "SuccessRadius": 0.7,
+            "SuccessRadius": 0.69999999,
             "StopRadius": 0.5,
             "RingReplacerDistanceOffset": 8,
             "AllowRun": 1,
@@ -552,7 +552,7 @@
                 "StopMovingWhenAttacking": 1,
                 "DisablePostureChangers": 0,
                 "TimeBetweenLunges": 2,
-                "LowTargetThreshold": 0.8,
+                "LowTargetThreshold": 0.80000001,
                 "NormalAttack": "MELEE",
                 "LowAttack": "MELEE",
                 "ClearCoverReservationOnStart": 0,
@@ -560,7 +560,7 @@
                 "VipAvatarType": "/Lotus/Types/Friendly/Agents/DefenseAvatar",
                 "TimeBetweenBarks": 2,
                 "VisibilityTimeout": 0,
-                "MaxReachableHeight": -9223372036854775808.0,
+                "MaxReachableHeight": "3.4028235e+38",
                 "Bark": "ATTACK_SCREAM",
                 "IsOffHandWeapon": 0
             },
@@ -612,7 +612,7 @@
             "MinStrafeDistance": 0,
             "StopRadius": 0.5,
             "MovementSpeedModifier": [
-                0.8,
+                0.80000001,
                 1.2
             ],
             "MovementLineOfFireScoring": 0,
@@ -630,7 +630,7 @@
                 0
             ],
             "MinAngleToTurn": 40,
-            "MinAimMask": 0.9,
+            "MinAimMask": 0.89999998,
             "TargetNotVisibleTimeoutRange": [
                 6,
                 8
@@ -845,7 +845,7 @@
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -1013,14 +1013,14 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 20,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 120,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/GrineerChampions/GrineerChampionPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "BaseHitChance": [
-            0.4,
+            0.40000001,
             1
         ],
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",

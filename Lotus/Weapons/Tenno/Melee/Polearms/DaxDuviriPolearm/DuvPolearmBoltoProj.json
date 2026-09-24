@@ -32,10 +32,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Bow/PrimeHuntingBowArrowChargedEmbers",
@@ -80,9 +80,9 @@
             "WEAPON_MELEE_DAMAGE"
         ],
         "AttackData": {
-            "DT_IMPACT": 0.3,
-            "DT_PUNCTURE": 0.4,
-            "DT_SLASH": 0.3,
+            "DT_IMPACT": 0.30000001,
+            "DT_PUNCTURE": 0.40000001,
+            "DT_SLASH": 0.29999995,
             "Amount": 120,
             "ProcChance": 0.2,
             "ForcedProcs": [
@@ -90,8 +90,8 @@
             ]
         },
         "NotifyImpactBehavior": 1,
-        "CriticalChance": 0.3,
-        "CriticalMultiplier": 2.6,
+        "CriticalChance": 0.30000001,
+        "CriticalMultiplier": 2.5999999,
         "ForcedSourceProcs": [
             "PT_IMMOLATION",
             "PT_CHILLED",
@@ -101,7 +101,7 @@
             "PT_KNOCKED_DOWN"
         ],
         "ExplosionIgnoreSource": 1,
-        "ExplosionFallOff": 0.3,
+        "ExplosionFallOff": 0.30000001,
         "DamageRadius": 4,
         "HitEffect": "/Lotus/Fx/Weapons/Bow/PrimeHuntingBowChargedHitEffect",
         "DieSound": "/Lotus/Sounds/Enemies/Duviri/DuviriDax/Weapons/DuviriDaxStaff/PlayerAbilities/DuviriStaffWFSpearThrowProjByExplosion",
@@ -119,8 +119,8 @@
         },
         "EmbedDamageRadius": 4,
         "EmbedTime": [
-            0.8,
-            0.8
+            0.80000001,
+            0.80000001
         ],
         "EmbedDeathAttack": {
             "Amount": 100,
@@ -138,7 +138,7 @@
             0,
             0
         ],
-        "EmbedOffset": 0.3,
+        "EmbedOffset": 0.30000001,
         "AttachmentOffsets": [
             0.25
         ],

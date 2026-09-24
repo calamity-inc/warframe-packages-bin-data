@@ -9,7 +9,7 @@
             {
                 "UpgradeType": "AVATAR_DAMAGE_POWER_MULTIPLIER",
                 "OperationType": "ADD",
-                "Value": 0.075,
+                "Value": 0.075000003,
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
@@ -40,14 +40,14 @@
         "Script": {
             "Script": "/Lotus/Scripts/Gameplay/OverguardDamageToEnergy.lua",
             "Function": "UpgradeApplied",
-            "_perLevel": 0.075,
+            "_perLevel": 0.075000003,
             "_upgradeWeak": "WarframeHunterAdrenalineMod",
             "_upgradeID": "HunterAdrenaline"
         },
         "UnappliedScript": {
             "Script": "/Lotus/Scripts/Gameplay/OverguardDamageToEnergy.lua",
             "Function": "UpgradeUnapplied",
-            "_perLevel": 0.0375,
+            "_perLevel": 0.037500001,
             "_upgradeWeak": "WarframeHunterAdrenalineMod",
             "_upgradeID": "HunterAdrenaline"
         },

@@ -3,7 +3,7 @@
     "data": {
         "UseAmbient": 1,
         "Mesh": "/Lotus/Fx/Common/Sphere.fbx",
-        "MeshScale": 0.3,
+        "MeshScale": 0.30000001,
         "OverrideMaterial": [
             "/EE/Materials/Hidden"
         ],
@@ -123,7 +123,7 @@
         "ScriptInstance": {
             "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/Railjack/CorpusCrewShipMissileAbility.lua",
             "Function": "TrackingProjectileLoop",
-            "_timeBetweenShots": 0.8,
+            "_timeBetweenShots": 0.80000001,
             "_targetDistance": 200,
             "_launchBoneLeft": "",
             "_launchBoneLeftOffsets": [],
@@ -143,7 +143,7 @@
         "AttackData": {
             "Type": "DT_EXPLOSION",
             "Amount": 50,
-            "ProcChance": 0.01
+            "ProcChance": 0.0099999998
         },
         "ExplosiveAttack": {
             "Amount": 25,
@@ -151,7 +151,7 @@
         },
         "ExplosionIgnoreSource": 1,
         "ExplodeEffect": "/Lotus/Fx/Enemies/Corpus/RailJack/CrpDestroyerBigMissileExplosion",
-        "PostFireInvulnDuration": 0.15,
+        "PostFireInvulnDuration": 0.15000001,
         "DamageRadius": 18,
         "DieEffect": "/Lotus/Fx/Enemies/Corpus/RailJack/CrpCrewshipDestroyerCannonHitExplosion",
         "DieEffectOffset": [

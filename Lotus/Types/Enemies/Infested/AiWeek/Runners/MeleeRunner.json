@@ -124,6 +124,10 @@
                 0.5,
                 1
             ],
+            "FallbackRange": [
+                1.75,
+                10
+            ],
             "SuccessRadius": 1,
             "LastSeenThreshold": 4,
             "ReportUnreachable": 1,
@@ -133,7 +137,7 @@
                     7.5
                 ],
                 "LungeToPredictedPos": 1,
-                "PredictedLungeTime": 0.6
+                "PredictedLungeTime": 0.60000002
             },
             "MeleeWaitBehavior": {
                 "TimeOut": 3,
@@ -195,6 +199,7 @@
                     ],
                     "MaxMovementDistance": 100,
                     "AllowRetreat": 0,
+                    "AllowTeleportFromOffScreen": 0,
                     "AllowRun": 1,
                     "AllowChase": 1,
                     "ForceWalkBelowMinIdealRange": 1,
@@ -260,7 +265,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -278,7 +283,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8

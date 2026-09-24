@@ -9,7 +9,7 @@
         "OPACITY": 1,
         "CHEAP_SPECULAR": 1,
         "VERTEX_AO": 1,
-        "VS:WindBend": 0.04,
+        "VS:WindBend": 0.039999999,
         "VS:WindTremble": 0.02,
         "VS:WindTrembleBranch": 0.02,
         "VS:WindTrembleSpeed": 0.02,
@@ -17,16 +17,16 @@
         "VS:DeformStrength": 8,
         "VS:NearPlaneCullParams": [
             2,
-            0.01
+            0.0099999998
         ],
         "PS:SpecularColor": [
-            0.04,
-            0.04,
-            0.04,
+            0.039999999,
+            0.039999999,
+            0.039999999,
             0.1
         ],
         "PS:BackWrapLight": [
-            0.3,
+            0.30000001,
             0.1
         ],
         "PS:CheapSpecular": [
@@ -38,7 +38,7 @@
         "TX:DiffuseMap": "OstWhitePineFall_d.png",
         "TX:NormalMap": "OstWhitePineFall_n.png",
         "AlphaTest": 1,
-        "AlphaTestValue": 0.039216,
+        "AlphaTestValue": 0.039215688,
         "DoubleSided": 1,
         "DefaultPhysicsMaterial": "/EE/Types/Physics/Materials/Vegetation"
     }

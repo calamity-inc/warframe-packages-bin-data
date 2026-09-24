@@ -6,7 +6,7 @@
                 "name": "UnlitAtten",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.15
+                "value": 0.15000001
             }
         ],
         "SpawnRate": 455,
@@ -34,7 +34,7 @@
         "resilience": 0.1,
         "drag": 1,
         "mass": [
-            0.05,
+            0.050000001,
             0.1
         ],
         "life": [
@@ -42,7 +42,7 @@
             1.4
         ],
         "size": [
-            0.01,
+            0.0099999998,
             0.02
         ],
         "sizeByLifeMultiplier": [
@@ -59,14 +59,14 @@
         "spawnShape": "SP_PARENT_MESH",
         "velocityDeviation": [
             0,
-            0.00015
+            0.00015000001
         ],
         "spawnScale": [
             1,
             1,
             1
         ],
-        "spawnFlowBlend": 0.971098,
+        "spawnFlowBlend": 0.97109801,
         "flowScale": [
             0.5,
             0.5,
@@ -84,14 +84,14 @@
         ],
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSpotAlpha",
         "colorKeys[0]": [
-            0.6,
-            0.55,
-            0.45,
+            0.60000002,
+            0.55000001,
+            0.44999999,
             1
         ],
         "colorKeys[1]": [
             0.19,
-            0.21,
+            0.20999999,
             0.17,
             1
         ],
@@ -104,13 +104,13 @@
         "colorKeys[3]": [
             0.021,
             0.022,
-            0.026,
+            0.026000001,
             1
         ],
         "simVortex": 1,
         "vortexSpeed": 12,
         "vortexDecay": 0.1,
-        "vortexRadialForce": 0.6,
+        "vortexRadialForce": 0.60000002,
         "vortexAlongFullAxis": 1
     }
 }

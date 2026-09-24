@@ -1,0 +1,40 @@
+{
+    "parent": "/Lotus/Types/Game/DojoDecorationRecipeItem",
+    "data": {
+        "RegularPrice": 50000,
+        "LocalizeTag": "/Lotus/Language/DojoDecosTenno/DojoGroupedTeleporterDestName",
+        "LocalizeDescTag": "/Lotus/Language/DojoDecosTenno/DojoGroupedTeleporterDestDescription",
+        "Icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/DojoTeleporter.png",
+        "ExcludeFromCodex": 1,
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 40000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 15000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                "ItemCount": 10000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                "ItemCount": 3500
+            }
+        ],
+        "BuildTime": 86400,
+        "BuildPrice": 50000,
+        "SkipBuildTimePrice": 750,
+        "ConsumeOnUse": 0,
+        "ResultDecoration": "/Lotus/Objects/Tenno/Props/DojoGroupedTeleporterDestDeco",
+        "DecoCapacityCost": 3,
+        "RequiredInVault": 1,
+        "AssetRefundPercentage": 1,
+        "MeshScaleBounds": [
+            0.5,
+            1
+        ]
+    }
+}

@@ -18,7 +18,7 @@
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderDesc",
                     "MeshScale": 1.1
                 },
-                "Probability": 1.1
+                "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/BlitzEnhancement",
@@ -101,9 +101,24 @@
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
-                    "MeshScale": 1
+                    "MeshScale": 1.1
                 },
                 "Probability": 0
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Guild/BipedPrototype/MoaLeaderVolt",
+                        "/Lotus/Characters/Guild/Shared/BotHeadLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
             }
         ]
     }

@@ -8,15 +8,15 @@
                 "slot": -1,
                 "value": 0,
                 "value1": 0,
-                "value2": 0.6,
-                "value3": 0.6
+                "value2": 0.60000002,
+                "value3": 0.60000002
             },
             {
                 "name": "DistortAgePan",
                 "type": "Float4",
                 "slot": -1,
-                "value": 0.03,
-                "value1": 0.05,
+                "value": 0.029999999,
+                "value1": 0.050000001,
                 "value2": 0,
                 "value3": 0
             },
@@ -40,8 +40,8 @@
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.39,
-                    0.96,
+                    0.38999999,
+                    0.95999998,
                     0,
                     1
                 ]
@@ -57,18 +57,18 @@
             1.6
         ],
         "Size": [
-            0.35,
-            0.45
+            0.34999999,
+            0.44999999
         ],
         "SizeByLife": {
             "Values": [
                 {
                     "Time": 0,
-                    "Value": 0.694681
+                    "Value": 0.69468099
                 },
                 {
                     "Time": 0.5,
-                    "Value": 0.893907
+                    "Value": 0.89390701
                 },
                 {
                     "Time": 1,
@@ -78,8 +78,8 @@
             "SplineType": "CUBIC_SPLINE"
         },
         "GrowthRate": [
-            0.05,
-            0.075
+            0.050000001,
+            0.075000003
         ],
         "InheritParentScale": 1,
         "SpewCount": [
@@ -102,8 +102,8 @@
         ],
         "RandOrientation": 1,
         "Spin": [
-            -0.005,
-            0.005
+            -0.0049999999,
+            0.0049999999
         ],
         "OrbitOffset": 0,
         "FadeInOut": [
@@ -115,15 +115,15 @@
         "Nozzle": "PLANE",
         "NozzleDev": 1,
         "NozzleBox": [
-            0.3,
+            0.30000001,
             1,
-            0.3
+            0.30000001
         ],
-        "NozzleSize": 0.3,
+        "NozzleSize": 0.30000001,
         "Drag": 4,
         "Mass": [
             0.02,
-            0.05
+            0.050000001
         ]
     }
 }

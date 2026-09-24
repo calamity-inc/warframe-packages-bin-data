@@ -29,7 +29,7 @@
         },
         "SlamMeleeAttack": "/Lotus/Weapons/Tenno/Melee/Attacks/SlamAoE",
         "HeavySlamMeleeAttack": "/Lotus/Weapons/Tenno/Melee/Attacks/HeavySlamAoE",
-        "ParryDamagePercentBlocked": 0.8,
+        "ParryDamagePercentBlocked": 0.80000001,
         "ParryAngle": 90,
         "ChannelingKillScript": {
             "Script": "/Lotus/Scripts/ChannelingFX.lua",
@@ -41,7 +41,7 @@
             "_fxToAttach": "/Lotus/Fx/Fire/ChannelingDissolve",
             "_decoEffect": "/Lotus/Fx/Fire/ChannelingDissolveDeco",
             "_weightModifier": 1,
-            "_speed": 0.3,
+            "_speed": 0.30000001,
             "_cloakColorMult": 5,
             "_useRootAvatar": 0,
             "_excludedAvatarTypes": [
@@ -52,7 +52,7 @@
         "ParryComboStartSound": "/Lotus/Sounds/Weapons/Melee/Whooshes/Blocks/MeleeBlockAttack3D",
         "ParryActivatedSound": "/Lotus/Sounds/Weapons/Melee/Whooshes/Blocks/MeleeBlockStart3D",
         "ParryDeactivatedSound": "/Lotus/Sounds/Weapons/Melee/Whooshes/Blocks/MeleeBlockStop3D",
-        "BaseEmpoweredMeleeChance": 0.15,
+        "BaseEmpoweredMeleeChance": 0.15000001,
         "EmpoweredMeleeChancePerCombo": 0,
         "HitEffectCrit": "/Lotus/Fx/Weapons/Melee/Clean/HitEffects/MeleeHitEffectCrit"
     }

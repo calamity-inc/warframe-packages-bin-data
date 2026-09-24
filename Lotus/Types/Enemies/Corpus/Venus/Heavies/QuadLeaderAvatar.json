@@ -13,7 +13,7 @@
         "PhysicsBehavior": "VenusQuadRobotWalk",
         "EyeOffset": [
             0,
-            2.65,
+            2.6500001,
             1.5
         ],
         "HeadBone": "",
@@ -161,6 +161,22 @@
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Guild/Shared/BotHeadLeaderVolt",
+                        "/Lotus/Characters/Guild/QuadrapedPrototype/JackalLeaderVolt",
+                        "/Lotus/Characters/Guild/QuadrapedPrototype/JackalLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
                     "MeshScale": 1.1
                 },
                 "Probability": 1

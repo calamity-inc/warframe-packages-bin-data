@@ -27,14 +27,14 @@
             {
                 "LocalPosition": [
                     0.5,
-                    -0.4,
+                    -0.40000001,
                     0
                 ],
                 "LocalRotation": [
-                    -0.342813,
-                    0.618449,
+                    -0.34281299,
+                    0.61844897,
                     0.342812,
-                    0.61845
+                    0.61844999
                 ],
                 "BoneName": "GAME_L1_LEG1",
                 "Type": "VenusShockwaveEliteSpacemanKneeDeco",
@@ -49,14 +49,14 @@
             {
                 "LocalPosition": [
                     0.5,
-                    -0.4,
+                    -0.40000001,
                     0
                 ],
                 "LocalRotation": [
-                    -0.342813,
-                    0.618449,
+                    -0.34281299,
+                    0.61844897,
                     0.342812,
-                    0.61845
+                    0.61844999
                 ],
                 "BoneName": "GAME_R1_LEG1",
                 "Type": "VenusShockwaveEliteSpacemanKneeDeco",
@@ -76,7 +76,7 @@
                 ],
                 "LocalRotation": [
                     0,
-                    0.130526,
+                    0.13052601,
                     0,
                     0.991445
                 ],
@@ -98,7 +98,7 @@
                 ],
                 "LocalRotation": [
                     0,
-                    0.130526,
+                    0.13052601,
                     0,
                     0.991445
                 ],
@@ -115,7 +115,7 @@
             {
                 "LocalPosition": [
                     1.5,
-                    -0.05,
+                    -0.050000001,
                     0
                 ],
                 "LocalRotation": [
@@ -267,6 +267,30 @@
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusHelmetLeaderVolt",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusVenusHoodLeaderVolt",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/TamerHelmetLeaderVolt",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusSpacemanVenusLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Guild/Spaceman/Venus/WarriorHelmetLeaderVolt"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
                     "MeshScale": 1.1
                 },
                 "Probability": 1

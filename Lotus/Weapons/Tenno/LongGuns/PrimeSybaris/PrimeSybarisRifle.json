@@ -7,7 +7,7 @@
                 "LocalPosition": [
                     0,
                     0.025,
-                    -0.005
+                    -0.0049999999
                 ],
                 "Type": "PrimeSybarisRifleAttachment"
             },
@@ -35,7 +35,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -46,7 +46,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.3,
+                                    0.30000001,
                                     1
                                 ],
                                 "burstPauseTime": [
@@ -158,7 +158,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -172,9 +172,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.33,
-                        "DT_PUNCTURE": 0.33,
-                        "DT_SLASH": 0.34,
+                        "DT_IMPACT": 0.33000001,
+                        "DT_PUNCTURE": 0.33000001,
+                        "DT_SLASH": 0.33999997,
                         "Amount": 88,
                         "ProcChance": 0.25,
                         "ForcedProcs": [],
@@ -193,7 +193,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.65,
+                    "PvpDamageMultiplier": 0.64999998,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -225,7 +225,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.3,
+                    "criticalHitChance": 0.30000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -299,7 +299,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 1,
                     "NumShots": 2,
-                    "BurstDelay": 0.062,
+                    "BurstDelay": 0.061999999,
                     "IgnoreFireRate": 0,
                     "EatAmmoOnUnequip": 1,
                     "QueueBursts": 0,
@@ -323,7 +323,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -334,7 +334,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.3,
+                                    0.30000001,
                                     1
                                 ],
                                 "burstPauseTime": [
@@ -446,7 +446,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -460,11 +460,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.33,
-                        "DT_PUNCTURE": 0.33,
-                        "DT_SLASH": 0.34,
+                        "DT_IMPACT": 0.33000001,
+                        "DT_PUNCTURE": 0.33000001,
+                        "DT_SLASH": 0.33999997,
                         "Amount": 110,
-                        "ProcChance": 0.3,
+                        "ProcChance": 0.30000001,
                         "ForcedProcs": [
                             "PT_FLASHBANG"
                         ],
@@ -483,7 +483,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.65,
+                    "PvpDamageMultiplier": 0.64999998,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -542,7 +542,7 @@
                     "fireRate": 200,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 0,
-                    "ModeSwitchTime": 0.6,
+                    "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "autoReloadEmptyTime": 0,
@@ -589,7 +589,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 1,
                     "NumShots": 4,
-                    "BurstDelay": 0.062,
+                    "BurstDelay": 0.061999999,
                     "IgnoreFireRate": 0,
                     "EatAmmoOnUnequip": 1,
                     "QueueBursts": 0,

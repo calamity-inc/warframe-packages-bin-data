@@ -9,13 +9,13 @@
                 "LocalPosition": [
                     0,
                     -0.024,
-                    0.005
+                    0.0049999999
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    -0.043619,
-                    0.999048
+                    -0.043618999,
+                    0.99904799
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "AK47Attachment"
@@ -23,13 +23,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
-            0.05,
+            0.050000001,
+            0.050000001,
             0.1
         ],
         "HolsterBone1Rotation": [
-            -0.707107,
-            -0.707107,
+            -0.70710677,
+            -0.70710677,
             0,
             0
         ],
@@ -46,30 +46,30 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.075,
+            -0.075000003,
             -0.015,
             0.22
         ],
         "GripRotationOffset": [
-            0.061628,
-            0.704416,
-            -0.704416,
-            0.061628
+            0.061627999,
+            0.70441598,
+            -0.70441598,
+            0.061627999
         ],
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -102,7 +102,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -229,7 +229,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -244,7 +244,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PUNCTURE",
                         "Amount": 40,
-                        "ProcChance": 0.18,
+                        "ProcChance": 0.18000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -295,8 +295,8 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.26,
-                    "criticalHitDamageMultiplier": 2.4,
+                    "criticalHitChance": 0.25999999,
+                    "criticalHitDamageMultiplier": 2.4000001,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -412,7 +412,7 @@
         "NumChargesToAdd": 0,
         "MaxCharges": 0,
         "NumChargesToConsume": 0,
-        "OmegaAttenuation": 0.85,
+        "OmegaAttenuation": 0.85000002,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Rifle/CritPuncture"
     }
 }

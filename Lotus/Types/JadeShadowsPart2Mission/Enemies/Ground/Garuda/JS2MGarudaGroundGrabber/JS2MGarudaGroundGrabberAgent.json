@@ -27,7 +27,7 @@
         },
         "CustomShootBehavior": "/EE/Types/Npc/ScriptedShootBehavior",
         "LocomotionController:DynamicPathFollowerGround": {
-            "MoveFailureTime": 0.8,
+            "MoveFailureTime": 0.80000001,
             "MinWalkWhenTurningAngle": 90
         },
         "LocomotionController:PathingPreferences": {
@@ -47,14 +47,14 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/Grineer/GrineerPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "OnlyTargetAvatars": 1,
         "BaseHitChance": [
-            0.65,
+            0.64999998,
             1
         ],
         "IsCoverUseEnabled": 0,

@@ -167,7 +167,7 @@
         "AttackData": {
             "Type": "DT_FIRE",
             "Amount": 100,
-            "ProcChance": 0.05,
+            "ProcChance": 0.050000001,
             "ForcedProcs": [
                 "PT_STUNNED"
             ]
@@ -181,7 +181,7 @@
         },
         "ExplosionIgnoreSource": 1,
         "ExplodeEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXScifiLarge",
-        "PostFireInvulnDuration": 0.15,
+        "PostFireInvulnDuration": 0.15000001,
         "DamageRadius": 6,
         "DieEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXScifiLarge",
         "IgnoreCollisionsWithSameType": 1,
@@ -197,7 +197,7 @@
         "VerticalImpulse": 300,
         "HorizontalImpulse": 300,
         "Health": 50,
-        "ContactDelayTimer": 0.15,
+        "ContactDelayTimer": 0.15000001,
         "StopOnAvatars": 1,
         "CanBeReflected": 0,
         "CanBeAttracted": 0,

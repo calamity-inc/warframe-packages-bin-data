@@ -49,7 +49,7 @@
                 3,
                 4
             ],
-            "ManeuverProbabilityFacingAwayTarget": 0.85,
+            "ManeuverProbabilityFacingAwayTarget": 0.85000002,
             "UnderFireManeuverDistance": 150,
             "CloseToTargetManeuverDistance": 80,
             "ShouldManeuverUnderFire": 1,
@@ -62,7 +62,7 @@
             "TargetIsSelf": 0,
             "TargetHealthPctRange": [
                 0,
-                0.8
+                0.80000001
             ]
         },
         "FighterBehaviorStateMachine": {
@@ -113,7 +113,7 @@
                 "_ENGINE_BONE": "GAME_C1_EXHAUSTFX",
                 "_ShiftEmissives": 0
             },
-            "ScriptTargetInRangeMoveSpeedModifier": 0.35
+            "ScriptTargetInRangeMoveSpeedModifier": 0.34999999
         },
         "FlyBackToCombatZoneFighterBehavior": {
             "SpeedMultiplier": 1.4
@@ -144,7 +144,7 @@
             ]
         },
         "FlyInFormationFighterTactic": {
-            "SlowDownSpeedModifier": 0.4
+            "SlowDownSpeedModifier": 0.40000001
         },
         "LocomotionController:PathingPreferences": {
             "avoidanceRadius": 32

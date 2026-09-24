@@ -1,0 +1,102 @@
+{
+    "parent": "/Lotus/Fx/Levels/Settlement/FallingWaterSplashesPS",
+    "data": {
+        "CullDistance": 0,
+        "MaterialParams": [
+            {
+                "name": "GoboOrigin",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0,
+                "value1": 0,
+                "value2": 0,
+                "value3": 0
+            }
+        ],
+        "CompositedEffect": 1,
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "VisibleDistortion": 1,
+        "AutoKill": 1,
+        "AlwaysRespectParentVisibility": 1,
+        "Life": [
+            0.25,
+            0.5
+        ],
+        "Size": [
+            0.12,
+            0.25999999
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.30000001
+                },
+                {
+                    "Time": 0.33333299,
+                    "Value": 0.60000002
+                },
+                {
+                    "Time": 0.66666698,
+                    "Value": 0.80000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "Aspect": [
+            0.80000001,
+            1.2
+        ],
+        "GrowthRate": [
+            0.1,
+            0.2
+        ],
+        "InitialCount": [
+            2,
+            2
+        ],
+        "SpewCount": [
+            0,
+            0
+        ],
+        "Material": "InkSiroccoSplashPMat",
+        "AnimateTiles": 1,
+        "ColorMin": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "ColorMax": [
+            53,
+            46,
+            65,
+            255
+        ],
+        "EnergyTintMethod": "ETM_PRIMARY",
+        "Spin": [
+            -0.0049999999,
+            0.0049999999
+        ],
+        "FadeInOut": [
+            0.2,
+            0.2
+        ],
+        "Nozzle": "CONE",
+        "NozzleDev": 0,
+        "NozzleBox": [
+            0,
+            0,
+            0
+        ],
+        "NozzleSize": 0,
+        "Mass": [
+            0,
+            0.2
+        ]
+    }
+}

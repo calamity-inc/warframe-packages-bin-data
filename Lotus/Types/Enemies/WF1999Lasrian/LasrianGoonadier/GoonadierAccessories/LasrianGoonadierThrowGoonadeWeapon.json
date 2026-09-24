@@ -25,7 +25,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -33,6 +33,7 @@
                             "onlyFireAboveMinRangeMultiplier": 0,
                             "aimAtPart": "TORSO",
                             "aimAtClosestPart": 0,
+                            "lockAimOnFullCharge": 0,
                             "firingPreferences": {
                                 "firingType": "FT_NORMAL",
                                 "burstTime": [
@@ -93,7 +94,9 @@
                         "LockOnPart": "ANY_PART",
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
-                        "LockOnIgnoreEndPointTarget": 0
+                        "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
+                        "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/DefaultAccuracyInfo",
                     "AIMED_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/DefaultAccuracyInfo",
@@ -131,6 +134,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 1
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "LasrianGoonadeProjectile",
@@ -182,22 +187,24 @@
                     "ApplyFlightSpeedToLaunchImpulse": 0,
                     "FallbackAgentTargetting": 1,
                     "MultishotAmmoSpread": 0,
+                    "UseMultishotLineSpread": 0,
                     "ChargedProjectileMinSpeed": -1,
                     "ChargedProjectileMaxSpeed": -1,
                     "ProjectileChargeScale": [
                         0,
                         1
                     ],
-                    "SetProjectileTargetForLockOn": 0
+                    "SetProjectileTargetForLockOn": 0,
+                    "MultiTargetLock": 0
                 },
                 "impact:Type": "/EE/Types/Game/WeaponImpactBehavior",
                 "impact:WeaponImpactBehavior": {
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -211,6 +218,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -279,6 +287,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": -1,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 1,
@@ -302,6 +311,7 @@
                     "UseReloadTimeBetweenShots": 0,
                     "OnlyGiveAmmoOnReloadCompleteEvent": 0,
                     "CanInterruptModeSwitch": 0,
+                    "NeedsLockOnTargets": 0,
                     "IsAlternateFire": 0,
                     "LocTag": "",
                     "BehaviorTag": "",

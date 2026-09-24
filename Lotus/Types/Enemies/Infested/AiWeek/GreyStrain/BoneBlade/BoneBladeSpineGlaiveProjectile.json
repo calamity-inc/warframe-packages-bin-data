@@ -89,7 +89,7 @@
         "ExplosionIgnoreSource": 1,
         "ExplodeOnFriendlies": 0,
         "ExplosionFallOff": 0.2,
-        "DamageRadius": 0.7,
+        "DamageRadius": 0.69999999,
         "HitEffect": "/Lotus/Fx/TnGuandoPistolHitEffect",
         "DieEffect": "/Lotus/Fx/Enemies/Zombies/BoneBlade/BoneBladeScatterShotHit",
         "DieEffectOffset": [
@@ -111,13 +111,13 @@
             "ProcChance": 0
         },
         "EmbedTime": [
-            0.3,
-            0.3
+            0.30000001,
+            0.30000001
         ],
         "EmbedDeathAttack": {
             "Type": "DT_GAS",
             "Amount": 100,
-            "ProcChance": 0.32
+            "ProcChance": 0.31999999
         },
         "StopOnCollision": 0,
         "KinematicAccel": 30,
@@ -132,7 +132,7 @@
         "OnlySeekAliveTargets": 1,
         "TryScanWithBounceDirection": 1,
         "IgnoreFriendlyTargets": 1,
-        "TurningSpeed": 0.04,
+        "TurningSpeed": 0.039999999,
         "SpinRate": 600,
         "CatchRadius": 2,
         "DieInsteadOfRecall": 1,

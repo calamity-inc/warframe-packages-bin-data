@@ -29,7 +29,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -41,11 +41,11 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.3,
-                                    0.8
+                                    0.30000001,
+                                    0.80000001
                                 ],
                                 "burstPauseTime": [
-                                    0.6,
+                                    0.60000002,
                                     1
                                 ],
                                 "fireRate": [
@@ -156,7 +156,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -170,11 +170,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.65,
-                        "DT_PUNCTURE": 0.15,
-                        "DT_SLASH": 0.2,
+                        "DT_IMPACT": 0.64999998,
+                        "DT_PUNCTURE": 0.15000001,
+                        "DT_SLASH": 0.20000005,
                         "Amount": 40,
-                        "ProcChance": 0.9,
+                        "ProcChance": 0.89999998,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [
                             "PT_RAGDOLL"
@@ -195,7 +195,7 @@
                     ],
                     "damageFallOffMinDamage": 12,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.24,
+                    "PvpDamageMultiplier": 0.23999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 750,
                     "additionalForce": [
@@ -227,7 +227,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.15,
+                    "criticalHitChance": 0.15000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -324,7 +324,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -459,8 +459,8 @@
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 42,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.03,
-                    "RetractTime": 0.01,
+                    "MaxTraceDistanceTime": 0.029999999,
+                    "RetractTime": 0.0099999998,
                     "AttachToWeapon": 1,
                     "UseWeaponAttachmentFirePos": 0,
                     "MultiBeam": 1,
@@ -468,8 +468,8 @@
                         {
                             "LocalPosition": [
                                 0,
-                                0.038,
-                                0.48
+                                0.037999999,
+                                0.47999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -490,9 +490,9 @@
                         },
                         {
                             "LocalPosition": [
-                                0.03,
+                                0.029999999,
                                 0,
-                                0.48
+                                0.47999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -513,9 +513,9 @@
                         },
                         {
                             "LocalPosition": [
-                                -0.03,
+                                -0.029999999,
                                 0,
-                                0.48
+                                0.47999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -604,12 +604,12 @@
                     "RecoilCurve": "RC_LINEAR",
                     "RecoilStrength": [
                         0.25,
-                        0.3
+                        0.30000001
                     ],
                     "LockOnRecoilTime": 0.1,
                     "LockOnRecoilStrength": [
-                        0.33,
-                        0.4
+                        0.33000001,
+                        0.40000001
                     ],
                     "PvpRadius": 0,
                     "UseBeamSpread": 0,
@@ -624,7 +624,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -1014,7 +1014,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_FIRE",
                         "Amount": 30,
-                        "ProcChance": 0.24,
+                        "ProcChance": 0.23999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -1085,16 +1085,16 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": "",
                     "NumChains": 2,
                     "SequentialChains": 1,
                     "ChainDistance": 10,
                     "AttachBeamToTorso": 1,
-                    "ChainDamageMultiplier": 0.8,
+                    "ChainDamageMultiplier": 0.80000001,
                     "StopChainOnParry": 0,
                     "ChainEffectType": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/BoarVoidChainBeam",
                     "ChainableTypes": []
@@ -1109,7 +1109,7 @@
                     "fireRate": 480,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 0,
-                    "ModeSwitchTime": 0.6,
+                    "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "autoReloadEmptyTime": 0,

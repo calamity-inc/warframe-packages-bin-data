@@ -5,7 +5,7 @@
         "PIXEL_EFFECT": "FLOW_MAP",
         "DETAILING": "IRIDESCENCE",
         "EMISSIVE_MAP": 1,
-        "PS:Roughness": 0.3,
+        "PS:Roughness": 0.30000001,
         "PS:IridescentFrequency": [
             1,
             1.5,
@@ -13,30 +13,30 @@
         ],
         "PS:IridescentStrength": 2,
         "PS:IridescentUvPanScale": [
-            0.004,
-            -0.01,
+            0.0040000002,
+            -0.0099999998,
             10,
             10
         ],
         "PS:IridescentUvPanScaleTwo": [
-            0.01,
-            0.01,
+            0.0099999998,
+            0.0099999998,
             1,
             1
         ],
         "PS:EmissiveTintColorHi": [
-            0.21,
-            0.091,
-            0.091,
+            0.20999999,
+            0.090999998,
+            0.090999998,
             1
         ],
         "PS:EmissiveTintColorLo": [
             0.17,
-            0.072,
-            0.072,
+            0.071999997,
+            0.071999997,
             1
         ],
-        "PS:EmissiveMapAtten": 0.4,
+        "PS:EmissiveMapAtten": 0.40000001,
         "PS:EmissiveFresnel": [
             1,
             4,
@@ -47,11 +47,11 @@
         "PS:FlowAmount": 0.1,
         "PS:FlowSpeed": 1,
         "PS:FlowUvPan": [
-            0.01,
+            0.0099999998,
             0.02
         ],
         "PS:TintColor": [
-            0.72,
+            0.72000003,
             0.69,
             0.69,
             1
@@ -63,9 +63,9 @@
             0
         ],
         "PS:SecondaryTintColor": [
-            0.97,
-            0.68,
-            0.68,
+            0.97000003,
+            0.68000001,
+            0.68000001,
             0
         ],
         "PS:UvScale": [
@@ -82,7 +82,7 @@
         "TX:IridescentCubeMap": "/Lotus/Materials/Cubemaps/HabourLevel2_cmcross.hdr",
         "VS:VolumePan": [
             0.1,
-            0.3,
+            0.30000001,
             0.1
         ],
         "VS:VolumeScale": [
@@ -91,9 +91,9 @@
             1.5
         ],
         "VS:VolumeOffsetScale": [
-            0.06,
-            0.06,
-            0.06
+            0.059999999,
+            0.059999999,
+            0.059999999
         ],
         "VS:VolumeOffsetPivotOutScale": 0,
         "VS:VolumeOffsetScaleChunks": 0,
@@ -107,6 +107,6 @@
             0
         ],
         "TX:NoiseVolume": "/EE/Materials/Util/CurlNoiseFlowVolumeNoise_v.png",
-        "DepthBias": -0.00002
+        "DepthBias": -0.000019999999
     }
 }

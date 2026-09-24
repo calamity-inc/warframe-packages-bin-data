@@ -12,10 +12,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.040836,
-                    0.046157,
-                    0.062831,
-                    0.99612
+                    -0.040835999,
+                    0.046156999,
+                    0.062830999,
+                    0.99611998
                 ],
                 "BoneName": "GAME_C1_NECK1",
                 "Type": "FlameDamageTrigger",
@@ -59,8 +59,8 @@
             "_jumpOutAnim": "",
             "_teleportFx": "",
             "_shockType": "",
-            "_phaseOneThreshold": 0.7,
-            "_phaseTwoThreshold": 0.4,
+            "_phaseOneThreshold": 0.69999999,
+            "_phaseTwoThreshold": 0.40000001,
             "_outerCatwalkController": "",
             "_innerCatwalkController": "",
             "_arenaLightsOn": "",
@@ -132,15 +132,15 @@
         "MotionControllerType": "KelaDynamicMotionController",
         "RaycastProxy": {
             "LocalPosition": [
-                0.4,
+                0.40000001,
                 0,
                 0
             ],
             "LocalRotation": [
                 0,
                 0,
-                0.766044,
-                0.642788
+                0.76604402,
+                0.64278799
             ],
             "BoneName": "GAME_C1_HIP1",
             "Type": "HitProxies/KelaFullBody"
@@ -159,7 +159,7 @@
         "MorphName:PAIN": "Morphs.Pain",
         "KillXPReward": 1500,
         "ExcludedFromSimulacrum": 1,
-        "PartialFrozenWarmUpRate": 0.6,
+        "PartialFrozenWarmUpRate": 0.60000002,
         "DeathMark": "/Lotus/Language/Bosses/BossKelaDeThaym",
         "PostActivityOnDeath": 1,
         "PostActivityOnDeathPartialFileName": "KelaDethaym",

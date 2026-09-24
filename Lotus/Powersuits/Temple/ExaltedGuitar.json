@@ -9,10 +9,10 @@
                     0.1
                 ],
                 "LocalRotation": [
-                    -0.326506,
-                    0.627211,
-                    -0.092296,
-                    0.701057
+                    -0.32650599,
+                    0.62721097,
+                    -0.092295997,
+                    0.70105702
                 ]
             }
         },
@@ -21,25 +21,25 @@
         "UseGripOffset": 1,
         "GripPositionOffset": [
             -0.1,
-            -0.05,
-            -0.065
+            -0.050000001,
+            -0.064999998
         ],
         "GripRotationOffset": [
             0.440512,
             0.38112,
-            -0.603687,
-            0.544296
+            -0.60368699,
+            0.54429603
         ],
         "GripBone": "GAME_C1_LOWERSTRING1",
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -68,7 +68,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -197,14 +197,14 @@
                     "WhizDeviation": 1,
                     "WhizChance": 0,
                     "WhizzByRemoteMinDistance": 15,
-                    "TraceRadius": 0.15,
+                    "TraceRadius": 0.15000001,
                     "PvpTraceRadius": 0,
                     "RefinedSweep": 0,
                     "AffectedByStasis": 1,
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 42,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.3,
+                    "MaxTraceDistanceTime": 0.30000001,
                     "RetractTime": 0.25,
                     "AttachToWeapon": 1,
                     "UseWeaponAttachmentFirePos": 0,
@@ -216,10 +216,10 @@
                             0
                         ],
                         "LocalRotation": [
-                            0.707107,
+                            0.70710677,
                             0,
                             0,
-                            0.707107
+                            0.70710677
                         ],
                         "BoneName": "GAME_C1_LOWERSTRING2",
                         "Type": "/Lotus/Fx/PowersuitAbilities/Temple/TempleFlamethrowerFX",
@@ -320,7 +320,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -419,7 +419,7 @@
                             "LocalPosition": [
                                 0,
                                 0.1,
-                                0.7
+                                0.69999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -441,7 +441,7 @@
                             "LocalPosition": [
                                 0,
                                 0.1,
-                                0.7
+                                0.69999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -463,7 +463,7 @@
                             "LocalPosition": [
                                 0,
                                 0.1,
-                                0.7
+                                0.69999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -710,7 +710,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_FIRE",
                         "Amount": 85,
-                        "ProcChance": 0.35,
+                        "ProcChance": 0.34999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [
                             "PT_IMMOLATION"
@@ -731,7 +731,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.74,
+                    "PvpDamageMultiplier": 0.74000001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -763,7 +763,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.35,
+                    "criticalHitChance": 0.34999999,
                     "criticalHitDamageMultiplier": 2.3,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -783,15 +783,15 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": ""
                 },
                 "state:Type": "/EE/Types/Game/WeaponBeamStateBehavior",
                 "state:WeaponBeamStateBehavior": {
-                    "reloadTime": 0.01,
+                    "reloadTime": 0.0099999998,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -861,7 +861,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -1023,9 +1023,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -1097,7 +1097,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponStateBehavior",
                 "state:WeaponStateBehavior": {
-                    "reloadTime": 0.01,
+                    "reloadTime": 0.0099999998,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -1167,7 +1167,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -1329,9 +1329,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -1403,7 +1403,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponStateBehavior",
                 "state:WeaponStateBehavior": {
-                    "reloadTime": 0.01,
+                    "reloadTime": 0.0099999998,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -1473,7 +1473,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -1635,9 +1635,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -1709,7 +1709,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponStateBehavior",
                 "state:WeaponStateBehavior": {
-                    "reloadTime": 0.01,
+                    "reloadTime": 0.0099999998,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -1779,7 +1779,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -1941,9 +1941,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -2015,7 +2015,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponStateBehavior",
                 "state:WeaponStateBehavior": {
-                    "reloadTime": 0.01,
+                    "reloadTime": 0.0099999998,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -2086,14 +2086,14 @@
         ],
         "HolsterPosOffset": [
             -0.13,
-            0.55,
+            0.55000001,
             0.1
         ],
         "HolsterRotOffset": [
-            0.642207,
-            -0.045443,
+            0.64220703,
+            -0.045442998,
             0.741808,
-            -0.187688
+            -0.18768799
         ],
         "HideWhenHolstered": 1,
         "ArtifactSlots": [

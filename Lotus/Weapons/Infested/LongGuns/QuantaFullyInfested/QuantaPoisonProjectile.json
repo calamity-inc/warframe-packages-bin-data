@@ -97,7 +97,7 @@
         "AttackData": {
             "Type": "DT_POISON",
             "Amount": 33,
-            "ProcChance": 0.3,
+            "ProcChance": 0.30000001,
             "HitType": "DHT_PROJECTILE"
         },
         "DealDamageThroughImpactBehavior": 1,
@@ -108,7 +108,7 @@
         "KinematicAccel": 10,
         "KinematicInitialSpeed": 100,
         "KinematicMaxSpeed": 100,
-        "KinematicNoiseRate": 0.01,
+        "KinematicNoiseRate": 0.0099999998,
         "KinematicSpinRate": [
             80,
             0,
@@ -116,10 +116,10 @@
         ],
         "FaceVelocity": 1,
         "BaseRotation": [
-            0.707107,
+            0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "OnProjectileStoppedScript": {
             "Script": "/Lotus/Scripts/InfQuantaGrapple.lua",

@@ -4,8 +4,8 @@
         "HitProxies": [
             {
                 "LocalPosition": [
-                    -0.075,
-                    0.05,
+                    -0.075000003,
+                    0.050000001,
                     0
                 ],
                 "LocalRotation": [
@@ -27,7 +27,7 @@
             {
                 "LocalPosition": [
                     -0.1,
-                    0.05,
+                    0.050000001,
                     0
                 ],
                 "LocalRotation": [
@@ -55,8 +55,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM1",
                 "Type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperArm",
@@ -70,15 +70,15 @@
             },
             {
                 "LocalPosition": [
-                    0.15,
+                    0.15000001,
                     0,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM2",
                 "Type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerArm",
@@ -114,7 +114,7 @@
             },
             {
                 "LocalPosition": [
-                    -0.15,
+                    -0.15000001,
                     0,
                     0
                 ],
@@ -263,11 +263,11 @@
                     },
                     {
                         "damageUpperLimit": 10000,
-                        "damageResistanceRatio": 0.4
+                        "damageResistanceRatio": 0.40000001
                     },
                     {
                         "damageUpperLimit": 30000,
-                        "damageResistanceRatio": 0.6
+                        "damageResistanceRatio": 0.60000002
                     },
                     {
                         "damageUpperLimit": 50000,
@@ -288,10 +288,10 @@
         "MaxDamagePerSecondHealthPercentLower": 0.5,
         "MaxDamagePerSecondHealthPercentUpper": 0.2,
         "MaxPeakDamageHealthPercentLower": 0.2,
-        "MaxPeakDamageHealthPercentUpper": 0.05,
+        "MaxPeakDamageHealthPercentUpper": 0.050000001,
         "UpperLevelForMaxDamageScaling": 100,
         "ScaleCrits": 1,
         "ScaleAfterCrits": 1,
-        "AfterCritShotgunDPSCompensation": 0.7
+        "AfterCritShotgunDPSCompensation": 0.69999999
     }
 }

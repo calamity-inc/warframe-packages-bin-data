@@ -4,8 +4,8 @@
         "Rotation": [
             0,
             0,
-            0.707107,
-            0.707107
+            0.70710677,
+            0.70710677
         ],
         "Mesh": "GrineerSawbladeGunBladeStatic.fbx",
         "AutoSimChildren": [
@@ -62,8 +62,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Grineer/SawBlade/SawbladeTrail",
@@ -144,9 +144,9 @@
         ],
         "PhysicsBehavior": "/EE/Types/Physics/KinematicNonCollidable",
         "AttackData": {
-            "DT_IMPACT": 0.05,
-            "DT_PUNCTURE": 0.05,
-            "DT_SLASH": 0.9,
+            "DT_IMPACT": 0.050000001,
+            "DT_PUNCTURE": 0.050000001,
+            "DT_SLASH": 0.89999998,
             "Amount": 161,
             "ProcChance": 0.5
         },
@@ -164,14 +164,14 @@
         "BasePunctureDepth": 2.5,
         "StopOnAvatars": 0,
         "EmbedTime": [
-            0.01,
-            0.01
+            0.0099999998,
+            0.0099999998
         ],
         "KinematicMovement": 1,
         "KinematicAccel": 100,
         "KinematicInitialSpeed": 120,
         "KinematicMaxSpeed": 120,
-        "KinematicNoiseRate": 0.0001,
+        "KinematicNoiseRate": 0.000099999997,
         "KinematicSpinRate": [
             0,
             75,
@@ -181,8 +181,8 @@
         "BaseRotation": [
             0,
             0,
-            0.707107,
-            0.707107
+            0.70710677,
+            0.70710677
         ],
         "FlightAxis": "FA_X",
         "FlightUpVector": [

@@ -10,7 +10,7 @@
                     0,
                     0.017452,
                     0,
-                    0.999848
+                    0.99984801
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "/Lotus/Weapons/Tenno/Rifle/IncarnonTennoSniperRifleAttachment"
@@ -45,14 +45,14 @@
                     "ShakeAmbient": 0.1,
                     "ShakeDampening": 2,
                     "SwaySpeed": 0.1,
-                    "SwayAmplitude": 0.05
+                    "SwayAmplitude": 0.050000001
                 },
                 "aimFOVMultiplier": 3,
                 "Upgrades": [
                     {
                         "UpgradeType": "WEAPON_HEADSHOT_MULTIPLIER",
                         "OperationType": "STACKING_MULTIPLY",
-                        "Value": 0.3,
+                        "Value": 0.30000001,
                         "DamageType": "DT_ANY",
                         "AutoType": 1,
                         "ValidType": "",
@@ -71,14 +71,14 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
                         0.2,
                         0.2,
                         0.2
                     ],
                     "ShakeSpeed": 0.5,
-                    "ShakeAmbient": 0.15,
+                    "ShakeAmbient": 0.15000001,
                     "ShakeDampening": 2,
                     "SwaySpeed": 0.1,
                     "SwayAmplitude": 0.1
@@ -120,7 +120,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -247,7 +247,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -261,11 +261,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.35,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.34999999,
                         "DT_SLASH": 0.25,
                         "Amount": 225,
-                        "ProcChance": 0.3,
+                        "ProcChance": 0.30000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -284,7 +284,7 @@
                     ],
                     "damageFallOffMinDamage": 125,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.49,
+                    "PvpDamageMultiplier": 0.49000001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -452,7 +452,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -648,9 +648,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -730,7 +730,7 @@
                     "fireRate": 90,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 1,
-                    "ModeSwitchTime": 0.6,
+                    "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "ForceReturnToPreviousBehavior": 0,
@@ -798,7 +798,7 @@
         "ConsumeChargeConditions": [
             "SECONDARY_FIRE"
         ],
-        "WeaknessBonus": 0.4,
+        "WeaknessBonus": 0.40000001,
         "OmegaAttenuation": 1.15,
         "EvolutionReq": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/VectisIncarnonUnlocker",
         "Evolutions": [

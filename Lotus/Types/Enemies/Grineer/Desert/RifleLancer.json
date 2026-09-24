@@ -195,6 +195,7 @@
                 "DefaultReevaluationDelay": 0,
                 "TimeSinceLastSeen": 5,
                 "MaxDistToTarget": 5,
+                "SpeedMultiplier": 1,
                 "ConsiderOrderType": 1,
                 "Order": "StormTarget",
                 "FailsOnTargetAcquired": 1,
@@ -235,7 +236,7 @@
                 ],
                 "ShouldAim": 1,
                 "CanRun": 0,
-                "StopRadius": 4.2,
+                "StopRadius": 4.1999998,
                 "StopSearchIfNoTarget": 0,
                 "StopSearchOnAwarenessLevel": "AW_IDLE",
                 "MaintainedAwarenessLevel": "AW_ALERT",
@@ -376,6 +377,7 @@
                     3
                 ],
                 "FireBursts": 0,
+                "ChargeWeapon": 0,
                 "AimWhenPausing": 1,
                 "AimWhenStopping": 0,
                 "DecorativeReloads": 1,
@@ -386,7 +388,7 @@
                 "ReturnToCoverDamageThreshold": 0.5,
                 "ExitCoverOnDamageDuringWait": 0,
                 "ExitCoverOnDamageDuringWaitDamageThreshold": 0.5,
-                "PushoutFromCrouchDistance": 0.3,
+                "PushoutFromCrouchDistance": 0.30000001,
                 "RequireCover": 0,
                 "SuppressionUnderFireTime": 3,
                 "LookAtTarget": 0,
@@ -413,7 +415,7 @@
                 "LookAtNearbyPlayer": 0,
                 "LookAtTarget": 1,
                 "NearbyTeammatesThreshold": 10,
-                "PlayerBias": 0.6,
+                "PlayerBias": 0.60000002,
                 "ReportAttackOnDamage": 1,
                 "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                 "PatrolBehavior:Enabled": 1,
@@ -463,7 +465,6 @@
                 "RandomWalkBehavior:AimWhenIdle": 0,
                 "RandomWalkBehavior:AimWhenAlert": 1,
                 "RandomWalkBehavior:PermanentAlert": 0,
-                "RandomWalkBehavior:ForceIdleForSinglePointPatrols": 1,
                 "RandomWalkBehavior:AnimAction": "PatrolIdle",
                 "RandomWalkBehavior:GenericAnims": [],
                 "RandomWalkBehavior:MinPlayerDist": [
@@ -609,7 +610,7 @@
                 "CheckArc": 1,
                 "DoTurn": 1,
                 "StopMoving": 1,
-                "Gravity": -9.8,
+                "Gravity": -9.8000002,
                 "FromCoverMinTargetThreat": -5,
                 "FromOpenMinTargetThreat": 0
             },
@@ -635,6 +636,7 @@
                     3
                 ],
                 "FireBursts": 0,
+                "ChargeWeapon": 0,
                 "AimWhenPausing": 1,
                 "AimWhenStopping": 1,
                 "DecorativeReloads": 1,
@@ -645,7 +647,7 @@
                 "ReturnToCoverDamageThreshold": 0.5,
                 "ExitCoverOnDamageDuringWait": 0,
                 "ExitCoverOnDamageDuringWaitDamageThreshold": 0.5,
-                "PushoutFromCrouchDistance": 0.3,
+                "PushoutFromCrouchDistance": 0.30000001,
                 "RequireCover": 0,
                 "SuppressionUnderFireTime": 3,
                 "LookAtTarget": 0,
@@ -736,6 +738,7 @@
             "TeleportToEmplacement": 0,
             "DelayOnFailTime": 20,
             "FindEmplacementOnOrderFail": 0,
+            "ForceNeverLeave": 0,
             "ShootAction:Type": "/EE/Types/Npc/ShootAction",
             "ShootAction:Enabled": 1,
             "ShootAction:OnStartScript": {
@@ -838,7 +841,7 @@
             "HasDestroyableShield": 0,
             "MinDistanceToTarget": 6,
             "StopRadius": 0.5,
-            "NearDistance": 0.3,
+            "NearDistance": 0.30000001,
             "SpeedMultiplier": 1
         },
         "AttackFromTheOpenBehavior": {

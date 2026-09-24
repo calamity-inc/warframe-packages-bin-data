@@ -3,7 +3,7 @@
     "data": {
         "PostProcessInfo": {
             "dynamicExposure": [
-                0.15,
+                0.15000001,
                 16
             ],
             "targetExposure": 0.1,
@@ -27,7 +27,7 @@
                 133,
                 240
             ],
-            "distanceFogDensity": 0.225,
+            "distanceFogDensity": 0.22499999,
             "fogTexture": "/Lotus/Objects/Natural/Skybox/FogTextures/HorizonFog.png",
             "lightMapBoost": 3,
             "postFXMaterial": "/Lotus/Types/ACESPostDemo",
@@ -37,10 +37,10 @@
                 34.143848
             ],
             "sunColor": [
-                0.82,
-                0.43,
-                0.091,
-                0.82
+                0.81999999,
+                0.43000001,
+                0.090999998,
+                0.81999999
             ],
             "sunShaftsMultiplier": 0.2,
             "sunShafts": 1
@@ -79,7 +79,7 @@
             "bakingOptions:EnableApertureLightmapsPreDilate": 0,
             "bakingOptions:IndirectLightingFilterRadius": 5
         },
-        "CameraNearPlane": 0.05,
+        "CameraNearPlane": 0.050000001,
         "CameraFarPlane": 5000,
         "OnLevelObjectsCreated": {
             "Script": "/Lotus/Scripts/ProceduralSpawnSetup.lua",
@@ -150,7 +150,7 @@
             "_ultraRareLootWaypointType": "",
             "_ultraRareCrateType": "",
             "_altUltraRareCrateType": "",
-            "_ultraRareLootChance": 0.01,
+            "_ultraRareLootChance": 0.0099999998,
             "_floatingCrateWaypointType": "",
             "_floatingCrateTypes": [],
             "_numFloatingCrates": 25,

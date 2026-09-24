@@ -17,13 +17,13 @@
         },
         "HolsterBone1Name": "GAME_R1_WEAPON1",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -46,19 +46,19 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "UsesCustomWeaponAnim": 1,
         "GripPositionOffset": [
-            -0.09,
-            -0.03,
+            -0.090000004,
+            -0.029999999,
             0.14
         ],
         "GripRotationOffset": [
             -0.122789,
-            -0.696364,
-            0.707107,
+            -0.69636399,
+            0.70710677,
             0
         ],
         "GripBone": "GAME_C1_GRIP1",
@@ -66,11 +66,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -99,7 +99,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -199,7 +199,7 @@
                     "PvpTraceDistance": 300,
                     "punctureHitEffect": "",
                     "InfinitePunctureDepth": 0,
-                    "tracePunctureDepth": 0.8,
+                    "tracePunctureDepth": 0.80000001,
                     "PunchthroughIgnoresAvatars": 0,
                     "RicochetChance": 0,
                     "RicochetRange": 15,
@@ -261,7 +261,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.3,
+                    "PvpDamageMultiplier": 0.30000001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 1200,
                     "additionalForce": [
@@ -294,7 +294,7 @@
                     "AltEffectHands": [],
                     "ragdollChance": 0,
                     "criticalHitChance": 0.2,
-                    "criticalHitDamageMultiplier": 2.4,
+                    "criticalHitDamageMultiplier": 2.4000001,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -390,7 +390,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -563,7 +563,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_CORROSIVE",
                         "Amount": 3,
-                        "ProcChance": 0.3,
+                        "ProcChance": 0.30000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -730,7 +730,7 @@
             "AP_ATTACK",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 0.65,
+        "OmegaAttenuation": 0.64999998,
         "FireModes": [
             {
                 "localizedTag": "/Lotus/Language/Menu/Loadout_TriggerAuto",

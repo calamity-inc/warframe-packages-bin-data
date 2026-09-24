@@ -4,9 +4,11 @@
         "Script": {
             "Script": "/Lotus/Scripts/Challenges/EliteAlertMission.lua",
             "Function": "MatchTagEvent",
-            "_missionType": "MT_ANY"
+            "_missionType": "MT_ANY",
+            "_requiredTime": -1
         },
         "GameTag": "MISSION_COMPLETE",
+        "RequiredCompletedMission": "PlutoToErisJunction",
         "Icon": "/Lotus/Interface/Icons/Episodes/Hardcore/VitalArbiter.png"
     }
 }

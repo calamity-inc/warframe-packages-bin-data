@@ -34,7 +34,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -53,8 +53,8 @@
                                     0
                                 ],
                                 "fireRate": [
-                                    0.05,
-                                    0.05
+                                    0.050000001,
+                                    0.050000001
                                 ]
                             }
                         },
@@ -231,7 +231,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_IMPACT",
                         "Amount": 10,
-                        "ProcChance": 0.35,
+                        "ProcChance": 0.34999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "HitType": "DHT_NONE",
@@ -280,7 +280,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -350,7 +350,7 @@
                         "Script": ""
                     },
                     "ClipSizeAffectsChargeTime": 0,
-                    "ChargeTime": 0.3,
+                    "ChargeTime": 0.30000001,
                     "MinChargeRatio": 1,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 1,

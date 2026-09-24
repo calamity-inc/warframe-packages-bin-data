@@ -10,18 +10,18 @@
             255
         ],
         "TexturePanRateV": 0.2,
-        "TextureScaleV": 0.01,
+        "TextureScaleV": 0.0099999998,
         "NumPlanes": 1,
         "Radius": 0.2,
         "SectionLength": 0.1,
         "SectionRotationMax": 90,
         "Waves": [
             {
-                "Frequency": 0.6,
+                "Frequency": 0.60000002,
                 "Amplitude": [
                     0.2,
-                    0.3,
-                    0.3
+                    0.30000001,
+                    0.30000001
                 ],
                 "RadiusAmplitude": 0,
                 "PhaseShift": 2
@@ -43,16 +43,16 @@
         "GrowthRate": 200,
         "RandomBeamAmplitude": [
             0.1,
-            0.3
+            0.30000001
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 3,
                 "FadeRange": [
-                    0.4,
-                    0.4
+                    0.40000001,
+                    0.40000001
                 ],
                 "BaseValue": 2,
                 "Delay": 0,
@@ -66,7 +66,7 @@
         ],
         "Lifespan": [
             0.25,
-            0.4
+            0.40000001
         ],
         "ApplyColorCustomization": 1
     }

@@ -17,13 +17,13 @@
         "HolsterBone1Name": "GAME_R1_HOLSTERATTACH",
         "HolsterBone1Position": [
             0.02,
-            -0.05,
-            -0.03
+            -0.050000001,
+            -0.029999999
         ],
         "HolsterBone1Rotation": [
-            0.052286,
-            -0.002283,
-            0.04356,
+            0.052285999,
+            -0.0022829999,
+            0.043559998,
             0.997679
         ],
         "GripType": "GUN_ONE_HAND",
@@ -43,7 +43,7 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "Behaviors": [
@@ -61,7 +61,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -73,7 +73,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.3,
+                                    0.30000001,
                                     1
                                 ],
                                 "burstPauseTime": [
@@ -201,11 +201,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.7,
-                        "DT_PUNCTURE": 0.15,
-                        "DT_SLASH": 0.15,
+                        "DT_IMPACT": 0.69999999,
+                        "DT_PUNCTURE": 0.15000001,
+                        "DT_SLASH": 0.14999998,
                         "Amount": 30,
-                        "ProcChance": 0.06,
+                        "ProcChance": 0.059999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -223,7 +223,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.98,
+                    "PvpDamageMultiplier": 0.98000002,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -330,7 +330,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 1,
                     "NumShots": 3,
-                    "BurstDelay": 0.04,
+                    "BurstDelay": 0.039999999,
                     "IgnoreFireRate": 0,
                     "EatAmmoOnUnequip": 1,
                     "QueueBursts": 0,
@@ -354,7 +354,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -366,7 +366,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.3,
+                                    0.30000001,
                                     1
                                 ],
                                 "burstPauseTime": [
@@ -494,9 +494,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.7,
-                        "DT_PUNCTURE": 0.15,
-                        "DT_SLASH": 0.15,
+                        "DT_IMPACT": 0.69999999,
+                        "DT_PUNCTURE": 0.15000001,
+                        "DT_SLASH": 0.14999998,
                         "Amount": 40,
                         "ProcChance": 0.2,
                         "ForcedProcs": [],
@@ -516,7 +516,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.98,
+                    "PvpDamageMultiplier": 0.98000002,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -575,7 +575,7 @@
                     "fireRate": 210,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 0,
-                    "ModeSwitchTime": 0.6,
+                    "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "autoReloadEmptyTime": 0,
@@ -623,7 +623,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 1,
                     "NumShots": 3,
-                    "BurstDelay": 0.04,
+                    "BurstDelay": 0.039999999,
                     "IgnoreFireRate": 0,
                     "EatAmmoOnUnequip": 1,
                     "QueueBursts": 0,

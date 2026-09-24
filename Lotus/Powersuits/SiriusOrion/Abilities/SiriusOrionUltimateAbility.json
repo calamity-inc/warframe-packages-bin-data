@@ -130,106 +130,6 @@
                 }
             },
             {
-                "tag": "StartDash",
-                "executionMode": "EM_ALL",
-                "inheritPrimary": 1,
-                "functionName": "StartDash",
-                "scriptInstance": {
-                    "Script": "SiriusOrionUltimate.lua",
-                    "Function": "StartDash",
-                    "_activateAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4Start_anim.fbx",
-                    "_deactivateAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4End_anim.fbx",
-                    "_dashAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4HoverToAttack4_anim.fbx",
-                    "_castBurstEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateClashCastFX",
-                    "_hoverAttachEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateChargeUpFX",
-                    "_endHoverEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateTeleportFX",
-                    "_inputFilter": "/Lotus/Powersuits/SiriusOrion/UltimateInputFilter",
-                    "_flyPhysics": "/Lotus/Powersuits/SiriusOrion/UltimatePhysicsBehavior",
-                    "_walkPhysics": "/Lotus/Types/Player/TennoWalk",
-                    "_movingSound": "",
-                    "_clashEffectType": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateClashFX",
-                    "_dodgeEffect": "/Lotus/Fx/PowersuitAbilities/Sirius/UltimateDodgeFX",
-                    "_dashSound": "",
-                    "_empowerDashSound": "/Lotus/Sounds/Warframes/SiriusOrion/SiriusOrionCelestialClashEmpLunge",
-                    "_successSounds": []
-                }
-            },
-            {
-                "tag": "StopDash",
-                "executionMode": "EM_ALL",
-                "inheritPrimary": 1,
-                "functionName": "StopDash",
-                "scriptInstance": {
-                    "Script": "SiriusOrionUltimate.lua",
-                    "Function": "StopDash",
-                    "_activateAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4Start_anim.fbx",
-                    "_deactivateAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4End_anim.fbx",
-                    "_dashAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4HoverToAttack4_anim.fbx",
-                    "_castBurstEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateClashCastFX",
-                    "_hoverAttachEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateChargeUpFX",
-                    "_endHoverEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateTeleportFX",
-                    "_inputFilter": "/Lotus/Powersuits/SiriusOrion/UltimateInputFilter",
-                    "_flyPhysics": "/Lotus/Powersuits/SiriusOrion/UltimatePhysicsBehavior",
-                    "_walkPhysics": "/Lotus/Types/Player/TennoWalk",
-                    "_movingSound": "",
-                    "_clashEffectType": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateClashFX",
-                    "_dodgeEffect": "/Lotus/Fx/PowersuitAbilities/Sirius/UltimateDodgeFX",
-                    "_dashSound": "",
-                    "_empowerDashSound": "/Lotus/Sounds/Warframes/SiriusOrion/SiriusOrionCelestialClashEmpLunge",
-                    "_successSounds": []
-                }
-            },
-            {
-                "tag": "StartDashSwap",
-                "executionMode": "EM_ALL",
-                "inheritPrimary": 1,
-                "functionName": "StartDashSwap",
-                "scriptInstance": {
-                    "Script": "SiriusOrionUltimate.lua",
-                    "Function": "StartDashSwap",
-                    "_activateAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4Start_anim.fbx",
-                    "_deactivateAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4End_anim.fbx",
-                    "_dashAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4HoverToAttack4_anim.fbx",
-                    "_castBurstEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateClashCastFX",
-                    "_hoverAttachEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateChargeUpFX",
-                    "_endHoverEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateTeleportFX",
-                    "_inputFilter": "/Lotus/Powersuits/SiriusOrion/UltimateInputFilter",
-                    "_flyPhysics": "/Lotus/Powersuits/SiriusOrion/UltimatePhysicsBehavior",
-                    "_walkPhysics": "/Lotus/Types/Player/TennoWalk",
-                    "_movingSound": "",
-                    "_clashEffectType": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateClashFX",
-                    "_dodgeEffect": "/Lotus/Fx/PowersuitAbilities/Sirius/UltimateDodgeFX",
-                    "_dashSound": "",
-                    "_empowerDashSound": "/Lotus/Sounds/Warframes/SiriusOrion/SiriusOrionCelestialClashEmpLunge",
-                    "_successSounds": []
-                }
-            },
-            {
-                "tag": "StopDashSwap",
-                "executionMode": "EM_ALL",
-                "inheritPrimary": 1,
-                "functionName": "StopDashSwap",
-                "scriptInstance": {
-                    "Script": "SiriusOrionUltimate.lua",
-                    "Function": "StopDashSwap",
-                    "_activateAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4Start_anim.fbx",
-                    "_deactivateAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4End_anim.fbx",
-                    "_dashAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4HoverToAttack4_anim.fbx",
-                    "_castBurstEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateClashCastFX",
-                    "_hoverAttachEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateChargeUpFX",
-                    "_endHoverEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateTeleportFX",
-                    "_inputFilter": "/Lotus/Powersuits/SiriusOrion/UltimateInputFilter",
-                    "_flyPhysics": "/Lotus/Powersuits/SiriusOrion/UltimatePhysicsBehavior",
-                    "_walkPhysics": "/Lotus/Types/Player/TennoWalk",
-                    "_movingSound": "",
-                    "_clashEffectType": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateClashFX",
-                    "_dodgeEffect": "/Lotus/Fx/PowersuitAbilities/Sirius/UltimateDodgeFX",
-                    "_dashSound": "",
-                    "_empowerDashSound": "/Lotus/Sounds/Warframes/SiriusOrion/SiriusOrionCelestialClashEmpLunge",
-                    "_successSounds": []
-                }
-            },
-            {
                 "tag": "DoDodge",
                 "executionMode": "EM_ALL",
                 "inheritPrimary": 1,
@@ -295,33 +195,53 @@
                 }
             },
             {
-                "tag": "RequestSwapAndUseGear",
+                "tag": "DoUltimateDash",
                 "executionMode": "EM_ALL",
-                "inheritPrimary": 0,
-                "functionName": "",
+                "inheritPrimary": 1,
+                "functionName": "DoUltimateDash",
                 "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "RequestSwapAndUseGear",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 0
+                    "Script": "SiriusOrionUltimate.lua",
+                    "Function": "DoUltimateDash",
+                    "_activateAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4Start_anim.fbx",
+                    "_deactivateAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4End_anim.fbx",
+                    "_dashAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4HoverToAttack4_anim.fbx",
+                    "_castBurstEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateClashCastFX",
+                    "_hoverAttachEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateChargeUpFX",
+                    "_endHoverEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateTeleportFX",
+                    "_inputFilter": "/Lotus/Powersuits/SiriusOrion/UltimateInputFilter",
+                    "_flyPhysics": "/Lotus/Powersuits/SiriusOrion/UltimatePhysicsBehavior",
+                    "_walkPhysics": "/Lotus/Types/Player/TennoWalk",
+                    "_movingSound": "",
+                    "_clashEffectType": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateClashFX",
+                    "_dodgeEffect": "/Lotus/Fx/PowersuitAbilities/Sirius/UltimateDodgeFX",
+                    "_dashSound": "",
+                    "_empowerDashSound": "/Lotus/Sounds/Warframes/SiriusOrion/SiriusOrionCelestialClashEmpLunge",
+                    "_successSounds": []
                 }
             },
             {
-                "tag": "RequestUseGear",
-                "executionMode": "EM_HOST",
-                "inheritPrimary": 0,
-                "functionName": "",
+                "tag": "StartClashRMI",
+                "executionMode": "EM_ALL",
+                "inheritPrimary": 1,
+                "functionName": "StartClashRMI",
                 "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "RequestUseGear",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 0
+                    "Script": "SiriusOrionUltimate.lua",
+                    "Function": "StartClashRMI",
+                    "_activateAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4Start_anim.fbx",
+                    "_deactivateAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4End_anim.fbx",
+                    "_dashAnim": "/Lotus/Animations/Tenno/Powers/OrionAndSirius/Ability4HoverToAttack4_anim.fbx",
+                    "_castBurstEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateClashCastFX",
+                    "_hoverAttachEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateChargeUpFX",
+                    "_endHoverEffect": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateTeleportFX",
+                    "_inputFilter": "/Lotus/Powersuits/SiriusOrion/UltimateInputFilter",
+                    "_flyPhysics": "/Lotus/Powersuits/SiriusOrion/UltimatePhysicsBehavior",
+                    "_walkPhysics": "/Lotus/Types/Player/TennoWalk",
+                    "_movingSound": "",
+                    "_clashEffectType": "/Lotus/Fx/PowersuitAbilities/Orion/UltimateClashFX",
+                    "_dodgeEffect": "/Lotus/Fx/PowersuitAbilities/Sirius/UltimateDodgeFX",
+                    "_dashSound": "",
+                    "_empowerDashSound": "/Lotus/Sounds/Warframes/SiriusOrion/SiriusOrionCelestialClashEmpLunge",
+                    "_successSounds": []
                 }
             }
         ],
@@ -618,174 +538,6 @@
                     "_dashSound": "",
                     "_empowerDashSound": "",
                     "_successSounds": []
-                }
-            },
-            {
-                "tag": "OnGearInput",
-                "inputCode": "GEAR_HOTKEY_0",
-                "onDown": 1,
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "OnGearInputCommon",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 0
-                }
-            },
-            {
-                "tag": "OnGearInput",
-                "inputCode": "GEAR_HOTKEY_1",
-                "onDown": 1,
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "OnGearInputCommon",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 1
-                }
-            },
-            {
-                "tag": "OnGearInput",
-                "inputCode": "GEAR_HOTKEY_2",
-                "onDown": 1,
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "OnGearInputCommon",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 2
-                }
-            },
-            {
-                "tag": "OnGearInput",
-                "inputCode": "GEAR_HOTKEY_3",
-                "onDown": 1,
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "OnGearInputCommon",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 3
-                }
-            },
-            {
-                "tag": "OnGearInput",
-                "inputCode": "GEAR_HOTKEY_4",
-                "onDown": 1,
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "OnGearInputCommon",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 4
-                }
-            },
-            {
-                "tag": "OnGearInput",
-                "inputCode": "GEAR_HOTKEY_5",
-                "onDown": 1,
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "OnGearInputCommon",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 5
-                }
-            },
-            {
-                "tag": "OnGearInput",
-                "inputCode": "GEAR_HOTKEY_6",
-                "onDown": 1,
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "OnGearInputCommon",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 6
-                }
-            },
-            {
-                "tag": "OnGearInput",
-                "inputCode": "GEAR_HOTKEY_7",
-                "onDown": 1,
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "OnGearInputCommon",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 7
-                }
-            },
-            {
-                "tag": "OnGearInput",
-                "inputCode": "GEAR_HOTKEY_8",
-                "onDown": 1,
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "OnGearInputCommon",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 8
-                }
-            },
-            {
-                "tag": "OnGearInput",
-                "inputCode": "GEAR_HOTKEY_9",
-                "onDown": 1,
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "OnGearInputCommon",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 9
-                }
-            },
-            {
-                "tag": "OnGearInput",
-                "inputCode": "GEAR_HOTKEY_10",
-                "onDown": 1,
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "OnGearInputCommon",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 10
-                }
-            },
-            {
-                "tag": "OnGearInput",
-                "inputCode": "GEAR_HOTKEY_11",
-                "onDown": 1,
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/SiriusOrion/SiriusOrionPassive.lua",
-                    "Function": "OnGearInputCommon",
-                    "_fullConstellationSequencer": "",
-                    "_constellationFilledSound": "",
-                    "_starAddedSound": "",
-                    "_soundToPlay": "",
-                    "_gearIndex": 11
                 }
             }
         ],

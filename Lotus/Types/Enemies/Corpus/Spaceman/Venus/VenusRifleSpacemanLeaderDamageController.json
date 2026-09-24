@@ -1,0 +1,64 @@
+{
+    "parent": "VenusRifleSpacemanDamageController",
+    "data": {
+        "Armour": [
+            {
+                "Type": "/Lotus/Types/Game/ArmourGroup",
+                "MaxHealth": 100,
+                "ScaleHealth": 0,
+                "RemoveProcs": 0,
+                "Strength": 1,
+                "AllowCarryOverDamage": 1,
+                "ProtectedByOverguard": 0,
+                "PeakDamage": -1,
+                "Part": "HEAD",
+                "AttachmentTypes": [
+                    "/Lotus/Characters/Guild/Spaceman/Venus/TheEngineerHelmetLeaderDeco"
+                ],
+                "RestoreAttachments": 0,
+                "UseSpecificHitProxy": 0,
+                "HitProxySubId": 4294967295,
+                "DisableProxyOnDestroy": 0,
+                "LocTag": "",
+                "Tag": "",
+                "InvulSymbol": "",
+                "DestroyedEffect": {
+                    "LocalPosition": [
+                        0,
+                        1,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Characters/Guild/Spaceman/Venus/VenusEngineerHelmetLeaderSpawner",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 0,
+                    "DestroyWithOwner": 0,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                "DisablePartOnDestroy": 0,
+                "DestroyedChallengeTag": "HELMET_DESTROYED",
+                "ApplyProcOnDestroyed": 1,
+                "ProcTypeOnDestroyed": "PT_STAGGERED",
+                "DamageProjectorType": "",
+                "ProjectorAttenuationRange": [
+                    0.30000001,
+                    1
+                ],
+                "MaxVisibilityHealthRatio": 0.85000002,
+                "NotifyWeaponOnDamaged": 1,
+                "OnDamagedScript": {
+                    "Script": ""
+                }
+            }
+        ]
+    }
+}

@@ -1,6 +1,9 @@
 {
     "parent": "VenusSpacemanBaseAgent",
     "data": {
+        "AvatarTypes": {
+            "EXIMUS": "Avatars/VenusRifleSpacemanAvatarLeader"
+        },
         "MinLevel": 10,
         "MaxLevel": 15,
         "BehaviorDatabase": [
@@ -47,14 +50,24 @@
                     "MinRange": 0,
                     "MaxRange": 1000,
                     "EquipStyle": "ES_INSTANT_EQUIP",
-                    "TargetTypeSetting": "ATS_LAND_ONLY"
+                    "TargetTypeSetting": "ATS_LAND_ONLY",
+                    "RandomSwapDelayPerWeapon": [
+                        0,
+                        0
+                    ],
+                    "SwapAfterMinOneShot": 0
                 },
                 {
                     "WeaponSlot": "SLOT_1",
                     "MinRange": 0,
                     "MaxRange": 1000,
                     "EquipStyle": "ES_INSTANT_EQUIP",
-                    "TargetTypeSetting": "ATS_AIR_ONLY"
+                    "TargetTypeSetting": "ATS_AIR_ONLY",
+                    "RandomSwapDelayPerWeapon": [
+                        0,
+                        0
+                    ],
+                    "SwapAfterMinOneShot": 0
                 }
             ],
             "WeaponHand": "MAIN_HAND",
@@ -83,8 +96,8 @@
                 "_decoType": "ReinforcementBeacon/VenusReinforceBeaconDeco",
                 "_openAnim": "",
                 "_openingAnim": "",
-                "_scaleUpTime": 0.4,
-                "_desiredScale": 0.6,
+                "_scaleUpTime": 0.40000001,
+                "_desiredScale": 0.60000002,
                 "_mainFlareType": "",
                 "_activeFlareType": "",
                 "_alertMarkerType": "",
@@ -245,10 +258,10 @@
                     -0.2
                 ],
                 "LocalRotation": [
-                    0.541675,
+                    0.54167497,
                     0.454519,
                     -0.454519,
-                    0.541675
+                    0.54167497
                 ],
                 "BoneName": "GAME_L1_LEG1",
                 "Type": "/Lotus/Weapons/Corpus/Emplacement/CrpDeployableCover/CrpDeployableCoverAttachment",
@@ -317,7 +330,8 @@
             "MinDistFromEnemy": 10,
             "EvaluationDelayOnEnemyToClose": 5,
             "MatchActionAttachOwnerFaction": 0,
-            "AttackTargetsOnRoute": 0
+            "AttackTargetsOnRoute": 0,
+            "StopWhenNoLongerTouching": 1
         },
         "AttackFromCoverTactic": {
             "Enabled": 1,
@@ -374,7 +388,7 @@
                 "LastDamagedWindow": 5,
                 "DistanceToTarget": 15,
                 "MovementSpeedModifier": [
-                    0.8,
+                    0.80000001,
                     1
                 ],
                 "SeekCoverDelayOnFail": 1,
@@ -425,7 +439,7 @@
                 "CheckArc": 1,
                 "DoTurn": 1,
                 "StopMoving": 1,
-                "Gravity": -9.8,
+                "Gravity": -9.8000002,
                 "FromCoverMinTargetThreat": -5,
                 "FromOpenMinTargetThreat": 0
             },
@@ -444,7 +458,7 @@
                     5
                 ],
                 "MinShots": 1,
-                "MaxHealth": 0.4,
+                "MaxHealth": 0.40000001,
                 "CrouchCoverOnly": 1
             },
             "ControlledShootBehavior": {
@@ -469,6 +483,7 @@
                     3
                 ],
                 "FireBursts": 0,
+                "ChargeWeapon": 0,
                 "AimWhenPausing": 0,
                 "AimWhenStopping": 0,
                 "DecorativeReloads": 1,
@@ -479,7 +494,7 @@
                 "ReturnToCoverDamageThreshold": 0.5,
                 "ExitCoverOnDamageDuringWait": 0,
                 "ExitCoverOnDamageDuringWaitDamageThreshold": 0.5,
-                "PushoutFromCrouchDistance": 0.3,
+                "PushoutFromCrouchDistance": 0.30000001,
                 "RequireCover": 1,
                 "SuppressionUnderFireTime": 3,
                 "LookAtTarget": 0,
@@ -558,7 +573,7 @@
             "CheckArc": 1,
             "DoTurn": 1,
             "StopMoving": 1,
-            "Gravity": -9.8,
+            "Gravity": -9.8000002,
             "FromCoverMinTargetThreat": -5,
             "FromOpenMinTargetThreat": -5
         },
@@ -575,7 +590,7 @@
             "MinStrafeDistance": 0,
             "StopRadius": 0.5,
             "MovementSpeedModifier": [
-                0.8,
+                0.80000001,
                 1.2
             ],
             "MovementLineOfFireScoring": 0,
@@ -593,7 +608,7 @@
                 0
             ],
             "MinAngleToTurn": 40,
-            "MinAimMask": 0.9,
+            "MinAimMask": 0.89999998,
             "TargetNotVisibleTimeoutRange": [
                 6,
                 8
@@ -613,7 +628,7 @@
             "StartRepositionTimerAtDest": 1,
             "KeepRunningDuringWaitPeriod": 1,
             "MoveDuringShoot": 1,
-            "CrouchDuringShootChance": 0.3,
+            "CrouchDuringShootChance": 0.30000001,
             "AllowCrouchMoveDistance": 0,
             "IgnoreTeammateBlockage": 0,
             "DecorativeReloads": 1,
@@ -645,7 +660,6 @@
             "ConstrainToSpawnPosition": 0
         },
         "MoveTowardsTacEnemyInfluence": {
-            "StopRadius": 0.5,
             "NearDistance": 2,
             "NoCoverAfterExitTime": 1,
             "MustBeFurtherFromObjective": 1
@@ -657,7 +671,7 @@
             "RandomWalkBehavior:UseDefenseVolume": 1
         },
         "BaseHitChance": [
-            0.35,
+            0.34999999,
             1
         ]
     }

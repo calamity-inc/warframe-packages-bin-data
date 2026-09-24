@@ -2,29 +2,29 @@
     "parent": "CorpusShipRemasteredPostProcessLevelInfo",
     "data": {
         "PostProcessInfo": {
-            "exposureCurveBias": -0.314,
+            "exposureCurveBias": -0.31400001,
             "toneMapType": "TM_ACES_REF",
             "toneMapLUT": "/EE/Materials/PostFX/TriuneLUTs/InterstellarLogC.cube",
-            "toneMapLUTBlend": 0.85,
+            "toneMapLUTBlend": 0.85000002,
             "colorGradingData": {
                 "Global": {
                     "Saturation": [
                         1,
                         1,
                         1,
-                        0.97
+                        0.97000003
                     ],
                     "Contrast": [
                         1,
-                        0.97,
-                        0.97,
+                        0.97000003,
+                        0.97000003,
                         1.1
                     ],
                     "Gamma": [
                         1,
                         1,
                         1,
-                        0.99
+                        0.99000001
                     ]
                 }
             },
@@ -33,13 +33,13 @@
                 "NearDistance": 0.1,
                 "Extinction": 0.25,
                 "GlobalFog": {
-                    "Density": 0.03,
+                    "Density": 0.029999999,
                     "G": 0.5
                 },
                 "ClumpyNoise": {
-                    "ClumpAmount": 0.65,
-                    "ClumpStart": 0.3,
-                    "ClumpEnd": 0.6,
+                    "ClumpAmount": 0.64999998,
+                    "ClumpStart": 0.30000001,
+                    "ClumpEnd": 0.60000002,
                     "NoiseScale": 0.2
                 }
             }

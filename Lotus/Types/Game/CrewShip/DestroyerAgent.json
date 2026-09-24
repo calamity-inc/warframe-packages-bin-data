@@ -39,8 +39,8 @@
             "DefaultReevaluationDelay": 0,
             "BlockOnBeingAttached": 0,
             "ShouldRemovePerception": 1,
-            "Deceleration": 0.15,
-            "AltDeceleration": 0.15,
+            "Deceleration": 0.15000001,
+            "AltDeceleration": 0.15000001,
             "AltDecelPostures": [],
             "PostDeathDeceleration": 0,
             "RandomDriftAngleRange": [
@@ -60,7 +60,7 @@
                 "Script": ""
             },
             "DefaultReevaluationDelay": 0,
-            "AvatarOutOfBoundsRatioToDisappear": 0.9,
+            "AvatarOutOfBoundsRatioToDisappear": 0.89999998,
             "AllowCombat": 0,
             "AlwaysDestroyOutsidePlayingSpace": 1,
             "RetreatOrder": "RetreatOffMap"
@@ -75,7 +75,7 @@
             },
             "DefaultReevaluationDelay": 0,
             "SpeedMultiplier": 1.4,
-            "AvatarOutOfBoundsRatioRequired": 0.8
+            "AvatarOutOfBoundsRatioRequired": 0.80000001
         },
         "FlyInFormationTactic": {
             "Enabled": 1,
@@ -551,15 +551,15 @@
                 "MinHandAim": 0,
                 "ThreatFactor": 0.25,
                 "ShootingTime": 6,
-                "FiringChancePenaltyAtZeroCrewRailjack": 0.4,
-                "FiringChancePenaltyAtZeroGunnerRailjack": 0.3,
+                "FiringChancePenaltyAtZeroCrewRailjack": 0.40000001,
+                "FiringChancePenaltyAtZeroGunnerRailjack": 0.30000001,
                 "SkipEmplacementAimCheck": 0,
                 "ApplyCrewSkills": 0,
                 "GunnerSkillAccuracy": [
                     0.5,
-                    0.65,
-                    0.8,
-                    0.95,
+                    0.64999998,
+                    0.80000001,
+                    0.94999999,
                     1.1,
                     1.25
                 ],
@@ -567,17 +567,17 @@
                     0,
                     0.1,
                     0.2,
-                    0.3,
-                    0.4,
+                    0.30000001,
+                    0.40000001,
                     0.5
                 ],
                 "PilotSkillSpeed": [
                     0.1,
                     0.2,
-                    0.3,
-                    0.4,
+                    0.30000001,
+                    0.40000001,
                     0.5,
-                    0.6
+                    0.60000002
                 ]
             },
             "LeaderAction:FailOnChildFailure": 1,
@@ -627,7 +627,7 @@
                 "UseEndNodePos": 1,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1
         },
@@ -648,7 +648,7 @@
             "MoveSuccessRadius": 40,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 1,
             "StopWhenMovementInactive": 1,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1,
             "PreferedDistAboveNav": [
                 0,
@@ -742,7 +742,7 @@
         ],
         "AwarenessDecayTime": 0,
         "TargetLostTime": 20,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 800,
         "ReportTargetPortalCheck": 0,
         "ReportAwareness": 1,
@@ -755,7 +755,7 @@
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "DestroyerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/SpaceBattles/Grineer/Fighters/RailjackShipPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",
         "TargetEvaluatorType": "/Lotus/Types/Enemies/SpaceBattles/AntiRailjackSpaceFighterTargetEvaluator"
     }

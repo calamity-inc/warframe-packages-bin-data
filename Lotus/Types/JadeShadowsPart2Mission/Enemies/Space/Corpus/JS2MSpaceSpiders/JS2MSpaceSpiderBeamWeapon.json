@@ -8,7 +8,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.15
+                    0.15000001
                 ],
                 "BoneName": "GAME_R1_GUNFX",
                 "Type": "/Lotus/Weapons/SpaceWeapons/Corpus/SpaceTurretAttachment3rd"
@@ -17,7 +17,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.15
+                    0.15000001
                 ],
                 "BoneName": "GAME_L1_GUNFX",
                 "Type": "/Lotus/Weapons/SpaceWeapons/Corpus/SpaceTurretAttachment3rd"
@@ -28,14 +28,14 @@
         "RemovedWithOwnerAfterDrop": 0,
         "LocalizeTag": "[HC] JS2MSpaceSpiderBeamWeapon",
         "GripPositionOffset": [
-            -0.085,
+            -0.085000001,
             0,
-            0.135
+            0.13500001
         ],
         "GripRotationOffset": [
             -0.347803,
-            -0.675491,
-            0.637074,
+            -0.67549098,
+            0.63707399,
             -0.129932
         ],
         "Behaviors": [
@@ -131,7 +131,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "spreadUniform": 1,
-                    "SpreadRatioHorizontal": 0.7,
+                    "SpreadRatioHorizontal": 0.69999999,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -189,7 +189,7 @@
                     "RiftStasisWeight": 42,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
                     "MaxTraceDistanceTime": 0.25,
-                    "RetractTime": 0.01,
+                    "RetractTime": 0.0099999998,
                     "AttachToWeapon": 1,
                     "UseWeaponAttachmentFirePos": 1,
                     "MultiBeam": 0,
@@ -299,10 +299,10 @@
                     "ReverseSpread": 0,
                     "UseSmoothedAccuracy": 0,
                     "AttenuateSpreadForCharge": 1,
-                    "AttenuationAtMaxCharge": 0.0025,
+                    "AttenuationAtMaxCharge": 0.0024999999,
                     "ExpansionTime": 0.75,
-                    "CollapseTime": 0.01,
-                    "InnerRingMultiplier": 0.9,
+                    "CollapseTime": 0.0099999998,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 0,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -693,9 +693,9 @@
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
                         "DT_PUNCTURE": 0.1,
-                        "DT_SLASH": 0.8,
+                        "DT_SLASH": 0.80000001,
                         "Amount": 12,
-                        "ProcChance": 0.9,
+                        "ProcChance": 0.89999998,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -747,7 +747,7 @@
                     "AltEffectHands": [],
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
-                    "criticalHitDamageMultiplier": 2.4,
+                    "criticalHitDamageMultiplier": 2.4000001,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0.5,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -763,12 +763,12 @@
                     "IgnoreHeadshotBonusPvp": 0,
                     "AlwaysOverrideFiringAvatar": 0,
                     "ContinuousDamageAttenuation": [
-                        0.6,
+                        0.60000002,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": ""
                 },

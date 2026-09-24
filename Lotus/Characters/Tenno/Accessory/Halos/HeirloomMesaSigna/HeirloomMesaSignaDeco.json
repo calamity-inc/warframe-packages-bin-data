@@ -1,0 +1,44 @@
+{
+    "parent": "/Lotus/Characters/Tenno/Accessory/Halos/PrototypeCrownDeco",
+    "data": {
+        "Mesh": "HeirloomMesaSigna_skel.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "Cloth/HeirloomMesaSignaRopeClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "TestRotateMode": "TRM_AUTONOMOUS",
+        "ReplicaPositionNoise": [
+            0.050000001,
+            0.029999999,
+            0.029999999,
+            0.15000001
+        ],
+        "ReplicaRotationNoise": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "OverrideTable": "HeirloomMesaSignaDecoOverrides"
+    }
+}

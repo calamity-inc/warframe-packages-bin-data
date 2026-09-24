@@ -168,7 +168,7 @@
         "OnDamageScript": {
             "Script": "/Lotus/Types/Enemies/Duviri/DuviriCheckInterruptionAndStaggerOnRanged.lua",
             "Function": "CheckInterruptionDamageAndStaggerOnRangedDamage",
-            "_onRangedDamageProcChance": 0.3334,
+            "_onRangedDamageProcChance": 0.33340001,
             "_onRangedDamageProc": "PT_STAGGERED"
         },
         "OnPreDeathScript": {
@@ -177,7 +177,7 @@
             "_telegraphFx": "",
             "_muzzleFx": "",
             "_flashFx": "",
-            "_fadeTime": 0.3
+            "_fadeTime": 0.30000001
         },
         "OnDeathScript": {
             "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/Duviri/DuviriDaxRangedAvatarScript.lua",
@@ -185,7 +185,7 @@
             "_telegraphFx": "",
             "_muzzleFx": "",
             "_flashFx": "",
-            "_fadeTime": 0.3
+            "_fadeTime": 0.30000001
         },
         "SoundEvents": [
             {

@@ -12,14 +12,14 @@
                 "name": "AlphaFadeMult",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.05
+                "value": 0.050000001
             },
             {
                 "name": "NearFadeRange",
                 "type": "Float4",
                 "slot": -1,
                 "value": 20,
-                "value1": 0.05,
+                "value1": 0.050000001,
                 "value2": 0,
                 "value3": 0
             }
@@ -38,15 +38,15 @@
         ],
         "life": [
             0.1,
-            0.4
+            0.40000001
         ],
         "size": [
             0.001,
             0.001
         ],
         "velocity": [
-            0.01,
-            0.4
+            0.0099999998,
+            0.40000001
         ],
         "streaksFactor": 69.808029,
         "spawnShape": "SP_BOX",
@@ -54,29 +54,29 @@
             0,
             0
         ],
-        "inheritVelocity": 0.05,
+        "inheritVelocity": 0.050000001,
         "spawnScale": [
-            0.05,
-            0.05,
-            0.05
+            0.050000001,
+            0.050000001,
+            0.050000001
         ],
         "localSimulation": 1,
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/DataSquareFadeCloseAlpha",
         "colorKeys[0]": [
-            0.06,
-            0.51,
-            0.005,
+            0.059999999,
+            0.50999999,
+            0.0049999999,
             1
         ],
         "colorKeys[1]": [
-            0.61,
-            0.72,
+            0.61000001,
+            0.72000003,
             0.0066,
             1
         ],
         "numColors": 2,
         "vortexSpeed": 3,
-        "vortexDecay": 0.05,
+        "vortexDecay": 0.050000001,
         "vortexRadialForce": 50
     }
 }

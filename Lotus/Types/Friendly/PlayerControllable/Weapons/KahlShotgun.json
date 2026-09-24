@@ -17,9 +17,9 @@
         ],
         "AvailableOnPvp": 0,
         "GripPositionOffset": [
-            -0.075,
+            -0.075000003,
             -0.1,
-            -0.05
+            -0.050000001
         ],
         "GripRotationOffset": [
             0.106337,
@@ -32,11 +32,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -65,7 +65,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -201,11 +201,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.15,
-                        "DT_PUNCTURE": 0.65,
-                        "DT_SLASH": 0.2,
+                        "DT_IMPACT": 0.15000001,
+                        "DT_PUNCTURE": 0.64999998,
+                        "DT_SLASH": 0.20000005,
                         "Amount": 71,
-                        "ProcChance": 0.55,
+                        "ProcChance": 0.55000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [
                             "PT_RAGDOLL"
@@ -224,7 +224,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.26,
+                    "PvpDamageMultiplier": 0.25999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 1500,
                     "additionalForce": [
@@ -257,7 +257,7 @@
                     "AltEffectHands": [],
                     "ragdollChance": 0,
                     "criticalHitChance": 0.17,
-                    "criticalHitDamageMultiplier": 2.1,
+                    "criticalHitDamageMultiplier": 2.0999999,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,

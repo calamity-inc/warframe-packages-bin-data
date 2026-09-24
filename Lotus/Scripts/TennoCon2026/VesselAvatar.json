@@ -1,0 +1,17 @@
+{
+    "parent": "/Lotus/Types/Game/LotusVehicleAvatar",
+    "data": {
+        "Mesh": "/Lotus/Objects/Entrati/Lab/Props/Statues/ORKxLabStatueBaseA_skel.fbx",
+        "LODBias": -4,
+        "AnimationName": "ORKxLabVesselHubBRig",
+        "Tag": "VesselAvatar",
+        "ScriptInstance": {
+            "Script": "TennoConLiveRelay2026.lua",
+            "Function": "ApplyVesselCustomization",
+            "_transmissionSet": ""
+        },
+        "Faction": "TENNO",
+        "AnimControllerType": "VesselAnimController",
+        "AnimateMaster": 1
+    }
+}

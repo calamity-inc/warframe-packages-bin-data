@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/ShockwaveRing.fbx",
-        "MeshScale": 0.03,
+        "MeshScale": 0.029999999,
         "OverrideMaterial": [
             "DuviriCometImpactShockwaveDecoMat"
         ],
@@ -14,7 +14,7 @@
             {
                 "Parameter": "MorphAmount",
                 "Slot": -1,
-                "TimeLength": 0.15,
+                "TimeLength": 0.15000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -24,11 +24,11 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.4
+                            "Value": 0.40000001
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.8
+                            "Value": 0.80000001
                         },
                         {
                             "Time": 1,
@@ -47,7 +47,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.15,
+                "TimeLength": 0.15000001,
                 "Multiplier": 2,
                 "FadeRange": [
                     0,

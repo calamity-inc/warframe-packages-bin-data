@@ -20,8 +20,8 @@
                 "name": "vScales",
                 "type": "Float4",
                 "slot": -1,
-                "value": 0.8,
-                "value1": 0.8,
+                "value": 0.80000001,
+                "value1": 0.80000001,
                 "value2": 1,
                 "value3": 1
             },
@@ -41,14 +41,14 @@
         "DistortionEffect": 1,
         "DrawInTransparentPass": 1,
         "RandomMeshScale": [
-            0.6,
+            0.60000002,
             1
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 50,
                 "FadeRange": [
                     0.2,
@@ -61,7 +61,7 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.4,
+                            "Time": 0.40000001,
                             "Value": 0.1
                         },
                         {
@@ -81,7 +81,7 @@
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0.2,
@@ -101,7 +101,7 @@
             {
                 "Parameter": "DistortAtten",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0.2,

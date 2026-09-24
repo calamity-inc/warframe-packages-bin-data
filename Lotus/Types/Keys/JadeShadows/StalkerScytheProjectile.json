@@ -37,8 +37,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Weapons/Tenno/Melee/Scythe/JadeLightScythe/JadeScytheSlashTrail",
@@ -148,7 +148,7 @@
         "AttackData": {
             "DT_IMPACT": 0.2,
             "DT_PUNCTURE": 0.1,
-            "DT_SLASH": 0.7,
+            "DT_SLASH": 0.69999999,
             "Amount": 200
         },
         "DealDamageThroughImpactBehavior": 1,
@@ -178,7 +178,7 @@
         "DestroyOnContactTypes": [
             "/Lotus/Types/Enemies/Corpus/Spaceman/AIWeek/NullifyShieldDecoCollision"
         ],
-        "DamageAttenuationPerSec": 0.4,
+        "DamageAttenuationPerSec": 0.40000001,
         "DamageAttenuationPerAvatarHit": 0.2
     }
 }

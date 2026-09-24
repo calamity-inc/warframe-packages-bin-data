@@ -3,7 +3,7 @@
     "data": {
         "PostProcessInfo": {
             "dynamicExposure": [
-                0.15,
+                0.15000001,
                 16
             ],
             "useExposureEVCurve": 1,
@@ -42,17 +42,17 @@
             "lightningSkyBloom": 40,
             "lightningLightMapIntensity": 25,
             "sunPosition": [
-                0.599632,
+                0.59963202,
                 1.145866,
                 1
             ],
             "sunColor": [
-                0.4,
-                0.53,
-                0.67,
+                0.40000001,
+                0.52999997,
+                0.67000002,
                 1
             ],
-            "sunShaftsDensity": 0.609756,
+            "sunShaftsDensity": 0.60975599,
             "sunShaftsDecay": 1,
             "sunShaftsMultiplier": 0.1,
             "sunShaftsTintColor": [
@@ -72,7 +72,7 @@
                 0.001,
                 0.001,
                 0,
-                -0.01
+                -0.0099999998
             ],
             "cloudShadowsAttenuationsParams": [
                 1,
@@ -84,15 +84,15 @@
                 "ExtinctionConfusion": 0.75,
                 "ScatteringConfusion": 0.5,
                 "GlobalFog": {
-                    "Density": 0.005,
-                    "NoiseScale": 0.005
+                    "Density": 0.0049999999,
+                    "NoiseScale": 0.0049999999
                 },
                 "HeightFog": {
                     "HeightFogMinHeight": -70,
                     "HeightFogMaxHeight": -40,
                     "HeightFogParticipatingMedia": {
                         "Density": 0.025,
-                        "NoiseScale": 0.005,
+                        "NoiseScale": 0.0049999999,
                         "Falloff": 1
                     }
                 },
@@ -106,22 +106,22 @@
                 },
                 "ClumpyNoise": {
                     "ClumpAmount": 0.5,
-                    "ClumpStart": 0.4,
-                    "ClumpEnd": 0.8,
-                    "NoiseScale": 0.005
+                    "ClumpStart": 0.40000001,
+                    "ClumpEnd": 0.80000001,
+                    "NoiseScale": 0.0049999999
                 },
                 "ColorGrading": {
-                    "Vibrance": 0.4
+                    "Vibrance": 0.40000001
                 }
             }
         },
         "PostProcessInfoAlt": {
-            "targetExposure": 0.045,
+            "targetExposure": 0.045000002,
             "colorGrading": "/Lotus/Fx/ColorGradingData/NeutralColorGrading",
-            "saturation": 0.8,
-            "horizonDOF": 0.35,
+            "saturation": 0.80000001,
+            "horizonDOF": 0.34999999,
             "horizonRadius": 1,
-            "horizonFog": 0.35,
+            "horizonFog": 0.34999999,
             "horizonFogRadius": 1,
             "fogColor": [
                 110,
@@ -183,7 +183,7 @@
             "bakingOptions:IndirectLightingFilterRadius": 5
         },
         "BakeFilesEnabled": 1,
-        "CameraNearPlane": 0.05,
+        "CameraNearPlane": 0.050000001,
         "CameraFarPlane": 4000,
         "OnLocalAvatarCreatedScript": {
             "Script": "/Lotus/Scripts/ProceduralLevel.lua",

@@ -1,6 +1,74 @@
 {
     "parent": "NullifySpacemanAvatar",
     "data": {
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    -0.41,
+                    -0.057999998,
+                    0
+                ],
+                "LocalRotation": [
+                    0.52133501,
+                    -0.47771299,
+                    0.52133501,
+                    0.47771299
+                ],
+                "BoneName": "GAME_C1_SPINE3",
+                "Type": "/Lotus/Characters/Guild/Spaceman/CorpusSpacemanHelmetTopDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    1.4,
+                    0.12,
+                    0
+                ],
+                "LocalRotation": [
+                    0.52133399,
+                    -0.477714,
+                    0.52133399,
+                    0.477714
+                ],
+                "BoneName": "GAME_C1_SPINE3",
+                "Type": "NullifierDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.5,
+                    0.185,
+                    0
+                ],
+                "LocalRotation": [
+                    0.52133399,
+                    -0.477714,
+                    0.52133399,
+                    0.477714
+                ],
+                "BoneName": "GAME_C1_SPINE3",
+                "Type": "NullifierCapDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
         "VoiceBox": "/Lotus/Sounds/Dialog/Barks/Battle/Eximus/EximusCorpusCrewmen/EximusCorpusCrewmenVoiceBox",
         "KillXPReward": 500,
         "PartialFrozenWarmUpRate": 0.25,
@@ -112,6 +180,27 @@
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Guild/Spaceman/CorpusSpacemanLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Guild/Spaceman/CorpusHelmetLeaderVolt"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
                     "MeshScale": 1.1
                 },
                 "Probability": 1

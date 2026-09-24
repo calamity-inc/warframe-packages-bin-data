@@ -96,15 +96,15 @@
         "PhysicsBehavior": "/EE/Types/Physics/KinematicAvatarsWalkThrough",
         "AttackData": {
             "Type": "DT_PUNCTURE",
-            "ProcChance": 0.05
+            "ProcChance": 0.050000001
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.05,
+        "CriticalChance": 0.050000001,
         "CriticalMultiplier": 2,
         "ExplosiveAttack": {
             "Type": "DT_PUNCTURE",
             "Amount": 10,
-            "ProcChance": 0.05
+            "ProcChance": 0.050000001
         },
         "DieEffect": "NaniteCloudSpawner",
         "DieEffectOffset": [
@@ -128,7 +128,7 @@
         "KinematicInitialSpeed": 5,
         "KinematicMaxSpeed": 15,
         "KinematicNoise": 50,
-        "KinematicNoiseRate": 0.6,
+        "KinematicNoiseRate": 0.60000002,
         "KinematicRestitution": 0,
         "KinematicRestitutionParallel": 0,
         "KinematicBulletRaycast": 0,
@@ -139,6 +139,6 @@
         "AvatarTargetPart": "TORSO",
         "SeparationStrength": 1.2,
         "AlignmentStrength": 1.5,
-        "CohesionStrength": 0.6
+        "CohesionStrength": 0.60000002
     }
 }

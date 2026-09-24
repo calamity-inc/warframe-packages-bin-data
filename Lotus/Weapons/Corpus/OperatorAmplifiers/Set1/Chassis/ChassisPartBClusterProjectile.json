@@ -2,7 +2,7 @@
     "parent": "/Lotus/Weapons/Tenno/Grenades/GrenadeProjectile",
     "data": {
         "Mesh": "/Lotus/Fx/Common/Sphere1.fbx",
-        "MeshScale": 0.05,
+        "MeshScale": 0.050000001,
         "OverrideMaterial": [
             "/Lotus/Fx/Weapons/Operator/OculusCProjMat"
         ],
@@ -13,7 +13,7 @@
                 "slot": -1,
                 "value": [
                     0.0041,
-                    0.29,
+                    0.28999999,
                     1,
                     1
                 ]
@@ -24,7 +24,7 @@
                 "slot": -1,
                 "value": [
                     0,
-                    0.45,
+                    0.44999999,
                     1,
                     1
                 ]
@@ -64,7 +64,7 @@
         "ReplicaRunScriptInstance": 1,
         "AttackData": {
             "Type": "DT_IMPACT",
-            "ProcChance": 0.3
+            "ProcChance": 0.30000001
         },
         "DealDamageThroughImpactBehavior": 1,
         "CriticalChance": 0.1,

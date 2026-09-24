@@ -135,8 +135,8 @@
         "KinematicInitialSpeed": 20,
         "KinematicMaxSpeed": 20,
         "KinematicGravity": 1,
-        "KinematicRestitution": 0.15,
-        "KinematicRestitutionParallel": 0.15,
+        "KinematicRestitution": 0.15000001,
+        "KinematicRestitutionParallel": 0.15000001,
         "KinematicBulletRaycast": 0,
         "ProjectileReplication": "REPLICATED",
         "OnProjectileStoppedScript": {
@@ -144,7 +144,7 @@
             "Function": "SpawnTurret",
             "_turretAgentType": "CrpAdmiralFreezeTurretAgent",
             "_parentAvatarType": "Avatars/CrpAdmiralFlyingAvatar",
-            "_parentRankMin": 0.8,
+            "_parentRankMin": 0.80000001,
             "_parentRankMax": 1,
             "_turretMaxLife": 30,
             "_setAgentParent": 1

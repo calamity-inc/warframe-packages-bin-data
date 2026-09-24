@@ -25,7 +25,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -165,8 +165,8 @@
                         {
                             "LocalPosition": [
                                 0,
-                                0.04,
-                                0.48
+                                0.039999999,
+                                0.47999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -189,8 +189,8 @@
                     "CentralBeamChild": {
                         "LocalPosition": [
                             0,
-                            0.04,
-                            0.48
+                            0.039999999,
+                            0.47999999
                         ],
                         "LocalRotation": [
                             0,
@@ -245,8 +245,8 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
-                        "DT_PUNCTURE": 0.85,
-                        "DT_SLASH": 0.05,
+                        "DT_PUNCTURE": 0.85000002,
+                        "DT_SLASH": 0.049999952,
                         "Amount": 1,
                         "ProcChance": 0.2,
                         "ForcedProcs": [
@@ -267,7 +267,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.232,
+                    "PvpDamageMultiplier": 0.23199999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 1,
                     "additionalForce": [
@@ -341,7 +341,7 @@
                         },
                         "radius": 6,
                         "ignoreSource": 1,
-                        "fallOff": 0.6,
+                        "fallOff": 0.60000002,
                         "checkForCover": 1,
                         "hitAirborneTargets": 1,
                         "staticCoverOnly": 0,
@@ -398,7 +398,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 20,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_RADIAL",
                         "hostAuthoritative": 0,
@@ -465,7 +465,7 @@
                     },
                     "ClipSizeAffectsChargeTime": 0,
                     "ChargeTime": 5,
-                    "MinChargeRatio": 0.4,
+                    "MinChargeRatio": 0.40000001,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 1,
                     "AutoFireWhenChargeCompleted": 1,
@@ -487,8 +487,8 @@
                     "BeamChild": {
                         "LocalPosition": [
                             0,
-                            0.04,
-                            0.48
+                            0.039999999,
+                            0.47999999
                         ],
                         "LocalRotation": [
                             0,

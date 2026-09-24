@@ -1,17 +1,26 @@
 {
     "parent": "/Lotus/Fx/PowersuitAbilities/Teshin/TeshinSlamFXFireGroundDeco",
     "data": {
+        "Mesh": "UltimateClashShockwaveMesh.fbx",
         "MeshScale": 0.25,
         "OverrideMaterial": [
             "UltimateClashWaveMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 12.5
+            }
         ],
         "DistortionEffect": 0,
         "MaterialFade": [
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.4,
-                "Multiplier": 5,
+                "TimeLength": 0.5,
+                "Multiplier": 0.050000001,
                 "FadeRange": [
                     1,
                     1
@@ -24,11 +33,11 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.730837
+                            "Value": 0.860937
                         },
                         {
                             "Time": 1,
-                            "Value": 0.997357
+                            "Value": 0.99735701
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"
@@ -37,14 +46,14 @@
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
-                "IsMeshScale": 0,
+                "IsMeshScale": 1,
                 "IsRepeating": 0
             },
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.55,
-                "Multiplier": 100,
+                "TimeLength": 0.55000001,
+                "Multiplier": 10,
                 "FadeRange": [
                     0,
                     0
@@ -56,24 +65,24 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.020193,
-                            "Value": 0.447256
+                            "Time": 0.047154501,
+                            "Value": 0.71093798
                         },
                         {
-                            "Time": 0.058168,
-                            "Value": 0.224424
+                            "Time": 0.108943,
+                            "Value": 0.42500001
                         },
                         {
-                            "Time": 0.140145,
-                            "Value": 0.100384
+                            "Time": 0.17886201,
+                            "Value": 0.30781299
                         },
                         {
-                            "Time": 0.255877,
-                            "Value": 0.025741
+                            "Time": 0.288618,
+                            "Value": 0.171875
                         },
                         {
-                            "Time": 0.374011,
-                            "Value": 0.006193
+                            "Time": 0.38130099,
+                            "Value": 0.12968799
                         },
                         {
                             "Time": 1,

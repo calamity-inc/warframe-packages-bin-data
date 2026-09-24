@@ -170,7 +170,7 @@
             "MinStrafeDistance": 0,
             "StopRadius": 0.2,
             "MovementSpeedModifier": [
-                0.8,
+                0.80000001,
                 1.2
             ],
             "MovementLineOfFireScoring": 0,
@@ -188,7 +188,7 @@
                 0
             ],
             "MinAngleToTurn": 40,
-            "MinAimMask": 0.9,
+            "MinAimMask": 0.89999998,
             "TargetNotVisibleTimeoutRange": [
                 6,
                 8
@@ -240,7 +240,7 @@
             "ConstrainToSpawnPosition": 0
         },
         "GuardTactic": {
-            "RandomWalkBehavior:SpeedMultiplier": 0.7
+            "RandomWalkBehavior:SpeedMultiplier": 0.69999999
         },
         "CustomRunToCoverBehavior": "",
         "ShootingController:DefaultFiringPrefs": {
@@ -255,8 +255,8 @@
                     4
                 ],
                 "fireRate": [
-                    0.8,
-                    0.8
+                    0.80000001,
+                    0.80000001
                 ]
             }
         },

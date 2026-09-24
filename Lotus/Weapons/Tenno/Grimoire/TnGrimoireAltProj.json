@@ -81,14 +81,14 @@
             "_holsteredAddChargeTime": 1,
             "_beamFxType": "",
             "_eventTime": 0.5,
-            "_pagemasterEventTime": 0.9,
+            "_pagemasterEventTime": 0.89999998,
             "_closeAnim": ""
         },
         "ReplicaRunScriptInstance": 1,
         "AttackData": {
             "Type": "DT_ELECTRICITY",
             "Amount": 350,
-            "ProcChance": 0.26,
+            "ProcChance": 0.25999999,
             "ForcedProcs": [
                 "PT_ELECTROCUTION"
             ]
@@ -98,14 +98,14 @@
         "ExplosiveAttack": {
             "Type": "DT_ELECTRICITY",
             "Amount": 250,
-            "ProcChance": 0.26
+            "ProcChance": 0.25999999
         },
         "ExplosionIgnoreSource": 1,
         "ExplosionIgnoreCover": 0,
         "ExplosionIgnoreDynamicCover": 1,
         "ExplosionCoverMinDistance": 10,
         "ExplodeOnLifeExpired": 1,
-        "ExplosionFallOff": 0.8,
+        "ExplosionFallOff": 0.80000001,
         "DamageRadius": 6,
         "DieEffect": "/Lotus/Fx/Weapons/Tenno/Grimoire/TnGrimoireAltProjectileImpactElectricitySpawner",
         "DieEffectOffset": [
@@ -142,7 +142,7 @@
             "_holsteredAddChargeTime": 1,
             "_beamFxType": "/Lotus/Fx/Weapons/Tenno/Grimoire/GrimoireVoidElectricityAltCoreContactSecondaryBeam",
             "_eventTime": 0.5,
-            "_pagemasterEventTime": 0.9,
+            "_pagemasterEventTime": 0.89999998,
             "_closeAnim": ""
         },
         "ApplyColorCustomization": 1,
@@ -153,7 +153,7 @@
         "MaxArcs": 2,
         "DirectHitChainLength": 8,
         "ArcLength": 8,
-        "ChainDamageMultiplier": 0.8,
+        "ChainDamageMultiplier": 0.80000001,
         "TimeBetweenAttacks": 1,
         "ChainableTypes": [
             "/Lotus/Types/Game/LotusNpcAvatar"

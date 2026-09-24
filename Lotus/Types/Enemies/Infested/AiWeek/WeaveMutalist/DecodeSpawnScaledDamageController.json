@@ -4,7 +4,7 @@
         "HitProxies": [
             {
                 "LocalPosition": [
-                    -0.05,
+                    -0.050000001,
                     0,
                     0
                 ],
@@ -55,8 +55,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM1",
                 "Type": "ChromaRightUpperArm",
@@ -75,8 +75,8 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.073913,
-                    -0.073913,
+                    -0.073913001,
+                    -0.073913001,
                     0.703233,
                     0.703233
                 ],
@@ -115,14 +115,14 @@
             {
                 "LocalPosition": [
                     0.13,
-                    0.05,
+                    0.050000001,
                     0
                 ],
                 "LocalRotation": [
                     -0.085625,
-                    -0.059955,
-                    0.814665,
-                    0.570434
+                    -0.059955001,
+                    0.81466502,
+                    0.57043397
                 ],
                 "BoneName": "GAME_L1_ARM3",
                 "Type": "ChromaLeftLowerArm",
@@ -380,7 +380,7 @@
                             },
                             {
                                 "boneName": "GAME_R1_ARM1",
-                                "probability": 0.3
+                                "probability": 0.30000001
                             }
                         ],
                         "LocalPosition": [
@@ -410,7 +410,7 @@
                             },
                             {
                                 "boneName": "GAME_R1_ARM1",
-                                "probability": 0.3
+                                "probability": 0.30000001
                             }
                         ],
                         "LocalPosition": [
@@ -441,15 +441,15 @@
                     },
                     {
                         "damageUpperLimit": 10000,
-                        "damageResistanceRatio": 0.9
+                        "damageResistanceRatio": 0.89999998
                     },
                     {
                         "damageUpperLimit": 20000,
-                        "damageResistanceRatio": 0.95
+                        "damageResistanceRatio": 0.94999999
                     },
                     {
                         "damageUpperLimit": 40000,
-                        "damageResistanceRatio": 0.98
+                        "damageResistanceRatio": 0.98000002
                     }
                 ],
                 "ShotgunCompensation": 0.25,
@@ -466,6 +466,6 @@
         "SmoothDPSDecayTime": 1,
         "ScaleCrits": 1,
         "ScaleAfterCrits": 1,
-        "AfterCritShotgunDPSCompensation": 0.8
+        "AfterCritShotgunDPSCompensation": 0.80000001
     }
 }

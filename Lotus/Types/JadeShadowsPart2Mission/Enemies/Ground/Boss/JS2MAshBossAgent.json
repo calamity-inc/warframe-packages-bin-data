@@ -35,7 +35,7 @@
             "GraphRes": "JS2MAshBossLogicGraph"
         },
         "LocomotionController:DynamicPathFollowerGround": {
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureThreshold": 0.89999998,
             "MinimumRunDistance": 3,
             "ShortDistanceSpeedMultiplier": 2
         },
@@ -58,7 +58,7 @@
         "LocomotionController:limitToNav": 1,
         "BaseHitChance": [
             0.5,
-            0.7
+            0.69999999
         ],
         "DodgeBreaksLead": 1,
         "TargetEvaluatorType": "/Lotus/Types/Enemies/PlayerPrefRangedTargetEvaluator",

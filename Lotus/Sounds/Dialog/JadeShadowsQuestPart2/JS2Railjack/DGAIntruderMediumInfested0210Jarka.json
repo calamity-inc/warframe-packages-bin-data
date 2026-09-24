@@ -1,16 +1,20 @@
 {
-    "parent": "/Lotus/Types/Game/Transmissions/RJCrewJarkaTransmission",
+    "parent": "/Lotus/Types/Game/Transmission",
     "data": {
-        "IsDroppable": 1,
         "PortraitLevel": "/Lotus/Levels/Lore/JarkaPortrait.level",
+        "UseRightSide": 1,
         "RandomSounds": [
             "DGAIntruderMediumInfested0210Jarka_en.wav",
             "DGAIntruderMediumInfested0220Jarka_en.wav"
         ],
+        "OpenSound": "/Lotus/Sounds/UI/Cipher/CipherThreatShort",
+        "CloseSound": "/Lotus/Sounds/UI/Cipher/CipherFail",
+        "Sender": "/Lotus/Language/Npcs/JarkaLar",
         "RandomText": [
             "/Lotus/Language/Subtitles/JadeShadowsPart2Mission/DGAIntruderMediumInfested0210Jarka",
             "/Lotus/Language/Subtitles/JadeShadowsPart2Mission/DGAIntruderMediumInfested0220Jarka"
         ],
-        "StartDelay": 1
+        "StartDelay": 1,
+        "Severity": "TS_ALERT"
     }
 }

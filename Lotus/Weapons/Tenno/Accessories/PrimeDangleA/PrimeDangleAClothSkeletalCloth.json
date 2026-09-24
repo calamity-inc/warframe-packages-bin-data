@@ -2,7 +2,7 @@
     "parent": "/EE/Types/Effects/SkeletalClothEx",
     "data": {
         "Mesh": "Ponytail/PrimeDangleA_skel.fbx",
-        "MeshScale": 0.65,
+        "MeshScale": 0.64999998,
         "OverrideMaterial": [
             "PBR/PrimeDangleAPbr"
         ],
@@ -55,12 +55,12 @@
         "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
         "Attribs": {
             "dampeningRange": [
-                0.08,
-                0.082
+                0.079999998,
+                0.082000002
             ],
             "collidingDampeningRange": [
-                0.0245,
-                0.0389
+                0.024499999,
+                0.038899999
             ],
             "massRange": [
                 0.5,
@@ -68,7 +68,7 @@
             ],
             "distConstraintRange": [
                 0.001,
-                2.9
+                2.9000001
             ],
             "useHardConstraints": 1,
             "shearingStiffness": 0.2,
@@ -79,7 +79,7 @@
                 0,
                 0
             ],
-            "noiseSpeed": 0.05,
+            "noiseSpeed": 0.050000001,
             "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
             "windVolumeStrength": [
                 0.1,

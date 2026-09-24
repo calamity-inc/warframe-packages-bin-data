@@ -5,13 +5,13 @@
             "Stages": [
                 {
                     "enabled": 1,
-                    "mix": 0.524691,
+                    "mix": 0.52469099,
                     "type": "DSP_FLANGER",
                     "flanger": {
                         "paramSweepRate": 0,
                         "paramWidth": 0.205247,
-                        "paramFeedback": 0.480864,
-                        "paramDelay": 0.094136,
+                        "paramFeedback": 0.48086399,
+                        "paramDelay": 0.094135799,
                         "paramMixMode": 0
                     }
                 },
@@ -29,12 +29,12 @@
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.736111,
+                    "mix": 0.73611099,
                     "type": "DSP_DELAY",
                     "delay": {
                         "delayTimeSec": 0,
-                        "delayTime": 0.040123,
-                        "feedback": 0.595216
+                        "delayTime": 0.0401235,
+                        "feedback": 0.59521598
                     }
                 },
                 {
@@ -42,7 +42,7 @@
                     "mix": 1,
                     "type": "DSP_EQ",
                     "eq": {
-                        "lg": 0.895062,
+                        "lg": 0.89506203,
                         "mg": 1.203704,
                         "hg": 1.54321,
                         "eqLowMid": [
@@ -75,7 +75,7 @@
                     "type": "DSP_DISTORTION",
                     "distortion": {
                         "preAtten": 0.75,
-                        "saturateThreshold": 0.99,
+                        "saturateThreshold": 0.99000001,
                         "distortionThreshold": 1,
                         "postAtten": 1
                     }

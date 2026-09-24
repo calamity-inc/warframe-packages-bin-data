@@ -111,7 +111,7 @@
                 5,
                 6
             ],
-            "MeleeHitManeuverProbability": 0.3
+            "MeleeHitManeuverProbability": 0.30000001
         },
         "WaitForSpawnAnimationBehavior": {
             "Enabled": 1,
@@ -205,7 +205,7 @@
                 "Script": ""
             },
             "DefaultReevaluationDelay": 0,
-            "DefaultThrottle": 0.8,
+            "DefaultThrottle": 0.80000001,
             "WaypointRadius": 5,
             "AutoAssignClosestPatrol": 1,
             "SameZoneOnly": 1,
@@ -316,7 +316,7 @@
                     "Script": ""
                 },
                 "DefaultReevaluationDelay": 0,
-                "DefaultThrottle": 0.7,
+                "DefaultThrottle": 0.69999999,
                 "WaypointRadius": 2,
                 "AutoAssignClosestPatrol": 1,
                 "SameZoneOnly": 1,
@@ -394,7 +394,7 @@
                 "UseEndNodePos": 0,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1
         },
@@ -414,7 +414,7 @@
             "MoveSuccessRadius": 3.5,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 1,
             "StopWhenMovementInactive": 1,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1
         },
         "LocomotionController:MoveModifierCollection": [
@@ -455,11 +455,11 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/Grineer/GrineerPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",
         "TargetEvaluatorType": "/Lotus/Types/Enemies/RangedTargetEvaluator"
     }

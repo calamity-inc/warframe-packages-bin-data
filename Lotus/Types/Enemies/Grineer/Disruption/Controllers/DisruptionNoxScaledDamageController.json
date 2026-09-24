@@ -4,7 +4,7 @@
         "HitProxies": [
             {
                 "LocalPosition": [
-                    -0.05,
+                    -0.050000001,
                     0,
                     0
                 ],
@@ -55,8 +55,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM1",
                 "Type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperArm",
@@ -70,15 +70,15 @@
             },
             {
                 "LocalPosition": [
-                    0.15,
+                    0.15000001,
                     0,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM2",
                 "Type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerArm",
@@ -114,7 +114,7 @@
             },
             {
                 "LocalPosition": [
-                    -0.15,
+                    -0.15000001,
                     0,
                     0
                 ],
@@ -224,9 +224,9 @@
             },
             {
                 "LocalPosition": [
-                    -0.064,
-                    0.064,
-                    -0.064
+                    -0.064000003,
+                    0.064000003,
+                    -0.064000003
                 ],
                 "LocalRotation": [
                     0,
@@ -247,8 +247,8 @@
             {
                 "LocalPosition": [
                     0.02,
-                    -0.03,
-                    0.05
+                    -0.029999999,
+                    0.050000001
                 ],
                 "LocalRotation": [
                     0,
@@ -268,8 +268,8 @@
             },
             {
                 "LocalPosition": [
-                    -0.29,
-                    0.15,
+                    -0.28999999,
+                    0.15000001,
                     0
                 ],
                 "LocalRotation": [
@@ -344,7 +344,7 @@
                 "MaxHealth": 50,
                 "ScaleHealth": 1,
                 "RemoveProcs": 0,
-                "Strength": 0.7,
+                "Strength": 0.69999999,
                 "AllowCarryOverDamage": 1,
                 "ProtectedByOverguard": 0,
                 "ProtectedByShields": 1,
@@ -388,10 +388,10 @@
                 "ProcTypeOnDestroyed": "PT_STAGGERED",
                 "DamageProjectorType": "/Lotus/Fx/Enemies/Grineer/Nox/NoxHelmetGlassCracksProj",
                 "ProjectorAttenuationRange": [
-                    0.3,
+                    0.30000001,
                     1
                 ],
-                "MaxVisibilityHealthRatio": 0.85,
+                "MaxVisibilityHealthRatio": 0.85000002,
                 "NotifyWeaponOnDamaged": 1,
                 "OnDamagedScript": {
                     "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/ChemNoxPassive.lua",

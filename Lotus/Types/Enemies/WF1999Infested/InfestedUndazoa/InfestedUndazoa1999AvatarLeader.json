@@ -2,76 +2,117 @@
     "parent": "InfestedUndazoa1999Avatar",
     "data": {
         "KillXPReward": 500,
+        "PartialFrozenWarmUpRate": 0.25,
         "AvatarEnhancements": [
-            {
-                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ShockEnhancement",
-                "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
-                    "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
-                },
-                "Probability": 1
-            },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ArcticEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderArctic",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderArctic"
+                    ],
                     "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/LeechEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderLeech",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderLeech"
+                    ],
                     "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/LeechLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/LeechLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ShockEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderShock",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderShock"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/ShockLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ShockLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/GuardianEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderGuardian",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderGuardian"
+                    ],
                     "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/GuardianLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/GuardianLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ToxicEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderToxic",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderToxic"
+                    ],
                     "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/ToxicLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ToxicLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/JadeLightEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderJadelight",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderJadelight"
+                    ],
                     "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderVolt",
+                        "/Lotus/Characters/Infested/1999InfestedBrachiolyst/Textures/1999BrachiolystMaterialLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             }

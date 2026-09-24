@@ -1,7 +1,7 @@
 {
     "parent": "/Lotus/Types/Weapons/GunProjectile",
     "data": {
-        "MeshScale": 0.6,
+        "MeshScale": 0.60000002,
         "AutoSimChildren": [
             {
                 "LocalPosition": [
@@ -81,7 +81,7 @@
                 "PT_KNOCKBACK"
             ]
         },
-        "CriticalChance": 0.4,
+        "CriticalChance": 0.40000001,
         "CriticalMultiplier": 3,
         "ExplosiveAttack": {
             "Type": "DT_RADIATION",
@@ -93,7 +93,7 @@
             "PT_KNOCKED_DOWN"
         ],
         "ExplosionIgnoreCover": 0,
-        "ExplosionFallOff": 0.4,
+        "ExplosionFallOff": 0.40000001,
         "DamageRadius": 6,
         "HitEffect": "/Lotus/Fx/Weapons/Corpus/CrpBEPlinxPistol/CrpBEPlinxImplosionHitEffect",
         "DieSound": "/Lotus/Sounds/Weapons/Corpus/CrpBlastorPistol/CrpBEPlinx/CrpBEPlinxAltProjExplosion",
@@ -110,8 +110,8 @@
             "Amount": 0
         },
         "EmbedTime": [
-            0.8,
-            0.8
+            0.80000001,
+            0.80000001
         ],
         "EmbedDeathAttack": {
             "Type": "DT_RADIATION",
@@ -129,10 +129,10 @@
         "KinematicMinSpeed": 100,
         "KinematicMaxSpeed": 100,
         "BaseRotation": [
-            0.707107,
+            0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "OnProjectileStoppedScript": {
             "Script": "CrpBEPlinx.lua",

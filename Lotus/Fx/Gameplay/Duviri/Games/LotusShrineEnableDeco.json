@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Common/RadialAirLaunchMesh.fbx",
-        "MeshScale": 0.35,
+        "MeshScale": 0.34999999,
         "OverrideMaterial": [
             "LotusShrineEnableDecoMat",
             "LotusShrineEnableDecoMat"
@@ -37,10 +37,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "LotusShrineEnableGPUSparks",
@@ -80,7 +80,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 2,
                 "FadeRange": [
                     1,
@@ -102,7 +102,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.8,
+                "TimeLength": 0.80000001,
                 "Multiplier": 0.5,
                 "FadeRange": [
                     0,

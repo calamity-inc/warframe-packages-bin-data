@@ -3,7 +3,7 @@
     "data": {
         "ExplodeOnDeathDelay": 15,
         "HideOnExplodeDeath": 1,
-        "DamageMultiplier": 0.85,
+        "DamageMultiplier": 0.85000002,
         "RejectSelfDamage": 1,
         "SelfDamageMultiplier": 0,
         "DeathSounds": [
@@ -30,15 +30,15 @@
         "DamageResistanceThresholds": [
             {
                 "HealthPercentage": 0.75,
-                "DamageResistance": 0.9
+                "DamageResistance": 0.89999998
             },
             {
                 "HealthPercentage": 0.5,
-                "DamageResistance": 0.8
+                "DamageResistance": 0.80000001
             },
             {
                 "HealthPercentage": 0.25,
-                "DamageResistance": 0.7
+                "DamageResistance": 0.69999999
             }
         ],
         "ResistanceChangedScript": {
@@ -52,7 +52,7 @@
         "DeathBaseSparkDamage": 150,
         "SparkPickupType": "/Lotus/Types/Enemies/Sentients/Sparks/SparkPickUp",
         "SparkDurationOnDeath": 7,
-        "LinkResistanceDamageScale": 0.6,
+        "LinkResistanceDamageScale": 0.60000002,
         "ResitanceWarnTransmission": "/Lotus/Sounds/Dialog/GenericMissions/SentientDamageReminder/DSentientDamageLotus",
         "WarnPlayerPercent": 0.5
     }

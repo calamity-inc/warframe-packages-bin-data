@@ -76,7 +76,7 @@
             "_fluidType": "/Lotus/Weapons/Tenno/LongGuns/LavosDeluxeShotgun/LavosDeluxeShotgunLiquidDeco",
             "_impactEffect": "/Lotus/Fx/Weapons/Cedo/LavosDeluxeShotgun/LavosDeluxeShotgunHitEffect",
             "_autoReloadAnim": "",
-            "_fluidLevelMin": -0.04,
+            "_fluidLevelMin": -0.039999999,
             "_fluidLevelMax": 0.02,
             "_clipType": "",
             "_alsoHideAttachment": 1,
@@ -98,7 +98,7 @@
             "DT_VIRAL": 0,
             "DT_CORROSIVE": 0,
             "DT_RADIANT": 0,
-            "ProcChance": 0.4
+            "ProcChance": 0.40000001
         },
         "CriticalChance": 1,
         "CriticalMultiplier": 2,
@@ -110,7 +110,7 @@
         "ExplosiveAttack": {
             "Type": "DT_CINEMATIC",
             "Amount": 120,
-            "ProcChance": 0.4
+            "ProcChance": 0.40000001
         },
         "ForcedSourceProcs": [
             "PT_STAGGERED",
@@ -141,11 +141,11 @@
         "HelixSpinBothDirections": 1,
         "SinusoidalMagnitude": [
             0.1,
-            0.3
+            0.30000001
         ],
         "SinusoidalDelay": [
-            0.15,
-            0.35
+            0.15000001,
+            0.34999999
         ],
         "SinusoidalSpreadRate": 1,
         "SinusoidalRate": [
@@ -159,7 +159,7 @@
         "KinematicAccel": 30,
         "KinematicInitialSpeed": 100,
         "KinematicMaxSpeed": 250,
-        "KinematicNoiseRate": 0.6,
+        "KinematicNoiseRate": 0.60000002,
         "KinematicRestitution": 0,
         "KinematicRestitutionParallel": 0,
         "ProjectileReplication": "SYNCED_AUTONOMOUS",

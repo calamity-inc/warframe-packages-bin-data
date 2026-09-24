@@ -13,8 +13,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    -0.069756,
-                    0.997564
+                    -0.069756001,
+                    0.99756402
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "RocketLauncherSDAttachment"
@@ -26,12 +26,12 @@
         "HolsterBone1Name": "GAME_R1_WEAPON",
         "HolsterBone1Position": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -49,20 +49,20 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.075,
-            0.24
+            0.075000003,
+            0.23999999
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.08,
-            -0.06,
+            -0.079999998,
+            -0.059999999,
             0.17
         ],
         "GripRotationOffset": [
             -0.195279,
-            -0.681833,
-            0.701115,
-            -0.073539
+            -0.68183303,
+            0.70111501,
+            -0.073538996
         ],
         "Behaviors": [
             {
@@ -79,7 +79,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -99,8 +99,8 @@
                                     0
                                 ],
                                 "fireRate": [
-                                    0.05,
-                                    0.05
+                                    0.050000001,
+                                    0.050000001
                                 ]
                             }
                         },
@@ -282,7 +282,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_IMPACT",
                         "Amount": 10,
-                        "ProcChance": 0.35,
+                        "ProcChance": 0.34999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -333,7 +333,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -409,7 +409,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 1,
                     "ClipSizeAffectsChargeTime": 0,
-                    "ChargeTime": 0.3,
+                    "ChargeTime": 0.30000001,
                     "MinChargeRatio": 1,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 1,

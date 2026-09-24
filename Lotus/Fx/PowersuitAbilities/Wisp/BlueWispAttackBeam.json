@@ -39,8 +39,8 @@
         "TextureScaleV": 0.2,
         "TextureOffsetV": 1,
         "NumPlanes": 1,
-        "Radius": 0.01,
-        "RadiusDistanceIncrease": 0.01,
+        "Radius": 0.0099999998,
+        "RadiusDistanceIncrease": 0.0099999998,
         "SectionLength": 0.2,
         "SectionRotationMax": 90,
         "MaxSections": 60,
@@ -52,17 +52,17 @@
                     0.2,
                     0
                 ],
-                "RadiusAmplitude": 0.01,
+                "RadiusAmplitude": 0.0099999998,
                 "PhaseShift": -2
             },
             {
                 "Frequency": 2,
                 "Amplitude": [
-                    -0.05,
-                    0.05,
+                    -0.050000001,
+                    0.050000001,
                     0
                 ],
-                "RadiusAmplitude": 0.01,
+                "RadiusAmplitude": 0.0099999998,
                 "PhaseShift": -5
             }
         ],
@@ -107,7 +107,7 @@
         ],
         "Lifespan": [
             0.2,
-            0.35
+            0.34999999
         ],
         "ApplyColorCustomization": 1
     }

@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Weapon/WaveProjectile",
     "data": {
         "Mesh": "/Lotus/Fx/Weapons/Ostron/Arcanes/ShockwaveProjMesh.fbx",
-        "MeshScale": 0.72,
+        "MeshScale": 0.72000003,
         "MaterialParams": [
             {
                 "name": "MorphAmount",
@@ -27,8 +27,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Ostron/Arcanes/SlamShockwaveTrail",
@@ -81,7 +81,7 @@
         "KinematicMaxSpeed": 100,
         "ApplyColorCustomization": 1,
         "InitialWidth": 3.8,
-        "InitialRadius": 0.4,
+        "InitialRadius": 0.40000001,
         "DestroyOnContactTypes": [
             "/Lotus/Types/Enemies/Corpus/Spaceman/AIWeek/NullifyShieldDecoCollision"
         ]

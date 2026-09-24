@@ -33,10 +33,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Enemies/Grineer/CrewShipMedic/CrewShipMedicProjAuraDeco",
@@ -170,15 +170,15 @@
             "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/Railjack/CrewshipMedicBubbleAbility.lua",
             "Function": "CreateBubbleDome",
             "_scaleDecrement": 0.02,
-            "_sizeOnSpawn": 0.05,
+            "_sizeOnSpawn": 0.050000001,
             "_growthDelayOnSpawn": 0.1,
             "_damageMax": 400,
             "_damageMin": 100,
             "_damageWindow": 5,
-            "_domeMinScale": 0.4,
-            "_shrinkLerpRate": 0.15,
+            "_domeMinScale": 0.40000001,
+            "_shrinkLerpRate": 0.15000001,
             "_growLerpRate": 0.1,
-            "_scaleDelay": 0.05,
+            "_scaleDelay": 0.050000001,
             "_createFx": "",
             "_destroyFx": "",
             "_collisionType": "",
@@ -194,7 +194,7 @@
             "_buffType": "",
             "_fireSound": "",
             "_bubbleDuration": 20,
-            "_healRate": 0.4,
+            "_healRate": 0.40000001,
             "_launchBones": []
         },
         "UnguidedFlightTime": 0.5,

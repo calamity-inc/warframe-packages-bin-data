@@ -19,7 +19,7 @@
         "EnergyTintMethod": "ETM_LIFE",
         "affectedByWind": 1,
         "resilience": 0.2,
-        "drag": 0.15,
+        "drag": 0.15000001,
         "mass": [
             0,
             0
@@ -29,8 +29,8 @@
             0.2
         ],
         "size": [
-            0.004,
-            0.008
+            0.0040000002,
+            0.0080000004
         ],
         "velocity": [
             0.2,
@@ -47,9 +47,9 @@
         "spawnScale": [
             0.02,
             0.02,
-            0.01
+            0.0099999998
         ],
-        "spawnFlowBlend": 0.9201,
+        "spawnFlowBlend": 0.92009997,
         "flowForce": [
             5,
             5,
@@ -68,15 +68,15 @@
         "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSpotFadeCloseAlpha",
         "colorKeys[0]": [
-            0.27,
-            0.071,
+            0.27000001,
+            0.071000002,
             1,
             1
         ],
         "colorKeys[1]": [
-            0.061,
+            0.061000001,
             0,
-            0.35,
+            0.34999999,
             1
         ],
         "colorKeys[2]": [

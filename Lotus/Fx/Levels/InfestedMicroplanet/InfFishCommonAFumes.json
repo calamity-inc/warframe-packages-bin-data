@@ -6,7 +6,7 @@
                 "name": "AlphaAtten",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.15
+                "value": 0.15000001
             },
             {
                 "name": "UnlitAtten",
@@ -29,7 +29,7 @@
         "HasLifeSpan": 0,
         "AutoKill": 1,
         "InheritVelocity": [
-            0.6,
+            0.60000002,
             1
         ],
         "Life": [
@@ -37,14 +37,14 @@
             2
         ],
         "Size": [
-            0.4,
-            0.6
+            0.40000001,
+            0.60000002
         ],
         "SizeByLife": {
             "Values": [
                 {
                     "Time": 0,
-                    "Value": 0.6
+                    "Value": 0.60000002
                 },
                 {
                     "Time": 0.2,
@@ -121,7 +121,7 @@
             ],
             "SplineType": "CUBIC_SPLINE"
         },
-        "EyeFadeDist": 0.6,
+        "EyeFadeDist": 0.60000002,
         "Nozzle": "SPHERE",
         "NozzleSize": 0.1,
         "Speed": [
@@ -130,8 +130,8 @@
         ],
         "Drag": 1,
         "Mass": [
-            -0.01,
-            0.01
+            -0.0099999998,
+            0.0099999998
         ],
         "WindAffected": 1,
         "WindAlphaDispersion": 0.1,

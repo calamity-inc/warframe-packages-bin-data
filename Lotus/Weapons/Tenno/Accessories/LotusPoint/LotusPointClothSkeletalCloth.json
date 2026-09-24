@@ -2,7 +2,7 @@
     "parent": "/EE/Types/Effects/SkeletalClothEx",
     "data": {
         "Mesh": "LotusPoint_skel.fbx",
-        "MeshScale": 0.9,
+        "MeshScale": 0.89999998,
         "OverrideMaterial": [
             "Lotuspoint"
         ],
@@ -13,19 +13,19 @@
         "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
         "Attribs": {
             "dampeningRange": [
-                0.08,
-                0.082
+                0.079999998,
+                0.082000002
             ],
             "collidingDampeningRange": [
-                0.0245,
-                0.0389
+                0.024499999,
+                0.038899999
             ],
             "massRange": [
                 0.5,
                 1
             ],
             "distConstraintRange": [
-                0.08,
+                0.079999998,
                 1.8
             ],
             "useHardConstraints": 1,
@@ -37,7 +37,7 @@
                 0,
                 0
             ],
-            "noiseSpeed": 0.05,
+            "noiseSpeed": 0.050000001,
             "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
             "windVolumeStrength": [
                 0.1,

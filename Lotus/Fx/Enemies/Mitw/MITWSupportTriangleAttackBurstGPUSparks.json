@@ -2,18 +2,18 @@
     "parent": "/EE/Types/Effects/GPUParticleSys",
     "data": {
         "SpawnRate": 255,
-        "drag": 0.7,
+        "drag": 0.69999999,
         "mass": [
             -0.2,
             0.2
         ],
         "life": [
-            0.4,
+            0.40000001,
             2
         ],
         "size": [
             0.02,
-            0.04
+            0.039999999
         ],
         "sizeByLifeMultiplier": [
             1,
@@ -30,13 +30,13 @@
             1.5,
             1.5
         ],
-        "spawnFlowBlend": 0.8,
+        "spawnFlowBlend": 0.80000001,
         "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColor",
         "colorKeys[0]": [
             0.14,
             1,
-            0.83,
+            0.82999998,
             1
         ]
     }

@@ -1,0 +1,69 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/PackageStoreItem",
+    "data": {
+        "ProductCategory": "Packages",
+        "LocalizeTag": "/Lotus/Language/PrimePacks/MPVProteaSinglePackName",
+        "LocalizeDescTag": "/Lotus/Language/PrimePacks/MPVProteaSinglePackDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/MegaPrimeVault/Protea.png",
+        "Diorama": "/Lotus/Levels/Episodes/WarframesProteaPrime.level",
+        "Giftable": 0,
+        "ExcludeFromCodex": 0,
+        "PackageComponents": [
+            {
+                "TypeName": "/Lotus/StoreItems/Powersuits/Odalisk/ProteaPrime",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageProteaPrimeBright",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageProteaPrimeDark",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/PrimeRhoptronSyandana",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeVelox/PrimeVeloxPistol",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Weapons/Tenno/Melee/Swords/PrimeOkina/PrimeOkina",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Effects/ProteaPrimeEphemera",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Odalisk/ProteaPrimeAltHelmet",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/MPVSinglePackFusionBundle",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            }
+        ],
+        "AutoCalcPrices": 0
+    }
+}

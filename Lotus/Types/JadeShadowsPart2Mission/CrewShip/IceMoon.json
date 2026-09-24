@@ -17,7 +17,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -96,9 +96,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333333,
+                        "DT_IMPACT": 0.33333334,
+                        "DT_PUNCTURE": 0.33333334,
+                        "DT_SLASH": 0.33333331,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -244,10 +244,10 @@
                             0
                         ],
                         "RotOffset": [
-                            0.707107,
+                            0.70710677,
                             0,
                             0,
-                            0.707107
+                            0.70710677
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -540,10 +540,10 @@
                             0
                         ],
                         "RotOffset": [
-                            0.707107,
+                            0.70710677,
                             0,
                             0,
-                            0.707107
+                            0.70710677
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -607,10 +607,10 @@
             "_ultraRareLootCrateTypes": [
                 "/Lotus/Types/PickUps/Railjack/CorpusPointOfInterestUltraRareLootCrate"
             ],
-            "_commonChanceOverride": 0.7,
-            "_uncommonChanceOverride": 0.3,
+            "_commonChanceOverride": 0.69999999,
+            "_uncommonChanceOverride": 0.30000001,
             "_rareChanceOverride": 0.02,
-            "_ultraRareChanceOverride": 0.01,
+            "_ultraRareChanceOverride": 0.0099999998,
             "_maxCommon": 20,
             "_maxRare": 1,
             "_maxUltraRare": 1

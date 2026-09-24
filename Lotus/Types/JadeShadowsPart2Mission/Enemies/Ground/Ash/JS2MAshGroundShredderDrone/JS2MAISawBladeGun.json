@@ -7,7 +7,7 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalPosition": [
-                    -0.09,
+                    -0.090000004,
                     0.07,
                     0
                 ],
@@ -27,8 +27,8 @@
         },
         "HolsterBone1Name": "GAME_C1_GUNPIVOT",
         "HolsterBone1Position": [
-            0.05,
-            0.05,
+            0.050000001,
+            0.050000001,
             0.1
         ],
         "PickUpText": "/Lotus/Language/Items/ShotgunPickup",
@@ -49,19 +49,19 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.075,
-            -0.04,
+            -0.075000003,
+            -0.039999999,
             0.2
         ],
         "GripRotationOffset": [
-            -0.289892,
-            -0.813735,
-            0.489067,
+            -0.28989199,
+            -0.81373501,
+            0.48906699,
             -0.12088
         ],
         "NotifyAttachmentState": 1,
@@ -80,7 +80,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -123,7 +123,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -151,6 +150,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/DefaultAccuracyInfo",
@@ -189,6 +189,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "/Lotus/Weapons/Grineer/LongGuns/GrineerSawbladeGun/SawBladeWaveProjectileNormal",
@@ -367,7 +369,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -444,7 +446,7 @@
                     "AccessibilityTrigger": 1,
                     "ClipSizeAffectsChargeTime": 0,
                     "ChargeTime": 0.75,
-                    "MinChargeRatio": 0.033333,
+                    "MinChargeRatio": 0.033333302,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 2,
                     "AutoFireWhenChargeCompleted": 0,
@@ -484,7 +486,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -527,7 +529,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -555,6 +556,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/TnAlchemistShotgunHipAccuracyInfo",
@@ -580,6 +582,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "/Lotus/Weapons/Grineer/LongGuns/GrineerSawbladeGun/MiterAltFireProjectile",
@@ -680,9 +684,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -762,7 +766,7 @@
                     "fireRate": 200,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 0,
-                    "ModeSwitchTime": 0.6,
+                    "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "ForceReturnToPreviousBehavior": 0,
@@ -860,8 +864,8 @@
         "HolsterRotOffset": [
             0,
             0,
-            0.707107,
-            0.707107
+            0.70710677,
+            0.70710677
         ],
         "RequiredLevel": 6,
         "ShowBehaviorOnUI": 1,

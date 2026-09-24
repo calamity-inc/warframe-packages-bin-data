@@ -6,10 +6,10 @@
                 0.25,
                 16
             ],
-            "targetExposure": 0.05,
+            "targetExposure": 0.050000001,
             "adaptationRateUp": 3,
             "adaptationRateDown": 2,
-            "exposureConvergeSpeed": 0.3,
+            "exposureConvergeSpeed": 0.30000001,
             "exposureCurveMin": {
                 "sceneEV": -7,
                 "adjustmentEV": -3.5
@@ -81,7 +81,7 @@
                 1,
                 1
             ],
-            "sunShaftsDecay": 0.85,
+            "sunShaftsDecay": 0.85000002,
             "cloudShadowsMovementParams": [
                 0,
                 0,
@@ -91,9 +91,9 @@
             "volumetricFog": {
                 "FogRange": 128,
                 "NearDistance": 0.1,
-                "Extinction": 0.35,
+                "Extinction": 0.34999999,
                 "ExtinctionConfusion": 0.1,
-                "ScatteringConfusion": 0.7,
+                "ScatteringConfusion": 0.69999999,
                 "GlobalFog": {
                     "Density": 0,
                     "G": 0.2
@@ -103,7 +103,7 @@
                     "HeightFogMaxHeight": 4,
                     "HeightFogParticipatingMedia": {
                         "Density": 0.035,
-                        "G": 0.3,
+                        "G": 0.30000001,
                         "NoiseScale": 0.1
                     },
                     "SecondaryHeightFogMinHeight": 0,
@@ -118,8 +118,8 @@
                 },
                 "ClumpyNoise": {
                     "ClumpAmount": 0.75,
-                    "ClumpStart": 0.3,
-                    "ClumpEnd": 0.6,
+                    "ClumpStart": 0.30000001,
+                    "ClumpEnd": 0.60000002,
                     "NoiseScale": 0.1
                 },
                 "ColorGrading": {

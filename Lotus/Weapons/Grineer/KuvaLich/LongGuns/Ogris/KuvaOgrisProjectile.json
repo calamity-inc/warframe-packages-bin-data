@@ -54,10 +54,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Weapons/ClanTech/Chemical/RocketProjectileProxy",
@@ -93,8 +93,8 @@
             }
         ],
         "AttackData": {
-            "DT_IMPACT": 0.7,
-            "DT_PUNCTURE": 0.3,
+            "DT_IMPACT": 0.69999999,
+            "DT_PUNCTURE": 0.30000001,
             "DT_SLASH": 0,
             "Amount": 27,
             "ProcChance": 0.47,
@@ -103,7 +103,7 @@
             ]
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.09,
+        "CriticalChance": 0.090000004,
         "CriticalMultiplier": 2,
         "ExplosiveAttack": {
             "UseNewFormat": 1,
@@ -129,8 +129,8 @@
             "PT_KNOCKED_DOWN"
         ],
         "ExplosionIgnoreCover": 0,
-        "ExplosionFallOff": 0.8,
-        "DamageRadius": 7.9,
+        "ExplosionFallOff": 0.80000001,
+        "DamageRadius": 7.9000001,
         "DieEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXFueledLarge",
         "DieEffectMirror": "/Lotus/Fx/Explosions/Generic/ExplosionFXFueledLargeCheap",
         "DieSound": "/Lotus/Sounds/Weapons/RocketLauncher/RocketLauncherExplosion",

@@ -78,9 +78,9 @@
         "AttackData": {
             "DT_IMPACT": 0.2,
             "DT_PUNCTURE": 0.56,
-            "DT_SLASH": 0.24,
+            "DT_SLASH": 0.24000001,
             "Amount": 96,
-            "ProcChance": 0.26,
+            "ProcChance": 0.25999999,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ],
@@ -91,7 +91,7 @@
         "ExplosiveAttack": {
             "Type": "DT_FIRE",
             "Amount": 480,
-            "ProcChance": 0.26
+            "ProcChance": 0.25999999
         },
         "ForcedSourceProcs": [
             "PT_STAGGERED",
@@ -100,7 +100,7 @@
         ],
         "ExplosionIgnoreSource": 1,
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplosionFallOff": 0.2,
@@ -114,16 +114,16 @@
         "VerticalImpulse": 260,
         "HorizontalImpulse": 120,
         "KinematicMovement": 1,
-        "HelixRadius": 0.6,
+        "HelixRadius": 0.60000002,
         "HelixSpreadRate": 0.5,
         "HelixSpinRate": 8,
-        "HelixSpinRateVariance": 0.3,
+        "HelixSpinRateVariance": 0.30000001,
         "ContinuousHelixVariance": 1,
         "KinematicAccel": 1,
         "KinematicInitialSpeed": 60,
         "KinematicMinSpeed": 4,
         "KinematicMaxSpeed": 60,
-        "KinematicNoiseRate": 0.01,
+        "KinematicNoiseRate": 0.0099999998,
         "KinematicRestitution": 0,
         "KinematicRestitutionParallel": 0,
         "KinematicBulletRaycast": 0,
@@ -131,7 +131,7 @@
         "FaceVelocity": 1,
         "ApplyColorCustomization": 1,
         "ForwardVel": 20,
-        "UnguidedFlightTime": 0.03,
+        "UnguidedFlightTime": 0.029999999,
         "SmoothUnguidedFlightTransition": 1,
         "AimRate": 720,
         "ReducedAimRate": 720,

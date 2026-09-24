@@ -1,0 +1,131 @@
+{
+    "parent": "/Lotus/Characters/Tenno/WarframeHelmetDeco",
+    "data": {
+        "Mesh": "MesaHeirloomPonchoAttachment_skel.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_SPINE5",
+                "Type": "Cloth/MesaHeirloomPonchoAttachmentCapeClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_L1_ARM1",
+                "Type": "Cloth/MesaHeirloomPonchoAttachmentArmTasselLClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_R1_ARM1",
+                "Type": "Cloth/MesaHeirloomPonchoAttachmentArmTasselRClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_SPINE5",
+                "Type": "Cloth/MesaHeirloomPonchoAttachmentCollarClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_SPINE5",
+                "Type": "Cloth/MesaHeirloomPonchoAttachmentTasselClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/WeaponAttachments/WarframeHumanSkins.lua",
+            "Function": "ApplyEnergyColor",
+            "_paramName": "CustomizeCustomEyes",
+            "_eyeSlot": [
+                2
+            ],
+            "_colorSlots": [
+                "PrimaryColors"
+            ],
+            "_multiParamOption": []
+        },
+        "ReplicaRunScriptInstance": 1
+    }
+}

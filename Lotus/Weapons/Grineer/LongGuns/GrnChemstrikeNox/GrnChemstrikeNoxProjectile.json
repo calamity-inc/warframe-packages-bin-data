@@ -13,7 +13,7 @@
             "ProcChance": 0
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.05,
+        "CriticalChance": 0.050000001,
         "CriticalMultiplier": 1.5,
         "ExplosiveAttack": {
             "Type": "DT_POISON",
@@ -73,9 +73,9 @@
         "OnProjectileStartScript": {
             "Script": "/Lotus/Scripts/WeaponAttachments/NoxWeapon.lua",
             "Function": "OnStart",
-            "_scaleDuration": 0.4,
+            "_scaleDuration": 0.40000001,
             "_meshScaleStart": 0.25,
-            "_meshScaleMin": 0.8,
+            "_meshScaleMin": 0.80000001,
             "_meshScaleMax": 1.6,
             "_slowAtten": 0.1,
             "_growthTriggerType": "",
@@ -84,18 +84,18 @@
         "OnProjectileStoppedScript": {
             "Script": "/Lotus/Scripts/WeaponAttachments/NoxWeapon.lua",
             "Function": "OnStop",
-            "_scaleDuration": 0.4,
+            "_scaleDuration": 0.40000001,
             "_meshScaleStart": 0.5,
             "_meshScaleMin": 3,
             "_meshScaleMax": 3.5,
-            "_slowAtten": 0.15,
+            "_slowAtten": 0.15000001,
             "_growthTriggerType": "/Lotus/Types/Enemies/Grineer/ChemStrike/NoxGooTrigger",
             "_projectileDamageRadius": 3
         },
         "OnProjectileDeathScript": {
             "Script": "/Lotus/Scripts/WeaponAttachments/NoxWeapon.lua",
             "Function": "OnDeath",
-            "_scaleDuration": 0.6,
+            "_scaleDuration": 0.60000002,
             "_meshScaleStart": 0.25,
             "_meshScaleMin": 1,
             "_meshScaleMax": 5,

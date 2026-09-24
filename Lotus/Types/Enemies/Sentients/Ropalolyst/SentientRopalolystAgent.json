@@ -453,7 +453,7 @@
                 "UseEndNodePos": 0,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1,
             "MaxDestinationHeightCorrectionDistance": 0
@@ -478,7 +478,7 @@
             "MoveSuccessRadius": 8,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 1,
             "StopWhenMovementInactive": 1,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1,
             "PreferedDistAboveNav": [
                 12,
@@ -489,7 +489,7 @@
             "DistanceToSlow": 30,
             "MinimumSlowedSpeed": 8,
             "MinimumSpeed": 0,
-            "RecoverySpeedPct": 0.6,
+            "RecoverySpeedPct": 0.60000002,
             "CorrectHeightOnIdle": 0,
             "AirplaneControls": 0,
             "DesiredAngleRangeForBank": [
@@ -500,8 +500,8 @@
             "CanMoveWithoutPath": 0
         },
         "LocomotionController:DynamicPathFollowerGround": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "MinimumMoveDistance": 0.1,
@@ -509,7 +509,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 120,
             "StopWhenTurningAngle": 40,
             "CheckFunnelForTightTurns": 1,
@@ -525,7 +525,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,

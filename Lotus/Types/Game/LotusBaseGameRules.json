@@ -2,7 +2,7 @@
     "data": {
         "HumanPlayerType": "/Lotus/Engine/LotusHumanPlayer",
         "DeadAvatarType": "/Lotus/Types/GameRules/LotusDeadAvatar",
-        "AvatarSpawnOffset": 0.15,
+        "AvatarSpawnOffset": 0.15000001,
         "ChallengeMgrType": "/Lotus/Types/Challenges/LotusChallengeMgr",
         "DebugGhostAvatarType": "/Lotus/Types/Debug/GhostAvatar",
         "LocalAvatarCreatedScript": {
@@ -77,7 +77,7 @@
             "Script": "/Lotus/Scripts/DedicatedServerInit.lua",
             "Function": "DedicatedServerInit"
         },
-        "ShowAdvancedMapTimeRequirement": 0.3,
+        "ShowAdvancedMapTimeRequirement": 0.30000001,
         "PetAvatarTypes": {
             "SENTINEL": "/Lotus/Types/Sentinels/SentinelAvatar",
             "KUBROW": "/Lotus/Types/Friendly/Pets/KubrowPetAvatar",

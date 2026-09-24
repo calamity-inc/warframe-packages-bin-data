@@ -26,8 +26,8 @@
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -44,19 +44,19 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.04,
+            0.039999999,
             0.25
         ],
         "GripPositionOffset": [
-            -0.06,
-            -0.045,
+            -0.059999999,
+            -0.045000002,
             0.1
         ],
         "GripRotationOffset": [
             0,
-            0.706676,
-            -0.707107,
-            0.024678
+            0.70667601,
+            -0.70710677,
+            0.024677999
         ],
         "RecordFireEvent": 0,
         "Behaviors": [
@@ -74,7 +74,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 1,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -204,16 +204,16 @@
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 1,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.15,
+                    "MaxTraceDistanceTime": 0.15000001,
                     "RetractTime": 0.25,
                     "RecoilRate": 60,
                     "AttachToWeapon": 0,
                     "MultiBeam": 0,
                     "BeamChild": {
                         "LocalPosition": [
-                            0.05,
+                            0.050000001,
                             -0.07,
-                            0.03
+                            0.029999999
                         ],
                         "LocalRotation": [
                             0,
@@ -298,7 +298,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -307,7 +307,7 @@
                             "LocalPosition": [
                                 0,
                                 0.1,
-                                0.7
+                                0.69999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -395,7 +395,7 @@
                             "LocalPosition": [
                                 0,
                                 0.1,
-                                0.7
+                                0.69999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -417,7 +417,7 @@
                             "LocalPosition": [
                                 0,
                                 0.1,
-                                0.7
+                                0.69999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -439,7 +439,7 @@
                             "LocalPosition": [
                                 0,
                                 0.1,
-                                0.7
+                                0.69999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -737,7 +737,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,

@@ -31,7 +31,7 @@
         "AttackData": {
             "Type": "DT_IMPACT",
             "Amount": 0,
-            "ProcChance": 0.26
+            "ProcChance": 0.25999999
         },
         "DealDamageThroughImpactBehavior": 1,
         "CriticalChance": 0.22,
@@ -52,7 +52,7 @@
             "DT_EXPLOSION",
             "DT_PHYSICAL"
         ],
-        "DamageRadius": 4.8,
+        "DamageRadius": 4.8000002,
         "DieEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXFueledMedium",
         "DieEffectMirror": "/Lotus/Fx/Explosions/Generic/ExplosionFXFueledMediumCheap",
         "DieSound": "/Lotus/Sounds/Weapons/Tenno/ThrowingKniveStickyBomb/ThrowingKniveStickyBombExplosion",
@@ -103,10 +103,10 @@
         "ProjectileReplication": "SYNCED_AUTONOMOUS",
         "FaceVelocity": 1,
         "BaseRotation": [
-            -0.707107,
+            -0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "KinematicIgnoredTypes": [
             "/Lotus/Types/Game/PickUps/LotusPickUp"

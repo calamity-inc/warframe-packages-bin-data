@@ -6,7 +6,7 @@
         "Collision": "InkblotSimCollision",
         "Attribs": {
             "dampeningRange": [
-                0.05,
+                0.050000001,
                 0.5
             ],
             "massRange": [
@@ -14,15 +14,15 @@
                 1
             ],
             "distConstraintRange": [
-                0.01,
+                0.0099999998,
                 10
             ],
             "useBackstopConstraints": 1,
             "backstopConstraintRange": [
-                0.01,
-                0.3
+                0.0099999998,
+                0.30000001
             ],
-            "shearingStiffness": 0.7,
+            "shearingStiffness": 0.69999999,
             "compressibility": 0.5
         },
         "UseClothCollision": 1,

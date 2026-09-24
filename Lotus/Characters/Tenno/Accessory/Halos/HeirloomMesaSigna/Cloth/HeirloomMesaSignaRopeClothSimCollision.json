@@ -1,0 +1,122 @@
+{
+    "parent": "/EE/Types/Effects/SimCollision",
+    "data": {
+        "Elements": [
+            {
+                "bone": "GAME_C1_HEAD1",
+                "offset": [
+                    -0.1,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_C1_NECK1",
+                "offsetB": [
+                    -0.1,
+                    0,
+                    0
+                ],
+                "radius": 0.1,
+                "radiusB": 0,
+                "tag": "Head",
+                "debugColor": [
+                    255,
+                    72,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_HEAD1",
+                "offset": [
+                    -0.2,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_C1_HEAD1",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.1,
+                "radiusB": 0.12,
+                "tag": "Head1",
+                "debugColor": [
+                    255,
+                    251,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_CLAV1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_R1_CLAV1",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.15000001,
+                "radiusB": 0,
+                "tag": "Clav",
+                "debugColor": [
+                    0,
+                    64,
+                    255,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_ARM1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_R1_ARM1",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.059999999,
+                "radiusB": 0,
+                "tag": "Arm1",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_NECK1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_C1_SPINE5",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.079999998,
+                "radiusB": 0,
+                "tag": "Neck",
+                "debugColor": [
+                    44,
+                    255,
+                    0,
+                    128
+                ]
+            }
+        ]
+    }
+}

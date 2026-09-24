@@ -1,0 +1,282 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 165,
+        "AdditionalItems": [
+            "SWProfitasHarrowHelmet"
+        ],
+        "LocalizeTag": "/Lotus/Language/SteamWorkshop/SWProfitasHarrowSkinName",
+        "LocalizeDescTag": "/Lotus/Language/SteamWorkshop/SWProfitasHarrowSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/SWHarrowProfitasSkin.png",
+        "ExcludeFromCodex": 0,
+        "IsPurchasePlatformLocked": 1,
+        "OverrideDateAddedToManifest": 1786536000,
+        "PCProdId": 6496,
+        "IsSteamPurchase": 1,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Powersuits/Priest/PriestBaseSuit",
+        "UpgradeSkinOverride": "SWProfitasHarrowWeaponSkin",
+        "CompatibleSlots": [
+            "BodySkin"
+        ],
+        "OverrideAttachedFx": 1,
+        "AttachedFxOverrides": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_L1_WEAPON1",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Priest/PriestCastTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_R1_WEAPON1",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Priest/PriestCastTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_HIP1",
+                "Type": "/Lotus/Characters/Tenno/Priest/SWProfitas/Cloth/SWProfitasClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_HIP1",
+                "Type": "/Lotus/Characters/Tenno/Priest/SWProfitas/Cloth/SWProfitasBackClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_THURIBLEATTCH",
+                "Type": "/Lotus/Powersuits/Priest/ThuribleAttachment",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "DefaultEnergyColor": [
+            0,
+            106,
+            245,
+            0
+        ],
+        "DefaultEnergyColor1": [
+            0,
+            191,
+            255,
+            0
+        ],
+        "AllowUglyMode": 1,
+        "DefaultCustomizationOverrides": {
+            "ArmLeft": {
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "CustomEmblem": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0.050000001,
+                            0,
+                            -0.075000003
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "EventEmblem": {
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            -0.050000001,
+                            0,
+                            0.075000003
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "ArmRight": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            }
+        },
+        "ResourceOverrides": [
+            {
+                "Tag": "ThuribleDeco",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Priest/ThuribleDeco"
+            }
+        ]
+    }
+}

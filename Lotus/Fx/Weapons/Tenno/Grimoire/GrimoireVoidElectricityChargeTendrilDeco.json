@@ -2,7 +2,7 @@
     "parent": "GrimoireVoidElectricityChargeAuraDeco",
     "data": {
         "Mesh": "GrimoireTendrils.fbx",
-        "MeshScale": 0.9,
+        "MeshScale": 0.89999998,
         "OverrideMaterial": [
             "GrimoireVoidElectricityChargeTendrilDecoMat"
         ],
@@ -21,18 +21,18 @@
             360,
             0,
             0,
-            0.01
+            0.0099999998
         ],
         "RandomMeshScale": [
-            0.8,
+            0.80000001,
             1
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.4,
-                "Multiplier": 0.6,
+                "TimeLength": 0.40000001,
+                "Multiplier": 0.60000002,
                 "FadeRange": [
                     0,
                     0.5
@@ -51,7 +51,7 @@
             {
                 "Parameter": "CustomTime",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 1.4,
                 "FadeRange": [
                     1,
@@ -64,12 +64,12 @@
                             "Value": 0
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.207299
+                            "Time": 0.33333334,
+                            "Value": 0.20729899
                         },
                         {
-                            "Time": 0.666667,
-                            "Value": 0.754745
+                            "Time": 0.66666669,
+                            "Value": 0.75474501
                         },
                         {
                             "Time": 1,

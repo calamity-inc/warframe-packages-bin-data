@@ -302,7 +302,7 @@
                         "Script": ""
                     },
                     "DefaultReevaluationDelay": 0,
-                    "MinimumStateTime": 2.1,
+                    "MinimumStateTime": 2.0999999,
                     "AttackStateTime": 2,
                     "IdleStateTime": 2,
                     "MaxRingSlots": 6,
@@ -326,7 +326,7 @@
                             0,
                             20
                         ],
-                        "DistanceScoreWeight": 0.4,
+                        "DistanceScoreWeight": 0.40000001,
                         "InTargetViewWeight": 1
                     },
                     "AttackBehavior:Type": "/EE/Types/Npc/GenericBehaviorSelector",
@@ -354,7 +354,7 @@
                     "WaitBehavior:MovePosture": "JOG",
                     "WaitBehavior:CloseToTargetMovePosture": "WALK",
                     "WaitBehavior:CloseToTargetDistance": 12,
-                    "WaitBehavior:StopRadius": 0.8,
+                    "WaitBehavior:StopRadius": 0.80000001,
                     "WaitBehavior:RepositionInterval": [
                         2,
                         6
@@ -405,7 +405,7 @@
                     "FailOnChildFailure": 0,
                     "SucceedOnNotParrying": 0,
                     "MinObservingTime": 2,
-                    "PctOfTimeSpentParrying": 0.4
+                    "PctOfTimeSpentParrying": 0.40000001
                 },
                 "links": [
                     {
@@ -465,7 +465,7 @@
                     "MovePosture": "JOG",
                     "CloseToTargetMovePosture": "WALK",
                     "CloseToTargetDistance": 12,
-                    "StopRadius": 0.8,
+                    "StopRadius": 0.80000001,
                     "RepositionInterval": [
                         2,
                         6
@@ -648,7 +648,7 @@
                         7,
                         11
                     ],
-                    "LungeAttackChance": 0.521212,
+                    "LungeAttackChance": 0.52121198,
                     "BasicAttackTypes": [
                         "CC_SLIDING"
                     ],
@@ -922,7 +922,7 @@
                     "DefaultReevaluationDelay": 0,
                     "AttackRange": [
                         0,
-                        2.9
+                        2.9000001
                     ],
                     "AttackStickyRange": [
                         0,
@@ -1386,7 +1386,7 @@
                     "MoveFacingControl": "MFC_FACE_MOVEDIR",
                     "MinDistToTarget": 10,
                     "ExitReevaluationTime": 5,
-                    "TurnAngleThreshold": 4.95,
+                    "TurnAngleThreshold": 4.9499998,
                     "FollowerPositions": [
                         [
                             -5,
@@ -1723,7 +1723,7 @@
                         "LookAtNearbyPlayer": 0,
                         "LookAtTarget": 0,
                         "NearbyTeammatesThreshold": 10,
-                        "PlayerBias": 0.6,
+                        "PlayerBias": 0.60000002,
                         "ReportAttackOnDamage": 1,
                         "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                         "PatrolBehavior:Enabled": 1,

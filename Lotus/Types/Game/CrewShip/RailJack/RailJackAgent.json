@@ -76,7 +76,7 @@
                     },
                     "DefaultReevaluationDelay": 0,
                     "SpeedMultiplier": 1.4,
-                    "AvatarOutOfBoundsRatioRequired": 0.8
+                    "AvatarOutOfBoundsRatioRequired": 0.80000001
                 },
                 "FlyInFormationTactic": {
                     "Enabled": 1,
@@ -215,7 +215,7 @@
                                         1000
                                     ],
                                     "RandScoreRange": [
-                                        0.8,
+                                        0.80000001,
                                         1
                                     ],
                                     "QuarySpacing": 50,
@@ -253,7 +253,7 @@
                                     },
                                     "DefaultReevaluationDelay": 0,
                                     "NearbyShipRange": 30,
-                                    "WaitingSpeedModifier": 0.33,
+                                    "WaitingSpeedModifier": 0.33000001,
                                     "DistanceSpeedMod": [
                                         100,
                                         300
@@ -476,7 +476,7 @@
                                 "FailOnChildFailure": 0
                             },
                             "StopWhenChildStops": 1,
-                            "SlowForTargetModifier": 0.4,
+                            "SlowForTargetModifier": 0.40000001,
                             "MaxTargetDistance": 2000,
                             "MinTargetDistance": 120,
                             "OnlyVisibleTargets": 0,
@@ -484,10 +484,10 @@
                             "ValidTargetTypes": [
                                 "/Lotus/Types/Game/CrewShip/EnemyCrewShipAvatar"
                             ],
-                            "AimTargetScoreMultiplier": 0.3,
+                            "AimTargetScoreMultiplier": 0.30000001,
                             "AimDirectionLimit": 150,
                             "AimDirectionScoreMultiplierRange": [
-                                0.4,
+                                0.40000001,
                                 1
                             ],
                             "ArchwingCannonType": "RailjackArchwingCannonEmplacement",
@@ -520,9 +520,9 @@
                         "ApplyCrewSkills": 1,
                         "GunnerSkillAccuracy": [
                             0.5,
-                            0.65,
-                            0.8,
-                            0.95,
+                            0.64999998,
+                            0.80000001,
+                            0.94999999,
                             1.1,
                             1.25
                         ],
@@ -530,15 +530,15 @@
                             0,
                             0.1,
                             0.2,
-                            0.3,
-                            0.4,
+                            0.30000001,
+                            0.40000001,
                             0.5
                         ],
                         "PilotSkillSpeed": [
                             0,
-                            0.05,
+                            0.050000001,
                             0.1,
-                            0.15,
+                            0.15000001,
                             0.2,
                             0.25
                         ]
@@ -612,7 +612,7 @@
                 "UseEndNodePos": 1,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1
         },
@@ -632,7 +632,7 @@
             "MoveSuccessRadius": 40,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 1,
             "StopWhenMovementInactive": 1,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1,
             "PreferedDistAboveNav": [
                 0,
@@ -723,7 +723,7 @@
         ],
         "AwarenessDecayTime": 0,
         "TargetLostTime": 20,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 800,
         "ReportTargetPortalCheck": 0,
         "ReportAwareness": 1,
@@ -736,7 +736,7 @@
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Game/CrewShip/DestroyerReactionControllerImpl",
         "PerceiverType": "RailjackShipPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "NotifyBehaviorsEnemySpotted": 1
     }
 }

@@ -73,7 +73,7 @@
         "AttackData": {
             "Type": "DT_IMPACT",
             "Amount": 100,
-            "ProcChance": 0.46,
+            "ProcChance": 0.46000001,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ],
@@ -83,8 +83,8 @@
             "HitType": "DHT_PROJECTILE"
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.48,
-        "CriticalMultiplier": 3.4,
+        "CriticalChance": 0.47999999,
+        "CriticalMultiplier": 3.4000001,
         "ExplosiveAttack": {
             "UseNewFormat": 1,
             "DT_IMPACT": 0,
@@ -102,7 +102,7 @@
             "DT_CORROSIVE": 0,
             "DT_RADIANT": 0,
             "Amount": 200,
-            "ProcChance": 0.46,
+            "ProcChance": 0.46000001,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ]
@@ -115,7 +115,7 @@
             "PT_STAGGERED"
         ],
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplosionIgnoreCover": 0,
@@ -135,8 +135,8 @@
         "HorizontalImpulse": 350,
         "KinematicMinSpeed": 200,
         "KinematicMaxSpeed": 200,
-        "KinematicNoise": 0.03,
-        "KinematicNoiseRate": 0.03,
+        "KinematicNoise": 0.029999999,
+        "KinematicNoiseRate": 0.029999999,
         "KinematicGravity": 1,
         "ApplyColorCustomization": 1
     }

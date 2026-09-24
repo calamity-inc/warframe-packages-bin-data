@@ -3,7 +3,7 @@
     "data": {
         "UseLightMap": 0,
         "BakeShadowsOnLightMaps": 0,
-        "IrradianceVolumeGain": 0.8,
+        "IrradianceVolumeGain": 0.80000001,
         "SharpenSH": 1,
         "Mesh": "OstCraterMound.fbx",
         "OverrideMaterial": [
@@ -17,10 +17,10 @@
         "RemoveOnDestroy": 1,
         "CreateOnDestroy": {
             "LocalRotation": [
-                -0.707107,
+                -0.70710677,
                 0,
                 0,
-                0.707107
+                0.70710677
             ],
             "Type": "/Lotus/Fx/Enemies/Grineer/Ghouls/GhoulMoundSpawn",
             "Attach": 1

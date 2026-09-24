@@ -9,14 +9,14 @@
             {
                 "LocalPosition": [
                     -0.5,
-                    -0.05,
+                    -0.050000001,
                     0
                 ],
                 "LocalRotation": [
-                    0.087156,
+                    0.087155998,
                     0,
                     0,
-                    0.996195
+                    0.99619502
                 ],
                 "BoneName": "GAME_C1_SPINE1",
                 "Type": "/Lotus/Characters/Infested/Deimos/Attachments/InfestedPredatorSpineB",
@@ -130,6 +130,20 @@
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Infested/InfestedQuadruped/InfestedQuadrupedLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
                     "MeshScale": 1.1
                 },
                 "Probability": 1

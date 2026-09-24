@@ -7,9 +7,9 @@
             "MAIN_HAND": {
                 "LocalRotation": [
                     0,
-                    0.707107,
+                    0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Type": "/Lotus/Weapons/ClanTech/Energy/ProdMeleeAttachmentNPC"
             }
@@ -29,7 +29,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -141,6 +141,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -209,6 +210,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,

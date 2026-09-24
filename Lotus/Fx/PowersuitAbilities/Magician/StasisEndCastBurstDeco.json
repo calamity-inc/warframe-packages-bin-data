@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/TurbulentCastMesh.fbx",
-        "MeshScale": 0.65,
+        "MeshScale": 0.64999998,
         "OverrideMaterial": [
             "MagicianCastMeshMat"
         ],
@@ -11,7 +11,7 @@
         "MaterialFade": [
             {
                 "Parameter": "BlueClipThreshold",
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,
@@ -30,7 +30,7 @@
             },
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0.1,

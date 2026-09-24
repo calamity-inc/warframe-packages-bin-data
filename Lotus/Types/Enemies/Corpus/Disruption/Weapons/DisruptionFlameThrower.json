@@ -21,7 +21,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -145,14 +145,14 @@
                     "WhizDeviation": 1,
                     "WhizChance": 0,
                     "WhizzByRemoteMinDistance": 15,
-                    "TraceRadius": 0.15,
+                    "TraceRadius": 0.15000001,
                     "PvpTraceRadius": 0,
                     "RefinedSweep": 0,
                     "AffectedByStasis": 1,
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 42,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.3,
+                    "MaxTraceDistanceTime": 0.30000001,
                     "RetractTime": 0.25,
                     "AttachToWeapon": 1,
                     "UseWeaponAttachmentFirePos": 0,
@@ -161,7 +161,7 @@
                         "LocalPosition": [
                             0,
                             0,
-                            0.3
+                            0.30000001
                         ],
                         "LocalRotation": [
                             0,
@@ -268,7 +268,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -279,7 +279,7 @@
                             "LocalPosition": [
                                 0,
                                 0.1,
-                                0.7
+                                0.69999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -367,7 +367,7 @@
                             "LocalPosition": [
                                 0,
                                 0.1,
-                                0.7
+                                0.69999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -389,7 +389,7 @@
                             "LocalPosition": [
                                 0,
                                 0.1,
-                                0.7
+                                0.69999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -411,7 +411,7 @@
                             "LocalPosition": [
                                 0,
                                 0.1,
-                                0.7
+                                0.69999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -658,7 +658,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_FIRE",
                         "Amount": 4,
-                        "ProcChance": 0.27,
+                        "ProcChance": 0.27000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [
                             "PT_IMMOLATION"
@@ -677,7 +677,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.74,
+                    "PvpDamageMultiplier": 0.74000001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -728,9 +728,9 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": ""
                 },
@@ -796,7 +796,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -999,7 +999,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_IMPACT",
                         "Amount": 100,
-                        "ProcChance": 0.35,
+                        "ProcChance": 0.34999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "HitType": "DHT_NONE",
@@ -1048,7 +1048,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,

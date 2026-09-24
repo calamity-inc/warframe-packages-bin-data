@@ -889,6 +889,7 @@
         "ParticleEvents": [
             {
                 "EventName": "Disarm",
+                "CancelEventName": "",
                 "ParticleSys": "/Lotus/Fx/PowersuitAbilities/Loki/DisarmBurst",
                 "Attached": 1,
                 "OwnedByAvatar": 0,
@@ -909,6 +910,7 @@
             },
             {
                 "EventName": "FinisherOpenEffect",
+                "CancelEventName": "",
                 "ParticleSys": "/Lotus/Fx/Gameplay/Finisher/FinisherOpen",
                 "Attached": 1,
                 "OwnedByAvatar": 0,
@@ -929,6 +931,7 @@
             },
             {
                 "EventName": "DeployCoverStart",
+                "CancelEventName": "",
                 "ParticleSys": "/Lotus/Fx/Enemies/Grineer/DeployableCover/DeployableCoverAnim",
                 "Attached": 1,
                 "OwnedByAvatar": 0,

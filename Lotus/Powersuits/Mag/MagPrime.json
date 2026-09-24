@@ -28,7 +28,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -129,9 +129,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -287,7 +287,7 @@
                         "PosOffset": [
                             0.1,
                             0.015,
-                            -0.06
+                            -0.059999999
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -298,7 +298,7 @@
                             0.172987,
                             -0.085832,
                             0.015134,
-                            0.98106
+                            0.98106003
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -318,7 +318,7 @@
                         "PosOffset": [
                             -0.1,
                             -0.015,
-                            0.06
+                            0.059999999
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -329,7 +329,7 @@
                             0.172987,
                             0.085832,
                             -0.015135,
-                            0.98106
+                            0.98106003
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -379,7 +379,7 @@
         "PassiveAbilityLocTag": "/Lotus/Language/Primes/MagPrimePassiveAbility",
         "MaxEnergy": 215,
         "InitialEnergy": 100,
-        "PvpBulletJumpSpeedMultiplier": 0.9,
+        "PvpBulletJumpSpeedMultiplier": 0.89999998,
         "MaxHealthOverride": 270,
         "MaxShieldOverride": 455,
         "ArmourRatingOverride": 135,

@@ -11,7 +11,7 @@
                             "CellHeight": 0.1,
                             "WalkableSlopeAngle": 60,
                             "MaxWadeDepth": 3.75,
-                            "MinWadeDepth": 0.35,
+                            "MinWadeDepth": 0.34999999,
                             "WalkableClimb": 5,
                             "WalkableHeight": 20,
                             "WalkableRadius": 2,
@@ -51,7 +51,7 @@
                             "MedianRegions": 0,
                             "BuildCover": 1,
                             "CoverBuildSettings": {
-                                "Epsilon": 0.0001,
+                                "Epsilon": 0.000099999997,
                                 "MinCoverLength": 1,
                                 "IgnoreTypes": [
                                     "/EE/Types/Engine/VolumeEntity"
@@ -62,7 +62,7 @@
                                 "EdgeInput": {
                                     "HorizontalSlopeThreshold": 60,
                                     "EdgeToCoverPointMinDistance": 0.5,
-                                    "BoundsExpand": 0.8,
+                                    "BoundsExpand": 0.80000001,
                                     "Enable": 1,
                                     "Snap2GroundEdge": {
                                         "Enable": 1,
@@ -73,9 +73,9 @@
                                         "ShortEdge": {
                                             "Enable": 1,
                                             "AngleThreshold": 30,
-                                            "MaxWeldingLength": 0.4,
+                                            "MaxWeldingLength": 0.40000001,
                                             "MinLength": 0.75,
-                                            "MaxTrimLength": 0.4
+                                            "MaxTrimLength": 0.40000001
                                         },
                                         "CornerEdge": {
                                             "Enable": 1,
@@ -92,13 +92,13 @@
                                 "WallCollision": {
                                     "PerpAngleThreshold": 80,
                                     "SlopeAngleThreshold": 60,
-                                    "KneeHeightOffset": 0.6,
+                                    "KneeHeightOffset": 0.60000002,
                                     "EyeHeightOffset": 1.6,
                                     "RayDepth": 1.25
                                 },
                                 "CoverSimplification": {
                                     "ShiftDistance": 0.5,
-                                    "MaxWeldingDistance": 0.4,
+                                    "MaxWeldingDistance": 0.40000001,
                                     "AngleThreshold": 25
                                 },
                                 "SegmentMerge": {
@@ -120,7 +120,7 @@
                                 "walkClimb": 6,
                                 "walkHeight": 40,
                                 "minFlightClearance": 12,
-                                "landingZoneThreshold": 0.35,
+                                "landingZoneThreshold": 0.34999999,
                                 "markRegions": 1,
                                 "markRoads": 0,
                                 "markDefenseVolumes": 0,
@@ -154,14 +154,14 @@
                                 ],
                                 "maxHeightDiffVaultAcross": [
                                     0,
-                                    0.8
+                                    0.80000001
                                 ],
                                 "maxHeightDiffVaultDown": [
                                     -6,
-                                    -0.8
+                                    -0.80000001
                                 ],
                                 "maxHeightDiffStepUpDown": [
-                                    0.4,
+                                    0.40000001,
                                     1.5
                                 ],
                                 "maxHeightDiffMantleUpDown": [

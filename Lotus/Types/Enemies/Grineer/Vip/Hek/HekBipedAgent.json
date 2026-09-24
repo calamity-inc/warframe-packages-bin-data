@@ -37,17 +37,17 @@
                 90
             ],
             "_phaseThresholds": [
-                0.9,
-                0.8,
-                0.7
+                0.89999998,
+                0.80000001,
+                0.69999999
             ],
             "_hekAgent": "",
             "_spawnFx": "",
             "_hekEscapeAnim": "",
             "_scriptTrigger": "",
             "_roboPhaseThresholds": [
-                0.8,
-                0.4
+                0.80000001,
+                0.40000001
             ],
             "_attachDelay": 2,
             "_isFinaleEncounter": 0,
@@ -75,21 +75,21 @@
                 4
             ],
             "_maxEnemyLevelMod": [
-                0.7,
-                0.8,
-                0.9,
+                0.69999999,
+                0.80000001,
+                0.89999998,
                 1
             ],
             "_minEnemyLevelMod": [
                 0.5,
-                0.6,
-                0.7,
-                0.8
+                0.60000002,
+                0.69999999,
+                0.80000001
             ],
             "_waveMinDelay": 5,
             "_waveMaxDelay": 10,
-            "_roboMaxEnemyLevelMod": 0.9,
-            "_roboMinEnemyLevelMod": 0.6,
+            "_roboMaxEnemyLevelMod": 0.89999998,
+            "_roboMinEnemyLevelMod": 0.60000002,
             "_roboMaxNumAgents": [
                 0,
                 4,
@@ -172,7 +172,7 @@
                 3,
                 5
             ],
-            "DamagePercentToMove": 0.03,
+            "DamagePercentToMove": 0.029999999,
             "AttackAction:Type": "/EE/Types/Npc/GenericBehaviorSelector",
             "AttackAction:Enabled": 1,
             "AttackAction:OnStartScript": {
@@ -246,7 +246,7 @@
                 "MinStrafeDistance": 0,
                 "StopRadius": 0.5,
                 "MovementSpeedModifier": [
-                    0.8,
+                    0.80000001,
                     1.2
                 ],
                 "MovementLineOfFireScoring": 0,
@@ -264,7 +264,7 @@
                     0
                 ],
                 "MinAngleToTurn": 30,
-                "MinAimMask": 0.9,
+                "MinAimMask": 0.89999998,
                 "TargetNotVisibleTimeoutRange": [
                     0,
                     1
@@ -326,7 +326,7 @@
                 "MinStrafeDistance": 0,
                 "StopRadius": 0.5,
                 "MovementSpeedModifier": [
-                    0.8,
+                    0.80000001,
                     1.2
                 ],
                 "MovementLineOfFireScoring": 0,

@@ -31,15 +31,15 @@
             },
             {
                 "LocalPosition": [
-                    -0.35,
+                    -0.34999999,
                     0.1,
                     0
                 ],
                 "LocalRotation": [
                     0,
-                    -0.707107,
+                    -0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_SPINE2",
                 "Type": "/Lotus/Types/Enemies/Grineer/Disruption/Attachments/GrnNoxBackpackDeco",
@@ -53,8 +53,8 @@
             },
             {
                 "LocalPosition": [
-                    -0.33,
-                    -0.04,
+                    -0.33000001,
+                    -0.039999999,
                     0.28
                 ],
                 "LocalRotation": [
@@ -75,8 +75,8 @@
             },
             {
                 "LocalPosition": [
-                    0.33,
-                    0.04,
+                    0.33000001,
+                    0.039999999,
                     -0.28
                 ],
                 "LocalRotation": [
@@ -257,14 +257,14 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/NPC/AmalgamNullifyDome.lua",
             "Function": "AmalgamDomePulse",
-            "_sizeOnSpawn": 0.05,
+            "_sizeOnSpawn": 0.050000001,
             "_growthDelayOnSpawn": 0.1,
             "_destroyAtMinSize": 1,
             "_destroyAtMaxSize": 0,
             "_destroyAtMaxSizeTime": 8,
-            "_domeMinScale": 0.4,
+            "_domeMinScale": 0.40000001,
             "_growLerpRate": 0.1,
-            "_scaleDelay": 0.05,
+            "_scaleDelay": 0.050000001,
             "_createFx": "",
             "_destroyFx": "",
             "_scriptTriggerType": "",

@@ -14,25 +14,25 @@
         "FeaturedTexture": "",
         "HasAlternateFire": 1,
         "GripPositionOffset": [
-            -0.06,
-            -0.08,
+            -0.059999999,
+            -0.079999998,
             0.2
         ],
         "GripRotationOffset": [
             0,
-            0.706676,
-            -0.707107,
-            0.024678
+            0.70667601,
+            -0.70710677,
+            0.024677999
         ],
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -40,7 +40,7 @@
                     "SwaySpeed": 1,
                     "SwayAmplitude": 0.1
                 },
-                "aimFOVMultiplier": 2.4,
+                "aimFOVMultiplier": 2.4000001,
                 "Upgrades": [],
                 "LocOverrides": [],
                 "Sound": ""
@@ -61,7 +61,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -73,7 +73,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.3,
+                                    0.30000001,
                                     1
                                 ],
                                 "burstPauseTime": [
@@ -188,7 +188,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -202,9 +202,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.3,
-                        "DT_PUNCTURE": 0.4,
-                        "DT_SLASH": 0.3,
+                        "DT_IMPACT": 0.30000001,
+                        "DT_PUNCTURE": 0.40000001,
+                        "DT_SLASH": 0.29999995,
                         "Amount": 48,
                         "ProcChance": 0.2,
                         "ForcedProcs": [],
@@ -225,7 +225,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.605,
+                    "PvpDamageMultiplier": 0.60500002,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -333,7 +333,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 1,
                     "NumShots": 3,
-                    "BurstDelay": 0.08,
+                    "BurstDelay": 0.079999998,
                     "IgnoreFireRate": 0,
                     "EatAmmoOnUnequip": 1,
                     "QueueBursts": 0,
@@ -357,7 +357,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -498,11 +498,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.3,
-                        "DT_PUNCTURE": 0.4,
-                        "DT_SLASH": 0.3,
+                        "DT_IMPACT": 0.30000001,
+                        "DT_PUNCTURE": 0.40000001,
+                        "DT_SLASH": 0.29999995,
                         "Amount": 48,
-                        "ProcChance": 0.18,
+                        "ProcChance": 0.18000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -521,7 +521,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.72,
+                    "PvpDamageMultiplier": 0.72000003,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -553,8 +553,8 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.42,
-                    "criticalHitDamageMultiplier": 3.4,
+                    "criticalHitChance": 0.41999999,
+                    "criticalHitDamageMultiplier": 3.4000001,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -648,7 +648,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -789,11 +789,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.3,
-                        "DT_PUNCTURE": 0.4,
-                        "DT_SLASH": 0.3,
+                        "DT_IMPACT": 0.30000001,
+                        "DT_PUNCTURE": 0.40000001,
+                        "DT_SLASH": 0.29999995,
                         "Amount": 48,
-                        "ProcChance": 0.32,
+                        "ProcChance": 0.31999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,

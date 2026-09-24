@@ -4,7 +4,7 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/DeathSquadFlashBang.lua",
             "Function": "OnStopped",
-            "_embedDelay": 0.35,
+            "_embedDelay": 0.34999999,
             "_maxRadius": 8,
             "_fadeDuration": 5,
             "_blindedDuration": 1,
@@ -270,8 +270,8 @@
                 ],
                 "AutoDestroy": 1,
                 "LifeSpan": [
-                    0.4,
-                    0.4
+                    0.40000001,
+                    0.40000001
                 ],
                 "Chance": 255,
                 "Force": [
@@ -364,6 +364,6 @@
         "ColorCorrectionRadius": 10,
         "ColorCorrectionFadeInTime": 0.1,
         "ColorCorrectionDuration": 0.5,
-        "ColorCorrectionFadeOutTime": 0.3
+        "ColorCorrectionFadeOutTime": 0.30000001
     }
 }

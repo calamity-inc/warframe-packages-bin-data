@@ -8,7 +8,7 @@
                     0,
                     0.017452,
                     0,
-                    0.999848
+                    0.99984801
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "CrpSentAmlgSniperAttachment"
@@ -16,13 +16,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -42,15 +42,15 @@
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.05,
+            -0.050000001,
             -0.02,
-            0.135
+            0.13500001
         ],
         "GripRotationOffset": [
-            0.061628,
-            0.704416,
-            -0.704416,
-            0.061628
+            0.061627999,
+            0.70441598,
+            -0.70441598,
+            0.061627999
         ],
         "AimStartSound": "/Lotus/Sounds/Weapons/Tenno/TennoSniper/TennoSniperZoomIn",
         "AimStopSound": "/Lotus/Sounds/Weapons/Tenno/TennoSniper/TennoSniperZoomOut",
@@ -58,11 +58,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -109,11 +109,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -141,7 +141,7 @@
                     {
                         "UpgradeType": "WEAPON_EXPLOSION_RADIUS",
                         "OperationType": "ADD",
-                        "Value": 3.6,
+                        "Value": 3.5999999,
                         "DamageType": "DT_ANY",
                         "AutoType": 1,
                         "ValidType": "",
@@ -188,7 +188,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,

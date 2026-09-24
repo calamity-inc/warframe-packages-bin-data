@@ -6,18 +6,20 @@
                 "Type": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandalAttachment"
             }
         },
-        "LocalizeTag": "/Lotus/Language/Items/ImperatorVandalName",
-        "LocalizeDescTag": "/Lotus/Language/Items/ImperatorVandalDesc",
+        "MarketMode": "MM_NONE",
+        "LocalizeTag": "[HC] JS2MCorruptedBossMinigun",
+        "LocalizeDescTag": "[HC] Give me a description",
         "Icon": "/Lotus/Interface/Icons/StoreIcons/Archwing/Weapons/ImperatorVandal.png",
+        "ExcludeFromCodex": 1,
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -46,7 +48,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -242,11 +244,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.35,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.34999999,
                         "DT_SLASH": 0.25,
                         "Amount": 1,
-                        "ProcChance": 0.05,
+                        "ProcChance": 0.050000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -371,7 +373,7 @@
                         "Script": ""
                     },
                     "ContinuousFireRateAtten": [
-                        0.533,
+                        0.53299999,
                         1
                     ],
                     "ContinuousMaxShots": 30,
@@ -404,7 +406,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -533,7 +535,7 @@
                     "WhizDeviation": 1,
                     "WhizChance": 0,
                     "WhizzByRemoteMinDistance": 15,
-                    "TraceRadius": 0.03,
+                    "TraceRadius": 0.029999999,
                     "PvpTraceRadius": 0,
                     "RefinedSweep": 1,
                     "AffectedByStasis": 1,
@@ -546,11 +548,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.35,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.34999999,
                         "DT_SLASH": 0.25,
                         "Amount": 1,
-                        "ProcChance": 0.05,
+                        "ProcChance": 0.050000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -675,7 +677,7 @@
                         "Script": ""
                     },
                     "ContinuousFireRateAtten": [
-                        0.533,
+                        0.53299999,
                         1
                     ],
                     "ContinuousMaxShots": 30,
@@ -691,10 +693,10 @@
         "HeavyAmmoClipSize": 300,
         "HeavyPvpAmmoClipSize": 300,
         "RequiredLevel": 5,
-        "BatteryRegenDelay": 0.15,
+        "BatteryRegenDelay": 0.15000001,
         "BatteryRegenRate": 75,
-        "HeavyBatteryRegenDelay": 0.15,
+        "HeavyBatteryRegenDelay": 0.15000001,
         "HeavyBatteryRegenRate": 75,
-        "OmegaAttenuation": 0.95
+        "OmegaAttenuation": 0.94999999
     }
 }

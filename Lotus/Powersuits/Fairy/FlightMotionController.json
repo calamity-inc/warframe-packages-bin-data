@@ -23,9 +23,9 @@
         "MaxRunTurnRate": 360,
         "FlightEnabled": 1,
         "FlightPhysicsBehavior": "FlightPhysics",
-        "SmoothConvergeTorso": 0.3,
+        "SmoothConvergeTorso": 0.30000001,
         "CollisionBounceRestitution": 0.175,
-        "CollisionBounceRestitutionParallel": 0.9,
+        "CollisionBounceRestitutionParallel": 0.89999998,
         "CollisionBounceVelocityThreshold": 20,
         "CollisionBigStaggerVelocityThreshold": 10,
         "CollisionKnockdownVelocityThreshold": 50,
@@ -54,8 +54,8 @@
         },
         "Strafe": {
             "StrafeMaxThrottleAcceleration": 10,
-            "StrafeAccelTime": 0.01,
-            "StrafeDecayTime": 0.01
+            "StrafeAccelTime": 0.0099999998,
+            "StrafeDecayTime": 0.0099999998
         },
         "AimOffsetAngleClamp": [
             0,
@@ -96,8 +96,8 @@
                 3240,
                 3240
             ],
-            "TargetAngularVelocitySmoothTime": 0.01,
-            "TargetRotationSmoothTime": 0.01,
+            "TargetAngularVelocitySmoothTime": 0.0099999998,
+            "TargetRotationSmoothTime": 0.0099999998,
             "MaxSpeed": [
                 8,
                 5,
@@ -118,7 +118,7 @@
                 3,
                 3
             ],
-            "TargetVelocitySmoothTime": 0.01,
+            "TargetVelocitySmoothTime": 0.0099999998,
             "TargetPositionSmoothTime": 0,
             "Drag": [
                 2,

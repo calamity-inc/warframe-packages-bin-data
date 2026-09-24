@@ -199,7 +199,7 @@
                     "m": 1,
                     "k": -1,
                     "b": 1,
-                    "c": 0.3,
+                    "c": 0.30000001,
                     "logistic": 1
                 },
                 "FollowRange": 15,
@@ -258,7 +258,7 @@
                     "m": 1,
                     "k": -1,
                     "b": 1,
-                    "c": 0.3,
+                    "c": 0.30000001,
                     "logistic": 1
                 },
                 "ControlShootingFromBehavior": 1,
@@ -354,7 +354,7 @@
                     "m": 1,
                     "k": -1,
                     "b": 1,
-                    "c": 0.3,
+                    "c": 0.30000001,
                     "logistic": 1
                 },
                 "StopRadius": 3,
@@ -444,7 +444,7 @@
             "MinStrafeDistance": 0,
             "StopRadius": 0.5,
             "MovementSpeedModifier": [
-                0.9,
+                0.89999998,
                 1.2
             ],
             "MovementLineOfFireScoring": 0,
@@ -462,7 +462,7 @@
                 0
             ],
             "MinAngleToTurn": 40,
-            "MinAimMask": 0.9,
+            "MinAimMask": 0.89999998,
             "TargetNotVisibleTimeoutRange": [
                 6,
                 8
@@ -572,7 +572,7 @@
         "SuperAlertDecayTime": 5,
         "ReactionControllerType": "/EE/Types/Npc/ReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Sentinels/SentinelPerceiver",
-        "SightReactionProbability": 0.6,
+        "SightReactionProbability": 0.60000002,
         "IsCoverUseEnabled": 0,
         "CoverEvaluatorType": "/EE/Types/Npc/GenericCoverEvaluator",
         "TargetEvaluatorType": "/Lotus/Types/Enemies/RangedFollowerTargetEvaluator"

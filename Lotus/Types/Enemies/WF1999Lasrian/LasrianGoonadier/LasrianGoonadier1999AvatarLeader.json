@@ -4,73 +4,142 @@
         "KillXPReward": 500,
         "AvatarEnhancements": [
             {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ArcticEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Lasria/Military/LasrianBaseSuit/LasrianBaseSuitBodyLeaderArctic",
+                        "/Lotus/Characters/Lasria/Military/LasrianGoonadier/LasrianGoonadierBodyLeaderArctic"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Lasria/Military/LasrianGoonadier/LasrianGoonadierBodyLeaderArctic"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/BlitzEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Lasria/Military/LasrianBaseSuit/LasrianBaseSuitBodyLeaderBlitz",
+                        "/Lotus/Characters/Lasria/Military/LasrianGoonadier/LasrianGoonadierBodyLeaderBlitz"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Lasria/Military/LasrianGoonadier/LasrianGoonadierBodyLeaderBlitz"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/BlitzLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/BlitzLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/EnergyLeechEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Lasria/Military/LasrianBaseSuit/LasrianBaseSuitBodyLeaderEnergyLeech",
+                        "/Lotus/Characters/Lasria/Military/LasrianGoonadier/LasrianGoonadierBodyLeaderEnergyLeech"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Lasria/Military/LasrianGoonadier/LasrianGoonadierBodyLeaderEnergyLeech"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
-                },
-                "Probability": 1
-            },
-            {
-                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ArcticEnhancement",
-                "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
-                    "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/EnergyLeechLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/EnergyLeechLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/LeechEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Lasria/Military/LasrianBaseSuit/LasrianBaseSuitBodyLeaderLeech",
+                        "/Lotus/Characters/Lasria/Military/LasrianGoonadier/LasrianGoonadierBodyLeaderLeech"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Lasria/Military/LasrianGoonadier/LasrianGoonadierBodyLeaderLeech"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/LeechLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/LeechLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ShockEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Lasria/Military/LasrianBaseSuit/LasrianBaseSuitBodyLeaderShock",
+                        "/Lotus/Characters/Lasria/Military/LasrianGoonadier/LasrianGoonadierBodyLeaderShock"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Lasria/Military/LasrianGoonadier/LasrianGoonadierBodyLeaderShock"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
-                    "MeshScale": 1
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/ShockLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ShockLeaderDesc",
+                    "MeshScale": 1.1
                 },
                 "Probability": 1
             },
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/JadeLightEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Lasria/Military/LasrianBaseSuit/LasrianBaseSuitBodyLeaderJadelight",
+                        "/Lotus/Characters/Lasria/Military/LasrianGoonadier/LasrianGoonadierBodyLeaderJadelight"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Lasria/Military/LasrianGoonadier/LasrianGoonadierBodyLeaderJadelight"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Lasria/Military/LasrianBaseSuit/LasrianBaseSuitBodyLeaderVolt",
+                        "/Lotus/Characters/Lasria/Military/LasrianGoonadier/LasrianGoonadierBodyLeaderVolt"
+                    ],
                     "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
-                    "LocTagOverride": "",
-                    "ShortDescOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
                     "MeshScale": 1
                 },
                 "Probability": 1

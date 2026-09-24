@@ -144,23 +144,34 @@
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/JadeLightEnhancement",
                 "AvatarOverrides": {
                     "MaterialOverrides": [
+                        "/Lotus/Characters/Guild/Spaceman/Venus/EngineerHelmetLeaderJadelight",
                         "",
                         "/Lotus/Characters/Guild/Spaceman/Venus/CorpusHelmetLeader",
-                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusVenusHoodLeaderJadelight",
-                        "/Lotus/Characters/Guild/Spaceman/Venus/WarriorHelmetLeader",
-                        "/Lotus/Characters/Guild/Spaceman/Venus/WarriorAccessoriesLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusEngineerVenusHoodLeader",
                         "/Lotus/Characters/Guild/Spaceman/Venus/CorpusSpacemanVenusLeaderJadelight"
                     ],
-                    "ChildMaterialOverrides": [
-                        {
-                            "materials": [
-                                "/Lotus/Characters/Guild/Spaceman/Venus/EngineerHelmetLeaderJadelight"
-                            ]
-                        }
-                    ],
+                    "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Guild/Spaceman/Venus/EngineerHelmetLeaderVolt",
+                        "",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusHelmetLeaderVolt",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusEngineerVenusHoodLeader",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusSpacemanVenusLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
                     "MeshScale": 1.1
                 },
                 "Probability": 1

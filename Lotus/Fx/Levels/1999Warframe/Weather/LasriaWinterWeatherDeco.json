@@ -46,7 +46,7 @@
             "_snowProjection": "/Lotus/Fx/Weather/VenusLandscape/SnowCoverProjector",
             "_snowProjectionSentinel": "/Lotus/Fx/Weather/VenusLandscape/SnowCoverProjectorSentinel",
             "_snowProjectionFurry": "/Lotus/Fx/Weather/VenusLandscape/SnowCoverProjectorTransparent",
-            "_buildUpSpeed": 0.005,
+            "_buildUpSpeed": 0.0049999999,
             "_moaShakeAnim": "/Lotus/Animations/Creatures/MOA/Cold/ShakeCold_anim.fbx",
             "_moaShakeEffect": "/Lotus/Fx/Weather/VenusLandscape/VenusWeatherMoaShake",
             "_moaShiverSubTree": "/Lotus/Types/Enemies/Corpus/BipedRobot/BipedRobotColdIdle.animtree",
@@ -75,7 +75,7 @@
         "MaterialFade": [
             {
                 "Parameter": "Scalar2z",
-                "TimeLength": 0.6,
+                "TimeLength": 0.60000002,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -96,7 +96,7 @@
         "TriggeredMaterialFade": [
             {
                 "Parameter": "Scalar2z",
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,

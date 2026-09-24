@@ -346,6 +346,59 @@
                     "MeshScale": 1.1
                 },
                 "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Grineer/Marine/GrineerBodyLeaderVolt",
+                        "/Lotus/Characters/Grineer/Marine/GrineerBodyLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/Marine/GrineerHelmetLeaderVolt"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/Marine/EliteShield/ShieldLancerMaskLeaderVolt"
+                            ]
+                        },
+                        {
+                            "materials": []
+                        },
+                        {
+                            "materials": []
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/Marine/GrineerAccessoriesLeaderVolt"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/Marine/GrineerAccessoriesLeaderVolt"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/Marine/GrineerAccessoriesLeaderVolt"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/Marine/GrineerAccessoriesLeaderVolt"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "",
+                    "ShortDescOverride": "",
+                    "MeshScale": 1
+                },
+                "Probability": 1
             }
         ]
     }

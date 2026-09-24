@@ -34,9 +34,9 @@
                 ],
                 "LocalRotation": [
                     -0.312635,
-                    -0.516171,
-                    -0.292828,
-                    0.741673
+                    -0.51617098,
+                    -0.29282799,
+                    0.74167299
                 ],
                 "BoneName": "GAME_C1_HANDLEBARS",
                 "Type": "/Lotus/Characters/Lasria/Motorcycles/LasMotorcycle/MotorcycleLight",
@@ -100,9 +100,9 @@
                 ],
                 "LocalRotation": [
                     -0.353553,
-                    0.612372,
+                    0.61237198,
                     0.353553,
-                    0.612372
+                    0.61237198
                 ],
                 "BoneName": "GAME_C1_FSHOCK",
                 "Type": "/Lotus/Fx/Gameplay/Motorcycle/MotorcycleImpactTerrainCaster",
@@ -184,19 +184,19 @@
             "_stationaryMaxSpeed": 0.1,
             "_forwardDismountMaxSpeed": 5,
             "_forwardDismountClampSpeed": 10,
-            "_forwardDismountSpeedMultiplier": 0.3,
+            "_forwardDismountSpeedMultiplier": 0.30000001,
             "_AvatarFadeInTimeMultiplier": 2,
             "_equipBestWeapon": 1,
             "_innerRadius": 1,
             "_outerRadius": 30,
-            "_intervalMin": 0.35,
+            "_intervalMin": 0.34999999,
             "_intervalMax": 0.75,
             "_mountedEffect": "",
             "_headLightTag": "MotorCycleLight",
             "_headLightOnEmmisiveAtten": 30,
             "_knockbackTriggerType": "MotorcycleRagdollTrigger",
             "_knockbackMinSpeed": 5,
-            "_slideDotProductDeadZone": 0.15,
+            "_slideDotProductDeadZone": 0.15000001,
             "_slideMinInitiationSpeed": 0.25,
             "_slideFromStoppedImpulseMaxSpeed": 0.5,
             "_slideFromStoppedImpulse": 15,
@@ -217,7 +217,7 @@
             "_mountCameraResetAnim": "",
             "_frontWheelBone": "GAME_C1_FWHEEL",
             "_backWheelBone": "GAME_C1_RWHEEL",
-            "_wheelRadius": 0.3,
+            "_wheelRadius": 0.30000001,
             "_motorcycleMarkerType": ""
         },
         "ReplicaRunScriptInstance": 1,
@@ -252,7 +252,7 @@
         "RaycastProxy": {
             "LocalPosition": [
                 0,
-                0.8,
+                0.80000001,
                 0
             ],
             "Type": ""
@@ -266,13 +266,13 @@
         },
         "RecreateCameraControllerOnPlayerChanged": 0,
         "AnimTriggeredJump": 1,
-        "CoyoteTime": 0.3,
+        "CoyoteTime": 0.30000001,
         "CancelRunWhenJump": 0,
         "OnPreDeathScript": {
             "Script": "/Lotus/Types/Enemies/Grineer/Eidolon/GrineerSkiff/UnmannedSkiff/HandlePilotOnSkiffDeath.lua",
             "Function": "RagdollPilot",
             "_pilotAvatarType": "/Lotus/Types/Enemies/Grineer/Eidolon/Avatars/EidolonSkiffPilotAvatar",
-            "_maxHealthAsDamagePct": 0.8
+            "_maxHealthAsDamagePct": 0.80000001
         },
         "SoundEvents": [
             {
@@ -388,19 +388,19 @@
                     "_stationaryMaxSpeed": 0.1,
                     "_forwardDismountMaxSpeed": 5,
                     "_forwardDismountClampSpeed": 10,
-                    "_forwardDismountSpeedMultiplier": 0.3,
+                    "_forwardDismountSpeedMultiplier": 0.30000001,
                     "_AvatarFadeInTimeMultiplier": 2,
                     "_equipBestWeapon": 1,
                     "_innerRadius": 1,
                     "_outerRadius": 30,
-                    "_intervalMin": 0.35,
+                    "_intervalMin": 0.34999999,
                     "_intervalMax": 0.75,
                     "_mountedEffect": "",
                     "_headLightTag": "MotorCycleLight",
                     "_headLightOnEmmisiveAtten": 30,
                     "_knockbackTriggerType": "",
                     "_knockbackMinSpeed": 5,
-                    "_slideDotProductDeadZone": 0.15,
+                    "_slideDotProductDeadZone": 0.15000001,
                     "_slideMinInitiationSpeed": 0.25,
                     "_slideFromStoppedImpulseMaxSpeed": 0.5,
                     "_slideFromStoppedImpulse": 15,
@@ -421,7 +421,7 @@
                     "_mountCameraResetAnim": "",
                     "_frontWheelBone": "",
                     "_backWheelBone": "",
-                    "_wheelRadius": 0.3,
+                    "_wheelRadius": 0.30000001,
                     "_motorcycleMarkerType": ""
                 }
             },
@@ -448,19 +448,19 @@
                     "_stationaryMaxSpeed": 0.1,
                     "_forwardDismountMaxSpeed": 5,
                     "_forwardDismountClampSpeed": 10,
-                    "_forwardDismountSpeedMultiplier": 0.3,
+                    "_forwardDismountSpeedMultiplier": 0.30000001,
                     "_AvatarFadeInTimeMultiplier": 2,
                     "_equipBestWeapon": 1,
                     "_innerRadius": 1,
                     "_outerRadius": 30,
-                    "_intervalMin": 0.35,
+                    "_intervalMin": 0.34999999,
                     "_intervalMax": 0.75,
                     "_mountedEffect": "",
                     "_headLightTag": "MotorCycleLight",
                     "_headLightOnEmmisiveAtten": 30,
                     "_knockbackTriggerType": "",
                     "_knockbackMinSpeed": 5,
-                    "_slideDotProductDeadZone": 0.15,
+                    "_slideDotProductDeadZone": 0.15000001,
                     "_slideMinInitiationSpeed": 0.25,
                     "_slideFromStoppedImpulseMaxSpeed": 0.5,
                     "_slideFromStoppedImpulse": 15,
@@ -481,7 +481,7 @@
                     "_mountCameraResetAnim": "",
                     "_frontWheelBone": "",
                     "_backWheelBone": "",
-                    "_wheelRadius": 0.3,
+                    "_wheelRadius": 0.30000001,
                     "_motorcycleMarkerType": ""
                 }
             },
@@ -508,19 +508,19 @@
                     "_stationaryMaxSpeed": 0.1,
                     "_forwardDismountMaxSpeed": 5,
                     "_forwardDismountClampSpeed": 10,
-                    "_forwardDismountSpeedMultiplier": 0.3,
+                    "_forwardDismountSpeedMultiplier": 0.30000001,
                     "_AvatarFadeInTimeMultiplier": 2,
                     "_equipBestWeapon": 1,
                     "_innerRadius": 1,
                     "_outerRadius": 30,
-                    "_intervalMin": 0.35,
+                    "_intervalMin": 0.34999999,
                     "_intervalMax": 0.75,
                     "_mountedEffect": "",
                     "_headLightTag": "MotorCycleLight",
                     "_headLightOnEmmisiveAtten": 30,
                     "_knockbackTriggerType": "",
                     "_knockbackMinSpeed": 5,
-                    "_slideDotProductDeadZone": 0.15,
+                    "_slideDotProductDeadZone": 0.15000001,
                     "_slideMinInitiationSpeed": 0.25,
                     "_slideFromStoppedImpulseMaxSpeed": 0.5,
                     "_slideFromStoppedImpulse": 15,
@@ -541,7 +541,7 @@
                     "_mountCameraResetAnim": "",
                     "_frontWheelBone": "",
                     "_backWheelBone": "",
-                    "_wheelRadius": 0.3,
+                    "_wheelRadius": 0.30000001,
                     "_motorcycleMarkerType": ""
                 }
             }
@@ -645,15 +645,15 @@
         "MountedEffects": [
             {
                 "LocalPosition": [
-                    -0.6,
+                    -0.60000002,
                     0,
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_SWINGARM",
                 "Type": "/Lotus/Fx/Gameplay/Motorcycle/MotorcycleTerrainCaster",
@@ -672,10 +672,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_SWINGARM",
                 "Type": "/Lotus/Fx/Gameplay/Motorcycle/MotorcycleTerrainCaster",
@@ -694,10 +694,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_HANDLEBARS",
                 "Type": "/Lotus/Sounds/Vehicles/Motorcycle/MotorcycleNinetyNine/MC99SFXImpactCasterFast",
@@ -714,12 +714,12 @@
         "HudMovie": "/Lotus/Interface/EmplacementHud.swf",
         "HudLocalAttachPos": [
             0.2,
-            4.15,
+            4.1500001,
             0.1
         ],
         "HudScale": [
             0.5,
-            0.6,
+            0.60000002,
             0.5
         ],
         "MountCameraTransitionTime": 1,
@@ -757,19 +757,19 @@
             "_stationaryMaxSpeed": 0.1,
             "_forwardDismountMaxSpeed": 5,
             "_forwardDismountClampSpeed": 10,
-            "_forwardDismountSpeedMultiplier": 0.3,
+            "_forwardDismountSpeedMultiplier": 0.30000001,
             "_AvatarFadeInTimeMultiplier": 2,
             "_equipBestWeapon": 1,
             "_innerRadius": 1,
             "_outerRadius": 30,
-            "_intervalMin": 0.35,
+            "_intervalMin": 0.34999999,
             "_intervalMax": 0.75,
             "_mountedEffect": "/Lotus/Fx/Gameplay/Motorcycle/MotorcycleEffectsAttach",
             "_headLightTag": "MotorCycleLight",
             "_headLightOnEmmisiveAtten": 30,
             "_knockbackTriggerType": "",
             "_knockbackMinSpeed": 5,
-            "_slideDotProductDeadZone": 0.15,
+            "_slideDotProductDeadZone": 0.15000001,
             "_slideMinInitiationSpeed": 0.25,
             "_slideFromStoppedImpulseMaxSpeed": 0.5,
             "_slideFromStoppedImpulse": 15,
@@ -790,7 +790,7 @@
             "_mountCameraResetAnim": "",
             "_frontWheelBone": "",
             "_backWheelBone": "",
-            "_wheelRadius": 0.3,
+            "_wheelRadius": 0.30000001,
             "_motorcycleMarkerType": "/Lotus/Types/Game/MarkerInfos/MotorcycleMarkerInfo"
         },
         "DismountScript": {
@@ -814,19 +814,19 @@
             "_stationaryMaxSpeed": 0.1,
             "_forwardDismountMaxSpeed": 5,
             "_forwardDismountClampSpeed": 10,
-            "_forwardDismountSpeedMultiplier": 0.3,
+            "_forwardDismountSpeedMultiplier": 0.30000001,
             "_AvatarFadeInTimeMultiplier": 2,
             "_equipBestWeapon": 1,
             "_innerRadius": 1,
             "_outerRadius": 30,
-            "_intervalMin": 0.35,
+            "_intervalMin": 0.34999999,
             "_intervalMax": 0.75,
             "_mountedEffect": "/Lotus/Fx/Gameplay/Motorcycle/MotorcycleEffectsAttach",
             "_headLightTag": "MotorCycleLight",
             "_headLightOnEmmisiveAtten": 30,
             "_knockbackTriggerType": "",
             "_knockbackMinSpeed": 5,
-            "_slideDotProductDeadZone": 0.15,
+            "_slideDotProductDeadZone": 0.15000001,
             "_slideMinInitiationSpeed": 0.25,
             "_slideFromStoppedImpulseMaxSpeed": 0.5,
             "_slideFromStoppedImpulse": 15,
@@ -847,7 +847,7 @@
             "_mountCameraResetAnim": "",
             "_frontWheelBone": "",
             "_backWheelBone": "",
-            "_wheelRadius": 0.3,
+            "_wheelRadius": 0.30000001,
             "_motorcycleMarkerType": "/Lotus/Types/Game/MarkerInfos/MotorcycleMarkerInfo"
         },
         "SetupMountAnimScript": {
@@ -871,19 +871,19 @@
             "_stationaryMaxSpeed": 0.1,
             "_forwardDismountMaxSpeed": 5,
             "_forwardDismountClampSpeed": 10,
-            "_forwardDismountSpeedMultiplier": 0.3,
+            "_forwardDismountSpeedMultiplier": 0.30000001,
             "_AvatarFadeInTimeMultiplier": 2,
             "_equipBestWeapon": 1,
             "_innerRadius": 1,
             "_outerRadius": 30,
-            "_intervalMin": 0.35,
+            "_intervalMin": 0.34999999,
             "_intervalMax": 0.75,
             "_mountedEffect": "",
             "_headLightTag": "MotorCycleLight",
             "_headLightOnEmmisiveAtten": 30,
             "_knockbackTriggerType": "",
             "_knockbackMinSpeed": 5,
-            "_slideDotProductDeadZone": 0.15,
+            "_slideDotProductDeadZone": 0.15000001,
             "_slideMinInitiationSpeed": 0.25,
             "_slideFromStoppedImpulseMaxSpeed": 0.5,
             "_slideFromStoppedImpulse": 15,
@@ -904,7 +904,7 @@
             "_mountCameraResetAnim": "/Lotus/Animations/Tenno/Motorcycle/CameraReset",
             "_frontWheelBone": "",
             "_backWheelBone": "",
-            "_wheelRadius": 0.3,
+            "_wheelRadius": 0.30000001,
             "_motorcycleMarkerType": "/Lotus/Types/Game/MarkerInfos/MotorcycleMarkerInfo"
         },
         "SetupDismountAnimScript": {
@@ -928,19 +928,19 @@
             "_stationaryMaxSpeed": 15,
             "_forwardDismountMaxSpeed": 25,
             "_forwardDismountClampSpeed": 10,
-            "_forwardDismountSpeedMultiplier": 0.4,
+            "_forwardDismountSpeedMultiplier": 0.40000001,
             "_AvatarFadeInTimeMultiplier": 2,
             "_equipBestWeapon": 1,
             "_innerRadius": 1,
             "_outerRadius": 30,
-            "_intervalMin": 0.35,
+            "_intervalMin": 0.34999999,
             "_intervalMax": 0.75,
             "_mountedEffect": "",
             "_headLightTag": "MotorCycleLight",
             "_headLightOnEmmisiveAtten": 30,
             "_knockbackTriggerType": "",
             "_knockbackMinSpeed": 5,
-            "_slideDotProductDeadZone": 0.15,
+            "_slideDotProductDeadZone": 0.15000001,
             "_slideMinInitiationSpeed": 0.25,
             "_slideFromStoppedImpulseMaxSpeed": 0.5,
             "_slideFromStoppedImpulse": 15,
@@ -961,7 +961,7 @@
             "_mountCameraResetAnim": "",
             "_frontWheelBone": "",
             "_backWheelBone": "",
-            "_wheelRadius": 0.3,
+            "_wheelRadius": 0.30000001,
             "_motorcycleMarkerType": "/Lotus/Types/Game/MarkerInfos/MotorcycleMarkerInfo"
         },
         "Horse": 1,

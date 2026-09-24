@@ -6,9 +6,9 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalRotation": [
-                    -0.000761,
+                    -0.00076099997,
                     0.017436,
-                    -0.043613,
+                    -0.043613002,
                     0.998896
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -21,12 +21,12 @@
         "HolsterBone1Name": "GAME_R1_WEAPON",
         "HolsterBone1Position": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -44,8 +44,8 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.075,
-            0.24
+            0.075000003,
+            0.23999999
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
@@ -55,8 +55,8 @@
         ],
         "GripRotationOffset": [
             0,
-            -0.707107,
-            0.707107,
+            -0.70710677,
+            0.70710677,
             0
         ],
         "WarnTargetPlayer": 1,
@@ -75,7 +75,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -215,7 +215,7 @@
                             "LocalPosition": [
                                 0,
                                 0,
-                                0.78
+                                0.77999997
                             ],
                             "LocalRotation": [
                                 0,
@@ -239,7 +239,7 @@
                         "LocalPosition": [
                             0,
                             0,
-                            0.78
+                            0.77999997
                         ],
                         "LocalRotation": [
                             0,
@@ -293,11 +293,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.7,
-                        "DT_PUNCTURE": 0.15,
-                        "DT_SLASH": 0.15,
+                        "DT_IMPACT": 0.69999999,
+                        "DT_PUNCTURE": 0.15000001,
+                        "DT_SLASH": 0.14999998,
                         "Amount": 40,
-                        "ProcChance": 0.15,
+                        "ProcChance": 0.15000001,
                         "ForcedProcs": [
                             "PT_BIG_STAGGER"
                         ],
@@ -316,7 +316,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.268,
+                    "PvpDamageMultiplier": 0.26800001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -348,7 +348,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.15,
+                    "criticalHitChance": 0.15000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -398,7 +398,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -445,7 +445,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -510,7 +510,7 @@
                     },
                     "ClipSizeAffectsChargeTime": 0,
                     "ChargeTime": 2.5,
-                    "MinChargeRatio": 0.4,
+                    "MinChargeRatio": 0.40000001,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 2,
                     "AutoFireWhenChargeCompleted": 1,
@@ -533,7 +533,7 @@
                         "LocalPosition": [
                             0,
                             0,
-                            0.92
+                            0.92000002
                         ],
                         "LocalRotation": [
                             0,

@@ -14,7 +14,7 @@
                 -10,
                 10
             ],
-            "exposureCurveBias": -0.15,
+            "exposureCurveBias": -0.15000001,
             "toneMapType": "TM_ACES_REF",
             "toneMapLUT": "/EE/Materials/PostFX/TriuneLUTs/90s/TheSixthSense.cube",
             "colorGradingData": {
@@ -23,25 +23,25 @@
                         1,
                         1,
                         1,
-                        0.9
+                        0.89999998
                     ],
                     "Contrast": [
                         1,
-                        0.77,
-                        0.98,
+                        0.76999998,
+                        0.98000002,
                         1.35
                     ],
                     "Gamma": [
                         1,
-                        0.9,
-                        0.9,
+                        0.89999998,
+                        0.89999998,
                         1.1
                     ],
                     "Gain": [
                         1,
                         1,
                         1,
-                        0.85
+                        0.85000002
                     ]
                 },
                 "Shadows": {
@@ -49,7 +49,7 @@
                         1,
                         1,
                         1,
-                        0.95
+                        0.94999999
                     ],
                     "Contrast": [
                         1,
@@ -63,7 +63,7 @@
                         1,
                         1,
                         1,
-                        0.95
+                        0.94999999
                     ],
                     "Contrast": [
                         1,
@@ -73,8 +73,8 @@
                     ],
                     "Gamma": [
                         1,
-                        0.93,
-                        0.93,
+                        0.93000001,
+                        0.93000001,
                         1
                     ]
                 },
@@ -93,18 +93,18 @@
             "postFXMaterial": "/Lotus/Types/ACESPost",
             "volumetricFog": {
                 "Enabled": 1,
-                "NearDistance": 0.05,
+                "NearDistance": 0.050000001,
                 "GlobalIlluminationMultiplier": 2,
                 "Scattering": 2,
                 "EmissiveColor": [
-                    0.27,
-                    0.57,
+                    0.27000001,
+                    0.56999999,
                     1,
                     1
                 ],
                 "GlobalFog": {
                     "Density": 0.035,
-                    "G": 0.3
+                    "G": 0.30000001
                 },
                 "WindSettings": {
                     "FakeWindDirection": [

@@ -76,7 +76,7 @@
             {
                 "LocalPosition": [
                     0,
-                    -0.9,
+                    -0.89999998,
                     0
                 ],
                 "LocalRotation": [
@@ -127,7 +127,7 @@
         "RaycastProxy": {
             "LocalPosition": [
                 0,
-                0.8,
+                0.80000001,
                 0
             ],
             "BoneName": "",
@@ -150,7 +150,7 @@
             "Script": "/Lotus/Types/Enemies/Grineer/Eidolon/GrineerSkiff/UnmannedSkiff/HandlePilotOnSkiffDeath.lua",
             "Function": "RagdollPilot",
             "_pilotAvatarType": "/Lotus/Types/Enemies/Corpus/Venus/Hoverboard/Pilot/CrpHoverboardPilotAvatar",
-            "_maxHealthAsDamagePct": 0.8
+            "_maxHealthAsDamagePct": 0.80000001
         },
         "OnDeathScript": {
             "_explosionFx": "/Lotus/Fx/Gameplay/HoverBoard/HoverBoardExplosion"
@@ -1356,29 +1356,29 @@
                 "IKCHain": "IKT_LEFT_FOOT",
                 "VehicleBone": "GAME_C1_BODY",
                 "VehicleOffsetPos": [
-                    -0.08,
+                    -0.079999998,
                     0.1,
-                    0.45
+                    0.44999999
                 ],
                 "VehicleOffsetRot": [
-                    0.260419,
-                    0.825943,
+                    0.26041901,
+                    0.82594299,
                     0.150353,
-                    0.476858
+                    0.47685799
                 ]
             },
             {
                 "IKCHain": "IKT_RIGHT_FOOT",
                 "VehicleBone": "GAME_C1_BODY",
                 "VehicleOffsetPos": [
-                    -0.05,
-                    0.15,
-                    -0.55
+                    -0.050000001,
+                    0.15000001,
+                    -0.55000001
                 ],
                 "VehicleOffsetRot": [
-                    -0.290459,
+                    -0.29045901,
                     -0.92122,
-                    0.077828,
+                    0.077827998,
                     0.24684
                 ]
             }
@@ -1402,10 +1402,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_BODY",
                 "Type": "/Lotus/Fx/PowersuitAbilities/Yareli/YareliBoardTerrainCaster",
@@ -1425,12 +1425,12 @@
         "HudMovie": "/Lotus/Interface/EmplacementHud.swf",
         "HudLocalAttachPos": [
             0.2,
-            4.15,
+            4.1500001,
             0.1
         ],
         "HudScale": [
             0.5,
-            0.6,
+            0.60000002,
             0.5
         ],
         "SimpleReticle": 1,
@@ -1444,11 +1444,11 @@
         "FullyChargedJumpChild": {
             "Type": "/Lotus/Fx/Gameplay/HoverBoard/FullJumpReadyAquaBoard"
         },
-        "MountCameraTransitionTime": 0.4,
+        "MountCameraTransitionTime": 0.40000001,
         "DismountCameraTransitionTime": 1.2,
         "MinSpeedDismountAvatarAnimPhysicsDriven": 5,
-        "DismountVertVelocityInertia": 0.6,
-        "DismountHoriVelocityInertia": 0.6,
+        "DismountVertVelocityInertia": 0.60000002,
+        "DismountHoriVelocityInertia": 0.60000002,
         "ActiveRider": 1,
         "ActiveRiderForceWeapon": "ARW_SECONDARY_DUAL_OR_OFFHAND",
         "ActiveRiderCamera": "BoardCombatCameraController",

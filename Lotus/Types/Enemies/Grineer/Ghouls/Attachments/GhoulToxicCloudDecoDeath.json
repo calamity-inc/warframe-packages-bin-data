@@ -27,7 +27,7 @@
         ],
         "IndexedLightMaps": [],
         "Mesh": "/Lotus/Fx/PowersuitAbilities/TurbulentShell.fbx",
-        "MeshScale": 0.6,
+        "MeshScale": 0.60000002,
         "OverrideMaterial": [
             "/Lotus/Fx/Weapons/Grenades/ToxicGrenadePoisonRangeMeshMatGhoul"
         ],
@@ -37,9 +37,9 @@
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.18,
+                    0.18000001,
                     0.17,
-                    0.047,
+                    0.046999998,
                     1
                 ]
             }
@@ -55,7 +55,7 @@
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.6,
+                "TimeLength": 0.60000002,
                 "Multiplier": 8,
                 "FadeRange": [
                     1,
@@ -76,7 +76,7 @@
         "TriggeredMaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.6,
+                "TimeLength": 0.60000002,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -95,7 +95,7 @@
             },
             {
                 "Parameter": "",
-                "TimeLength": 0.6,
+                "TimeLength": 0.60000002,
                 "Multiplier": 0.2,
                 "FadeRange": [
                     0,
@@ -105,7 +105,7 @@
                     "Values": [],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.6,
+                "BaseValue": 0.60000002,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,

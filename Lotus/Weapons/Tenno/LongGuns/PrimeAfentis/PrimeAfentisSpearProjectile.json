@@ -29,7 +29,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    -0.24
+                    -0.23999999
                 ],
                 "LocalRotation": [
                     0,
@@ -51,7 +51,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    -0.24
+                    -0.23999999
                 ],
                 "LocalRotation": [
                     0,
@@ -72,16 +72,16 @@
         ],
         "ReplicaRunScriptInstance": 1,
         "AttackData": {
-            "DT_IMPACT": 0.6,
-            "DT_PUNCTURE": 0.3,
-            "DT_SLASH": 0.1,
+            "DT_IMPACT": 0.60000002,
+            "DT_PUNCTURE": 0.30000001,
+            "DT_SLASH": 0.099999964,
             "Amount": 550,
-            "ProcChance": 0.3,
+            "ProcChance": 0.30000001,
             "ForcedProcs": [
                 "PT_RAGDOLL"
             ]
         },
-        "CriticalChance": 0.4,
+        "CriticalChance": 0.40000001,
         "CriticalMultiplier": 3,
         "ForcedSourceProcs": [
             "PT_STAGGERED"
@@ -100,11 +100,11 @@
         "EmbedAlignToSurface": 1,
         "EmbedAttack": {
             "Type": "DT_PHYSICAL",
-            "DT_IMPACT": 0.7,
+            "DT_IMPACT": 0.69999999,
             "DT_PUNCTURE": 0.1,
-            "DT_SLASH": 0.2,
+            "DT_SLASH": 0.19999999,
             "Amount": 50,
-            "ProcChance": 0.05
+            "ProcChance": 0.050000001
         },
         "EmbedTime": [
             10,
@@ -151,7 +151,7 @@
         "CanPinLiveRagdolls": 1,
         "UseBaseOffset": 1,
         "RagdollEmbedLife": 20,
-        "EmbedOffset": 0.65,
+        "EmbedOffset": 0.64999998,
         "AttachmentOffsets": [
             0.25
         ],
@@ -161,8 +161,8 @@
         "EmbedRotation": [
             0,
             0,
-            0.707107,
-            0.707107
+            0.70710677,
+            0.70710677
         ],
         "PostImpaleAttackData": {
             "Type": "DT_IMPACT",

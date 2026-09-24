@@ -6,14 +6,14 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    0.305,
+                    0.30500001,
                     0
                 ],
                 "LocalRotation": [
                     0,
-                    -0.707107,
+                    -0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Type": "CrpHammerAttachment"
             },
@@ -37,11 +37,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -70,7 +70,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -150,14 +150,14 @@
                     "InterruptAttackOnMaxAvatarsHit": 0,
                     "DistanceBetweenHittingSameNonAvatar": 2,
                     "SweepRadius": 0.25,
-                    "SweepCapsuleHalfHeight": 0.3,
+                    "SweepCapsuleHalfHeight": 0.30000001,
                     "DefaultMeleeProxies": {
                         "MAIN_HAND": {
                             "WeaponBone": "",
                             "BoneName": "GAME_R1_WEAPON1",
                             "LocalPosition": [
                                 0,
-                                2.6,
+                                2.5999999,
                                 0
                             ],
                             "LocalRotation": [
@@ -176,7 +176,7 @@
                             "BoneName": "GAME_L1_WEAPON1",
                             "LocalPosition": [
                                 0,
-                                2.6,
+                                2.5999999,
                                 1
                             ],
                             "LocalRotation": [
@@ -323,7 +323,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.24,
+                    "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -376,9 +376,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -529,7 +529,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -775,7 +775,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.24,
+                    "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -828,9 +828,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -920,15 +920,15 @@
         "AttachmentFireStyle": "LEFT_HAND_ONLY",
         "HolsterCategory": "LEFT_FOREARM_MOUNTED",
         "HolsterPosOffset": [
-            -0.018,
+            -0.017999999,
             -0.38,
             0
         ],
         "HolsterRotOffset": [
             0,
-            -0.707107,
+            -0.70710677,
             0,
-            0.707107
+            0.70710677
         ],
         "RequiredLevel": 14,
         "UseHolsterOffsetOnAttachments": [
@@ -953,7 +953,7 @@
                     {
                         "BoneOverride": "",
                         "PosOffset": [
-                            -0.005,
+                            -0.0049999999,
                             0.02,
                             -0.015
                         ],
@@ -963,10 +963,10 @@
                             0
                         ],
                         "RotOffset": [
-                            0.707107,
+                            0.70710677,
                             0,
                             0,
-                            0.707107
+                            0.70710677
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -1036,7 +1036,7 @@
                 ]
             }
         ],
-        "OmegaAttenuation": 0.9,
+        "OmegaAttenuation": 0.89999998,
         "ArcaneApertureType": "/Lotus/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker",
         "DefaultModTemplate": "/Lotus/Types/ModLists/Melee/HybridElectricity",
         "DefaultModOverrides": {
@@ -1060,7 +1060,7 @@
                     "UseNewFormat": 0,
                     "Type": "DT_ELECTRICITY",
                     "Amount": 50,
-                    "ProcChance": 0.3,
+                    "ProcChance": 0.30000001,
                     "ForcedProcs": [
                         "PT_RAGDOLL"
                     ],
@@ -1101,7 +1101,7 @@
                     0
                 ],
                 "FXOffset": [
-                    0.15,
+                    0.15000001,
                     0,
                     1
                 ],
@@ -1117,7 +1117,7 @@
                 "RadiusMin": 0,
                 "Radius": 10,
                 "FallOff": 1,
-                "FallOffMax": 0.7,
+                "FallOffMax": 0.69999999,
                 "CanCrit": 0,
                 "CanUseComboMultiplier": 1,
                 "UseImpactBehaviorAttackDataAmount": 1,
@@ -1128,7 +1128,7 @@
                     "UseNewFormat": 0,
                     "Type": "DT_ELECTRICITY",
                     "Amount": 50,
-                    "ProcChance": 0.3,
+                    "ProcChance": 0.30000001,
                     "ForcedProcs": [
                         "PT_LIFT_HIT"
                     ],
@@ -1243,7 +1243,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -1309,7 +1309,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             }
         ],
@@ -1445,7 +1445,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -1511,12 +1511,12 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             }
         ],
         "SlamRadiusPercentageClamps": [
-            0.416667,
+            0.41666666,
             1.5
         ],
         "ParryDamagePercentBlocked": 1,

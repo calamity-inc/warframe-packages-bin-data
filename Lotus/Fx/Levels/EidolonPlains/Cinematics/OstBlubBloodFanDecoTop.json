@@ -63,11 +63,11 @@
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.9,
+                "TimeLength": 0.89999998,
                 "Multiplier": 4,
                 "FadeRange": [
-                    0.05,
-                    0.4
+                    0.050000001,
+                    0.40000001
                 ],
                 "FadeCurve": {
                     "Values": [],
@@ -83,7 +83,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "TimeLength": 1,
-                "Multiplier": 0.05,
+                "Multiplier": 0.050000001,
                 "FadeRange": [
                     0.1,
                     1
@@ -92,7 +92,7 @@
                     "Values": [],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.18,
+                "BaseValue": 0.18000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,

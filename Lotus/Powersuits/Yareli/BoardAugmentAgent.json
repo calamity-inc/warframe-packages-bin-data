@@ -99,7 +99,7 @@
                     "m": 1,
                     "k": -1,
                     "b": 1,
-                    "c": 0.3,
+                    "c": 0.30000001,
                     "logistic": 1
                 },
                 "FollowRange": 10,
@@ -187,7 +187,7 @@
                     "m": 1,
                     "k": -1,
                     "b": 1,
-                    "c": 0.3,
+                    "c": 0.30000001,
                     "logistic": 1
                 },
                 "StopRadius": 3,
@@ -237,8 +237,8 @@
             "/EE/Types/Npc/DynamicPathFollowerHover"
         ],
         "LocomotionController:DynamicPathFollowerHover": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "MinimumMoveDistance": 0.1,
@@ -246,7 +246,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 50,
             "StopWhenTurningAngle": 90,
             "CheckFunnelForTightTurns": 0,
@@ -262,7 +262,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,
@@ -302,10 +302,10 @@
         },
         "LocomotionController:MoveModifierCollection": [],
         "LocomotionController:PathingPreferences": {
-            "maxHeight": 3.1,
-            "minHeight": -0.3,
+            "maxHeight": 3.0999999,
+            "minHeight": -0.30000001,
             "preferredHeight": 1,
-            "offNavToleranceRadius": 0.49,
+            "offNavToleranceRadius": 0.49000001,
             "maxShortenSteps": 20,
             "useAvoidance": 0,
             "allowedLinkFlags": 30801903,
@@ -324,12 +324,12 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 40,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGrineerReactionController",
         "PerceiverType": "",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "BaseHitChance": [
             2,
             2

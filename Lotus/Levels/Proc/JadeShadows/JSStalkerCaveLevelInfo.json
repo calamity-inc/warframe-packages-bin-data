@@ -4,7 +4,7 @@
         "PostProcessInfo": {
             "useExposureEVCurve": 1,
             "exposureCurveMin": {
-                "sceneEV": -5.1
+                "sceneEV": -5.0999999
             },
             "exposureCurveAdjustClamp": [
                 -10,
@@ -13,10 +13,10 @@
             "toneMapType": "TM_ACES_REF",
             "toneMapLUTBlend": 0,
             "colorCorrectCurveLift": [
-                0.98,
-                0.95,
-                0.95,
-                0.005
+                0.98000002,
+                0.94999999,
+                0.94999999,
+                0.0049999999
             ],
             "colorGradingData": {
                 "Global": {
@@ -30,7 +30,7 @@
                         1,
                         1,
                         1,
-                        0.98
+                        0.98000002
                     ],
                     "Gain": [
                         1,
@@ -54,14 +54,14 @@
                 "Extinction": 0.5,
                 "ExtinctionConfusion": 0.5,
                 "EmissiveColor": [
-                    0.27,
-                    0.57,
+                    0.27000001,
+                    0.56999999,
                     1,
                     1
                 ],
                 "GlobalFog": {
-                    "Density": 0.05,
-                    "G": 0.3
+                    "Density": 0.050000001,
+                    "G": 0.30000001
                 },
                 "WindSettings": {
                     "FakeWindDirection": [
@@ -72,8 +72,8 @@
                 },
                 "ClumpyNoise": {
                     "ClumpAmount": 0.5,
-                    "ClumpStart": 0.3,
-                    "ClumpEnd": 0.6
+                    "ClumpStart": 0.30000001,
+                    "ClumpEnd": 0.60000002
                 }
             }
         },

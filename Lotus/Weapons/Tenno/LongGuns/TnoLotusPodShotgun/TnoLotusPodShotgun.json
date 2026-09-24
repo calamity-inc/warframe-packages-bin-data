@@ -12,9 +12,9 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalPosition": [
-                    -0.005,
-                    -0.016,
-                    -0.004
+                    -0.0049999999,
+                    -0.016000001,
+                    -0.0040000002
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "TnoLotusPodShotgunAttachment"
@@ -22,13 +22,13 @@
         },
         "HolsterBone1Name": "GAME_R1_WEAPON1",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -53,7 +53,7 @@
         "WeaponHandAimOffset": [
             0,
             0,
-            0.4
+            0.40000001
         ],
         "GripPositionOffset": [
             -0.1,
@@ -63,7 +63,7 @@
         "GripRotationOffset": [
             0.120922,
             0.717686,
-            -0.675042,
+            -0.67504197,
             -0.120922
         ],
         "GripBone": "GAME_C1_GRIP1",
@@ -71,11 +71,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -104,7 +104,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -299,9 +299,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.26,
-                        "DT_PUNCTURE": 0.26,
-                        "DT_SLASH": 0.48,
+                        "DT_IMPACT": 0.25999999,
+                        "DT_PUNCTURE": 0.25999999,
+                        "DT_SLASH": 0.48000002,
                         "Amount": 90,
                         "ProcChance": 0.22,
                         "ForcedProcs": [],
@@ -321,7 +321,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.74,
+                    "PvpDamageMultiplier": 0.74000001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 350,
                     "additionalForce": [
@@ -372,7 +372,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponSemiAutomaticStateBehavior",
                 "state:WeaponSemiAutomaticStateBehavior": {
-                    "reloadTime": 2.4,
+                    "reloadTime": 2.4000001,
                     "PerfectReloadRange": [
                         0,
                         0

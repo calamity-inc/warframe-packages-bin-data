@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Enemies/Corpus/Drones/AIWeek/MineProjectile",
     "data": {
         "Mesh": "/Lotus/Objects/Grineer/Props/GlnSpaceMineA.fbx",
-        "MeshScale": 0.005,
+        "MeshScale": 0.0049999999,
         "OverrideMaterial": [],
         "AutoSimChildren": [
             {
@@ -58,11 +58,11 @@
             "Script": "/Lotus/Scripts/WaterDroneProximityMine.lua",
             "_hitProxyType": "/Lotus/Types/Enemies/Corpus/Drones/AIWeek/MineHitProxy",
             "_swellTime": 1,
-            "_maxSize": 0.15,
+            "_maxSize": 0.15000001,
             "_attachOffset": [
                 0,
                 0,
-                0.3
+                0.30000001
             ],
             "_attachBone": "GAME_C1_COG",
             "_floatSpeed": 0.2,

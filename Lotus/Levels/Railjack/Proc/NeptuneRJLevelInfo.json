@@ -3,15 +3,15 @@
     "data": {
         "PostProcessInfo": {
             "useExposureEVCurve": 1,
-            "exposureCurveBias": 0.314,
+            "exposureCurveBias": 0.31400001,
             "toneMapType": "TM_ACES_REF",
             "toneMapLUT": "/EE/Materials/PostFX/JoshPinesSV1.cube",
-            "toneMapLUTBlend": 0.35,
+            "toneMapLUTBlend": 0.34999999,
             "colorGradingData": {
                 "Global": {
                     "Gamma": [
-                        0.89,
-                        0.95,
+                        0.88999999,
+                        0.94999999,
                         1,
                         1
                     ]
@@ -33,11 +33,11 @@
             "fogTexture": "/Lotus/Objects/Natural/Skybox/FogTextures/RJNeptuneRMNHFog.png",
             "postFXMaterial": "/Lotus/Types/ACESPost",
             "sunPosition": [
-                0.8,
-                0.7,
-                0.8
+                0.80000001,
+                0.69999999,
+                0.80000001
             ],
-            "sunShaftsMultiplier": 0.15,
+            "sunShaftsMultiplier": 0.15000001,
             "sunShaftsTintColor": [
                 104,
                 220,
@@ -46,10 +46,10 @@
             ],
             "sunShafts": 1,
             "cloudShadowsMovementParams": [
-                0.00025,
-                0.00025,
-                -0.005,
-                0.008
+                0.00025000001,
+                0.00025000001,
+                -0.0049999999,
+                0.0080000004
             ],
             "cloudShadowsAttenuationsParams": [
                 -0.02,
@@ -229,7 +229,7 @@
             "_bardPositionalMixerAttenMin": 0,
             "_bardPositionalMixerAttenMax": 0,
             "_bardPositionalMixerGain": 0,
-            "_operatorTwinSpawnChance": 0.01,
+            "_operatorTwinSpawnChance": 0.0099999998,
             "_operatorTwinAvatarType": "/Lotus/Fx/PowersuitAbilities/Operator/OperatorTwinAvatar",
             "_operatorTwinVisibilityTriggerType": "/Lotus/Fx/PowersuitAbilities/Operator/OperatorTwinVisibilityTrigger",
             "_operatorTwinVanishTriggerType": "",

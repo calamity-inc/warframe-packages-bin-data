@@ -219,10 +219,10 @@
                     -0.2
                 ],
                 "LocalRotation": [
-                    0.541675,
+                    0.54167497,
                     0.454519,
                     -0.454519,
-                    0.541675
+                    0.54167497
                 ],
                 "BoneName": "GAME_L1_LEG1",
                 "Type": "/Lotus/Weapons/Corpus/Emplacement/CrpDeployableCover/CrpDeployableCoverAttachment",
@@ -346,7 +346,7 @@
                 "LastDamagedWindow": 5,
                 "DistanceToTarget": 0,
                 "MovementSpeedModifier": [
-                    0.8,
+                    0.80000001,
                     1
                 ],
                 "SeekCoverDelayOnFail": 1,
@@ -382,10 +382,10 @@
                 "SuppressionTargetDistDiff": 2.5,
                 "IgnoreColinearTeamMates": 1,
                 "ReturnToCoverOnDamage": 1,
-                "ReturnToCoverDamageThreshold": 0.15,
+                "ReturnToCoverDamageThreshold": 0.15000001,
                 "ExitCoverOnDamageDuringWait": 0,
                 "ExitCoverOnDamageDuringWaitDamageThreshold": 0.5,
-                "PushoutFromCrouchDistance": 0.3,
+                "PushoutFromCrouchDistance": 0.30000001,
                 "RequireCover": 1,
                 "SuppressionUnderFireTime": 3,
                 "LookAtTarget": 0,
@@ -433,7 +433,7 @@
             "MinStrafeDistance": 0,
             "StopRadius": 0.5,
             "MovementSpeedModifier": [
-                0.8,
+                0.80000001,
                 1.2
             ],
             "MovementLineOfFireScoring": 0,
@@ -451,7 +451,7 @@
                 0
             ],
             "MinAngleToTurn": 40,
-            "MinAimMask": 0.9,
+            "MinAimMask": 0.89999998,
             "TargetNotVisibleTimeoutRange": [
                 6,
                 8
@@ -506,7 +506,7 @@
             "RandomWalkBehavior:UseDefenseVolume": 1
         },
         "BaseHitChance": [
-            0.6,
+            0.60000002,
             1
         ],
         "CoverEvaluatorType": "/EE/Types/Npc/VenusAdvancingCoverEvaluator"

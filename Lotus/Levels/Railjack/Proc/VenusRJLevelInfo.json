@@ -2,16 +2,16 @@
     "parent": "/EE/Types/Engine/LevelInfo",
     "data": {
         "PostProcessInfo": {
-            "targetExposure": 0.7,
+            "targetExposure": 0.69999999,
             "useExposureEVCurve": 1,
             "toneMapType": "TM_ACES_REF",
             "toneMapLUT": "/EE/Materials/PostFX/JoshPines5050.cube",
             "toneMapLUTBlend": 0.25,
             "skyBloom": 2,
-            "horizonDOF": 0.05,
+            "horizonDOF": 0.050000001,
             "horizonRadius": 0,
             "horizonFog": 1,
-            "horizonFogRadius": 0.019048,
+            "horizonFogRadius": 0.019047599,
             "fogColor": [
                 110,
                 110,
@@ -24,14 +24,14 @@
             "fogTexture": "/Lotus/Objects/Natural/Skybox/FogTextures/VenusSolFogTexture.png",
             "postFXMaterial": "/Lotus/Types/ACESPost",
             "sunPosition": [
-                -3.128723,
+                -3.1287229,
                 -0.1,
                 3.259697
             ],
             "sunColor": [
-                0.91,
-                0.7,
-                0.48,
+                0.91000003,
+                0.69999999,
+                0.47999999,
                 1
             ],
             "sunShaftsMultiplier": 0.25,
@@ -216,7 +216,7 @@
             "_bardPositionalMixerAttenMin": 0,
             "_bardPositionalMixerAttenMax": 0,
             "_bardPositionalMixerGain": 0,
-            "_operatorTwinSpawnChance": 0.01,
+            "_operatorTwinSpawnChance": 0.0099999998,
             "_operatorTwinAvatarType": "/Lotus/Fx/PowersuitAbilities/Operator/OperatorTwinAvatar",
             "_operatorTwinVisibilityTriggerType": "/Lotus/Fx/PowersuitAbilities/Operator/OperatorTwinVisibilityTrigger",
             "_operatorTwinVanishTriggerType": "",

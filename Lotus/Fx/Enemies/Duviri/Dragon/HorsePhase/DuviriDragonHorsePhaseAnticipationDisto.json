@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Common/Sphere1.fbx",
-        "MeshScale": 6.2,
+        "MeshScale": 6.1999998,
         "OverrideMaterial": [
             "DuviriDragonHorsePhaseAnticipationDistoMat"
         ],
@@ -11,7 +11,7 @@
             {
                 "Parameter": "Scale",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 8,
                 "FadeRange": [
                     0,
@@ -21,15 +21,15 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.807323
+                            "Value": 0.80732298
                         },
                         {
                             "Time": 0.25,
-                            "Value": 0.97399
+                            "Value": 0.97399002
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.999242
+                            "Value": 0.99924201
                         },
                         {
                             "Time": 0.75,
@@ -37,7 +37,7 @@
                         },
                         {
                             "Time": 1,
-                            "Value": 0.024554
+                            "Value": 0.024553999
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"
@@ -52,10 +52,10 @@
             {
                 "Parameter": "DistortAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
-                    0.4,
+                    0.40000001,
                     1
                 ],
                 "FadeCurve": {

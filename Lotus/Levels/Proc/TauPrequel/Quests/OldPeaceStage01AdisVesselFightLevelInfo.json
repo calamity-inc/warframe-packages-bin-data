@@ -26,7 +26,7 @@
                         1,
                         1,
                         1,
-                        0.99
+                        0.99000001
                     ]
                 }
             },
@@ -41,9 +41,9 @@
             "distanceFogDensity": 0.12,
             "postFXMaterial": "/Lotus/Types/ACESPost",
             "sunPosition": [
-                -0.599661,
+                -0.59966099,
                 0.519373,
-                0.608817
+                0.60881698
             ],
             "sunColor": [
                 0.87,
@@ -52,34 +52,34 @@
                 0
             ],
             "cloudShadowsMovementParams": [
-                0.005,
-                0.005,
-                0.01,
+                0.0049999999,
+                0.0049999999,
+                0.0099999998,
                 -0.001
             ],
             "volumetricFog": {
                 "Enabled": 1,
-                "NearDistance": 0.3,
-                "Extinction": 0.45,
+                "NearDistance": 0.30000001,
+                "Extinction": 0.44999999,
                 "ExtinctionConfusion": 0.5,
                 "GlobalFog": {
                     "Density": 0.015,
                     "G": 0.5,
-                    "NoiseScale": 0.01
+                    "NoiseScale": 0.0099999998
                 },
                 "HeightFog": {
                     "HeightFogMaxHeight": 50,
                     "HeightFogParticipatingMedia": {
-                        "Density": 0.05,
-                        "G": 0.6,
-                        "NoiseScale": 0.01
+                        "Density": 0.050000001,
+                        "G": 0.60000002,
+                        "NoiseScale": 0.0099999998
                     }
                 },
                 "ClumpyNoise": {
-                    "ClumpAmount": 0.9,
-                    "ClumpStart": 0.4,
-                    "ClumpEnd": 0.8,
-                    "NoiseScale": 0.0025
+                    "ClumpAmount": 0.89999998,
+                    "ClumpStart": 0.40000001,
+                    "ClumpEnd": 0.80000001,
+                    "NoiseScale": 0.0024999999
                 }
             }
         },
@@ -204,7 +204,7 @@
             "_ultraRareLootWaypointType": "",
             "_ultraRareCrateType": "",
             "_altUltraRareCrateType": "",
-            "_ultraRareLootChance": 0.01,
+            "_ultraRareLootChance": 0.0099999998,
             "_floatingCrateWaypointType": "",
             "_floatingCrateTypes": [],
             "_numFloatingCrates": 25,

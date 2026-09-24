@@ -134,7 +134,7 @@
                             "UPWARD": "",
                             "DOWNWARD": ""
                         },
-                        "DistanceFromTargetPoint": 0.4
+                        "DistanceFromTargetPoint": 0.40000001
                     },
                     "forceFaceReaction": 0,
                     "useTurnToAction": 0,
@@ -608,7 +608,7 @@
                     ],
                     "WaitTime": [
                         0.1,
-                        0.3
+                        0.30000001
                     ],
                     "DecorativeReloads": 0,
                     "DesiredTimeBetweenReloads": [
@@ -620,7 +620,7 @@
                     "PointBlankRange": 5,
                     "AllowShootingControllerToAim": 0,
                     "MinAngleToTurn": 45,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "LookAtTarget": 0,
                     "LookHorizRate": 40,
                     "LookVertRate": 20,
@@ -667,7 +667,7 @@
                             },
                             "EvaluateValueVsDistanceRange": [
                                 0,
-                                0.8
+                                0.80000001
                             ],
                             "SearchRadius": 30,
                             "GrabAnywayDistance": 6,
@@ -739,7 +739,7 @@
                                 "LookAtNearbyPlayer": 0,
                                 "LookAtTarget": 1,
                                 "NearbyTeammatesThreshold": 10,
-                                "PlayerBias": 0.6,
+                                "PlayerBias": 0.60000002,
                                 "ReportAttackOnDamage": 1,
                                 "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                                 "PatrolBehavior:Enabled": 1,
@@ -958,7 +958,7 @@
                                 "SpeedMultiplier": 1,
                                 "MovementPosture": "JOG",
                                 "EnemyFaction": "TENNO",
-                                "ReturnToHighInfluenceProbability": 0.3,
+                                "ReturnToHighInfluenceProbability": 0.30000001,
                                 "CompleteRandomPickProbability": 0.1
                             },
                             "FailOnChildFailure": 0,
@@ -1001,7 +1001,7 @@
                             },
                             "DefaultReevaluationDelay": 0,
                             "NeedsTarget": 0,
-                            "DeathLevelRequirement": 3.4,
+                            "DeathLevelRequirement": 3.4000001,
                             "EscapeToDeathLevel": 1,
                             "AllowableDeathDifference": 0.2,
                             "StopRadius": 1,
@@ -1009,7 +1009,7 @@
                             "FacingControl": "MFC_FACE_MOVEDIR",
                             "MovePosture": "JOG",
                             "SpeedMultiplier": 1.2,
-                            "SuccessReEvalDelay": 0.6,
+                            "SuccessReEvalDelay": 0.60000002,
                             "FailureReEvalDelay": 3
                         },
                         "CtfOrderProtectorBehaviorSelector": {
@@ -1157,7 +1157,7 @@
                                 "SpeedMultiplier": 1,
                                 "MovementPosture": "WALK",
                                 "EnemyFaction": "TENNO",
-                                "ReturnToHighInfluenceProbability": 0.3,
+                                "ReturnToHighInfluenceProbability": 0.30000001,
                                 "CompleteRandomPickProbability": 0.1
                             },
                             "FailOnChildFailure": 0,
@@ -1255,7 +1255,7 @@
                                         "m": 10,
                                         "k": -1,
                                         "b": 1,
-                                        "c": 0.6,
+                                        "c": 0.60000002,
                                         "logistic": 1
                                     },
                                     "AggressiveVisibleScore": 1,
@@ -1538,7 +1538,7 @@
                                 "SpeedMultiplier": 1,
                                 "MovementPosture": "WALK",
                                 "EnemyFaction": "TENNO",
-                                "ReturnToHighInfluenceProbability": 0.3,
+                                "ReturnToHighInfluenceProbability": 0.30000001,
                                 "CompleteRandomPickProbability": 0.1
                             },
                             "FailOnChildFailure": 0,
@@ -1731,7 +1731,7 @@
                                 "m": 1,
                                 "k": 1,
                                 "b": 0,
-                                "c": 0.3,
+                                "c": 0.30000001,
                                 "logistic": 0
                             },
                             "AggressiveTargetFacingDirectionScoreCurve": {
@@ -1834,7 +1834,7 @@
                             "WalkFacingControl": "MFC_FACE_TARGET",
                             "RunFacingControl": "MFC_FACE_MOVEDIR",
                             "SpeedMultiplier": [
-                                0.8,
+                                0.80000001,
                                 1.2
                             ],
                             "StopMovingOnExit": 1,
@@ -2299,7 +2299,7 @@
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -2451,11 +2451,11 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/Grineer/GrineerPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "IsCoverUseEnabled": 0,
         "CoverEvaluatorType": "/Lotus/Types/Enemies/Grineer/GrineerShotgunAdvancingCoverEvaluator",
         "TargetEvaluatorType": "/Lotus/Types/Enemies/RangedTargetEvaluator"

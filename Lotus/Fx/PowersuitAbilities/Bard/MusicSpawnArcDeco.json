@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/Pirate/KrakenCastArcMesh.fbx",
-        "MeshScale": 0.6,
+        "MeshScale": 0.60000002,
         "OverrideMaterial": [
             "/Lotus/Fx/PowersuitAbilities/Fairy/DustCastArcMat"
         ],
@@ -12,9 +12,9 @@
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.72,
-                    0.084,
-                    0.9,
+                    0.72000003,
+                    0.083999999,
+                    0.89999998,
                     1
                 ]
             }
@@ -23,7 +23,7 @@
         "MaterialFade": [
             {
                 "Parameter": "BlueClipThreshold",
-                "TimeLength": 0.6,
+                "TimeLength": 0.60000002,
                 "Multiplier": 1.4,
                 "FadeRange": [
                     0,
@@ -42,7 +42,7 @@
             },
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.6,
+                "TimeLength": 0.60000002,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,

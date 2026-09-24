@@ -2,7 +2,7 @@
     "parent": "/Lotus/Weapons/Tenno/Grenades/GrenadeProjectile",
     "data": {
         "Mesh": "/Lotus/Weapons/Tenno/ThrowingWeapons/ProximityTaserStar/ProximityTaserStar_skel.fbx",
-        "MeshScale": 0.7,
+        "MeshScale": 0.69999999,
         "AutoSimChildren": [
             {
                 "LocalPosition": [
@@ -34,7 +34,7 @@
             "ProcChance": 0.22
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.08,
+        "CriticalChance": 0.079999998,
         "CriticalMultiplier": 1.5,
         "ExplosiveAttack": {
             "Type": "DT_ELECTRICITY",
@@ -46,8 +46,8 @@
             "PT_BIG_STAGGER"
         ],
         "ExplosionIgnoreCover": 0,
-        "ExplosionFallOff": 0.4,
-        "DamageRadius": 3.6,
+        "ExplosionFallOff": 0.40000001,
+        "DamageRadius": 3.5999999,
         "DieEffect": "/Lotus/Fx/Weapons/Tenno/ThrowingWeapons/CastanasExplosionFX",
         "DieEffectMirror": "/Lotus/Fx/Weapons/Tenno/ThrowingWeapons/CastanasExplosionFX",
         "DieEffectOffset": [
@@ -97,10 +97,10 @@
         "ProjectileReplication": "SYNCED_AUTONOMOUS",
         "FaceVelocity": 1,
         "BaseRotation": [
-            -0.707107,
+            -0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "KinematicIgnoredTypes": [
             "/Lotus/Types/Game/PickUps/LotusPickUp"

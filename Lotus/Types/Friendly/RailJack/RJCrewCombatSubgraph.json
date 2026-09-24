@@ -152,7 +152,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 1,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,
@@ -317,7 +317,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -335,7 +335,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8
@@ -532,7 +532,7 @@
                             "DisablePostureChangers": 0,
                             "TimeBetweenLunges": 2,
                             "MaxMeleeHeightDifference": 2,
-                            "LowTargetThreshold": 0.8,
+                            "LowTargetThreshold": 0.80000001,
                             "NormalAttack": "MELEE",
                             "LowAttack": "MELEE",
                             "ClearCoverReservationOnStart": 0,
@@ -540,7 +540,7 @@
                             "VipAvatarType": "",
                             "TimeBetweenBarks": 2,
                             "VisibilityTimeout": 0,
-                            "MaxReachableHeight": -9223372036854775808.0,
+                            "MaxReachableHeight": "3.4028235e+38",
                             "Bark": "ATTACK_SCREAM",
                             "IsOffHandWeapon": 0
                         },
@@ -1044,7 +1044,7 @@
                             2
                         ],
                         "DoReactiveBlocking": 0,
-                        "ReactiveBlockingDefenseTime": 0.4,
+                        "ReactiveBlockingDefenseTime": 0.40000001,
                         "DefensiveCooldownTime": 1,
                         "HeavyAttackProcTypeImmunities": [],
                         "MeleeRange": [
@@ -1104,7 +1104,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.9,
+                        0.89999998,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -1122,7 +1122,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8

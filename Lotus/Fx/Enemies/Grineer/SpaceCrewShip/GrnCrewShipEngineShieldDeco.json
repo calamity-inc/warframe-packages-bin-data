@@ -2,17 +2,17 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "GrnCrewShipEngineShield.fbx",
-        "MeshScale": 0.8,
+        "MeshScale": 0.80000001,
         "ReplicationOverride": "RO_ALWAYS",
         "TriggeredMaterialFade": [
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.15,
+                "TimeLength": 0.15000001,
                 "Multiplier": 5,
                 "FadeRange": [
-                    0.03,
-                    0.03
+                    0.029999999,
+                    0.029999999
                 ],
                 "FadeCurve": {
                     "Values": [],
@@ -28,7 +28,7 @@
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.15,
+                "TimeLength": 0.15000001,
                 "Multiplier": 0.2,
                 "FadeRange": [
                     0,
@@ -38,7 +38,7 @@
                     "Values": [],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.8,
+                "BaseValue": 0.80000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,

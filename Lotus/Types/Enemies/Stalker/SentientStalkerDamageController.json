@@ -5,8 +5,8 @@
         "HitProxies": [
             {
                 "LocalPosition": [
-                    -0.075,
-                    0.05,
+                    -0.075000003,
+                    0.050000001,
                     0
                 ],
                 "LocalRotation": [
@@ -28,7 +28,7 @@
             {
                 "LocalPosition": [
                     -0.1,
-                    0.05,
+                    0.050000001,
                     0
                 ],
                 "LocalRotation": [
@@ -56,8 +56,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM1",
                 "Type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperArm",
@@ -71,15 +71,15 @@
             },
             {
                 "LocalPosition": [
-                    0.15,
+                    0.15000001,
                     0,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM2",
                 "Type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerArm",
@@ -115,7 +115,7 @@
             },
             {
                 "LocalPosition": [
-                    -0.15,
+                    -0.15000001,
                     0,
                     0
                 ],
@@ -225,7 +225,7 @@
             }
         ],
         "DamageMultiplier": 0.5,
-        "SelfDamageMultiplier": 0.3,
+        "SelfDamageMultiplier": 0.30000001,
         "DodgeDamageMultipliers": {
             "AI_VS_AI": 0.5,
             "AI_VS_PLAYER": 0.5,
@@ -360,7 +360,7 @@
         "MaxShield": 200,
         "ShieldRechargeDelay": 3,
         "ShieldRechargeRate": 15,
-        "ShieldRechargePercent": 0.05,
+        "ShieldRechargePercent": 0.050000001,
         "ShieldBurnRate": 100,
         "ShieldPowerUpProjection": "/Lotus/Fx/Projectors/ShieldUpProjector",
         "ShieldPowerDownProjection": "/Lotus/Fx/Projectors/ShieldDownProjector",
@@ -375,20 +375,20 @@
         "BleedoutMultiplierAttenuationPerSecond": 0.5,
         "DamageResistanceThresholds": [
             {
-                "HealthPercentage": 0.8,
-                "DamageResistance": 0.95
+                "HealthPercentage": 0.80000001,
+                "DamageResistance": 0.94999999
             },
             {
-                "HealthPercentage": 0.6,
-                "DamageResistance": 0.95
+                "HealthPercentage": 0.60000002,
+                "DamageResistance": 0.94999999
             },
             {
-                "HealthPercentage": 0.4,
-                "DamageResistance": 0.9
+                "HealthPercentage": 0.40000001,
+                "DamageResistance": 0.89999998
             },
             {
                 "HealthPercentage": 0.2,
-                "DamageResistance": 0.85
+                "DamageResistance": 0.85000002
             }
         ],
         "DeathBaseSparkDamage": 0,

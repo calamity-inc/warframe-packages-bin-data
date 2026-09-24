@@ -110,17 +110,27 @@
                         "/Lotus/Characters/Grineer/Marine/GrineerBodyLeaderJadelight",
                         "/Lotus/Characters/Grineer/Marine/GrineerBodyLeaderJadelight"
                     ],
-                    "ChildMaterialOverrides": [
-                        {
-                            "materials": [
-                                "/Lotus/Characters/Grineer/Marine/GrineerHelmetLeaderJadelight"
-                            ]
-                        }
-                    ],
+                    "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
                     "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Grineer/Marine/GrineerBodyLeaderVolt",
+                        "/Lotus/Characters/Grineer/Marine/GrineerBodyLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
+                    "MeshScale": 1
                 },
                 "Probability": 1
             }

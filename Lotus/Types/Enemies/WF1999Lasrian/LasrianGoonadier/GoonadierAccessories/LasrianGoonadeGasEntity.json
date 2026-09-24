@@ -9,10 +9,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Enemies/WF1999Lasrian/GoonadierGrenadeGas",
@@ -29,7 +29,7 @@
             "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/WF1999Abilities/LasrianGoonadeUtility.lua",
             "Function": "GasCloudLifetime",
             "_healRadius": 8,
-            "_healPctPerTick": 0.05,
+            "_healPctPerTick": 0.050000001,
             "_damageAmount": 2,
             "_healTickTime": 0.2,
             "_gooLifeTime": 3,
@@ -47,6 +47,7 @@
             ]
         },
         "ReplicaRunScriptInstance": 1,
-        "ReplicationOverride": "RO_ALWAYS"
+        "ReplicationOverride": "RO_ALWAYS",
+        "ReplicateCreator": 1
     }
 }

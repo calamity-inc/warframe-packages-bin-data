@@ -2,7 +2,7 @@
     "parent": "/EE/Types/Effects/SkeletalClothEx",
     "data": {
         "Mesh": "ExcaliburDeluxeSugatraSpheres_skel.fbx",
-        "MeshScale": 0.8,
+        "MeshScale": 0.80000001,
         "OverrideMaterial": [
             ""
         ],
@@ -56,16 +56,16 @@
         "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
         "Attribs": {
             "dampeningRange": [
-                0.082,
-                0.083
+                0.082000002,
+                0.082999997
             ],
             "collidingDampeningRange": [
-                0.029,
+                0.028999999,
                 0.059
             ],
             "massRange": [
                 0.2,
-                0.59
+                0.58999997
             ],
             "distConstraintRange": [
                 0.001,
@@ -73,12 +73,12 @@
             ],
             "useBackstopConstraints": 1,
             "backstopConstraintRange": [
-                0.01,
+                0.0099999998,
                 0.2
             ],
             "useHardConstraints": 1,
-            "reduceStretchExponent": 0.59,
-            "shearingStiffness": 0.29,
+            "reduceStretchExponent": 0.58999997,
+            "shearingStiffness": 0.28999999,
             "addXAxisHardContraints": 1,
             "worldVelocityAtten": [
                 1,
@@ -92,7 +92,7 @@
                 0,
                 0
             ],
-            "noiseSpeed": 0.05,
+            "noiseSpeed": 0.050000001,
             "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
             "windVolumeStrength": [
                 0.1,

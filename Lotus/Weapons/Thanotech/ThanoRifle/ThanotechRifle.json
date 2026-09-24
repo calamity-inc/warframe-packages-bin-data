@@ -13,7 +13,7 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.01,
+                    -0.0099999998,
                     0
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -22,13 +22,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -53,29 +53,29 @@
         "WeaponHandAimOffset": [
             0,
             0,
-            0.4
+            0.40000001
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.085,
-            -0.03,
+            -0.085000001,
+            -0.029999999,
             0.22
         ],
         "GripRotationOffset": [
-            -0.061394,
-            -0.709787,
-            0.701735,
-            -0.000234
+            -0.061393999,
+            -0.70978701,
+            0.70173502,
+            -0.00023400001
         ],
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -83,7 +83,7 @@
                     "SwaySpeed": 1,
                     "SwayAmplitude": 0.1
                 },
-                "aimFOVMultiplier": 1.43,
+                "aimFOVMultiplier": 1.4299999,
                 "Upgrades": [],
                 "LocOverrides": [],
                 "Sound": ""
@@ -104,7 +104,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -239,7 +239,7 @@
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 1,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.4,
+                    "MaxTraceDistanceTime": 0.40000001,
                     "RetractTime": 0.001,
                     "AttachToWeapon": 1,
                     "UseWeaponAttachmentFirePos": 0,
@@ -249,7 +249,7 @@
                         {
                             "LocalPosition": [
                                 0,
-                                0.0085,
+                                0.0085000005,
                                 0
                             ],
                             "LocalRotation": [
@@ -297,7 +297,7 @@
                     "AllowSelfDamage": 0,
                     "IgnoreInvisibleAvatars": 1,
                     "DestroyBeamOnFire": 0,
-                    "BeamTime": 0.06,
+                    "BeamTime": 0.059999999,
                     "ApplyRadialDamageOnMiss": 0,
                     "ApplyRadialDamageOnHit": 0
                 },
@@ -321,7 +321,7 @@
                         "DT_CORROSIVE": 0,
                         "DT_RADIANT": 0,
                         "Amount": 82,
-                        "ProcChance": 0.3,
+                        "ProcChance": 0.30000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -371,7 +371,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.24,
+                    "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 2.2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -392,7 +392,7 @@
                     "MultiShotBuffsRadialDamage": 0,
                     "RadialDamage": {
                         "baseAmount": 50,
-                        "baseProcChance": 0.3,
+                        "baseProcChance": 0.30000001,
                         "DamagePercent": {
                             "DT_IMPACT": 0,
                             "DT_PUNCTURE": 0,
@@ -418,18 +418,18 @@
                         "radiusMin": 0,
                         "radius": 1.6,
                         "ignoreSource": 0,
-                        "fallOff": 0.15,
+                        "fallOff": 0.15000001,
                         "fallOffMax": 0,
                         "checkForCover": 1,
                         "hitAirborneTargets": 1,
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
-                        "criticalChance": 0.24,
+                        "criticalChance": 0.23999999,
                         "criticalMultiplier": 2.2,
                         "procs": [],
                         "deathProcs": [],
@@ -441,7 +441,7 @@
                             "PT_STAGGERED"
                         ],
                         "selfAOEMultiplier": [
-                            0.05,
+                            0.050000001,
                             0.2
                         ],
                         "friendlyFire": 0
@@ -481,7 +481,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -491,7 +491,7 @@
                         "deathProcs": [],
                         "forcedSourceProcs": [],
                         "selfAOEMultiplier": [
-                            0.05,
+                            0.050000001,
                             0.2
                         ],
                         "friendlyFire": 0
@@ -581,7 +581,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -778,9 +778,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.05,
-                        "DT_SLASH": 0.55,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.050000001,
+                        "DT_SLASH": 0.54999995,
                         "Amount": 24,
                         "ProcChance": 0.16,
                         "ForcedProcs": [],
@@ -832,7 +832,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.24,
+                    "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 2.8,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -937,7 +937,7 @@
             "_reachIKSpeed": 15,
             "_overrideReachIKSpeed": 0,
             "_altGripPosOffset": [
-                0.05,
+                0.050000001,
                 0,
                 0.125
             ],
@@ -983,7 +983,7 @@
         "ConsumeChargeConditions": [
             "SECONDARY_FIRE"
         ],
-        "OmegaAttenuation": 0.85,
+        "OmegaAttenuation": 0.85000002,
         "FireModes": [
             {
                 "localizedTag": "/Lotus/Language/Menu/Loadout_TriggerAuto",

@@ -11,10 +11,10 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalRotation": [
-                    0.087156,
+                    0.087155998,
                     0,
                     0,
-                    0.996195
+                    0.99619502
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "MinigamePlayerWeaponFreedomAttachment"
@@ -27,8 +27,8 @@
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -45,7 +45,7 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.04,
+            0.039999999,
             0.25
         ],
         "UseGripOffset": 1,
@@ -67,7 +67,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -177,10 +177,10 @@
                     "ConfirmHitsWithTrace": 0,
                     "ProjectileLaunchBone": "GAME_C1_FLAME_FX",
                     "LaunchRotationOffset": [
-                        -0.087156,
+                        -0.087155998,
                         0,
                         0,
-                        0.996195
+                        0.99619502
                     ],
                     "EffectsAutoChild": {
                         "LocalPosition": [
@@ -205,9 +205,9 @@
                         "Scale": 1
                     },
                     "InitialSpeed": 12,
-                    "Drag": 0.01,
-                    "InitialRadius": 0.15,
-                    "GrowthRate": 0.6,
+                    "Drag": 0.0099999998,
+                    "InitialRadius": 0.15000001,
+                    "GrowthRate": 0.60000002,
                     "Lifetime": 0.5
                 },
                 "impact:Type": "/EE/Types/Game/WeaponBeamImpactBehavior",

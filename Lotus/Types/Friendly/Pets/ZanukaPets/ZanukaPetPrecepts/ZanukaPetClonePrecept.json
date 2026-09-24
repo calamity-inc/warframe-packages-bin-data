@@ -17,6 +17,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -39,12 +40,12 @@
                     "_MergeEffect": "",
                     "_miniVoiceBox": "",
                     "_playerPetDmgPctModifierPerLevel": [
-                        0.35,
-                        0.45,
-                        0.55,
-                        0.65,
+                        0.34999999,
+                        0.44999999,
+                        0.55000001,
+                        0.64999998,
                         0.75,
-                        0.85
+                        0.85000002
                     ],
                     "_splitIntoType": "",
                     "_duration": [
@@ -58,7 +59,8 @@
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             },
             {
                 "UpgradeType": "NONE",
@@ -67,6 +69,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -83,7 +86,8 @@
                 "ReverseValueSymbol": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "BaseDrain": "QA_NONE",
@@ -103,12 +107,12 @@
                 "_MergeEffect": "/Lotus/Fx/PowersuitAbilities/Kingpins/Lawyers/ZanukaPetCloneBurstFXPrecept",
                 "_miniVoiceBox": "",
                 "_playerPetDmgPctModifierPerLevel": [
-                    0.35,
-                    0.45,
-                    0.55,
-                    0.65,
+                    0.34999999,
+                    0.44999999,
+                    0.55000001,
+                    0.64999998,
                     0.75,
-                    0.85
+                    0.85000002
                 ],
                 "_splitIntoType": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPeCloneAgent",
                 "_duration": [

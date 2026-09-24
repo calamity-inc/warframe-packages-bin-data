@@ -8,8 +8,8 @@
         "Script": {
             "Script": "ElectricDamagePerDistance.lua",
             "Function": "OnDamaged",
-            "_upgradePerMeter": 0.01,
-            "_upgradePerSecondStanding": -0.05,
+            "_upgradePerMeter": 0.0099999998,
+            "_upgradePerSecondStanding": -0.050000001,
             "_upgradePerDamage": -0.1,
             "_upgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
             "_upgradeOperationType": "ADD",
@@ -17,7 +17,7 @@
             "_minDistancePerTick": 0.001,
             "_maxDistancePerTick": 5,
             "_maxUpgradeValue": 10,
-            "_damagedCooldown": 0.05,
+            "_damagedCooldown": 0.050000001,
             "_upgradeSymbol": "ElectricDamagePerDistance"
         },
         "UpgradeChance": 1,

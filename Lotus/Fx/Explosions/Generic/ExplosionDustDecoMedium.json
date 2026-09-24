@@ -3,7 +3,7 @@
     "data": {
         "UseLightProbes": 0,
         "Mesh": "/Lotus/Fx/Explosions/ExplosionRings.fbx",
-        "MeshScale": 0.8,
+        "MeshScale": 0.80000001,
         "OverrideMaterial": [
             "ExplosionDustDecoMat"
         ],
@@ -30,32 +30,32 @@
             {
                 "Parameter": "SmoothThreshold",
                 "Slot": -1,
-                "TimeLength": 2.6,
+                "TimeLength": 2.5999999,
                 "Multiplier": 1,
                 "FadeRange": [
                     0.2,
-                    0.6
+                    0.60000002
                 ],
                 "FadeCurve": {
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.708611
+                            "Value": 0.70861101
                         },
                         {
-                            "Time": 0.065273,
+                            "Time": 0.0652733,
                             "Value": 0.295221
                         },
                         {
-                            "Time": 0.172026,
+                            "Time": 0.17202599,
                             "Value": 0.15003
                         },
                         {
                             "Time": 0.301622,
-                            "Value": 0.544857
+                            "Value": 0.54485703
                         },
                         {
-                            "Time": 0.588584,
+                            "Time": 0.58858401,
                             "Value": 0.846775
                         },
                         {
@@ -75,7 +75,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 2.6,
+                "TimeLength": 2.5999999,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -89,7 +89,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.785
+                            "Value": 0.78500003
                         },
                         {
                             "Time": 1,
@@ -108,7 +108,7 @@
             {
                 "Parameter": "CustomTime",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 0.5,
                 "FadeRange": [
                     0,
@@ -122,7 +122,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.614884
+                            "Value": 0.61488402
                         },
                         {
                             "Time": 1,
@@ -141,8 +141,8 @@
             {
                 "Parameter": "MeshScale",
                 "Slot": -1,
-                "TimeLength": 0.3,
-                "Multiplier": 0.6,
+                "TimeLength": 0.30000001,
+                "Multiplier": 0.60000002,
                 "FadeRange": [
                     0,
                     1
@@ -151,15 +151,15 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.013443
+                            "Value": 0.0134427
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.793422
+                            "Value": 0.79342198
                         },
                         {
                             "Time": 1,
-                            "Value": 0.977742
+                            "Value": 0.97774202
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"

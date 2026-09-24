@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/Pirate/LiquifyAvatarBaseWater.fbx",
-        "MeshScale": 0.3,
+        "MeshScale": 0.30000001,
         "OverrideMaterial": [
             "CrystalSpawnDecoMat"
         ],
@@ -17,11 +17,11 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.8,
-                "Multiplier": 0.65,
+                "TimeLength": 0.80000001,
+                "Multiplier": 0.64999998,
                 "FadeRange": [
                     0.38,
-                    0.4
+                    0.40000001
                 ],
                 "FadeCurve": {
                     "Values": [],
@@ -37,7 +37,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.8,
+                "TimeLength": 0.80000001,
                 "Multiplier": 0.25,
                 "FadeRange": [
                     1,
@@ -47,7 +47,7 @@
                     "Values": [],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.4,
+                "BaseValue": 0.40000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,

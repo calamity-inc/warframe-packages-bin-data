@@ -126,13 +126,13 @@
             "Amount": 2,
             "ProcChance": 1.2
         },
-        "CriticalChance": 0.06,
+        "CriticalChance": 0.059999999,
         "CriticalMultiplier": 1.8,
         "ExplosiveAttack": {
             "Type": "DT_PHYSICAL",
-            "DT_IMPACT": 0.33,
-            "DT_PUNCTURE": 0.33,
-            "DT_SLASH": 0.34,
+            "DT_IMPACT": 0.33000001,
+            "DT_PUNCTURE": 0.33000001,
+            "DT_SLASH": 0.33999997,
             "ProcChance": 0
         },
         "ForcedSourceProcs": [
@@ -146,7 +146,7 @@
         "ExplosionIgnoreSource": 1,
         "ExplosionIgnoreCover": 0,
         "ExplosionFallOff": 0.2,
-        "DamageRadius": 2.4,
+        "DamageRadius": 2.4000001,
         "HitEffect": "",
         "DieEffect": "/Lotus/Fx/Weapons/Tenno/TnBubbleGunPistol/TnBubbleGunPistolExplosionFXMS",
         "DieEffectMirror": "/Lotus/Fx/Weapons/Tenno/TnBubbleGunPistol/TnBubbleGunPistolExplosionFXMS",
@@ -156,7 +156,7 @@
             "TnYareliBoltoProj"
         ],
         "Toughness": 10000,
-        "MaxLife": 0.84,
+        "MaxLife": 0.83999997,
         "MaxLifeVariance": 0.2,
         "PlayLocalHitSoundOnImpact": 1,
         "VerticalImpulse": 150,
@@ -167,15 +167,15 @@
         "Embed": 1,
         "EmbedAttack": {
             "Type": "DT_PHYSICAL",
-            "DT_IMPACT": 0.05,
+            "DT_IMPACT": 0.050000001,
             "DT_PUNCTURE": 0.75,
-            "DT_SLASH": 0.2,
-            "ProcChance": 0.35
+            "DT_SLASH": 0.19999999,
+            "ProcChance": 0.34999999
         },
-        "EmbedDamageRadius": 2.4,
+        "EmbedDamageRadius": 2.4000001,
         "EmbedTime": [
-            0.6,
-            0.8
+            0.60000002,
+            0.80000001
         ],
         "EmbedDeathAttack": {
             "Type": "DT_VIRAL",
@@ -186,7 +186,7 @@
         "EmbedDeathEffect": "/Lotus/Fx/Weapons/Tenno/TnBubbleGunPistol/TnBubbleGunPistolExplosionFX",
         "EmbedDeathEffectMirror": "/Lotus/Fx/Weapons/Tenno/TnBubbleGunPistol/TnBubbleGunPistolExplosionFXMS",
         "HelixRadius": 0.1,
-        "HelixSpreadRate": 0.8,
+        "HelixSpreadRate": 0.80000001,
         "HelixRadiusVariance": 1.8,
         "HelixSpinRate": 10,
         "HelixSpinRateVariance": 10,
@@ -194,12 +194,12 @@
         "StopOnCollision": 1,
         "KinematicInitialSpeed": 40,
         "KinematicMaxSpeed": 40,
-        "KinematicGravityMultiplier": 0.3,
+        "KinematicGravityMultiplier": 0.30000001,
         "SweepRadius": 0,
         "InstantTurn": 0,
         "ApplyColorCustomization": 1,
         "FlightAxis": "FA_Z",
-        "EmbedOffset": 0.05,
+        "EmbedOffset": 0.050000001,
         "AttachmentOffsets": [
             0.25
         ],

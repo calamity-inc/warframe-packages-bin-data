@@ -14,13 +14,13 @@
                 "LocalPosition": [
                     0,
                     0,
-                    -0.01
+                    -0.0099999998
                 ],
                 "LocalRotation": [
-                    -0.000457,
+                    -0.00045699999,
                     0.017446,
-                    -0.026173,
-                    0.999505
+                    -0.026172999,
+                    0.99950498
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "CrpLaserPistolAttachment"
@@ -28,13 +28,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -56,19 +56,19 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.04,
+            0.039999999,
             0.25
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.085,
+            -0.085000001,
             0,
-            0.135
+            0.13500001
         ],
         "GripRotationOffset": [
             -0.347803,
-            -0.675491,
-            0.637074,
+            -0.67549098,
+            0.63707399,
             -0.129932
         ],
         "RecordFireEvent": 0,
@@ -76,11 +76,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -109,7 +109,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -252,7 +252,7 @@
                         "LocalPosition": [
                             0,
                             -0.055,
-                            0.15
+                            0.15000001
                         ],
                         "LocalRotation": [
                             0,
@@ -353,8 +353,8 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0,
-                        "DT_PUNCTURE": 0.42,
-                        "DT_SLASH": 0.58,
+                        "DT_PUNCTURE": 0.41999999,
+                        "DT_SLASH": 0.58000004,
                         "Amount": 18,
                         "ProcChance": 0.22,
                         "ForcedProcs": [],
@@ -426,9 +426,9 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": ""
                 },
@@ -525,13 +525,13 @@
             "LocalPosition": [
                 0,
                 0,
-                0.01
+                0.0099999998
             ],
             "LocalRotation": [
                 0,
                 0,
                 -0.026177,
-                0.999657
+                0.99965698
             ],
             "BoneName": "GAME_L1_WEAPON1",
             "Type": "CrpLaserPistolDSAttachment"

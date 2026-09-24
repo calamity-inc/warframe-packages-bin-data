@@ -78,7 +78,7 @@
         "CollisionProxy": {
             "LocalPosition": [
                 0,
-                0.6,
+                0.60000002,
                 0
             ]
         },
@@ -291,6 +291,36 @@
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Infested/InfestedAncient/AncientTorsoAltALeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Infested/InfestedAncient/InfestedAncientAltB/AncientHeadAltBLeaderVolt"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Infested/InfestedAncient/InfestedAncientAltA/AncientArmsAltALeaderVolt"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Infested/InfestedAncient/InfestedAncientAltB/AncientLegsAltBLeaderVolt"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
                     "MeshScale": 1.1
                 },
                 "Probability": 1

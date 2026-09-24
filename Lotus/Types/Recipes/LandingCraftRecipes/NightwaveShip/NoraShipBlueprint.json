@@ -1,0 +1,32 @@
+{
+    "parent": "/Lotus/Types/Game/RecipeItem",
+    "data": {
+        "RegularPrice": 35000,
+        "ExcludeFromCodex": 0,
+        "TradeCapability": "RO_NEVER",
+        "ResultItem": "/Lotus/StoreItems/Types/Items/Ships/NoraShip",
+        "Ingredients": [
+            {
+                "ItemType": "NoraShipFuselageComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "NoraShipEnginesComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "NoraShipAvionicsComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 1
+            }
+        ],
+        "BuildTime": 259200,
+        "BuildPrice": 25000,
+        "SkipBuildTimePrice": 50,
+        "ShipFeaturePrereq": "/Lotus/Types/Items/ShipFeatureItems/FoundryVesselUpgradeFeatureItem",
+        "ActivityFeedInfo": "NoraShip"
+    }
+}

@@ -73,7 +73,6 @@
                     "ChargePastTargetDistance": 0,
                     "ChargeNextToTargetAngle": 0,
                     "ChargeNextToTargetDirectionOdds": 0.5,
-                    "ForceBashWithinTargetDistance": 3,
                     "ChargeInputCode": "MELEE",
                     "CoolOffTimeRange": [
                         6,
@@ -105,7 +104,7 @@
                     "SwapWeapon": 0,
                     "ExitOnDamage": 0,
                     "UseAttackInputRange": 4,
-                    "PredictedSwingTime": 0.3,
+                    "PredictedSwingTime": 0.30000001,
                     "ModifyAttackRangeBasedOnPlayerVelocity": 1,
                     "PushBackRangeWhileAttacking": 2.5,
                     "PushBackAnimEvent": "MeleeStart",
@@ -227,6 +226,7 @@
                 "ActiveAction:AimWhileMoving": 1,
                 "ActiveAction:SetViewWhileMoving": 1,
                 "ActiveAction:ShootingDistance": 0,
+                "ActiveAction:NeedsVisibilityForShooting": 1,
                 "ActiveAction:ChangeWeapons": 0,
                 "ActiveAction:WeaponSlot": "SLOT_1",
                 "ActiveAction:WeaponHand": "MAIN_HAND",
@@ -330,6 +330,7 @@
             "ActiveAction:AimWhileMoving": 1,
             "ActiveAction:SetViewWhileMoving": 1,
             "ActiveAction:ShootingDistance": 0,
+            "ActiveAction:NeedsVisibilityForShooting": 1,
             "ActiveAction:ChangeWeapons": 0,
             "ActiveAction:WeaponSlot": "SLOT_1",
             "ActiveAction:WeaponHand": "MAIN_HAND",
@@ -378,7 +379,7 @@
             "CheckWeaponRange": 0,
             "EvaluateRange": [
                 0,
-                4.819277
+                4.8192768
             ],
             "MaintainAim": 1,
             "LookHorizRate": 80,
@@ -390,7 +391,7 @@
                 4
             ],
             "WaitTime": [
-                0.7,
+                0.69999999,
                 1.2
             ]
         },
@@ -415,6 +416,7 @@
             ],
             "MaxMovementDistance": 100,
             "AllowRetreat": 0,
+            "AllowTeleportFromOffScreen": 0,
             "AllowRun": 1,
             "AllowChase": 1,
             "ForceWalkBelowMinIdealRange": 1,

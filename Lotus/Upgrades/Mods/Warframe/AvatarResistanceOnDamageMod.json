@@ -28,16 +28,16 @@
                     "Script": "/Lotus/Scripts/Mods/ResistanceOnDamage.lua",
                     "Function": "GetDescription",
                     "_resistancePerLevel": [
-                        0.05,
+                        0.050000001,
                         0.055,
-                        0.06,
-                        0.065,
+                        0.059999999,
+                        0.064999998,
                         0.07,
-                        0.075,
-                        0.08,
-                        0.085,
-                        0.09,
-                        0.095,
+                        0.075000003,
+                        0.079999998,
+                        0.085000001,
+                        0.090000004,
+                        0.094999999,
                         0.1
                     ],
                     "_duration": [
@@ -54,7 +54,7 @@
                         20
                     ],
                     "_damageTypesForIcons": [],
-                    "_maxResistance": 0.9
+                    "_maxResistance": 0.89999998
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
@@ -70,16 +70,16 @@
             "Script": "/Lotus/Scripts/Mods/ResistanceOnDamage.lua",
             "Function": "ApplyUpgrade",
             "_resistancePerLevel": [
-                0.05,
+                0.050000001,
                 0.055,
-                0.06,
-                0.065,
+                0.059999999,
+                0.064999998,
                 0.07,
-                0.075,
-                0.08,
-                0.085,
-                0.09,
-                0.095,
+                0.075000003,
+                0.079999998,
+                0.085000001,
+                0.090000004,
+                0.094999999,
                 0.1
             ],
             "_duration": [
@@ -111,7 +111,7 @@
                 "CorrosiveResistanceOnDamage",
                 "SentientResistanceOnDamage"
             ],
-            "_maxResistance": 0.9
+            "_maxResistance": 0.89999998
         },
         "UpgradeChance": 1,
         "PlayEffect": 0,

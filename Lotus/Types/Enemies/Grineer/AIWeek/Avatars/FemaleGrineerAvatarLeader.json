@@ -69,6 +69,7 @@
                 "Scale": 1
             }
         ],
+        "VoiceBox": "/Lotus/Sounds/Dialog/Barks/Battle/Eximus/EximusGrineerFemale/EximusGrineerFemaleVoiceBox",
         "KillXPReward": 500,
         "AiDirEncounterScore": 150,
         "PartialFrozenWarmUpRate": 0.25,
@@ -249,6 +250,31 @@
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
                     "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Grineer/Female/GrineerFemaleLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/Female/FemaleRemaster/Textures/GrineerFemaleAccessoriesLeaderVolt"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Grineer/Female/FemaleRemaster/Textures/GrineerFemaleAccessoriesLeaderVolt"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
+                    "MeshScale": 1
                 },
                 "Probability": 1
             }

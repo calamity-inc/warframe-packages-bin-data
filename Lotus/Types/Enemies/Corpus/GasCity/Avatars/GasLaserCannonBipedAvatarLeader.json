@@ -216,6 +216,37 @@
                     "MeshScale": 1.1
                 },
                 "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Guild/BipedPrototype/MoaLeaderVolt",
+                        "/Lotus/Characters/Guild/Shared/BotHeadLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Types/Enemies/Corpus/GasCity/Attachments/MoaBackpackLeaderVolt"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Types/Enemies/Corpus/GasCity/Attachments/MoaBackpackLeaderVolt"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Types/Enemies/Corpus/GasCity/Attachments/MoaBackpackLeaderVolt"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
             }
         ]
     }

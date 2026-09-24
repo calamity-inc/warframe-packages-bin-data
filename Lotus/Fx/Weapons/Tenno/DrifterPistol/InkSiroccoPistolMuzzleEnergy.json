@@ -1,0 +1,145 @@
+{
+    "parent": "/Lotus/Fx/Enemies/Sentients/SentientSparkGlowA",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.28,
+                    0.97000003,
+                    0.2,
+                    1
+                ]
+            },
+            {
+                "name": "TemperatureAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 64
+            },
+            {
+                "name": "SmokeEnergyMix",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.2
+            },
+            {
+                "name": "SmokeColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            }
+        ],
+        "VisibleDistortion": 1,
+        "Life": [
+            0.12,
+            0.25
+        ],
+        "Size": [
+            0.15000001,
+            0.30000001
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.80000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "InitialCount": [
+            1,
+            1
+        ],
+        "SpewCount": [
+            0,
+            0
+        ],
+        "Material": "InkSiroccoPistolMuzzleEnergyMat",
+        "AnimateTiles": 1,
+        "ColorMin": [
+            36,
+            34,
+            36,
+            255
+        ],
+        "ColorMax": [
+            37,
+            27,
+            44,
+            255
+        ],
+        "ColorKeys": [
+            [
+                55,
+                45,
+                67,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ]
+        ],
+        "EnergyTintMethod": "ETM_PRIMARY",
+        "Spin": [
+            -0.1,
+            0.1
+        ],
+        "SpinByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.2
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.2
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "EyeFadeDist": 0,
+        "Speed": [
+            0.2,
+            1
+        ]
+    }
+}

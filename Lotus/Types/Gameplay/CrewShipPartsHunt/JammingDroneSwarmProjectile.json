@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/SwarmProjectile",
     "data": {
         "Mesh": "/Lotus/Fx/Enemies/Drones/Projectile.fbx",
-        "MeshScale": 0.3,
+        "MeshScale": 0.30000001,
         "OverrideMaterial": [
             "/Lotus/Fx/Enemies/Sentients/Vomvalyst/VomSwarmProjectileMat"
         ],
@@ -11,7 +11,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.46
+                    0.46000001
                 ],
                 "LocalRotation": [
                     0,
@@ -58,7 +58,7 @@
             "ProcChance": 0
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.05,
+        "CriticalChance": 0.050000001,
         "CriticalMultiplier": 2,
         "ExplosiveAttack": {
             "Type": "DT_SENTIENT",
@@ -87,7 +87,7 @@
         "KinematicInitialSpeed": 17,
         "KinematicMaxSpeed": 17,
         "KinematicNoise": 10,
-        "KinematicNoiseRate": 0.6,
+        "KinematicNoiseRate": 0.60000002,
         "KinematicRestitution": 0,
         "KinematicRestitutionParallel": 0,
         "KinematicBulletRaycast": 0,
@@ -98,7 +98,7 @@
         "SeekAllEntities": 1,
         "MaxSwarmDistance": 5,
         "SeparationStrength": 0.5,
-        "CohesionStrength": 0.3,
+        "CohesionStrength": 0.30000001,
         "TargetStrength": 3
     }
 }

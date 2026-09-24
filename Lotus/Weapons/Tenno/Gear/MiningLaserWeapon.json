@@ -14,12 +14,12 @@
                 "LocalPosition": [
                     0,
                     0,
-                    -0.01
+                    -0.0099999998
                 ],
                 "LocalRotation": [
-                    -0.000761,
+                    -0.00076099997,
                     0.017436,
-                    -0.043613,
+                    -0.043613002,
                     0.998896
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -28,13 +28,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -53,19 +53,19 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.04,
+            0.039999999,
             0.25
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.075,
+            -0.075000003,
             0,
             0.2
         ],
         "GripRotationOffset": [
             -0.171065,
-            -0.686103,
-            0.705384,
+            -0.68610299,
+            0.70538402,
             0.049325
         ],
         "RecordFireEvent": 0,
@@ -73,11 +73,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -93,11 +93,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -126,7 +126,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 1,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -256,8 +256,8 @@
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 42,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.05,
-                    "RetractTime": 0.01,
+                    "MaxTraceDistanceTime": 0.050000001,
+                    "RetractTime": 0.0099999998,
                     "RecoilRate": 25,
                     "AttachToWeapon": 0,
                     "MultiBeam": 0,
@@ -265,7 +265,7 @@
                         "LocalPosition": [
                             0.015,
                             0.02,
-                            0.09
+                            0.090000004
                         ],
                         "LocalRotation": [
                             0,
@@ -351,7 +351,7 @@
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
                         "DT_PUNCTURE": 0.1,
-                        "DT_SLASH": 0.8,
+                        "DT_SLASH": 0.80000001,
                         "Amount": 1,
                         "ProcChance": 0.25,
                         "ForcedProcs": [],
@@ -402,7 +402,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,

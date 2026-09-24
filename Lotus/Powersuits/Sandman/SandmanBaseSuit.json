@@ -35,7 +35,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -136,9 +136,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -792,7 +792,7 @@
                     {
                         "BoneOverride": "",
                         "PosOffset": [
-                            0.05,
+                            0.050000001,
                             0,
                             -0.14
                         ],
@@ -802,10 +802,10 @@
                             0
                         ],
                         "RotOffset": [
-                            -0.003802,
-                            -0.087073,
+                            -0.0038020001,
+                            -0.087072998,
                             0.043453,
-                            0.995247
+                            0.99524701
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -823,7 +823,7 @@
                     {
                         "BoneOverride": "",
                         "PosOffset": [
-                            -0.05,
+                            -0.050000001,
                             0,
                             0.14
                         ],
@@ -833,10 +833,10 @@
                             0
                         ],
                         "RotOffset": [
-                            0.003802,
-                            -0.087073,
+                            0.0038020001,
+                            -0.087072998,
                             -0.043453,
-                            0.995247
+                            0.99524701
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -877,7 +877,7 @@
             "Abilities/SandmanSwarmAbility"
         ],
         "PassiveAbilityLocTag": "/Lotus/Language/Suits/InarosPassiveAbility",
-        "PvpBulletJumpSpeedMultiplier": 0.8,
+        "PvpBulletJumpSpeedMultiplier": 0.80000001,
         "MaxHealthOverride": 2110,
         "MaxShieldOverride": 0,
         "ArmourRatingOverride": 240,

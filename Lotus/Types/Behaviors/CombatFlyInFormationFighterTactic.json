@@ -32,11 +32,11 @@
                 450
             ],
             "RandomPitchRange": [
-                0.05,
+                0.050000001,
                 15
             ],
-            "MinSpeedModifier": 0.8,
-            "MinSpeedModifierClose": 0.6,
+            "MinSpeedModifier": 0.80000001,
+            "MinSpeedModifierClose": 0.60000002,
             "DistanceForSpeedModifier": [
                 100,
                 400
@@ -48,9 +48,9 @@
             "MinDistanceForAttackRun": 250,
             "UseDisengageCorrectionCurve": 0,
             "DisengageDirCorrectionCurve": {
-                "m": -0.4,
+                "m": -0.40000001,
                 "k": 2,
-                "b": 0.9,
+                "b": 0.89999998,
                 "c": 0,
                 "logistic": 0
             },
@@ -67,7 +67,7 @@
             },
             "DefaultReevaluationDelay": 0,
             "SpeedMultiplier": 1.2,
-            "AvatarOutOfBoundsRatioRequired": 0.8
+            "AvatarOutOfBoundsRatioRequired": 0.80000001
         },
         "LeaderAction:FlyAfterTargetBehavior": {
             "Enabled": 1,
@@ -114,7 +114,7 @@
         "AllowableLinearOffsetFromPos": 300,
         "AllowableDistanceOffsetFromAlignment": 60,
         "CatchUpDistance": 200,
-        "SlowDownSpeedModifier": 0.85,
+        "SlowDownSpeedModifier": 0.85000002,
         "CatchUpSpeedModifier": 1.25
     }
 }

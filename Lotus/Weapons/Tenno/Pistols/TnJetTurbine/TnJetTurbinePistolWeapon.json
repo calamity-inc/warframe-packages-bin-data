@@ -13,14 +13,14 @@
         "HolsterBone1Name": "GAME_R1_LEG1",
         "HolsterBone1Position": [
             -0.125,
-            -0.03,
+            -0.029999999,
             0.17
         ],
         "HolsterBone1Rotation": [
             0,
-            -0.793353,
+            -0.79335302,
             0,
-            0.608761
+            0.60876101
         ],
         "GripType": "GUN_ONE_HAND",
         "PickUpText": "/Lotus/Language/Items/PistolPickup",
@@ -41,7 +41,7 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "AimStartSound": "/Lotus/Sounds/Weapons/Generic/GenericWeaponAimTransitionInLocal",
@@ -50,11 +50,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -83,7 +83,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -218,7 +218,7 @@
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 1,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.4,
+                    "MaxTraceDistanceTime": 0.40000001,
                     "RetractTime": 0.001,
                     "AttachToWeapon": 1,
                     "UseWeaponAttachmentFirePos": 0,
@@ -228,7 +228,7 @@
                         {
                             "LocalPosition": [
                                 0,
-                                0.06,
+                                0.059999999,
                                 0.2
                             ],
                             "LocalRotation": [
@@ -276,7 +276,7 @@
                     "AllowSelfDamage": 0,
                     "IgnoreInvisibleAvatars": 1,
                     "DestroyBeamOnFire": 0,
-                    "BeamTime": 0.06,
+                    "BeamTime": 0.059999999,
                     "ApplyRadialDamageOnMiss": 0,
                     "ApplyRadialDamageOnHit": 0
                 },
@@ -300,7 +300,7 @@
                         "DT_CORROSIVE": 0,
                         "DT_RADIANT": 0,
                         "Amount": 70,
-                        "ProcChance": 0.08,
+                        "ProcChance": 0.079999998,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -351,7 +351,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.32,
+                    "criticalHitChance": 0.31999999,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -405,7 +405,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -456,7 +456,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -555,7 +555,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -684,22 +684,22 @@
                     "WhizDeviation": 1,
                     "WhizChance": 0,
                     "WhizzByRemoteMinDistance": 15,
-                    "TraceRadius": 0.8,
+                    "TraceRadius": 0.80000001,
                     "PvpTraceRadius": 0,
                     "RefinedSweep": 0,
                     "AffectedByStasis": 1,
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 1,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.05,
-                    "RetractTime": 0.01,
+                    "MaxTraceDistanceTime": 0.050000001,
+                    "RetractTime": 0.0099999998,
                     "AttachToWeapon": 1,
                     "UseWeaponAttachmentFirePos": 0,
                     "MultiBeam": 0,
                     "BeamChild": {
                         "LocalPosition": [
                             0,
-                            0.06,
+                            0.059999999,
                             0.1
                         ],
                         "LocalRotation": [
@@ -801,7 +801,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_FIRE",
                         "Amount": 88,
-                        "ProcChance": 0.24,
+                        "ProcChance": 0.23999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -852,7 +852,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.18,
+                    "criticalHitChance": 0.18000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -872,9 +872,9 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": ""
                 },

@@ -4,7 +4,7 @@
         "BakeEmissiveScale": 0,
         "PostProcessInfo": {
             "dynamicExposure": [
-                0.15,
+                0.15000001,
                 16
             ],
             "targetExposure": 0.015,
@@ -28,7 +28,7 @@
             "toneMapLUT": "/EE/Materials/PostFX/TriuneLUTs/90s/FightClub.cube",
             "colorCorrectCurveLift": [
                 1.02,
-                0.98,
+                0.98000002,
                 1.1,
                 0
             ],
@@ -38,7 +38,7 @@
                         1,
                         1,
                         1,
-                        0.9
+                        0.89999998
                     ],
                     "Contrast": [
                         1,
@@ -50,13 +50,13 @@
                         1,
                         1,
                         1,
-                        0.98
+                        0.98000002
                     ],
                     "Gain": [
                         1,
                         1,
                         1,
-                        0.8
+                        0.80000001
                     ]
                 }
             },
@@ -74,11 +74,11 @@
             "focalFarDepth": 50,
             "sunPosition": [
                 -0.569803,
-                0.683764,
-                0.455842
+                0.68376398,
+                0.45584199
             ],
             "sunColor": [
-                0.74,
+                0.74000001,
                 1.01,
                 1.64,
                 0
@@ -88,7 +88,7 @@
                 0.003,
                 0.003,
                 -0.001,
-                0.004
+                0.0040000002
             ],
             "volumetricFog": {
                 "Enabled": 1,
@@ -98,16 +98,16 @@
                 "ExtinctionConfusion": 0.5,
                 "ScatteringConfusion": 1,
                 "GlobalFog": {
-                    "Density": 0.0005,
-                    "G": 0.33
+                    "Density": 0.00050000002,
+                    "G": 0.33000001
                 },
                 "HeightFog": {
                     "HeightFogMinHeight": -5,
                     "HeightFogMaxHeight": 5,
                     "HeightFogParticipatingMedia": {
-                        "Density": 0.01,
-                        "G": 0.4,
-                        "NoiseScale": 0.05
+                        "Density": 0.0099999998,
+                        "G": 0.40000001,
+                        "NoiseScale": 0.050000001
                     },
                     "SecondaryHeightFogMinHeight": -5,
                     "SecondaryHeightFogMaxHeight": 0.5,
@@ -120,13 +120,13 @@
                     "WindSpeedMultiplier": 0.1
                 },
                 "ClumpyNoise": {
-                    "ClumpAmount": 0.35,
+                    "ClumpAmount": 0.34999999,
                     "ClumpStart": 0.5,
-                    "ClumpEnd": 0.9,
-                    "NoiseScale": 0.05
+                    "ClumpEnd": 0.89999998,
+                    "NoiseScale": 0.050000001
                 },
                 "ColorGrading": {
-                    "Vibrance": 0.15
+                    "Vibrance": 0.15000001
                 }
             }
         },

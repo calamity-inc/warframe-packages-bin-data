@@ -6,12 +6,12 @@
         "OverrideMaterial": [
             "RevenantShotgunOrbBlastDecoMat"
         ],
-        "NearCullDistance": 0.05,
+        "NearCullDistance": 0.050000001,
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.6,
+                "TimeLength": 0.60000002,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -29,7 +29,7 @@
                         },
                         {
                             "Time": 1,
-                            "Value": 0.6
+                            "Value": 0.60000002
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"
@@ -44,7 +44,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.6,
+                "TimeLength": 0.60000002,
                 "Multiplier": 5,
                 "FadeRange": [
                     1,

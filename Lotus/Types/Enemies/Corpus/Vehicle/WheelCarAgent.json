@@ -102,9 +102,9 @@
                 "DefaultReevaluationDelay": 0,
                 "Order": "InstantDrop",
                 "OnAlert": 1,
-                "PostDropDelay": 4.4,
+                "PostDropDelay": 4.4000000953674316,
                 "StopMovingToDrop": 0,
-                "SlowDownMultiplier": 0.3,
+                "SlowDownMultiplier": 0.30000001,
                 "SlowDownTime": 1
             },
             "CustomResponseBehavior": {
@@ -548,7 +548,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 10,
             "StopWhenTurningAngle": 360,
             "CheckFunnelForTightTurns": 0,
@@ -564,7 +564,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,
@@ -590,7 +590,7 @@
             "SplineLookaheadDist": 50
         },
         "LocomotionController:DynamicPathFollowerGroundVehicle": {
-            "ReversingSpeedPct": 0.6,
+            "ReversingSpeedPct": 0.60000002,
             "DirectionUpdateDelay": 0.5,
             "MoveSuccessRadius": 6.5,
             "QuickTurnEnablingAnimVariable": "IV_DODGE"
@@ -618,11 +618,11 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGrineerReactionController",
         "PerceiverType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGrineerPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "BaseHitChance": [
             1,
             1

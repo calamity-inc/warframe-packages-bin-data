@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/ShockwaveRing.fbx",
-        "MeshScale": 0.06,
+        "MeshScale": 0.059999999,
         "OverrideMaterial": [
             "/Lotus/Fx/Enemies/Grineer/MissilePlatform/MissilePlatformExplosionEnergyRingMat"
         ],
@@ -13,7 +13,7 @@
         "MaterialFade": [
             {
                 "Parameter": "MorphAmount",
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,
@@ -32,7 +32,7 @@
             },
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 1.4,
                 "FadeRange": [
                     0,

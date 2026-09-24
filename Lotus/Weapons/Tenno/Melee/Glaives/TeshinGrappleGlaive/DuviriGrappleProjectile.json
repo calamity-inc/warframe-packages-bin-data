@@ -71,7 +71,7 @@
         "CriticalMultiplier": 2,
         "ExplosiveAttack": {
             "Amount": 400,
-            "ProcChance": 0.32,
+            "ProcChance": 0.31999999,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ]
@@ -81,8 +81,8 @@
             "PT_BIG_STAGGER",
             "PT_KNOCKED_DOWN"
         ],
-        "ExplosionFallOff": 0.4,
-        "DamageRadius": 4.8,
+        "ExplosionFallOff": 0.40000001,
+        "DamageRadius": 4.8000002,
         "HitEffect": "/Lotus/Fx/Weapons/Melee/Glaive/GlaiveHitEffect",
         "Toughness": 10000,
         "MaxLife": 6,
@@ -99,7 +99,7 @@
         "KinematicAccel": 70,
         "KinematicInitialSpeed": 50,
         "KinematicMaxSpeed": 300,
-        "KinematicNoiseRate": 0.0001,
+        "KinematicNoiseRate": 0.000099999997,
         "OnProjectileStartScript": {
             "Script": "/Lotus/Types/Friendly/PlayerControllable/Scripts/DrifterGrappleAbility.lua",
             "Function": "ProjectileStart",
@@ -171,7 +171,7 @@
         "TryScanWithBounceDirection": 1,
         "IgnoreFriendlyTargets": 1,
         "GlaiveTargetOverride": 1,
-        "TurningSpeed": 0.0001,
+        "TurningSpeed": 0.000099999997,
         "BankNoise": 15,
         "BankNoiseSpeed": 0.2,
         "SpinRate": 1400,
@@ -182,7 +182,7 @@
         ],
         "ImpactVelocityDampen": 1,
         "AutoRecallTimer": 1.5,
-        "DestructionTimer": 0.6,
+        "DestructionTimer": 0.60000002,
         "CatchRadius": 6,
         "DieInsteadOfRecall": 1,
         "MaxReflections": 0,

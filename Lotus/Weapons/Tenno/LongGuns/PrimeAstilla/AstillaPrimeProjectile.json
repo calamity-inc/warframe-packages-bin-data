@@ -60,7 +60,7 @@
             "HitType": "DHT_PROJECTILE"
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.21,
+        "CriticalChance": 0.20999999,
         "CriticalMultiplier": 1.9,
         "DamageFallOff": [
             60,
@@ -70,8 +70,8 @@
         "ExplosiveAttack": {
             "Type": "DT_PHYSICAL",
             "DT_IMPACT": 0,
-            "DT_PUNCTURE": 0.35,
-            "DT_SLASH": 0.65,
+            "DT_PUNCTURE": 0.34999999,
+            "DT_SLASH": 0.64999998,
             "Amount": 140,
             "ProcChance": 0.37
         },
@@ -83,12 +83,12 @@
             "PT_BIG_STAGGER"
         ],
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplosionIgnoreCover": 0,
-        "ExplosionFallOff": 0.3,
-        "DamageRadius": 2.4,
+        "ExplosionFallOff": 0.30000001,
+        "DamageRadius": 2.4000001,
         "HitEffect": "/Lotus/Types/Weapons/TnGlassShotgunHitEffect",
         "DieEffect": "/Lotus/Fx/Weapons/Tenno/GlassShotgun/GlassShotgunExplosion",
         "DieEffectOffset": [
@@ -109,7 +109,7 @@
             "Type": "DT_PHYSICAL",
             "DT_IMPACT": 0,
             "DT_PUNCTURE": 0.22,
-            "DT_SLASH": 0.78,
+            "DT_SLASH": 0.77999997,
             "Amount": 100,
             "ProcChance": 0.22,
             "ForcedProcs": [
@@ -120,7 +120,7 @@
         "KinematicMaxSpeed": 120,
         "KinematicNoise": 0.1,
         "KinematicGravity": 1,
-        "KinematicGravityMultiplier": 0.3,
+        "KinematicGravityMultiplier": 0.30000001,
         "BaseRotation": [
             1,
             0,

@@ -6,7 +6,7 @@
             {
                 "EventName": "MeleeStart",
                 "Sound": "/Lotus/Sounds/Enemies/Infested/Charger/Attacks/InfestedChargerSwipe",
-                "Chance": 0.85,
+                "Chance": 0.85000002,
                 "Period": 1,
                 "Context": "PEC_ALL",
                 "CancelEventName": ""
@@ -14,7 +14,7 @@
             {
                 "EventName": "InfestedChargerIdle",
                 "Sound": "/Lotus/Sounds/Enemies/Infested/Charger/InfestedChargerIdleB",
-                "Chance": 0.15,
+                "Chance": 0.15000001,
                 "Period": 1,
                 "Context": "PEC_ALL",
                 "CancelEventName": ""
@@ -46,7 +46,7 @@
             {
                 "EventName": "InfestedChargerLeap",
                 "Sound": "/Lotus/Sounds/Enemies/Infested/Charger/InfestedChargerAttackB",
-                "Chance": 0.3,
+                "Chance": 0.30000001,
                 "Period": 1,
                 "Context": "PEC_ALL",
                 "CancelEventName": ""
@@ -158,10 +158,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Context": "PEC_ALL"
             }

@@ -5,8 +5,8 @@
         "HitProxies": [
             {
                 "LocalPosition": [
-                    -0.075,
-                    0.05,
+                    -0.075000003,
+                    0.050000001,
                     0
                 ],
                 "LocalRotation": [
@@ -28,7 +28,7 @@
             {
                 "LocalPosition": [
                     -0.1,
-                    0.05,
+                    0.050000001,
                     0
                 ],
                 "LocalRotation": [
@@ -56,8 +56,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM1",
                 "Type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperArm",
@@ -71,15 +71,15 @@
             },
             {
                 "LocalPosition": [
-                    0.15,
+                    0.15000001,
                     0,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM2",
                 "Type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerArm",
@@ -115,7 +115,7 @@
             },
             {
                 "LocalPosition": [
-                    -0.15,
+                    -0.15000001,
                     0,
                     0
                 ],
@@ -225,12 +225,12 @@
             }
         ],
         "AcceptCrits": 0,
-        "SelfDamageMultiplier": 0.3,
+        "SelfDamageMultiplier": 0.30000001,
         "DodgeDamageMultipliers": {
             "AI_VS_AI": 0.25,
             "AI_VS_PLAYER": 0.25,
             "PLAYER_VS_AI": 0.25,
-            "PLAYER_VS_PLAYER": 0.8
+            "PLAYER_VS_PLAYER": 0.80000001
         },
         "CoverDamageMultiplier": 0,
         "DamageEffects": [
@@ -398,17 +398,17 @@
         "MaxShield": 270,
         "ShieldRechargeDelay": 1,
         "ShieldRechargeRate": 15,
-        "ShieldRechargePercent": 0.05,
+        "ShieldRechargePercent": 0.050000001,
         "ShieldPowerUpProjection": "/Lotus/Fx/Projectors/ShieldUpProjector",
         "ShieldPowerDownProjection": "/Lotus/Fx/Avatar/ShieldDownTenno",
         "ShieldUpSound": "/Lotus/Sounds/UI/TennoShield/ShieldRecharge/ShieldRechargesLocal",
         "ShieldDownSound": "/Lotus/Sounds/UI/TennoShield/ShieldDown/ShieldDownLocal",
         "ShieldResistanceKeyword": "RK_TENNO_SHIELD",
         "EnableShieldGating": 1,
-        "ShieldGateDuration": 0.33,
+        "ShieldGateDuration": 0.33000001,
         "FullShieldGateDuration": 2.5,
         "ShieldValueForFullShieldGateDuration": 1150,
-        "ShieldGateTimerCurveExponent": 0.65,
+        "ShieldGateTimerCurveExponent": 0.64999998,
         "DisplayShieldGateInvulnerabilityInHud": 1,
         "AdditionalShieldRegenDelay": 3,
         "RechargeDelayFromEmptyMultiplier": 0,
@@ -467,7 +467,7 @@
         "InjuryResistEffect": {
             "Type": "/Lotus/Fx/PowersuitAbilities/Upgrades/KnockdownNullifyProjector"
         },
-        "InjuryBlockedPushVectorMultiplyer": 0.8,
+        "InjuryBlockedPushVectorMultiplyer": 0.80000001,
         "OverguardDepletedImmunityDuration": 0.5,
         "OverguardInjuryImmunities": [
             "PAIN",

@@ -9,7 +9,7 @@
             "Type": "/Lotus/Fx/Gameplay/SpaceFlight/AfterBurner",
             "FadeOutOnDestruction": 1
         },
-        "AfterburnerFactor": 0.35,
+        "AfterburnerFactor": 0.34999999,
         "Deceleration": 1,
         "NpcMaxVelocity": 3,
         "PlayerMaxVelocity": 7,
@@ -27,9 +27,9 @@
         "RunTurnRateClamp": 5,
         "MaxRunTurnRate": 5.5,
         "FlightEnabled": 1,
-        "SmoothConvergeTorso": 0.3,
+        "SmoothConvergeTorso": 0.30000001,
         "CollisionBounceRestitution": 0.25,
-        "CollisionBounceRestitutionParallel": 0.9,
+        "CollisionBounceRestitutionParallel": 0.89999998,
         "CollisionBounceVelocityThreshold": 5,
         "CollisionBigStaggerVelocityThreshold": 8,
         "CollisionKnockdownVelocityThreshold": 50,
@@ -42,7 +42,7 @@
         "NearCollisionSound": "",
         "NearCollisionSoundLookahead": 0.75,
         "EnableTurnRateSmoothing": 1,
-        "SmoothTurnRateTime": 0.3,
+        "SmoothTurnRateTime": 0.30000001,
         "CanonicalUp": 1,
         "AllowCameraRelativeVelocity": 0,
         "HeightMax": 520,
@@ -62,8 +62,8 @@
         },
         "Strafe": {
             "StrafeMaxThrottleAcceleration": 10,
-            "StrafeAccelTime": 0.01,
-            "StrafeDecayTime": 0.01
+            "StrafeAccelTime": 0.0099999998,
+            "StrafeDecayTime": 0.0099999998
         },
         "AimOffsetAngleClamp": [
             0,
@@ -79,7 +79,7 @@
             "AutoLevelWhileMoving": "T_YES",
             "AutoLevelBankThreshold": 0,
             "AutoLevelBankDelay": 0,
-            "AutoLevelBankTime": 0.05
+            "AutoLevelBankTime": 0.050000001
         },
         "Drag": 2,
         "UnifiedSpaceFlight": {

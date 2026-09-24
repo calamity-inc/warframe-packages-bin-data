@@ -12,10 +12,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "AvalancheAreaShatterFog",
@@ -30,18 +30,18 @@
         ],
         "TriggeredAnimation": "AvalancheAreaShatterStart_anim.fbx",
         "PlayTriggeredAnimOnStart": 1,
-        "DestructionDelay": 0.3,
+        "DestructionDelay": 0.30000001,
         "CreateOnDestroy": {
             "LocalPosition": [
                 0,
-                0.05,
+                0.050000001,
                 0
             ],
             "LocalRotation": [
-                -0.707107,
+                -0.70710677,
                 0,
                 0,
-                0.707107
+                0.70710677
             ],
             "Type": "AvalacheShatterEndBurst"
         },

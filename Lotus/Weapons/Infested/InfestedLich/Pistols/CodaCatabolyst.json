@@ -26,7 +26,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -126,7 +126,7 @@
                     "PvpTraceDistance": 19,
                     "punctureHitEffect": "",
                     "InfinitePunctureDepth": 0,
-                    "tracePunctureDepth": 0.9,
+                    "tracePunctureDepth": 0.89999998,
                     "PunchthroughIgnoresAvatars": 0,
                     "RicochetChance": 0,
                     "RicochetRange": 15,
@@ -169,7 +169,7 @@
                     "BeamChild": {
                         "LocalPosition": [
                             0,
-                            0.05,
+                            0.050000001,
                             0.2
                         ],
                         "LocalRotation": [
@@ -245,7 +245,7 @@
                         "FadeOutOnDestruction": 0,
                         "Scale": 1
                     },
-                    "Radius": 0.7,
+                    "Radius": 0.69999999,
                     "RadialChecksCover": 0,
                     "RadialMinCoverDistance": 0,
                     "AllowSelfDamage": 0,
@@ -256,8 +256,8 @@
                     "RecoilIntensityFireTime": 0.5,
                     "RecoilCurve": "RC_LINEAR",
                     "RecoilStrength": [
-                        0.15,
-                        0.15
+                        0.15000001,
+                        0.15000001
                     ],
                     "LockOnRecoilTime": 0,
                     "LockOnRecoilStrength": [
@@ -277,7 +277,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -719,7 +719,7 @@
                     "AltEffectHands": [],
                     "ragdollChance": 0,
                     "criticalHitChance": 0.11,
-                    "criticalHitDamageMultiplier": 2.9,
+                    "criticalHitDamageMultiplier": 2.9000001,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -738,9 +738,9 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": "",
                     "NumChains": 0,
@@ -838,7 +838,7 @@
                 ]
             }
         ],
-        "OmegaAttenuation": 0.65,
+        "OmegaAttenuation": 0.64999998,
         "OFF_HAND": {
             "Type": "CodaCatabolystPistolDSAttachment"
         },

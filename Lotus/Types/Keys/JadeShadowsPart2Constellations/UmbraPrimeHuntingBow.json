@@ -18,7 +18,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -107,7 +107,7 @@
                         "OverrideLaunchBone": 0,
                         "LocalPos": [
                             0,
-                            0.08,
+                            0.079999998,
                             0
                         ],
                         "LocalRot": [
@@ -227,9 +227,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 250,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -399,7 +399,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -595,9 +595,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -669,7 +669,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponChargedStateBehavior",
                 "state:WeaponChargedStateBehavior": {
-                    "reloadTime": 0.65,
+                    "reloadTime": 0.64999998,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -677,7 +677,7 @@
                     "fireRate": 80,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 0,
-                    "ModeSwitchTime": 0.6,
+                    "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "ForceReturnToPreviousBehavior": 0,
@@ -726,7 +726,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 0,
                     "ClipSizeAffectsChargeTime": 0,
-                    "ChargeTime": 0.8,
+                    "ChargeTime": 0.80000001,
                     "MinChargeRatio": 1,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 1,

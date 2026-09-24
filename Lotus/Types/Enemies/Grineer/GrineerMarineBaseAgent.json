@@ -133,7 +133,7 @@
                             "UPWARD": "",
                             "DOWNWARD": ""
                         },
-                        "DistanceFromTargetPoint": 0.4
+                        "DistanceFromTargetPoint": 0.40000001
                     },
                     "forceFaceReaction": 0,
                     "useTurnToAction": 0,
@@ -222,7 +222,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -240,7 +240,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8
@@ -734,7 +734,7 @@
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -886,13 +886,13 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "GrineerReactionControllerImpl",
         "PerceiverType": "GrineerPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "BaseHitChance": [
-            0.65,
+            0.64999998,
             1
         ],
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",

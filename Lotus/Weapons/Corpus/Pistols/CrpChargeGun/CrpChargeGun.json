@@ -13,8 +13,8 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    0.005,
-                    0.01
+                    0.0049999999,
+                    0.0099999998
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "CrpChargeGunAttachment"
@@ -23,13 +23,13 @@
         "HolsterBone1Name": "GAME_R1_HOLSTERATTACH",
         "HolsterBone1Position": [
             0.02,
-            -0.05,
-            -0.03
+            -0.050000001,
+            -0.029999999
         ],
         "HolsterBone1Rotation": [
-            0.052286,
-            -0.002283,
-            0.04356,
+            0.052285999,
+            -0.0022829999,
+            0.043559998,
             0.997679
         ],
         "GripType": "GUN_ONE_HAND",
@@ -53,7 +53,7 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "RecordFireEvent": 0,
@@ -61,11 +61,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -94,7 +94,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -342,7 +342,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -746,7 +746,7 @@
                         "DT_CORROSIVE": 0,
                         "DT_RADIANT": 0,
                         "Amount": 23,
-                        "ProcChance": 0.3,
+                        "ProcChance": 0.30000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -764,7 +764,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.84,
+                    "PvpDamageMultiplier": 0.83999997,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -816,9 +816,9 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": ""
                 },
@@ -920,8 +920,8 @@
         "OFF_HAND": {
             "LocalPosition": [
                 0,
-                0.005,
-                -0.01
+                0.0049999999,
+                -0.0099999998
             ],
             "BoneName": "GAME_L1_WEAPON1",
             "Type": "CrpChargeGunDSAttachment"

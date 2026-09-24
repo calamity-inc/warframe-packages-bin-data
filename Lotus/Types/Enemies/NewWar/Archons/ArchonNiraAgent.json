@@ -352,7 +352,7 @@
                             10
                         ],
                         "DoReactiveBlocking": 0,
-                        "ReactiveBlockingDefenseTime": 0.4,
+                        "ReactiveBlockingDefenseTime": 0.40000001,
                         "DefensiveCooldownTime": 1,
                         "HeavyAttackProcTypeImmunities": [],
                         "MeleeRange": [
@@ -636,7 +636,7 @@
                     0
                 ],
                 "MinAngleToTurn": 40,
-                "MinAimMask": 0.9,
+                "MinAimMask": 0.89999998,
                 "TargetNotVisibleTimeoutRange": [
                     6,
                     8
@@ -714,7 +714,7 @@
                 5,
                 30
             ],
-            "WallAttackAction:WallDetectAction:OffsetFromBestPos": 0.9,
+            "WallAttackAction:WallDetectAction:OffsetFromBestPos": 0.89999998,
             "WallAttackAction:WallDetectAction:LatchVolumeTag": "Latch",
             "WallAttackAction:WallDetectAction:NoLatchVolumeTag": "NoLatch",
             "WallAttackAction:WallReachAction:Type": "/Lotus/Types/Behaviors/RunScriptBehavior",
@@ -825,11 +825,11 @@
             "WallAttackAction:BattlePhases": [
                 {
                     "PhaseId": 3,
-                    "HealthThreshold": 0.6
+                    "HealthThreshold": 0.60000002
                 },
                 {
                     "PhaseId": 6,
-                    "HealthThreshold": 0.3
+                    "HealthThreshold": 0.30000001
                 }
             ],
             "WallAttackAction:PowerSuitRandomChance": 0.5,
@@ -954,7 +954,7 @@
                         0
                     ],
                     "DoReactiveBlocking": 0,
-                    "ReactiveBlockingDefenseTime": 0.4,
+                    "ReactiveBlockingDefenseTime": 0.40000001,
                     "DefensiveCooldownTime": 1,
                     "HeavyAttackProcTypeImmunities": [],
                     "MeleeRange": [
@@ -1142,7 +1142,7 @@
             "TauntAttackAction:RequireVisibleTarget": 0,
             "TauntAttackAction:ActivationProbability": 0.5,
             "TauntAttackAction:ExitOnTargeted": 0,
-            "TauntAttackAction:ExitOnTargetDot": 0.8,
+            "TauntAttackAction:ExitOnTargetDot": 0.80000001,
             "TauntAttackAction:TauntOnTargetBeFinished": 0,
             "TauntAttackAction:StopMovingWhenTaunting": 0
         },
@@ -1219,8 +1219,8 @@
             "/EE/Types/Npc/DynamicPathFollowerHover"
         ],
         "LocomotionController:DynamicPathFollowerHover": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "MinimumMoveDistance": 0.1,
@@ -1228,7 +1228,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 50,
             "StopWhenTurningAngle": 90,
             "CheckFunnelForTightTurns": 0,
@@ -1244,7 +1244,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,

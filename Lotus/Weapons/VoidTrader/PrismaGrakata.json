@@ -26,7 +26,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -37,7 +37,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.3,
+                                    0.30000001,
                                     1
                                 ],
                                 "burstPauseTime": [
@@ -149,7 +149,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -163,11 +163,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.266667,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.26666701,
                         "Amount": 15,
-                        "ProcChance": 0.21,
+                        "ProcChance": 0.20999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "HitType": "DHT_NONE",
@@ -312,7 +312,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -577,7 +577,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -588,7 +588,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.3,
+                                    0.30000001,
                                     1
                                 ],
                                 "burstPauseTime": [
@@ -700,7 +700,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -714,11 +714,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.266667,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.26666701,
                         "Amount": 15,
-                        "ProcChance": 0.21,
+                        "ProcChance": 0.20999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "HitType": "DHT_NONE",
@@ -780,19 +780,19 @@
                         "Script": "/Lotus/Scripts/Mods/GrakataAltFire.lua",
                         "Function": "OnAltFireHit",
                         "_burstDelays": [
-                            0.04,
-                            0.03,
+                            0.039999999,
+                            0.029999999,
                             0.02,
                             0.015,
-                            0.01,
-                            0.005
+                            0.0099999998,
+                            0.0049999999
                         ],
                         "_reloadPercent": [
                             0.25,
-                            0.4,
-                            0.55,
-                            0.7,
-                            0.85,
+                            0.40000001,
+                            0.55000001,
+                            0.69999999,
+                            0.85000002,
                             1
                         ],
                         "_modType": "/Lotus/Upgrades/Mods/Rifle/Event/Arbitration/GrnAssaultRifleArbitrationMod"
@@ -804,7 +804,7 @@
                 },
                 "state:Type": "/Lotus/Types/Game/FanHammerStateBehavior",
                 "state:FanHammerStateBehavior": {
-                    "reloadTime": 2.4,
+                    "reloadTime": 2.4000001,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -859,7 +859,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 1,
                     "NumShots": 3,
-                    "BurstDelay": 0.05,
+                    "BurstDelay": 0.050000001,
                     "IgnoreFireRate": 1,
                     "EatAmmoOnUnequip": 1,
                     "QueueBursts": 0,

@@ -5,11 +5,11 @@
             "Stages": [
                 {
                     "enabled": 1,
-                    "mix": 0.005,
+                    "mix": 0.0049999999,
                     "type": "DSP_FLANGER",
                     "flanger": {
                         "paramSweepRate": 0,
-                        "paramWidth": 0.15,
+                        "paramWidth": 0.15000001,
                         "paramFeedback": 0,
                         "paramDelay": 0.2,
                         "paramMixMode": 0
@@ -36,7 +36,7 @@
                     "eq": {
                         "lg": 1,
                         "mg": 1,
-                        "hg": 0.567901,
+                        "hg": 0.56790102,
                         "eqLowMid": [
                             800,
                             4485.3091
@@ -45,12 +45,12 @@
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.3,
+                    "mix": 0.30000001,
                     "type": "DSP_DELAY",
                     "delay": {
                         "delayTimeSec": 0,
                         "delayTime": 1,
-                        "feedback": 0.4
+                        "feedback": 0.40000001
                     }
                 }
             ]

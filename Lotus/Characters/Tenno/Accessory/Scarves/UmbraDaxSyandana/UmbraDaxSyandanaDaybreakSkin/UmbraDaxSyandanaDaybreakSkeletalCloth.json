@@ -1,0 +1,97 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "/Lotus/Characters/Tenno/Accessory/Scarves/UmbraDaxSyandana/UmbraDaxSyandana_skel.fbx",
+        "OverrideMaterial": [
+            "UmbraDaxSyandanaDaybreak"
+        ],
+        "Attached": 1,
+        "AttachBone": "GAME_C1_SPINE5",
+        "DebugVis": "CV_MASS",
+        "ControlData": "/Lotus/Characters/Tenno/Accessory/Scarves/UmbraDaxSyandana/UmbraDaxSyandanaSkeletalClothData",
+        "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.0099999998,
+                0.2
+            ],
+            "collidingDampeningRange": [
+                0.050000001,
+                0.1
+            ],
+            "massRange": [
+                0.5,
+                1
+            ],
+            "distConstraintRange": [
+                0.0099999998,
+                2.5
+            ],
+            "reduceStretchExponent": 0.050000001,
+            "shearingStiffness": 0.0099999998,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "wind": [
+                1,
+                0,
+                1
+            ],
+            "windStrength": [
+                0.5,
+                1
+            ],
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "windVolumeScale": [
+                2,
+                2,
+                2
+            ],
+            "windVolumeOffsetRate": [
+                0.050000001,
+                0.050000001,
+                0.050000001
+            ],
+            "floorPlaneHeight": 0.064999998,
+            "dividingPlane": [
+                0,
+                0,
+                -0.1,
+                0
+            ],
+            "collisionExemptions": [
+                "Clav",
+                "Spine",
+                "LeftLegBump",
+                "LeftLegBump2",
+                "LeftFoot",
+                "Rwing",
+                "BotSpine",
+                "BotSpineExt",
+                "Lwing",
+                "Leg1LeftExt",
+                "TopWingL2RPeer",
+                "R2LWingPeer",
+                "L2RWingPeer",
+                "SpineBump",
+                "RightLegBump",
+                "RightLegBump2",
+                "L2RLegPeer",
+                "LLegPeer"
+            ],
+            "orientationBasis": "X_Y",
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        }
+    }
+}

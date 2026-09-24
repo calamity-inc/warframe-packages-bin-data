@@ -1,0 +1,13 @@
+{
+    "parent": "SeasonWeeklyHardChallenge",
+    "data": {
+        "Script": {
+            "Script": "/Lotus/Scripts/Challenges/CheckMission.lua",
+            "Function": "MatchTagEvent",
+            "_missionType": "MT_VAULTS"
+        },
+        "RequiredKeychainItem": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain",
+        "GameTag": "MISSION_COMPLETE",
+        "Icon": "/Lotus/Interface/Icons/Episodes/Hardcore/TreasureFromThePast.png"
+    }
+}

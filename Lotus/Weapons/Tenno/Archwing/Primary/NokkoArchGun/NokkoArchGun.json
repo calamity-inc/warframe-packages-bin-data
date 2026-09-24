@@ -8,13 +8,13 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.04,
+                    -0.039999999,
                     -0.07
                 ],
                 "LocalRotation": [
-                    -0.043613,
+                    -0.043613002,
                     0.017436,
-                    0.000761,
+                    0.00076099997,
                     0.998896
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -38,12 +38,12 @@
         "GripPositionOffset": [
             -0.1,
             0.16,
-            0.24
+            0.23999999
         ],
         "GripRotationOffset": [
-            -0.541675,
+            -0.54167497,
             0.454519,
-            0.541675,
+            0.54167497,
             0.454519
         ],
         "DisableFireWhileMainHandMeleeing": 0,
@@ -68,7 +68,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -287,8 +287,8 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.35,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.34999999,
                         "DT_SLASH": 0.25,
                         "Amount": 0,
                         "ProcChance": 0,
@@ -451,8 +451,8 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.04,
-                    -0.05
+                    -0.039999999,
+                    -0.050000001
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "NokkoArchGunHWAttachment"
@@ -473,7 +473,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -692,8 +692,8 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.35,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.34999999,
                         "DT_SLASH": 0.25,
                         "Amount": 0,
                         "ProcChance": 0,
@@ -861,6 +861,6 @@
         "BatteryRegenRate": 50,
         "HeavyBatteryRegenRate": 50,
         "FireAimTime": 3,
-        "OmegaAttenuation": 0.7
+        "OmegaAttenuation": 0.69999999
     }
 }

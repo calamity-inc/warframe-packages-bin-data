@@ -51,7 +51,7 @@
         "AttackData": {
             "Type": "DT_IMPACT",
             "Amount": 20,
-            "ProcChance": 0.05,
+            "ProcChance": 0.050000001,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ]
@@ -61,7 +61,7 @@
         "ExplosiveAttack": {
             "Type": "DT_MAGNETIC",
             "Amount": 50,
-            "ProcChance": 0.05,
+            "ProcChance": 0.050000001,
             "ForcedProcs": [
                 "PT_MAGNETIZED"
             ]
@@ -72,7 +72,7 @@
         "DieEffectOffset": [
             0,
             0,
-            -0.8
+            -0.80000001
         ],
         "Toughness": 100000,
         "WhizzBySound": "/Lotus/Sounds/Weapons/Corpus/CrpBow/CrpBowWhizzBy",
@@ -87,21 +87,21 @@
             "Type": "DT_IMPACT"
         },
         "EmbedTime": [
-            0.8,
-            0.8
+            0.80000001,
+            0.80000001
         ],
         "EmbedDeathAttack": {
             "Amount": 165,
-            "ProcChance": 0.05
+            "ProcChance": 0.050000001
         },
         "EmbedEffect": "/Lotus/Fx/Weapons/Corpus/Bow/CrpBowEmbed",
         "EmbedDeathEffect": "/Lotus/Fx/Weapons/Corpus/Bow/CrpBowProjExplosion",
         "KinematicPostCollisionsSpeedFactor": 0.75,
         "KinematicInitialSpeed": 60,
         "KinematicMaxSpeed": 60,
-        "KinematicNoise": 0.03,
+        "KinematicNoise": 0.029999999,
         "KinematicGravity": 1,
-        "KinematicGravityMultiplier": 0.33,
+        "KinematicGravityMultiplier": 0.33000001,
         "SweepRadius": 0,
         "ProjectileReplication": "SYNCED_AUTONOMOUS",
         "ApplyColorCustomization": 1,

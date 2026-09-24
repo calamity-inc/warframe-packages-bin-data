@@ -429,7 +429,7 @@
                 "MoveFacingControl": "MFC_FACE_MOVEDIR",
                 "MinDistToTarget": 10,
                 "ExitReevaluationTime": 5,
-                "TurnAngleThreshold": 4.95,
+                "TurnAngleThreshold": 4.9499998,
                 "FollowerPositions": [
                     [
                         -5,
@@ -700,7 +700,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 0,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,
@@ -925,7 +925,7 @@
                 "LookAtNearbyPlayer": 0,
                 "LookAtTarget": 1,
                 "NearbyTeammatesThreshold": 10,
-                "PlayerBias": 0.6,
+                "PlayerBias": 0.60000002,
                 "ReportAttackOnDamage": 1,
                 "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                 "PatrolBehavior:Enabled": 1,
@@ -1183,7 +1183,7 @@
                         "MinStrafeDistance": 0,
                         "StopRadius": 0.5,
                         "MovementSpeedModifier": [
-                            0.8,
+                            0.80000001,
                             1.2
                         ],
                         "LookAtTarget": 0,
@@ -1195,7 +1195,7 @@
                             0
                         ],
                         "MinAngleToTurn": 40,
-                        "MinAimMask": 0.9,
+                        "MinAimMask": 0.89999998,
                         "TargetNotVisibleTimeoutRange": [
                             6,
                             8
@@ -1879,7 +1879,7 @@
                 "MoveFacingControl": "MFC_FACE_MOVEDIR",
                 "MinDistToTarget": 10,
                 "ExitReevaluationTime": 5,
-                "TurnAngleThreshold": 4.95,
+                "TurnAngleThreshold": 4.9499998,
                 "FollowerPositions": [
                     [
                         -5,
@@ -2150,7 +2150,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 0,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,
@@ -2298,7 +2298,7 @@
                 "LookAtNearbyPlayer": 0,
                 "LookAtTarget": 1,
                 "NearbyTeammatesThreshold": 10,
-                "PlayerBias": 0.6,
+                "PlayerBias": 0.60000002,
                 "ReportAttackOnDamage": 1,
                 "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                 "PatrolBehavior:Enabled": 1,
@@ -2439,8 +2439,8 @@
             "/EE/Types/Npc/DynamicPathFollowerGround"
         ],
         "LocomotionController:DynamicPathFollowerHover": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "MinimumMoveDistance": 0.1,
@@ -2448,7 +2448,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 50,
             "StopWhenTurningAngle": 90,
             "CheckFunnelForTightTurns": 0,
@@ -2464,7 +2464,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,
@@ -2503,7 +2503,7 @@
             "MaxDesiredHeightOnBridges": 1
         },
         "LocomotionController:DynamicPathFollowerGround": {
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureThreshold": 0.89999998,
             "MinimumRunDistance": 3,
             "ShortDistanceSpeedMultiplier": 2
         },

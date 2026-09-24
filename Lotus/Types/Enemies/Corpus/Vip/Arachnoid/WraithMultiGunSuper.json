@@ -10,9 +10,9 @@
             },
             "EXTRA1": {
                 "LocalRotation": [
-                    -0.000761,
+                    -0.00076099997,
                     0.017436,
-                    -0.043613,
+                    -0.043613002,
                     0.998896
                 ],
                 "BoneName": "GAME_C1_TOP"
@@ -24,9 +24,9 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.000761,
+                    -0.00076099997,
                     0.017436,
-                    -0.043613,
+                    -0.043613002,
                     0.998896
                 ],
                 "BoneName": "GAME_C1_TOP"
@@ -34,13 +34,13 @@
         },
         "HolsterBone1Name": "GAME_C1_TOP",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -50,14 +50,14 @@
         "UseWeaponHandForAim": 1,
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.085,
+            -0.085000001,
             0,
-            0.135
+            0.13500001
         ],
         "GripRotationOffset": [
             -0.347803,
-            -0.675491,
-            0.637074,
+            -0.67549098,
+            0.63707399,
             -0.129932
         ],
         "DM_AIM": {
@@ -78,7 +78,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -98,7 +98,7 @@
                                 ],
                                 "fireRate": [
                                     0.12,
-                                    0.18
+                                    0.18000001
                                 ]
                             }
                         },
@@ -289,10 +289,10 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
-                        "DT_PUNCTURE": 0.7,
-                        "DT_SLASH": 0.2,
+                        "DT_PUNCTURE": 0.69999999,
+                        "DT_SLASH": 0.19999999,
                         "Amount": 3,
-                        "ProcChance": 0.05,
+                        "ProcChance": 0.050000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "HitType": "DHT_NONE",
@@ -437,7 +437,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -534,8 +534,8 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
-                        "DT_PUNCTURE": 0.3,
-                        "DT_SLASH": 0.6,
+                        "DT_PUNCTURE": 0.30000001,
+                        "DT_SLASH": 0.60000002,
                         "Amount": 25,
                         "ProcChance": 0,
                         "ForcedProcs": [],

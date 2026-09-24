@@ -2,9 +2,6 @@
     "parent": "CorpusGasCityRemasterLevelInfo",
     "data": {
         "LevelTitle": "TNWQuest",
-        "OnLocalAvatarCreatedScript": {
-            "_MusicSequencerType": "/Lotus/Music/DynamicMusic/NewWar/PartTwo/Archons/NWArchonMusicSequencer"
-        },
         "ConfigureScript": {
             "_itemTypes": [],
             "_itemProbability": [],
@@ -29,6 +26,9 @@
             "_disableSpawnedLoot": 1,
             "_disableLockers": 1,
             "_disableCrateLootDrops": 1
+        },
+        "OnLocalAvatarCreatedScript": {
+            "_MusicSequencerType": "/Lotus/Music/DynamicMusic/NewWar/PartTwo/Archons/NWArchonMusicSequencer"
         }
     }
 }

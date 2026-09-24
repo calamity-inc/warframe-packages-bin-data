@@ -2,7 +2,7 @@
     "parent": "/EE/Types/Effects/GPUParticleSys",
     "data": {
         "SpawnRate": 2600,
-        "EmissionTime": 0.68,
+        "EmissionTime": 0.68000001,
         "fireOnce": 0,
         "useCollisions": 0,
         "affectedByWind": 1,
@@ -17,7 +17,7 @@
             1.2
         ],
         "size": [
-            0.01,
+            0.0099999998,
             0.012
         ],
         "velocity": [
@@ -35,11 +35,11 @@
             0.5
         ],
         "spawnFlowBlend": 0.75,
-        "spawnFlowForcePosScale": 0.15,
+        "spawnFlowForcePosScale": 0.15000001,
         "flowScale": [
-            0.4,
-            0.4,
-            0.4
+            0.40000001,
+            0.40000001,
+            0.40000001
         ],
         "flowForce": [
             8,
@@ -53,7 +53,7 @@
         ],
         "flowScrolling": [
             0,
-            -0.3,
+            -0.30000001,
             0
         ],
         "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
@@ -61,29 +61,29 @@
         "colorKeys[0]": [
             0.024,
             0.44,
-            0.65,
+            0.64999998,
             1
         ],
         "colorKeys[1]": [
             0.024,
             0.44,
-            0.65,
+            0.64999998,
             1
         ],
         "colorKeys[2]": [
             0.012,
-            0.18,
-            0.35,
-            0.67
+            0.18000001,
+            0.34999999,
+            0.67000002
         ],
         "colorKeys[3]": [
             0.0011,
-            0.043,
-            0.091,
-            0.67
+            0.043000001,
+            0.090999998,
+            0.67000002
         ],
         "numColors": 2,
-        "vortexSpeed": 0.3,
+        "vortexSpeed": 0.30000001,
         "vortexDecay": 0.2,
         "vortexRadialForce": 1.25
     }

@@ -1,0 +1,195 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 225,
+        "AdditionalItems": [
+            "MesaHeirloomHelmet",
+            "MesaHeirloomArmGunSkin",
+            "MesaHeirloomPoncho"
+        ],
+        "LocalizeTag": "/Lotus/Language/Heirloom/MesaHeirloomSkinName",
+        "LocalizeDescTag": "/Lotus/Language/Heirloom/MesaHeirloomSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/MesaHeirloomSkin.png",
+        "CodexSecret": 1,
+        "ExcludeFromCodex": 0,
+        "OverrideDateAddedToManifest": 1783742400,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Powersuits/Cowgirl/CowgirlBaseSuit",
+        "UpgradeSkinOverride": "MesaHeirloomWeaponSkin",
+        "CompatibleSlots": [
+            "BodySkin"
+        ],
+        "ApplyEnergyColor": 1,
+        "OverrideAttachedFx": 1,
+        "AttachedFxOverrides": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_L1_LEG1",
+                "Type": "/Lotus/Characters/Tenno/Gunslinger/MesaHeirloom/Cloth/MesaHeirloomSkirtTopTasselLClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_L1_LEG1",
+                "Type": "/Lotus/Characters/Tenno/Gunslinger/MesaHeirloom/Cloth/MesaHeirloomSkirtLClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_R1_LEG1",
+                "Type": "/Lotus/Characters/Tenno/Gunslinger/MesaHeirloom/Cloth/MesaHeirloomSkirtTopTasselRClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_R1_LEG1",
+                "Type": "/Lotus/Characters/Tenno/Gunslinger/MesaHeirloom/Cloth/MesaHeirloomSkirtRClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "DefaultEnergyColor": [
+            240,
+            88,
+            74,
+            0
+        ],
+        "DefaultEnergyColor1": [
+            194,
+            8,
+            8,
+            0
+        ],
+        "DefaultCustomizationOverrides": {
+            "CustomEmblem": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0,
+                            0,
+                            -0.027000001
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0.087072998,
+                            -0.043453,
+                            0.0038020001,
+                            0.99524701
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "EventEmblem": {
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0,
+                            0,
+                            0.027000001
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0.087072998,
+                            0.043453,
+                            -0.0038020001,
+                            0.99524701
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "Face": {
+                "ItemType": "MesaHeirloomPoncho"
+            }
+        }
+    }
+}

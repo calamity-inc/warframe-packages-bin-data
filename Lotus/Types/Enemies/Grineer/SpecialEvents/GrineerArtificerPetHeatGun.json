@@ -31,7 +31,7 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "RecordFireEvent": 0,
@@ -50,7 +50,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 1,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -127,7 +127,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/MediumWeaponHipRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/MediumWeaponAimRecoilInfo",
                     "spreadUniform": 0,
-                    "SpreadRatioHorizontal": 0.6,
+                    "SpreadRatioHorizontal": 0.60000002,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -278,7 +278,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -686,7 +686,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.7,
+                    "PvpDamageMultiplier": 0.69999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 85,
                     "additionalForce": [
@@ -718,7 +718,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 1.5,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -826,9 +826,9 @@
         "UsesExtraHandAttachments": 1,
         "HolsterRotOffset": [
             0,
-            -0.707107,
+            -0.70710677,
             0,
-            0.707107
+            0.70710677
         ],
         "RequiredLevel": 4,
         "ArtifactSlots": [

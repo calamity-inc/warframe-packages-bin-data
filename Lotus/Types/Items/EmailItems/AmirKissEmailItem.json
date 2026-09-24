@@ -1,15 +1,15 @@
 {
     "parent": "EmailItem",
     "data": {
-        "SendOnlyOnce": 0,
         "Message": {
             "sub": "/Lotus/Language/1999/AmirKissTitle",
             "sndr": "/Lotus/Language/1999/MessengerJabirName",
             "msg": "/Lotus/Language/1999/AmirKissMessage",
             "icon": "/Lotus/Interface/Icons/Player/AmirAccoladeGlyph.png",
+            "highPriority": 1,
             "customData": "Amir",
-            "cinematic": "/Lotus/Levels/1999/PlayerHomeBalconyCinematics.level",
-            "highPriority": 1
-        }
+            "cinematic": "/Lotus/Levels/1999/PlayerHomeBalconyCinematics.level"
+        },
+        "SendOnlyOnce": 0
     }
 }

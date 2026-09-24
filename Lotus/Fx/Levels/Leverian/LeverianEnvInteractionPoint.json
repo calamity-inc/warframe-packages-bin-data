@@ -2,7 +2,7 @@
     "parent": "/EE/Types/Effects/ParticleSys",
     "data": {
         "CullDistance": 30,
-        "CullDissolveRatio": 0.35,
+        "CullDissolveRatio": 0.34999999,
         "MaterialParams": [
             {
                 "name": "Curvature",
@@ -38,11 +38,11 @@
             "Values": [
                 {
                     "Time": 0,
-                    "Value": 0.9
+                    "Value": 0.89999998
                 },
                 {
                     "Time": 0.5,
-                    "Value": 0.973424
+                    "Value": 0.97342402
                 },
                 {
                     "Time": 1,
@@ -52,8 +52,8 @@
             "SplineType": "CUBIC_SPLINE"
         },
         "Aspect": [
-            0.4,
-            0.7
+            0.40000001,
+            0.69999999
         ],
         "GrowthRate": [
             0,
@@ -82,8 +82,8 @@
             0.015
         ],
         "FadeInOut": [
-            0.35,
-            0.35
+            0.34999999,
+            0.34999999
         ],
         "EyeFadeDist": 3,
         "DrawRelative": 1,
@@ -91,8 +91,8 @@
         "NozzleSize": 0.25,
         "Drag": 4,
         "Mass": [
-            -0.08,
-            -0.017
+            -0.079999998,
+            -0.017000001
         ]
     }
 }

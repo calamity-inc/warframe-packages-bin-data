@@ -1,0 +1,133 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 10
+            },
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.72000003,
+                    0.93000001,
+                    1,
+                    1
+                ]
+            }
+        ],
+        "ApplyColorCustomization": 1,
+        "UseAttachmentColorSlot": 1,
+        "HasLifeSpan": 0,
+        "LifeSpan": 8,
+        "Life": [
+            2,
+            3
+        ],
+        "Size": [
+            0.0099999998,
+            0.029999999
+        ],
+        "Aspect": [
+            1,
+            1.25
+        ],
+        "SpawnDelay": [
+            0,
+            1
+        ],
+        "InitialCount": [
+            1,
+            1
+        ],
+        "RegenCount": [
+            0.1,
+            0.5
+        ],
+        "VelocityCount": [
+            2,
+            4
+        ],
+        "Material": "/Lotus/Fx/PowersuitAbilities/Citrine/CitrineDeluxeEphemeraSparkleMat",
+        "ColorMin": [
+            0,
+            0,
+            0,
+            50
+        ],
+        "ColorMax": [
+            0,
+            0,
+            0,
+            50
+        ],
+        "ColorKeys": [
+            [
+                240,
+                64,
+                245,
+                255
+            ],
+            [
+                254,
+                143,
+                247,
+                255
+            ]
+        ],
+        "RandOrientation": 1,
+        "MeshFullRotation": 1,
+        "ParticleMeshes": [
+            "/Lotus/Fx/Common/LightningArcLarge.fbx"
+        ],
+        "MeshUsesColor": 1,
+        "Spin": [
+            0.050000001,
+            0.050000001
+        ],
+        "FadeInOut": [
+            0,
+            0.89999998
+        ],
+        "LightingOffset": [
+            1,
+            1,
+            1
+        ],
+        "Nozzle": "PARENT_SKELETON",
+        "NozzleSize": 0.1,
+        "SkeletalBoneMask": [
+            "CitrineDeluxeShoulderGlass_low",
+            "CitrineDeluxeShoulders_low",
+            "GAME_C1_ROOT"
+        ],
+        "Drag": 5,
+        "PushFromFacingDir": 1,
+        "PushFromFacingStrength": -0.25,
+        "PushVector": [
+            10,
+            10,
+            10
+        ],
+        "PushMass": [
+            -0.0099999998,
+            1
+        ],
+        "VelocityStretch": 20.169493,
+        "FlowVolume": "/EE/Types/GraphicsRes/SphericalFlowVolume",
+        "FlowVelocity": [
+            2,
+            0,
+            2
+        ],
+        "FlowScale": [
+            3,
+            3,
+            3
+        ]
+    }
+}

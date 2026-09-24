@@ -35,7 +35,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -223,9 +223,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.7,
-                        "DT_PUNCTURE": 0.15,
-                        "DT_SLASH": 0.15,
+                        "DT_IMPACT": 0.69999999,
+                        "DT_PUNCTURE": 0.15000001,
+                        "DT_SLASH": 0.14999998,
                         "Amount": 242,
                         "ProcChance": 0.38,
                         "ForcedProcs": [],
@@ -245,7 +245,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.26,
+                    "PvpDamageMultiplier": 0.25999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 300,
                     "additionalForce": [
@@ -330,9 +330,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -430,7 +430,7 @@
                     "SetToPreviousBehaviorWhenMeleeActionEnds": 1,
                     "RecordFireEvent": 1,
                     "ComboData": {
-                        "HeavyMeleeChargeTime": 0.35,
+                        "HeavyMeleeChargeTime": 0.34999999,
                         "UseCurrentContextAfterCharge": 0
                     },
                     "GroundHitLerpRate": 0.25,
@@ -468,7 +468,7 @@
                         "PosOffset": [
                             0,
                             0.23,
-                            -0.06
+                            -0.059999999
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -476,10 +476,10 @@
                             0
                         ],
                         "RotOffset": [
-                            0.996195,
+                            0.99619502,
                             0,
                             0,
-                            0.087156
+                            0.087155998
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -497,7 +497,7 @@
                         "PosOffset": [
                             0,
                             0.23,
-                            -0.06
+                            -0.059999999
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -505,10 +505,10 @@
                             0
                         ],
                         "RotOffset": [
-                            0.996195,
+                            0.99619502,
                             0,
                             0,
-                            0.087156
+                            0.087155998
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -524,7 +524,7 @@
                     {
                         "BoneOverride": "",
                         "PosOffset": [
-                            0.03,
+                            0.029999999,
                             0.25,
                             -0.02
                         ],
@@ -534,9 +534,9 @@
                             0
                         ],
                         "RotOffset": [
-                            0.612372,
+                            0.61237198,
                             -0.353553,
-                            0.612372,
+                            0.61237198,
                             0.353553
                         ],
                         "RotOffsetSecondary": [
@@ -553,7 +553,7 @@
                     {
                         "BoneOverride": "",
                         "PosOffset": [
-                            -0.04,
+                            -0.039999999,
                             0.25,
                             -0.02
                         ],
@@ -563,9 +563,9 @@
                             0
                         ],
                         "RotOffset": [
-                            -0.612372,
+                            -0.61237198,
                             -0.353553,
-                            -0.612372,
+                            -0.61237198,
                             0.353553
                         ],
                         "RotOffsetSecondary": [
@@ -653,9 +653,9 @@
                     -0.5
                 ],
                 "FXOffset": [
-                    -0.4,
+                    -0.40000001,
                     0,
-                    0.4
+                    0.40000001
                 ],
                 "UseWeaponAttachment": 0,
                 "WeaponAttachmentHand": "MAIN_HAND",
@@ -669,7 +669,7 @@
                 "RadiusMin": 0,
                 "Radius": 8,
                 "FallOff": 1,
-                "FallOffMax": 0.7,
+                "FallOffMax": 0.69999999,
                 "CanCrit": 0,
                 "CanUseComboMultiplier": 1,
                 "UseImpactBehaviorAttackDataAmount": 1,
@@ -721,9 +721,9 @@
                     0
                 ],
                 "FXOffset": [
-                    -0.4,
+                    -0.40000001,
                     0,
-                    0.4
+                    0.40000001
                 ],
                 "UseWeaponAttachment": 0,
                 "WeaponAttachmentHand": "MAIN_HAND",
@@ -795,7 +795,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -861,7 +861,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -927,7 +927,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -993,7 +993,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -1197,7 +1197,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -1263,7 +1263,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -1329,7 +1329,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -1395,7 +1395,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -1471,7 +1471,7 @@
                 "RadiusMin": 0,
                 "Radius": 3,
                 "FallOff": 1,
-                "FallOffMax": 0.7,
+                "FallOffMax": 0.69999999,
                 "CanCrit": 0,
                 "CanUseComboMultiplier": 1,
                 "UseImpactBehaviorAttackDataAmount": 1,
@@ -1523,9 +1523,9 @@
                     0
                 ],
                 "FXOffset": [
-                    -0.4,
+                    -0.40000001,
                     0,
-                    0.4
+                    0.40000001
                 ],
                 "UseWeaponAttachment": 0,
                 "WeaponAttachmentHand": "MAIN_HAND",

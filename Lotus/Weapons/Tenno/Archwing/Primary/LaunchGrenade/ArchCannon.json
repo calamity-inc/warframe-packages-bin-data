@@ -8,14 +8,14 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.042,
+                    -0.041999999,
                     -0.07
                 ],
                 "LocalRotation": [
                     0,
-                    -0.043619,
+                    -0.043618999,
                     0,
-                    0.999048
+                    0.99904799
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "ArchCannonAttachment"
@@ -34,15 +34,15 @@
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.03,
-            0.06,
-            -0.01
+            -0.029999999,
+            0.059999999,
+            -0.0099999998
         ],
         "GripRotationOffset": [
             -0.241845,
             0.454519,
-            0.664463,
-            0.541675
+            0.66446298,
+            0.54167497
         ],
         "GripBone": "GAME_C1_TGRIP",
         "DisableFireWhileMainHandMeleeing": 0,
@@ -50,11 +50,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -88,7 +88,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -283,9 +283,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.8,
+                        "DT_IMPACT": 0.80000001,
                         "DT_PUNCTURE": 0.1,
-                        "DT_SLASH": 0.1,
+                        "DT_SLASH": 0.099999964,
                         "Amount": 54,
                         "ProcChance": 0.2,
                         "ForcedProcs": [],
@@ -455,8 +455,8 @@
         "HeavyWeaponAttachments": {
             "MAIN_HAND": {
                 "LocalPosition": [
-                    -0.01,
-                    -0.03,
+                    -0.0099999998,
+                    -0.029999999,
                     -0.07
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -478,7 +478,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -577,7 +577,7 @@
                     "PvpTraceDistance": 300,
                     "punctureHitEffect": "",
                     "InfinitePunctureDepth": 0,
-                    "tracePunctureDepth": 2.4,
+                    "tracePunctureDepth": 2.4000001,
                     "PunchthroughIgnoresAvatars": 0,
                     "RicochetChance": 0,
                     "RicochetRange": 15,
@@ -606,7 +606,7 @@
                     "WhizDeviation": 1,
                     "WhizChance": 0,
                     "WhizzByRemoteMinDistance": 15,
-                    "TraceRadius": 0.03,
+                    "TraceRadius": 0.029999999,
                     "PvpTraceRadius": 0,
                     "RefinedSweep": 1,
                     "AffectedByStasis": 1,
@@ -619,9 +619,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.8,
+                        "DT_IMPACT": 0.80000001,
                         "DT_PUNCTURE": 0.1,
-                        "DT_SLASH": 0.1,
+                        "DT_SLASH": 0.099999964,
                         "Amount": 80,
                         "ProcChance": 0.14,
                         "ForcedProcs": [
@@ -677,7 +677,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.4,
+                    "criticalHitChance": 0.40000001,
                     "criticalHitDamageMultiplier": 3,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,

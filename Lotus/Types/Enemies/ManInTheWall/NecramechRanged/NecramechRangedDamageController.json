@@ -28,13 +28,13 @@
                 "LocalPosition": [
                     0.1,
                     0,
-                    -0.03
+                    -0.029999999
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM1",
                 "Type": "Proxies/NecramechRangedRightUpperArm",
@@ -48,13 +48,13 @@
             },
             {
                 "LocalPosition": [
-                    0.45,
+                    0.44999999,
                     0,
-                    -0.05
+                    -0.050000001
                 ],
                 "LocalRotation": [
-                    0.67559,
-                    0.737277,
+                    0.67558998,
+                    0.73727697,
                     0,
                     0
                 ],
@@ -72,7 +72,7 @@
                 "LocalPosition": [
                     -0.1,
                     0,
-                    0.03
+                    0.029999999
                 ],
                 "LocalRotation": [
                     0.5,
@@ -92,13 +92,13 @@
             },
             {
                 "LocalPosition": [
-                    -0.45,
+                    -0.44999999,
                     0,
-                    0.05
+                    0.050000001
                 ],
                 "LocalRotation": [
-                    0.67559,
-                    0.737277,
+                    0.67558998,
+                    0.73727697,
                     0,
                     0
                 ],
@@ -209,8 +209,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM1",
                 "Type": "Proxies/NecramechRangedRightWeakpoint",
@@ -231,8 +231,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_L1_ARM1",
                 "Type": "Proxies/NecramechRangedLeftWeakpoint",
@@ -246,7 +246,7 @@
             },
             {
                 "LocalPosition": [
-                    -0.18,
+                    -0.18000001,
                     0.25,
                     0
                 ],
@@ -323,13 +323,13 @@
                 "InvulSymbol": "",
                 "DestroyedEffect": {
                     "LocalPosition": [
-                        0.15,
+                        0.15000001,
                         0,
                         0.2
                     ],
                     "LocalRotation": [
-                        0.707107,
-                        -0.707107,
+                        0.70710677,
+                        -0.70710677,
                         0,
                         0
                     ],
@@ -349,10 +349,10 @@
                 "ProcTypeOnDestroyed": "PT_STAGGERED",
                 "DamageProjectorType": "",
                 "ProjectorAttenuationRange": [
-                    0.3,
+                    0.30000001,
                     1
                 ],
-                "MaxVisibilityHealthRatio": 0.85,
+                "MaxVisibilityHealthRatio": 0.85000002,
                 "NotifyWeaponOnDamaged": 1,
                 "OnDamagedScript": {
                     "Script": ""
@@ -379,15 +379,15 @@
                 "InvulSymbol": "",
                 "DestroyedEffect": {
                     "LocalPosition": [
-                        0.15,
+                        0.15000001,
                         0,
                         -0.2
                     ],
                     "LocalRotation": [
                         0,
                         0,
-                        0.707107,
-                        0.707107
+                        0.70710677,
+                        0.70710677
                     ],
                     "BoneName": "GAME_C1_NECK2",
                     "Type": "/Lotus/Fx/Enemies/Entrati/NecramechRangedBrokenArmLeft",
@@ -405,10 +405,10 @@
                 "ProcTypeOnDestroyed": "PT_STAGGERED",
                 "DamageProjectorType": "",
                 "ProjectorAttenuationRange": [
-                    0.3,
+                    0.30000001,
                     1
                 ],
-                "MaxVisibilityHealthRatio": 0.85,
+                "MaxVisibilityHealthRatio": 0.85000002,
                 "NotifyWeaponOnDamaged": 1,
                 "OnDamagedScript": {
                     "Script": ""
@@ -423,7 +423,7 @@
             "_burningDamage": 10,
             "_burningRange": 3,
             "_burnImpulse": 10,
-            "_warningSfxThreshold": 0.3,
+            "_warningSfxThreshold": 0.30000001,
             "_burnTime": 3,
             "_finalExplDmg": 50,
             "_finalExplRange": 10,

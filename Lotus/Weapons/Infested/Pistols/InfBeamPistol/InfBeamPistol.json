@@ -11,15 +11,15 @@
             },
             "EXTRA1": {
                 "LocalPosition": [
-                    0.42,
-                    0.08,
+                    0.41999999,
+                    0.079999998,
                     -0.02
                 ],
                 "LocalRotation": [
-                    -0.030844,
-                    0.706434,
-                    0.030844,
-                    0.706434
+                    -0.030843999,
+                    0.70643401,
+                    0.030843999,
+                    0.70643401
                 ],
                 "BoneName": "GAME_R1_TWIST2"
             }
@@ -27,14 +27,14 @@
         "HolsterBone1Name": "GAME_R1_LEG1",
         "HolsterBone1Position": [
             -0.125,
-            -0.03,
+            -0.029999999,
             0.17
         ],
         "HolsterBone1Rotation": [
             0,
-            -0.793353,
+            -0.79335302,
             0,
-            0.608761
+            0.60876101
         ],
         "GripType": "GUN_ONE_HAND",
         "PickUpText": "/Lotus/Language/Items/PistolPickup",
@@ -54,18 +54,18 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -94,7 +94,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -193,7 +193,7 @@
                     "PvpTraceDistance": 19,
                     "punctureHitEffect": "",
                     "InfinitePunctureDepth": 0,
-                    "tracePunctureDepth": 0.9,
+                    "tracePunctureDepth": 0.89999998,
                     "PunchthroughIgnoresAvatars": 0,
                     "RicochetChance": 0,
                     "RicochetRange": 15,
@@ -236,7 +236,7 @@
                     "BeamChild": {
                         "LocalPosition": [
                             0,
-                            0.05,
+                            0.050000001,
                             0.2
                         ],
                         "LocalRotation": [
@@ -312,7 +312,7 @@
                         "FadeOutOnDestruction": 0,
                         "Scale": 1
                     },
-                    "Radius": 0.7,
+                    "Radius": 0.69999999,
                     "RadialChecksCover": 0,
                     "RadialMinCoverDistance": 0,
                     "AllowSelfDamage": 0,
@@ -323,8 +323,8 @@
                     "RecoilIntensityFireTime": 0.5,
                     "RecoilCurve": "RC_LINEAR",
                     "RecoilStrength": [
-                        0.15,
-                        0.15
+                        0.15000001,
+                        0.15000001
                     ],
                     "LockOnRecoilTime": 0,
                     "LockOnRecoilStrength": [
@@ -344,7 +344,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -734,7 +734,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_CORROSIVE",
                         "Amount": 53,
-                        "ProcChance": 0.43,
+                        "ProcChance": 0.43000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -785,7 +785,7 @@
                     "AltEffectHands": [],
                     "ragdollChance": 0,
                     "criticalHitChance": 0.11,
-                    "criticalHitDamageMultiplier": 2.9,
+                    "criticalHitDamageMultiplier": 2.9000001,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -804,9 +804,9 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": "",
                     "NumChains": 0,
@@ -1014,12 +1014,12 @@
             "LocalPosition": [
                 -0.34,
                 -0.015,
-                -0.05
+                -0.050000001
             ],
             "LocalRotation": [
-                0.754192,
-                -0.317082,
-                -0.557216,
+                0.75419199,
+                -0.31708199,
+                -0.55721599,
                 0.142002
             ],
             "BoneName": "GAME_L1_TWIST2",

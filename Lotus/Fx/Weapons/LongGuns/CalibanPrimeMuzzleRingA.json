@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Levels/Duviri/HandLightningPortal_skel.fbx",
-        "MeshScale": 0.0005,
+        "MeshScale": 0.00050000002,
         "OverrideMaterial": [
             "CalibanPrimeMuzzleFlashRingMat",
             "CalibanPrimeMuzzleFlashRingMat"
@@ -12,14 +12,14 @@
                 "name": "BlueClipThreshold",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.45
+                "value": 0.44999999
             },
             {
                 "name": "Color",
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.84,
+                    0.83999997,
                     0.081,
                     0.000054,
                     0
@@ -110,7 +110,7 @@
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
                 "TimeLength": 0.2,
-                "Multiplier": 0.6,
+                "Multiplier": 0.60000002,
                 "FadeRange": [
                     0,
                     1
@@ -142,15 +142,15 @@
         ],
         "TriggeredFadeChild": {
             "LocalRotation": [
-                -0.707107,
+                -0.70710677,
                 0,
                 0,
-                0.707107
+                0.70710677
             ],
             "Type": "/Lotus/Fx/Levels/Duviri/DuviriHandLightningCenterRingClosingSpawner",
             "DestroyWithOwner": 0
         },
-        "MovementTimeLength": 0.01,
+        "MovementTimeLength": 0.0099999998,
         "ApplyColorCustomization": 1
     }
 }

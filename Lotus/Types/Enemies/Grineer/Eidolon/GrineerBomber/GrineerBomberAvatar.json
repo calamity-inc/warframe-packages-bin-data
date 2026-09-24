@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/ShipBaseAvatar",
     "data": {
         "Mesh": "/Lotus/Objects/Grineer/Ships/GrnCombatPod/GrnCombatPod_skel.fbx",
-        "MeshScale": 2.6,
+        "MeshScale": 2.5999999,
         "OverrideMaterial": [
             "/Lotus/Objects/Grineer/Ships/GrnCombatPod/GrnCombatPodEidolon"
         ],
@@ -16,10 +16,10 @@
                     1.5
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_L1_ARM2",
                 "Type": "/Lotus/Types/Enemies/SpaceBattles/Grineer/Pods/HitProxies/LeftArmProxy",
@@ -38,10 +38,10 @@
                     1.5
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM2",
                 "Type": "/Lotus/Types/Enemies/SpaceBattles/Grineer/Pods/HitProxies/RightArmProxy",
@@ -167,13 +167,13 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.6
+                    0.60000002
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    -0.707107,
-                    0.707107
+                    -0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_LOWENGINE",
                 "Type": "/Lotus/Fx/Enemies/Grineer/SpacePod/TuskCombatPodJetsA",
@@ -189,13 +189,13 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.6
+                    0.60000002
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    -0.707107,
-                    0.707107
+                    -0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_UPENGINE",
                 "Type": "/Lotus/Fx/Enemies/Grineer/SpacePod/TuskCombatPodJetsA",
@@ -211,13 +211,13 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.6
+                    0.60000002
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    -0.707107,
-                    0.707107
+                    -0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_L1_ENGINE",
                 "Type": "/Lotus/Fx/Enemies/Grineer/SpacePod/TuskCombatPodJetsA",
@@ -233,13 +233,13 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.6
+                    0.60000002
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    -0.707107,
-                    0.707107
+                    -0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ENGINE",
                 "Type": "/Lotus/Fx/Enemies/Grineer/SpacePod/TuskCombatPodJetsA",
@@ -297,11 +297,11 @@
             "_spawnOverrideAgentCountMin": 3,
             "_spawnOverrideAgentCountMax": 6,
             "_spawnOverrideAgentType": "",
-            "_hunterFarAwayScale": 0.01,
+            "_hunterFarAwayScale": 0.0099999998,
             "_hunterCloseByScale": 1,
             "_hunterResizeTime": 2.2,
             "_hunterShipShallReturn": 0,
-            "_chanceToBeFighterTypeHunter": 0.4,
+            "_chanceToBeFighterTypeHunter": 0.40000001,
             "_hunterFighterFirstAttachToInstance": ""
         },
         "AllowDynamicThrottling": 0,
@@ -333,7 +333,7 @@
                 -2
             ],
             "LocalRotation": [
-                0.866025,
+                0.86602497,
                 0,
                 0,
                 0.5
@@ -348,7 +348,7 @@
                 -2
             ],
             "LocalRotation": [
-                0.866025,
+                0.86602497,
                 0,
                 0,
                 0.5
@@ -382,11 +382,11 @@
             "_spawnOverrideAgentCountMin": 3,
             "_spawnOverrideAgentCountMax": 6,
             "_spawnOverrideAgentType": "",
-            "_hunterFarAwayScale": 0.01,
+            "_hunterFarAwayScale": 0.0099999998,
             "_hunterCloseByScale": 1,
             "_hunterResizeTime": 2.2,
             "_hunterShipShallReturn": 0,
-            "_chanceToBeFighterTypeHunter": 0.4,
+            "_chanceToBeFighterTypeHunter": 0.40000001,
             "_hunterFighterFirstAttachToInstance": ""
         },
         "WaypointActionTags": [
@@ -414,11 +414,11 @@
             "_spawnOverrideAgentCountMin": 3,
             "_spawnOverrideAgentCountMax": 6,
             "_spawnOverrideAgentType": "",
-            "_hunterFarAwayScale": 0.01,
+            "_hunterFarAwayScale": 0.0099999998,
             "_hunterCloseByScale": 1,
             "_hunterResizeTime": 2.2,
             "_hunterShipShallReturn": 0,
-            "_chanceToBeFighterTypeHunter": 0.4,
+            "_chanceToBeFighterTypeHunter": 0.40000001,
             "_hunterFighterFirstAttachToInstance": ""
         },
         "ExitingActionScript": {

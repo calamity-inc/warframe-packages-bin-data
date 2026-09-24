@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Common/Sphere1.fbx",
-        "MeshScale": 0.06,
+        "MeshScale": 0.059999999,
         "OverrideMaterial": [
             "DaybreakEmoteSunDecoMat"
         ],
@@ -67,12 +67,12 @@
                             "Value": 0
                         },
                         {
-                            "Time": 0.333333,
+                            "Time": 0.33333334,
                             "Value": 0.202666
                         },
                         {
-                            "Time": 0.666667,
-                            "Value": 0.813872
+                            "Time": 0.66666669,
+                            "Value": 0.81387198
                         },
                         {
                             "Time": 1,
@@ -81,7 +81,7 @@
                     ],
                     "SplineType": "CUBIC_SPLINE"
                 },
-                "BaseValue": 0.06,
+                "BaseValue": 0.059999999,
                 "Delay": 3,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
@@ -93,7 +93,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 12,
                 "FadeRange": [
                     0,

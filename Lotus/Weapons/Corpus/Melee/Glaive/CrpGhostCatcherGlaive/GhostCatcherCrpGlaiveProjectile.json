@@ -55,20 +55,20 @@
         "AttackData": {
             "DT_IMPACT": 0.2,
             "DT_PUNCTURE": 0.34,
-            "DT_SLASH": 0.46,
+            "DT_SLASH": 0.45999998,
             "Amount": 120,
-            "ProcChance": 0.18,
+            "ProcChance": 0.18000001,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ]
         },
         "DealDamageThroughImpactBehavior": 1,
         "CriticalChance": 0.2,
-        "CriticalMultiplier": 2.4,
+        "CriticalMultiplier": 2.4000001,
         "ExplosiveAttack": {
             "Type": "DT_ELECTRICITY",
             "Amount": 250,
-            "ProcChance": 0.18
+            "ProcChance": 0.18000001
         },
         "ForcedSourceProcs": [
             "PT_IMMOLATION",
@@ -77,23 +77,23 @@
             "PT_KNOCKED_DOWN"
         ],
         "ExplosionIgnoreSource": 1,
-        "ExplosionFallOff": 0.7,
+        "ExplosionFallOff": 0.69999999,
         "DamageRadius": 8,
         "HitEffect": "/Lotus/Fx/Weapons/Melee/Clean/HitEffects/MeleeHitEffectDagger",
         "HitEffectThrottleRange": [
             0.2,
-            0.3
+            0.30000001
         ],
         "Toughness": 10000,
         "MaxLife": 10,
         "RaycastMovement": 0,
-        "VerticalImpulse": 0.05,
+        "VerticalImpulse": 0.050000001,
         "HorizontalImpulse": 0.2,
         "StopOnAvatars": 0,
         "KinematicAccel": 100,
         "KinematicInitialSpeed": 25,
         "KinematicMaxSpeed": 25,
-        "KinematicNoiseRate": 0.0001,
+        "KinematicNoiseRate": 0.000099999997,
         "SilentProjectile": 1,
         "ApplyColorCustomization": 1,
         "HeavyRecallDamageAtten": 2,
@@ -116,7 +116,7 @@
         ],
         "ImpactVelocityDampen": 1,
         "AutoRecallTimer": 0.75,
-        "DestructionTimer": 0.6,
+        "DestructionTimer": 0.60000002,
         "CatchRadius": 5,
         "MaxReflections": 3,
         "MinFlightDistance": 20,

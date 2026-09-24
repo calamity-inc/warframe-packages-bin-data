@@ -11,15 +11,15 @@
         "AutoSimChildren": [
             {
                 "LocalPosition": [
-                    4.4,
+                    4.4000001,
                     -2.5,
                     -0.2
                 ],
                 "LocalRotation": [
-                    0.701057,
-                    0.379928,
-                    -0.092296,
-                    0.596368
+                    0.70105702,
+                    0.37992799,
+                    -0.092295997,
+                    0.59636801
                 ],
                 "BoneName": "GAME_L1_WINGTUBE7",
                 "Type": "/Lotus/Fx/Enemies/Sentients/SpaceFighter/SntFighterTrailClone",
@@ -33,15 +33,15 @@
             },
             {
                 "LocalPosition": [
-                    -4.4,
+                    -4.4000001,
                     2.5,
                     0.2
                 ],
                 "LocalRotation": [
-                    -0.596368,
-                    0.092296,
-                    0.379928,
-                    0.701057
+                    -0.59636801,
+                    0.092295997,
+                    0.37992799,
+                    0.70105702
                 ],
                 "BoneName": "GAME_R1_WINGTUBE7",
                 "Type": "/Lotus/Fx/Enemies/Sentients/SpaceFighter/SntFighterTrailClone",
@@ -211,7 +211,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "TimeLength": 0.14,
-                "Multiplier": 0.3,
+                "Multiplier": 0.30000001,
                 "FadeRange": [
                     1,
                     1
@@ -223,12 +223,12 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.0001,
+                            "Time": 0.000099999997,
                             "Value": 0
                         },
                         {
-                            "Time": 0.4,
-                            "Value": 0.9
+                            "Time": 0.40000001,
+                            "Value": 0.89999998
                         },
                         {
                             "Time": 1,
@@ -248,7 +248,7 @@
         "TriggeredMaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.15,
+                "TimeLength": 0.15000001,
                 "Multiplier": 30,
                 "FadeRange": [
                     0,

@@ -148,8 +148,8 @@
                 "InTimer": 1,
                 "Timer": 1,
                 "TimeBetweenAttacksRange": [
-                    0.05,
-                    0.05
+                    0.050000001,
+                    0.050000001
                 ],
                 "ShouldModifyPosture": 1,
                 "UsePredictedPosition": 0,
@@ -247,8 +247,8 @@
             "/EE/Types/Npc/DynamicPathFollowerHover"
         ],
         "LocomotionController:DynamicPathFollowerHover": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "TurnRateMultiplierOnMoveDirFacing": 1,
@@ -257,7 +257,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 50,
             "StopWhenTurningAngle": 90,
             "CheckFunnelForTightTurns": 1,
@@ -273,7 +273,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,
@@ -322,7 +322,7 @@
         "LocomotionController:limitToNav": 1,
         "LocomotionController:PathingPreferences": {
             "nearbyNavSearchRadius": 4,
-            "avoidanceFactor": 0.05
+            "avoidanceFactor": 0.050000001
         },
         "MusicWeight": 5
     }

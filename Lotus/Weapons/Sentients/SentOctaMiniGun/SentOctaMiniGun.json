@@ -9,22 +9,22 @@
                 "LocalRotation": [
                     0,
                     0,
-                    -0.069756,
-                    0.997564
+                    -0.069756001,
+                    0.99756402
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "SentOctaMiniGunAttachment"
             },
             "OFF_HAND": {
                 "LocalPosition": [
-                    -0.45,
+                    -0.44999999,
                     0,
                     0
                 ],
                 "LocalRotation": [
                     0,
-                    0.707107,
-                    0.707107,
+                    0.70710677,
+                    0.70710677,
                     0
                 ],
                 "BoneName": "GAME_L1_WEAPON1",
@@ -33,13 +33,13 @@
         },
         "HolsterBone1Name": "GAME_R1_WEAPON1",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -60,18 +60,18 @@
         "WeaponHandAimOffset": [
             0,
             0,
-            0.4
+            0.40000001
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.06,
-            -0.05,
+            -0.059999999,
+            -0.050000001,
             0.11
         ],
         "GripRotationOffset": [
-            0.092296,
+            0.092295997,
             0.690346,
-            -0.701057,
+            -0.70105702,
             0.153046
         ],
         "AimStartSound": "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunAimInLocal",
@@ -80,11 +80,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -95,27 +95,7 @@
                 "aimFOVMultiplier": 1.5,
                 "Upgrades": [],
                 "LocOverrides": [],
-                "Sound": "/Lotus/Sounds/Weapons/Grineer/GrnGorgSniperRifle/GrnGorgSniperRifleZoomOutLocal"
-            },
-            {
-                "OverrideCameraShake": 0,
-                "zoomShake": {
-                    "ShakeFactorPos": 0.04,
-                    "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
-                    ],
-                    "ShakeSpeed": 2,
-                    "ShakeAmbient": 0,
-                    "ShakeDampening": 1.5,
-                    "SwaySpeed": 1,
-                    "SwayAmplitude": 0.1
-                },
-                "aimFOVMultiplier": 3,
-                "Upgrades": [],
-                "LocOverrides": [],
-                "Sound": "/Lotus/Sounds/Weapons/Grineer/GrnGorgSniperRifle/GrnGorgSniperRifleZoomInLocal"
+                "Sound": ""
             }
         ],
         "Behaviors": [
@@ -133,7 +113,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -176,7 +156,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -228,9 +207,11 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
-                    "traceDistance": 1000,
-                    "PvpTraceDistance": 1000,
+                    "traceDistance": 300,
+                    "PvpTraceDistance": 300,
                     "punctureHitEffect": "",
                     "InfinitePunctureDepth": 0,
                     "tracePunctureDepth": 0,
@@ -309,7 +290,7 @@
                             1
                         ],
                         "BoneName": "",
-                        "Type": "/Lotus/Fx/Weapons/Corpus/CrpArSniperRifle/CrpArSniperRifleSecondaryFlare",
+                        "Type": "",
                         "Chance": 255,
                         "RelativeToBounds": 0,
                         "Attach": 1,
@@ -361,7 +342,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -412,7 +393,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -435,12 +416,9 @@
                 "impact:LotusWeaponImpactBehavior": {
                     "AttackData": {
                         "UseNewFormat": 0,
-                        "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.26,
-                        "DT_PUNCTURE": 0.26,
-                        "DT_SLASH": 0.48,
-                        "Amount": 90,
-                        "ProcChance": 0.22,
+                        "Type": "DT_SENTIENT",
+                        "Amount": 33,
+                        "ProcChance": 0.19,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -459,7 +437,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.74,
+                    "PvpDamageMultiplier": 0.74000001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 350,
                     "additionalForce": [
@@ -482,7 +460,7 @@
                         10,
                         100
                     ],
-                    "hitEffect": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitEffectMedium",
+                    "hitEffect": "/Lotus/Fx/Weapons/Sentients/SentOctaMinigun/SentMiniGunHitEffect",
                     "hitEffectAlt": "",
                     "deflectHitEffects": 1,
                     "deflectRange": [
@@ -491,8 +469,8 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.22,
-                    "criticalHitDamageMultiplier": 2.2,
+                    "criticalHitChance": 0.25,
+                    "criticalHitDamageMultiplier": 2.5,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -515,10 +493,10 @@
                         0,
                         0
                     ],
-                    "fireRate": 900,
+                    "fireRate": 780,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 1,
-                    "ModeSwitchTime": 2.5,
+                    "ModeSwitchTime": 2,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
                     "ForceReturnToPreviousBehavior": 0,
@@ -589,7 +567,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -632,7 +610,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -642,7 +619,7 @@
                     "UseAmmo": 1,
                     "ConsumeEntireClip": 0,
                     "ConsumePartialAmmo": 0,
-                    "ammoRequirement": 2,
+                    "ammoRequirement": 1.5,
                     "ScaleAmmoRequirement": 0,
                     "RoundUpAmmoConsumption": 0,
                     "ammoType": "/Lotus/Weapons/Ammo/BatteryAmmoEx",
@@ -653,9 +630,9 @@
                     "LockOnProperties": {
                         "LockOnMaxTargets": 4,
                         "LockOnStyle": "LS_ENEMY",
-                        "LockOnMaxAngle": 30,
-                        "LockOnInitialAngle": 15,
-                        "LockOnDistanceOverride": 20,
+                        "LockOnMaxAngle": 60,
+                        "LockOnInitialAngle": 40,
+                        "LockOnDistanceOverride": 10,
                         "LockOnPart": "ANY_PART",
                         "LockOnDistanceWeighting": 100,
                         "LockOnAngleWeighting": 1,
@@ -671,9 +648,9 @@
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
-                        "EyeBasedAimSource": 0,
+                        "EyeBasedAimSource": 1,
+                        "ScopedPlayerUsesCameraPos": 0,
                         "OverrideLaunchDir": 0,
-                        "EndPointBasedAimTarget": 1,
                         "UseWeaponAttachment": 1,
                         "AttenuateRecoilByChargeAmount": 0,
                         "PerfectChargeExtraRecoilAmount": 0,
@@ -684,9 +661,11 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 1,
-                    "traceDistance": 100,
-                    "PvpTraceDistance": 100,
+                    "traceDistance": 300,
+                    "PvpTraceDistance": 300,
                     "punctureHitEffect": "",
                     "InfinitePunctureDepth": 0,
                     "tracePunctureDepth": 0,
@@ -727,36 +706,108 @@
                     "UpdateScript": {
                         "Script": "/Lotus/Scripts/WeaponAttachments/TnOctaMiniGun.lua",
                         "Function": "UpdateTargeting",
-                        "_petalBonesAlt": [],
                         "_fireAnim": "",
                         "_altFireAnimation": "",
                         "_fireAnimMultiplier": -1,
                         "_blendMasks": [],
                         "_blendMasksAlt": [],
-                        "_debugDraw": 1,
                         "_petalDecoType": "",
+                        "_petalDecoAltType": "",
                         "_petalIndicies": [
                             1
                         ],
                         "_spawnerType": "",
-                        "_cameraTracksPitch": 1
+                        "_animation": "",
+                        "_loop": 0,
+                        "_rateOverride": -1,
+                        "_animBlendLayer": 0,
+                        "_burnProj": "",
+                        "_altFireMuzzleFlash": "",
+                        "_beamType": "",
+                        "_beamOffset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "_beamLockOffset": 0.25,
+                        "_localSoundSequencers": [],
+                        "_localFireRateModifiedSoundSequencers": [],
+                        "_localAmmoRatioModifiedSoundSequencers": [],
+                        "_localAmmoIgnoreSequencers": [],
+                        "_remoteSoundSequencers": [],
+                        "_remoteFireRateModifiedSoundSequencers": [],
+                        "_remoteAmmoRatioModifiedSoundSequencers": [],
+                        "_remoteAmmoIgnoreSequencers": [],
+                        "_fireRatePitchMultiplier": 0.2,
+                        "_ammoClipPitchRange": [
+                            0,
+                            0.2
+                        ],
+                        "_ammoClipRangeLimit": [
+                            0,
+                            0.2
+                        ],
+                        "_ammoClipPitchRangeIgnore": [
+                            0,
+                            1
+                        ],
+                        "_ammoClipRangeLimitIgnore": [
+                            0,
+                            0.2
+                        ]
                     },
                     "TargetingScript": {
                         "Script": "/Lotus/Scripts/WeaponAttachments/TnOctaMiniGun.lua",
                         "Function": "OnAltFire",
-                        "_petalBonesAlt": [],
                         "_fireAnim": "",
                         "_altFireAnimation": "",
                         "_fireAnimMultiplier": -1,
                         "_blendMasks": [],
                         "_blendMasksAlt": [],
-                        "_debugDraw": 1,
                         "_petalDecoType": "",
+                        "_petalDecoAltType": "",
                         "_petalIndicies": [
                             1
                         ],
                         "_spawnerType": "",
-                        "_cameraTracksPitch": 1
+                        "_animation": "",
+                        "_loop": 0,
+                        "_rateOverride": -1,
+                        "_animBlendLayer": 0,
+                        "_burnProj": "",
+                        "_altFireMuzzleFlash": "",
+                        "_beamType": "",
+                        "_beamOffset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "_beamLockOffset": 0.25,
+                        "_localSoundSequencers": [],
+                        "_localFireRateModifiedSoundSequencers": [],
+                        "_localAmmoRatioModifiedSoundSequencers": [],
+                        "_localAmmoIgnoreSequencers": [],
+                        "_remoteSoundSequencers": [],
+                        "_remoteFireRateModifiedSoundSequencers": [],
+                        "_remoteAmmoRatioModifiedSoundSequencers": [],
+                        "_remoteAmmoIgnoreSequencers": [],
+                        "_fireRatePitchMultiplier": 0.2,
+                        "_ammoClipPitchRange": [
+                            0,
+                            0.2
+                        ],
+                        "_ammoClipRangeLimit": [
+                            0,
+                            0.2
+                        ],
+                        "_ammoClipPitchRangeIgnore": [
+                            0,
+                            1
+                        ],
+                        "_ammoClipRangeLimitIgnore": [
+                            0,
+                            0.2
+                        ]
                     }
                 },
                 "impact:Type": "/Lotus/Types/Game/SentOctoMiniGunImpactBehavior",
@@ -764,8 +815,8 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_SENTIENT",
-                        "Amount": 20,
-                        "ProcChance": 0.2,
+                        "Amount": 34,
+                        "ProcChance": 0.25999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -807,7 +858,7 @@
                         10,
                         100
                     ],
-                    "hitEffect": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitEffectMedium",
+                    "hitEffect": "/Lotus/Fx/Weapons/Sentients/SentOctaMinigun/SentMiniGunHitEffect",
                     "hitEffectAlt": "",
                     "deflectHitEffects": 0,
                     "deflectRange": [
@@ -816,8 +867,8 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0,
-                    "criticalHitDamageMultiplier": 2,
+                    "criticalHitChance": 0.2,
+                    "criticalHitDamageMultiplier": 1.8,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -833,17 +884,17 @@
                     "IgnoreHeadshotBonusPvp": 0,
                     "AlwaysOverrideFiringAvatar": 0
                 },
-                "state:Type": "/EE/Types/Game/WeaponAutomaticBurstStateBehavior",
-                "state:WeaponAutomaticBurstStateBehavior": {
+                "state:Type": "/EE/Types/Game/WeaponBurstStateBehavior",
+                "state:WeaponBurstStateBehavior": {
                     "reloadTime": 2,
                     "PerfectReloadRange": [
                         0,
                         0
                     ],
-                    "fireRate": 900,
+                    "fireRate": 720,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 1,
-                    "ModeSwitchTime": 0,
+                    "ModeSwitchTime": 2,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
                     "ForceReturnToPreviousBehavior": 0,
@@ -872,8 +923,8 @@
                     "CanInterruptModeSwitch": 0,
                     "NeedsLockOnTargets": 0,
                     "IsAlternateFire": 0,
-                    "LocTag": "/Lotus/Language/Menu/Loadout_TriggerAuto",
-                    "BehaviorTag": "",
+                    "LocTag": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                    "BehaviorTag": "/Lotus/Language/Menu/Loadout_TriggerBurst",
                     "TrackProjectiles": 0,
                     "MaxNumProjectiles": 0,
                     "PvpMaxNumProjectiles": 0,
@@ -889,75 +940,92 @@
                     "OnNewProjectileScript": {
                         "Script": ""
                     },
-                    "ContinuousFireRateAtten": [
-                        1,
-                        1
-                    ],
-                    "ContinuousMaxShots": 0,
-                    "Overspin": 0,
-                    "SpindownTime": 0,
-                    "ReverseFireRateAtten": 0,
-                    "RechargeAtten": 1,
-                    "InitialFireIterations": 2,
-                    "MaximumFireIterations": 2,
-                    "FireIterationMode": "INCREMENT"
+                    "IsAutomatic": 1,
+                    "AccessibilityTrigger": 0,
+                    "NumShots": 2,
+                    "BurstDelay": 0.050000001,
+                    "IgnoreFireRate": 0,
+                    "EatAmmoOnUnequip": 0,
+                    "QueueBursts": 1,
+                    "BurstRemainingClip": 0,
+                    "ConsumeAmmoOncePerBurst": 0,
+                    "ForceBurstLogicOnClient": 0,
+                    "PreFireDuringBurst": 0
                 }
             }
         ],
+        "DefaultUpgrades": [
+            "HaalvuPassiveDescUpgrade"
+        ],
         "InfiniteClipSizeForNpcs": 1,
-        "AmmoCapacity": 200,
+        "AmmoCapacity": 160,
         "PVPAmmoCapacity": 66,
-        "AmmoClipSize": 200,
+        "AmmoClipSize": 150,
         "PVPAmmoClipSize": 26,
         "UIReticuleScale": 0.5,
         "UIReticuleAim": 0,
         "StateAnimations": [
             {
                 "state": "WS_RELOAD",
-                "behaviorIndex": 0,
-                "animation": "/Lotus/Animations/Tenno/Movement/Rifle/GrnVenkraTelSniper/GrnVenkraTelSniperReload_anim.fbx",
+                "behaviorIndex": 4294967295,
+                "animation": "/Lotus/Animations/Tenno/Movement/Rifle/SentOctaMinigun/SentOctaMinigunReload_anim.fbx",
+                "clearable": 0
+            },
+            {
+                "state": "WS_MODE_SWITCH",
+                "behaviorIndex": 4294967295,
+                "animation": "/Lotus/Animations/Tenno/Movement/Rifle/SentOctaMinigun/SentOctaMinigunAltTransition_anim.fbx",
                 "clearable": 1
             }
         ],
-        "ReloadEmptyStateAnimation": {
-            "state": "WS_RELOAD",
-            "behaviorIndex": 1,
-            "animation": "/Lotus/Animations/Tenno/Movement/Rifle/GrnVenkraTelSniper/GrnVenkraTelSniperReload_anim.fbx"
-        },
         "AttachmentFireStyle": "ALL_HANDS",
-        "RequiredLevel": 8,
+        "RequiredLevel": 14,
+        "ShowBehaviorOnUI": 1,
         "ArtifactSlots": [
-            "AP_UNIVERSAL",
-            "AP_TACTIC",
-            "AP_UNIVERSAL",
+            "AP_ATTACK",
             "AP_UNIVERSAL",
             "AP_UNIVERSAL",
             "AP_UNIVERSAL",
             "AP_UNIVERSAL",
             "AP_UNIVERSAL",
-            "AP_ATTACK"
+            "AP_UNIVERSAL",
+            "AP_ATTACK",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL"
+        ],
+        "DefaultEnergyColor": [
+            10,
+            249,
+            255,
+            255
+        ],
+        "DefaultEnergyColor1": [
+            30,
+            191,
+            254,
+            255
         ],
         "ClipIsBattery": 1,
         "UseReloadFromEmpty": 1,
+        "PreventFireUntilBatteryIsFullyRecharged": 1,
         "BatteryRegenDelay": 0.5,
-        "BatteryRegenRate": 15,
+        "BatteryRegenDelayFromEmpty": 2,
+        "BatteryRegenRate": 300,
         "NumChargesToAdd": 0,
         "MaxCharges": 0,
         "NumChargesToConsume": 0,
-        "StealthXpMultiplier": [
-            1,
-            1
-        ],
         "WeaknessBonus": 0.5,
+        "FireAimTime": 4,
         "FireModes": [
             {
                 "localizedTag": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                 "behaviorIndex": 0
             },
             {
-                "localizedTag": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "localizedTag": "/Lotus/Language/Menu/Loadout_TriggerBurst",
                 "behaviorIndex": 1
             }
-        ]
+        ],
+        "DefaultModTemplate": "/Lotus/Types/ModLists/Rifle/HybridBalanced"
     }
 }

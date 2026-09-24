@@ -73,8 +73,8 @@
         ],
         "AttackData": {
             "DT_IMPACT": 0.2,
-            "DT_PUNCTURE": 0.6,
-            "DT_SLASH": 0.2,
+            "DT_PUNCTURE": 0.60000002,
+            "DT_SLASH": 0.19999999,
             "Amount": 100,
             "ProcChance": 0.19,
             "ForcedProcs": [
@@ -82,7 +82,7 @@
             ]
         },
         "DealDamageThroughImpactBehavior": 0,
-        "CriticalChance": 0.21,
+        "CriticalChance": 0.20999999,
         "CriticalMultiplier": 1.9,
         "ExplosiveAttack": {
             "Type": "DT_FIRE",
@@ -94,7 +94,7 @@
         ],
         "ExplosionIgnoreSource": 1,
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplosionIgnoreCover": 0,
@@ -115,8 +115,8 @@
         "EmbedAttack": {
             "Type": "DT_PHYSICAL",
             "DT_IMPACT": 0.2,
-            "DT_PUNCTURE": 0.6,
-            "DT_SLASH": 0.2,
+            "DT_PUNCTURE": 0.60000002,
+            "DT_SLASH": 0.19999999,
             "ProcChance": 0.19
         },
         "EmbedTime": [
@@ -134,11 +134,11 @@
         "EmbedEffect": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/GorgonVoidEmbedFX",
         "EmbedDeathEffect": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/GorgonProjectileDestroy",
         "StopOnCollision": 1,
-        "KinematicPostCollisionsSpeedFactor": 0.15,
+        "KinematicPostCollisionsSpeedFactor": 0.15000001,
         "KinematicInitialSpeed": 120,
         "KinematicMaxSpeed": 120,
         "KinematicGravity": 1,
-        "KinematicGravityMultiplier": 0.3,
+        "KinematicGravityMultiplier": 0.30000001,
         "SweepRadius": 0,
         "ApplyColorCustomization": 1,
         "FlightAxis": "FA_X",
@@ -147,8 +147,8 @@
             0,
             0
         ],
-        "RagdollEmbedLife": 0.6,
-        "EmbedOffset": 0.05,
+        "RagdollEmbedLife": 0.60000002,
+        "EmbedOffset": 0.050000001,
         "AttachmentOffsets": [
             0.25
         ],

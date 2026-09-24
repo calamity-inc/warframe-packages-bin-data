@@ -7,8 +7,8 @@
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.36,
-                    0.57,
+                    0.36000001,
+                    0.56999999,
                     1,
                     1
                 ]
@@ -42,7 +42,7 @@
         },
         "useCollisions": 0,
         "affectedByWind": 1,
-        "resilience": 0.05,
+        "resilience": 0.050000001,
         "drag": 0.02,
         "mass": [
             0,
@@ -54,14 +54,14 @@
         ],
         "size": [
             0.1,
-            0.4
+            0.40000001
         ],
         "velocity": [
             50,
             200
         ],
         "windAttenuation": [
-            0.4,
+            0.40000001,
             1
         ],
         "windKillDistance": 0,
@@ -80,9 +80,9 @@
         ],
         "spawnFlowBlend": 0.166667,
         "flowScale": [
-            0.01,
-            0.01,
-            0.01
+            0.0099999998,
+            0.0099999998,
+            0.0099999998
         ],
         "flowForce": [
             50,
@@ -102,25 +102,25 @@
         "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSpotFadeMidAlpha",
         "colorKeys[0]": [
-            0.32,
+            0.31999999,
             0.63,
             1,
             1
         ],
         "colorKeys[1]": [
             1,
-            0.018,
-            0.006,
+            0.017999999,
+            0.0060000001,
             1
         ],
         "colorKeys[2]": [
             1,
-            0.041,
-            0.028,
+            0.041000001,
+            0.028000001,
             1
         ],
         "colorKeys[3]": [
-            0.24,
+            0.23999999,
             0.0033,
             0,
             1
@@ -129,6 +129,6 @@
         "simVortex": 1,
         "vortexSpeed": 12,
         "vortexDecay": 60,
-        "vortexRadialForce": 0.06
+        "vortexRadialForce": 0.059999999
     }
 }

@@ -32,15 +32,15 @@
                     "ShakeSpeed": 0.5,
                     "ShakeAmbient": 0.1,
                     "ShakeDampening": 2,
-                    "SwaySpeed": 0.05,
-                    "SwayAmplitude": 0.05
+                    "SwaySpeed": 0.050000001,
+                    "SwayAmplitude": 0.050000001
                 },
                 "aimFOVMultiplier": 3.5,
                 "Upgrades": [
                     {
                         "UpgradeType": "WEAPON_HEADSHOT_MULTIPLIER",
                         "OperationType": "STACKING_MULTIPLY",
-                        "Value": 0.4,
+                        "Value": 0.40000001,
                         "DamageType": "DT_ANY",
                         "AutoType": 1,
                         "ValidType": "",
@@ -68,15 +68,15 @@
                     "ShakeSpeed": 0.5,
                     "ShakeAmbient": 0.1,
                     "ShakeDampening": 2,
-                    "SwaySpeed": 0.05,
-                    "SwayAmplitude": 0.05
+                    "SwaySpeed": 0.050000001,
+                    "SwayAmplitude": 0.050000001
                 },
                 "aimFOVMultiplier": 6,
                 "Upgrades": [
                     {
                         "UpgradeType": "WEAPON_HEADSHOT_MULTIPLIER",
                         "OperationType": "STACKING_MULTIPLY",
-                        "Value": 0.6,
+                        "Value": 0.60000002,
                         "DamageType": "DT_ANY",
                         "AutoType": 1,
                         "ValidType": "",
@@ -108,7 +108,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -235,7 +235,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -249,11 +249,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.45,
-                        "DT_SLASH": 0.15,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.44999999,
+                        "DT_SLASH": 0.14999998,
                         "Amount": 350,
-                        "ProcChance": 0.3,
+                        "ProcChance": 0.30000001,
                         "ForcedProcs": [
                             "PT_STAGGERED"
                         ],
@@ -305,8 +305,9 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.3,
+                    "criticalHitChance": 0.30000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -343,7 +344,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponSemiAutomaticStateBehavior",
                 "state:WeaponSemiAutomaticStateBehavior": {
-                    "reloadTime": 0.85,
+                    "reloadTime": 0.85000002,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -367,7 +368,7 @@
                     "ReloadOnAdditionalEmptyFire": 0,
                     "ForceReloadFromEmpty": 0,
                     "ForceNoSwapOnEmpty": 0,
-                    "ReloadDuringModeSwitch": 0,
+                    "ReloadDuringModeSwitch": 1,
                     "AnimWeaponType": "WEAPONTYPE_HEAVYSHOT",
                     "RunCausesReady": 0,
                     "CanFireWhileRunning": 0,
@@ -419,7 +420,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -615,9 +616,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -669,6 +670,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 2,
@@ -738,7 +740,7 @@
                     "fireRate": 80,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 0,
-                    "ModeSwitchTime": 0.6,
+                    "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "ForceReturnToPreviousBehavior": 0,

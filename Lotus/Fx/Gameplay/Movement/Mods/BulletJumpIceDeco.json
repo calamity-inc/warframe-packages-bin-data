@@ -3,20 +3,20 @@
     "data": {
         "UseAmbient": 1,
         "Mesh": "/Lotus/Fx/Ice/IceChunkMeshA.fbx",
-        "MeshScale": 0.01,
+        "MeshScale": 0.0099999998,
         "OverrideMaterial": [
             "/Lotus/Fx/PowersuitAbilities/Frost/IceSpikeIceMat"
         ],
         "LifeSpan": 5,
         "AcceptsHitEffects": 0,
         "RandomMeshScale": [
-            0.32,
-            0.45
+            0.31999999,
+            0.44999999
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.15,
+                "TimeLength": 0.15000001,
                 "Multiplier": 0.1,
                 "FadeRange": [
                     1,
@@ -26,7 +26,7 @@
                     "Values": [],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.3,
+                "BaseValue": 0.30000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,

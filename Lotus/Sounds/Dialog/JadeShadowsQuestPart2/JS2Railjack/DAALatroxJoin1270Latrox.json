@@ -1,16 +1,21 @@
 {
-    "parent": "/Lotus/Types/Game/Transmissions/RJCrewLatroxTransmission",
+    "parent": "/Lotus/Types/Game/Transmission",
     "data": {
+        "IsDroppable": 0,
         "PortraitLevel": "/Lotus/Levels/Lore/LatroxPortrait.level",
+        "UseRightSide": 1,
         "RandomSounds": [
             "DAALatroxJoin1270Latrox_en.wav",
             "DAALatroxJoin1280Latrox_en.wav"
         ],
+        "OpenSound": "/Lotus/Sounds/UI/Cipher/CipherThreatShort",
+        "CloseSound": "/Lotus/Sounds/UI/Cipher/CipherFail",
         "Sender": "/Lotus/Language/Bosses/LatroxUne",
         "RandomText": [
             "/Lotus/Language/Subtitles/JadeShadowsPart2Mission/DAALatroxJoin1270Latrox",
             "/Lotus/Language/Subtitles/JadeShadowsPart2Mission/DAALatroxJoin1280Latrox"
         ],
-        "StartDelay": 1
+        "StartDelay": 1,
+        "Severity": "TS_ALERT"
     }
 }

@@ -1,0 +1,49 @@
+{
+    "parent": "/Lotus/Types/Game/DojoPlaceableDecorations/PlushyPlaceableDecoration",
+    "data": {
+        "Mesh": "/Lotus/Objects/Lasria/Cinematics/LASxOrigamiLotus.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "NightwaveOrigamiLotusHitProxyDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "LocTag": "/Lotus/Language/ShipDecorations/NightwaveOrigamiLotusName",
+        "LongDesc": "/Lotus/Language/ShipDecorations/NightwaveOrigamiLotusDesc",
+        "OverridePreviewCamera": 1,
+        "PreviewCameraPositionOffset": [
+            0,
+            0,
+            -4
+        ],
+        "PreviewCameraTargetOffset": [
+            0,
+            0,
+            0
+        ],
+        "PreviewScaleOverride": 2.5,
+        "PreviewPositionOverride": [
+            0,
+            0.079999998,
+            1
+        ]
+    }
+}

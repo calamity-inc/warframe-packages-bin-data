@@ -1,0 +1,54 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/PackageStoreItem",
+    "data": {
+        "ProductCategory": "Packages",
+        "LocalizeTag": "/Lotus/Language/Bundles/MesaHeirloomPackName",
+        "LocalizeDescTag": "/Lotus/Language/Bundles/MesaHeirloomPackDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Skins/HeirloomPackMesa.png",
+        "Diorama": "/Lotus/Levels/Episodes/MarketBundleMesaHeirloom.level",
+        "DateAddedToManifest": 1783742400,
+        "FeaturedTexture": "/Lotus/Interface/Graphics/Store/Banners/MesaHeirloomPackBanner.png",
+        "ExcludeFromCodex": 0,
+        "PackageComponents": [
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Cowgirl/MesaHeirloomSkin",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Crowns/HeirloomMesaCrown",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/HeirloomMesaGlyph",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/HeirloomMesaSigil",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCardMesaHeirloom",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Types/StoreItems/SuitCustomizations/ColourPickerMesaHeirloom",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            }
+        ],
+        "AutoCalcPrices": 0,
+        "PremiumPrice": 400,
+        "PlatinumBundlePair": "2026Bundles/MesaHeirloomPack"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "parent": "/EE/Types/Engine/Sequencer",
+    "data": {
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/RtpcFunctions.lua",
+            "Function": "InitializeSpeedRtpc",
+            "_parameterName": "Speed",
+            "_speedThreshold": 0.1,
+            "_retrigerDelay": 0,
+            "_netVariableNames": []
+        },
+        "ReplicaRunScriptInstance": 1,
+        "Channels": [
+            {
+                "LoopCount": 0,
+                "TimeOfDay": "",
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "TauRelayDroneLoop",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            0
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": []
+            }
+        ]
+    }
+}

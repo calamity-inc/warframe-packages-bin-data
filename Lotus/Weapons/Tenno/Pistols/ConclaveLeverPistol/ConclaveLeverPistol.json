@@ -9,7 +9,7 @@
                 "LocalPosition": [
                     -0.001,
                     0.025,
-                    0.005
+                    0.0049999999
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "ConclaveLeverPistolAttachment"
@@ -18,7 +18,7 @@
                 "LocalPosition": [
                     -0.001,
                     0.025,
-                    0.005
+                    0.0049999999
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "IncarnonConclaveLeverPistolAttachment"
@@ -27,14 +27,14 @@
         "HolsterBone1Name": "GAME_R1_LEG1",
         "HolsterBone1Position": [
             -0.125,
-            -0.03,
+            -0.029999999,
             0.17
         ],
         "HolsterBone1Rotation": [
             0,
-            -0.793353,
+            -0.79335302,
             0,
-            0.608761
+            0.60876101
         ],
         "GripType": "GUN_ONE_HAND",
         "PickUpText": "/Lotus/Language/Items/PistolPickup",
@@ -54,7 +54,7 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "Behaviors": [
@@ -72,7 +72,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -198,7 +198,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -212,11 +212,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.32,
+                        "DT_IMPACT": 0.31999999,
                         "DT_PUNCTURE": 0.12,
                         "DT_SLASH": 0.56,
                         "Amount": 140,
-                        "ProcChance": 0.26,
+                        "ProcChance": 0.25999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -234,7 +234,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.45,
+                    "PvpDamageMultiplier": 0.44999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -266,7 +266,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.08,
+                    "criticalHitChance": 0.079999998,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -360,7 +360,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -574,7 +574,7 @@
                     "AllowSelfDamage": 0,
                     "IgnoreInvisibleAvatars": 1,
                     "DestroyBeamOnFire": 0,
-                    "BeamTime": 0.24,
+                    "BeamTime": 0.23999999,
                     "ApplyRadialDamageOnMiss": 0,
                     "ApplyRadialDamageOnHit": 0
                 },
@@ -583,11 +583,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.6,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.60000002,
                         "DT_SLASH": 0,
                         "Amount": 400,
-                        "ProcChance": 0.4,
+                        "ProcChance": 0.40000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -658,7 +658,7 @@
                     "MultiShotBuffsRadialDamage": 0,
                     "RadialDamage": {
                         "baseAmount": 600,
-                        "baseProcChance": 0.4,
+                        "baseProcChance": 0.40000001,
                         "DamagePercent": {
                             "DT_IMPACT": 0,
                             "DT_PUNCTURE": 0,
@@ -684,7 +684,7 @@
                         "radiusMin": 0,
                         "radius": 6,
                         "ignoreSource": 1,
-                        "fallOff": 0.6,
+                        "fallOff": 0.60000002,
                         "fallOffMax": 0,
                         "checkForCover": 1,
                         "hitAirborneTargets": 1,
@@ -744,7 +744,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -774,7 +774,7 @@
                     "fireRate": 60,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 0,
-                    "ModeSwitchTime": 0.6,
+                    "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "autoReloadEmptyTime": 0,
@@ -822,7 +822,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 1,
                     "ClipSizeAffectsChargeTime": 0,
-                    "ChargeTime": 0.6,
+                    "ChargeTime": 0.60000002,
                     "MinChargeRatio": 1,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 1,
@@ -1021,7 +1021,7 @@
             "LocalPosition": [
                 -0.001,
                 0.025,
-                -0.005
+                -0.0049999999
             ],
             "BoneName": "GAME_L1_WEAPON1",
             "Type": "ConclaveLeverPistolDSAttachment"

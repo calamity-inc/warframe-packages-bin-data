@@ -4,15 +4,15 @@
         "PhysicsBehavior": "/EE/Types/Physics/KinematicQuery",
         "AttackData": {
             "Amount": 35,
-            "ProcChance": 0.33,
+            "ProcChance": 0.33000001,
             "ForcedProcs": []
         },
-        "CriticalChance": 0.27,
-        "CriticalMultiplier": 2.1,
+        "CriticalChance": 0.27000001,
+        "CriticalMultiplier": 2.0999999,
         "ExplosiveAttack": {
             "Type": "DT_CORROSIVE",
             "Amount": 313,
-            "ProcChance": 0.33,
+            "ProcChance": 0.33000001,
             "ForcedProcs": [
                 "PT_CAUSTIC_BURN",
                 "PT_STAGGERED"
@@ -23,7 +23,7 @@
         "ExplosionIgnoreDynamicCover": 1,
         "ExplosionCoverMinDistance": 0,
         "ExplodeOnImpact": 1,
-        "ExplosionFallOff": 0.8,
+        "ExplosionFallOff": 0.80000001,
         "ExplodeEffect": "/Lotus/Fx/Enemies/WF1999Lasrian/LasrianShieldLancerGooBallPlayerExplosion",
         "DamageRadius": 3,
         "HitEffect": "",

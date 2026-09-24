@@ -1,0 +1,43 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "PremiumPrice": 105,
+        "LocalizeTag": "/Lotus/Language/Skins/DaybreakDaxSyandanaName",
+        "LocalizeDescTag": "/Lotus/Language/Skins/DaybreakDaxSyandanaDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/UmbraDaxDaybreakSyandana.png",
+        "CodexSecret": 1,
+        "ExcludeFromCodex": 0,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "GAME_C1_SPINE5",
+                    "Type": "/Lotus/Characters/Tenno/Accessory/Scarves/UmbraDaxSyandana/UmbraDaxSyandanaDaybreakSkin/UmbraDaxDaybreakScarfDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "CompatibleSlots": [
+            "Neckwear"
+        ],
+        "ColorSlot": "Syandana"
+    }
+}

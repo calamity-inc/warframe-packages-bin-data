@@ -54,10 +54,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Tenno/GyreRifle/GyreRifleAltProjWaveDeco",
@@ -76,10 +76,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Tenno/GyreRifle/GyreRifleProjEmbers",
@@ -95,7 +95,7 @@
         "AttackData": {
             "DT_IMPACT": 0.1,
             "DT_PUNCTURE": 0.75,
-            "DT_SLASH": 0.15,
+            "DT_SLASH": 0.14999998,
             "Amount": 50,
             "ProcChance": 0.44
         },
@@ -115,7 +115,7 @@
         ],
         "ExplosionIgnoreSource": 1,
         "ExplosionIgnoreCover": 0,
-        "ExplosionFallOff": 0.6,
+        "ExplosionFallOff": 0.60000002,
         "ExplodeEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXScifiLarge",
         "DamageRadius": 6,
         "HitEffect": "",
@@ -127,7 +127,7 @@
         "EmbedAttack": {
             "Type": "DT_ELECTRICITY",
             "Amount": 50,
-            "ProcChance": 0.4
+            "ProcChance": 0.40000001
         },
         "EmbedDamageRadius": 6,
         "EmbedTime": [
@@ -152,7 +152,7 @@
             0
         ],
         "ApplyColorCustomization": 1,
-        "EmbedOffset": 0.4,
+        "EmbedOffset": 0.40000001,
         "EmbedHeadOn": 0
     }
 }

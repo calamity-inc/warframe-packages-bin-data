@@ -13,11 +13,11 @@
             "ShakeDampening": 4
         },
         "RumbleShake": {
-            "ShakeFactorPos": 0.05,
+            "ShakeFactorPos": 0.050000001,
             "ShakeFactorRot": [
-                0.01,
-                0.04,
-                0.01
+                0.0099999998,
+                0.039999999,
+                0.0099999998
             ],
             "ShakeSpeed": 3,
             "ShakeDampening": 7
@@ -29,7 +29,7 @@
                 0.2,
                 0.1
             ],
-            "ShakeSpeed": 0.08
+            "ShakeSpeed": 0.079999998
         },
         "ImpactShake": {
             "RotationSpring": {
@@ -55,8 +55,8 @@
             "RotationNoise": {
                 "enable": 1,
                 "deflectionStrength": [
-                    0.05,
-                    0.05
+                    0.050000001,
+                    0.050000001
                 ],
                 "rate": 2,
                 "dampening": 9
@@ -74,7 +74,7 @@
                 "dampening": 6
             }
         },
-        "RunShake": 2.1,
+        "RunShake": 2.0999999,
         "JogShake": 1.8,
         "WalkShake": 1,
         "CollisionRadius": 0.25,
@@ -96,7 +96,7 @@
         "AimViewOffset": [
             0,
             0,
-            -0.95
+            -0.94999999
         ],
         "DualWieldingAimViewOffset": [
             0.5,
@@ -104,13 +104,13 @@
             -1.5
         ],
         "RunViewOffset": [
-            0.8,
-            0.3,
+            0.80000001,
+            0.30000001,
             -1
         ],
         "TightViewOffset": [
             0.5,
-            0.3,
+            0.30000001,
             -1.5
         ],
         "UseFirstPersonInTightSpace": 0,
@@ -152,7 +152,7 @@
         ],
         "CoverAimDiscRightViewOffset": [
             1,
-            -0.15,
+            -0.15000001,
             -1.6
         ],
         "DodgeOffset": [
@@ -167,7 +167,7 @@
         ],
         "InAirViewOffset": [
             0.5,
-            -0.4,
+            -0.40000001,
             -1.6
         ],
         "InAirAimViewOffset": [
@@ -187,33 +187,33 @@
         ],
         "WallRunLeftViewOffset": [
             0.5,
-            -0.3,
+            -0.30000001,
             -2
         ],
         "WallRunLeftAimViewOffset": [
             0.5,
-            -0.3,
+            -0.30000001,
             -2
         ],
         "WallRunRightViewOffset": [
             -0.5,
-            -0.3,
+            -0.30000001,
             -2
         ],
         "WallRunRightAimViewOffset": [
             -0.5,
-            -0.3,
+            -0.30000001,
             -2
         ],
         "WallRunUpViewOffset": [
             0.5,
-            -0.8,
+            -0.80000001,
             -2
         ],
         "WallRunUpAimViewOffset": [
             0.5,
             0,
-            -0.7
+            -0.69999999
         ],
         "MeleeOffset": [
             1,
@@ -222,7 +222,7 @@
         ],
         "AfterTouchTransitionTime": 0.2,
         "ViewOffsetSpeed": 1,
-        "VelocityZOffset": -0.8,
+        "VelocityZOffset": -0.80000001,
         "VelocityZOffsetMappingMapping": [
             12,
             20
@@ -239,16 +239,16 @@
         "AimPitchDeadZone": 8,
         "ConvergeSpeed": 1,
         "ConvergeThreshold": 0.5,
-        "DeadZoneSoften": 0.9,
+        "DeadZoneSoften": 0.89999998,
         "CameraSmoothTime": 0.25,
-        "CameraRotationSmoothTime": 0.15,
+        "CameraRotationSmoothTime": 0.15000001,
         "AfterTouchPostProcess": {
             "blur": 0.5,
             "postFXMaterial": "/Lotus/Materials/PostFX/PurplishMoodyPostFX",
             "viewShake": {
-                "ShakeFactorPos": 0.05,
+                "ShakeFactorPos": 0.050000001,
                 "ShakeFactorRot": [
-                    0.05,
+                    0.050000001,
                     0.1,
                     0.2
                 ],

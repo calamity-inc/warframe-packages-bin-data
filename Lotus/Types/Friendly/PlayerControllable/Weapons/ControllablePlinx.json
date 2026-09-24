@@ -13,14 +13,14 @@
         "HolsterBone1Name": "GAME_R1_LEG1",
         "HolsterBone1Position": [
             -0.125,
-            -0.03,
+            -0.029999999,
             0.17
         ],
         "HolsterBone1Rotation": [
             0,
-            -0.793353,
+            -0.79335302,
             0,
-            0.608761
+            0.60876101
         ],
         "GripType": "GUN_ONE_HAND",
         "PickUpText": "/Lotus/Language/Items/PistolPickup",
@@ -36,18 +36,18 @@
         ],
         "WeaponHandAimOffset": [
             0,
-            0.3,
+            0.30000001,
             0
         ],
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -76,7 +76,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -206,7 +206,7 @@
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 1,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.4,
+                    "MaxTraceDistanceTime": 0.40000001,
                     "RetractTime": 0.001,
                     "AttachToWeapon": 1,
                     "AttachToTarget": 0,
@@ -263,7 +263,7 @@
                     "AllowSelfDamage": 0,
                     "IgnoreInvisibleAvatars": 1,
                     "DestroyBeamOnFire": 0,
-                    "BeamTime": 0.06,
+                    "BeamTime": 0.059999999,
                     "ApplyRadialDamageOnMiss": 0,
                     "ApplyRadialDamageOnHit": 0
                 },
@@ -386,7 +386,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -433,7 +433,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -542,9 +542,9 @@
             }
         },
         "ClipIsBattery": 1,
-        "BatteryRegenDelay": 0.8,
+        "BatteryRegenDelay": 0.80000001,
         "BatteryRegenRate": 20,
-        "HeavyBatteryRegenDelay": 0.8,
+        "HeavyBatteryRegenDelay": 0.80000001,
         "HeavyBatteryRegenRate": 20,
         "WeaknessBonus": 0.5,
         "DamageDoneScript": {
@@ -597,14 +597,14 @@
         "OFF_HAND": {
             "LocalPosition": [
                 0,
-                -0.005,
+                -0.0049999999,
                 -0.025
             ],
             "LocalRotation": [
                 -0.017452,
                 0,
                 0,
-                0.999848
+                0.99984801
             ],
             "BoneName": "GAME_L1_WEAPON1",
             "Type": "/Lotus/Weapons/Corpus/Pistols/CrpSonificBlastor/CrpBlastorAttachment",

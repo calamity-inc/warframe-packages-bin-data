@@ -16,8 +16,8 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/NPC/NullifyDome.lua",
             "Function": "NullifyDome",
-            "_scaleDecrement": 0.04,
-            "_sizeOnSpawn": 0.05,
+            "_scaleDecrement": 0.039999999,
+            "_sizeOnSpawn": 0.050000001,
             "_growthDelayOnSpawn": 0.1,
             "_destroyAtMinSize": 1,
             "_destroyAtMaxSize": 0,
@@ -25,10 +25,10 @@
             "_damageMax": 400,
             "_damageMin": 100,
             "_damageWindow": 4,
-            "_domeMinScale": 0.35,
-            "_shrinkLerpRate": 0.6,
+            "_domeMinScale": 0.34999999,
+            "_shrinkLerpRate": 0.60000002,
             "_growLerpRate": 0.2,
-            "_scaleDelay": 0.05,
+            "_scaleDelay": 0.050000001,
             "_createFx": "/Lotus/Fx/Enemies/Corpus/Nullifier/OrokinNullifierShieldCreation",
             "_destroyFx": "/Lotus/Fx/Enemies/Corpus/Nullifier/OrokinNullifierShieldBurst",
             "_collisionType": "/Lotus/Types/Enemies/Corpus/Spaceman/AIWeek/NullifyShieldDecoCollision",
@@ -70,7 +70,7 @@
                 180
             ],
             "_bubbleCapBeamStartingOffset": [
-                -0.6,
+                -0.60000002,
                 0.2,
                 0
             ],
@@ -82,7 +82,7 @@
             "_bubbleCapDeadEffect": "",
             "_capOffsetByMeshScale": [
                 0,
-                5.05,
+                5.0500002,
                 0
             ],
             "_capAnimActivation": "/Lotus/Animations/Corpus/NullifierDrone/Open_anim.fbx",

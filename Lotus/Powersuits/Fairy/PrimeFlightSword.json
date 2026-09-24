@@ -9,10 +9,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.043619,
+                    0.043618999,
                     0,
                     0,
-                    0.999048
+                    0.99904799
                 ],
                 "Type": "PrimeFlightSwordAttachment"
             }
@@ -35,7 +35,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -105,6 +105,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "NotifyPotentialVictimsOfIncomingAttack": 0,
@@ -223,9 +224,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.15,
+                        "DT_IMPACT": 0.15000001,
                         "DT_PUNCTURE": 0.75,
-                        "DT_SLASH": 0.1,
+                        "DT_SLASH": 0.10000002,
                         "Amount": 350,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -239,6 +240,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_MELEE_DAMAGE"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -314,6 +316,7 @@
                         "CC_GROUND_BRANCH_B": [],
                         "CC_GROUND_BRANCH_C": [],
                         "CC_GROUND_HEAVY": [],
+                        "CC_GROUND_HELD_HEAVY": [],
                         "CC_SLIDING": [],
                         "CC_AIR": [],
                         "CC_AIR_RIGHT": [],
@@ -330,9 +333,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -355,6 +358,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -430,7 +434,12 @@
                     "SetToPreviousBehaviorWhenMeleeActionEnds": 1,
                     "RecordFireEvent": 1,
                     "ComboData": {
-                        "HeavyMeleeChargeTime": 0.7,
+                        "MinHeldHeavyTime": 0,
+                        "HeavyMeleeChargeTime": 0.69999999,
+                        "PerfectHeldHeavyRange": [
+                            0,
+                            0
+                        ],
                         "UseCurrentContextAfterCharge": 0
                     },
                     "GroundHitLerpRate": 0.25,

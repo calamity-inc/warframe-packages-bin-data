@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Common/Sphere10.fbx",
-        "MeshScale": 6.2,
+        "MeshScale": 6.1999998,
         "OverrideMaterial": [
             "/Lotus/Fx/Common/EnergyDistortionKMat"
         ],
@@ -13,7 +13,7 @@
                 "slot": -1,
                 "value": 1,
                 "value1": 1,
-                "value2": 0.4,
+                "value2": 0.40000001,
                 "value3": 0
             }
         ],
@@ -23,7 +23,7 @@
             {
                 "Parameter": "Scale",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 10,
                 "FadeRange": [
                     0,
@@ -33,11 +33,11 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.437335
+                            "Value": 0.43733501
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.876039
+                            "Value": 0.87603903
                         },
                         {
                             "Time": 1,
@@ -56,10 +56,10 @@
             {
                 "Parameter": "DistortAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 4,
                 "FadeRange": [
-                    0.05,
+                    0.050000001,
                     0.5
                 ],
                 "FadeCurve": {

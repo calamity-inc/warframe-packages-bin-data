@@ -36,20 +36,20 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.075,
-            0.24
+            0.075000003,
+            0.23999999
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.06,
+            -0.059999999,
             0,
             0.13
         ],
         "GripRotationOffset": [
-            -0.159064,
-            -0.688984,
-            0.701836,
-            -0.086175
+            -0.15906399,
+            -0.68898398,
+            0.70183599,
+            -0.086175002
         ],
         "Behaviors": [
             {
@@ -66,7 +66,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -155,8 +155,8 @@
                         "OverrideLaunchBone": 0,
                         "LocalPos": [
                             0,
-                            0.08,
-                            0.36
+                            0.079999998,
+                            0.36000001
                         ],
                         "LocalRot": [
                             0,
@@ -182,8 +182,8 @@
                     "chargedProjectileType": "",
                     "projectileLaunchOffset": [
                         0,
-                        0.08,
-                        0.36
+                        0.079999998,
+                        0.36000001
                     ],
                     "SequentialProjectileLaunchDirectionOffsets": [],
                     "UpdateFirePositionPerIteration": 0,
@@ -250,7 +250,7 @@
                     "SpreadRotationOffset": 0,
                     "DrawGrenadeArc": 0,
                     "FudgeAngle": 0,
-                    "RaysPerMeter": 0.8,
+                    "RaysPerMeter": 0.80000001,
                     "MaxRays": 10,
                     "DrawCondition": "DC_HOLDING_FIRE",
                     "SplineDrawType": "",

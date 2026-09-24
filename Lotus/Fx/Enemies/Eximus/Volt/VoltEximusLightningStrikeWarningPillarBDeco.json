@@ -1,0 +1,98 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Levels/Hub/HubLampSpiral.fbx",
+        "OverrideMaterial": [
+            "VoltEximusLightningStrikePillarBDecoMat"
+        ],
+        "DissolveOverride": "/Lotus/Fx/Common/WorleyBrighter_d.png",
+        "TestRotate": 1,
+        "TestRotateSpeed": [
+            15,
+            0,
+            0
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.2,
+                            "Value": 0.5
+                        },
+                        {
+                            "Time": 0.72000003,
+                            "Value": 0.80000001
+                        },
+                        {
+                            "Time": 0.94999999,
+                            "Value": 1.2
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "TriggeredMaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.40000001,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "RandomMaterialParameters": [
+            {
+                "Parameter": "PanScaleThird",
+                "RandomLow": [
+                    0,
+                    0.30000001,
+                    0.5,
+                    1.4
+                ],
+                "RandomHigh": [
+                    0.2,
+                    1.5,
+                    0.5,
+                    1.4
+                ]
+            }
+        ]
+    }
+}

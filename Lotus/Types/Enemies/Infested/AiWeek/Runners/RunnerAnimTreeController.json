@@ -389,6 +389,7 @@
         "ParticleEvents": [
             {
                 "EventName": "Disarm",
+                "CancelEventName": "",
                 "ParticleSys": "/Lotus/Fx/PowersuitAbilities/Loki/DisarmBurst",
                 "Attached": 1,
                 "OwnedByAvatar": 0,
@@ -409,6 +410,7 @@
             },
             {
                 "EventName": "Vomit",
+                "CancelEventName": "",
                 "ParticleSys": "/Lotus/Fx/Enemies/Zombies/VomitEffect",
                 "Attached": 1,
                 "OwnedByAvatar": 0,
@@ -416,19 +418,20 @@
                 "Bone": "GAME_C1_JAW1",
                 "LocalPosition": [
                     0,
-                    0.15,
+                    0.15000001,
                     0
                 ],
                 "LocalRotation": [
-                    -0.270598,
-                    -0.653281,
-                    -0.270598,
-                    0.653281
+                    -0.27059799,
+                    -0.65328097,
+                    -0.27059799,
+                    0.65328097
                 ],
                 "Context": "PEC_ALL"
             },
             {
                 "EventName": "HackVomit",
+                "CancelEventName": "",
                 "ParticleSys": "/Lotus/Fx/Enemies/Zombies/VomitEffect",
                 "Attached": 1,
                 "OwnedByAvatar": 0,
@@ -436,14 +439,14 @@
                 "Bone": "GAME_C1_JAW1",
                 "LocalPosition": [
                     0,
-                    0.15,
+                    0.15000001,
                     0
                 ],
                 "LocalRotation": [
-                    -0.061628,
-                    -0.704416,
-                    -0.061628,
-                    0.704416
+                    -0.061627999,
+                    -0.70441598,
+                    -0.061627999,
+                    0.70441598
                 ],
                 "Context": "PEC_ALL"
             }

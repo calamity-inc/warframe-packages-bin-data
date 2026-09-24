@@ -4,7 +4,7 @@
         "HitProxies": [
             {
                 "LocalPosition": [
-                    -0.05,
+                    -0.050000001,
                     0,
                     0
                 ],
@@ -55,8 +55,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM1",
                 "Type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperArm",
@@ -70,15 +70,15 @@
             },
             {
                 "LocalPosition": [
-                    0.15,
+                    0.15000001,
                     0,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_ARM2",
                 "Type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerArm",
@@ -114,7 +114,7 @@
             },
             {
                 "LocalPosition": [
-                    -0.15,
+                    -0.15000001,
                     0,
                     0
                 ],
@@ -484,10 +484,10 @@
                 "ProcTypeOnDestroyed": "PT_STAGGERED",
                 "DamageProjectorType": "",
                 "ProjectorAttenuationRange": [
-                    0.3,
+                    0.30000001,
                     1
                 ],
-                "MaxVisibilityHealthRatio": 0.85,
+                "MaxVisibilityHealthRatio": 0.85000002,
                 "NotifyWeaponOnDamaged": 1,
                 "OnDamagedScript": {
                     "Script": ""
@@ -516,7 +516,7 @@
                             },
                             {
                                 "boneName": "GAME_R1_ARM1",
-                                "probability": 0.3
+                                "probability": 0.30000001
                             }
                         ],
                         "LocalPosition": [
@@ -546,7 +546,7 @@
                             },
                             {
                                 "boneName": "GAME_R1_ARM1",
-                                "probability": 0.3
+                                "probability": 0.30000001
                             }
                         ],
                         "LocalPosition": [
@@ -576,7 +576,7 @@
                             },
                             {
                                 "boneName": "GAME_R1_ARM1",
-                                "probability": 0.3
+                                "probability": 0.30000001
                             }
                         ],
                         "LocalPosition": [

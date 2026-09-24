@@ -26,7 +26,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -136,10 +136,10 @@
                                 0.1
                             ],
                             "LocalRotation": [
-                                0.483328,
-                                0.32511,
-                                -0.142098,
-                                0.800316
+                                0.48332801,
+                                0.32510999,
+                                -0.14209799,
+                                0.80031598
                             ],
                             "UseOverrideAttachmentHand": 0,
                             "OverrideAttachmentHand": "MAIN_HAND",
@@ -229,7 +229,7 @@
                         "DT_CORROSIVE": 0,
                         "DT_RADIANT": 0,
                         "Amount": 244,
-                        "ProcChance": 0.29,
+                        "ProcChance": 0.28999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -280,7 +280,7 @@
                     "AltEffectHands": [],
                     "ragdollChance": 0,
                     "criticalHitChance": 0.13,
-                    "criticalHitDamageMultiplier": 2.1,
+                    "criticalHitDamageMultiplier": 2.0999999,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -332,9 +332,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -477,7 +477,7 @@
                         "BoneOverride": "",
                         "PosOffset": [
                             0,
-                            0.05,
+                            0.050000001,
                             0
                         ],
                         "PosOffsetSecondary": [
@@ -486,10 +486,10 @@
                             0
                         ],
                         "RotOffset": [
-                            0.258819,
+                            0.25881901,
                             0,
                             0,
-                            0.965926
+                            0.96592599
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -594,7 +594,7 @@
                 "RadiusMin": 0,
                 "Radius": 6,
                 "FallOff": 1,
-                "FallOffMax": 0.7,
+                "FallOffMax": 0.69999999,
                 "CanCrit": 0,
                 "CanUseComboMultiplier": 1,
                 "UseImpactBehaviorAttackDataAmount": 1,
@@ -720,7 +720,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             }
         ],

@@ -41,15 +41,6 @@
         "TX:DiffuseMap": "/Lotus/Fx/Common/Worley_d.png",
         "TX:SecondaryMap": "LightningBeamSharp_d.png",
         "TX:HeightMap": "/Lotus/Fx/Common/SmoothBillow_d.png",
-        "VS:nScales": [
-            0.1,
-            0.1,
-            0.1
-        ],
-        "VS:nScalesFade": 0,
-        "VS:ClipSpaceScale": 0,
-        "VS:nScalesUseGreen": 0,
-        "VS:nScalesToEyeBias": 0,
         "PS:TintColor": [
             0,
             0.023,
@@ -58,8 +49,8 @@
         ],
         "PS:UnlitAtten": 50,
         "PS:LowColor": [
-            0.06,
-            0.032,
+            0.059999999,
+            0.032000002,
             0.19,
             1
         ],
@@ -70,14 +61,14 @@
             1
         ],
         "PS:SecondaryTintColor": [
-            0.0083,
+            0.0082999999,
             0.19,
             1,
             1
         ],
         "PS:TintSmoothRange": [
             0,
-            0.3
+            0.30000001
         ],
         "PS:DarkAlphaAttenSharpness": [
             1.5,
@@ -94,6 +85,15 @@
             0,
             0.9975,
             1
-        ]
+        ],
+        "VS:nScales": [
+            0.1,
+            0.1,
+            0.1
+        ],
+        "VS:nScalesFade": 0,
+        "VS:ClipSpaceScale": 0,
+        "VS:nScalesUseGreen": 0,
+        "VS:nScalesToEyeBias": 0
     }
 }

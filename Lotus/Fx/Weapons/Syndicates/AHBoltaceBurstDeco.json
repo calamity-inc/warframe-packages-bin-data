@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/SwirlCylinderMesh.fbx",
-        "MeshScale": 0.3,
+        "MeshScale": 0.30000001,
         "OverrideMaterial": [
             "/Lotus/Fx/Weapons/Grineer/JetPoweredChargeMeshMat"
         ],
@@ -12,7 +12,7 @@
                 "type": "Float4",
                 "slot": -1,
                 "value": 1,
-                "value1": 0.35,
+                "value1": 0.34999999,
                 "value2": 1,
                 "value3": 0
             }
@@ -22,7 +22,7 @@
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 1,
                 "FadeRange": [
                     0.25,
@@ -41,7 +41,7 @@
             },
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 0.75,
                 "FadeRange": [
                     1,

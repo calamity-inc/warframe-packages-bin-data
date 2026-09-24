@@ -20,7 +20,7 @@
         "ApplyCompatibilityTagsToWeapon": 1,
         "BarrelType": "BT_SEMI_PROJECTILE",
         "PrimaryAttachmentOverride": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Barrel/SUModularPrimaryBarrelBAttachment",
-        "OmegaAttenuation": 0.85,
+        "OmegaAttenuation": 0.85000002,
         "AimFovMultipliers": [
             2
         ],
@@ -41,7 +41,7 @@
                         "reloadThreshold": 0,
                         "controlAim": 0,
                         "continuousAim": 0,
-                        "minimumAimMask": 0.9,
+                        "minimumAimMask": 0.89999998,
                         "ShootOnStaggerProbability": 0.1,
                         "StaggerTimeOut": 1,
                         "minAngleToTurn": 0,
@@ -142,7 +142,7 @@
                 "AimIgnoresChargedProjectile": 0,
                 "chargedProjectileType": "",
                 "projectileLaunchOffset": [
-                    0.4,
+                    0.40000001,
                     1.5,
                     0
                 ],
@@ -384,7 +384,7 @@
                         "reloadThreshold": 0,
                         "controlAim": 0,
                         "continuousAim": 0,
-                        "minimumAimMask": 0.9,
+                        "minimumAimMask": 0.89999998,
                         "ShootOnStaggerProbability": 0.1,
                         "StaggerTimeOut": 1,
                         "minAngleToTurn": 0,
@@ -485,7 +485,7 @@
                 "AimIgnoresChargedProjectile": 0,
                 "chargedProjectileType": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Barrel/BarrelBPrimaryEnergyChargedProj",
                 "projectileLaunchOffset": [
-                    0.4,
+                    0.40000001,
                     1.5,
                     0
                 ],
@@ -708,7 +708,7 @@
                 "IsAutomatic": 0,
                 "AccessibilityTrigger": 1,
                 "ClipSizeAffectsChargeTime": 0,
-                "ChargeTime": 0.8,
+                "ChargeTime": 0.80000001,
                 "MinChargeRatio": 0,
                 "UseClipSizeAsDamageMultiplier": 0,
                 "DamageMultiplier": 1,

@@ -54,10 +54,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "RocketProjectileProxy",
@@ -73,7 +73,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.8
+                    0.80000001
                 ],
                 "LocalRotation": [
                     0,
@@ -139,22 +139,22 @@
         "AttackData": {
             "Type": "DT_EXPLOSION",
             "Amount": 100,
-            "ProcChance": 0.35
+            "ProcChance": 0.34999999
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.05,
+        "CriticalChance": 0.050000001,
         "CriticalMultiplier": 2,
         "ExplosiveAttack": {
             "Amount": 600,
-            "ProcChance": 0.35
+            "ProcChance": 0.34999999
         },
         "ForcedSourceProcs": [
             "PT_BIG_STAGGER",
             "PT_KNOCKED_DOWN"
         ],
         "ExplosionIgnoreCover": 0,
-        "ExplosionFallOff": 0.8,
-        "DamageRadius": 7.1,
+        "ExplosionFallOff": 0.80000001,
+        "DamageRadius": 7.0999999,
         "HitEffect": "RocketProjectileHitEffect",
         "DieEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXFueledLarge",
         "DieEffectMirror": "/Lotus/Fx/Explosions/Generic/ExplosionFXFueledLargeCheap",

@@ -8,10 +8,10 @@
                 -10,
                 10
             ],
-            "exposureCurveBias": -0.35,
+            "exposureCurveBias": -0.34999999,
             "toneMapType": "TM_ACES_REF",
             "toneMapLUT": "/EE/Materials/PostFX/FilmLooks/Rec709Fujifilm3513DID55.cube",
-            "toneMapLUTBlend": 0.65,
+            "toneMapLUTBlend": 0.64999998,
             "colorGradingData": {
                 "Global": {
                     "Saturation": [
@@ -30,7 +30,7 @@
                         1,
                         1,
                         1,
-                        0.98
+                        0.98000002
                     ]
                 }
             },
@@ -51,38 +51,38 @@
             ],
             "postFXMaterial": "/Lotus/Types/ACESPost",
             "sunPosition": [
-                0.59303,
-                0.554906,
-                -0.583434
+                0.59302998,
+                0.55490601,
+                -0.58343399
             ],
             "sunColor": [
                 1.1,
-                0.99,
-                0.77,
+                0.99000001,
+                0.76999998,
                 0
             ],
             "cloudShadowsMovementParams": [
-                0.005,
-                0.005,
-                0.01,
+                0.0049999999,
+                0.0049999999,
+                0.0099999998,
                 -0.001
             ],
             "volumetricFog": {
                 "Enabled": 1,
-                "NearDistance": 0.01,
-                "Extinction": 0.35,
+                "NearDistance": 0.0099999998,
+                "Extinction": 0.34999999,
                 "ExtinctionConfusion": 0.5,
                 "GlobalFog": {
-                    "G": 0.4
+                    "G": 0.40000001
                 },
                 "ClumpyNoise": {
                     "ClumpAmount": 0.75,
-                    "ClumpStart": 0.4,
-                    "ClumpEnd": 0.8,
-                    "NoiseScale": 0.04
+                    "ClumpStart": 0.40000001,
+                    "ClumpEnd": 0.80000001,
+                    "NoiseScale": 0.039999999
                 },
                 "ColorGrading": {
-                    "Vibrance": 0.15
+                    "Vibrance": 0.15000001
                 }
             },
             "volumetricWind": {

@@ -32,13 +32,13 @@
         "CombatFlyInFormationFighterTactic": {
             "MaxFormationSlots": 1,
             "LeaderAction:FighterBehaviorStateMachine": {
-                "AttackAction:MaxSpeedModifier": 2.4,
+                "AttackAction:MaxSpeedModifier": 2.4000001,
                 "EvasivePathingType": 1
             },
             "ShootingAngleFromForward": 10
         },
         "FighterManeuverBehavior": {
-            "ManeuverProbability": 0.85,
+            "ManeuverProbability": 0.85000002,
             "UnderFireManeuverDistance": 300,
             "CloseToTargetManeuverDistance": 50,
             "PostDodgeMaintainSpeedDuration": 1.4
@@ -46,7 +46,7 @@
         "FighterBehaviorStateMachine": {
             "AttackAction:OffsetTargetDestination": 80,
             "AttackAction:AlwaysHeadForOffsetDestination": 1,
-            "AttackAction:MaxSpeedModifier": 2.4,
+            "AttackAction:MaxSpeedModifier": 2.4000001,
             "AttackAction:MinSpeedModifier": 1,
             "AttackAction:SetVariable": "IV_ADDITIVE_1_STATE",
             "AttackAction:SetVariableValue": 1,
@@ -81,12 +81,12 @@
                         1
                     ],
                     "PreserveVelocity": 1,
-                    "MinAvoidanceReducedVelocityPct": 0.3,
+                    "MinAvoidanceReducedVelocityPct": 0.30000001,
                     "FlyerControlMode": 1,
                     "AllowedObstacleCountForMaxSpeed": 60,
                     "ObstacleCountForMinSpeed": 200,
                     "ObstacleSlowdownScalingExponent": 1.8,
-                    "MinSpeedScalingFromObstacles": 0.66,
+                    "MinSpeedScalingFromObstacles": 0.66000003,
                     "AvoidDynamicObstaclesOnly": 0
                 },
                 "LocomotionMoveModifierAlwaysMoveForward": {
@@ -106,7 +106,7 @@
                         1
                     ],
                     "PreserveVelocity": 1,
-                    "MinAvoidanceReducedVelocityPct": 0.3,
+                    "MinAvoidanceReducedVelocityPct": 0.30000001,
                     "FlyerControlMode": 0,
                     "AllowedObstacleCountForMaxSpeed": 30,
                     "ObstacleCountForMinSpeed": 200,

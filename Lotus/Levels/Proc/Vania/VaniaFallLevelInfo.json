@@ -16,7 +16,7 @@
                 "adjustmentEV": 0
             },
             "toneMapLUT": "/EE/Materials/PostFX/JoshPinesSV2.cube",
-            "toneMapLUTBlend": 0.4,
+            "toneMapLUTBlend": 0.40000001,
             "colorCorrectCurveLift": [
                 1,
                 1,
@@ -29,7 +29,7 @@
                         1,
                         1,
                         1,
-                        0.95
+                        0.94999999
                     ],
                     "Contrast": [
                         1,
@@ -54,43 +54,43 @@
             "distanceFogDensity": 0.12,
             "fogTexture": "/Lotus/Objects/Natural/Skybox/FogTextures/CorpusGasCityFogTexture.png",
             "sunPosition": [
-                0.183013,
-                0.718919,
-                -0.670568
+                0.18301301,
+                0.71891898,
+                -0.67056799
             ],
             "sunColor": [
                 1.25,
-                0.96,
-                0.66,
+                0.95999998,
+                0.66000003,
                 0
             ],
             "cloudShadowsMovementParams": [
-                0.005,
-                0.005,
-                0.01,
+                0.0049999999,
+                0.0049999999,
+                0.0099999998,
                 -0.001
             ],
             "volumetricFog": {
-                "NearDistance": 0.01,
-                "Extinction": 0.65,
+                "NearDistance": 0.0099999998,
+                "Extinction": 0.64999998,
                 "GlobalFog": {
                     "Density": 0.015,
-                    "G": 0.6
+                    "G": 0.60000002
                 },
                 "HeightFog": {
                     "HeightFogMaxHeight": 7,
                     "HeightFogParticipatingMedia": {
-                        "Density": 0.05,
+                        "Density": 0.050000001,
                         "G": 0.5
                     },
                     "SecondaryHeightFogParticipatingMedia": {
-                        "G": 0.33
+                        "G": 0.33000001
                     }
                 },
                 "ClumpyNoise": {
-                    "ClumpAmount": 0.65,
+                    "ClumpAmount": 0.64999998,
                     "ClumpStart": 0.25,
-                    "NoiseScale": 0.01
+                    "NoiseScale": 0.0099999998
                 },
                 "ColorGrading": {
                     "Vibrance": 0.5,

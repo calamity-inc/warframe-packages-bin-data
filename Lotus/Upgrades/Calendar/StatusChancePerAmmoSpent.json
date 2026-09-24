@@ -8,8 +8,8 @@
         "Script": {
             "Script": "AmmoSpentUpgrade.lua",
             "Function": "ApplyUpgrade",
-            "_upgradeValuePerBulletSpent": 0.01,
-            "_upgradeValueCap": 0.65,
+            "_upgradeValuePerBulletSpent": 0.0099999998,
+            "_upgradeValueCap": 0.64999998,
             "_upgradeType": "WEAPON_PROC_CHANCE",
             "_upgradeOperationType": "STACKING_MULTIPLY",
             "_upgradeName": "StatusChancePerAmmoSpent"
@@ -17,8 +17,8 @@
         "UnappliedScript": {
             "Script": "AmmoSpentUpgrade.lua",
             "Function": "RemoveUpgrade",
-            "_upgradeValuePerBulletSpent": 0.05,
-            "_upgradeValueCap": 0.65,
+            "_upgradeValuePerBulletSpent": 0.050000001,
+            "_upgradeValueCap": 0.64999998,
             "_upgradeType": "WEAPON_PROC_CHANCE",
             "_upgradeOperationType": "STACKING_MULTIPLY",
             "_upgradeName": "StatusChancePerAmmoSpent"

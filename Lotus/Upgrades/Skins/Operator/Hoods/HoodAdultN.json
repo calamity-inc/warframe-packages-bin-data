@@ -6,7 +6,6 @@
         "LocalizeTag": "/Lotus/Language/Operator/AdultHoodNName",
         "LocalizeDescTag": "/Lotus/Language/Operator/AdultSuitNDesc",
         "Icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Hoods/HoodAdultN.png",
-        "ExcludeFromCodex": 0,
         "Weapon": "/Lotus/Powersuits/Operator/AdultOperatorSuit",
         "GraphicsOverrides": {
             "MAIN_HAND": {
@@ -117,6 +116,10 @@
                     ]
                 }
             }
-        }
+        },
+        "HideCustomizationsOpen": [
+            "TOSS_HAIR",
+            "TOSS_EAR_ACCESSORY"
+        ]
     }
 }

@@ -117,8 +117,17 @@
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [],
-                    "ChildMaterialOverrides": [],
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Guild/Spaceman/CorpusSpacemanLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Guild/Spaceman/Venus/TamerHelmetLeaderVolt"
+                            ]
+                        }
+                    ],
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",

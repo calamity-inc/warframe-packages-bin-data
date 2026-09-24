@@ -13,23 +13,23 @@
         "PeerCollision": "OctaviaSkirtPeerCollision",
         "Attribs": {
             "dampeningRange": [
-                0.18,
-                0.18
+                0.18000001,
+                0.18000001
             ],
             "collidingDampeningRange": [
                 0.105,
                 0.105
             ],
             "massRange": [
-                0.8,
+                0.80000001,
                 1
             ],
             "distConstraintRange": [
-                0.18,
-                0.9
+                0.18000001,
+                0.89999998
             ],
             "reduceStretchExponent": 1,
-            "shearingStiffness": 0.8,
+            "shearingStiffness": 0.80000001,
             "worldVelocityAtten": [
                 0.1,
                 0.1,
@@ -58,7 +58,7 @@
             ],
             "useCollision": 0,
             "usePeerCollision": 0,
-            "floorPlaneHeight": 0.05,
+            "floorPlaneHeight": 0.050000001,
             "collisionExemptions": [
                 "GAME_C1_HIP1"
             ],

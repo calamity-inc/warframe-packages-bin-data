@@ -8,7 +8,7 @@
                     "mix": 0,
                     "type": "DSP_RING_MOD",
                     "ringMod": {
-                        "intensity": 0.05,
+                        "intensity": 0.050000001,
                         "amplitude": 986.01453
                     }
                 },
@@ -26,9 +26,9 @@
                     "mix": 0.2,
                     "type": "DSP_DISTORTION",
                     "distortion": {
-                        "preAtten": 1.3057,
-                        "saturateThreshold": 0.824427,
-                        "distortionThreshold": 0.519084,
+                        "preAtten": 1.3056999,
+                        "saturateThreshold": 0.82442701,
+                        "distortionThreshold": 0.51908398,
                         "postAtten": 0.725191
                     }
                 },
@@ -37,9 +37,9 @@
                     "mix": 0.5,
                     "type": "DSP_PHASER",
                     "phaser": {
-                        "fb": 0.071189,
-                        "depth": 0.4857,
-                        "rate": 9.841268,
+                        "fb": 0.071188599,
+                        "depth": 0.48570001,
+                        "rate": 9.8412685,
                         "range": [
                             440,
                             2601.3909
@@ -48,19 +48,19 @@
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.3,
+                    "mix": 0.30000001,
                     "type": "DSP_FLANGER",
                     "flanger": {
                         "paramSweepRate": 0.01911,
                         "paramWidth": 0.022293,
-                        "paramFeedback": 0.090764,
-                        "paramDelay": 0.993631,
-                        "paramMixMode": 0.601911
+                        "paramFeedback": 0.090764299,
+                        "paramDelay": 0.99363101,
+                        "paramMixMode": 0.60191101
                     }
                 },
                 {
                     "enabled": 0,
-                    "mix": 0.3018,
+                    "mix": 0.30180001,
                     "type": "DSP_SHAPER",
                     "shaper": {
                         "amp": 1.069054
@@ -87,8 +87,8 @@
             -3
         ],
         "Pitch": [
-            0.98,
-            0.98
+            0.98000002,
+            0.98000002
         ]
     }
 }

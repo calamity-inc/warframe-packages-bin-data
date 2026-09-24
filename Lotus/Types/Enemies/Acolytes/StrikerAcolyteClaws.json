@@ -6,13 +6,13 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0.025,
-                    -0.05,
+                    -0.050000001,
                     -0.1
                 ],
                 "LocalRotation": [
                     -0.456422,
                     -0.498097,
-                    -0.543578,
+                    -0.54357803,
                     0.498097
                 ],
                 "BoneName": "UseHolsterWhenHeld",
@@ -21,13 +21,13 @@
             "OFF_HAND": {
                 "LocalPosition": [
                     -0.015,
-                    -0.05,
+                    -0.050000001,
                     -0.07
                 ],
                 "LocalRotation": [
-                    -0.521561,
-                    0.477923,
-                    -0.477506,
+                    -0.52156103,
+                    0.47792301,
+                    -0.47750601,
                     -0.521106
                 ],
                 "BoneName": "UseHolsterWhenHeld",
@@ -54,7 +54,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -242,11 +242,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.05,
+                        "DT_IMPACT": 0.050000001,
                         "DT_PUNCTURE": 0.25,
-                        "DT_SLASH": 0.7,
+                        "DT_SLASH": 0.69999999,
                         "Amount": 20,
-                        "ProcChance": 0.15,
+                        "ProcChance": 0.15000001,
                         "ForcedProcs": [
                             "PT_BIG_STAGGER"
                         ],
@@ -298,7 +298,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.15,
+                    "criticalHitChance": 0.15000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -351,9 +351,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333333,
+                        "DT_IMPACT": 0.33333334,
+                        "DT_PUNCTURE": 0.33333334,
+                        "DT_SLASH": 0.33333331,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -493,9 +493,9 @@
                     {
                         "BoneOverride": "",
                         "PosOffset": [
-                            0.03,
+                            0.029999999,
                             0.19,
-                            -0.04
+                            -0.039999999
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -522,9 +522,9 @@
                     {
                         "BoneOverride": "",
                         "PosOffset": [
-                            -0.05,
+                            -0.050000001,
                             0.19,
-                            0.05
+                            0.050000001
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -583,13 +583,13 @@
                     "LocalPosition": [
                         0.25,
                         0.1,
-                        0.3
+                        0.30000001
                     ],
                     "LocalRotation": [
-                        0.707107,
+                        0.70710677,
                         0,
                         0,
-                        0.707107
+                        0.70710677
                     ],
                     "BoneName": "",
                     "Type": "/Lotus/Fx/Weapons/Melee/MeleeSlam",
@@ -682,7 +682,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -748,7 +748,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -814,7 +814,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             }
         ],
@@ -854,10 +854,10 @@
                         0
                     ],
                     "LocalRotation": [
-                        0.707107,
+                        0.70710677,
                         0,
                         0,
-                        0.707107
+                        0.70710677
                     ],
                     "BoneName": "GAME_R1_WEAPON1",
                     "Type": "/Lotus/Fx/Weapons/Melee/MeleeSlam",
@@ -950,7 +950,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -1016,7 +1016,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             },
             {
@@ -1082,12 +1082,12 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 0,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             }
         ],
         "SlamRadiusPercentageClamps": [
-            0.714286,
+            0.71428573,
             1.5
         ]
     }

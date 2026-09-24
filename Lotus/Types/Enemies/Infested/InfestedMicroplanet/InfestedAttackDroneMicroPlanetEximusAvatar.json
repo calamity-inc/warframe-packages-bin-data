@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/DroneAttackAvatar",
     "data": {
         "Mesh": "/Lotus/Characters/Infested/InfestedDrone/InfestedDrone_skel.fbx",
-        "MeshScale": 0.7,
+        "MeshScale": 0.69999999,
         "OverrideMaterial": [
             "/Lotus/Characters/Infested/Deimos/Materials/InfestedVeninMutalystMicroPlanetA",
             "/Lotus/Characters/Infested/Deimos/Materials/InfestedVeninMutalystMicroPlanetB"
@@ -15,10 +15,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.608761,
+                    0.60876101,
                     0,
                     0,
-                    0.793353
+                    0.79335302
                 ],
                 "BoneName": "GAME_L1_ENGINE",
                 "Type": "/Lotus/Fx/Enemies/Drones/Infested/DroneJet",
@@ -37,10 +37,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.793353,
+                    -0.79335302,
                     0,
                     0,
-                    0.608761
+                    0.60876101
                 ],
                 "BoneName": "GAME_R1_ENGINE",
                 "Type": "/Lotus/Fx/Enemies/Drones/Infested/DroneJet",
@@ -222,6 +222,21 @@
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Infested/InfestedDrone/InfestedDroneLeaderVolt",
+                        "/Lotus/Characters/Guild/FlyingDrone/OspreyEximusVolt"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
                     "MeshScale": 1.1
                 },
                 "Probability": 1

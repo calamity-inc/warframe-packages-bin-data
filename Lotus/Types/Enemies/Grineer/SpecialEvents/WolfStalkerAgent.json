@@ -143,7 +143,7 @@
                             "UPWARD": "",
                             "DOWNWARD": ""
                         },
-                        "DistanceFromTargetPoint": 0.4
+                        "DistanceFromTargetPoint": 0.40000001
                     },
                     "forceFaceReaction": 0,
                     "useTurnToAction": 0,
@@ -494,7 +494,7 @@
                 "StopMovingWhenAttacking": 0,
                 "DisablePostureChangers": 0,
                 "TimeBetweenLunges": 2,
-                "LowTargetThreshold": 0.8,
+                "LowTargetThreshold": 0.80000001,
                 "NormalAttack": "MELEE",
                 "LowAttack": "MELEE",
                 "ClearCoverReservationOnStart": 0,
@@ -502,7 +502,7 @@
                 "VipAvatarType": "/Lotus/Types/Friendly/Agents/DefenseAvatar",
                 "TimeBetweenBarks": 2,
                 "VisibilityTimeout": 0,
-                "MaxReachableHeight": -9223372036854775808.0,
+                "MaxReachableHeight": "3.4028235e+38",
                 "Bark": "ATTACK_SCREAM",
                 "IsOffHandWeapon": 0
             },
@@ -732,7 +732,7 @@
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,

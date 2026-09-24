@@ -54,13 +54,13 @@
                 "Gfactor": 1,
                 "Hfactor": 1.5,
                 "UseManhatten": 1,
-                "HeightCostBias": 0.4,
+                "HeightCostBias": 0.40000001,
                 "UseFace": 1,
                 "UnitCost": 0,
                 "UseEndNodePos": 0,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1
         },
@@ -81,7 +81,7 @@
             "MoveSuccessRadius": 3,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 1,
             "StopWhenMovementInactive": 1,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1,
             "PreferedDistAboveNav": [
                 20,
@@ -89,10 +89,10 @@
             ],
             "MoveHeightOffset": 0,
             "DistanceToDisregardTurning": 0,
-            "DistanceToSlow": 2.4,
+            "DistanceToSlow": 2.4000001,
             "MinimumSlowedSpeed": 8,
             "MinimumSpeed": 0,
-            "RecoverySpeedPct": 0.6,
+            "RecoverySpeedPct": 0.60000002,
             "CorrectHeightOnIdle": 0,
             "AirplaneControls": 0,
             "DesiredAngleRangeForBank": [
@@ -113,7 +113,7 @@
                     "AvoidanceInputMultiplier": [
                         1.2,
                         1.2,
-                        0.8
+                        0.80000001
                     ],
                     "PreserveVelocity": 1,
                     "MinAvoidanceReducedVelocityPct": 0,
@@ -159,12 +159,12 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 40,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGrineerReactionController",
         "PerceiverType": "",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "BaseHitChance": [
             2,
             2

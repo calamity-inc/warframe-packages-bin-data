@@ -17,8 +17,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.382683,
-                    0.92388
+                    0.38268301,
+                    0.92387998
                 ],
                 "BoneName": "GAME_C1_SPINE2",
                 "Type": "/Lotus/Characters/Infested/Deimos/Attachments/EscortJuggBackHair",
@@ -32,14 +32,14 @@
             },
             {
                 "LocalPosition": [
-                    -0.4,
+                    -0.40000001,
                     0.2,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    -0.130526,
+                    -0.13052601,
                     0.991445
                 ],
                 "BoneName": "GAME_C1_SPINE1",
@@ -54,7 +54,7 @@
             },
             {
                 "LocalPosition": [
-                    -0.05,
+                    -0.050000001,
                     0,
                     0
                 ],
@@ -144,7 +144,7 @@
             {
                 "EventName": "SFXJuggerFidgetOne",
                 "Sound": "/Lotus/Sounds/Enemies/Infested/Juggernaut/TruffleHunt/JuggernautTruffleFidgetOne",
-                "Chance": 0.6,
+                "Chance": 0.60000002,
                 "Period": 1,
                 "Context": "PEC_ALL",
                 "CancelEventName": ""
@@ -152,7 +152,7 @@
             {
                 "EventName": "SFXJuggerFidgetTwo",
                 "Sound": "/Lotus/Sounds/Enemies/Infested/Juggernaut/TruffleHunt/JuggernautTruffleFidgetTwo",
-                "Chance": 0.6,
+                "Chance": 0.60000002,
                 "Period": 1,
                 "Context": "PEC_ALL",
                 "CancelEventName": ""
@@ -289,10 +289,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Context": "PEC_ALL"
             }
@@ -364,7 +364,7 @@
             "AttachBone": "GAME_C1_SPINE3",
             "Offset": [
                 0.1,
-                0.4,
+                0.40000001,
                 0
             ],
             "EnableEvent": "BackVulnerable",
@@ -374,8 +374,8 @@
             "ProxyType": "/Lotus/Types/Enemies/Infested/AiWeek/Quadrupeds/HitProxies/JuggernautOpeningWeakspotStomp",
             "AttachBone": "GAME_C1_SPINE3",
             "Offset": [
-                0.4,
-                -0.4,
+                0.40000001,
+                -0.40000001,
                 0
             ],
             "EnableEvent": "BellyVulnerable",

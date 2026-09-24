@@ -90,7 +90,7 @@
         "WeaponBone": "GAME_C1_COG",
         "CrouchOffset": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "LocTag": "/Lotus/Language/InfestedMicroplanet/AshenAgentName",
@@ -261,6 +261,22 @@
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.4
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "/Lotus/Characters/Infested/InfestedAshen/InfestedAshenMatEximusVolt",
+                        "/Lotus/Characters/Infested/InfestedAshen/InfestedAshenMatEximusVolt",
+                        "/Lotus/Characters/Infested/InfestedAshen/InfestedAshenMatEximusVolt"
+                    ],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
                     "MeshScale": 1.4
                 },
                 "Probability": 1

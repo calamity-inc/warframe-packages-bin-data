@@ -27,19 +27,19 @@
         "DonationStandingBonus": 350,
         "EligibleForDailyWeaponSale": 1,
         "AttackData": {
-            "DT_IMPACT": 0.05,
-            "DT_SLASH": 0.35,
+            "DT_IMPACT": 0.050000001,
+            "DT_SLASH": 0.34999996,
             "Amount": 224,
-            "ProcChance": 0.18
+            "ProcChance": 0.18000001
         },
-        "BaseCritChance": 0.18,
-        "OmegaAttenuation": 0.8,
+        "BaseCritChance": 0.18000001,
+        "OmegaAttenuation": 0.80000001,
         "HitEffectOverride": "/Lotus/Fx/Weapons/Melee/Clean/HitEffects/MeleeHitEffectSword",
         "OneHanded": {
             "meleeTree": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DaggerMeleeTree",
             "meleeStyle": "MS_DAGGER",
             "CompatibleSkinType": "/Lotus/Weapons/Tenno/Melee/LotusDagger",
-            "pvpDamageAttenuation": 0.82,
+            "pvpDamageAttenuation": 0.81999999,
             "holsterCustomization": "/Lotus/Upgrades/Skins/HolsterCustomizations/DaggerLowerBack",
             "stancePolarity": "AP_ATTACK",
             "parryAngle": 45,
@@ -255,7 +255,7 @@
                     "WeaponAttachmentHand": "MAIN_HAND",
                     "IsAerialSlam": 0,
                     "HitAirborneTargets": 1,
-                    "VerticalImpulse": 0.15,
+                    "VerticalImpulse": 0.15000001,
                     "HorizontalImpulse": 0.1
                 }
             ]
@@ -481,7 +481,7 @@
                     "WeaponAttachmentHand": "MAIN_HAND",
                     "IsAerialSlam": 0,
                     "HitAirborneTargets": 1,
-                    "VerticalImpulse": 0.15,
+                    "VerticalImpulse": 0.15000001,
                     "HorizontalImpulse": 0.1
                 }
             ]

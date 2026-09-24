@@ -1,0 +1,80 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "BaruukDeluxeIIWavePacifist.fbx",
+        "MeshScale": 0.60000002,
+        "DeadParentInheritanceRule": "NONE",
+        "ScriptInstance": {
+            "Script": "/Lotus/Powersuits/Pacifist/PacifistPassive.lua",
+            "Function": "SlamMesh",
+            "_primeMesh": "/Lotus/Fx/PowersuitAbilities/Pacifist/WavePacifistPrime.fbx",
+            "_primeSymbolDeco": "/Lotus/Fx/PowersuitAbilities/Pacifist/BaruukPrimeSymbolsDeco"
+        },
+        "ReplicaRunScriptInstance": 1,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.60000002,
+                "Multiplier": 3,
+                "FadeRange": [
+                    0.1,
+                    0.40000001
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.60000002,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0.1,
+                    0.40000001
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "vScalesFade",
+                "Slot": -1,
+                "TimeLength": 0.60000002,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "UseDitherDissolve": 1,
+        "InheritCreatorColors": 1,
+        "UseTeamEffectsSetting": 1
+    }
+}

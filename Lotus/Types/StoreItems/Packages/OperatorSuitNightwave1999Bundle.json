@@ -1,0 +1,38 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/PackageStoreItem",
+    "data": {
+        "ProductCategory": "Packages",
+        "LocalizeTag": "/Lotus/Language/Bundles/OperatorSuitNightwave1999BundleName",
+        "LocalizeDescTag": "/Lotus/Language/Bundles/OperatorSuitNightwave1999BundleDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Operator/1999OperatorSuitBundle.png",
+        "ShowInMarket": 0,
+        "ExcludeFromCodex": 0,
+        "PackageComponents": [
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/BodySuits/OperatorNightwave1999Torso",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Hoods/OperatorNightwave1999Helmet",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Leggings/OperatorNightwave1999Leggings",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Sleeves/OperatorNightwave1999Sleeves",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            }
+        ],
+        "PackageDiscount": 0.23
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "BaruukDeluxeIIExtrasDrapeRightCloth_skel.fbx",
+        "Attached": 1,
+        "DebugVis": "CV_DISTANCE_CONSTRAINTS",
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "BaruukDeluxeIIExtrasDrapeRightClothSkelClothData",
+        "AddedCollision": "BaruukDeluxeIIExtraDrapClothSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.1,
+                0.1
+            ],
+            "massRange": [
+                1,
+                1
+            ],
+            "distConstraintRange": [
+                0.0099999998,
+                1
+            ],
+            "backstopConstraintRange": [
+                0,
+                1
+            ],
+            "shearingStiffness": 0.2,
+            "simulateCollisionLast": 0
+        },
+        "UseDynamicCollision": 0,
+        "UseClothCollision": 1
+    }
+}

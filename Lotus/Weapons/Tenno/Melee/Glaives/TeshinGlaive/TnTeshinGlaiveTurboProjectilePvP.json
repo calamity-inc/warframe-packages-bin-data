@@ -35,31 +35,31 @@
         ],
         "AttackData": {
             "DT_IMPACT": 0.2,
-            "DT_PUNCTURE": 0.05,
+            "DT_PUNCTURE": 0.050000001,
             "DT_SLASH": 0.75,
             "Amount": 212,
-            "ProcChance": 0.15
+            "ProcChance": 0.15000001
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.15,
+        "CriticalChance": 0.15000001,
         "CriticalMultiplier": 2,
         "ExplosiveAttack": {
             "Type": "DT_FREEZE",
             "Amount": 20,
-            "ProcChance": 0.15
+            "ProcChance": 0.15000001
         },
         "DisableExplosionRadiusUpgrades": 1,
         "DamageRadius": 2,
         "Toughness": 10000,
         "MaxLife": 15,
         "RaycastMovement": 0,
-        "VerticalImpulse": 0.05,
+        "VerticalImpulse": 0.050000001,
         "HorizontalImpulse": 0.2,
         "KinematicAccel": 100,
         "KinematicInitialSpeed": 35,
         "KinematicMinSpeed": 20,
         "KinematicMaxSpeed": 35,
-        "KinematicNoiseRate": 0.0001,
+        "KinematicNoiseRate": 0.000099999997,
         "SilentProjectile": 1,
         "ApplyColorCustomization": 1,
         "SeekDistance": 20,
@@ -74,7 +74,7 @@
         ],
         "ImpactVelocityDampen": 1,
         "AutoRecallTimer": 0.75,
-        "DestructionTimer": 0.6,
+        "DestructionTimer": 0.60000002,
         "CatchRadius": 5,
         "MaxReflections": 4,
         "MinFlightDistance": 29.5,
@@ -92,7 +92,7 @@
         "HoverDamage": {
             "Type": "DT_FREEZE",
             "Amount": 10,
-            "ProcChance": 0.6,
+            "ProcChance": 0.60000002,
             "HitType": "DHT_PROJECTILE"
         }
     }

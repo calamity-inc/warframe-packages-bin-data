@@ -462,8 +462,8 @@
                     "RandomizeRange": 1,
                     "UseWeaponRange": 0,
                     "IdealDistance": [
-                        4.3,
-                        4.3
+                        4.3000002,
+                        4.3000002
                     ],
                     "EvaluateDistance": [
                         0,
@@ -600,7 +600,7 @@
                 "DefaultReevaluationDelay": 0,
                 "DesiredPosture": "WALK",
                 "MaxMovementDistance": 10,
-                "StopDistance": 0.4,
+                "StopDistance": 0.40000001,
                 "ClearAvoidance": 0,
                 "SpeedModifier": 1.4,
                 "MoveFacingControl": "MFC_FACE_TARGET",
@@ -741,7 +741,7 @@
                             "AnimInterfaceVariable": "IV_ADDITIVE_4_STATE",
                             "AnimValue": [
                                 0,
-                                0.01
+                                0.0099999998
                             ]
                         }
                     ],
@@ -993,8 +993,8 @@
             "DefaultReevaluationDelay": 0,
             "StopRadius": 0.5,
             "NearDistance": 1,
-            "SpeedMultiplier": 0.4,
-            "AlertSpeedMultiplier": 0.4,
+            "SpeedMultiplier": 0.40000001,
+            "AlertSpeedMultiplier": 0.40000001,
             "MovementPosture": "WALK",
             "FailOnTargetAcquired": 0,
             "AimWhenIdle": 0,
@@ -1025,11 +1025,11 @@
             "DefaultReevaluationDelay": 0,
             "AttackRange": [
                 0,
-                4.2
+                4.1999998
             ],
             "AlternateAttackRange": [
                 0,
-                4.2
+                4.1999998
             ],
             "UseMeleeFov": 0,
             "MeleeFov": 45,
@@ -1138,10 +1138,10 @@
             "WalkMovePosture": "WALK"
         },
         "GuardTactic": {
-            "PatrolBehavior:SpeedMultiplier": 0.4,
-            "PatrolBehavior:AlertSpeedMultiplier": 0.4,
+            "PatrolBehavior:SpeedMultiplier": 0.40000001,
+            "PatrolBehavior:AlertSpeedMultiplier": 0.40000001,
             "PatrolBehavior:AimWhenAlert": 0,
-            "RandomWalkBehavior:SpeedMultiplier": 0.4,
+            "RandomWalkBehavior:SpeedMultiplier": 0.40000001,
             "RandomWalkBehavior:AimWhenAlert": 0
         },
         "LocomotionController:PathFinder": [
@@ -1155,8 +1155,8 @@
             "/Lotus/Types/Game/DynamicPathFollowerWallWalk"
         ],
         "LocomotionController:DynamicPathFollowerWallWalk": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "TurnRateMultiplierOnMoveDirFacing": 1,
@@ -1165,7 +1165,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 50,
             "StopWhenTurningAngle": 90,
             "CheckFunnelForTightTurns": 0,
@@ -1181,7 +1181,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,

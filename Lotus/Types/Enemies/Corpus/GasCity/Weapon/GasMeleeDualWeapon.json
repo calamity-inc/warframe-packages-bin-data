@@ -5,15 +5,15 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalPosition": [
-                    0.01,
+                    0.0099999998,
                     0.02,
                     -0.02
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    -0.087156,
-                    0.996195
+                    -0.087155998,
+                    0.99619502
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "/Lotus/Weapons/ClanTech/Energy/ProdMeleeAttachmentNPC"
@@ -22,7 +22,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    -0.04
+                    -0.039999999
                 ],
                 "BoneName": "GAME_L1_WEAPON1",
                 "Type": "/Lotus/Weapons/ClanTech/Energy/ProdMeleeAttachmentNPC"
@@ -49,7 +49,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -219,7 +219,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.89,
+                    "PvpDamageMultiplier": 0.88999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 300,
                     "additionalForce": [
@@ -251,7 +251,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -304,9 +304,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -404,7 +404,7 @@
                     "SetToPreviousBehaviorWhenMeleeActionEnds": 1,
                     "RecordFireEvent": 1,
                     "ComboData": {
-                        "HeavyMeleeChargeTime": 0.35,
+                        "HeavyMeleeChargeTime": 0.34999999,
                         "UseCurrentContextAfterCharge": 0
                     },
                     "GroundHitLerpRate": 0.25,
@@ -447,7 +447,7 @@
                         "BoneOverride": "",
                         "PosOffset": [
                             0,
-                            0.01,
+                            0.0099999998,
                             -0.012
                         ],
                         "PosOffsetSecondary": [
@@ -476,7 +476,7 @@
                         "BoneOverride": "",
                         "PosOffset": [
                             0,
-                            0.01,
+                            0.0099999998,
                             -0.012
                         ],
                         "PosOffsetSecondary": [
@@ -504,8 +504,8 @@
         },
         "NeedsFancyReplicaUpdateAttachment": 1,
         "MeleeTreeType": "/Lotus/Weapons/Grineer/Melee/GrnDualFireAxe/AiGrnDualFireAxeMeleeTree",
-        "ParryDamagePercentBlocked": 0.35,
-        "ChannelingReflectAmount": 0.6,
+        "ParryDamagePercentBlocked": 0.34999999,
+        "ChannelingReflectAmount": 0.60000002,
         "ChannelingKillScript": {
             "Script": ""
         }

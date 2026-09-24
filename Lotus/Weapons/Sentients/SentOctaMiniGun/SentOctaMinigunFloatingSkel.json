@@ -2,56 +2,260 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "SentOctaMiniGunEmpty_skel.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_BARREL1",
+                "Type": "SentOctaMiniGunPetalDecoAlt",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_BARREL3",
+                "Type": "SentOctaMiniGunPetalDecoAlt",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_BARREL5",
+                "Type": "SentOctaMiniGunPetalDecoAlt",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_BARREL7",
+                "Type": "SentOctaMiniGunPetalDecoAlt",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_BARREL2",
+                "Type": "SentOctaMiniGunPetalDecoAlt",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_BARREL4",
+                "Type": "SentOctaMiniGunPetalDecoAlt",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_BARREL6",
+                "Type": "SentOctaMiniGunPetalDecoAlt",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_BARREL8",
+                "Type": "SentOctaMiniGunPetalDecoAlt",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
         "IgnoreParentRotation": 1,
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/WeaponAttachments/TnOctaMiniGun.lua",
             "Function": "UpdateCameraTracking",
-            "_petalBonesAlt": [
-                "GAME_C1_BARREL1",
-                "GAME_C1_BARREL4",
-                "GAME_C1_BARREL7",
-                "GAME_C1_BARREL2",
-                "GAME_C1_BARREL5",
-                "GAME_C1_BARREL8",
-                "GAME_C1_BARREL3",
-                "GAME_C1_BARREL6"
-            ],
             "_fireAnim": "/Lotus/Animations/Tenno/Movement/Rifle/SentOctaMinigun/SentOctaMinigunFireWEP_anim.fbx",
             "_altFireAnimation": "/Lotus/Animations/Tenno/Movement/Rifle/SentOctaMinigun/SentOctaMinigunAltFireWEP_anim.fbx",
             "_fireAnimMultiplier": -1,
             "_blendMasks": [
                 "GAME_C1_BARREL1_MASKROOT",
-                "GAME_C1_BARREL4_MASKROOT",
-                "GAME_C1_BARREL7_MASKROOT",
-                "GAME_C1_BARREL2_MASKROOT",
-                "GAME_C1_BARREL5_MASKROOT",
                 "GAME_C1_BARREL8_MASKROOT",
+                "GAME_C1_BARREL7_MASKROOT",
+                "GAME_C1_BARREL6_MASKROOT",
+                "GAME_C1_BARREL5_MASKROOT",
+                "GAME_C1_BARREL4_MASKROOT",
                 "GAME_C1_BARREL3_MASKROOT",
-                "GAME_C1_BARREL6_MASKROOT"
+                "GAME_C1_BARREL2_MASKROOT"
             ],
             "_blendMasksAlt": [
                 "GAME_C1_BARREL1_MASKROOT",
-                "GAME_C1_BARREL4_MASKROOT",
+                "GAME_C1_BARREL3_MASKROOT",
+                "GAME_C1_BARREL5_MASKROOT",
                 "GAME_C1_BARREL7_MASKROOT",
                 "GAME_C1_BARREL2_MASKROOT",
-                "GAME_C1_BARREL5_MASKROOT",
-                "GAME_C1_BARREL8_MASKROOT",
-                "GAME_C1_BARREL3_MASKROOT",
-                "GAME_C1_BARREL6_MASKROOT"
+                "GAME_C1_BARREL4_MASKROOT",
+                "GAME_C1_BARREL6_MASKROOT",
+                "GAME_C1_BARREL8_MASKROOT"
             ],
-            "_debugDraw": 0,
             "_petalDecoType": "SentOctaMiniGunPetalDeco",
+            "_petalDecoAltType": "SentOctaMiniGunPetalDecoAlt",
             "_petalIndicies": [
                 1
             ],
             "_spawnerType": "",
-            "_cameraTracksPitch": 1
+            "_animation": "",
+            "_loop": 0,
+            "_rateOverride": -1,
+            "_animBlendLayer": 0,
+            "_burnProj": "/Lotus/Fx/Weapons/Sentients/SentOctaMinigun/OctaGunBurnProj",
+            "_altFireMuzzleFlash": "",
+            "_beamType": "/Lotus/Fx/Weapons/Sentients/SentOctaMinigun/SentMinigunPetalLaserBeam",
+            "_beamOffset": [
+                -0.40000001,
+                0.029999999,
+                0
+            ],
+            "_beamLockOffset": 0.25,
+            "_localSoundSequencers": [],
+            "_localFireRateModifiedSoundSequencers": [],
+            "_localAmmoRatioModifiedSoundSequencers": [],
+            "_localAmmoIgnoreSequencers": [],
+            "_remoteSoundSequencers": [],
+            "_remoteFireRateModifiedSoundSequencers": [],
+            "_remoteAmmoRatioModifiedSoundSequencers": [],
+            "_remoteAmmoIgnoreSequencers": [],
+            "_fireRatePitchMultiplier": 0.2,
+            "_ammoClipPitchRange": [
+                0,
+                0.2
+            ],
+            "_ammoClipRangeLimit": [
+                0,
+                0.2
+            ],
+            "_ammoClipPitchRangeIgnore": [
+                0,
+                1
+            ],
+            "_ammoClipRangeLimitIgnore": [
+                0,
+                0.2
+            ]
         },
         "ReplicaRunScriptInstance": 1,
         "DedicatedServerRunScriptInstance": 0,
         "AmbientAnimation": "/Lotus/Animations/Tenno/Movement/Rifle/SentOctaMinigun/SentOctaMinigunAltIdleWEP_anim.fbx",
-        "TriggeredAnimation": "/Lotus/Animations/Tenno/Movement/Rifle/SentOctaMinigun/SentOctaMinigunAltEnterWEP_anim.fbx",
-        "PlayTriggeredAnimOnStart": 1,
+        "InitAmbientAnimationAtStart": 1,
         "ApplyColorCustomization": 1
     }
 }

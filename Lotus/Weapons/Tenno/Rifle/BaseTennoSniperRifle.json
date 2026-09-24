@@ -8,7 +8,7 @@
                     0,
                     0.017452,
                     0,
-                    0.999848
+                    0.99984801
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "TennoSniperRifleAttachment"
@@ -16,13 +16,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -38,14 +38,14 @@
         "UseGripOffset": 1,
         "GripPositionOffset": [
             -0.077,
-            -0.04,
+            -0.039999999,
             0.17
         ],
         "GripRotationOffset": [
             0,
-            0.704416,
-            -0.707107,
-            0.061628
+            0.70441598,
+            -0.70710677,
+            0.061627999
         ],
         "CanAimDuringReload": 1,
         "ZoomLevels": [
@@ -105,7 +105,7 @@
                     {
                         "UpgradeType": "WEAPON_DAMAGE_AMOUNT",
                         "OperationType": "MULTIPLY",
-                        "Value": 0.15,
+                        "Value": 0.15000001,
                         "DamageType": "DT_ANY",
                         "AutoType": 1,
                         "ValidType": "",
@@ -137,7 +137,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -278,11 +278,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.35,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.34999999,
                         "DT_SLASH": 0.25,
                         "Amount": 250,
-                        "ProcChance": 0.3,
+                        "ProcChance": 0.30000001,
                         "ForcedProcs": [
                             "PT_STAGGERED"
                         ],
@@ -370,7 +370,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponSemiAutomaticStateBehavior",
                 "state:WeaponSemiAutomaticStateBehavior": {
-                    "reloadTime": 0.85,
+                    "reloadTime": 0.85000002,
                     "PerfectReloadRange": [
                         0,
                         0

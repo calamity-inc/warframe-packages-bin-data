@@ -27,16 +27,16 @@
                 "LocKeyWordScript": {
                     "Script": "NightwaveCephPrimaryAugmentMod.lua",
                     "Function": "GetDescription",
-                    "_giveStatBase": 0.15,
-                    "_giveStatPerLevel": 0.15,
+                    "_giveStatBase": 0.15000001,
+                    "_giveStatPerLevel": 0.15000001,
                     "_giveStatType": "WEAPON_DAMAGE_AMOUNT",
                     "_giveStatOperation": "MULTIPLY",
-                    "_singularityChanceBase": 0.03,
-                    "_singularityChancePerLevel": 0.03,
+                    "_singularityChanceBase": 0.029999999,
+                    "_singularityChancePerLevel": 0.029999999,
                     "_singularityResource": ""
                 },
                 "SmallerIsBetter": 0,
-                "RoundTo": 0.01,
+                "RoundTo": 0.0099999998,
                 "RoundingMode": "RM_ROUND",
                 "AllowConditionalLocMerge": 0
             }
@@ -46,12 +46,12 @@
         "Script": {
             "Script": "NightwaveCephPrimaryAugmentMod.lua",
             "Function": "ApplyUpgrade",
-            "_giveStatBase": 0.15,
-            "_giveStatPerLevel": 0.15,
+            "_giveStatBase": 0.15000001,
+            "_giveStatPerLevel": 0.15000001,
             "_giveStatType": "WEAPON_DAMAGE_AMOUNT",
             "_giveStatOperation": "MULTIPLY",
-            "_singularityChanceBase": 0.03,
-            "_singularityChancePerLevel": 0.03,
+            "_singularityChanceBase": 0.029999999,
+            "_singularityChancePerLevel": 0.029999999,
             "_singularityResource": ""
         },
         "UnappliedScript": {

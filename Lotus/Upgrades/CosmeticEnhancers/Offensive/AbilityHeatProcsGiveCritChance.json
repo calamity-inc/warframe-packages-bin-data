@@ -12,7 +12,7 @@
             {
                 "UpgradeType": "WEAPON_CRIT_CHANCE",
                 "OperationType": "STACKING_MULTIPLY",
-                "Value": 0.01,
+                "Value": 0.0099999998,
                 "DamageType": "DT_ANY",
                 "AutoType": 0,
                 "ValidType": "",
@@ -28,8 +28,8 @@
                 "LocKeyWordScript": {
                     "Script": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GiveStatsForStatusProcsFromAbilities.lua",
                     "Function": "GetDescriptionInfo",
-                    "_giveStatIncreaseBase": 0.01,
-                    "_giveStatIncreasePerLevel": 0.01,
+                    "_giveStatIncreaseBase": 0.0099999998,
+                    "_giveStatIncreasePerLevel": 0.0099999998,
                     "_durationBase": 10,
                     "_durationPerLevel": 0,
                     "_maxStacksBase": 50,

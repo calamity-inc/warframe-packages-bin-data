@@ -11,7 +11,7 @@
         "PingPongRenderTarget": "/EE/Types/GraphicsRes/FluidHeightFieldPingPong",
         "PerturbFX": "/Lotus/Fx/SurfaceHitEffects/PlayerFootsteps/WaterSurfaceFX",
         "FXThreshold": 0.1,
-        "SnowSurfaceThreshold": 0.8,
+        "SnowSurfaceThreshold": 0.80000001,
         "SurfaceData": {
             "SSD_WATER": {
                 "DisplacementMaterial": "/EE/Materials/Defaults/WaterDisplacement",
@@ -25,7 +25,7 @@
             },
             "SSD_SNOW": {
                 "DisplacementMaterial": "/EE/Materials/Defaults/SnowDisplacement",
-                "PerturberQuadScale": 0.15,
+                "PerturberQuadScale": 0.15000001,
                 "SimMaterial0": "/EE/Materials/RippleSimulationSnowA",
                 "SimMaterial1": "/EE/Materials/RippleSimulationSnowB"
             },

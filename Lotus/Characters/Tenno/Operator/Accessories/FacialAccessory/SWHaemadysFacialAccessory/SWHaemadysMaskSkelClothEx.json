@@ -1,0 +1,70 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "SWHaemadysMask_skel.fbx",
+        "Attached": 1,
+        "AttachBone": "GAME_C1_SPINE5",
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "SWHaemadysMaskSkelClothData",
+        "Collision": "/Lotus/Powersuits/Operator/OperatorMalePowerSuitSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.082000002,
+                0.082999997
+            ],
+            "collidingDampeningRange": [
+                0.028999999,
+                0.059
+            ],
+            "massRange": [
+                0.059,
+                0.090000004
+            ],
+            "distConstraintRange": [
+                0.000099999997,
+                0.059
+            ],
+            "reduceStretchExponent": 0.58999997,
+            "shearingStiffness": 0.19,
+            "worldVelocityAtten": [
+                0.5,
+                -1,
+                0.5
+            ],
+            "worldVelocitySmooth": 0,
+            "wind": [
+                0.58999997,
+                0,
+                0.58999997
+            ],
+            "windStrength": [
+                -0.58999997,
+                0.58999997
+            ],
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.58999997,
+                1.59,
+                0.58999997
+            ],
+            "windVolumeScale": [
+                0.28999999,
+                0.58999997,
+                0.28999999
+            ],
+            "windVolumeOffsetRate": [
+                0.19,
+                0.58999997,
+                0.19
+            ],
+            "usePeerCollision": 0,
+            "addFloorPlaneCollision": 0,
+            "floorPlaneHeight": 0.090000004,
+            "orientationBasis": "X_Y",
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        }
+    }
+}

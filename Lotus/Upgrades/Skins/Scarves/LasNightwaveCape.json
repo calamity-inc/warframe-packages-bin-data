@@ -1,0 +1,43 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "PremiumPrice": 70,
+        "LocalizeTag": "/Lotus/Language/Cosmetics/LasNightwaveCapeSyandanaName",
+        "LocalizeDescTag": "/Lotus/Language/Cosmetics/LasNightwaveCapeSyandanaDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/LasNightwaveCape.png",
+        "ExcludeFromCodex": 0,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "GAME_C1_SPINE5",
+                    "Type": "/Lotus/Characters/Tenno/Accessory/Scarves/LasNightwaveCape/LasNightwaveCapeDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "CompatibleSlots": [
+            "Neckwear"
+        ],
+        "ApplyEnergyColor": 1,
+        "ColorSlot": "Syandana"
+    }
+}

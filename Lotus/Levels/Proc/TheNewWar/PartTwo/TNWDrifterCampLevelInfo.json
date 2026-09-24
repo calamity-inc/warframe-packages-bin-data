@@ -3,16 +3,16 @@
     "data": {
         "PostProcessInfo": {
             "dynamicExposure": [
-                0.15,
+                0.15000001,
                 16
             ],
-            "targetExposure": 0.08,
+            "targetExposure": 0.079999998,
             "adaptationRateUp": 1,
             "adaptationRateDown": 1,
             "exposureConvergeSpeed": 10,
             "useExposureEVCurve": 1,
-            "saturation": 0.9,
-            "horizonFog": 0.467128,
+            "saturation": 0.89999998,
+            "horizonFog": 0.46712801,
             "horizonFogElevation": 1,
             "fogColor": [
                 114,
@@ -20,7 +20,7 @@
                 255,
                 240
             ],
-            "distanceFogDensity": 0.18,
+            "distanceFogDensity": 0.18000001,
             "fogTexture": "/Lotus/Objects/Natural/Skybox/FogTextures/HorizonFog.png",
             "zoneMapTint": [
                 71,
@@ -34,26 +34,26 @@
             "sunShafts": 1,
             "cloudShadowsTexture": "/EE/Materials/Util/CloudShadow.png",
             "cloudShadowsMovementParams": [
-                0.002,
-                0.002,
+                0.0020000001,
+                0.0020000001,
                 -0.001,
-                0.01
+                0.0099999998
             ],
             "cloudShadowsAttenuationsParams": [
-                -0.15,
+                -0.15000001,
                 2
             ],
             "volumetricFog": {
                 "Enabled": 1,
-                "Extinction": 0.35,
+                "Extinction": 0.34999999,
                 "LandscapeFog": {
                     "MaxHeight": 20,
                     "ParticipatingMedia": {
-                        "Density": 0.15
+                        "Density": 0.15000001
                     }
                 },
                 "ClumpyNoise": {
-                    "ClumpAmount": 0.85
+                    "ClumpAmount": 0.85000002
                 }
             }
         },
@@ -76,7 +76,7 @@
             "_bardPositionalMixerAttenMin": 0,
             "_bardPositionalMixerAttenMax": 0,
             "_bardPositionalMixerGain": 0,
-            "_operatorTwinSpawnChance": 0.01,
+            "_operatorTwinSpawnChance": 0.0099999998,
             "_operatorTwinAvatarType": "/Lotus/Fx/PowersuitAbilities/Operator/OperatorTwinAvatar",
             "_operatorTwinVisibilityTriggerType": "/Lotus/Fx/PowersuitAbilities/Operator/OperatorTwinVisibilityTrigger",
             "_operatorTwinVanishTriggerType": "",

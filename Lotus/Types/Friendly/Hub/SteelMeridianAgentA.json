@@ -32,7 +32,7 @@
             "RandomWalkBehavior:DefaultReevaluationDelay": 0,
             "RandomWalkBehavior:StopRadius": 2,
             "RandomWalkBehavior:NearDistance": 4,
-            "RandomWalkBehavior:SpeedMultiplier": 0.7,
+            "RandomWalkBehavior:SpeedMultiplier": 0.69999999,
             "RandomWalkBehavior:AlertSpeedMultiplier": 1,
             "RandomWalkBehavior:AllowTarget": 0,
             "RandomWalkBehavior:AimWhenIdle": 0,
@@ -114,10 +114,10 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "IsCoverUseEnabled": 0,
         "CoverEvaluatorType": "/Lotus/Types/Enemies/Grineer/GrineerShotgunAdvancingCoverEvaluator"
     }

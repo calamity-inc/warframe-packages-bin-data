@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/GolemHeadAvatar",
     "data": {
         "Mesh": "/Lotus/Characters/Infested/InfestedBoss/InfestedCorpusExtended_skel.fbx",
-        "MeshScale": 0.6,
+        "MeshScale": 0.60000002,
         "AnimationName": "InfestedCorpusExtended",
         "RootMotionChannel": "GAME_C1_ROOT",
         "AutoSimChildren": [
@@ -15,8 +15,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_C3_BASE2",
                 "Type": "HitProxies/GolemHeadBodyBlockingProxy",
@@ -65,14 +65,14 @@
         "RaycastProxy": {
             "LocalPosition": [
                 -4,
-                -0.8,
+                -0.80000001,
                 0
             ],
             "LocalRotation": [
                 0,
                 0,
-                0.766044,
-                0.642788
+                0.76604402,
+                0.64278799
             ],
             "BoneName": "GAME_C3_BASE4",
             "Type": "HitProxies/GolemMeleeFullBody"
@@ -85,14 +85,14 @@
         "HitProxyType": {
             "LocalPosition": [
                 -2,
-                -0.9,
+                -0.89999998,
                 0
             ],
             "LocalRotation": [
                 0,
                 0,
-                0.707107,
-                0.707107
+                0.70710677,
+                0.70710677
             ],
             "BoneName": "GAME_C3_HEAD1",
             "Type": "/Lotus/Types/Enemies/Infested/Vip/GolemGrenadeWeakSpotHitProxy"

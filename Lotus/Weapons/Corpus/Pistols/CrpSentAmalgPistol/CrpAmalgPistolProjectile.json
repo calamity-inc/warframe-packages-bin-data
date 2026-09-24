@@ -99,10 +99,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Corpus/CrpSentAmalgPistol/CrpSentAmalgPistolOrbitTrail",
@@ -121,10 +121,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Corpus/CrpSentAmalgPistol/CrpSentAmalgPistolOrbitTrail",
@@ -140,15 +140,15 @@
         "AttackData": {
             "Type": "DT_IMPACT",
             "Amount": 50,
-            "ProcChance": 0.32,
+            "ProcChance": 0.31999999,
             "HitType": "DHT_PROJECTILE"
         },
-        "CriticalChance": 0.08,
+        "CriticalChance": 0.079999998,
         "CriticalMultiplier": 1.4,
         "ExplosiveAttack": {
             "Type": "DT_GAS",
             "Amount": 41,
-            "ProcChance": 0.32
+            "ProcChance": 0.31999999
         },
         "ForcedSourceProcs": [
             "PT_IMMOLATION",
@@ -157,17 +157,17 @@
             "PT_STAGGERED"
         ],
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplosionIgnoreCover": 0,
         "ExplodeOnFriendlies": 0,
         "ExplosionFallOff": 0.2,
-        "DamageRadius": 0.7,
+        "DamageRadius": 0.69999999,
         "HitEffect": "/Lotus/Fx/Weapons/Corpus/CrpSentAmalgPistol/CrpSentAmalgPistolHitEffect",
         "HitEffectThrottleRange": [
             0.2,
-            0.3
+            0.30000001
         ],
         "DieEffect": "/Lotus/Fx/Weapons/Corpus/CrpSentAmalgPistol/CrpSentAmalgPistolImpactEmbers",
         "DieEffectOffset": [
@@ -193,7 +193,7 @@
         "EmbedDeathAttack": {
             "Type": "DT_GAS",
             "Amount": 100,
-            "ProcChance": 0.32
+            "ProcChance": 0.31999999
         },
         "StopOnCollision": 0,
         "KinematicAccel": 12,
@@ -226,7 +226,7 @@
         "DieInsteadOfRecall": 1,
         "BounceTowardSeekTarget": 1,
         "SweepCapsuleWidth": 1,
-        "BladeRadius": 0.04,
+        "BladeRadius": 0.039999999,
         "AfterTouchFOVSpeed": 1.8,
         "CollisionEffect": "/Lotus/Fx/Weapons/Corpus/CrpSentAmalgPistol/CrpSentAmalgPistolHitEffect",
         "DealExplosionDamageOnImpact": 1,

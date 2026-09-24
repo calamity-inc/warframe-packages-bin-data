@@ -5,18 +5,18 @@
         "ScriptInstance": {
             "Function": "GrowingTwoStageSpawnPod",
             "_endScale": 0.5,
-            "_randomVariation": 0.05,
+            "_randomVariation": 0.050000001,
             "_stageTwoScaleUpTime": 10,
-            "_stageTwoScaleToAmount": 0.85,
+            "_stageTwoScaleToAmount": 0.85000002,
             "_largeEggType": "InfestedSpawnPodEggLarge",
             "_largeEggOffset": [
                 -0.1,
                 1.2,
-                0.3
+                0.30000001
             ],
             "_waitTimeMin": 100,
             "_waitTimeMax": 110,
-            "_podGrowChance": 0.3
+            "_podGrowChance": 0.30000001
         },
         "StateChangeScript": {
             "_agentTypesStageTwo": [
@@ -24,7 +24,7 @@
                 "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/HealingAncient",
                 "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/ToxicAncient"
             ],
-            "_stageTwoMinScale": 0.7
+            "_stageTwoMinScale": 0.69999999
         }
     }
 }

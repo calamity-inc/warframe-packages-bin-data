@@ -13,7 +13,7 @@
             0
         ],
         "Mesh": "/Lotus/Objects/Lasria/Infestation/Stadium/LASxStadiumPodA.fbx",
-        "MeshScale": 0.01,
+        "MeshScale": 0.0099999998,
         "LocalPosition": [
             0,
             1,
@@ -46,10 +46,10 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/Nemesis/InfestedNemesisSpawnFx.lua",
             "Function": "DissolveInThenOut",
-            "_dissolveInTime": 0.7,
-            "_waitTime": 0.7,
+            "_dissolveInTime": 0.69999999,
+            "_waitTime": 0.69999999,
             "_dissolveOutTime": 2,
-            "_finalScale": 0.65
+            "_finalScale": 0.64999998
         },
         "ReplicaRunScriptInstance": 1,
         "ReplicationOverride": "RO_ALWAYS"

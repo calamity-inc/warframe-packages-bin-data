@@ -16,7 +16,7 @@
                 "adjustmentEV": 0
             },
             "toneMapLUT": "/EE/Materials/PostFX/FilmLooks/Kodak2383Classic.cube",
-            "toneMapLUTBlend": 0.33,
+            "toneMapLUTBlend": 0.33000001,
             "colorCorrectCurveLift": [
                 1,
                 1,
@@ -78,47 +78,47 @@
             "fogTexture": "/Lotus/Objects/Natural/Skybox/FogTextures/EidolonMiddayFogTexture.png",
             "focalFarPlane": 125,
             "sunPosition": [
-                0.26125,
-                0.860407,
+                0.26124999,
+                0.86040699,
                 -0.437547
             ],
             "sunColor": [
-                1.18,
-                0.96,
-                0.84,
+                1.1799999,
+                0.95999998,
+                0.83999997,
                 0
             ],
             "sunShaftsDensity": 10,
             "cloudShadowsTexture": "/EE/Materials/Util/CloudShadow.png",
             "cloudShadowsMovementParams": [
-                0.005,
-                0.005,
-                0.01,
+                0.0049999999,
+                0.0049999999,
+                0.0099999998,
                 -0.001
             ],
             "volumetricFog": {
                 "FogRange": 256,
-                "NearDistance": 0.01,
+                "NearDistance": 0.0099999998,
                 "SunMultiplier": 1,
                 "Extinction": 0.25,
                 "ExtinctionConfusion": 0.25,
                 "ScatteringConfusion": 1,
                 "GlobalFog": {
-                    "Density": 0.0035,
+                    "Density": 0.0035000001,
                     "G": 0.5
                 },
                 "HeightFog": {
                     "HeightFogMinHeight": -5,
                     "HeightFogMaxHeight": 5,
                     "HeightFogParticipatingMedia": {
-                        "Density": 0.075,
+                        "Density": 0.075000003,
                         "G": 0.5,
-                        "NoiseScale": 0.05
+                        "NoiseScale": 0.050000001
                     },
                     "SecondaryHeightFogMinHeight": -5,
                     "SecondaryHeightFogMaxHeight": 0.5,
                     "SecondaryHeightFogParticipatingMedia": {
-                        "Density": 0.005,
+                        "Density": 0.0049999999,
                         "ScatteringMultiplier": 2
                     }
                 },
@@ -126,7 +126,7 @@
                     "WindSpeedMultiplier": 0.1
                 },
                 "ClumpyNoise": {
-                    "ClumpAmount": 0.3,
+                    "ClumpAmount": 0.30000001,
                     "ClumpStart": 0.5
                 },
                 "ColorGrading": {

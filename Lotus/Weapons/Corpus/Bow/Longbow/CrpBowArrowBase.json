@@ -54,10 +54,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Corpus/Bow/CrpBowArrowRings",
@@ -73,7 +73,7 @@
         "AttackData": {
             "Type": "DT_IMPACT",
             "Amount": 50,
-            "ProcChance": 0.05,
+            "ProcChance": 0.050000001,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ]
@@ -83,7 +83,7 @@
         "ExplosiveAttack": {
             "Type": "DT_FREEZE",
             "Amount": 10,
-            "ProcChance": 0.05,
+            "ProcChance": 0.050000001,
             "ForcedProcs": [
                 "PT_CHILLED"
             ]
@@ -98,14 +98,14 @@
         "ExplosionIgnoreCover": 0,
         "ExplosionCoverMinDistance": 4,
         "ExplodeOnImpact": 1,
-        "ExplosionFallOff": 0.7,
-        "DamageRadius": 7.2,
+        "ExplosionFallOff": 0.69999999,
+        "DamageRadius": 7.1999998,
         "HitEffect": "",
         "DieSound": "/Lotus/Sounds/Weapons/Corpus/CrpBow/CrpBowSecondExplosion",
         "DieEffectOffset": [
             0,
             0,
-            -0.8
+            -0.80000001
         ],
         "Toughness": 100000,
         "WhizzBySound": "/Lotus/Sounds/Weapons/Corpus/CrpBow/CrpBowWhizzBy",
@@ -125,16 +125,16 @@
         ],
         "EmbedDeathAttack": {
             "Amount": 660,
-            "ProcChance": 0.05
+            "ProcChance": 0.050000001
         },
         "EmbedEffect": "/Lotus/Fx/Weapons/Corpus/Bow/CrpBowEmbed",
         "EmbedDeathEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXScifiLarge",
         "KinematicPostCollisionsSpeedFactor": 0.75,
         "KinematicInitialSpeed": 60,
         "KinematicMaxSpeed": 60,
-        "KinematicNoise": 0.03,
+        "KinematicNoise": 0.029999999,
         "KinematicGravity": 1,
-        "KinematicGravityMultiplier": 0.33,
+        "KinematicGravityMultiplier": 0.33000001,
         "SweepRadius": 0,
         "ApplyColorCustomization": 1,
         "RiftStasisWeight": 25,

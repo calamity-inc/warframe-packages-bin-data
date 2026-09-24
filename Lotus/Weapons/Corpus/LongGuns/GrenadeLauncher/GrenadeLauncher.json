@@ -2,23 +2,23 @@
     "parent": "/Lotus/Weapons/ClanTech/LotusSpecialRifle",
     "data": {
         "PickUpMesh": "CorpusGrenadeLauncher_skel.fbx",
-        "EquipTime": 0.4,
-        "UnequipTime": 0.4,
+        "EquipTime": 0.40000001,
+        "UnequipTime": 0.40000001,
         "InventorySlot": "SLOT_2",
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    0.095,
-                    0.35
+                    0.094999999,
+                    0.34999999
                 ],
                 "BoneName": "GAME_R1_WEAPON1"
             },
             "EXTRA1": {
                 "LocalRotation": [
-                    0.001903,
-                    -0.043578,
-                    -0.043578,
+                    0.0019030001,
+                    -0.043577999,
+                    -0.043577999,
                     0.998097
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -27,8 +27,8 @@
             "EXTRA2": {
                 "LocalRotation": [
                     0.001902,
-                    -0.043578,
-                    -0.043578,
+                    -0.043577999,
+                    -0.043577999,
                     0.998097
                 ],
                 "BoneName": "GAME_L1_WEAPON1"
@@ -41,8 +41,8 @@
             0
         ],
         "HolsterBone1Rotation": [
-            0.382683,
-            0.92388,
+            0.38268301,
+            0.92387998,
             0,
             0
         ],
@@ -67,20 +67,20 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.075,
-            0.24
+            0.075000003,
+            0.23999999
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.08,
+            -0.079999998,
             -0.035,
             0.16
         ],
         "GripRotationOffset": [
             0,
-            0.706676,
-            -0.707107,
-            0.024678
+            0.70667601,
+            -0.70710677,
+            0.024677999
         ],
         "Behaviors": [
             {
@@ -97,7 +97,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -109,8 +109,8 @@
                             "firingPreferences": {
                                 "firingType": "FT_MANUAL_DETONATE",
                                 "CheckTime": [
-                                    0.3,
-                                    0.7
+                                    0.30000001,
+                                    0.69999999
                                 ],
                                 "MaxTime": [
                                     0,
@@ -271,7 +271,7 @@
                     "SpreadRotationOffset": 0,
                     "DrawGrenadeArc": 0,
                     "FudgeAngle": 0,
-                    "RaysPerMeter": 0.3,
+                    "RaysPerMeter": 0.30000001,
                     "MaxRays": 0,
                     "DrawCondition": "DC_AIMING",
                     "SplineDrawType": "",
@@ -316,7 +316,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.7,
+                    "PvpDamageMultiplier": 0.69999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -431,7 +431,7 @@
                     "ReplicateDetonate": 0,
                     "RecallProjectiles": 0,
                     "PostExplosionZoomDelay": 0.5,
-                    "DestroyDelay": 0.05,
+                    "DestroyDelay": 0.050000001,
                     "RecallBones": []
                 }
             }
@@ -466,14 +466,14 @@
         "UsesExtraHandAttachments": 1,
         "HolsterPosOffset": [
             0,
-            0.05,
+            0.050000001,
             -0.1
         ],
         "HolsterRotOffset": [
-            0.043619,
+            0.043618999,
             0,
             0,
-            0.999048
+            0.99904799
         ],
         "RequiredLevel": 6,
         "WeaknessBonus": 0,

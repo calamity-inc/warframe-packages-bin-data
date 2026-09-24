@@ -1,0 +1,99 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 60
+            }
+        ],
+        "CanNano": 0,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.60000002,
+            1
+        ],
+        "Size": [
+            0.001,
+            0.013
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0.5,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "SpewCount": [
+            10,
+            10
+        ],
+        "Shape": "SH_LINE",
+        "Material": "/Lotus/Fx/Levels/Outpost/SnowFlakeBlowingCMEnergyColor",
+        "ColorKeys": [
+            [
+                0,
+                207,
+                246,
+                255
+            ],
+            [
+                0,
+                207,
+                246,
+                255
+            ]
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.02,
+            0.02
+        ],
+        "FadeInOut": [
+            0.25,
+            0.30000001
+        ],
+        "LightingOffset": [
+            0,
+            0.60000002,
+            0
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleDev": 1,
+        "NozzleBox": [
+            0.1,
+            0,
+            0.1
+        ],
+        "NozzleSize": 0.1,
+        "Speed": [
+            0.1,
+            0.40000001
+        ],
+        "Drag": 100,
+        "Mass": [
+            0.0099999998,
+            0.029999999
+        ],
+        "VelocityStretch": 0,
+        "FlowVolume": "/EE/Types/GraphicsRes/CurlNoiseFlowVolume",
+        "FlowVelocityEndLife": [
+            3,
+            3,
+            3
+        ],
+        "FlowScale": [
+            1000,
+            1000,
+            1000
+        ]
+    }
+}

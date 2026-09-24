@@ -13,23 +13,23 @@
         "PeerCollision": "GaraSkirtPeerCollision",
         "Attribs": {
             "dampeningRange": [
-                0.01,
-                0.08
+                0.0099999998,
+                0.079999998
             ],
             "collidingDampeningRange": [
-                0.034568,
+                0.034568001,
                 0.046914
             ],
             "massRange": [
                 0,
-                0.8
+                0.80000001
             ],
             "distConstraintRange": [
                 0,
                 1.5
             ],
-            "reduceStretchExponent": 0.05,
-            "shearingStiffness": 0.01,
+            "reduceStretchExponent": 0.050000001,
+            "shearingStiffness": 0.0099999998,
             "worldVelocityAtten": [
                 0.5,
                 0.5,
@@ -58,7 +58,7 @@
                 0.5,
                 0.5
             ],
-            "floorPlaneHeight": 0.045,
+            "floorPlaneHeight": 0.045000002,
             "collisionExemptions": [
                 "GAME_C1_HIP1"
             ],

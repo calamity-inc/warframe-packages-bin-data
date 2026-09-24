@@ -30,12 +30,12 @@
                     "Function": "GetDescription",
                     "_upgradeType": "NONE",
                     "_operationType": "ADD",
-                    "_baseValue": 0.034,
-                    "_rankValue": 0.034,
+                    "_baseValue": 0.034000002,
+                    "_rankValue": 0.034000002,
                     "_isPercent": 1
                 },
                 "SmallerIsBetter": 0,
-                "RoundTo": 0.01,
+                "RoundTo": 0.0099999998,
                 "RoundingMode": "RM_ROUND",
                 "AllowConditionalLocMerge": 0
             }
@@ -48,8 +48,8 @@
             "Function": "ApplyUpgrade",
             "_upgradeType": "WEAPON_CRIT_CHANCE",
             "_operationType": "STACKING_MULTIPLY",
-            "_baseValue": 0.0334,
-            "_rankValue": 0.0334,
+            "_baseValue": 0.033399999,
+            "_rankValue": 0.033399999,
             "_isPercent": 1
         },
         "UnappliedScript": {
@@ -57,8 +57,8 @@
             "Function": "UnapplyUpgrade",
             "_upgradeType": "WEAPON_CRIT_CHANCE",
             "_operationType": "STACKING_MULTIPLY",
-            "_baseValue": 0.034,
-            "_rankValue": 0.034,
+            "_baseValue": 0.034000002,
+            "_rankValue": 0.034000002,
             "_isPercent": 0
         },
         "UpgradeChance": 0,

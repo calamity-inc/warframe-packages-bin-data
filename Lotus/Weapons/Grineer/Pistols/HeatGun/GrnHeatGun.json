@@ -12,10 +12,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.074108,
+                    0.074107997,
                     0,
                     0,
-                    0.99725
+                    0.99725002
                 ],
                 "BoneName": "GAME_R1_TWIST2",
                 "Type": "GrnHeatGunArm"
@@ -27,10 +27,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.074108,
+                    0.074107997,
                     0,
                     0,
-                    0.99725
+                    0.99725002
                 ],
                 "BoneName": "GAME_R1_TWIST2",
                 "Type": "IncarnonGrnHeatGunArm"
@@ -39,14 +39,14 @@
         "HolsterBone1Name": "GAME_R1_LEG1",
         "HolsterBone1Position": [
             -0.125,
-            -0.03,
+            -0.029999999,
             0.17
         ],
         "HolsterBone1Rotation": [
             0,
-            -0.793353,
+            -0.79335302,
             0,
-            0.608761
+            0.60876101
         ],
         "GripType": "GUN_ONE_HAND",
         "PickUpText": "/Lotus/Language/Items/PistolPickup",
@@ -71,18 +71,18 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -111,7 +111,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -188,7 +188,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/MediumWeaponHipRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/MediumWeaponAimRecoilInfo",
                     "spreadUniform": 0,
-                    "SpreadRatioHorizontal": 0.6,
+                    "SpreadRatioHorizontal": 0.60000002,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -401,7 +401,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -791,7 +791,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_FIRE",
                         "Amount": 29,
-                        "ProcChance": 0.21,
+                        "ProcChance": 0.20999999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -809,7 +809,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.98,
+                    "PvpDamageMultiplier": 0.98000002,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -841,7 +841,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.15,
+                    "criticalHitChance": 0.15000001,
                     "criticalHitDamageMultiplier": 1.7,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -861,9 +861,9 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": "",
                     "NumChains": 3,
@@ -946,7 +946,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -1141,9 +1141,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -1222,7 +1222,7 @@
                     "fireRate": 90,
                     "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 0,
-                    "ModeSwitchTime": 0.6,
+                    "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
                     "autoReloadEmptyTime": 0,
@@ -1322,9 +1322,9 @@
         "AlwaysUseAttachmentChildBone": 1,
         "HolsterRotOffset": [
             0,
-            -0.707107,
+            -0.70710677,
             0,
-            0.707107
+            0.70710677
         ],
         "RequiredLevel": 5,
         "ShowBehaviorOnUI": 1,
@@ -1349,7 +1349,7 @@
             "SECONDARY_FIRE"
         ],
         "WeaknessBonus": 0,
-        "OmegaAttenuation": 0.95,
+        "OmegaAttenuation": 0.94999999,
         "FireModes": [
             {
                 "localizedTag": "",
@@ -1436,9 +1436,9 @@
         "AllowDarkSectorMode": 1,
         "DisableDarkSectorReticleOnAim": 1,
         "DarkSectorHolsterRotOffset": [
-            0.707107,
+            0.70710677,
             0,
-            0.707107,
+            0.70710677,
             0
         ],
         "DarkSectorAttachmentsToCreate": {
@@ -1452,8 +1452,8 @@
             ],
             "LocalRotation": [
                 0,
-                0.99725,
-                0.074108,
+                0.99725002,
+                0.074107997,
                 0
             ],
             "BoneName": "GAME_L1_TWIST2",

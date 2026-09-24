@@ -47,9 +47,9 @@
                 ],
                 "LocalRotation": [
                     0,
-                    0.707107,
+                    0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/MiterVoidProjectileTrail",
@@ -112,10 +112,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Duviri/DuviriMaceShieldProjRings",
@@ -156,30 +156,30 @@
         "AttackData": {
             "DT_IMPACT": 0.2,
             "DT_PUNCTURE": 0,
-            "DT_SLASH": 0.8,
+            "DT_SLASH": 0.80000001,
             "Amount": 200,
-            "ProcChance": 0.24,
+            "ProcChance": 0.23999999,
             "ForcedProcs": [
                 "PT_STAGGERED"
             ]
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.32,
-        "CriticalMultiplier": 2.4,
+        "CriticalChance": 0.31999999,
+        "CriticalMultiplier": 2.4000001,
         "ExplosiveAttack": {
             "Type": "DT_PHYSICAL",
             "DT_IMPACT": 0.2,
             "DT_PUNCTURE": 0,
-            "DT_SLASH": 0.8,
+            "DT_SLASH": 0.80000001,
             "Amount": 100,
-            "ProcChance": 0.24
+            "ProcChance": 0.23999999
         },
         "ExplosionIgnoreSource": 1,
         "ExplosionIgnoreCover": 0,
         "ExplosionIgnoreDynamicCover": 1,
         "ExplosionCoverMinDistance": 0,
         "ExplodeOnFriendlies": 0,
-        "ExplosionFallOff": 0.4,
+        "ExplosionFallOff": 0.40000001,
         "ExplodeEffect": "/Lotus/Fx/Weapons/Duviri/DuviriMaceShieldProjImpact",
         "DamageRadius": 3,
         "HitEffect": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/MiterVoidHitEffect",
@@ -196,12 +196,12 @@
         },
         "EmbedDeathAttack": {
             "Type": "DT_GAS",
-            "ProcChance": 0.32
+            "ProcChance": 0.31999999
         },
         "KinematicAccel": 100,
         "KinematicInitialSpeed": 75,
         "KinematicMaxSpeed": 75,
-        "KinematicNoiseRate": 0.0001,
+        "KinematicNoiseRate": 0.000099999997,
         "ApplyColorCustomization": 1,
         "SeekDistance": 20,
         "SeekCone": 4,

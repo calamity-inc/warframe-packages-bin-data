@@ -96,8 +96,8 @@
         "ReplicateCreator": 1,
         "AttackData": {
             "DT_IMPACT": 0,
-            "DT_PUNCTURE": 0.8,
-            "DT_SLASH": 0.2,
+            "DT_PUNCTURE": 0.80000001,
+            "DT_SLASH": 0.19999999,
             "ProcChance": 0
         },
         "ExplosiveAttack": {
@@ -184,7 +184,7 @@
         "EmbedDeathEffect": "/Lotus/Fx/Enemies/Duviri/RangedDaxHappyDisengageExplode",
         "KinematicMovement": 1,
         "StopOnCollision": 0,
-        "KinematicPostCollisionsSpeedFactor": 0.15,
+        "KinematicPostCollisionsSpeedFactor": 0.15000001,
         "KinematicInitialSpeed": 30,
         "KinematicMaxSpeed": 30,
         "KinematicRestitution": 0,
@@ -192,10 +192,10 @@
         "SweepRadius": 0,
         "InstantTurn": 1,
         "BaseRotation": [
-            -0.707107,
+            -0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "OnProjectileStoppedScript": {
             "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/Duviri/DuviriDaxRangedDisengageAbility.lua",

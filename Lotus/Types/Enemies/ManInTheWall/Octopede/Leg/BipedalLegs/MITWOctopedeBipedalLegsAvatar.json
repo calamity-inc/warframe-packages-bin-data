@@ -27,15 +27,15 @@
             },
             {
                 "LocalPosition": [
-                    -0.45,
+                    -0.44999999,
                     0,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_L1_LEG1",
                 "Type": "BipedalLegLeftUpperBlocking",
@@ -56,8 +56,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_L1_LEG2",
                 "Type": "BipedalLegLeftLowerBlocking",
@@ -71,15 +71,15 @@
             },
             {
                 "LocalPosition": [
-                    0.45,
+                    0.44999999,
                     0,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_LEG1",
                 "Type": "BipedalLegRightUpperBlocking",
@@ -100,8 +100,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_LEG2",
                 "Type": "BipedalLegRightLowerBlocking",
@@ -147,9 +147,9 @@
         "MotionControllerType": "MITWLegsMotionController",
         "RaycastProxy": {
             "LocalPosition": [
-                0.4,
+                0.40000001,
                 0,
-                0.55
+                0.55000001
             ],
             "LocalRotation": [
                 0,
@@ -167,9 +167,9 @@
             ],
             "_boneToAttachTo": "GAME_C1_SPINECORE1",
             "_totalFadeOutDuration": 2.3,
-            "_waitBeforeDissolve": 0.6,
-            "_waitBeforeStart": 0.3,
-            "_waitBeforeDestroy": 0.15
+            "_waitBeforeDissolve": 0.60000002,
+            "_waitBeforeStart": 0.30000001,
+            "_waitBeforeDestroy": 0.15000001
         },
         "SoundEvents": [
             {
@@ -240,7 +240,7 @@
         "KillXPReward": 150,
         "UINameAttachOffset": [
             0,
-            0.85,
+            0.85000002,
             0
         ],
         "ReactionAnims": "/Lotus/Types/Game/ReactionAnims/MITWBipedalLegsReactionAnims"

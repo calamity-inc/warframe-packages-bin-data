@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Weapon/Glaive",
     "data": {
         "Mesh": "/Lotus/Objects/Tenno/Ships/RailJack/Turrets/RailjackTurretDProjectile.fbx",
-        "MeshScale": 0.4,
+        "MeshScale": 0.40000001,
         "OverrideMaterial": [
             "/Lotus/Objects/Tenno/Ships/RailJack/Engines/RailjackGhost"
         ],
@@ -108,10 +108,10 @@
         "EmbedDeathAttack": {
             "Type": "DT_GAS",
             "Amount": 100,
-            "ProcChance": 0.32
+            "ProcChance": 0.31999999
         },
         "KinematicMovement": 1,
-        "HelixRadius": 0.8,
+        "HelixRadius": 0.80000001,
         "HelixSpreadRate": 5,
         "HelixRadiusVariance": 0.2,
         "HelixSpinRate": 2,
@@ -134,7 +134,7 @@
         "AlwaysSeekCenter": 1,
         "OnlySeekAliveTargets": 1,
         "IgnoreFriendlyTargets": 1,
-        "TurningSpeed": 0.08,
+        "TurningSpeed": 0.079999998,
         "SpinRate": 0,
         "ImpactVelocityDampen": 0,
         "AutoRecallTimer": 8,

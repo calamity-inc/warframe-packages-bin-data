@@ -252,7 +252,7 @@
                         "MinStrafeDistance": 0,
                         "StopRadius": 0.5,
                         "MovementSpeedModifier": [
-                            0.8,
+                            0.80000001,
                             1.2
                         ],
                         "MovementLineOfFireScoring": 0,
@@ -270,7 +270,7 @@
                             0
                         ],
                         "MinAngleToTurn": 40,
-                        "MinAimMask": 0.9,
+                        "MinAimMask": 0.89999998,
                         "TargetNotVisibleTimeoutRange": [
                             6,
                             8
@@ -539,7 +539,7 @@
                     "StopMovingWhenAttacking": 0,
                     "DisablePostureChangers": 0,
                     "TimeBetweenLunges": 2,
-                    "LowTargetThreshold": 0.8,
+                    "LowTargetThreshold": 0.80000001,
                     "NormalAttack": "MELEE",
                     "LowAttack": "MELEE",
                     "ClearCoverReservationOnStart": 0,
@@ -547,7 +547,7 @@
                     "VipAvatarType": "/Lotus/Types/Friendly/Agents/DefenseAvatar",
                     "TimeBetweenBarks": 2,
                     "VisibilityTimeout": 0,
-                    "MaxReachableHeight": -9223372036854775808.0,
+                    "MaxReachableHeight": "3.4028235e+38",
                     "Bark": "ATTACK_SCREAM",
                     "IsOffHandWeapon": 0
                 },
@@ -803,7 +803,7 @@
                 "LookAtNearbyPlayer": 0,
                 "LookAtTarget": 1,
                 "NearbyTeammatesThreshold": 10,
-                "PlayerBias": 0.6,
+                "PlayerBias": 0.60000002,
                 "ReportAttackOnDamage": 1,
                 "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                 "PatrolBehavior:Enabled": 1,
@@ -1098,7 +1098,7 @@
                 "LookAtNearbyPlayer": 0,
                 "LookAtTarget": 1,
                 "NearbyTeammatesThreshold": 10,
-                "PlayerBias": 0.6,
+                "PlayerBias": 0.60000002,
                 "ReportAttackOnDamage": 1,
                 "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                 "PatrolBehavior:Enabled": 1,
@@ -1245,8 +1245,8 @@
             "/EE/Types/Npc/DynamicPathFollowerHover"
         ],
         "LocomotionController:DynamicPathFollowerHover": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "MinimumMoveDistance": 0.1,
@@ -1254,7 +1254,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 50,
             "StopWhenTurningAngle": 90,
             "CheckFunnelForTightTurns": 0,
@@ -1270,7 +1270,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,
@@ -1324,14 +1324,14 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 30,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGrineerReactionController",
         "PerceiverType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGrineerPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "BaseHitChance": [
-            0.35,
+            0.34999999,
             1
         ],
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",

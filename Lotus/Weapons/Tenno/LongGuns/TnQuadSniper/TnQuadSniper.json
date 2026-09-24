@@ -8,7 +8,7 @@
                     0,
                     0.017452,
                     0,
-                    0.999848
+                    0.99984801
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "TnQuadSniperAttachment"
@@ -16,13 +16,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -43,14 +43,14 @@
         "UseGripOffset": 1,
         "GripPositionOffset": [
             -0.1,
-            -0.05,
+            -0.050000001,
             0.13
         ],
         "GripRotationOffset": [
             -0.13596,
-            -0.730999,
-            0.664474,
-            0.075032
+            -0.73099899,
+            0.66447401,
+            0.075032003
         ],
         "AimStartSound": "",
         "AimStopSound": "",
@@ -58,11 +58,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 0.1,
                     "ShakeAmbient": 1,
@@ -94,13 +94,13 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
-                    "ShakeSpeed": 0.15,
+                    "ShakeSpeed": 0.15000001,
                     "ShakeAmbient": 1.25,
                     "ShakeDampening": 1.5,
                     "SwaySpeed": 1,
@@ -111,7 +111,7 @@
                     {
                         "UpgradeType": "WEAPON_CRIT_DAMAGE",
                         "OperationType": "STACKING_MULTIPLY",
-                        "Value": 0.4,
+                        "Value": 0.40000001,
                         "DamageType": "DT_ANY",
                         "AutoType": 1,
                         "ValidType": "",
@@ -143,7 +143,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -286,7 +286,7 @@
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.12,
                         "DT_PUNCTURE": 0.56,
-                        "DT_SLASH": 0.32,
+                        "DT_SLASH": 0.31999999,
                         "Amount": 172,
                         "ProcChance": 0.16,
                         "ForcedProcs": [],
@@ -307,7 +307,7 @@
                     ],
                     "damageFallOffMinDamage": 62,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.615,
+                    "PvpDamageMultiplier": 0.61500001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -340,7 +340,7 @@
                     "AltEffectHands": [],
                     "ragdollChance": 0,
                     "criticalHitChance": 0.28,
-                    "criticalHitDamageMultiplier": 2.6,
+                    "criticalHitDamageMultiplier": 2.5999999,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -433,7 +433,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 1,
                     "NumShots": 4,
-                    "BurstDelay": 0.04,
+                    "BurstDelay": 0.039999999,
                     "IgnoreFireRate": 0,
                     "EatAmmoOnUnequip": 1,
                     "QueueBursts": 0,

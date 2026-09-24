@@ -396,7 +396,7 @@
                                     "UPWARD": "",
                                     "DOWNWARD": ""
                                 },
-                                "DistanceFromTargetPoint": 0.4
+                                "DistanceFromTargetPoint": 0.40000001
                             },
                             "forceFaceReaction": 0,
                             "useTurnToAction": 0,
@@ -603,7 +603,7 @@
                         "m": 1,
                         "k": -1,
                         "b": 1,
-                        "c": 0.3,
+                        "c": 0.30000001,
                         "logistic": 1
                     },
                     "StopRadius": 1,
@@ -742,7 +742,7 @@
                                 "AvoidanceBias": 10,
                                 "LockTarget": 0,
                                 "LookAtTarget": 1,
-                                "DistanceToShoot": 0.3,
+                                "DistanceToShoot": 0.30000001,
                                 "WalkWhileShooting": 0,
                                 "AimOnFire": 0,
                                 "AllowReload": 0,
@@ -778,7 +778,7 @@
                                 "MinStrafeDistance": 0,
                                 "StopRadius": 0.5,
                                 "MovementSpeedModifier": [
-                                    0.8,
+                                    0.80000001,
                                     1.2
                                 ],
                                 "MovementLineOfFireScoring": 0,
@@ -796,7 +796,7 @@
                                     0
                                 ],
                                 "MinAngleToTurn": 40,
-                                "MinAimMask": 0.9,
+                                "MinAimMask": 0.89999998,
                                 "TargetNotVisibleTimeoutRange": [
                                     6,
                                     8
@@ -1050,7 +1050,7 @@
                     "AvoidanceBias": 10,
                     "LockTarget": 0,
                     "LookAtTarget": 1,
-                    "DistanceToShoot": 0.3,
+                    "DistanceToShoot": 0.30000001,
                     "WalkWhileShooting": 0,
                     "AimOnFire": 0,
                     "AllowReload": 0,
@@ -1102,7 +1102,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -1120,7 +1120,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8
@@ -1386,7 +1386,7 @@
                         "m": -3,
                         "k": 2,
                         "b": 1,
-                        "c": 0.6,
+                        "c": 0.60000002,
                         "logistic": 0
                     },
                     "DirectionScoreCurve": {
@@ -1398,7 +1398,7 @@
                     },
                     "AimWhileMoving": 1,
                     "SetViewWhileMoving": 1,
-                    "ShootingDistance": 0.3,
+                    "ShootingDistance": 0.30000001,
                     "NeedsVisibilityForShooting": 1,
                     "ChangeWeapons": 0,
                     "WeaponSlot": "SLOT_1",
@@ -1502,7 +1502,7 @@
                     },
                     "AimWhileMoving": 1,
                     "SetViewWhileMoving": 1,
-                    "ShootingDistance": 0.3,
+                    "ShootingDistance": 0.30000001,
                     "NeedsVisibilityForShooting": 1,
                     "ChangeWeapons": 0,
                     "WeaponSlot": "SLOT_1",
@@ -1713,7 +1713,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -1731,7 +1731,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         10,
                         60
@@ -1978,7 +1978,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 1,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,

@@ -2,18 +2,18 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Enemies/SargasRuk/EruptionPillarFlameMesh.fbx",
-        "MeshScale": 0.85,
+        "MeshScale": 0.85000002,
         "OverrideMaterial": [
             "WorldOnFireAttachedPillarMat"
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.8,
+                "TimeLength": 0.80000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0.1,
-                    0.6
+                    0.60000002
                 ],
                 "FadeCurve": {
                     "Values": [],
@@ -28,7 +28,7 @@
             },
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.8,
+                "TimeLength": 0.80000001,
                 "Multiplier": 0.5,
                 "FadeRange": [
                     0.1,

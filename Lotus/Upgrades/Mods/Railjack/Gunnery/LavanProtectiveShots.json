@@ -9,7 +9,7 @@
             {
                 "UpgradeType": "NONE",
                 "OperationType": "ADD",
-                "Value": 0.06,
+                "Value": 0.059999999,
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
@@ -27,17 +27,17 @@
                     "Function": "GetDescription",
                     "_shieldThreshold": 0.75,
                     "_turretDmg": [
-                        0.05,
+                        0.050000001,
                         0.1,
-                        0.15,
+                        0.15000001,
                         0.2,
                         0.25,
-                        0.3
+                        0.30000001
                     ],
                     "_weaponType": ""
                 },
                 "SmallerIsBetter": 0,
-                "RoundTo": 0.01,
+                "RoundTo": 0.0099999998,
                 "RoundingMode": "RM_ROUND",
                 "AllowConditionalLocMerge": 0
             }
@@ -49,26 +49,26 @@
             "Function": "ModApplied",
             "_shieldThreshold": 0.75,
             "_turretDmg": [
-                0.05,
+                0.050000001,
                 0.1,
-                0.15,
+                0.15000001,
                 0.2,
                 0.25,
-                0.3
+                0.30000001
             ],
             "_weaponType": "/Lotus/Weapons/CrewShip/RailjackTurretWeapon"
         },
         "UnappliedScript": {
             "Script": "ProtectiveShots.lua",
             "Function": "ModUnapplied",
-            "_shieldThreshold": 0.9,
+            "_shieldThreshold": 0.89999998,
             "_turretDmg": [
-                0.05,
+                0.050000001,
                 0.1,
-                0.15,
+                0.15000001,
                 0.2,
                 0.25,
-                0.3
+                0.30000001
             ],
             "_weaponType": "/Lotus/Weapons/CrewShip/RailjackTurretWeapon"
         },

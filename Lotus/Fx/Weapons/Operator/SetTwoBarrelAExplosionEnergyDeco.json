@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/BuildUpMesh.fbx",
-        "MeshScale": 0.7,
+        "MeshScale": 0.69999999,
         "OverrideMaterial": [
             "/Lotus/Fx/Weapons/SolarisUnited/BarrelBImpactEnergyDecoMat"
         ],
@@ -12,8 +12,8 @@
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.43,
-                    0.9,
+                    0.43000001,
+                    0.89999998,
                     1,
                     1
                 ]
@@ -23,8 +23,8 @@
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.06,
-                    0.79,
+                    0.059999999,
+                    0.79000002,
                     1,
                     1
                 ]
@@ -35,7 +35,7 @@
                 "slot": -1,
                 "value": [
                     0.38,
-                    0.91,
+                    0.91000003,
                     1,
                     1
                 ]
@@ -46,7 +46,7 @@
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,
@@ -60,7 +60,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.716877
+                            "Value": 0.71687698
                         },
                         {
                             "Time": 1,
@@ -69,7 +69,7 @@
                     ],
                     "SplineType": "CUBIC_SPLINE"
                 },
-                "BaseValue": 0.01,
+                "BaseValue": 0.0099999998,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
@@ -79,7 +79,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 0.5,
                 "FadeRange": [
                     0,
@@ -93,7 +93,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.256391
+                            "Value": 0.25639099
                         },
                         {
                             "Time": 1,

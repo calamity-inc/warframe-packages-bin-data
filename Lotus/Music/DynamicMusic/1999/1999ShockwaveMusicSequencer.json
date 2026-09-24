@@ -1,0 +1,428 @@
+{
+    "parent": "/Lotus/Music/DynamicMusic/Infested/InfestedOne/InfestedOneMusicSequencer",
+    "data": {
+        "Tag": "1999MusicSequencer",
+        "TransitionArray": [],
+        "DefaultTransition": {
+            "CrossFadeInTime": 4,
+            "CrossFadeOutCascadeDelay": 1,
+            "CrossFadeOutTrackOrder": [
+                4,
+                3,
+                2,
+                0,
+                1
+            ]
+        },
+        "MusicQueries": [
+            {
+                "PresetName": "BossCombat",
+                "SingleTrack": "",
+                "MultiTrackMusic": "1999TankBossCmbtMultiTrackMusic",
+                "MixEffect": "/Lotus/Music/DynamicMusic/Entrati/SnapshotEntratiHeavyCombatMusic",
+                "InitialFaderPresets": [
+                    0
+                ],
+                "FaderPresets": [
+                    0,
+                    1,
+                    2
+                ],
+                "RandomizeFaderTime": [
+                    45,
+                    60
+                ],
+                "Intensity": [
+                    0,
+                    100
+                ],
+                "AlertedAgents": [
+                    0,
+                    100
+                ],
+                "LocallyTargetingAgents": [
+                    0,
+                    100
+                ],
+                "TotalTargetingAgents": [
+                    0,
+                    100
+                ],
+                "PerformDistanceChecks": 0,
+                "NearbyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyAgentState": "AS_ANY",
+                "NearbyAllyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyEnemyPlayers": [
+                    0,
+                    100
+                ],
+                "NearbyAllyPlayers": [
+                    0,
+                    100
+                ],
+                "NearnessThreshold": [
+                    0,
+                    100
+                ],
+                "DistanceToObjective": [
+                    0,
+                    0
+                ],
+                "ValidTimeInState": [
+                    0,
+                    0
+                ],
+                "MinReevalDelay": 0,
+                "MinTimePostStateFail": 4,
+                "ChanceToPlay": 1,
+                "ValidPreviousStates": [],
+                "VariableLinks": [],
+                "GameConditions": [
+                    {
+                        "Condition:Type": "/EE/Types/Sound/SCndSatisfiesAny",
+                        "Condition:SCndSatisfiesAny": {
+                            "Conditions": [
+                                {
+                                    "Condition:Type": "/EE/Types/Engine/SCndAvatarInRange",
+                                    "Condition:SCndAvatarInRange": {
+                                        "AvatarSource": "SNDAS_INSTIGATOR_AVATAR",
+                                        "AvatarSearchType": "AST_RECENT_SEEN_TYPE",
+                                        "AvatarType": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankAvatar",
+                                        "AvatarTag": "",
+                                        "Range": [
+                                            0,
+                                            300
+                                        ],
+                                        "SameRegionIndex": 1,
+                                        "DefaultValue": 0
+                                    }
+                                },
+                                {
+                                    "Condition:Type": "/EE/Types/Engine/SCndAvatarInRange",
+                                    "Condition:SCndAvatarInRange": {
+                                        "AvatarSource": "SNDAS_INSTIGATOR_AVATAR",
+                                        "AvatarSearchType": "AST_RECENT_SEEN_TYPE",
+                                        "AvatarType": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankInfestedAvatar",
+                                        "AvatarTag": "",
+                                        "Range": [
+                                            0,
+                                            300
+                                        ],
+                                        "SameRegionIndex": 1,
+                                        "DefaultValue": 0
+                                    }
+                                },
+                                {
+                                    "Condition:Type": "/EE/Types/Engine/SCndAvatarInRange",
+                                    "Condition:SCndAvatarInRange": {
+                                        "AvatarSource": "SNDAS_INSTIGATOR_AVATAR",
+                                        "AvatarSearchType": "AST_RECENT_SEEN_TYPE",
+                                        "AvatarType": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankHardModeInfestedAvatar",
+                                        "AvatarTag": "",
+                                        "Range": [
+                                            0,
+                                            300
+                                        ],
+                                        "SameRegionIndex": 1,
+                                        "DefaultValue": 0
+                                    }
+                                }
+                            ],
+                            "DefaultValue": 0
+                        }
+                    }
+                ],
+                "GameValueBindings": []
+            },
+            {
+                "PresetName": "HeavyCombat",
+                "SingleTrack": "",
+                "MultiTrackMusic": "1999ShockwaveCmbtMultiTrackMusic",
+                "MixEffect": "/Lotus/Music/DynamicMusic/Entrati/SnapshotEntratiHeavyCombatMusic",
+                "InitialFaderPresets": [
+                    0
+                ],
+                "FaderPresets": [
+                    0
+                ],
+                "RandomizeFaderTime": [
+                    60,
+                    90
+                ],
+                "Intensity": [
+                    0,
+                    100
+                ],
+                "AlertedAgents": [
+                    8,
+                    100
+                ],
+                "LocallyTargetingAgents": [
+                    0,
+                    100
+                ],
+                "TotalTargetingAgents": [
+                    0,
+                    100
+                ],
+                "PerformDistanceChecks": 1,
+                "NearbyAgents": [
+                    8,
+                    100
+                ],
+                "NearbyAgentState": "AS_ALERTED",
+                "NearbyAllyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyEnemyPlayers": [
+                    0,
+                    100
+                ],
+                "NearbyAllyPlayers": [
+                    0,
+                    100
+                ],
+                "NearnessThreshold": [
+                    0,
+                    30
+                ],
+                "DistanceToObjective": [
+                    0,
+                    0
+                ],
+                "ValidTimeInState": [
+                    0,
+                    0
+                ],
+                "MinReevalDelay": 0,
+                "MinTimePostStateFail": 3,
+                "ChanceToPlay": 1,
+                "ValidPreviousStates": [],
+                "VariableLinks": [],
+                "GameConditions": [],
+                "GameValueBindings": []
+            },
+            {
+                "PresetName": "MidCombat",
+                "SingleTrack": "",
+                "MultiTrackMusic": "1999ShockwaveCmbtMultiTrackMusic",
+                "MixEffect": "/Lotus/Music/DynamicMusic/Entrati/SnapshotEntratiHeavyCombatMusic",
+                "InitialFaderPresets": [
+                    0
+                ],
+                "FaderPresets": [
+                    0,
+                    5
+                ],
+                "RandomizeFaderTime": [
+                    60,
+                    90
+                ],
+                "Intensity": [
+                    0,
+                    100
+                ],
+                "AlertedAgents": [
+                    4,
+                    100
+                ],
+                "LocallyTargetingAgents": [
+                    0,
+                    100
+                ],
+                "TotalTargetingAgents": [
+                    0,
+                    100
+                ],
+                "PerformDistanceChecks": 1,
+                "NearbyAgents": [
+                    4,
+                    100
+                ],
+                "NearbyAgentState": "AS_ALERTED",
+                "NearbyAllyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyEnemyPlayers": [
+                    0,
+                    100
+                ],
+                "NearbyAllyPlayers": [
+                    0,
+                    100
+                ],
+                "NearnessThreshold": [
+                    0,
+                    30
+                ],
+                "DistanceToObjective": [
+                    0,
+                    0
+                ],
+                "ValidTimeInState": [
+                    0,
+                    0
+                ],
+                "MinReevalDelay": 0,
+                "MinTimePostStateFail": 3,
+                "ChanceToPlay": 1,
+                "ValidPreviousStates": [],
+                "VariableLinks": [],
+                "GameConditions": [],
+                "GameValueBindings": []
+            },
+            {
+                "PresetName": "LightCombat",
+                "SingleTrack": "",
+                "MultiTrackMusic": "1999ShockwaveCmbtMultiTrackMusic",
+                "MixEffect": "/Lotus/Music/DynamicMusic/Entrati/SnapshotEntratiLightCombatMusic",
+                "InitialFaderPresets": [],
+                "FaderPresets": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "RandomizeFaderTime": [
+                    60,
+                    90
+                ],
+                "Intensity": [
+                    0,
+                    100
+                ],
+                "AlertedAgents": [
+                    2,
+                    100
+                ],
+                "LocallyTargetingAgents": [
+                    0,
+                    100
+                ],
+                "TotalTargetingAgents": [
+                    0,
+                    100
+                ],
+                "PerformDistanceChecks": 1,
+                "NearbyAgents": [
+                    2,
+                    100
+                ],
+                "NearbyAgentState": "AS_ALERTED",
+                "NearbyAllyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyEnemyPlayers": [
+                    0,
+                    100
+                ],
+                "NearbyAllyPlayers": [
+                    0,
+                    100
+                ],
+                "NearnessThreshold": [
+                    0,
+                    30
+                ],
+                "DistanceToObjective": [
+                    0,
+                    0
+                ],
+                "ValidTimeInState": [
+                    0,
+                    0
+                ],
+                "MinReevalDelay": 0,
+                "MinTimePostStateFail": 3,
+                "ChanceToPlay": 1,
+                "ValidPreviousStates": [],
+                "VariableLinks": [],
+                "GameConditions": [],
+                "GameValueBindings": []
+            },
+            {
+                "PresetName": "GeneralAmbient",
+                "SingleTrack": "",
+                "MultiTrackMusic": "1999ShockwaveCmbtMultiTrackMusic",
+                "MixEffect": "",
+                "InitialFaderPresets": [
+                    1
+                ],
+                "FaderPresets": [
+                    1
+                ],
+                "RandomizeFaderTime": [
+                    30,
+                    45
+                ],
+                "Intensity": [
+                    0,
+                    100
+                ],
+                "AlertedAgents": [
+                    0,
+                    100
+                ],
+                "LocallyTargetingAgents": [
+                    0,
+                    100
+                ],
+                "TotalTargetingAgents": [
+                    0,
+                    100
+                ],
+                "PerformDistanceChecks": 0,
+                "NearbyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyAgentState": "AS_ANY",
+                "NearbyAllyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyEnemyPlayers": [
+                    0,
+                    100
+                ],
+                "NearbyAllyPlayers": [
+                    0,
+                    100
+                ],
+                "NearnessThreshold": [
+                    0,
+                    100
+                ],
+                "DistanceToObjective": [
+                    0,
+                    0
+                ],
+                "ValidTimeInState": [
+                    0,
+                    0
+                ],
+                "MinReevalDelay": 0,
+                "MinTimePostStateFail": 0,
+                "ChanceToPlay": 1,
+                "ValidPreviousStates": [],
+                "VariableLinks": [],
+                "GameConditions": [],
+                "GameValueBindings": []
+            }
+        ],
+        "DistanceToEnemyLimits": [
+            0,
+            50
+        ],
+        "NumEnemyDistance": 50
+    }
+}

@@ -29,7 +29,7 @@
                 5,
                 6
             ],
-            "MeleeHitManeuverProbability": 0.3
+            "MeleeHitManeuverProbability": 0.30000001
         },
         "FlyStormTargetOrderBehavior": {
             "Enabled": 1,
@@ -86,13 +86,13 @@
             "ForceInventoryUpdate": 0,
             "LeftArm": {
                 "proxyType": "/Lotus/Types/Enemies/SpaceBattles/Corpus/Proxies/PodLeftArmProxy",
-                "healthFactor": 0.05,
+                "healthFactor": 0.050000001,
                 "bone": "GAME_L1_ARM2",
                 "onDestroyEffect": "/Lotus/Fx/SpaceBattle/Ships/CombatPod/GrineerCombatPodArmExplosion"
             },
             "RightArm": {
                 "proxyType": "/Lotus/Types/Enemies/SpaceBattles/Corpus/Proxies/PodRightArmProxy",
-                "healthFactor": 0.05,
+                "healthFactor": 0.050000001,
                 "bone": "GAME_R1_ARM2",
                 "onDestroyEffect": "/Lotus/Fx/SpaceBattle/Ships/CombatPod/GrineerCombatPodArmExplosion"
             },
@@ -808,7 +808,7 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Corpus/Drones/DroneReactionController",
         "PerceiverType": "/Lotus/Types/Enemies/Corpus/Drones/DronePerceiver"

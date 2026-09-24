@@ -40,7 +40,7 @@
                 5,
                 6
             ],
-            "MeleeHitManeuverProbability": 0.3
+            "MeleeHitManeuverProbability": 0.30000001
         },
         "BlockingBehavior": {
             "Enabled": 1,
@@ -454,7 +454,7 @@
             ],
             "NoiseOctaves": 1,
             "NoisePersistence": 1,
-            "NoiseScale": 0.6,
+            "NoiseScale": 0.60000002,
             "HeadingRange": [
                 -80,
                 90
@@ -478,7 +478,7 @@
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -622,7 +622,7 @@
                 "UseEndNodePos": 0,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1,
             "MaxDestinationHeightCorrectionDistance": 36
@@ -643,7 +643,7 @@
             "MoveSuccessRadius": 8,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 1,
             "StopWhenMovementInactive": 1,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1,
             "PreferedDistAboveNav": [
                 8,
@@ -654,7 +654,7 @@
             "DistanceToSlow": 30,
             "MinimumSlowedSpeed": 8,
             "MinimumSpeed": 0,
-            "RecoverySpeedPct": 0.6,
+            "RecoverySpeedPct": 0.60000002,
             "CorrectHeightOnIdle": 1,
             "AirplaneControls": 0,
             "DesiredAngleRangeForBank": [
@@ -728,12 +728,12 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 200,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/Grineer/GrineerPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator"
     }
 }

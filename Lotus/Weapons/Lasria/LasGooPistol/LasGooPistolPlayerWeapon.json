@@ -8,14 +8,14 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    0.01,
-                    0.03
+                    0.0099999998,
+                    0.029999999
                 ],
                 "LocalRotation": [
                     0.017452,
                     0,
                     0,
-                    0.999848
+                    0.99984801
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "LasGooPistolPlayerAttachment"
@@ -24,14 +24,14 @@
         "HolsterBone1Name": "GAME_R1_LEG1",
         "HolsterBone1Position": [
             -0.125,
-            -0.03,
+            -0.029999999,
             0.17
         ],
         "HolsterBone1Rotation": [
             0,
-            -0.793353,
+            -0.79335302,
             0,
-            0.608761
+            0.60876101
         ],
         "GripType": "GUN_ONE_HAND",
         "PickUpText": "/Lotus/Language/Items/PistolPickup",
@@ -50,7 +50,7 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "NotifyAttachmentState": 1,
@@ -69,7 +69,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -89,8 +89,8 @@
                                     1
                                 ],
                                 "fireRate": [
-                                    0.4,
-                                    0.6
+                                    0.40000001,
+                                    0.60000002
                                 ]
                             }
                         },
@@ -276,8 +276,8 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.27,
-                    "criticalHitDamageMultiplier": 2.1,
+                    "criticalHitChance": 0.27000001,
+                    "criticalHitDamageMultiplier": 2.0999999,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -295,7 +295,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponSemiAutomaticStateBehavior",
                 "state:WeaponSemiAutomaticStateBehavior": {
-                    "reloadTime": 1.667,
+                    "reloadTime": 1.6670001,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -370,7 +370,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -650,7 +650,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponChargedStateBehavior",
                 "state:WeaponChargedStateBehavior": {
-                    "reloadTime": 2.1,
+                    "reloadTime": 2.0999999,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -783,14 +783,14 @@
         "OFF_HAND": {
             "LocalPosition": [
                 0,
-                0.01,
-                0.03
+                0.0099999998,
+                0.029999999
             ],
             "LocalRotation": [
                 0.017452,
                 0,
                 0,
-                0.999848
+                0.99984801
             ],
             "BoneName": "GAME_L1_WEAPON1",
             "Type": "LasGooPistolPlayerAttachmentDS"

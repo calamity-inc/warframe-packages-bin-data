@@ -2,19 +2,19 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Enemies/SargasRuk/EruptionPillarFlameMesh.fbx",
-        "MeshScale": 0.6,
+        "MeshScale": 0.60000002,
         "OverrideMaterial": [
             "EruptionPillarCMat"
         ],
         "RandomMeshScale": [
-            0.8,
+            0.80000001,
             1
         ],
         "MaterialFade": [
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.15,
+                "TimeLength": 0.15000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,
@@ -44,7 +44,7 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.8
+                            "Value": 0.80000001
                         },
                         {
                             "Time": 0.2,
@@ -52,7 +52,7 @@
                         },
                         {
                             "Time": 1,
-                            "Value": 0.6
+                            "Value": 0.60000002
                         }
                     ],
                     "SplineType": "LINEAR_SPLINE"
@@ -67,7 +67,7 @@
             {
                 "Parameter": "ClipThreshold",
                 "Slot": -1,
-                "TimeLength": 0.8,
+                "TimeLength": 0.80000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,

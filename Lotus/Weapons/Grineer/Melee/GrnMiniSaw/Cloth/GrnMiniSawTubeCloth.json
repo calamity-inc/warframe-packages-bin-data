@@ -54,16 +54,16 @@
                 0.1
             ],
             "collidingDampeningRange": [
-                0.05,
+                0.050000001,
                 0.1
             ],
             "massRange": [
-                0.9,
+                0.89999998,
                 1
             ],
             "distConstraintRange": [
                 0.001,
-                0.03
+                0.029999999
             ],
             "reduceStretchExponent": 1,
             "shearingStiffness": 0.1,
@@ -103,7 +103,7 @@
             "useCollision": 0,
             "usePeerCollision": 0,
             "addFloorPlaneCollision": 0,
-            "floorPlaneHeight": 0.01,
+            "floorPlaneHeight": 0.0099999998,
             "orientationBasis": "NEG_X_Y",
             "simulateCollisionLast": 0
         },
@@ -115,9 +115,9 @@
                 "parentBone": "ATT_C1_CHAIN",
                 "localBone": "GAME_C1_TAIL8",
                 "offset": [
-                    0.016,
+                    0.016000001,
                     -0.013,
-                    -0.019
+                    -0.018999999
                 ],
                 "rotation": [
                     0,
@@ -131,8 +131,8 @@
                 "parentBone": "ATT_C1_CHAIN",
                 "localBone": "GAME_C1_TAIL6",
                 "offset": [
-                    0.016,
-                    -0.056,
+                    0.016000001,
+                    -0.056000002,
                     0.023
                 ],
                 "rotation": [
@@ -149,7 +149,7 @@
                 "offset": [
                     0.189,
                     -0.013,
-                    -0.019
+                    -0.018999999
                 ],
                 "rotation": [
                     0,
@@ -164,7 +164,7 @@
                 "localBone": "GAME_C1_TAIL15",
                 "offset": [
                     0.189,
-                    -0.056,
+                    -0.056000002,
                     0.023
                 ],
                 "rotation": [

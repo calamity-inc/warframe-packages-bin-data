@@ -5,11 +5,11 @@
             "Stages": [
                 {
                     "enabled": 1,
-                    "mix": 0.35,
+                    "mix": 0.34999999,
                     "type": "DSP_PITCH",
                     "pitch": {
                         "paramFinePitch": 0.5,
-                        "paramCoarsePitch": 0.448,
+                        "paramCoarsePitch": 0.44800001,
                         "paramFeedback": 0.444444,
                         "paramFeedbackPhase": 1,
                         "paramDelay": 0
@@ -17,12 +17,12 @@
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.4,
+                    "mix": 0.40000001,
                     "type": "DSP_DELAY",
                     "delay": {
                         "delayTimeSec": 0,
-                        "delayTime": 0.04,
-                        "feedback": 0.536574
+                        "delayTime": 0.039999999,
+                        "feedback": 0.53657401
                     }
                 },
                 {
@@ -39,7 +39,7 @@
                     "mix": 1,
                     "type": "DSP_EQ",
                     "eq": {
-                        "lg": 0.919753,
+                        "lg": 0.91975302,
                         "mg": 1,
                         "hg": 1.056,
                         "eqLowMid": [
@@ -71,8 +71,8 @@
                     "mix": 0,
                     "type": "DSP_DISTORTION",
                     "distortion": {
-                        "preAtten": 0.7,
-                        "saturateThreshold": 0.99,
+                        "preAtten": 0.69999999,
+                        "saturateThreshold": 0.99000001,
                         "distortionThreshold": 1,
                         "postAtten": 1
                     }

@@ -21,18 +21,18 @@
         "AvailableOnPvp": 0,
         "GripPositionOffset": [
             -0.1,
-            -0.08,
+            -0.079999998,
             0.16
         ],
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -61,7 +61,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -135,7 +135,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/PantheraPrimeRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/PantheraPrimeRecoilInfo",
                     "spreadUniform": 1,
-                    "SpreadRatioHorizontal": 0.9,
+                    "SpreadRatioHorizontal": 0.89999998,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -302,7 +302,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.96,
+                    "PvpDamageMultiplier": 0.95999998,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -353,7 +353,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponAutomaticStateBehavior",
                 "state:WeaponAutomaticStateBehavior": {
-                    "reloadTime": 2.4,
+                    "reloadTime": 2.4000001,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -430,7 +430,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -569,7 +569,7 @@
                     "BeamChild": {
                         "LocalPosition": [
                             0,
-                            0.01,
+                            0.0099999998,
                             0.25
                         ],
                         "LocalRotation": [
@@ -675,7 +675,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -1116,7 +1116,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.26,
+                    "criticalHitChance": 0.25999999,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 1,
                     "AmmoConsumedWhenHitVulnerableTarget": 1,
@@ -1136,7 +1136,7 @@
                         0.1,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.8,
+                    "ContinuousDamageAttenuationTime": 0.80000001,
                     "ContinuousDamageAttenuationCooldownTime": 1,
                     "ContinuousDamageAttenuationCooldownDelay": 0,
                     "AttenuateContinuousDamagePerTarget": 0,
@@ -1144,7 +1144,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponBeamStateBehavior",
                 "state:WeaponBeamStateBehavior": {
-                    "reloadTime": 2.4,
+                    "reloadTime": 2.4000001,
                     "PerfectReloadRange": [
                         0,
                         0

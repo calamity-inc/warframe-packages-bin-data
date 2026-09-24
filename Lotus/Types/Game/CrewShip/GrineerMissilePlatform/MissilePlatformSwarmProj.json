@@ -30,14 +30,14 @@
         "AttackData": {
             "Type": "DT_EXPLOSION",
             "Amount": 90,
-            "ProcChance": 0.03
+            "ProcChance": 0.029999999
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.05,
+        "CriticalChance": 0.050000001,
         "CriticalMultiplier": 2,
         "ExplosiveAttack": {
             "Amount": 110,
-            "ProcChance": 0.03
+            "ProcChance": 0.029999999
         },
         "ExplosionIgnoreSource": 1,
         "DamageRadius": 10,
@@ -63,7 +63,7 @@
         "KinematicBulletRaycast": 0,
         "ProjectileReplication": "REPLICATED",
         "ForwardVel": 1,
-        "UnguidedFlightTime": 0.15,
+        "UnguidedFlightTime": 0.15000001,
         "AvatarTargetPart": "TORSO",
         "AimRate": 90,
         "SeekAllEntities": 1,
@@ -79,7 +79,7 @@
         "MaxSwarmDistance": 10,
         "AlignmentStrength": 0.5,
         "CohesionStrength": 0.5,
-        "ProximityDetonationRange": 0.7,
+        "ProximityDetonationRange": 0.69999999,
         "SwarmToTargetRatio": [
             0.2,
             0.5

@@ -8,7 +8,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    -0.01
+                    -0.0099999998
                 ],
                 "BoneName": "GAME_C1_MASKATTACH",
                 "Type": "SwarmerWeaponAttachment"
@@ -16,13 +16,13 @@
         },
         "HolsterBone1Name": "GAME_C1_MASKATTACH",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -45,19 +45,19 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.04,
+            0.039999999,
             0.25
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.085,
-            -0.075,
+            -0.085000001,
+            -0.075000003,
             0.2
         ],
         "GripRotationOffset": [
             -0.171065,
-            -0.686103,
-            0.705384,
+            -0.68610299,
+            0.70538402,
             0.049325
         ],
         "RecordFireEvent": 0,
@@ -65,11 +65,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -98,7 +98,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 1,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -172,7 +172,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "spreadUniform": 0,
-                    "SpreadRatioHorizontal": 0.8,
+                    "SpreadRatioHorizontal": 0.80000001,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -313,9 +313,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 3,
                         "ProcChance": 0.2,
                         "ForcedProcs": [],
@@ -366,7 +366,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 1.5,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,

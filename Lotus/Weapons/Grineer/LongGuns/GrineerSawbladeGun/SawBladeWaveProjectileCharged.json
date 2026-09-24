@@ -57,8 +57,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Grineer/SawBlade/SawbladeTrail",
@@ -73,9 +73,9 @@
         ],
         "PhysicsBehavior": "/EE/Types/Physics/KinematicQuery",
         "AttackData": {
-            "DT_IMPACT": 0.05,
-            "DT_PUNCTURE": 0.05,
-            "DT_SLASH": 0.9,
+            "DT_IMPACT": 0.050000001,
+            "DT_PUNCTURE": 0.050000001,
+            "DT_SLASH": 0.89999998,
             "Amount": 250,
             "ProcChance": 0.5,
             "ForcedDeathProcs": [
@@ -103,7 +103,7 @@
         "KinematicAccel": 100,
         "KinematicInitialSpeed": 100,
         "KinematicMaxSpeed": 100,
-        "KinematicNoiseRate": 0.0001,
+        "KinematicNoiseRate": 0.000099999997,
         "KinematicSpinRate": [
             0,
             75,
@@ -113,8 +113,8 @@
         "BaseRotation": [
             0,
             0,
-            0.707107,
-            0.707107
+            0.70710677,
+            0.70710677
         ],
         "SweepType": "Box",
         "InitialWidth": 0.5,

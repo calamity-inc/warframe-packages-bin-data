@@ -23,7 +23,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -150,16 +150,16 @@
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 16,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.05,
-                    "RetractTime": 0.01,
+                    "MaxTraceDistanceTime": 0.050000001,
+                    "RetractTime": 0.0099999998,
                     "RecoilRate": 60,
                     "AttachToWeapon": 0,
                     "MultiBeam": 0,
                     "BeamChild": {
                         "LocalPosition": [
-                            -0.8,
+                            -0.80000001,
                             0.02,
-                            -0.18
+                            -0.18000001
                         ],
                         "LocalRotation": [
                             0,
@@ -259,7 +259,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.8,
+                    "PvpDamageMultiplier": 0.80000001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -314,7 +314,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponContinuousStateBehavior",
                 "state:WeaponContinuousStateBehavior": {
-                    "reloadTime": 2.66,
+                    "reloadTime": 2.6600001,
                     "PerfectReloadRange": [
                         0,
                         0

@@ -2,7 +2,7 @@
     "parent": "/EE/Types/Effects/ParticleSys",
     "data": {
         "CullDistance": 24,
-        "CullDissolveRatio": 0.35,
+        "CullDissolveRatio": 0.34999999,
         "DepthSortBias": 30,
         "MaterialParams": [
             {
@@ -15,15 +15,15 @@
                 "name": "SmokeEnergyMix",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.8
+                "value": 0.80000001
             },
             {
                 "name": "LowColor",
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.073,
-                    0.096,
+                    0.072999999,
+                    0.096000001,
                     0.13,
                     1
                 ]
@@ -48,7 +48,7 @@
                 },
                 {
                     "Time": 0.5,
-                    "Value": 0.912389
+                    "Value": 0.91238898
                 },
                 {
                     "Time": 1,
@@ -82,8 +82,8 @@
         "RandOrientation": 1,
         "ConstrainY": 1,
         "Spin": [
-            -0.008,
-            0.008
+            -0.0080000004,
+            0.0080000004
         ],
         "SpinByLife": {
             "Values": [
@@ -99,7 +99,7 @@
         },
         "FadeInOut": [
             0,
-            0.7
+            0.69999999
         ],
         "EyeFadeDist": 3,
         "Nozzle": "SPHERE",

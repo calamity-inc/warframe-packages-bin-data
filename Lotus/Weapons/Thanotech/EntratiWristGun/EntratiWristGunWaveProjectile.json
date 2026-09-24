@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Weapon/WaveProjectile",
     "data": {
         "Mesh": "/Lotus/Fx/Common/Sphere1.fbx",
-        "MeshScale": 0.3,
+        "MeshScale": 0.30000001,
         "OverrideMaterial": [
             "/Lotus/Fx/Weapons/Thanotech/EntratiWristGun/EntratiWristGunProjectileMat"
         ],
@@ -13,7 +13,7 @@
                 "slot": -1,
                 "value": 1,
                 "value1": 1,
-                "value2": 0.65,
+                "value2": 0.64999998,
                 "value3": 0
             }
         ],
@@ -82,7 +82,7 @@
                 "DestroyWithOwner": 1,
                 "DestroyParentOnDeath": 0,
                 "FadeOutOnDestruction": 0,
-                "Scale": 0.8
+                "Scale": 0.80000001
             },
             {
                 "LocalPosition": [
@@ -206,8 +206,8 @@
             ],
             "HitType": "DHT_PROJECTILE"
         },
-        "CriticalChance": 0.26,
-        "CriticalMultiplier": 2.4,
+        "CriticalChance": 0.25999999,
+        "CriticalMultiplier": 2.4000001,
         "ExplosiveAttack": {
             "Type": "DT_RADIATION",
             "ProcChance": 0
@@ -249,11 +249,11 @@
         "RiftStasisWeight": 25,
         "SweepType": "Sphere",
         "InitialWidth": 0.1,
-        "InitialRadius": 0.05,
+        "InitialRadius": 0.050000001,
         "AllowNormalContactBehavior": 1,
         "ProjectileResizes": [
             {
-                "Time": 0.4,
+                "Time": 0.40000001,
                 "ResizeWidth": 0.19,
                 "ResizeRadius": 0.19
             }

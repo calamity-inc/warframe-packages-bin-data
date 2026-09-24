@@ -83,6 +83,7 @@
             "DefaultReevaluationDelay": 0,
             "TimeSinceLastSeen": 5,
             "MaxDistToTarget": 25,
+            "SpeedMultiplier": 1,
             "ConsiderOrderType": 1,
             "Order": "StormTarget",
             "FailsOnTargetAcquired": 1,
@@ -139,9 +140,6 @@
             "BoostToTarget": 0,
             "ExitAfterWait": 0,
             "AdjustDestinationHeight": 0
-        },
-        "StormTargetOrderBehavior": {
-            "UseNearTargetPosture": 1
         }
     }
 }

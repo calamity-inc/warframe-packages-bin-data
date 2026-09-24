@@ -3,7 +3,7 @@
     "data": {
         "UseLightProbes": 0,
         "Mesh": "/Lotus/Fx/Common/VolumetricLightMesh.fbx",
-        "MeshScale": 0.01,
+        "MeshScale": 0.0099999998,
         "MaterialParams": [
             {
                 "name": "TintColor",
@@ -11,7 +11,7 @@
                 "slot": -1,
                 "value": [
                     0,
-                    0.33,
+                    0.33000001,
                     1,
                     1
                 ]
@@ -41,7 +41,7 @@
             {
                 "Parameter": "",
                 "Slot": -1,
-                "TimeLength": 0.85,
+                "TimeLength": 0.85000002,
                 "Multiplier": 100,
                 "FadeRange": [
                     1,
@@ -55,11 +55,11 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.776523
+                            "Value": 0.77652299
                         },
                         {
                             "Time": 1,
-                            "Value": 0.005671
+                            "Value": 0.0056710099
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"
@@ -74,7 +74,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.85,
+                "TimeLength": 0.85000002,
                 "Multiplier": 6,
                 "FadeRange": [
                     0,
@@ -88,7 +88,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.989496
+                            "Value": 0.98949599
                         },
                         {
                             "Time": 1,

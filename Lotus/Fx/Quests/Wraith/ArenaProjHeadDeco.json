@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Common/VolumetricLightElipse.fbx",
-        "MeshScale": 0.008,
+        "MeshScale": 0.0080000004,
         "OverrideMaterial": [
             "/EE/Materials/Hidden",
             "ArenaProjHeadCMat"
@@ -12,7 +12,7 @@
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
                 "TimeLength": 0.14,
-                "Multiplier": 0.002,
+                "Multiplier": 0.0020000001,
                 "FadeRange": [
                     0,
                     1
@@ -24,12 +24,12 @@
                             "Value": 0
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.7
+                            "Time": 0.33333334,
+                            "Value": 0.69999999
                         },
                         {
-                            "Time": 0.666667,
-                            "Value": 0.96
+                            "Time": 0.66666669,
+                            "Value": 0.95999998
                         },
                         {
                             "Time": 1,
@@ -38,7 +38,7 @@
                     ],
                     "SplineType": "CUBIC_SPLINE"
                 },
-                "BaseValue": 0.005,
+                "BaseValue": 0.0049999999,
                 "Delay": 0,
                 "DestroyWhenComplete": 1,
                 "IsDissolve": 0,

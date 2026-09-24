@@ -78,7 +78,7 @@
                         "PosOffset": [
                             0.1,
                             0,
-                            -0.06
+                            -0.059999999
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -89,7 +89,7 @@
                             0,
                             -0.104528,
                             0,
-                            0.994522
+                            0.99452198
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -109,7 +109,7 @@
                         "PosOffset": [
                             -0.1,
                             0,
-                            0.06
+                            0.059999999
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -120,7 +120,7 @@
                             0,
                             -0.104528,
                             0,
-                            0.994522
+                            0.99452198
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -250,6 +250,11 @@
                 "Context": "PEC_ALL",
                 "CancelEventName": ""
             }
+        ],
+        "AbilityTypes": [
+            "Abilities/FrumentariusScanAbility",
+            "Abilities/FrumentariusAmmoAbility",
+            "Abilities/FrumentariusCloakAbility"
         ],
         "ExtraDependencies": [
             "/Lotus/Weapons/Tenno/LongGuns/TnBeltFedRifle/TnBeltFedRifleWeapon",

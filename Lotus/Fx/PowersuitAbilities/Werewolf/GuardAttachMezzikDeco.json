@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Characters/Tenno/Lycath/LycathHeadMezzikArmL_skel.fbx",
-        "MeshScale": 0.42,
+        "MeshScale": 0.41999999,
         "OverrideMaterial": [
             "WerewolfHeadMatMezzik"
         ],
@@ -11,9 +11,9 @@
                 "name": "TransformOffset",
                 "type": "Float4",
                 "slot": -1,
-                "value": 0.26,
+                "value": 0.25999999,
                 "value1": -1.6,
-                "value2": 0.058,
+                "value2": 0.057999998,
                 "value3": 0
             },
             {
@@ -69,7 +69,7 @@
             "Script": "/Lotus/Powersuits/Werewolf/WerewolfPassive.lua",
             "Function": "SplineUpdate",
             "_idleEffect": "",
-            "_passiveSpeed": 0.6,
+            "_passiveSpeed": 0.60000002,
             "_passiveInvertDirection": 0,
             "_shoulderEffectDeco": "",
             "_isRightShoulder": 0
@@ -82,7 +82,7 @@
             0
         ],
         "RandomMeshScale": [
-            0.9,
+            0.89999998,
             1.1
         ],
         "BoundsExpansion": [
@@ -94,7 +94,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,

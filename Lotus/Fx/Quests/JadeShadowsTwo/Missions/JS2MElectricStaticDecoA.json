@@ -2,7 +2,7 @@
     "parent": "/Lotus/Fx/Explosions/Generic/ExplosionThanotechLightRayDecoMedium",
     "data": {
         "Mesh": "/Lotus/Fx/Electrical/ElectricStaticGeoA.fbx",
-        "MeshScale": 0.65,
+        "MeshScale": 0.64999998,
         "OverrideMaterial": [
             "/Lotus/Fx/Electrical/ElectricStaticDecoMat"
         ],
@@ -25,7 +25,7 @@
                 "value": [
                     1,
                     0.057,
-                    0.028,
+                    0.028000001,
                     0
                 ]
             },
@@ -35,22 +35,22 @@
                 "slot": -1,
                 "value": [
                     1,
-                    0.031,
-                    0.018,
+                    0.030999999,
+                    0.017999999,
                     0
                 ]
             }
         ],
         "TestRotate": 0,
         "RandomMeshScale": [
-            0.8,
+            0.80000001,
             1.1
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 100,
                 "FadeRange": [
                     0,
@@ -64,7 +64,7 @@
                         },
                         {
                             "Time": 0.2,
-                            "Value": 0.05
+                            "Value": 0.050000001
                         },
                         {
                             "Time": 1,
@@ -97,7 +97,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.4
+                            "Value": 0.40000001
                         },
                         {
                             "Time": 1,

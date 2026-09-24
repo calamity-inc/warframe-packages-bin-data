@@ -2,13 +2,13 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "OctoExRingLightGeo.fbx",
-        "MeshScale": 2.1,
+        "MeshScale": 2.0999999,
         "DissolveOverride": "/Lotus/Fx/Common/PointNoise_d.png",
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.76,
+                "TimeLength": 0.75999999,
                 "Multiplier": 22,
                 "FadeRange": [
                     0,
@@ -55,7 +55,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.8
+                            "Value": 0.80000001
                         },
                         {
                             "Time": 1,
@@ -74,7 +74,7 @@
             {
                 "Parameter": "CustomTime",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,
@@ -107,7 +107,7 @@
             {
                 "Parameter": "SmoothThreshold",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -121,7 +121,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.7
+                            "Value": 0.69999999
                         },
                         {
                             "Time": 1,

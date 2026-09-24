@@ -17,7 +17,7 @@
         "VS:WindBend": 0.12,
         "VS:WindTremble": 0.02,
         "VS:WindTrembleBranch": 1.5,
-        "VS:WindTrembleSpeed": 0.15,
+        "VS:WindTrembleSpeed": 0.15000001,
         "VS:DeformRadius": 2,
         "VS:DeformStrength": 8,
         "VS:NearPlaneCullParams": [
@@ -30,9 +30,9 @@
             0,
             0.1
         ],
-        "PS:Roughness": 0.3,
+        "PS:Roughness": 0.30000001,
         "PS:EmissiveTintColor": [
-            0.33,
+            0.33000001,
             0.0088,
             0.00094,
             1
@@ -41,14 +41,14 @@
         "PS:EmissiveFresnelPow": 5,
         "PS:EmissivePan": [
             0,
-            0.05,
+            0.050000001,
             1
         ],
         "TX:DiffuseMap": "Textures/InfTreeRibbonB_d.png",
         "TX:NormalMap": "Textures/InfTreeRibbon_n.png",
         "TX:EmissiveMap": "Textures/InfTreeRibbonB_e.png",
         "AlphaTest": 1,
-        "AlphaTestValue": 0.117647,
+        "AlphaTestValue": 0.11764706,
         "DoubleSided": 1,
         "DefaultPhysicsMaterial": "/EE/Types/Physics/Materials/Vegetation",
         "BakeEmissiveScale": 100

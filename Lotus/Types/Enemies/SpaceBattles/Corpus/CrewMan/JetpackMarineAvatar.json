@@ -3,7 +3,7 @@
     "data": {
         "IrradianceVolumeGain": 2,
         "Mesh": "/Lotus/Characters/Guild/Spaceman/CorpusSpaceman_skel.fbx",
-        "MeshScale": 2.4,
+        "MeshScale": 2.4000001,
         "OverrideMaterial": [
             "/Lotus/Characters/Guild/Spaceman/CorpusSpacemanLeaderShock",
             "/Lotus/Characters/Guild/Spaceman/CorpusHeavyHelmetLeaderTintC"
@@ -16,9 +16,9 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.521334,
+                    0.52133399,
                     -0.477714,
-                    0.521334,
+                    0.52133399,
                     0.477714
                 ],
                 "BoneName": "GAME_C1_SPINE3",
@@ -79,8 +79,8 @@
         "ServerChildren": [
             {
                 "LocalPosition": [
-                    -0.3,
-                    0.3,
+                    -0.30000001,
+                    0.30000001,
                     0
                 ],
                 "LocalRotation": [
@@ -105,7 +105,7 @@
             "Script": "/Lotus/Scripts/GrineerDroneHover.lua",
             "Function": "DroneHover",
             "_hoverSequencerType": "/Lotus/Sounds/Enemies/CorpusJetpack/CorpusJetpackFlightLoopSeq",
-            "_pitchMin": 0.7,
+            "_pitchMin": 0.69999999,
             "_pitchMax": 1.3
         },
         "ReplicaRunScriptInstance": 1,

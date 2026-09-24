@@ -8,14 +8,14 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.045,
-                    -0.05
+                    -0.045000002,
+                    -0.050000001
                 ],
                 "LocalRotation": [
                     0,
                     0,
                     -0.026177,
-                    0.999657
+                    0.99965698
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "ArchHeavyPistolsAttachment"
@@ -23,14 +23,14 @@
             "OFF_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.045,
-                    -0.05
+                    -0.045000002,
+                    -0.050000001
                 ],
                 "LocalRotation": [
                     0,
                     0,
                     -0.026177,
-                    0.999657
+                    0.99965698
                 ],
                 "BoneName": "GAME_L1_WEAPON1",
                 "Type": "ArchHeavyPistolsOffhandAttachment"
@@ -55,11 +55,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -93,7 +93,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -288,9 +288,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.45,
-                        "DT_PUNCTURE": 0.275,
-                        "DT_SLASH": 0.275,
+                        "DT_IMPACT": 0.44999999,
+                        "DT_PUNCTURE": 0.27500001,
+                        "DT_SLASH": 0.27499998,
                         "Amount": 60,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -442,14 +442,14 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.045,
-                    -0.05
+                    -0.045000002,
+                    -0.050000001
                 ],
                 "LocalRotation": [
                     0,
                     0,
                     -0.026177,
-                    0.999657
+                    0.99965698
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "ArchHeavyPistolsAltAttachment"
@@ -457,14 +457,14 @@
             "OFF_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.045,
-                    -0.05
+                    -0.045000002,
+                    -0.050000001
                 ],
                 "LocalRotation": [
                     0,
                     0,
                     -0.026177,
-                    0.999657
+                    0.99965698
                 ],
                 "BoneName": "GAME_L1_WEAPON1",
                 "Type": "ArchHeavyPistolsOffhandAltAttachment"
@@ -485,7 +485,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -613,7 +613,7 @@
                     "WhizDeviation": 1,
                     "WhizChance": 0,
                     "WhizzByRemoteMinDistance": 15,
-                    "TraceRadius": 0.03,
+                    "TraceRadius": 0.029999999,
                     "PvpTraceRadius": 0,
                     "RefinedSweep": 1,
                     "AffectedByStasis": 1,
@@ -626,9 +626,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.45,
-                        "DT_PUNCTURE": 0.275,
-                        "DT_SLASH": 0.275,
+                        "DT_IMPACT": 0.44999999,
+                        "DT_PUNCTURE": 0.27500001,
+                        "DT_SLASH": 0.27499998,
                         "Amount": 190,
                         "ProcChance": 0.14,
                         "ForcedProcs": [],

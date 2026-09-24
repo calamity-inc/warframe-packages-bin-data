@@ -186,7 +186,7 @@
             "ProcChance": 0
         },
         "ExplosionIgnoreDynamicCover": 1,
-        "ExplosionFallOff": 0.3,
+        "ExplosionFallOff": 0.30000001,
         "DamageRadius": 6,
         "DieEffect": "/Lotus/Fx/Weapons/Tenno/NWOrokinSword/NWOrokinSwordAimBlastFX",
         "DieEffectOffset": [
@@ -204,10 +204,10 @@
         "KinematicMinSpeed": 120,
         "KinematicMaxSpeed": 120,
         "BaseRotation": [
-            0.707107,
+            0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "OnProjectileDeathScript": {
             "Script": "/Lotus/Scripts/WeaponAttachments/NWOrokinSword.lua",

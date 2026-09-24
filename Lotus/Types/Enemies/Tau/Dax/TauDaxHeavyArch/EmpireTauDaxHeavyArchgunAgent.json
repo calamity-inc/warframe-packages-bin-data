@@ -42,8 +42,8 @@
             "/EE/Types/Npc/DynamicPathFollowerHover"
         ],
         "LocomotionController:DynamicPathFollowerHover": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "TurnRateMultiplierOnMoveDirFacing": 1,
@@ -52,7 +52,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 50,
             "StopWhenTurningAngle": 90,
             "CheckFunnelForTightTurns": 0,
@@ -68,7 +68,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,
@@ -79,6 +79,7 @@
             "AngleDiffTolerance": 0,
             "ForceLookTarget": 0,
             "ForcePredictUsingDesiredViewHeading": 0,
+            "MaxLookAheadDistanceForPeakHeight": 5,
             "TransitionDistance": 2,
             "CoverWalkTransitionDistance": 0.5,
             "AlternateCoverPoseTransitionDistance": 0,
@@ -119,7 +120,7 @@
             "maxHeight": 6,
             "minHeight": -4,
             "avoidanceRadius": 0.75,
-            "avoidanceFactor": 0.6
+            "avoidanceFactor": 0.60000002
         },
         "AccuracyModsType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonNpcAccuracyMods",
         "UseEnhancedViewCone": 1,
@@ -134,14 +135,14 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 30,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/Duviri/Dax/Avatars/DuviriDaxPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "BaseHitChance": [
-            0.35,
+            0.34999999,
             1
         ],
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",

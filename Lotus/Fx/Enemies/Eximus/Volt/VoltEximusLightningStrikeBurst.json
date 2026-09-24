@@ -19,8 +19,8 @@
                 ],
                 "AutoDestroy": 1,
                 "LifeSpan": [
-                    0.3,
-                    0.3
+                    0.30000001,
+                    0.30000001
                 ],
                 "Chance": 255,
                 "Force": [
@@ -205,56 +205,6 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "VoltEximusLightningBeamB",
-                "Sound": "",
-                "AttachSound": 1,
-                "Attach": "NONE",
-                "InheritAttachBone": 0,
-                "InheritAttachPosRot": 0,
-                "AttachBone": "",
-                "WorldRotation": 0,
-                "Delay": [
-                    0,
-                    0
-                ],
-                "AutoDestroy": 1,
-                "LifeSpan": [
-                    0.2,
-                    0.3
-                ],
-                "Chance": 255,
-                "Force": [
-                    0,
-                    0
-                ],
-                "Torque": [
-                    0,
-                    0
-                ],
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "PositionDeviation": [
-                    0,
-                    0
-                ],
-                "RotationDeviation": [
-                    0,
-                    0
-                ],
-                "UseFullRandomRotation": 0,
-                "InheritVelocity": 0,
-                "InheritCreator": 0
-            },
-            {
                 "Type": "VoltEximusLightningStrikeCoreDeco",
                 "Sound": "",
                 "AttachSound": 1,
@@ -270,7 +220,7 @@
                 "AutoDestroy": 1,
                 "LifeSpan": [
                     0.5,
-                    0.6
+                    0.60000002
                 ],
                 "Chance": 255,
                 "Force": [
@@ -319,8 +269,8 @@
                 ],
                 "AutoDestroy": 1,
                 "LifeSpan": [
-                    0.3,
-                    0.6
+                    0.30000001,
+                    0.60000002
                 ],
                 "Chance": 255,
                 "Force": [
@@ -369,8 +319,8 @@
                 ],
                 "AutoDestroy": 1,
                 "LifeSpan": [
-                    0.3,
-                    0.6
+                    0.30000001,
+                    0.60000002
                 ],
                 "Chance": 255,
                 "Force": [
@@ -505,6 +455,106 @@
                 "InheritCreator": 0
             },
             {
+                "Type": "/Lotus/Fx/Electrical/ElectricSparksDirectionalSmokePS",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    1,
+                    1
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "VoltEximusLightningBurstMassiveEmbers",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    1,
+                    1
+                ],
+                "Chance": 90,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
                 "Type": "VoltEximusImpactGPUSparks",
                 "Sound": "",
                 "AttachSound": 1,
@@ -553,6 +603,156 @@
                 "UseFullRandomRotation": 0,
                 "InheritVelocity": 0,
                 "InheritCreator": 0
+            },
+            {
+                "Type": "",
+                "Sound": "/Lotus/Sounds/Enemies/Eximus/Volt/EximusVoltLightningStrike",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "VoltEximusLightningStrikeCoreBDeco",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "NONE",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    0.30000001,
+                    0.30000001
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    -30,
+                    30
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "VoltEximusLightningStrikeCoreBDeco",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "NONE",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0.2
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    0.30000001,
+                    0.30000001
+                ],
+                "Chance": 138,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    -30,
+                    30
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
             }
         ],
         "Mode": "ONE_SHOT",
@@ -560,18 +760,25 @@
             1,
             1
         ],
+        "ApplyColorCustomization": 1,
         "EffectsColor": [
+            183,
             158,
-            191,
             244,
             255
         ],
         "EffectsSecondaryColor": [
-            61,
+            86,
             49,
             168,
             255
         ],
+        "CameraShake": [
+            30,
+            90
+        ],
+        "CameraShakeType": "ST_IMPACT",
+        "CameraShakeRadius": 5,
         "SurfaceSpawnHitEffect": "/Lotus/Fx/Explosions/Generic/SurfaceHitEffects/ExplosionHitEffectSmallWeak"
     }
 }

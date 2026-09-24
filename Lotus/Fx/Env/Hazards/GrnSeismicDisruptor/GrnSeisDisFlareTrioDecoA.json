@@ -17,17 +17,17 @@
             }
         ],
         "RandomMeshScale": [
-            0.9,
+            0.89999998,
             1.1
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 2,
                 "FadeRange": [
-                    0.05,
-                    0.05
+                    0.050000001,
+                    0.050000001
                 ],
                 "FadeCurve": {
                     "Values": [],
@@ -81,7 +81,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "TimeLength": 0.1,
-                "Multiplier": 0.7,
+                "Multiplier": 0.69999999,
                 "FadeRange": [
                     1,
                     1
@@ -90,7 +90,7 @@
                     "Values": [],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.3,
+                "BaseValue": 0.30000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,

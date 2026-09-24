@@ -16,7 +16,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -96,7 +96,7 @@
                     "MaxHitAvatarsPerAttack": 1,
                     "InterruptAttackOnMaxAvatarsHit": 0,
                     "DistanceBetweenHittingSameNonAvatar": 2,
-                    "SweepRadius": 0.3,
+                    "SweepRadius": 0.30000001,
                     "SweepCapsuleHalfHeight": 0.25,
                     "DefaultMeleeProxies": {
                         "MAIN_HAND": {
@@ -336,10 +336,10 @@
                     "ArmStartBone": "GAME_R1_SARM1",
                     "ArmEndBone": "GAME_R1_SARM13",
                     "NumIkBones": 12,
-                    "SweepHeight": 0.01,
+                    "SweepHeight": 0.0099999998,
                     "AttackDistance": 6.5,
-                    "AttackTime": 0.3,
-                    "RetractTime": 0.4,
+                    "AttackTime": 0.30000001,
+                    "RetractTime": 0.40000001,
                     "MaxVelocityCorrection": 2,
                     "ThrowAttacks": [],
                     "ExpandSymbol": "MeleeStart"

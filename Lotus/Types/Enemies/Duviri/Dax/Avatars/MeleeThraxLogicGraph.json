@@ -509,7 +509,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "LookAtTarget": 0,
@@ -521,7 +521,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8
@@ -734,7 +734,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 1,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,
@@ -926,7 +926,7 @@
                         "Script": ""
                     },
                     "DefaultReevaluationDelay": 0,
-                    "MinimumStateTime": 2.1,
+                    "MinimumStateTime": 2.0999999,
                     "AttackStateTime": 10,
                     "IdleStateTime": 6,
                     "MaxRingSlots": 4,
@@ -950,7 +950,7 @@
                             0,
                             20
                         ],
-                        "DistanceScoreWeight": 0.4,
+                        "DistanceScoreWeight": 0.40000001,
                         "InTargetViewWeight": 1
                     },
                     "AttackBehavior:Type": "/EE/Types/Npc/GenericBehaviorSelector",
@@ -978,7 +978,7 @@
                     "WaitBehavior:MovePosture": "JOG",
                     "WaitBehavior:CloseToTargetMovePosture": "WALK",
                     "WaitBehavior:CloseToTargetDistance": 12,
-                    "WaitBehavior:StopRadius": 0.8,
+                    "WaitBehavior:StopRadius": 0.80000001,
                     "WaitBehavior:RepositionInterval": [
                         6,
                         6
@@ -1074,7 +1074,7 @@
                     "UseWeaponRange": 0,
                     "IdealDistance": [
                         1,
-                        4.9
+                        4.9000001
                     ],
                     "EvaluateDistance": [
                         2.5,
@@ -1208,7 +1208,7 @@
                     "FailOnChildFailure": 0,
                     "SucceedOnNotParrying": 0,
                     "MinObservingTime": 2,
-                    "PctOfTimeSpentParrying": 0.4
+                    "PctOfTimeSpentParrying": 0.40000001
                 },
                 "links": []
             },
@@ -1285,7 +1285,7 @@
                     "MovePosture": "JOG",
                     "CloseToTargetMovePosture": "WALK",
                     "CloseToTargetDistance": 12,
-                    "StopRadius": 0.8,
+                    "StopRadius": 0.80000001,
                     "RepositionInterval": [
                         6,
                         6
@@ -1561,10 +1561,10 @@
                         "_npcMinRange": 5,
                         "_npcMaxRange": 30,
                         "_coordinatedAttackThreshold": 3,
-                        "_healthThreshold": 0.9,
+                        "_healthThreshold": 0.89999998,
                         "_speed": 50,
                         "_maxChargeDist": 22,
-                        "_threshold": 0.3,
+                        "_threshold": 0.30000001,
                         "_useBark": 0,
                         "_bark": "VoiceBox_ATTACK",
                         "_barkFilter": "",

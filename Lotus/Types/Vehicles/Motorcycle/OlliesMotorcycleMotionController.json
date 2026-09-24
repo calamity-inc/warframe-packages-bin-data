@@ -14,18 +14,18 @@
         "SurfaceAlignment:AlignToSurfaceSamplePoints": [
             [
                 -0.25,
-                0.3,
-                -0.675
+                0.30000001,
+                -0.67500001
             ],
             [
                 0.25,
-                0.3,
-                -0.675
+                0.30000001,
+                -0.67500001
             ],
             [
                 0,
-                0.3,
-                0.675
+                0.30000001,
+                0.67500001
             ]
         ],
         "SurfaceAlignment:MaxAlignmentBank": 20,
@@ -47,7 +47,7 @@
         "SlopeLaunchLimit": 20,
         "SlopeLaunchConverganceSpeed": 350,
         "PostSlideJumpCooldown": -1,
-        "SlideChargeTime": 0.7,
+        "SlideChargeTime": 0.69999999,
         "SlideMinSpeed": 1,
         "SlideDecelerationMultiplier": 0.25,
         "SlideImpulseEffect": "/Lotus/Fx/Gameplay/Motorcycle/MotorcycleSlideBoostActive",
@@ -73,12 +73,12 @@
             "_stationaryMaxSpeed": 0.1,
             "_forwardDismountMaxSpeed": 5,
             "_forwardDismountClampSpeed": 10,
-            "_forwardDismountSpeedMultiplier": 0.3,
+            "_forwardDismountSpeedMultiplier": 0.30000001,
             "_AvatarFadeInTimeMultiplier": 2,
             "_equipBestWeapon": 1,
             "_innerRadius": 1,
             "_outerRadius": 30,
-            "_intervalMin": 0.35,
+            "_intervalMin": 0.34999999,
             "_intervalMax": 0.75,
             "_mountedEffect": "",
             "_headLightTag": "MotorCycleLight",
@@ -93,7 +93,7 @@
             "_slideEntryImpulseTargetSpeed": 30,
             "_slideUTurnLeftAnim": "/Lotus/Animations/Tenno/Motorcycle/PowerTurnLeft_anim.fbx",
             "_slideUTurnRightAnim": "/Lotus/Animations/Tenno/Motorcycle/PowerTurnRight_anim.fbx",
-            "_slideUTurnCameraSpeed": 0.01,
+            "_slideUTurnCameraSpeed": 0.0099999998,
             "_slideUTurnCameraTrackingTime": 1,
             "_slideUTurnImpulse": 10,
             "_slideUTurnCooldown": 2,
@@ -106,7 +106,7 @@
             "_mountCameraResetAnim": "",
             "_frontWheelBone": "",
             "_backWheelBone": "",
-            "_wheelRadius": 0.3,
+            "_wheelRadius": 0.30000001,
             "_motorcycleMarkerType": ""
         },
         "WheelieMinSpeed": 999,
@@ -116,7 +116,7 @@
                 "Speed": 0
             },
             {
-                "Speed": 0.9
+                "Speed": 0.89999998
             },
             {
                 "Speed": 5
@@ -133,11 +133,11 @@
         "BoostDisengagedSound": "/Lotus/Sounds/Vehicles/Motorcycle/MotorcycleNinetyNine/MC99ContainerBoostDisengaged",
         "BrakeEngagedSound": "/Lotus/Sounds/Vehicles/Motorcycle/MotorcycleNinetyNine/MC99ContainerBrakeEngaged",
         "ReverseEngagedSound": "/Lotus/Sounds/Vehicles/Motorcycle/MotorcycleNinetyNine/MC99ContainerReverseEngaged",
-        "CollisionBounceRestitution": 0.3,
+        "CollisionBounceRestitution": 0.30000001,
         "CollisionBigStaggerVelocityThreshold": 17,
         "CollisionKnockdownVelocityThreshold": 20,
         "CollisionBounceMinSpeed": 5,
-        "CollisionBounceMaxDot": 0.6,
+        "CollisionBounceMaxDot": 0.60000002,
         "CollisionDamageRange": [
             100,
             300

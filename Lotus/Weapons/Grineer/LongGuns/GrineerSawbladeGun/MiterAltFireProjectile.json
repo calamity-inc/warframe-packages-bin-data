@@ -34,9 +34,9 @@
                 ],
                 "LocalRotation": [
                     0,
-                    0.707107,
+                    0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/MiterVoidProjectileTrail",
@@ -96,7 +96,7 @@
         "AttackData": {
             "DT_IMPACT": 0.2,
             "DT_PUNCTURE": 0.1,
-            "DT_SLASH": 0.7,
+            "DT_SLASH": 0.69999999,
             "Amount": 60,
             "ProcChance": 0.56,
             "HitType": "DHT_PROJECTILE"
@@ -115,7 +115,7 @@
             "PT_STAGGERED"
         ],
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplosionIgnoreCover": 0,
@@ -125,7 +125,7 @@
         "HitEffect": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/MiterVoidHitEffect",
         "HitEffectThrottleRange": [
             0.2,
-            0.3
+            0.30000001
         ],
         "DieEffect": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/StrunVoidProjExplodeEmbers",
         "DieEffectOffset": [
@@ -150,7 +150,7 @@
         "EmbedDeathAttack": {
             "Type": "DT_GAS",
             "Amount": 100,
-            "ProcChance": 0.32
+            "ProcChance": 0.31999999
         },
         "StopOnCollision": 0,
         "KinematicAccel": 12,
@@ -185,7 +185,7 @@
         "BounceTowardSeekTarget": 1,
         "ReflectionExplosionChance": 1,
         "SweepCapsuleWidth": 1,
-        "BladeRadius": 0.04,
+        "BladeRadius": 0.039999999,
         "AfterTouchFOVSpeed": 1.8,
         "CollisionEffect": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/MiterVoidHitEffect",
         "ReflectionExplodeEffect": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/MiterVoidProjExplosionFX",

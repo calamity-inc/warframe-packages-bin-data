@@ -1,0 +1,77 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "/Lotus/Characters/Tenno/Priest/Cloth/PriestBodyCloth_skel.fbx",
+        "OverrideMaterial": [
+            "/Lotus/Characters/Tenno/Priest/SWProfitas/SWProfitasBodyMat",
+            "/Lotus/Characters/Tenno/Priest/SWProfitas/SWProfitasClothMat",
+            "/Lotus/Characters/Tenno/Priest/SWProfitas/SWProfitasClothMat",
+            "/Lotus/Characters/Tenno/Priest/SWProfitas/SWProfitasClothMat"
+        ],
+        "Attached": 1,
+        "ReplicaRunScriptInstance": 1,
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "/Lotus/Characters/Tenno/Priest/Cloth/PriestBodyClothData",
+        "Collision": "/Lotus/Powersuits/Priest/PriestPowerSuitSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.083999999,
+                0.098800004
+            ],
+            "collidingDampeningRange": [
+                0.034600001,
+                0.0469
+            ],
+            "massRange": [
+                0.80000001,
+                1
+            ],
+            "distConstraintRange": [
+                0.175,
+                2
+            ],
+            "shearingStiffness": 0.5,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "windStrength": [
+                0,
+                0
+            ],
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.050000001,
+                0.050000001,
+                0.050000001
+            ],
+            "windVolumeScale": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "windVolumeOffsetRate": [
+                0.050000001,
+                0.050000001,
+                0.050000001
+            ],
+            "floorPlaneHeight": 0.02,
+            "dividingPlane": [
+                0,
+                0,
+                -1,
+                0
+            ],
+            "collisionExemptions": [
+                "GAME_C1_HIP1"
+            ],
+            "orientationBasis": "NEG_X_Y",
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        }
+    }
+}

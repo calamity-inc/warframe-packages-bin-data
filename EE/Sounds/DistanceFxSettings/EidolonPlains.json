@@ -9,14 +9,14 @@
             20,
             120
         ],
-        "ReverbWetDryMix": 0.15,
+        "ReverbWetDryMix": 0.15000001,
         "DistanceReverb": "/Lotus/Sounds/ReverbSettings/Distance/ExteriorDistance",
         "DistanceParams": {
             "EnableFilter": 1,
             "OutputGain": -2,
             "FilterSettings": {
                 "Frequency": 4000,
-                "Resonance": 0.666667
+                "Resonance": 0.66666698
             },
             "EffectChain": [
                 {
@@ -24,7 +24,7 @@
                     "EnableEffect": 1,
                     "EchoSettings": {
                         "WetDryMix": 0.25,
-                        "Feedback": 0.15,
+                        "Feedback": 0.15000001,
                         "Delay": 120
                     },
                     "EqSettings": {

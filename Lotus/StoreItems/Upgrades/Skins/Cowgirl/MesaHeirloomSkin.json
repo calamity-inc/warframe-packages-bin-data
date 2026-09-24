@@ -1,0 +1,38 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/LotusSuitCustomizationStoreItem",
+    "data": {
+        "ProductCategory": "WeaponSkins",
+        "LocalizeTag": "/Lotus/Language/Heirloom/MesaHeirloomSkinName",
+        "LocalizeDescTag": "/Lotus/Language/Heirloom/MesaHeirloomSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/MesaHeirloomSkin.png",
+        "TypeName": "/Lotus/Upgrades/Skins/Cowgirl/MesaHeirloomSkin",
+        "PremiumPrice": 225,
+        "Compatible": "/Lotus/Powersuits/Cowgirl/CowgirlBaseSuit",
+        "DateAddedToManifest": 1783742400,
+        "AvailableOnPvp": 1,
+        "AdditionalItems": [
+            {
+                "TypeName": "MesaHeirloomHelmet",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "MesaHeirloomArmGunSkin",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "MesaHeirloomPoncho",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            }
+        ],
+        "ExcludeFromCodex": 0,
+        "CompatibleSlots": [
+            "BodySkin"
+        ]
+    }
+}

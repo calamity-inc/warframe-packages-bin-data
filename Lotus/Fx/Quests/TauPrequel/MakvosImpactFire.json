@@ -1,7 +1,7 @@
 {
     "parent": "/EE/Types/Effects/ParticleSys",
     "data": {
-        "CullDissolveRatio": 0.35,
+        "CullDissolveRatio": 0.34999999,
         "DepthSortBias": 35,
         "MaterialParams": [
             {
@@ -16,7 +16,7 @@
                 "slot": -1,
                 "value": [
                     1,
-                    0.43,
+                    0.43000001,
                     0.025,
                     1
                 ]
@@ -81,13 +81,13 @@
                 },
                 {
                     "Time": 0.2,
-                    "Value": 0.05
+                    "Value": 0.050000001
                 }
             ]
         },
         "FadeInOut": [
             0,
-            0.7
+            0.69999999
         ],
         "EyeFadeDist": 3,
         "NozzleDev": 1,
@@ -98,7 +98,7 @@
         ],
         "Drag": 7,
         "Mass": [
-            -0.8,
+            -0.80000001,
             0
         ]
     }

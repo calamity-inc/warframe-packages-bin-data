@@ -1,0 +1,108 @@
+{
+    "parent": "OperatorFaceAccessoryBase",
+    "data": {
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 35,
+        "LocalizeTag": "/Lotus/Language/SteamWorkshop/SWHaemadysMaskName",
+        "LocalizeDescTag": "/Lotus/Language/SteamWorkshop/SWHaemadysMaskDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Face/SWHaemadysMask.png",
+        "ExcludeFromCodex": 0,
+        "IsPurchasePlatformLocked": 1,
+        "OverrideDateAddedToManifest": 1786536000,
+        "PCProdId": 6500,
+        "IsSteamPurchase": 1,
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "GAME_C1_HEAD1",
+                    "Type": "/Lotus/Characters/Tenno/Operator/Accessories/FacialAccessory/SWHaemadysFacialAccessory/SWHaemadysMaskSkelClothEx",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "ApplyEnergyColor": 1,
+        "AcessoryFitments": [
+            {
+                "SuitType": "/Lotus/Powersuits/Operator/AdultFemaleOperatorSuit",
+                "MeshType": "",
+                "Position": [
+                    0,
+                    0.017000001,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": 1.4400001
+            },
+            {
+                "SuitType": "/Lotus/Powersuits/Operator/AdultOperatorSuit",
+                "MeshType": "",
+                "Position": [
+                    0.0099999998,
+                    0.0080000004,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": 1.2
+            },
+            {
+                "SuitType": "/Lotus/Types/Friendly/PlayerControllable/FemaleControllableDrifterSuit",
+                "MeshType": "",
+                "Position": [
+                    0,
+                    0.017000001,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": 1.4400001
+            },
+            {
+                "SuitType": "/Lotus/Types/Friendly/PlayerControllable/ControllableDrifterSuit",
+                "MeshType": "",
+                "Position": [
+                    0.0099999998,
+                    0.0080000004,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": 1.2
+            }
+        ]
+    }
+}

@@ -225,7 +225,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -243,7 +243,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8
@@ -391,7 +391,7 @@
             "StopMovingWhenAttacking": 0,
             "DisablePostureChangers": 0,
             "TimeBetweenLunges": 2,
-            "LowTargetThreshold": 0.8,
+            "LowTargetThreshold": 0.80000001,
             "NormalAttack": "MELEE",
             "LowAttack": "MELEE",
             "ClearCoverReservationOnStart": 0,
@@ -399,7 +399,7 @@
             "VipAvatarType": "",
             "TimeBetweenBarks": 2,
             "VisibilityTimeout": 0,
-            "MaxReachableHeight": -9223372036854775808.0,
+            "MaxReachableHeight": "3.4028235e+38",
             "Bark": "ATTACK_SCREAM",
             "IsOffHandWeapon": 0
         },
@@ -731,8 +731,8 @@
             "/EE/Types/Npc/DynamicPathFollowerHover"
         ],
         "LocomotionController:DynamicPathFollowerHover": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "MinimumMoveDistance": 0.1,
@@ -740,7 +740,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 50,
             "StopWhenTurningAngle": 90,
             "CheckFunnelForTightTurns": 0,
@@ -756,7 +756,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,

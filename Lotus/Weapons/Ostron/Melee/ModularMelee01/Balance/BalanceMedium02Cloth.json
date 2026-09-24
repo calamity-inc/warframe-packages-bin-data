@@ -50,16 +50,16 @@
         "ControlData": "BalanceHeavy01ClothData",
         "Attribs": {
             "dampeningRange": [
-                0.01,
-                0.05
+                0.0099999998,
+                0.050000001
             ],
             "collidingDampeningRange": [
-                0.15,
+                0.15000001,
                 0.2
             ],
             "distConstraintRange": [
                 0.001,
-                0.15
+                0.15000001
             ],
             "reduceStretchExponent": 10,
             "shearingStiffness": 1,
@@ -93,7 +93,7 @@
             ],
             "usePeerCollision": 0,
             "addFloorPlaneCollision": 0,
-            "floorPlaneHeight": 0.08,
+            "floorPlaneHeight": 0.079999998,
             "orientationBasis": "X_Z",
             "simulateCollisionLast": 0
         },

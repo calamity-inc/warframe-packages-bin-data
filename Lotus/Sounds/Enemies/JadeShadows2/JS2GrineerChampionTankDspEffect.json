@@ -5,11 +5,11 @@
             "Stages": [
                 {
                     "enabled": 1,
-                    "mix": 0.7,
+                    "mix": 0.69999999,
                     "type": "DSP_PITCH",
                     "pitch": {
                         "paramFinePitch": 1,
-                        "paramCoarsePitch": 0.65,
+                        "paramCoarsePitch": 0.64999998,
                         "paramFeedback": 0,
                         "paramFeedbackPhase": 1,
                         "paramDelay": 0
@@ -34,11 +34,11 @@
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.9,
+                    "mix": 0.89999998,
                     "type": "DSP_DISTORTION",
                     "distortion": {
                         "preAtten": 1,
-                        "saturateThreshold": 0.99,
+                        "saturateThreshold": 0.99000001,
                         "distortionThreshold": 1,
                         "postAtten": 1
                     }
@@ -48,8 +48,8 @@
                     "mix": 0.2,
                     "type": "DSP_PHASER",
                     "phaser": {
-                        "fb": 0.7,
-                        "depth": 0.8,
+                        "fb": 0.69999999,
+                        "depth": 0.80000001,
                         "rate": 1,
                         "range": [
                             440,
@@ -64,7 +64,7 @@
             1
         ],
         "Pitch": [
-            0.9,
+            0.89999998,
             1.1
         ]
     }

@@ -21,18 +21,18 @@
         "AttackData": {
             "DT_IMPACT": 0.1,
             "DT_PUNCTURE": 0.25,
-            "DT_SLASH": 0.65,
+            "DT_SLASH": 0.64999998,
             "Amount": 226,
             "ProcChance": 0.2
         },
         "BaseCritChance": 0.2,
-        "OmegaAttenuation": 0.7,
+        "OmegaAttenuation": 0.69999999,
         "HitEffectOverride": "/Lotus/Fx/Weapons/Melee/Clean/HitEffects/MeleeHitEffectSword",
         "OneHanded": {
             "meleeTree": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/KatanaMeleeTree",
             "meleeStyle": "MS_KATANA",
             "CompatibleSkinType": "/Lotus/Weapons/Tenno/Melee/LotusKatanaSword",
-            "pvpDamageAttenuation": 0.82,
+            "pvpDamageAttenuation": 0.81999999,
             "holsterCustomization": "/Lotus/Upgrades/Skins/HolsterCustomizations/KatanaHipsL",
             "stancePolarity": "AP_ATTACK",
             "parryAngle": 55,
@@ -249,7 +249,7 @@
                     "WeaponAttachmentHand": "MAIN_HAND",
                     "IsAerialSlam": 0,
                     "HitAirborneTargets": 1,
-                    "VerticalImpulse": 0.15,
+                    "VerticalImpulse": 0.15000001,
                     "HorizontalImpulse": 0.1
                 }
             ]
@@ -474,7 +474,7 @@
                     "WeaponAttachmentHand": "MAIN_HAND",
                     "IsAerialSlam": 0,
                     "HitAirborneTargets": 1,
-                    "VerticalImpulse": 0.15,
+                    "VerticalImpulse": 0.15000001,
                     "HorizontalImpulse": 0.1
                 }
             ]

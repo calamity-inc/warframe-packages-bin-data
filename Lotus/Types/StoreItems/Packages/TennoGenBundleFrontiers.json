@@ -1,0 +1,42 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/PackageStoreItem",
+    "data": {
+        "ProductCategory": "Packages",
+        "LocalizeTag": "/Lotus/Language/Bundles/TennogenFrontiersBundle",
+        "LocalizeDescTag": "/Lotus/Language/Bundles/TennoGenBundleGenericDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/TennoGen/TennoGenBundleFrontier.png",
+        "DateAddedToManifest": 1786536000,
+        "FeaturedTexture": "/Lotus/Interface/Graphics/Store/Banners/TennoGenBundleFrontierBanner.png",
+        "ExcludeFromCodex": 0,
+        "TextLinkingIncludeList": [
+            "PLATFORM_XB1",
+            "PLATFORM_PS4",
+            "PLATFORM_SWITCH"
+        ],
+        "IsSteamPurchase": 1,
+        "IsPurchasePlatformLocked": 1,
+        "PackageComponents": [
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Priest/SWProfitasHarrowSkin",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Crowns/SWachetaSignaCrown",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Crowns/SWCenturioSignaCrown",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            }
+        ],
+        "AutoCalcPrices": 0,
+        "PremiumPrice": 235,
+        "AvailableOnPlatform[CP_WINDOWS]": 0
+    }
+}

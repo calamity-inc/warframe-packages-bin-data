@@ -2,9 +2,9 @@
     "parent": "/Lotus/Types/Weapons/BoltoProjectile",
     "data": {
         "Rotation": [
-            0.707107,
+            0.70710677,
             0,
-            0.707107,
+            0.70710677,
             0
         ],
         "Mesh": "InfWarfan1Projectile.fbx",
@@ -77,7 +77,7 @@
             "Amount": 70,
             "ProcChance": 1.11
         },
-        "CriticalChance": 0.09,
+        "CriticalChance": 0.090000004,
         "CriticalMultiplier": 1.7,
         "HitEffect": "/Lotus/Fx/Weapons/AcidDart/AcidDartHitEffect",
         "DieEffect": "/Lotus/Fx/Weapons/Tenno/TnBrokenFrameWarfan/FanProjDeathFX",
@@ -96,10 +96,10 @@
         },
         "EmbedTime": [
             1.2,
-            2.4
+            2.4000001
         ],
         "EmbedDeathEffect": "/Lotus/Fx/Weapons/Tenno/TnBrokenFrameWarfan/FanProjDeathFX",
-        "HelixRadius": 0.3,
+        "HelixRadius": 0.30000001,
         "HelixRadiusVariance": 0.1,
         "HelixSpinRate": 3,
         "HelixSpinRateVariance": 1,
@@ -108,14 +108,14 @@
         "KinematicMinSpeed": 49,
         "KinematicMaxSpeed": 49,
         "KinematicNoise": 0.5,
-        "KinematicNoiseRate": 0.3,
+        "KinematicNoiseRate": 0.30000001,
         "KinematicGravity": 1,
         "SweepRadius": 0,
         "BaseRotation": [
             0,
-            0.707107,
+            0.70710677,
             0,
-            0.707107
+            0.70710677
         ],
         "SilentProjectile": 1,
         "ApplyColorCustomization": 1,
@@ -131,7 +131,7 @@
             2
         ],
         "RagdollEmbedLife": 0.5,
-        "EmbedOffset": -0.05,
+        "EmbedOffset": -0.050000001,
         "AttachmentOffsets": [
             0.25
         ],

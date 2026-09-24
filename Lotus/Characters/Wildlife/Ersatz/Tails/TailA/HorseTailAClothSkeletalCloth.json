@@ -9,8 +9,8 @@
         "Collision": "/Lotus/Characters/Wildlife/Ersatz/Cloth/ErsatzSimCollision",
         "Attribs": {
             "dampeningRange": [
-                0.01,
-                0.05
+                0.0099999998,
+                0.050000001
             ],
             "collidingDampeningRange": [
                 0,
@@ -18,15 +18,15 @@
             ],
             "massRange": [
                 0.19,
-                0.8
+                0.80000001
             ],
             "distConstraintRange": [
                 0,
                 1.59
             ],
             "reduceStretch": 0,
-            "reduceStretchExponent": 0.01,
-            "shearingStiffness": 0.01,
+            "reduceStretchExponent": 0.0099999998,
+            "shearingStiffness": 0.0099999998,
             "worldVelocityAtten": [
                 1,
                 1,
@@ -43,7 +43,7 @@
             ],
             "windStrength": [
                 0,
-                0.01
+                0.0099999998
             ],
             "noiseSpeed": 0,
             "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
@@ -59,7 +59,7 @@
             ],
             "windVolumeOffsetRate": [
                 0.1,
-                0.01,
+                0.0099999998,
                 0.1
             ],
             "addFloorPlaneCollision": 0,

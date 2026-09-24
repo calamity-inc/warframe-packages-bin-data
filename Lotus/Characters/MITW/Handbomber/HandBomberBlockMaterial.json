@@ -15,15 +15,15 @@
         ],
         "PS:ReflectionsLodBias": 0,
         "PS:TintColor0": [
-            0.76,
-            0.76,
-            0.52,
+            0.75999999,
+            0.75999999,
+            0.51999998,
             0.5
         ],
         "PS:TintColor1": [
-            0.018,
+            0.017999999,
             0.31,
-            0.84,
+            0.83999997,
             0.5
         ],
         "PS:LayerNormalStrength": [
@@ -40,14 +40,14 @@
         ],
         "PS:CurvatureStrength": 1,
         "PS:EmissiveTintColorLo": [
-            0.00028,
-            0.027,
-            0.78,
+            0.00028000001,
+            0.027000001,
+            0.77999997,
             0
         ],
         "PS:EmissiveTintColorHi": [
-            0.15,
-            0.65,
+            0.15000001,
+            0.64999998,
             1,
             1
         ],
@@ -68,21 +68,6 @@
         "TX:CharacterTintMask": "HandBomberBlockMaterial_t.png",
         "TX:DetailsAoMap": "HandBomberBlockPackmap",
         "TX:EmissiveMap": "HandBomberBlockScrolling_e.png",
-        "PS:BaseTintColor": [
-            0.5,
-            0.5,
-            0.5,
-            0.5
-        ],
-        "PS:UntintableRoughness": 0.1,
-        "PS:UntintableValueStrength": 1,
-        "PS:GrimeTintColor": [
-            0.0054,
-            0.0054,
-            0.0054,
-            1
-        ],
-        "PS:GrimeRoughness": 0.1,
         "PS:BlackParams": [
             1,
             0,
@@ -100,18 +85,27 @@
         "TX:BlackNormalMap": "/Lotus/Characters/SharedTileableTextures/PlayerTintable/Concrete50_n.png",
         "PS:RedParams": [
             1,
-            0.3,
-            0.7,
+            0.30000001,
+            0.69999999,
             0
         ],
         "PS:GrimeTintColorRed": [
             0.0022,
             0.001,
-            0.00069,
+            0.00069000002,
             0
         ],
-        "PS:GrimeRoughnessRed": 0.512931,
+        "PS:GrimeRoughnessRed": 0.51293099,
         "TX:RedPackMap": "/Lotus/Characters/SharedTileableTextures/PlayerTintable/Concrete50PackMap",
-        "TX:RedNormalMap": "/Lotus/Characters/SharedTileableTextures/PlayerTintable/Concrete50_n.png"
+        "TX:RedNormalMap": "/Lotus/Characters/SharedTileableTextures/PlayerTintable/Concrete50_n.png",
+        "PS:UntintableRoughness": 0.1,
+        "PS:UntintableValueStrength": 1,
+        "PS:GrimeTintColor": [
+            0.0054000001,
+            0.0054000001,
+            0.0054000001,
+            1
+        ],
+        "PS:GrimeRoughness": 0.1
     }
 }

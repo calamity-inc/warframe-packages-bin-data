@@ -2,20 +2,20 @@
     "parent": "/EE/Types/Effects/SkeletalClothEx",
     "data": {
         "Mesh": "BaroSugatra2_skel.fbx",
-        "MeshScale": 0.6,
+        "MeshScale": 0.60000002,
         "Attached": 1,
         "AutoSimChildren": [
             {
                 "LocalPosition": [
-                    -0.04,
-                    0.09,
+                    -0.039999999,
+                    0.090000004,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_DANGLE13",
                 "Type": "",
@@ -33,12 +33,12 @@
         "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
         "Attribs": {
             "dampeningRange": [
-                0.059259,
+                0.059259001,
                 0.074074
             ],
             "collidingDampeningRange": [
-                0.024691,
-                0.038889
+                0.024691001,
+                0.038888998
             ],
             "massRange": [
                 0.5,
@@ -46,7 +46,7 @@
             ],
             "distConstraintRange": [
                 0,
-                0.4
+                0.40000001
             ],
             "shearingStiffness": 0.25,
             "worldVelocityAtten": [
@@ -62,7 +62,7 @@
             ],
             "windStrength": [
                 0.1,
-                0.3
+                0.30000001
             ],
             "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
             "windVolumeStrength": [

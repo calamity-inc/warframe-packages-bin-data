@@ -23,7 +23,7 @@
                 "name": "Hardness",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.15
+                "value": 0.15000001
             },
             {
                 "name": "Pan",
@@ -38,8 +38,8 @@
                 "name": "PanSecond",
                 "type": "Float4",
                 "slot": -1,
-                "value": -0.05,
-                "value1": 0.85,
+                "value": -0.050000001,
+                "value1": 0.85000002,
                 "value2": 0,
                 "value3": 0
             },
@@ -49,7 +49,7 @@
                 "slot": -1,
                 "value": [
                     0,
-                    0.67,
+                    0.67000002,
                     0.63,
                     1
                 ]
@@ -60,7 +60,7 @@
                 "slot": -1,
                 "value": [
                     0,
-                    0.67,
+                    0.67000002,
                     0.63,
                     1
                 ]
@@ -71,7 +71,7 @@
                 "slot": -1,
                 "value": [
                     0,
-                    0.67,
+                    0.67000002,
                     0.63,
                     1
                 ]
@@ -80,7 +80,7 @@
                 "name": "DistortAtten",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.65
+                "value": 0.64999998
             }
         ],
         "DistortionEffect": 1,
@@ -89,9 +89,9 @@
         "IgnoreParentScale": 1,
         "EnableReplicaMoveNoise": 1,
         "ReplicaPositionNoise": [
-            0.08,
-            0.08,
-            0.08,
+            0.079999998,
+            0.079999998,
+            0.079999998,
             1.5
         ],
         "MaterialFade": [
@@ -128,11 +128,11 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.7
+                            "Value": 0.69999999
                         },
                         {
                             "Time": 0.25,
-                            "Value": 0.775
+                            "Value": 0.77499998
                         },
                         {
                             "Time": 0.5,
@@ -140,16 +140,16 @@
                         },
                         {
                             "Time": 0.75,
-                            "Value": 0.775
+                            "Value": 0.77499998
                         },
                         {
                             "Time": 1,
-                            "Value": 0.7
+                            "Value": 0.69999999
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"
                 },
-                "BaseValue": 0.6,
+                "BaseValue": 0.60000002,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,

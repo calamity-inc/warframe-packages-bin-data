@@ -1,0 +1,31 @@
+{
+    "parent": "/Lotus/Types/Game/RecipeItem",
+    "data": {
+        "PickUpText": "MANTYS EXOSKELETON BLUEPRINT",
+        "SellingPrice": 3500,
+        "ExcludeFromCodex": 0,
+        "TradeCapability": "RO_ALWAYS",
+        "ResultItem": "/Lotus/StoreItems/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipFuselageComponent",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 9000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                "ItemCount": 1800
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 4500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                "ItemCount": 10
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "ShipFeaturePrereq": "/Lotus/Types/Items/ShipFeatureItems/FoundryVesselUpgradeFeatureItem"
+    }
+}

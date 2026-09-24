@@ -33,7 +33,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -134,9 +134,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -357,7 +357,7 @@
                         "PosOffset": [
                             0,
                             -0.02,
-                            -0.09
+                            -0.090000004
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -368,7 +368,7 @@
                             -0.085832,
                             0.172987,
                             0.015134,
-                            0.98106
+                            0.98106003
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -377,7 +377,7 @@
                             1
                         ],
                         "UseSecondaryOffset": 1,
-                        "Scale": 0.8
+                        "Scale": 0.80000001
                     }
                 ]
             },
@@ -388,7 +388,7 @@
                         "PosOffset": [
                             0,
                             0.02,
-                            0.09
+                            0.090000004
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -399,7 +399,7 @@
                             -0.085832,
                             0.172987,
                             0.015134,
-                            0.98106
+                            0.98106003
                         ],
                         "RotOffsetSecondary": [
                             0,
@@ -408,7 +408,7 @@
                             1
                         ],
                         "UseSecondaryOffset": 1,
-                        "Scale": 0.8
+                        "Scale": 0.80000001
                     }
                 ]
             },
@@ -535,7 +535,7 @@
         "MaxEnergy": 175,
         "InitialEnergy": 75,
         "MovementSpeedMultiplier": 1.15,
-        "PvpBulletJumpSpeedMultiplier": 0.9,
+        "PvpBulletJumpSpeedMultiplier": 0.89999998,
         "ArmourRatingOverride": 160,
         "AttachedFX": [
             {
@@ -589,10 +589,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.08641,
+                    -0.086410001,
                     0.011376,
-                    0.130029,
-                    0.987672
+                    0.13002899,
+                    0.98767197
                 ],
                 "BoneName": "GAME_R1_ARM1",
                 "Type": "/Lotus/Characters/Tenno/Glass/GlassShoulderGlassPartRDeco",
@@ -606,15 +606,15 @@
             },
             {
                 "LocalPosition": [
-                    -0.05,
-                    0.01,
+                    -0.050000001,
+                    0.0099999998,
                     0
                 ],
                 "LocalRotation": [
-                    -0.085406,
+                    -0.085405998,
                     0.017376,
-                    0.198609,
-                    0.976196
+                    0.19860899,
+                    0.97619599
                 ],
                 "BoneName": "GAME_L1_ARM1",
                 "Type": "/Lotus/Characters/Tenno/Glass/GlassShoulderGlassPartLDeco",
@@ -629,14 +629,14 @@
             {
                 "LocalPosition": [
                     0,
-                    0.05,
-                    -0.018
+                    0.050000001,
+                    -0.017999999
                 ],
                 "LocalRotation": [
-                    -0.043619,
+                    -0.043618999,
                     0,
                     0,
-                    0.999048
+                    0.99904799
                 ],
                 "BoneName": "GAME_C1_HIP1",
                 "Type": "/Lotus/Characters/Tenno/Glass/Cloth/GlassHipClothSkeletalCloth",

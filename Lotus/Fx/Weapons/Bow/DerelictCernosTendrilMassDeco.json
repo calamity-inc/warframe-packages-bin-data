@@ -2,13 +2,13 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "DerelictCernosTendrilMass.fbx",
-        "MeshScale": 0.7,
+        "MeshScale": 0.69999999,
         "MaterialParams": [
             {
                 "name": "GrowthMaxRadius",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.15
+                "value": 0.15000001
             }
         ],
         "UseParentDissolve": 0,
@@ -35,14 +35,14 @@
             0.1
         ],
         "RandomMeshScale": [
-            0.6,
+            0.60000002,
             1
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 100,
                 "FadeRange": [
                     1,

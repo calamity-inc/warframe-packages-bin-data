@@ -1,5 +1,5 @@
 {
-    "parent": "/Lotus/Types/Game/DiminishingReturnsPickup",
+    "parent": "/Lotus/Types/Game/PickUps/LotusPickUp",
     "data": {
         "UseAmbient": 1,
         "IrradianceVolumeGain": 10,
@@ -55,16 +55,6 @@
         "DestroyWhenItemTaken": 0,
         "AutonomousPickup": 1,
         "ImmediateCreate": 1,
-        "PickUpActionType": "/Lotus/Types/PickUps/BluePrintAutoPickUp",
-        "MissionLimitations": [
-            {
-                "ExcludeIfNodeIntroCompleted": "",
-                "MissionNode": "SolNode108",
-                "LowNumCompletes": 0,
-                "HighNumCompletes": 3,
-                "LowChance": 1,
-                "HighChance": 0.1
-            }
-        ]
+        "PickUpActionType": "/Lotus/Types/PickUps/BluePrintAutoPickUp"
     }
 }

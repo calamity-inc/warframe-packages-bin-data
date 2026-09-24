@@ -30,8 +30,8 @@
         "HolsterBone1Rotation": [
             0,
             0,
-            0.043619,
-            0.999048
+            0.043618999,
+            0.99904799
         ],
         "GripType": "GUN_ONE_HAND",
         "PickUpText": "/Lotus/Language/Items/AutoPistolPickup",
@@ -50,11 +50,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -87,7 +87,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -214,7 +214,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -228,9 +228,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.18,
+                        "DT_IMPACT": 0.18000001,
                         "DT_PUNCTURE": 0.34,
-                        "DT_SLASH": 0.48,
+                        "DT_SLASH": 0.48000002,
                         "Amount": 24,
                         "ProcChance": 0.22,
                         "ForcedProcs": [],
@@ -302,7 +302,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponAutomaticStateBehavior",
                 "state:WeaponAutomaticStateBehavior": {
-                    "reloadTime": 2.6,
+                    "reloadTime": 2.5999999,
                     "PerfectReloadRange": [
                         0,
                         0

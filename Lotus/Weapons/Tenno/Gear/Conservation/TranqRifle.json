@@ -12,9 +12,9 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalRotation": [
-                    -0.000761,
+                    -0.00076099997,
                     0.017436,
-                    -0.043613,
+                    -0.043613002,
                     0.998896
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -23,13 +23,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -50,15 +50,15 @@
         "UseWeaponHandForAim": 1,
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.065,
+            -0.064999998,
             -0.07,
             0.17
         ],
         "GripRotationOffset": [
             0,
-            0.704416,
-            -0.707107,
-            0.061628
+            0.70441598,
+            -0.70710677,
+            0.061627999
         ],
         "DisableFireWhileMainHandMeleeing": 0,
         "AimStartSound": "/Lotus/Sounds/Weapons/Generic/GenericWeaponAimTransitionInLocal",
@@ -78,7 +78,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -286,9 +286,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 1,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -463,7 +463,7 @@
             1,
             2
         ],
-        "OmegaAttenuation": 0.79,
+        "OmegaAttenuation": 0.79000002,
         "ArcaneApertureType": "/Lotus/Types/Items/MiscItems/WeaponPrimaryArcaneUnlocker",
         "DefaultModOverrides": {
             "SlotType": "ST_GUN"

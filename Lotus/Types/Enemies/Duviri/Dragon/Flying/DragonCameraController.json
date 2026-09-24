@@ -54,8 +54,8 @@
             },
             "RotationNoise": {
                 "deflectionStrength": [
-                    0.05,
-                    0.05
+                    0.050000001,
+                    0.050000001
                 ],
                 "rate": 2,
                 "dampening": 9
@@ -172,7 +172,7 @@
         ],
         "CoverAimDiscRightViewOffset": [
             1,
-            -0.15,
+            -0.15000001,
             -1.6
         ],
         "DodgeOffset": [
@@ -207,33 +207,33 @@
         ],
         "WallRunLeftViewOffset": [
             0.5,
-            -0.3,
+            -0.30000001,
             -2
         ],
         "WallRunLeftAimViewOffset": [
             0.5,
-            -0.3,
+            -0.30000001,
             -2
         ],
         "WallRunRightViewOffset": [
             -0.5,
-            -0.3,
+            -0.30000001,
             -2
         ],
         "WallRunRightAimViewOffset": [
             -0.5,
-            -0.3,
+            -0.30000001,
             -2
         ],
         "WallRunUpViewOffset": [
             0.5,
-            -0.8,
+            -0.80000001,
             -2
         ],
         "WallRunUpAimViewOffset": [
             0.5,
             0,
-            -0.7
+            -0.69999999
         ],
         "MeleeOffset": [
             0.75,
@@ -244,7 +244,7 @@
         "ViewOffsetSpeed": 1,
         "UseEyePosition": 0,
         "FlightEyeSmoothTime": 0.1,
-        "VelocityZOffset": -0.8,
+        "VelocityZOffset": -0.80000001,
         "VelocityZOffsetMappingMapping": [
             12,
             20
@@ -261,16 +261,16 @@
         "AimPitchDeadZone": 8,
         "ConvergeSpeed": 1,
         "ConvergeThreshold": 0.5,
-        "DeadZoneSoften": 0.9,
+        "DeadZoneSoften": 0.89999998,
         "AttachedBone": "GAME_C1_BODY1",
         "CameraSmoothTime": 0.25,
-        "CameraRotationSmoothTime": 0.15,
+        "CameraRotationSmoothTime": 0.15000001,
         "AfterTouchPostProcess": {
             "blur": 0.5,
             "viewShake": {
                 "ShakeFactorPos": 0,
                 "ShakeFactorRot": [
-                    0.05,
+                    0.050000001,
                     0.1,
                     0.2
                 ],

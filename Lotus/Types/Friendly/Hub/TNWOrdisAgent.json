@@ -112,7 +112,7 @@
                 "m": 1,
                 "k": -1,
                 "b": 1,
-                "c": 0.3,
+                "c": 0.30000001,
                 "logistic": 1
             },
             "StopRadius": 4,
@@ -158,9 +158,9 @@
             "MaxWalkSpeedMultiplier": 1.8,
             "CheckAimStatusForFire": 1,
             "AllowedDistanceFromPlayer": 10,
-            "ChanceWeightForFollowing": 0.8,
+            "ChanceWeightForFollowing": 0.80000001,
             "ChanceWeightForWandering": 0.5,
-            "ChanceWeightForStaying": 0.35,
+            "ChanceWeightForStaying": 0.34999999,
             "ChanceWeightForPetBed": 0,
             "TimeFollowing": 30,
             "TimeWandering": 30,
@@ -179,7 +179,7 @@
             "AnimReleaseSymbol": "Release",
             "TeleportToOrientation": 1,
             "ShipOverrides": 1,
-            "ShipFollowSpeedMod": 0.7,
+            "ShipFollowSpeedMod": 0.69999999,
             "MaxFollowDistanceFromPlayer": 10
         },
         "GuardTactic": {
@@ -195,7 +195,7 @@
             "LookAtNearbyPlayer": 1,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -265,8 +265,8 @@
             "/EE/Types/Npc/DynamicPathFollowerHover"
         ],
         "LocomotionController:DynamicPathFollowerHover": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "MinimumMoveDistance": 0.1,
@@ -274,7 +274,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 50,
             "StopWhenTurningAngle": 90,
             "CheckFunnelForTightTurns": 0,
@@ -290,7 +290,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,

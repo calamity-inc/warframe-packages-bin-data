@@ -1,109 +1,22 @@
 {
     "parent": "/Lotus/Types/Game/LotusWeaponAttachment",
     "data": {
+        "PhysicsSleep": 1,
         "AutoSimChildren": [
             {
                 "LocalPosition": [
                     0,
                     0,
-                    0.25
-                ],
-                "LocalRotation": [
-                    0,
-                    -0.707107,
-                    0,
-                    0.707107
-                ],
-                "BoneName": "",
-                "Type": "/Lotus/Weapons/Lasria/AK47/AK47MuzzleFlare",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0,
-                    0,
                     0
                 ],
                 "LocalRotation": [
                     0,
-                    0.707107,
+                    -0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
-                "Type": "/Lotus/Weapons/Lasria/AK47/AK47MuzzleEnergy",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    -0.707107,
-                    0,
-                    0.707107
-                ],
-                "BoneName": "",
-                "Type": "/Lotus/Weapons/Lasria/AK47/AK47MuzzleFlashPilar",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "",
-                "Type": "/Lotus/Weapons/Lasria/AK47/AK47MuzzleSmoke",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    1
-                ],
-                "LocalRotation": [
-                    0,
-                    -0.707107,
-                    0,
-                    0.707107
-                ],
-                "BoneName": "",
-                "Type": "/Lotus/Weapons/Lasria/AK47/AK47MuzzleLight",
+                "Type": "/Lotus/Fx/Weapons/Sentients/SentOctaMinigun/SentMiniGunTracers",
                 "Chance": 255,
                 "RelativeToBounds": 0,
                 "Attach": 1,
@@ -113,6 +26,73 @@
                 "Scale": 1
             }
         ],
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/WeaponAttachments/TnOctaMiniGun.lua",
+            "Function": "AltFireSequencers",
+            "_fireAnim": "",
+            "_altFireAnimation": "",
+            "_fireAnimMultiplier": -1,
+            "_blendMasks": [],
+            "_blendMasksAlt": [],
+            "_petalDecoType": "",
+            "_petalDecoAltType": "",
+            "_petalIndicies": [
+                1
+            ],
+            "_spawnerType": "",
+            "_animation": "",
+            "_loop": 0,
+            "_rateOverride": -1,
+            "_animBlendLayer": 0,
+            "_burnProj": "",
+            "_altFireMuzzleFlash": "",
+            "_beamType": "",
+            "_beamOffset": [
+                0,
+                0,
+                0
+            ],
+            "_beamLockOffset": 0.25,
+            "_localSoundSequencers": [
+                "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunAltFireProjLoopSeq"
+            ],
+            "_localFireRateModifiedSoundSequencers": [
+                "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunAltFireShotLoopLocalSeq"
+            ],
+            "_localAmmoRatioModifiedSoundSequencers": [
+                "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunAltFireMechLoopLocalSeq"
+            ],
+            "_localAmmoIgnoreSequencers": [
+                "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunAltFireLowClipLoopSeq"
+            ],
+            "_remoteSoundSequencers": [
+                "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunAltFireMechLoopSeq"
+            ],
+            "_remoteFireRateModifiedSoundSequencers": [
+                "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunAltFireShotLoopSeq"
+            ],
+            "_remoteAmmoRatioModifiedSoundSequencers": [],
+            "_remoteAmmoIgnoreSequencers": [],
+            "_fireRatePitchMultiplier": 0.15000001,
+            "_ammoClipPitchRange": [
+                0.89999998,
+                1.5
+            ],
+            "_ammoClipRangeLimit": [
+                0,
+                1
+            ],
+            "_ammoClipPitchRangeIgnore": [
+                0.89999998,
+                1.8
+            ],
+            "_ammoClipRangeLimitIgnore": [
+                0.0099999998,
+                0.30000001
+            ]
+        },
+        "ReplicaRunScriptInstance": 1,
+        "DedicatedServerRunScriptInstance": 0,
         "OnEnter": [
             {
                 "sound": "",
@@ -122,10 +102,10 @@
                     0,
                     0
                 ],
-                "multiplyPitchByFireRateRatio": 1,
+                "multiplyPitchByFireRateRatio": 0,
                 "adjustPitchByChargeRatio": 0,
                 "reverbCategory": "UNSPECIFIED",
-                "fireRatePitchMultiplier": 0.3,
+                "fireRatePitchMultiplier": 0.30000001,
                 "chargePitchRange": [
                     0,
                     0
@@ -153,17 +133,40 @@
                 "suitMode": "SUIT_ANY",
                 "activeBehaviorIndexIgnoreList": [],
                 "stateSignalAttachments": [],
-                "effectsToCreate": [],
+                "effectsToCreate": [
+                    {
+                        "LocalPosition": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "LocalRotation": [
+                            0,
+                            0,
+                            0.70710677,
+                            0.70710677
+                        ],
+                        "BoneName": "",
+                        "Type": "",
+                        "Chance": 255,
+                        "RelativeToBounds": 0,
+                        "Attach": 1,
+                        "DestroyWithOwner": 1,
+                        "DestroyParentOnDeath": 0,
+                        "FadeOutOnDestruction": 0,
+                        "Scale": 1
+                    }
+                ],
                 "effectsToDestroy": [],
                 "ammoStatus": "ALL_CASES",
                 "condition": "RF_OWNER",
                 "newBehaviorIndex": -1,
                 "useOnSkin": 0,
                 "upgradeType": "NONE",
-                "forceFeedbackEffect": "",
+                "forceFeedbackEffect": "/Lotus/Sounds/Weapons/ForceFeedbackSettings/Rifles/ForceFeedbackRifleFireMedium",
                 "continuousForceFeedback": 0,
                 "overrideTag": "",
-                "soundSequencerType": "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunAltFireShotLoopSeq",
+                "soundSequencerType": "",
                 "responseScript": {
                     "Script": ""
                 }
@@ -221,127 +224,55 @@
                 "responseScript": {
                     "Script": "/Lotus/Scripts/WeaponAttachments/TnOctaMiniGun.lua",
                     "Function": "SecondaryFire",
-                    "_petalBonesAlt": [],
                     "_fireAnim": "",
                     "_altFireAnimation": "",
                     "_fireAnimMultiplier": -1,
                     "_blendMasks": [],
                     "_blendMasksAlt": [],
-                    "_debugDraw": 1,
                     "_petalDecoType": "",
+                    "_petalDecoAltType": "",
                     "_petalIndicies": [
                         1
                     ],
                     "_spawnerType": "",
-                    "_cameraTracksPitch": 1
-                }
-            },
-            {
-                "sound": "",
-                "playerType": "PT_ANY",
-                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
-                "ammoInClipRangeLimit": [
-                    0,
-                    0
-                ],
-                "multiplyPitchByFireRateRatio": 0,
-                "adjustPitchByChargeRatio": 0,
-                "reverbCategory": "UNSPECIFIED",
-                "fireRatePitchMultiplier": 0.3,
-                "chargePitchRange": [
-                    0,
-                    0
-                ],
-                "adjustPitchByAmmoInClip": 0,
-                "ammoInClipPitchRange": [
-                    0,
-                    0
-                ],
-                "stopSoundOnExitState": 0,
-                "stopSoundEventNames": [],
-                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
-                "useRandomPitchSeed": 0,
-                "randomPitchSeed": [
-                    1,
-                    1
-                ],
-                "animation": "",
-                "state": "WS_FIRE",
-                "matchTransitionState": 0,
-                "transitionState": "WS_READY",
-                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
-                "equippedHand": "ANY_HAND",
-                "aimMode": "HIP_AND_AIM",
-                "suitMode": "SUIT_ANY",
-                "activeBehaviorIndexIgnoreList": [],
-                "stateSignalAttachments": [],
-                "effectsToCreate": [],
-                "effectsToDestroy": [],
-                "ammoStatus": "ALL_CASES",
-                "condition": "RF_OWNER",
-                "newBehaviorIndex": -1,
-                "useOnSkin": 0,
-                "upgradeType": "NONE",
-                "forceFeedbackEffect": "",
-                "continuousForceFeedback": 0,
-                "overrideTag": "",
-                "soundSequencerType": "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunAltFireProjLoopSeq",
-                "responseScript": {
-                    "Script": ""
-                }
-            },
-            {
-                "sound": "",
-                "playerType": "PT_ANY",
-                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
-                "ammoInClipRangeLimit": [
-                    0,
-                    0
-                ],
-                "multiplyPitchByFireRateRatio": 0,
-                "adjustPitchByChargeRatio": 0,
-                "reverbCategory": "UNSPECIFIED",
-                "fireRatePitchMultiplier": 0.3,
-                "chargePitchRange": [
-                    0,
-                    0
-                ],
-                "adjustPitchByAmmoInClip": 1,
-                "ammoInClipPitchRange": [
-                    0.9,
-                    1.5
-                ],
-                "stopSoundOnExitState": 0,
-                "stopSoundEventNames": [],
-                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
-                "useRandomPitchSeed": 0,
-                "randomPitchSeed": [
-                    1,
-                    1
-                ],
-                "animation": "",
-                "state": "WS_FIRE",
-                "matchTransitionState": 0,
-                "transitionState": "WS_READY",
-                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
-                "equippedHand": "ANY_HAND",
-                "aimMode": "HIP_AND_AIM",
-                "suitMode": "SUIT_ANY",
-                "activeBehaviorIndexIgnoreList": [],
-                "stateSignalAttachments": [],
-                "effectsToCreate": [],
-                "effectsToDestroy": [],
-                "ammoStatus": "ALL_CASES",
-                "condition": "RF_OWNER",
-                "newBehaviorIndex": -1,
-                "useOnSkin": 0,
-                "upgradeType": "NONE",
-                "forceFeedbackEffect": "",
-                "continuousForceFeedback": 0,
-                "overrideTag": "",
-                "soundSequencerType": "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunAltFireMechLoopLocalSeq",
-                "responseScript": {
-                    "Script": ""
+                    "_animation": "",
+                    "_loop": 0,
+                    "_rateOverride": -1,
+                    "_animBlendLayer": 0,
+                    "_burnProj": "",
+                    "_altFireMuzzleFlash": "/Lotus/Fx/Weapons/Sentients/SentOctaMinigun/SentMiniGunFireFX",
+                    "_beamType": "",
+                    "_beamOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "_beamLockOffset": 0.25,
+                    "_localSoundSequencers": [],
+                    "_localFireRateModifiedSoundSequencers": [],
+                    "_localAmmoRatioModifiedSoundSequencers": [],
+                    "_localAmmoIgnoreSequencers": [],
+                    "_remoteSoundSequencers": [],
+                    "_remoteFireRateModifiedSoundSequencers": [],
+                    "_remoteAmmoRatioModifiedSoundSequencers": [],
+                    "_remoteAmmoIgnoreSequencers": [],
+                    "_fireRatePitchMultiplier": 0.2,
+                    "_ammoClipPitchRange": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipRangeLimit": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipPitchRangeIgnore": [
+                        0,
+                        1
+                    ],
+                    "_ammoClipRangeLimitIgnore": [
+                        0,
+                        0.2
+                    ]
                 }
             },
             {
@@ -350,7 +281,7 @@
                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 1,
                 "ammoInClipRangeLimit": [
                     0,
-                    0.01
+                    0.0099999998
                 ],
                 "multiplyPitchByFireRateRatio": 0,
                 "adjustPitchByChargeRatio": 0,
@@ -394,60 +325,6 @@
                 "continuousForceFeedback": 0,
                 "overrideTag": "",
                 "soundSequencerType": "",
-                "responseScript": {
-                    "Script": ""
-                }
-            },
-            {
-                "sound": "",
-                "playerType": "PT_ANY",
-                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 1,
-                "ammoInClipRangeLimit": [
-                    0,
-                    0.4
-                ],
-                "multiplyPitchByFireRateRatio": 0,
-                "adjustPitchByChargeRatio": 0,
-                "reverbCategory": "UNSPECIFIED",
-                "fireRatePitchMultiplier": 1,
-                "chargePitchRange": [
-                    0,
-                    0
-                ],
-                "adjustPitchByAmmoInClip": 1,
-                "ammoInClipPitchRange": [
-                    0.9,
-                    1.8
-                ],
-                "stopSoundOnExitState": 0,
-                "stopSoundEventNames": [],
-                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
-                "useRandomPitchSeed": 0,
-                "randomPitchSeed": [
-                    1,
-                    1
-                ],
-                "animation": "",
-                "state": "WS_FIRE",
-                "matchTransitionState": 0,
-                "transitionState": "WS_READY",
-                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
-                "equippedHand": "ANY_HAND",
-                "aimMode": "HIP_AND_AIM",
-                "suitMode": "SUIT_ANY",
-                "activeBehaviorIndexIgnoreList": [],
-                "stateSignalAttachments": [],
-                "effectsToCreate": [],
-                "effectsToDestroy": [],
-                "ammoStatus": "ALL_CASES",
-                "condition": "RF_OWNER",
-                "newBehaviorIndex": -1,
-                "useOnSkin": 0,
-                "upgradeType": "NONE",
-                "forceFeedbackEffect": "",
-                "continuousForceFeedback": 0,
-                "overrideTag": "",
-                "soundSequencerType": "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunAltFireLowClipLoopSeq",
                 "responseScript": {
                     "Script": ""
                 }
@@ -507,19 +384,55 @@
                 "responseScript": {
                     "Script": "/Lotus/Scripts/WeaponAttachments/TnOctaMiniGun.lua",
                     "Function": "OnAltHolster",
-                    "_petalBonesAlt": [],
                     "_fireAnim": "",
                     "_altFireAnimation": "",
                     "_fireAnimMultiplier": -1,
                     "_blendMasks": [],
                     "_blendMasksAlt": [],
-                    "_debugDraw": 1,
                     "_petalDecoType": "",
+                    "_petalDecoAltType": "",
                     "_petalIndicies": [
                         1
                     ],
                     "_spawnerType": "",
-                    "_cameraTracksPitch": 1
+                    "_animation": "",
+                    "_loop": 0,
+                    "_rateOverride": -1,
+                    "_animBlendLayer": 0,
+                    "_burnProj": "",
+                    "_altFireMuzzleFlash": "",
+                    "_beamType": "",
+                    "_beamOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "_beamLockOffset": 0.25,
+                    "_localSoundSequencers": [],
+                    "_localFireRateModifiedSoundSequencers": [],
+                    "_localAmmoRatioModifiedSoundSequencers": [],
+                    "_localAmmoIgnoreSequencers": [],
+                    "_remoteSoundSequencers": [],
+                    "_remoteFireRateModifiedSoundSequencers": [],
+                    "_remoteAmmoRatioModifiedSoundSequencers": [],
+                    "_remoteAmmoIgnoreSequencers": [],
+                    "_fireRatePitchMultiplier": 0.2,
+                    "_ammoClipPitchRange": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipRangeLimit": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipPitchRangeIgnore": [
+                        0,
+                        1
+                    ],
+                    "_ammoClipRangeLimitIgnore": [
+                        0,
+                        0.2
+                    ]
                 }
             },
             {
@@ -577,19 +490,55 @@
                 "responseScript": {
                     "Script": "/Lotus/Scripts/WeaponAttachments/TnOctaMiniGun.lua",
                     "Function": "AltEquip",
-                    "_petalBonesAlt": [],
                     "_fireAnim": "",
                     "_altFireAnimation": "",
                     "_fireAnimMultiplier": -1,
                     "_blendMasks": [],
                     "_blendMasksAlt": [],
-                    "_debugDraw": 1,
                     "_petalDecoType": "",
+                    "_petalDecoAltType": "",
                     "_petalIndicies": [
                         1
                     ],
                     "_spawnerType": "",
-                    "_cameraTracksPitch": 1
+                    "_animation": "",
+                    "_loop": 0,
+                    "_rateOverride": -1,
+                    "_animBlendLayer": 0,
+                    "_burnProj": "",
+                    "_altFireMuzzleFlash": "",
+                    "_beamType": "",
+                    "_beamOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "_beamLockOffset": 0.25,
+                    "_localSoundSequencers": [],
+                    "_localFireRateModifiedSoundSequencers": [],
+                    "_localAmmoRatioModifiedSoundSequencers": [],
+                    "_localAmmoIgnoreSequencers": [],
+                    "_remoteSoundSequencers": [],
+                    "_remoteFireRateModifiedSoundSequencers": [],
+                    "_remoteAmmoRatioModifiedSoundSequencers": [],
+                    "_remoteAmmoIgnoreSequencers": [],
+                    "_fireRatePitchMultiplier": 0.2,
+                    "_ammoClipPitchRange": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipRangeLimit": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipPitchRangeIgnore": [
+                        0,
+                        1
+                    ],
+                    "_ammoClipRangeLimitIgnore": [
+                        0,
+                        0.2
+                    ]
                 }
             },
             {
@@ -647,19 +596,159 @@
                 "responseScript": {
                     "Script": "/Lotus/Scripts/WeaponAttachments/TnOctaMiniGun.lua",
                     "Function": "AltEquip",
-                    "_petalBonesAlt": [],
                     "_fireAnim": "",
                     "_altFireAnimation": "",
                     "_fireAnimMultiplier": -1,
                     "_blendMasks": [],
                     "_blendMasksAlt": [],
-                    "_debugDraw": 1,
                     "_petalDecoType": "",
+                    "_petalDecoAltType": "",
                     "_petalIndicies": [
                         1
                     ],
                     "_spawnerType": "",
-                    "_cameraTracksPitch": 1
+                    "_animation": "",
+                    "_loop": 0,
+                    "_rateOverride": -1,
+                    "_animBlendLayer": 0,
+                    "_burnProj": "",
+                    "_altFireMuzzleFlash": "",
+                    "_beamType": "",
+                    "_beamOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "_beamLockOffset": 0.25,
+                    "_localSoundSequencers": [],
+                    "_localFireRateModifiedSoundSequencers": [],
+                    "_localAmmoRatioModifiedSoundSequencers": [],
+                    "_localAmmoIgnoreSequencers": [],
+                    "_remoteSoundSequencers": [],
+                    "_remoteFireRateModifiedSoundSequencers": [],
+                    "_remoteAmmoRatioModifiedSoundSequencers": [],
+                    "_remoteAmmoIgnoreSequencers": [],
+                    "_fireRatePitchMultiplier": 0.2,
+                    "_ammoClipPitchRange": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipRangeLimit": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipPitchRangeIgnore": [
+                        0,
+                        1
+                    ],
+                    "_ammoClipRangeLimitIgnore": [
+                        0,
+                        0.2
+                    ]
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_READY",
+                "matchTransitionState": 1,
+                "transitionState": "WS_DORMANT",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": "/Lotus/Scripts/WeaponAttachments/TnOctaMiniGun.lua",
+                    "Function": "AltEquip",
+                    "_fireAnim": "",
+                    "_altFireAnimation": "",
+                    "_fireAnimMultiplier": -1,
+                    "_blendMasks": [],
+                    "_blendMasksAlt": [],
+                    "_petalDecoType": "",
+                    "_petalDecoAltType": "",
+                    "_petalIndicies": [
+                        1
+                    ],
+                    "_spawnerType": "",
+                    "_animation": "",
+                    "_loop": 0,
+                    "_rateOverride": -1,
+                    "_animBlendLayer": 0,
+                    "_burnProj": "",
+                    "_altFireMuzzleFlash": "",
+                    "_beamType": "",
+                    "_beamOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "_beamLockOffset": 0.25,
+                    "_localSoundSequencers": [],
+                    "_localFireRateModifiedSoundSequencers": [],
+                    "_localAmmoRatioModifiedSoundSequencers": [],
+                    "_localAmmoIgnoreSequencers": [],
+                    "_remoteSoundSequencers": [],
+                    "_remoteFireRateModifiedSoundSequencers": [],
+                    "_remoteAmmoRatioModifiedSoundSequencers": [],
+                    "_remoteAmmoIgnoreSequencers": [],
+                    "_fireRatePitchMultiplier": 0.2,
+                    "_ammoClipPitchRange": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipRangeLimit": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipPitchRangeIgnore": [
+                        0,
+                        1
+                    ],
+                    "_ammoClipRangeLimitIgnore": [
+                        0,
+                        0.2
+                    ]
                 }
             },
             {
@@ -715,19 +804,269 @@
                 "responseScript": {
                     "Script": "/Lotus/Scripts/WeaponAttachments/TnOctaMiniGun.lua",
                     "Function": "AltEquip",
-                    "_petalBonesAlt": [],
                     "_fireAnim": "",
                     "_altFireAnimation": "",
                     "_fireAnimMultiplier": -1,
                     "_blendMasks": [],
                     "_blendMasksAlt": [],
-                    "_debugDraw": 1,
                     "_petalDecoType": "",
+                    "_petalDecoAltType": "",
                     "_petalIndicies": [
                         1
                     ],
                     "_spawnerType": "",
-                    "_cameraTracksPitch": 1
+                    "_animation": "",
+                    "_loop": 0,
+                    "_rateOverride": -1,
+                    "_animBlendLayer": 0,
+                    "_burnProj": "",
+                    "_altFireMuzzleFlash": "",
+                    "_beamType": "",
+                    "_beamOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "_beamLockOffset": 0.25,
+                    "_localSoundSequencers": [],
+                    "_localFireRateModifiedSoundSequencers": [],
+                    "_localAmmoRatioModifiedSoundSequencers": [],
+                    "_localAmmoIgnoreSequencers": [],
+                    "_remoteSoundSequencers": [],
+                    "_remoteFireRateModifiedSoundSequencers": [],
+                    "_remoteAmmoRatioModifiedSoundSequencers": [],
+                    "_remoteAmmoIgnoreSequencers": [],
+                    "_fireRatePitchMultiplier": 0.2,
+                    "_ammoClipPitchRange": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipRangeLimit": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipPitchRangeIgnore": [
+                        0,
+                        1
+                    ],
+                    "_ammoClipRangeLimitIgnore": [
+                        0,
+                        0.2
+                    ]
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_BURST_WAIT",
+                "matchTransitionState": 1,
+                "transitionState": "WS_MODE_SWITCH",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [
+                    0
+                ],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": "/Lotus/Scripts/WeaponAttachments/TnOctaMiniGun.lua",
+                    "Function": "InstantModeSwitchCancel",
+                    "_fireAnim": "",
+                    "_altFireAnimation": "",
+                    "_fireAnimMultiplier": -1,
+                    "_blendMasks": [],
+                    "_blendMasksAlt": [],
+                    "_petalDecoType": "",
+                    "_petalDecoAltType": "",
+                    "_petalIndicies": [
+                        1
+                    ],
+                    "_spawnerType": "",
+                    "_animation": "",
+                    "_loop": 0,
+                    "_rateOverride": -1,
+                    "_animBlendLayer": 0,
+                    "_burnProj": "",
+                    "_altFireMuzzleFlash": "",
+                    "_beamType": "",
+                    "_beamOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "_beamLockOffset": 0.25,
+                    "_localSoundSequencers": [],
+                    "_localFireRateModifiedSoundSequencers": [],
+                    "_localAmmoRatioModifiedSoundSequencers": [],
+                    "_localAmmoIgnoreSequencers": [],
+                    "_remoteSoundSequencers": [],
+                    "_remoteFireRateModifiedSoundSequencers": [],
+                    "_remoteAmmoRatioModifiedSoundSequencers": [],
+                    "_remoteAmmoIgnoreSequencers": [],
+                    "_fireRatePitchMultiplier": 0.2,
+                    "_ammoClipPitchRange": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipRangeLimit": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipPitchRangeIgnore": [
+                        0,
+                        1
+                    ],
+                    "_ammoClipRangeLimitIgnore": [
+                        0,
+                        0.2
+                    ]
+                }
+            }
+        ],
+        "OnExit": [
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_DORMANT",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [
+                    0
+                ],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": "/Lotus/Scripts/WeaponAttachments/TnOctaMiniGun.lua",
+                    "Function": "OffhandPlayAltAnimation",
+                    "_fireAnim": "",
+                    "_altFireAnimation": "",
+                    "_fireAnimMultiplier": -1,
+                    "_blendMasks": [],
+                    "_blendMasksAlt": [],
+                    "_petalDecoType": "",
+                    "_petalDecoAltType": "",
+                    "_petalIndicies": [
+                        1
+                    ],
+                    "_spawnerType": "",
+                    "_animation": "/Lotus/Animations/Tenno/Movement/Rifle/SentOctaMinigun/SentOctaMinigunAltIdleWEP_anim.fbx",
+                    "_loop": 1,
+                    "_rateOverride": -1,
+                    "_animBlendLayer": 0,
+                    "_burnProj": "",
+                    "_altFireMuzzleFlash": "",
+                    "_beamType": "",
+                    "_beamOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "_beamLockOffset": 0.25,
+                    "_localSoundSequencers": [],
+                    "_localFireRateModifiedSoundSequencers": [],
+                    "_localAmmoRatioModifiedSoundSequencers": [],
+                    "_localAmmoIgnoreSequencers": [],
+                    "_remoteSoundSequencers": [],
+                    "_remoteFireRateModifiedSoundSequencers": [],
+                    "_remoteAmmoRatioModifiedSoundSequencers": [],
+                    "_remoteAmmoIgnoreSequencers": [],
+                    "_fireRatePitchMultiplier": 0.2,
+                    "_ammoClipPitchRange": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipRangeLimit": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipPitchRangeIgnore": [
+                        0,
+                        1
+                    ],
+                    "_ammoClipRangeLimitIgnore": [
+                        0,
+                        0.2
+                    ]
                 }
             }
         ],
@@ -766,6 +1105,54 @@
                 "condition": "RF_ALWAYS",
                 "animation": "",
                 "name": "",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunReloadE",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "",
+                "name": "SFXSentOctaMiniGunReloadE",
                 "matchParam": 1,
                 "param": 0,
                 "hand": "ANY_HAND",
@@ -828,6 +1215,60 @@
                 "newBehaviorIndex": -1,
                 "useOnSkin": 0,
                 "upgradeType": "NONE",
+                "forceFeedbackEffect": "/Lotus/Sounds/Weapons/ForceFeedbackSettings/Rifles/ForceFeedbackRifleFireMedium",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunAltFireStart",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_NON_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
                 "forceFeedbackEffect": "",
                 "continuousForceFeedback": 0,
                 "overrideTag": "",
@@ -879,6 +1320,60 @@
                 "effectsToDestroy": [],
                 "ammoStatus": "ALL_CASES",
                 "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/Sentient/SentOctaMiniGun/SentOctaMiniGunAltFireStartLaser",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_NON_OWNER",
                 "newBehaviorIndex": -1,
                 "useOnSkin": 0,
                 "upgradeType": "NONE",
@@ -997,19 +1492,55 @@
                 "responseScript": {
                     "Script": "/Lotus/Scripts/WeaponAttachments/TnOctaMiniGun.lua",
                     "Function": "SecondaryFire",
-                    "_petalBonesAlt": [],
                     "_fireAnim": "",
                     "_altFireAnimation": "",
                     "_fireAnimMultiplier": -1,
                     "_blendMasks": [],
                     "_blendMasksAlt": [],
-                    "_debugDraw": 1,
                     "_petalDecoType": "",
+                    "_petalDecoAltType": "",
                     "_petalIndicies": [
                         1
                     ],
                     "_spawnerType": "",
-                    "_cameraTracksPitch": 1
+                    "_animation": "",
+                    "_loop": 0,
+                    "_rateOverride": -1,
+                    "_animBlendLayer": 0,
+                    "_burnProj": "",
+                    "_altFireMuzzleFlash": "/Lotus/Fx/Weapons/Sentients/SentOctaMinigun/SentMiniGunFireFX",
+                    "_beamType": "",
+                    "_beamOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "_beamLockOffset": 0.25,
+                    "_localSoundSequencers": [],
+                    "_localFireRateModifiedSoundSequencers": [],
+                    "_localAmmoRatioModifiedSoundSequencers": [],
+                    "_localAmmoIgnoreSequencers": [],
+                    "_remoteSoundSequencers": [],
+                    "_remoteFireRateModifiedSoundSequencers": [],
+                    "_remoteAmmoRatioModifiedSoundSequencers": [],
+                    "_remoteAmmoIgnoreSequencers": [],
+                    "_fireRatePitchMultiplier": 0.2,
+                    "_ammoClipPitchRange": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipRangeLimit": [
+                        0,
+                        0.2
+                    ],
+                    "_ammoClipPitchRangeIgnore": [
+                        0,
+                        1
+                    ],
+                    "_ammoClipRangeLimitIgnore": [
+                        0,
+                        0.2
+                    ]
                 }
             }
         ],
@@ -1077,10 +1608,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Heat"
             },
@@ -1091,10 +1622,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Cold"
             },
@@ -1105,10 +1636,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Electricity"
             },
@@ -1119,10 +1650,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Toxin"
             },
@@ -1133,10 +1664,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Blast"
             },
@@ -1147,10 +1678,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Radiation"
             },
@@ -1161,10 +1692,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Gas"
             },
@@ -1175,10 +1706,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Magnetic"
             },
@@ -1189,10 +1720,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Viral"
             },
@@ -1203,14 +1734,15 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Corrosive"
             }
         },
-        "ColorSlot": "Attachments"
+        "ColorSlot": "Attachments",
+        "ApplyEnergyColorToChildren": 1
     }
 }

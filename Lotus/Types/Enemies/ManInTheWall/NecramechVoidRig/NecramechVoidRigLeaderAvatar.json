@@ -7,11 +7,20 @@
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ManInTheWall/NecramechVoidRigArcticEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [
-                        "/Lotus/Characters/NewWar/Tefillah/TefillahMatArctic",
-                        "/Lotus/Characters/NewWar/ThanoMech/ThanoMechMatArctic"
+                    "MaterialOverrides": [],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderArctic"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderArctic",
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderArctic"
+                            ]
+                        }
                     ],
-                    "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ArcticLeaderDesc",
@@ -22,11 +31,20 @@
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ManInTheWall/NecramechVoidRigBlitzEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [
-                        "/Lotus/Characters/NewWar/Tefillah/TefillahMatBlitz",
-                        "/Lotus/Characters/NewWar/ThanoMech/ThanoMechMatBlitz"
+                    "MaterialOverrides": [],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderBlitz"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderBlitz",
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderBlitz"
+                            ]
+                        }
                     ],
-                    "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/BlitzLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/BlitzLeaderDesc",
@@ -37,11 +55,20 @@
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ManInTheWall/NecramechVoidRigShockEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [
-                        "/Lotus/Characters/NewWar/Tefillah/TefillahMatShock",
-                        "/Lotus/Characters/NewWar/ThanoMech/ThanoMechMatShock"
+                    "MaterialOverrides": [],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderShock"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderShock",
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderShock"
+                            ]
+                        }
                     ],
-                    "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/ShockLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/ShockLeaderDesc",
@@ -52,11 +79,20 @@
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/GuardianEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [
-                        "",
-                        "/Lotus/Characters/NewWar/ThanoMech/ThanoMechMatGuardian"
+                    "MaterialOverrides": [],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderGuardian"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderGuardian",
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderGuardian"
+                            ]
+                        }
                     ],
-                    "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/GuardianLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/GuardianLeaderDesc",
@@ -67,11 +103,20 @@
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/JadeLightEnhancement",
                 "AvatarOverrides": {
-                    "MaterialOverrides": [
-                        "/Lotus/Characters/NewWar/Tefillah/TefillahMatJadelight",
-                        "/Lotus/Characters/NewWar/ThanoMech/ThanoMechMatJadelight"
+                    "MaterialOverrides": [],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderJadelight"
+                            ]
+                        },
+                        {
+                            "materials": [
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderJadelight",
+                                "/Lotus/Characters/NewWar/ThanoMech/ThanoMechLeaderJadelight"
+                            ]
+                        }
                     ],
-                    "ChildMaterialOverrides": [],
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",

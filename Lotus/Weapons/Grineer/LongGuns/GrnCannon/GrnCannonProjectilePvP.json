@@ -4,8 +4,8 @@
         "Rotation": [
             0,
             0,
-            0.707107,
-            0.707107
+            0.70710677,
+            0.70710677
         ],
         "Mesh": "GrnCannonClipB.fbx",
         "AutoSimChildren": [
@@ -34,9 +34,9 @@
         ],
         "PhysicsBehavior": "/EE/Types/Physics/KinematicQuery",
         "AttackData": {
-            "DT_IMPACT": 0.3,
+            "DT_IMPACT": 0.30000001,
             "DT_PUNCTURE": 0.5,
-            "DT_SLASH": 0.2,
+            "DT_SLASH": 0.19999999,
             "Amount": 25,
             "ForcedDeathProcs": [
                 "PT_RAGDOLL"
@@ -79,10 +79,10 @@
             0
         ],
         "BaseRotation": [
-            0.707107,
+            0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "KinematicIgnoredTypes": [
             "/Lotus/Types/Game/PickUps/LotusPickUp"

@@ -1,0 +1,63 @@
+{
+    "parent": "SleevesBase",
+    "data": {
+        "MarketMode": "MM_HIDDEN",
+        "PremiumPrice": 30,
+        "LocalizeTag": "/Lotus/Language/Operator/AdultSleeves1999Name",
+        "LocalizeDescTag": "/Lotus/Language/Operator/AdultSleeves1999Desc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Operator/ArmourSets/Arms/1999DrifterSleeves.png",
+        "Weapon": "/Lotus/Powersuits/Operator/AdultOperatorSuit",
+        "FIRST_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Characters/Tenno/Operator/Clothes/DrifterNightwave1999/DrifterNightwave1999FemaleSleevesDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Characters/Tenno/Operator/Clothes/DrifterNightwave1999/DrifterNightwave1999MaleSleevesDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        }
+    }
+}

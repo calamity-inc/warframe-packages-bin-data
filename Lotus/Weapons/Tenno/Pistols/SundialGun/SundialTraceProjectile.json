@@ -12,9 +12,9 @@
                 ],
                 "LocalRotation": [
                     0,
-                    0.707107,
+                    0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Tenno/SundialPistol/SundialProjTrail",
@@ -33,10 +33,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    -0.707107,
+                    -0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Tenno/SundialPistol/SundialTracerProjMuzzleFlash",
@@ -77,7 +77,7 @@
             "Amount": 0,
             "HitType": "DHT_TRACE"
         },
-        "CriticalChance": 0.05,
+        "CriticalChance": 0.050000001,
         "CriticalMultiplier": 2,
         "HitEffect": "/Lotus/Fx/Weapons/Tenno/SundialPistol/SundialProjectileHitEffect",
         "DieEffect": "/Lotus/Fx/Weapons/Tenno/SundialPistol/SundialPistolBurst",
@@ -98,7 +98,7 @@
         "KinematicMovement": 1,
         "KinematicInitialSpeed": 15,
         "KinematicMaxSpeed": 20,
-        "KinematicNoiseRate": 0.0001,
+        "KinematicNoiseRate": 0.000099999997,
         "KinematicGravity": 1,
         "KinematicBulletRaycast": 0,
         "KinematicSpinRate": [
@@ -140,9 +140,9 @@
         ],
         "ClipScale": 4,
         "NumProjectilesToFire": 4,
-        "HoverTime": 0.35,
+        "HoverTime": 0.34999999,
         "HoverHeight": 1.1,
-        "InitialFiringDelay": 0.4,
+        "InitialFiringDelay": 0.40000001,
         "SoundResponse": {
             "sound": "/Lotus/Sounds/Weapons/Tenno/SundialSMG/TnoSundialSMGAltProjectileFire"
         },
@@ -167,7 +167,7 @@
         "TraceAttackData": {
             "DT_IMPACT": 0.1,
             "DT_PUNCTURE": 0.25,
-            "DT_SLASH": 0.65,
+            "DT_SLASH": 0.64999998,
             "Amount": 20,
             "HitType": "DHT_TRACE"
         }

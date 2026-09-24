@@ -1,0 +1,36 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/LotusSuitCustomizationStoreItem",
+    "data": {
+        "ProductCategory": "WeaponSkins",
+        "LocalizeTag": "/Lotus/Language/SteamWorkshop/SWPaxAscophiliaSkinName",
+        "LocalizeDescTag": "/Lotus/Language/SteamWorkshop/SWPaxAscophiliaSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/SWKullervoAscophiliaSkin.png",
+        "TypeName": "/Lotus/Upgrades/Skins/PaxDuviricus/SWPaxAscophiliaSkin",
+        "PremiumPrice": 165,
+        "Compatible": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricusBaseSuit",
+        "DateAddedToManifest": 1786536000,
+        "Giftable": 0,
+        "AvailableOnPvp": 1,
+        "AdditionalItems": [
+            {
+                "TypeName": "SWPaxAscophiliaHelmet",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "SWPaxAscophiliaBodyBlades",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            }
+        ],
+        "ExcludeFromCodex": 0,
+        "PCProdId": 6495,
+        "IsSteamPurchase": 1,
+        "IsPurchasePlatformLocked": 1,
+        "CompatibleSlots": [
+            "BodySkin"
+        ]
+    }
+}

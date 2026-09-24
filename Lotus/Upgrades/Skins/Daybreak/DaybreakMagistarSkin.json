@@ -1,0 +1,50 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWeaponCustomization",
+    "data": {
+        "PickUpText": "",
+        "Equipable": 0,
+        "PremiumPrice": 20,
+        "LocalizeTag": "/Lotus/Language/Skins/MagistarDaybreakSkinName",
+        "LocalizeDescTag": "/Lotus/Language/Skins/MagistarDaybreakSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/DaybreakMagistarSkin.png",
+        "CodexSecret": 1,
+        "ExcludeFromCodex": 0,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Weapons/Tenno/Melee/Maces/PaladinMace/PaladinMaceWeapon",
+        "THIRD_PERSON_MeshOverride": "/Lotus/Weapons/Tenno/Melee/Maces/PaladinMace/PaladinMace.fbx",
+        "UpgradeSkinOverride": "DaybreakMagistarWeaponSkin",
+        "DefaultCustomizationOverrides": {
+            "Neckwear": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "GAME_C1_BLADE_06",
+                        "PosOffset": [
+                            0,
+                            -0.25,
+                            0.0099999998
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0.70710677,
+                            0,
+                            0.70710677
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            }
+        }
+    }
+}

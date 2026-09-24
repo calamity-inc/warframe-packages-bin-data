@@ -113,6 +113,7 @@
             "AimWhileMoving": 0,
             "SetViewWhileMoving": 1,
             "ShootingDistance": 100,
+            "NeedsVisibilityForShooting": 1,
             "ChangeWeapons": 0,
             "WeaponSlot": "SLOT_1",
             "WeaponHand": "MAIN_HAND",
@@ -278,7 +279,7 @@
                 "CrouchHealthThreshold": 0,
                 "ShootTime": [
                     0.2,
-                    0.3
+                    0.30000001
                 ],
                 "WaitTime": [
                     1,
@@ -409,12 +410,12 @@
                 "PointBlankDistance": 5,
                 "CrouchHealthThreshold": 0,
                 "ShootTime": [
-                    0.6,
-                    0.9
+                    0.60000002,
+                    0.89999998
                 ],
                 "WaitTime": [
-                    0.6,
-                    0.9
+                    0.60000002,
+                    0.89999998
                 ],
                 "TargetNotVisibleTimeoutRange": [
                     6,

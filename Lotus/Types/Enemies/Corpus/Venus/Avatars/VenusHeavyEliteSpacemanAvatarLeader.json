@@ -71,14 +71,14 @@
             {
                 "LocalPosition": [
                     0,
-                    0.15,
+                    0.15000001,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_SPINE3",
                 "Type": "/Lotus/Types/Enemies/Corpus/Venus/ReinforcementBeacon/CrpBeaconBackpack",
@@ -230,6 +230,31 @@
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/VoltEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [
+                        "",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusHelmetLeaderVolt",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusVenusHoodLeaderVolt",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/WarriorHelmetLeaderVolt",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/WarriorAccessoriesLeaderVolt",
+                        "/Lotus/Characters/Guild/Spaceman/Venus/CorpusSpacemanVenusLeaderVolt"
+                    ],
+                    "ChildMaterialOverrides": [
+                        {
+                            "materials": [
+                                "/Lotus/Characters/Guild/Spaceman/Venus/WarriorHelmetLeaderVolt"
+                            ]
+                        }
+                    ],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderName",
+                    "ShortDescOverride": "/Lotus/Language/EnemyLeaders/VoltEximusLeaderDesc",
                     "MeshScale": 1.1
                 },
                 "Probability": 1

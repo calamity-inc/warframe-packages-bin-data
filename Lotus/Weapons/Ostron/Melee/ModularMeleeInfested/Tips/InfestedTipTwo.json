@@ -43,13 +43,13 @@
             "Amount": 306,
             "ProcChance": 0.22
         },
-        "BaseCritChance": 0.18,
+        "BaseCritChance": 0.18000001,
         "OmegaAttenuation": 0.85,
         "HitEffectOverride": "/Lotus/Fx/Weapons/Melee/Clean/HitEffects/MeleeHitEffectAxe",
         "OneHanded": {
             "meleeTree": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/ScytheMeleeTree",
             "CompatibleSkinType": "/Lotus/Weapons/Tenno/Melee/LotusScythe",
-            "pvpDamageAttenuation": 0.82,
+            "pvpDamageAttenuation": 0.81999999,
             "holsterCustomization": "/Lotus/Upgrades/Skins/HolsterCustomizations/SwordUpperBack",
             "stancePolarity": "AP_POWER",
             "parryAngle": 60,
@@ -137,7 +137,7 @@
                     "FXOffset": [
                         0,
                         0,
-                        0.4
+                        0.40000001
                     ],
                     "UseWeaponAttachment": 0,
                     "WeaponAttachmentHand": "MAIN_HAND",
@@ -199,7 +199,7 @@
                     "FXOffset": [
                         0,
                         0,
-                        0.4
+                        0.40000001
                     ],
                     "UseWeaponAttachment": 0,
                     "WeaponAttachmentHand": "MAIN_HAND",
@@ -265,7 +265,7 @@
                     "WeaponAttachmentHand": "MAIN_HAND",
                     "IsAerialSlam": 0,
                     "HitAirborneTargets": 1,
-                    "VerticalImpulse": 0.15,
+                    "VerticalImpulse": 0.15000001,
                     "HorizontalImpulse": 0.1
                 }
             ]
@@ -274,7 +274,7 @@
             "meleeTree": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/StaffMeleeTree",
             "meleeStyle": "MS_BO_STAFF",
             "CompatibleSkinType": "/Lotus/Weapons/Tenno/Melee/LotusStaff",
-            "damageAttenuation": 0.85,
+            "damageAttenuation": 0.85000002,
             "pvpDamageAttenuation": 0.62,
             "holsterCustomization": "/Lotus/Upgrades/Skins/HolsterCustomizations/StaffCrossed",
             "stancePolarity": "AP_ATTACK",
@@ -477,7 +477,7 @@
                     "WeaponAttachmentHand": "MAIN_HAND",
                     "IsAerialSlam": 0,
                     "HitAirborneTargets": 1,
-                    "VerticalImpulse": 0.15,
+                    "VerticalImpulse": 0.15000001,
                     "HorizontalImpulse": 0.1
                 }
             ]

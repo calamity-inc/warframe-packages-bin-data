@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/DropshipAvatar",
     "data": {
         "Mesh": "/Lotus/Objects/Corpus/Vehicles/CrpSingleWheeled/CrpSingleWheeled_skel.fbx",
-        "MeshScale": 0.65,
+        "MeshScale": 0.64999998,
         "AnimationName": "Guild",
         "RootMotionChannel": "GAME_C1_ROOT",
         "AnimateMaster": 0,
@@ -59,9 +59,9 @@
                 ],
                 "LocalRotation": [
                     0,
-                    0.707107,
+                    0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_WHEEL",
                 "Type": "/Lotus/Fx/Enemies/Corpus/WheelCar/WheelCarEnergyDeco",
@@ -75,7 +75,7 @@
             },
             {
                 "LocalPosition": [
-                    3.9,
+                    3.9000001,
                     0,
                     0
                 ],
@@ -97,7 +97,7 @@
             },
             {
                 "LocalPosition": [
-                    3.9,
+                    3.9000001,
                     0,
                     0
                 ],
@@ -124,10 +124,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_WHEELBASE",
                 "Type": "DamageTrigger",
@@ -147,9 +147,9 @@
                 ],
                 "LocalRotation": [
                     0,
-                    0.707107,
+                    0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Enemies/Corpus/WheelCar/WheelCarWheelEnergyGPUEmbersSmall",
@@ -190,10 +190,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "WheelCarBreakthroughDamageTrigger",
@@ -211,7 +211,7 @@
             "Script": "WheelTurner.lua",
             "Function": "TurnWheel",
             "_turnBone": "GAME_C1_WHEEL",
-            "_wheelRadius": 3.4,
+            "_wheelRadius": 3.4000001,
             "_maxBankAngle": 30,
             "_bankPerSecond": 10,
             "_maxBankSpeed": 20,
@@ -222,8 +222,8 @@
         },
         "EyeOffset": [
             0,
-            7.9,
-            -2.9
+            7.9000001,
+            -2.9000001
         ],
         "HeadBone": "GAME_C1_ROOT",
         "CrouchOffset": [
@@ -334,7 +334,7 @@
             "_isTutorial": 0,
             "_dropTableOverride": ""
         },
-        "RtpcSpeedSmoothTime": 0.3,
+        "RtpcSpeedSmoothTime": 0.30000001,
         "AutoSpawnPassengers": 0,
         "HasLimitedSpawningTypes": 1,
         "BoneSpawnData": [

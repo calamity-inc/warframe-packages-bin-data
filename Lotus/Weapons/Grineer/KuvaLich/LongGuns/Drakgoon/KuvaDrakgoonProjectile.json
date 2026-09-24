@@ -33,16 +33,16 @@
         "AttackData": {
             "DT_IMPACT": 0.2,
             "DT_PUNCTURE": 0.2,
-            "DT_SLASH": 0.6,
+            "DT_SLASH": 0.60000002,
             "Amount": 23,
-            "ProcChance": 0.9,
+            "ProcChance": 0.89999998,
             "ForcedDeathProcs": [
                 "PT_RAGDOLL"
             ]
         },
         "DealDamageThroughImpactBehavior": 1,
         "CriticalChance": 0.19,
-        "CriticalMultiplier": 2.1,
+        "CriticalMultiplier": 2.0999999,
         "UpgradeCritValuesAtSpawn": 1,
         "HitEffect": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitEffectMedium",
         "DieEffectOffset": [
@@ -55,7 +55,7 @@
         ],
         "Toughness": 1000,
         "MaxLife": 0.2,
-        "MaxLifeVariance": 0.05,
+        "MaxLifeVariance": 0.050000001,
         "MaxBounces": 2,
         "SetLifeOnImpact": 1,
         "WhizzBySound": "/Lotus/Sounds/Weapons/BulletImpacts/Whizzbys/BulletWhizzby",
@@ -66,9 +66,9 @@
         "KinematicInitialSpeed": 130,
         "KinematicMinSpeed": 100,
         "KinematicMaxSpeed": 130,
-        "KinematicNoise": 0.05,
+        "KinematicNoise": 0.050000001,
         "KinematicGravity": 1,
-        "KinematicGravityMultiplier": 0.3,
+        "KinematicGravityMultiplier": 0.30000001,
         "KinematicRestitution": 0.2,
         "KinematicRestitutionParallel": 0.2,
         "KinematicSpinRate": [

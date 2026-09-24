@@ -47,7 +47,7 @@
                 "UseEndNodePos": 0,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1
         },
@@ -67,7 +67,7 @@
             "MoveSuccessRadius": 1,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 1,
             "StopWhenMovementInactive": 1,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1
         },
         "LocomotionController:MoveModifierCollection": [
@@ -81,7 +81,7 @@
                     "AvoidanceInputMultiplier": [
                         1.2,
                         1.2,
-                        0.8
+                        0.80000001
                     ],
                     "PreserveVelocity": 0,
                     "MinAvoidanceReducedVelocityPct": 0,
@@ -134,7 +134,7 @@
         ],
         "AwarenessDecayTime": 0,
         "TargetLostTime": 20,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 600,
         "ReportTargetPortalCheck": 0,
         "ReportAwareness": 1,
@@ -147,7 +147,7 @@
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/SpaceBattles/Grineer/Fighters/RailjackFighterReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/SpaceBattles/Grineer/Fighters/SplineFighterPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "IsCoverUseEnabled": 0,
         "TargetEvaluatorType": "/Lotus/Types/Enemies/RangedTargetEvaluator"
     }

@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Weapons/GunProjectile",
     "data": {
         "Mesh": "CrpRubanRifleArrow.fbx",
-        "MeshScale": 0.6,
+        "MeshScale": 0.60000002,
         "AutoSimChildren": [
             {
                 "LocalPosition": [
@@ -74,27 +74,27 @@
         "ReplicationOverride": "RO_NEVER",
         "AttackData": {
             "DT_IMPACT": 0.2,
-            "DT_PUNCTURE": 0.3,
+            "DT_PUNCTURE": 0.30000001,
             "DT_SLASH": 0.5,
             "Amount": 600,
-            "ProcChance": 0.32,
+            "ProcChance": 0.31999999,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ]
         },
-        "CriticalChance": 0.4,
+        "CriticalChance": 0.40000001,
         "CriticalMultiplier": 3,
         "ExplosiveAttack": {
             "Type": "DT_RADIATION",
-            "ProcChance": 0.32
+            "ProcChance": 0.31999999
         },
         "ForcedSourceProcs": [
             "PT_BIG_STAGGER",
             "PT_KNOCKED_DOWN"
         ],
         "ExplosionIgnoreCover": 0,
-        "ExplosionFallOff": 0.7,
-        "DamageRadius": 7.2,
+        "ExplosionFallOff": 0.69999999,
+        "DamageRadius": 7.1999998,
         "HitEffect": "/Lotus/Fx/Weapons/Corpus/CrpRuban/CrpRubanImplosionHitEffect",
         "DieSound": "/Lotus/Sounds/Weapons/Corpus/CrpRubanRifle/CrpRubanRifleProjectileExplosion",
         "DieEffectOffset": [
@@ -109,8 +109,8 @@
             "Amount": 0
         },
         "EmbedTime": [
-            0.36,
-            0.36
+            0.36000001,
+            0.36000001
         ],
         "EmbedDeathAttack": {
             "Type": "DT_RADIATION",
@@ -125,10 +125,10 @@
         "KinematicMinSpeed": 300,
         "KinematicMaxSpeed": 300,
         "BaseRotation": [
-            0.707107,
+            0.70710677,
             0,
             0,
-            0.707107
+            0.70710677
         ],
         "ApplyColorCustomization": 1
     }

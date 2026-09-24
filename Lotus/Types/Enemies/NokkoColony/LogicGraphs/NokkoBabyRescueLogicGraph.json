@@ -541,7 +541,7 @@
                             "StopMovingWhenAttacking": 0,
                             "DisablePostureChangers": 0,
                             "TimeBetweenLunges": 2,
-                            "LowTargetThreshold": 0.8,
+                            "LowTargetThreshold": 0.80000001,
                             "NormalAttack": "MELEE",
                             "LowAttack": "MELEE",
                             "ClearCoverReservationOnStart": 0,
@@ -549,7 +549,7 @@
                             "VipAvatarType": "",
                             "TimeBetweenBarks": 2,
                             "VisibilityTimeout": 2,
-                            "MaxReachableHeight": -9223372036854775808.0,
+                            "MaxReachableHeight": "3.4028235e+38",
                             "Bark": "ATTACK_SCREAM",
                             "IsOffHandWeapon": 0
                         },
@@ -684,7 +684,7 @@
                             "m": 1,
                             "k": -1,
                             "b": 1,
-                            "c": 0.3,
+                            "c": 0.30000001,
                             "logistic": 1
                         },
                         "FollowRange": 10,
@@ -772,7 +772,7 @@
                             "m": 1,
                             "k": -1,
                             "b": 1,
-                            "c": 0.3,
+                            "c": 0.30000001,
                             "logistic": 1
                         },
                         "StopRadius": 1,
@@ -1026,7 +1026,7 @@
                         "m": 1,
                         "k": -1,
                         "b": 1,
-                        "c": 0.3,
+                        "c": 0.30000001,
                         "logistic": 1
                     },
                     "StopRadius": 2,

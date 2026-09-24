@@ -29,8 +29,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    0.707107,
-                    0.707107
+                    0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Enemies/Grineer/SpaceFighterBrutalist/BrutalistWaveProjTrail",
@@ -49,10 +49,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Enemies/Grineer/SpaceFighterBrutalist/BrutalistWaveProjDeco",
@@ -92,7 +92,7 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/WeaponAttachments/ArchRocketCrossbow.lua",
             "Function": "ProjectileEffects",
-            "_scaleFactor": 0.18,
+            "_scaleFactor": 0.18000001,
             "_overrideProjectileColor": 0,
             "_projectileColor": [
                 5,
@@ -110,7 +110,7 @@
             "ProcChance": 0.25,
             "HitType": "DHT_PROJECTILE"
         },
-        "CriticalChance": 0.15,
+        "CriticalChance": 0.15000001,
         "CriticalMultiplier": 2,
         "ExplodeOnLifeExpired": 1,
         "HitEffect": "/Lotus/Fx/Weapons/Corpus/ShockRifle/ShockRifleBeamHitFX",

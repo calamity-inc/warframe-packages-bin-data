@@ -14,12 +14,12 @@
         "Script": {
             "Script": "ConvergeRadialAttackOnAim.lua",
             "Function": "OnBehaviorChange",
-            "_explosionRadiusBase": -0.8,
+            "_explosionRadiusBase": -0.80000001,
             "_explosionRadiusPerLevel": 0,
             "_damageMultPerMeterLostBase": 0.5,
             "_damageMultPerMeterLostPerLevel": 0.1,
-            "_ammoEfficiencyPerMeterLostBase": 0.03,
-            "_ammoEfficiencyPerMeterLostPerLevel": 0.005
+            "_ammoEfficiencyPerMeterLostBase": 0.029999999,
+            "_ammoEfficiencyPerMeterLostPerLevel": 0.0049999999
         },
         "SubUpgrades": [
             "ConvergeRadialAttackOnAimSub",
@@ -29,12 +29,12 @@
         "EnhancementTagLocScript": {
             "Script": "ConvergeRadialAttackOnAim.lua",
             "Function": "GetDescriptionInfo",
-            "_explosionRadiusBase": -0.8,
+            "_explosionRadiusBase": -0.80000001,
             "_explosionRadiusPerLevel": 0,
             "_damageMultPerMeterLostBase": 0.5,
             "_damageMultPerMeterLostPerLevel": 0.1,
-            "_ammoEfficiencyPerMeterLostBase": 0.03,
-            "_ammoEfficiencyPerMeterLostPerLevel": 0.005
+            "_ammoEfficiencyPerMeterLostBase": 0.029999999,
+            "_ammoEfficiencyPerMeterLostPerLevel": 0.0049999999
         },
         "UpgradeChance": 1,
         "ConditionalUpgrades": [

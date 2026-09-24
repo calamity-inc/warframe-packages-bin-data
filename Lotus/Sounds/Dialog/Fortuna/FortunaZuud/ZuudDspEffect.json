@@ -5,7 +5,7 @@
             "Stages": [
                 {
                     "enabled": 1,
-                    "mix": 0.03,
+                    "mix": 0.029999999,
                     "type": "DSP_RING_MOD",
                     "ringMod": {
                         "intensity": 0.33179,
@@ -36,7 +36,7 @@
                     "mix": 1,
                     "type": "DSP_EQ",
                     "eq": {
-                        "lg": 0.55,
+                        "lg": 0.55000001,
                         "mg": 0.944444,
                         "hg": 1,
                         "eqLowMid": [
@@ -69,7 +69,7 @@
                     "type": "DSP_DISTORTION",
                     "distortion": {
                         "preAtten": 1,
-                        "saturateThreshold": 0.99,
+                        "saturateThreshold": 0.99000001,
                         "distortionThreshold": 1,
                         "postAtten": 1
                     }

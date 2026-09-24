@@ -79,7 +79,7 @@
         "AttackData": {
             "Type": "DT_RADIATION",
             "Amount": 0,
-            "ProcChance": 0.15
+            "ProcChance": 0.15000001
         },
         "CriticalChance": 1,
         "CriticalMultiplier": 1.5,
@@ -90,8 +90,8 @@
             0
         ],
         "IgnoreCollisionsWithSameType": 1,
-        "MaxLife": 2.9,
-        "MaxLifeVariance": 0.7,
+        "MaxLife": 2.9000001,
+        "MaxLifeVariance": 0.69999999,
         "OnlyCollideWithAvatars": 1,
         "OnlyCollideWithTarget": 1,
         "KinematicMovement": 1,
@@ -127,7 +127,7 @@
         },
         "ForwardVel": 12,
         "SmoothUnguidedFlightTransition": 1,
-        "SmoothUnguidedFlightTime": 0.35,
+        "SmoothUnguidedFlightTime": 0.34999999,
         "AimRate": 720,
         "ReducedAimRate": 720,
         "SeekAllEntities": 1,

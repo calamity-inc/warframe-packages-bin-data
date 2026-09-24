@@ -9,8 +9,8 @@
             "colorGradingData": {
                 "Global": {
                     "Contrast": [
-                        0.85,
-                        0.98,
+                        0.85000002,
+                        0.98000002,
                         1,
                         1.2
                     ],
@@ -18,27 +18,27 @@
                         1,
                         1,
                         1,
-                        0.95
+                        0.94999999
                     ]
                 }
             },
             "bloom": 0.25,
             "postFXMaterial": "/Lotus/Types/ACESPost",
             "ssgiAttenuation": 0.5,
-            "grainBias": 0.01,
+            "grainBias": 0.0099999998,
             "volumetricFog": {
                 "Enabled": 1,
-                "Extinction": 0.05,
+                "Extinction": 0.050000001,
                 "Scattering": 0.5,
                 "GlobalFog": {
                     "Density": 0.035,
-                    "G": 0.45
+                    "G": 0.44999999
                 }
             }
         },
         "EnableGIVolumes": 1,
         "LightingParams": {
-            "diffuseBoost": 0.8,
+            "diffuseBoost": 0.80000001,
             "indirectRadiusBoost": 2,
             "emissiveScale": 0,
             "bakingOptions:Type": "/EE/Types/Darkitect/BakingOptions",
@@ -160,7 +160,7 @@
             "_ultraRareLootWaypointType": "",
             "_ultraRareCrateType": "",
             "_altUltraRareCrateType": "",
-            "_ultraRareLootChance": 0.01,
+            "_ultraRareLootChance": 0.0099999998,
             "_floatingCrateWaypointType": "",
             "_floatingCrateTypes": [],
             "_numFloatingCrates": 25,

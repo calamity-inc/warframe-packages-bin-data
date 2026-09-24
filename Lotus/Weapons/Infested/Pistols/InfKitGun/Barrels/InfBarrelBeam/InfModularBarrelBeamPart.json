@@ -32,7 +32,7 @@
         "GunType": "GT_BEAM",
         "PrimaryAttachmentOverride": "InfModularPrimaryBarrelBeamAttachment",
         "OmegaAttenuation": 1.15,
-        "PrimaryOmegaAttenuation": 0.9,
+        "PrimaryOmegaAttenuation": 0.89999998,
         "AimFovMultipliers": [
             1.1
         ],
@@ -54,7 +54,7 @@
                         "reloadThreshold": 0,
                         "controlAim": 0,
                         "continuousAim": 0,
-                        "minimumAimMask": 0.9,
+                        "minimumAimMask": 0.89999998,
                         "ShootOnStaggerProbability": 0.1,
                         "StaggerTimeOut": 1,
                         "minAngleToTurn": 0,
@@ -185,7 +185,7 @@
                 "RiftStasisWeight": 1,
                 "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
                 "MaxTraceDistanceTime": 0.5,
-                "RetractTime": 0.3,
+                "RetractTime": 0.30000001,
                 "AttachToWeapon": 1,
                 "UseWeaponAttachmentFirePos": 1,
                 "MultiBeam": 1,
@@ -199,8 +199,8 @@
                         "LocalRotation": [
                             0,
                             0,
-                            0.258819,
-                            0.965926
+                            0.25881901,
+                            0.96592599
                         ],
                         "BoneName": "barrelbeam",
                         "Type": "/Lotus/Fx/Weapons/Infested/InfModular/InfLashBeamSecondary",
@@ -223,7 +223,7 @@
                             0,
                             0,
                             0.5,
-                            0.866025
+                            0.86602497
                         ],
                         "BoneName": "barrelbeam",
                         "Type": "/Lotus/Fx/Weapons/Infested/InfModular/InfLashBeamSecondary",
@@ -245,8 +245,8 @@
                         "LocalRotation": [
                             0,
                             0,
-                            0.707107,
-                            0.707107
+                            0.70710677,
+                            0.70710677
                         ],
                         "BoneName": "barrelbeam",
                         "Type": "/Lotus/Fx/Weapons/Infested/InfModular/InfLashBeamSecondary",
@@ -268,7 +268,7 @@
                         "LocalRotation": [
                             0,
                             0,
-                            0.866025,
+                            0.86602497,
                             0.5
                         ],
                         "BoneName": "barrelbeam",
@@ -291,8 +291,8 @@
                         "LocalRotation": [
                             0,
                             0,
-                            0.965926,
-                            0.258819
+                            0.96592599,
+                            0.25881901
                         ],
                         "BoneName": "barrelbeam",
                         "Type": "/Lotus/Fx/Weapons/Infested/InfModular/InfLashBeamSecondary",
@@ -374,8 +374,8 @@
                 "RecoilIntensityFireTime": 0.5,
                 "RecoilCurve": "RC_LINEAR",
                 "RecoilStrength": [
-                    0.03,
-                    0.05
+                    0.029999999,
+                    0.050000001
                 ],
                 "LockOnRecoilTime": 0.1,
                 "LockOnRecoilStrength": [
@@ -390,12 +390,12 @@
                 "ReverseSpread": 0,
                 "UseSmoothedAccuracy": 1,
                 "SmoothedAccuracyStyle": "SAS_POLAR_WOBBLE",
-                "SmoothTime": 0.7,
+                "SmoothTime": 0.69999999,
                 "AttenuateSpreadForCharge": 0,
                 "AttenuationAtMaxCharge": 1,
                 "ExpansionTime": 1,
                 "CollapseTime": 1,
-                "InnerRingMultiplier": 0.9,
+                "InnerRingMultiplier": 0.89999998,
                 "UseInnerRing": 1,
                 "ConvergeanceStyle": "CS_ALWAYS",
                 "ForceFiringUntilSpread": 0,
@@ -867,9 +867,9 @@
                     1,
                     1
                 ],
-                "ContinuousDamageAttenuationTime": 0.6,
+                "ContinuousDamageAttenuationTime": 0.60000002,
                 "ContinuousDamageAttenuationCooldownTime": 2,
-                "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                 "AttenuateContinuousDamagePerTarget": 1,
                 "LockedOnHitEffect": "",
                 "NumChains": 0,
@@ -943,7 +943,7 @@
                         "reloadThreshold": 0,
                         "controlAim": 0,
                         "continuousAim": 0,
-                        "minimumAimMask": 0.9,
+                        "minimumAimMask": 0.89999998,
                         "ShootOnStaggerProbability": 0.1,
                         "StaggerTimeOut": 1,
                         "minAngleToTurn": 0,
@@ -1073,8 +1073,8 @@
                 "AdjustAimWithAvatarUp": 0,
                 "RiftStasisWeight": 1,
                 "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                "MaxTraceDistanceTime": 0.9,
-                "RetractTime": 0.3,
+                "MaxTraceDistanceTime": 0.89999998,
+                "RetractTime": 0.30000001,
                 "AttachToWeapon": 1,
                 "UseWeaponAttachmentFirePos": 1,
                 "MultiBeam": 0,
@@ -1169,12 +1169,12 @@
                 "RecoilCurve": "RC_LINEAR",
                 "RecoilStrength": [
                     0.25,
-                    0.3
+                    0.30000001
                 ],
                 "LockOnRecoilTime": 0.1,
                 "LockOnRecoilStrength": [
-                    0.33,
-                    0.4
+                    0.33000001,
+                    0.40000001
                 ],
                 "PvpRadius": 0,
                 "UseBeamSpread": 0,
@@ -1184,12 +1184,12 @@
                 "ReverseSpread": 0,
                 "UseSmoothedAccuracy": 1,
                 "SmoothedAccuracyStyle": "SAS_CARTESIAN",
-                "SmoothTime": 0.3,
+                "SmoothTime": 0.30000001,
                 "AttenuateSpreadForCharge": 0,
                 "AttenuationAtMaxCharge": 1,
                 "ExpansionTime": 1,
                 "CollapseTime": 1,
-                "InnerRingMultiplier": 0.9,
+                "InnerRingMultiplier": 0.89999998,
                 "UseInnerRing": 1,
                 "ConvergeanceStyle": "CS_ALWAYS",
                 "ForceFiringUntilSpread": 0,
@@ -1661,9 +1661,9 @@
                     0.2,
                     1
                 ],
-                "ContinuousDamageAttenuationTime": 0.6,
+                "ContinuousDamageAttenuationTime": 0.60000002,
                 "ContinuousDamageAttenuationCooldownTime": 2,
-                "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                 "AttenuateContinuousDamagePerTarget": 1,
                 "LockedOnHitEffect": "",
                 "NumChains": 3,

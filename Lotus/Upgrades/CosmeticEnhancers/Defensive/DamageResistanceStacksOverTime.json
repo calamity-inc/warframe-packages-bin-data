@@ -30,11 +30,11 @@
                     "Function": "GetDescription",
                     "_noDamageTime": 4,
                     "_damageResistancePerStack": [
-                        0.05,
-                        0.09,
+                        0.050000001,
+                        0.090000004,
                         0.13,
                         0.17,
-                        0.21,
+                        0.20999999,
                         0.25
                     ],
                     "_maxStacks": [
@@ -63,7 +63,7 @@
                     "_parkourEffect": ""
                 },
                 "SmallerIsBetter": 0,
-                "RoundTo": 0.01,
+                "RoundTo": 0.0099999998,
                 "RoundingMode": "RM_ROUND",
                 "AllowConditionalLocMerge": 0
             }
@@ -103,11 +103,11 @@
             "Function": "ParkourBasedUpgrades",
             "_noDamageTime": 3,
             "_damageResistancePerStack": [
-                0.05,
-                0.09,
+                0.050000001,
+                0.090000004,
                 0.13,
                 0.17,
-                0.21,
+                0.20999999,
                 0.25
             ],
             "_maxStacks": [
@@ -139,7 +139,7 @@
             "Function": "UnapplyUpgrade",
             "_noDamageTime": 5,
             "_damageResistancePerStack": [
-                0.3
+                0.30000001
             ],
             "_maxStacks": [
                 3

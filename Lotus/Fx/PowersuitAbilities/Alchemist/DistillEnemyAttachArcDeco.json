@@ -4,14 +4,14 @@
         "Mesh": "DistillHitArcMesh.fbx",
         "IgnoreParentRotation": 1,
         "RandomMeshScale": [
-            0.8,
+            0.80000001,
             1.2
         ],
         "MaterialFade": [
             {
                 "Parameter": "BlueClipThreshold",
                 "Slot": -1,
-                "TimeLength": 0.55,
+                "TimeLength": 0.55000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -31,11 +31,11 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.55,
+                "TimeLength": 0.55000001,
                 "Multiplier": 8,
                 "FadeRange": [
-                    0.3,
-                    0.3
+                    0.30000001,
+                    0.30000001
                 ],
                 "FadeCurve": {
                     "Values": [],
@@ -51,7 +51,7 @@
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.55,
+                "TimeLength": 0.55000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -65,7 +65,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.768935
+                            "Value": 0.76893502
                         },
                         {
                             "Time": 1,

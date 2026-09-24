@@ -1,0 +1,58 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MeshScale": 0.090000004,
+        "UseParentVisibility": 0,
+        "HasLifeSpan": 0,
+        "AtLeastOneFrame": 1,
+        "SleepOffscreen": 0,
+        "Life": [
+            0.02,
+            0.02
+        ],
+        "Size": [
+            0.1,
+            0.30000001
+        ],
+        "BurstCount": [
+            1,
+            1
+        ],
+        "Shape": "SH_MESH",
+        "ColorMin": [
+            66,
+            246,
+            255,
+            255
+        ],
+        "ColorMax": [
+            24,
+            212,
+            255,
+            255
+        ],
+        "ColorKeys": [
+            [
+                18,
+                254,
+                243,
+                0
+            ],
+            [
+                83,
+                223,
+                242,
+                0
+            ]
+        ],
+        "RandOrientation": 1,
+        "ParticleMeshes": [
+            "/Lotus/Fx/Weapons/Corpus/CrpAirPistol/AirPistolProjMesh.fbx"
+        ],
+        "FadeInOut": [
+            0,
+            0.240876
+        ],
+        "DrawRelative": 1
+    }
+}

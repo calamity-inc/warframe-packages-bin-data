@@ -2,7 +2,7 @@
     "parent": "/EE/Types/Effects/SkeletalClothEx",
     "data": {
         "Mesh": "JadePatika_skel.fbx",
-        "MeshScale": 0.55,
+        "MeshScale": 0.55000001,
         "Attached": 1,
         "ReplicaRunScriptInstance": 1,
         "DebugVis": "CV_SHEAR_FOLD",
@@ -10,12 +10,12 @@
         "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
         "Attribs": {
             "dampeningRange": [
-                0.08,
-                0.082
+                0.079999998,
+                0.082000002
             ],
             "collidingDampeningRange": [
-                0.0245,
-                0.0389
+                0.024499999,
+                0.038899999
             ],
             "massRange": [
                 0.5,
@@ -34,7 +34,7 @@
                 0,
                 0
             ],
-            "noiseSpeed": 0.05,
+            "noiseSpeed": 0.050000001,
             "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
             "windVolumeStrength": [
                 0.1,

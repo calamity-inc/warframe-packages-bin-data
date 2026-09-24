@@ -18,8 +18,8 @@
                     "type": "DSP_DELAY",
                     "delay": {
                         "delayTimeSec": 0,
-                        "delayTime": 0.3,
-                        "feedback": 0.7
+                        "delayTime": 0.30000001,
+                        "feedback": 0.69999999
                     }
                 },
                 {
@@ -28,7 +28,7 @@
                     "type": "DSP_DISTORTION",
                     "distortion": {
                         "preAtten": 1.2,
-                        "saturateThreshold": 0.99,
+                        "saturateThreshold": 0.99000001,
                         "distortionThreshold": 1,
                         "postAtten": 1
                     }
@@ -39,10 +39,10 @@
                     "type": "DSP_FLANGER",
                     "flanger": {
                         "paramSweepRate": 0,
-                        "paramWidth": 0.3,
+                        "paramWidth": 0.30000001,
                         "paramFeedback": 0,
                         "paramDelay": 0.2,
-                        "paramMixMode": 0.3758
+                        "paramMixMode": 0.37580001
                     }
                 }
             ]

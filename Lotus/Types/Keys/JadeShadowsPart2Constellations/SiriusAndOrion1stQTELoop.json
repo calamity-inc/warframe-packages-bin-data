@@ -12,7 +12,7 @@
                         "EventId": 0,
                         "Key": [
                             "QTEAerialOrionLoop_cin.fbx",
-                            0.025175
+                            0.0251748
                         ],
                         "Duration": 0,
                         "InventorySlot": "SLOT_1",
@@ -85,12 +85,12 @@
         "OverridePostProcessInfo": 1,
         "PostProcessInfo": {
             "dynamicExposure": [
-                0.15,
+                0.15000001,
                 16
             ],
             "targetExposure": 0.11,
-            "adaptationRateUp": 0.3,
-            "adaptationRateDown": 0.3,
+            "adaptationRateUp": 0.30000001,
+            "adaptationRateDown": 0.30000001,
             "exposureConvergeSpeed": 10,
             "useExposureEVCurve": 1,
             "exposureCurveBias": -0.25,
@@ -98,9 +98,9 @@
             "toneMapLUT": "/EE/Materials/PostFX/FilmLooks/Kodak2383Classic.cube",
             "toneMapLUTBlend": 0.75,
             "colorCorrectTint": [
-                0.7,
+                0.69999999,
                 1,
-                0.99,
+                0.99000001,
                 1
             ],
             "colorGradingData": {
@@ -115,7 +115,7 @@
                         1,
                         1,
                         1,
-                        0.99
+                        0.99000001
                     ],
                     "Gain": [
                         1,
@@ -126,9 +126,9 @@
                 },
                 "Shadows": {
                     "Contrast": [
-                        0.79,
+                        0.79000002,
                         1,
-                        0.99,
+                        0.99000001,
                         1.1
                     ]
                 },
@@ -142,9 +142,9 @@
                 }
             },
             "colorCorrectionConverge": 0.5,
-            "blur": 0.15,
-            "motionBlurStrength": 0.15,
-            "focalBlur": 0.658915,
+            "blur": 0.15000001,
+            "motionBlurStrength": 0.15000001,
+            "focalBlur": 0.65891498,
             "horizonDOF": 1,
             "horizonRadius": 1,
             "horizonFog": 1,
@@ -172,11 +172,11 @@
             "lightMapBoost": 1.5,
             "postFXMaterial": "/Lotus/Types/ACESPostVenus",
             "viewShake": {
-                "ShakeFactorPos": 0.04,
+                "ShakeFactorPos": 0.039999999,
                 "ShakeFactorRot": [
-                    0.08,
-                    0.08,
-                    0.08
+                    0.079999998,
+                    0.079999998,
+                    0.079999998
                 ],
                 "ShakeSpeed": 2,
                 "ShakeAmbient": 0,
@@ -186,8 +186,8 @@
             },
             "sunPosition": [
                 0.610847,
-                0.534101,
-                0.584468
+                0.53410101,
+                0.58446801
             ],
             "sunShaftsDensity": 1,
             "sunShaftsMultiplier": 1.5,
@@ -202,15 +202,15 @@
                 0.003,
                 0.003,
                 -0.001,
-                0.004
+                0.0040000002
             ],
             "grainBias": 0.025,
             "volumetricFog": {
                 "Enabled": 1,
                 "Scattering": 1.25,
-                "ExtinctionConfusion": 0.4,
+                "ExtinctionConfusion": 0.40000001,
                 "GlobalFog": {
-                    "Density": 0.006
+                    "Density": 0.0060000001
                 }
             }
         },

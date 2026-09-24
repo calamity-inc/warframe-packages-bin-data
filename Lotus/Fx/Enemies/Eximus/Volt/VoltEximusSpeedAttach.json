@@ -1,6 +1,8 @@
 {
     "parent": "/EE/Types/Effects/Spawner",
     "data": {
+        "ReplicationOverride": "RO_ALWAYS",
+        "ReplicateCreator": 1,
         "CreatedTypes": [
             {
                 "Type": "VoltEximusSpeedTrail",
@@ -206,13 +208,13 @@
         "OwnChildren": 1,
         "Mode": "ONE_SHOT",
         "EffectsColor": [
-            158,
-            191,
-            244,
+            224,
+            215,
+            255,
             255
         ],
         "EffectsSecondaryColor": [
-            61,
+            89,
             49,
             168,
             255

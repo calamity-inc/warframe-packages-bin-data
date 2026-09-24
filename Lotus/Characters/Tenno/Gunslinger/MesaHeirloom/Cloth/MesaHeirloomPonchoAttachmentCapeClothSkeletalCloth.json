@@ -1,0 +1,91 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "MesaHeirloomPonchoAttachmentCapeCloth_skel.fbx",
+        "Attached": 1,
+        "AttachBone": "GAME_C1_SPINE5",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/WeaponAttachments/WarframeHumanSkins.lua",
+            "Function": "CheekyRemapButAppliedToParentEntity",
+            "_paramName": "CustomizeCustomEyes",
+            "_eyeSlot": [
+                2
+            ],
+            "_colorSlots": [
+                "PrimaryColors"
+            ],
+            "_multiParamOption": []
+        },
+        "ReplicaRunScriptInstance": 1,
+        "CollisionDebugVis": "CDV_ADDED",
+        "ShowSimCollisionTags": 1,
+        "ControlData": "MesaHeirloomPonchoAttachmentCapeClothData",
+        "PeerCollision": "MesaHeirloomPonchoAttachmentCapePeerSimCollision",
+        "AddedCollision": "MesaHeirloomPonchoAttachmentCapeSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.082000002,
+                0.082999997
+            ],
+            "collidingDampeningRange": [
+                0.02,
+                0.025
+            ],
+            "massRange": [
+                0.175,
+                0.26499999
+            ],
+            "distConstraintRange": [
+                0.000099999997,
+                0.80000001
+            ],
+            "backstopConstraintRange": [
+                0,
+                0.1
+            ],
+            "reduceStretchExponent": 0.25,
+            "shearingStiffness": 0.15000001,
+            "worldVelocityAtten": [
+                5,
+                5,
+                5
+            ],
+            "worldVelocitySmooth": 0,
+            "windVelocityScale": 0.28999999,
+            "windAffected": 0,
+            "wind": [
+                1,
+                1,
+                1
+            ],
+            "windStrength": [
+                1,
+                1
+            ],
+            "noiseSpeed": 0,
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "windVolumeScale": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "windVolumeOffsetRate": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "floorPlaneHeight": 0.059,
+            "orientationBasis": "NEG_X_Y",
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        },
+        "UseClothCollision": 1
+    }
+}

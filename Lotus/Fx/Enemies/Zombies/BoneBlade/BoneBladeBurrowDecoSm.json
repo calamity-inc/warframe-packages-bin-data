@@ -9,14 +9,14 @@
         "DissolveOverride": "/Lotus/Fx/Common/WrapTextureA_d.png",
         "UseParentVisibility": 0,
         "AmbientAnimation": "/Lotus/Fx/Conservation/SvBurrowedAnimalChunksTransLoop",
-        "AmbientAnimationRate": 0.3,
-        "TriggeredAnimationRate": 0.3,
+        "AmbientAnimationRate": 0.30000001,
+        "TriggeredAnimationRate": 0.30000001,
         "TriggeredAnimation": "/Lotus/Fx/Conservation/SvBurrowedAnimalChunksTransIn",
         "EnableReplicaMoveNoise": 1,
         "ReplicaPositionNoise": [
-            0.01,
+            0.0099999998,
             0,
-            0.01,
+            0.0099999998,
             2
         ],
         "ReplicaRotationNoise": [
@@ -26,7 +26,7 @@
             2
         ],
         "RandomMeshScale": [
-            0.8,
+            0.80000001,
             1.15
         ],
         "MaterialFade": [
@@ -55,7 +55,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -89,19 +89,19 @@
                 },
                 {
                     "Time": 0.1,
-                    "Value": 0.7
+                    "Value": 0.69999999
                 },
                 {
                     "Time": 0.2,
                     "Value": 1
                 },
                 {
-                    "Time": 0.8,
+                    "Time": 0.80000001,
                     "Value": 1
                 },
                 {
-                    "Time": 0.9,
-                    "Value": 0.7
+                    "Time": 0.89999998,
+                    "Value": 0.69999999
                 },
                 {
                     "Time": 1,

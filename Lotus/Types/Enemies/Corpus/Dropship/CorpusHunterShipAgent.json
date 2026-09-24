@@ -116,7 +116,7 @@
                         "Script": ""
                     },
                     "DefaultReevaluationDelay": 0,
-                    "HealthPctToDrop": 0.7,
+                    "HealthPctToDrop": 0.69999999,
                     "TimeoutToStartDroppingAfterAlerted": 60,
                     "DropOffTag": "DropshipDrop"
                 },
@@ -132,7 +132,7 @@
                     "NearDistance": 6,
                     "PreventMovingToPreviousZoneTime": 7,
                     "MoveJitterTimerRange": [
-                        0.7,
+                        0.69999999,
                         1.7
                     ],
                     "MoveJitterDistanceRange": [
@@ -154,7 +154,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 1,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,
@@ -230,7 +230,7 @@
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -373,7 +373,7 @@
                 "UseEndNodePos": 0,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1
         },
@@ -393,7 +393,7 @@
             "MoveSuccessRadius": 4,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 1,
             "StopWhenMovementInactive": 1,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "PreferedDistAboveNav": [
                 0,
                 0
@@ -403,7 +403,7 @@
             "DistanceToSlow": 24,
             "MinimumSlowedSpeed": 1,
             "MinimumSpeed": 0,
-            "RecoverySpeedPct": 0.6,
+            "RecoverySpeedPct": 0.60000002,
             "CorrectHeightOnIdle": 0,
             "AirplaneControls": 0,
             "DesiredAngleRangeForBank": [
@@ -451,7 +451,7 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Corpus/Drones/DroneReactionController",
         "PerceiverType": "/Lotus/Types/Enemies/Corpus/Drones/DronePerceiver",

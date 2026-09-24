@@ -18,10 +18,10 @@
             },
             "NPC_ARMOUR": {
                 "Exponent": 1.75,
-                "Multiplier": 0.005,
+                "Multiplier": 0.0049999999,
                 "BlendCurves": 1,
                 "BlendedExponent": 0.75,
-                "BlendedMultiplier": 0.4,
+                "BlendedMultiplier": 0.40000001,
                 "BlendRange": [
                     70,
                     80
@@ -45,7 +45,7 @@
                 "Exponent": 4,
                 "Multiplier": 0.0015,
                 "BlendCurves": 1,
-                "BlendedExponent": 0.9,
+                "BlendedExponent": 0.89999998,
                 "BlendedMultiplier": 260,
                 "BlendRange": [
                     45,
@@ -57,7 +57,7 @@
                 "Exponent": 1.2,
                 "Multiplier": 0.001,
                 "BlendCurves": 1,
-                "BlendedExponent": 0.4,
+                "BlendedExponent": 0.40000001,
                 "BlendedMultiplier": 0.17,
                 "BlendRange": [
                     70,
@@ -66,9 +66,9 @@
                 "IgnoreBaseLevel": 1
             },
             "NPC_SHIELD_RECHARGE_RATE": {
-                "Multiplier": 0.08,
+                "Multiplier": 0.079999998,
                 "BlendCurves": 1,
-                "BlendedExponent": 0.9,
+                "BlendedExponent": 0.89999998,
                 "BlendedMultiplier": 0.2,
                 "BlendRange": [
                     70,
@@ -80,8 +80,8 @@
         "AgentLevel/DifficultyAggroClamps": {
             "LOW": {
                 "AggroClamp": [
-                    0.15,
-                    0.65
+                    0.15000001,
+                    0.64999998
                 ]
             },
             "NORMAL": {
@@ -91,7 +91,7 @@
                 "MaxLevelInRange": 40,
                 "AggroClamp": [
                     0.5,
-                    0.85
+                    0.85000002
                 ]
             },
             "HIGHEST": {
@@ -103,22 +103,22 @@
         },
         "AgentLevel/AimAccuracyMultiplier": {
             "LOWEST": {
-                "AimAggroOverride": 0.45
+                "AimAggroOverride": 0.44999999
             },
             "LOW": {
-                "AimAggroOverride": 0.45
+                "AimAggroOverride": 0.44999999
             },
             "NORMAL": {
                 "MaxLevelInRange": 25,
-                "AimAggroOverride": 0.6
+                "AimAggroOverride": 0.60000002
             },
             "HIGH": {
                 "MaxLevelInRange": 40,
-                "AimAggroOverride": 0.7
+                "AimAggroOverride": 0.69999999
             },
             "HIGHEST": {
                 "MaxLevelInRange": 60,
-                "AimAggroOverride": 0.85
+                "AimAggroOverride": 0.85000002
             },
             "EVEN_MORE_HIGHEST": {
                 "MaxLevelInRange": 75

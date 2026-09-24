@@ -1,0 +1,35 @@
+{
+    "parent": "/Lotus/Types/Game/SuitCustomizationAttachment",
+    "data": {
+        "Mesh": "LasNightwaveCape_skel.fbx",
+        "AmbientAnimation": "/Lotus/Animations/Tenno/Accessory/Syandana/LasNightwaveCape/WingsClosedIdle_anim.fbx",
+        "SequencedAnimations": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "OnInit": {
+            "script": {
+                "Script": "/Lotus/Scripts/Effects/SyandanaCustomization.lua",
+                "Function": "GlideRunOrSlideOpenClosedByDefault",
+                "_closedIdleAnim": "/Lotus/Animations/Tenno/Accessory/Syandana/LasNightwaveCape/WingsOpenIdle_anim.fbx",
+                "_closeAnim": "/Lotus/Animations/Tenno/Accessory/Syandana/LasNightwaveCape/WingsFoldToOpen_anim.fbx",
+                "_openIdleAnim": "/Lotus/Animations/Tenno/Accessory/Syandana/LasNightwaveCape/WingsClosedIdle_anim.fbx",
+                "_openAnim": "/Lotus/Animations/Tenno/Accessory/Syandana/LasNightwaveCape/WingsFoldToClose_anim.fbx",
+                "_idleSpinRate": 1,
+                "_fireSpinRate": 1,
+                "_fireRateAtten": 1,
+                "_spinRateCurve": 2,
+                "_spinRateCurveOffset": 0.5,
+                "_spinAttachmentType": "",
+                "_openAttach": "",
+                "_powerCastDelayToClose": 10,
+                "_openInHub": 1,
+                "_isDissolving": 0
+            }
+        },
+        "TimeBetweenDamagedEvents": 0,
+        "OverrideTable": "LasNightwaveCapeOverrides"
+    }
+}

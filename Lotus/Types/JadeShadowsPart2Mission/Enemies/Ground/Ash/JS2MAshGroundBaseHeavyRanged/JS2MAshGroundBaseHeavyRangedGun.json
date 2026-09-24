@@ -8,7 +8,7 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.042,
+                    -0.041999999,
                     -0.07
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -27,15 +27,15 @@
         "HasAlternateFire": 1,
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.04,
-            0.06,
+            -0.039999999,
+            0.059999999,
             0.02
         ],
         "GripRotationOffset": [
             0,
             0,
-            0.707107,
-            0.707107
+            0.70710677,
+            0.70710677
         ],
         "GripBone": "GAME_C1_HANDLE1",
         "DisableFireWhileMainHandMeleeing": 0,
@@ -43,11 +43,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -81,7 +81,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -308,16 +308,16 @@
                     "StasisCollapseTime": 2.5,
                     "RecoilOnFire": 0,
                     "RecoilRate": 720,
-                    "RecoilIntensityFireTime": 0.8,
+                    "RecoilIntensityFireTime": 0.80000001,
                     "RecoilCurve": "RC_LINEAR",
                     "RecoilStrength": [
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998
                     ],
                     "LockOnRecoilTime": 0.12,
                     "LockOnRecoilStrength": [
-                        0.01,
-                        0.01
+                        0.0099999998,
+                        0.0099999998
                     ],
                     "PvpRadius": 0,
                     "UseBeamSpread": 0,
@@ -327,12 +327,12 @@
                     "ReverseSpread": 0,
                     "UseSmoothedAccuracy": 1,
                     "SmoothedAccuracyStyle": "SAS_POLAR_CW",
-                    "SmoothTime": 0.3,
+                    "SmoothTime": 0.30000001,
                     "AttenuateSpreadForCharge": 0,
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -807,16 +807,16 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": "",
                     "NumChains": 3,
                     "SequentialChains": 1,
                     "ChainDistance": 30,
                     "AttachBeamToTorso": 0,
-                    "ChainDamageMultiplier": 0.8,
+                    "ChainDamageMultiplier": 0.80000001,
                     "StopChainOnParry": 0,
                     "ChainEffectType": "/Lotus/Fx/Weapons/HeavyGuns/TnShieldFrameArchGun/TnShieldFrameArchGunBeamChild",
                     "ChainableTypes": []
@@ -893,7 +893,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -1089,9 +1089,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -1258,7 +1258,7 @@
             "Script": "/Lotus/Scripts/WeaponAttachments/WeaponZoomMultiplier.lua",
             "Function": "InitUserData",
             "_zoomMultipliers": [
-                0.4,
+                0.40000001,
                 1
             ]
         },
@@ -1266,7 +1266,7 @@
             "Script": "/Lotus/Scripts/WeaponAttachments/WeaponZoomMultiplier.lua",
             "Function": "DestroyUserData",
             "_zoomMultipliers": [
-                0.4,
+                0.40000001,
                 1
             ]
         },
@@ -1280,7 +1280,7 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.042,
+                    -0.041999999,
                     -0.07
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -1302,7 +1302,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -1529,16 +1529,16 @@
                     "StasisCollapseTime": 2.5,
                     "RecoilOnFire": 0,
                     "RecoilRate": 720,
-                    "RecoilIntensityFireTime": 0.8,
+                    "RecoilIntensityFireTime": 0.80000001,
                     "RecoilCurve": "RC_LINEAR",
                     "RecoilStrength": [
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998
                     ],
                     "LockOnRecoilTime": 0.12,
                     "LockOnRecoilStrength": [
-                        0.01,
-                        0.01
+                        0.0099999998,
+                        0.0099999998
                     ],
                     "PvpRadius": 0,
                     "UseBeamSpread": 0,
@@ -1548,12 +1548,12 @@
                     "ReverseSpread": 0,
                     "UseSmoothedAccuracy": 1,
                     "SmoothedAccuracyStyle": "SAS_POLAR_CW",
-                    "SmoothTime": 0.3,
+                    "SmoothTime": 0.30000001,
                     "AttenuateSpreadForCharge": 0,
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -2028,16 +2028,16 @@
                         0.2,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.6,
+                    "ContinuousDamageAttenuationTime": 0.60000002,
                     "ContinuousDamageAttenuationCooldownTime": 2,
-                    "ContinuousDamageAttenuationCooldownDelay": 0.8,
+                    "ContinuousDamageAttenuationCooldownDelay": 0.80000001,
                     "AttenuateContinuousDamagePerTarget": 1,
                     "LockedOnHitEffect": "",
                     "NumChains": 3,
                     "SequentialChains": 1,
                     "ChainDistance": 6,
                     "AttachBeamToTorso": 0,
-                    "ChainDamageMultiplier": 0.8,
+                    "ChainDamageMultiplier": 0.80000001,
                     "StopChainOnParry": 0,
                     "ChainEffectType": "/Lotus/Fx/Weapons/HeavyGuns/TnShieldFrameArchGun/TnShieldFrameArchGunBeamChild",
                     "ChainableTypes": []
@@ -2114,7 +2114,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -2310,9 +2310,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -2482,7 +2482,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -2561,9 +2561,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -2724,10 +2724,10 @@
             -0.2
         ],
         "HolsterRotOffset": [
-            0.024392,
+            0.024391999,
             0.036162,
-            0.558661,
-            0.828249
+            0.55866098,
+            0.82824898
         ],
         "RequiredLevel": 8,
         "ShowBehaviorOnUI": 1,

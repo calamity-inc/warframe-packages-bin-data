@@ -2,7 +2,7 @@
     "parent": "/Lotus/Weapons/Tenno/Grenades/GrenadeProjectile",
     "data": {
         "Mesh": "/Lotus/Fx/Common/Sphere10Deformed.fbx",
-        "MeshScale": 0.01,
+        "MeshScale": 0.0099999998,
         "OverrideMaterial": [
             "/Lotus/Fx/Corpus/Amalgams/PilotChargeShotCMat"
         ],
@@ -60,7 +60,7 @@
             "HitType": "DHT_PROJECTILE"
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.15,
+        "CriticalChance": 0.15000001,
         "CriticalMultiplier": 2,
         "ExplosiveAttack": {
             "Amount": 25,

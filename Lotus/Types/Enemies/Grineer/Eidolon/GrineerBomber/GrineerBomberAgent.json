@@ -56,7 +56,7 @@
                 5,
                 6
             ],
-            "MeleeHitManeuverProbability": 0.3
+            "MeleeHitManeuverProbability": 0.30000001
         },
         "WaitForSpawnAnimationBehavior": {
             "Enabled": 1,
@@ -264,7 +264,7 @@
                     "_projPerBurst": 3,
                     "_launchBoneForPosition": "GAME_L1_GUN",
                     "_launchBoneForOrientation": "GAME_L1_GUN",
-                    "_burstDelay": 0.6,
+                    "_burstDelay": 0.60000002,
                     "_muzzleFlashPerProj": 1,
                     "_launchSoundPerProj": 1,
                     "_succeedOnFireDisabledOnly": 0,
@@ -442,7 +442,7 @@
                 "UseEndNodePos": 0,
                 "NodeSizeCompensate": 1,
                 "NodeSizeCompensateEstimateAmount": 0.5,
-                "NodeSizeCompensateCostAmount": 0.8
+                "NodeSizeCompensateCostAmount": 0.80000001
             },
             "Async": 1
         },
@@ -462,7 +462,7 @@
             "MoveSuccessRadius": 8,
             "DesiredVelocityAsMultiplierOfBaseSpeed": 1,
             "StopWhenMovementInactive": 1,
-            "IdlingSpeedMultiplier": 0.45,
+            "IdlingSpeedMultiplier": 0.44999999,
             "ForceFaceForwardWhenInactive": 1,
             "PreferedDistAboveNav": [
                 30,
@@ -470,10 +470,10 @@
             ],
             "MoveHeightOffset": 0,
             "DistanceToDisregardTurning": 0,
-            "DistanceToSlow": 2.4,
+            "DistanceToSlow": 2.4000001,
             "MinimumSlowedSpeed": 8,
             "MinimumSpeed": 0,
-            "RecoverySpeedPct": 0.6,
+            "RecoverySpeedPct": 0.60000002,
             "CorrectHeightOnIdle": 0,
             "AirplaneControls": 0,
             "DesiredAngleRangeForBank": [
@@ -494,7 +494,7 @@
                     "AvoidanceInputMultiplier": [
                         1.2,
                         1.2,
-                        0.8
+                        0.80000001
                     ],
                     "PreserveVelocity": 1,
                     "MinAvoidanceReducedVelocityPct": 0,
@@ -539,11 +539,11 @@
         ],
         "AwarenessDecayTime": 20,
         "TargetLostTime": 10,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "SuperAlertDecayTime": 20,
         "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/GrineerReactionControllerImpl",
         "PerceiverType": "/Lotus/Types/Enemies/Grineer/GrineerPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator"
     }
 }

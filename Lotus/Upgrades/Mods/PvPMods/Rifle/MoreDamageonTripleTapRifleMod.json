@@ -23,7 +23,7 @@
                 "LocKeyWordScript": {
                     "Script": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/BonusDamageOnNextHit.lua",
                     "Function": "GetModDescriptionInfo",
-                    "_bonusDamagePercent": 0.05,
+                    "_bonusDamagePercent": 0.050000001,
                     "_multTimeWindow": 0.5,
                     "_hudBuffType": ""
                 },
@@ -38,14 +38,14 @@
         "Script": {
             "Script": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/BonusDamageOnNextHit.lua",
             "Function": "ApplyUpgrade",
-            "_bonusDamagePercent": 0.05,
+            "_bonusDamagePercent": 0.050000001,
             "_multTimeWindow": 0.5,
             "_hudBuffType": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/BonusDamageOnNextHitHudBuff"
         },
         "UnappliedScript": {
             "Script": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/BonusDamageOnNextHit.lua",
             "Function": "UnApplyUpgrade",
-            "_bonusDamagePercent": 0.05,
+            "_bonusDamagePercent": 0.050000001,
             "_multTimeWindow": 1,
             "_hudBuffType": ""
         }

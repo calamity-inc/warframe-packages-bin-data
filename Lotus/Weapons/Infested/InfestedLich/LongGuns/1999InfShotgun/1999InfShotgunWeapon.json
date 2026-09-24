@@ -27,11 +27,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -60,7 +60,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -257,7 +257,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_IMPACT",
                         "Amount": 75,
-                        "ProcChance": 1.68,
+                        "ProcChance": 1.6799999,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -307,8 +307,8 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.24,
-                    "criticalHitDamageMultiplier": 2.1,
+                    "criticalHitChance": 0.23999999,
+                    "criticalHitDamageMultiplier": 2.0999999,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -401,7 +401,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -619,7 +619,7 @@
                         "UseNewFormat": 0,
                         "Type": "DT_IMPACT",
                         "Amount": 0,
-                        "ProcChance": 0.4,
+                        "ProcChance": 0.40000001,
                         "ForcedProcs": [
                             "PT_KNOCKBACK",
                             "PT_MAGNETIZED"
@@ -755,7 +755,7 @@
                     "ReplicateDetonate": 0,
                     "RecallProjectiles": 0,
                     "PostExplosionZoomDelay": 0.5,
-                    "DestroyDelay": 0.05,
+                    "DestroyDelay": 0.050000001,
                     "RecallBones": []
                 }
             }
@@ -843,7 +843,7 @@
                 ]
             }
         ],
-        "OmegaAttenuation": 0.6,
+        "OmegaAttenuation": 0.60000002,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Shotgun/HybridImpact"
     }
 }

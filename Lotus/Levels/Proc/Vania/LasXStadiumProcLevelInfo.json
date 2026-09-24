@@ -3,7 +3,7 @@
     "data": {
         "PostProcessInfo": {
             "dynamicExposure": [
-                0.15,
+                0.15000001,
                 16
             ],
             "targetExposure": 0.117107,
@@ -25,12 +25,12 @@
             },
             "toneMapType": "TM_ACES_REF",
             "toneMapLUT": "/EE/Materials/PostFX/FilmLooks/Kodak2383Classic.cube",
-            "toneMapLUTBlend": 0.35,
+            "toneMapLUTBlend": 0.34999999,
             "colorCorrectCurveLift": [
                 1,
                 1,
                 1,
-                0.005
+                0.0049999999
             ],
             "colorGradingData": {
                 "Global": {
@@ -38,7 +38,7 @@
                         1,
                         1,
                         1,
-                        0.9
+                        0.89999998
                     ],
                     "Contrast": [
                         1,
@@ -50,7 +50,7 @@
                         1,
                         1,
                         1,
-                        0.98
+                        0.98000002
                     ]
                 }
             },
@@ -70,13 +70,13 @@
             "focalFarDepth": 50,
             "sunPosition": [
                 -0.569803,
-                0.683764,
-                0.455842
+                0.68376398,
+                0.45584199
             ],
             "sunColor": [
-                0.91,
+                0.91000003,
                 1.02,
-                1.06,
+                1.0599999,
                 0
             ],
             "sunShaftsDecay": 0.875,
@@ -84,7 +84,7 @@
                 0.003,
                 0.003,
                 -0.001,
-                0.004
+                0.0040000002
             ],
             "volumetricFog": {
                 "Enabled": 1,
@@ -92,20 +92,20 @@
                 "Extinction": 0.2,
                 "ExtinctionConfusion": 0.5,
                 "GlobalFog": {
-                    "Density": 0.05,
-                    "G": 0.3
+                    "Density": 0.050000001,
+                    "G": 0.30000001
                 },
                 "WindSettings": {
-                    "WindSpeedMultiplier": 0.05
+                    "WindSpeedMultiplier": 0.050000001
                 },
                 "ClumpyNoise": {
                     "ClumpAmount": 0.5,
                     "ClumpStart": 0.2,
                     "ClumpEnd": 0.5,
-                    "NoiseScale": 0.05
+                    "NoiseScale": 0.050000001
                 },
                 "ColorGrading": {
-                    "Vibrance": 0.15
+                    "Vibrance": 0.15000001
                 }
             }
         },

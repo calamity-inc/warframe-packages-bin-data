@@ -1,0 +1,54 @@
+{
+    "parent": "/Lotus/Types/Game/KeyItem",
+    "data": {
+        "MarketMode": "MM_HIDDEN",
+        "PremiumPrice": 75,
+        "PurchaseQuantity": 666,
+        "ProductCategory": "LevelKeys",
+        "LocalizeTag": "[HC] VaniaExterminateAllVoltEximusBaseKey",
+        "Icon": "/Lotus/Interface/Icons/Npcs/DuviriWraithMelee.png",
+        "Mission": {
+            "missionType": "MT_EXTERMINATION",
+            "faction": "FC_SCALDRA",
+            "gameRules": "/Lotus/Types/GameRules/Lotus1999GameRules",
+            "uniqueName": "[HC] Vania Exterminate All Volt Eximus Summer",
+            "difficulty": 1,
+            "missionReward": {
+                "credits": 15000,
+                "randomizedItems": "/Lotus/Types/Game/MissionDecks/VoltEximusRewards"
+            },
+            "location": "SolNode853",
+            "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaExterminateAllVoltEximusSummer",
+            "loadingScreenOverride": "/Lotus/Levels/Episodes/SmallBlackRoom.level",
+            "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraNoBalloonSpec",
+            "regionalEnemySpawnTag": "Underground",
+            "regionalEnemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateTechrotSpec",
+            "minEnemyLevel": 40,
+            "maxEnemyLevel": 45,
+            "minSpaceEnemyLevel": 50,
+            "maxSpaceEnemyLevel": 60,
+            "soloMode": 1,
+            "leadersAlwaysAllowed": 1,
+            "syndicateTag": "HexSyndicate",
+            "syndicateXP": 1000,
+            "syndicateTitle": [
+                1,
+                5
+            ],
+            "transmissionOverrides": "/Lotus/Sounds/Dialog/FablesAndFrontiers/OopsAllEximus/FFOopsAllEximusTransmissions",
+            "buddyAgents": [
+                "/Lotus/Types/Gameplay/1999Wf/ProtoframeAllies/AmirAllyAgent",
+                "/Lotus/Types/Gameplay/1999Wf/ProtoframeAllies/AoiAllyAgent",
+                "/Lotus/Types/Gameplay/1999Wf/ProtoframeAllies/ArthurAllyAgent",
+                "/Lotus/Types/Gameplay/1999Wf/ProtoframeAllies/EleanorAllyAgent",
+                "/Lotus/Types/Gameplay/1999Wf/ProtoframeAllies/LettieAllyAgent",
+                "/Lotus/Types/Gameplay/1999Wf/ProtoframeAllies/QuincyAllyAgent"
+            ],
+            "periodicMissionTag": "AmirWeekly",
+            "periodicMissionCooldown": 604800,
+            "hubLevelTag": "1999Hub",
+            "goalTag": "OopsAllEximus"
+        },
+        "RegionIdx": 17
+    }
+}

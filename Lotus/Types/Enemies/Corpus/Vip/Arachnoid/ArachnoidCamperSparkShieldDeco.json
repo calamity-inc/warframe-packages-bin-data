@@ -4,8 +4,8 @@
         "Rotation": [
             0,
             0,
-            0.707107,
-            0.707107
+            0.70710677,
+            0.70710677
         ],
         "Mesh": "/Lotus/Fx/Enemies/Corpus/Arachnoid/ArachnoidCamperShieldWallMesh.fbx",
         "DistortionEffect": 1,
@@ -16,7 +16,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.4
+                    0.40000001
                 ],
                 "LocalRotation": [
                     0,
@@ -38,7 +38,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.4
+                    0.40000001
                 ],
                 "LocalRotation": [
                     0,
@@ -86,8 +86,8 @@
             "_castEffect": "",
             "_pylonMissileTetherType": "",
             "_spawnDist": 30,
-            "_spawnDelayMin": 0.3,
-            "_spawnDelayMax": 0.6,
+            "_spawnDelayMin": 0.30000001,
+            "_spawnDelayMax": 0.60000002,
             "_shieldDeco": "",
             "_shieldElementType": "ArachnoidCamperSparkShieldScriptTrigger",
             "_shieldDamage": 200,
@@ -122,7 +122,7 @@
             {
                 "Parameter": "vScalesFade",
                 "TimeLength": 0.2,
-                "Multiplier": 0.9,
+                "Multiplier": 0.89999998,
                 "FadeRange": [
                     1,
                     1
@@ -171,7 +171,7 @@
                     "Values": [],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.8,
+                "BaseValue": 0.80000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,

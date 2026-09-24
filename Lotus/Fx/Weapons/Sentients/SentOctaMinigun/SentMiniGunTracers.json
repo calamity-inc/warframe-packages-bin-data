@@ -1,0 +1,73 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 500
+            },
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.14,
+                    1,
+                    0.85000002,
+                    1
+                ]
+            }
+        ],
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "RootMotion": 1,
+        "LocalPosition": [
+            0,
+            0.0099999998,
+            -0.25
+        ],
+        "Active": 0,
+        "ApplyColorCustomization": 1,
+        "HasLifeSpan": 0,
+        "Life": [
+            1,
+            1
+        ],
+        "Size": [
+            0.0089999996,
+            0.029999999
+        ],
+        "Aspect": [
+            0.25,
+            1
+        ],
+        "BurstCount": [
+            1,
+            1
+        ],
+        "Shape": "SH_TRACER",
+        "Material": "/Lotus/Fx/HitEffects/HitSparksMatCMEnergyColor",
+        "ColorMin": [
+            102,
+            244,
+            255,
+            255
+        ],
+        "ColorMax": [
+            123,
+            215,
+            255,
+            255
+        ],
+        "FadeInOut": [
+            0,
+            0.42519701
+        ],
+        "Speed": [
+            75,
+            75
+        ]
+    }
+}

@@ -19,8 +19,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    -0.043619,
-                    0.999048
+                    -0.043618999,
+                    0.99904799
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "TnModQuestRifleAttachment"
@@ -28,8 +28,8 @@
         },
         "HolsterBone1Name": "GAME_R1_WEAPON1",
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -45,18 +45,18 @@
         "WeaponHandAimOffset": [
             0,
             0,
-            0.4
+            0.40000001
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.06,
-            0.03,
+            -0.059999999,
+            0.029999999,
             0.17
         ],
         "GripRotationOffset": [
             0.122788,
-            0.696364,
-            -0.696364,
+            0.69636399,
+            -0.69636399,
             0.122788
         ],
         "GripBone": "GAME_C1_GRIP1",
@@ -75,7 +75,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -216,11 +216,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.3333,
-                        "DT_PUNCTURE": 0.3333,
-                        "DT_SLASH": 0.3334,
+                        "DT_IMPACT": 0.33329999,
+                        "DT_PUNCTURE": 0.33329999,
+                        "DT_SLASH": 0.33340001,
                         "Amount": 28,
-                        "ProcChance": 0.36,
+                        "ProcChance": 0.36000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -239,7 +239,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.74,
+                    "PvpDamageMultiplier": 0.74000001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 350,
                     "additionalForce": [
@@ -271,7 +271,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.06,
+                    "criticalHitChance": 0.059999999,
                     "criticalHitDamageMultiplier": 1.4,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -375,13 +375,13 @@
         "HolsterPosOffset": [
             0,
             -0.2,
-            -0.15
+            -0.15000001
         ],
         "HolsterRotOffset": [
-            -0.13003,
-            0.08641,
+            -0.13003001,
+            0.086410001,
             0.011376,
-            0.987672
+            0.98767197
         ],
         "ArtifactSlots": [
             "AP_UNIVERSAL",

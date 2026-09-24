@@ -189,10 +189,10 @@
                     -9
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_TAIL",
                 "Type": "RailjackTailCollisionProxy",
@@ -257,10 +257,10 @@
                     -34
                 ],
                 "LocalRotation": [
-                    -0.045601,
-                    -0.657671,
+                    -0.045600999,
+                    -0.65767097,
                     -0.209962,
-                    0.722015
+                    0.72201502
                 ],
                 "BoneName": "GAME_C1_MAIN",
                 "Type": "/Lotus/Types/Game/CrewShip/EnterRailJackL",
@@ -279,10 +279,10 @@
                     -34
                 ],
                 "LocalRotation": [
-                    -0.045601,
-                    0.657671,
+                    -0.045600999,
+                    0.65767097,
                     0.209962,
-                    0.722015
+                    0.72201502
                 ],
                 "BoneName": "GAME_C1_MAIN",
                 "Type": "/Lotus/Types/Game/CrewShip/EnterRailJackR",
@@ -541,10 +541,10 @@
                 -50
             ],
             "LocalRotation": [
-                0.707107,
+                0.70710677,
                 0,
                 0,
-                0.707107
+                0.70710677
             ],
             "BoneName": "GAME_C1_ROOT",
             "Type": "RailJackFullBodyRaycast"
@@ -556,10 +556,10 @@
                 -50
             ],
             "LocalRotation": [
-                0.707107,
+                0.70710677,
                 0,
                 0,
-                0.707107
+                0.70710677
             ],
             "BoneName": "GAME_C1_ROOT",
             "Type": "RailJackFullBodyCollision"
@@ -623,7 +623,7 @@
             "_timeToRepairBreaches": 60,
             "_fullRepairInvulnerabilityDurationMin": 5,
             "_fullRepairInvulnerabilityDurationMax": 15,
-            "_preDeathMovementMultiplier": 0.05,
+            "_preDeathMovementMultiplier": 0.050000001,
             "_preDeathDamageMultiplier": 0.5,
             "_preDeathHealthMin": 2,
             "_preDeathDamage": 4,
@@ -660,7 +660,7 @@
             "_enterCinematicType": "EnterRailjackInstigatorCinematic",
             "_hangarExitTag": "RailjackExitPoint",
             "_setViewAfterTeleport": 0,
-            "_fadeDelay": 0.3,
+            "_fadeDelay": 0.30000001,
             "_fadeOutTime": 0.5,
             "_fadeInTime": 0.5,
             "_enterAnim": "/Lotus/Animations/Tenno/Objects/RailJack/RJEntryRailJack_anim.fbx",

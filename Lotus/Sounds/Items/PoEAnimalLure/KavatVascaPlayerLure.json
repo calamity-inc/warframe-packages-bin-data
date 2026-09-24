@@ -9,7 +9,7 @@
                     "type": "DSP_PITCH",
                     "pitch": {
                         "paramFinePitch": 0,
-                        "paramCoarsePitch": 0.3,
+                        "paramCoarsePitch": 0.30000001,
                         "paramFeedback": 0,
                         "paramFeedbackPhase": 0,
                         "paramDelay": 0
@@ -21,7 +21,7 @@
                     "type": "DSP_PITCH",
                     "pitch": {
                         "paramFinePitch": 0,
-                        "paramCoarsePitch": 0.65,
+                        "paramCoarsePitch": 0.64999998,
                         "paramFeedback": 0,
                         "paramFeedbackPhase": 0,
                         "paramDelay": 0
@@ -43,7 +43,7 @@
                     "eq": {
                         "lg": 1.1,
                         "mg": 1,
-                        "hg": 0.9,
+                        "hg": 0.89999998,
                         "eqLowMid": [
                             200,
                             8000
@@ -52,17 +52,17 @@
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.9,
+                    "mix": 0.89999998,
                     "type": "DSP_DELAY",
                     "delay": {
-                        "delayTimeSec": 0.8,
+                        "delayTimeSec": 0.80000001,
                         "delayTime": 1,
-                        "feedback": 0.3
+                        "feedback": 0.30000001
                     }
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.4,
+                    "mix": 0.40000001,
                     "type": "DSP_DELAY",
                     "delay": {
                         "delayTimeSec": 1.5,
@@ -72,7 +72,7 @@
                 },
                 {
                     "enabled": 1,
-                    "mix": 0.4,
+                    "mix": 0.40000001,
                     "type": "DSP_DELAY",
                     "delay": {
                         "delayTimeSec": 2,

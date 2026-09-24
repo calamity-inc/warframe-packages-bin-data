@@ -2,7 +2,7 @@
     "parent": "/EE/Types/Effects/SkeletalClothEx",
     "data": {
         "Mesh": "/Lotus/Objects/Grineer/Props/Cloth/GrnFlagMedASigil_skel.fbx",
-        "MeshScale": 3.35,
+        "MeshScale": 3.3499999,
         "OverrideMaterial": [
             "/Lotus/Objects/Tau/SentientMoon/Materials/Dax/Props/STMxDaxFlagA",
             "/Lotus/Fx/Common/HiddenNoPhysics"
@@ -57,7 +57,7 @@
         "Attribs": {
             "dampeningRange": [
                 0,
-                0.075
+                0.075000003
             ],
             "collidingDampeningRange": [
                 0,
@@ -72,7 +72,7 @@
                 5
             ],
             "reduceStretchExponent": 1,
-            "shearingStiffness": 0.05,
+            "shearingStiffness": 0.050000001,
             "worldVelocityAtten": [
                 10,
                 10,
@@ -80,20 +80,20 @@
             ],
             "worldVelocitySmooth": 0,
             "wind": [
-                0.05,
-                0.04,
-                0.06
+                0.050000001,
+                0.039999999,
+                0.059999999
             ],
             "windStrength": [
                 0,
                 0
             ],
-            "noiseSpeed": 0.01,
+            "noiseSpeed": 0.0099999998,
             "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
             "windVolumeStrength": [
-                0.05,
-                0.04,
-                0.03
+                0.050000001,
+                0.039999999,
+                0.029999999
             ],
             "windVolumeScale": [
                 1,
@@ -108,7 +108,7 @@
             "useCollision": 0,
             "usePeerCollision": 0,
             "addFloorPlaneCollision": 0,
-            "floorPlaneHeight": 0.08,
+            "floorPlaneHeight": 0.079999998,
             "orientationBasis": "X_Y",
             "simulateCollisionLast": 0
         },

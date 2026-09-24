@@ -52,30 +52,30 @@
         "TexturePanRateV": 0.2,
         "TextureScaleV": 0.16,
         "NumPlanes": 1,
-        "RadiusDistanceIncrease": 0.075,
+        "RadiusDistanceIncrease": 0.075000003,
         "RadiusTaper": 0,
         "SectionLength": 4,
         "SectionRotationMax": 45,
         "MaxSections": 15,
         "Waves": [
             {
-                "Frequency": 0.4,
+                "Frequency": 0.40000001,
                 "Amplitude": [
                     0.1,
                     0.1,
                     0
                 ],
-                "RadiusAmplitude": 0.05,
+                "RadiusAmplitude": 0.050000001,
                 "PhaseShift": 5
             },
             {
-                "Frequency": 0.6,
+                "Frequency": 0.60000002,
                 "Amplitude": [
-                    0.05,
-                    0.05,
+                    0.050000001,
+                    0.050000001,
                     0
                 ],
-                "RadiusAmplitude": 0.03,
+                "RadiusAmplitude": 0.029999999,
                 "PhaseShift": 8
             }
         ],
@@ -89,7 +89,7 @@
             "Type": "RegrowthBeamABlobsGPU"
         },
         "FadeBetweenPoints": [
-            0.745993,
+            0.74599302,
             1
         ],
         "ApplyColorCustomization": 1

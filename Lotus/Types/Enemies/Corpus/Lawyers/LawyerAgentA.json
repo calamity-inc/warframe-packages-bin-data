@@ -103,7 +103,7 @@
                         "AvoidanceBias": 10,
                         "LockTarget": 0,
                         "LookAtTarget": 1,
-                        "DistanceToShoot": 0.3,
+                        "DistanceToShoot": 0.30000001,
                         "WalkWhileShooting": 0,
                         "AimOnFire": 0,
                         "AllowReload": 0,
@@ -139,7 +139,7 @@
                         "MinStrafeDistance": 0,
                         "StopRadius": 0.5,
                         "MovementSpeedModifier": [
-                            0.8,
+                            0.80000001,
                             1.2
                         ],
                         "MovementLineOfFireScoring": 0,
@@ -157,7 +157,7 @@
                             0
                         ],
                         "MinAngleToTurn": 40,
-                        "MinAimMask": 0.9,
+                        "MinAimMask": 0.89999998,
                         "TargetNotVisibleTimeoutRange": [
                             6,
                             8
@@ -396,7 +396,7 @@
                 "m": -3,
                 "k": 2,
                 "b": 1,
-                "c": 0.6,
+                "c": 0.60000002,
                 "logistic": 0
             },
             "DirectionScoreCurve": {
@@ -408,7 +408,7 @@
             },
             "AimWhileMoving": 1,
             "SetViewWhileMoving": 1,
-            "ShootingDistance": 0.3,
+            "ShootingDistance": 0.30000001,
             "NeedsVisibilityForShooting": 1,
             "ChangeWeapons": 0,
             "WeaponSlot": "SLOT_1",
@@ -496,7 +496,7 @@
             },
             "AimWhileMoving": 1,
             "SetViewWhileMoving": 1,
-            "ShootingDistance": 0.3,
+            "ShootingDistance": 0.30000001,
             "NeedsVisibilityForShooting": 1,
             "ChangeWeapons": 0,
             "WeaponSlot": "SLOT_1",
@@ -517,7 +517,7 @@
             "MinStrafeDistance": 0,
             "StopRadius": 0.5,
             "MovementSpeedModifier": [
-                0.8,
+                0.80000001,
                 1.2
             ],
             "MovementLineOfFireScoring": 0,
@@ -535,7 +535,7 @@
                 0
             ],
             "MinAngleToTurn": 40,
-            "MinAimMask": 0.9,
+            "MinAimMask": 0.89999998,
             "TargetNotVisibleTimeoutRange": [
                 10,
                 60
@@ -590,14 +590,14 @@
         "ViewDistance": 120,
         "AwarenessDecayTime": 20,
         "TargetLostTime": 20,
-        "TargetLowHealthPercent": 0.3,
+        "TargetLowHealthPercent": 0.30000001,
         "ReportTargetRadius": 120,
         "ReportAwareness": 1,
         "SuperAlertDecayTime": 20,
         "PerceiverType": "/Lotus/Types/Enemies/GrineerChampions/GrineerChampionPerceiver",
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "BaseHitChance": [
-            0.8,
+            0.80000001,
             1.2
         ],
         "IsCoverUseEnabled": 0,

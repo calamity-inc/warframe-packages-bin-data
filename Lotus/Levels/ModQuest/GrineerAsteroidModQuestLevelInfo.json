@@ -6,21 +6,21 @@
                 0.25,
                 15
             ],
-            "targetExposure": 0.05,
+            "targetExposure": 0.050000001,
             "useExposureEVCurve": 1,
             "exposureCurveMax": {
                 "sceneEV": 1,
                 "adjustmentEV": 3
             },
-            "toneMapToeStrength": 0.6,
-            "toneMapToeLength": 0.36,
+            "toneMapToeStrength": 0.60000002,
+            "toneMapToeLength": 0.36000001,
             "toneMapShoulderStrength": 2.5,
-            "toneMapShoulderLength": 0.45,
+            "toneMapShoulderLength": 0.44999999,
             "colorGradingData": {
                 "Shadows": {
                     "Offset": [
-                        0.028,
-                        0.018,
+                        0.028000001,
+                        0.017999999,
                         0.033,
                         0
                     ]
@@ -36,22 +36,22 @@
                 "Highlights": {
                     "Enable": 0,
                     "Gain": [
-                        0.86,
-                        0.86,
-                        0.86,
+                        0.86000001,
+                        0.86000001,
+                        0.86000001,
                         1
                     ]
                 },
                 "ShadowsRange": [
-                    0.167442,
-                    0.357442
+                    0.16744199,
+                    0.35744199
                 ]
             },
             "bloom": 3.5,
             "bloomTint": [
                 0.56,
                 0.44,
-                0.84,
+                0.83999997,
                 1
             ],
             "skyBloom": 0,
@@ -65,7 +65,7 @@
             "heightFogFalloff": 0.5,
             "fogTexture": "/Lotus/Objects/Natural/Skybox/FogTextures/GrineerAsteroidFog.png",
             "postFXMaterial": "/Lotus/Types/ACESPost",
-            "grainBias": 0.005
+            "grainBias": 0.0049999999
         },
         "LightingParams": {
             "globalCubeMap": "/Lotus/Materials/Cubemaps/GlobalCubemaps/DeepSpaceGlobal_cross.hdr",
@@ -214,7 +214,7 @@
                 "/Lotus/Types/PickUps/MediumLootCrateGrnB"
             ],
             "_itemProbability": [
-                0.8,
+                0.80000001,
                 0.2
             ],
             "_itemTypesSecondary": [],
@@ -283,7 +283,7 @@
             "_ultraRareLootWaypointType": "/Lotus/Types/LevelObjects/UltraRareLootCrateWaypoint",
             "_ultraRareCrateType": "/Lotus/Types/PickUps/UltraRareGrineerLootCrate",
             "_altUltraRareCrateType": "",
-            "_ultraRareLootChance": 0.005,
+            "_ultraRareLootChance": 0.0049999999,
             "_floatingCrateWaypointType": "",
             "_floatingCrateTypes": [],
             "_numFloatingCrates": 25,

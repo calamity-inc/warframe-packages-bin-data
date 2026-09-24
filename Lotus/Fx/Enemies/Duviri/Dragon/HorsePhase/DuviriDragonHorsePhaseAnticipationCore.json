@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Levels/EidolonPlains/CraterFire.fbx",
-        "MeshScale": 0.15,
+        "MeshScale": 0.15000001,
         "OverrideMaterial": [
             "/Lotus/Fx/Common/HiddenNoPhysics",
             "DuviriDragonHorsePhaseAnticipationCoreMat"
@@ -90,7 +90,7 @@
             {
                 "Parameter": "vScalesFade",
                 "Slot": -1,
-                "TimeLength": 0.6,
+                "TimeLength": 0.60000002,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -103,8 +103,8 @@
                             "Value": 0.2
                         },
                         {
-                            "Time": 0.4,
-                            "Value": 0.65
+                            "Time": 0.40000001,
+                            "Value": 0.64999998
                         },
                         {
                             "Time": 1,
@@ -125,8 +125,8 @@
             {
                 "Parameter": "Scale",
                 "Slot": -1,
-                "TimeLength": 0.3,
-                "Multiplier": 0.15,
+                "TimeLength": 0.30000001,
+                "Multiplier": 0.15000001,
                 "FadeRange": [
                     0,
                     0

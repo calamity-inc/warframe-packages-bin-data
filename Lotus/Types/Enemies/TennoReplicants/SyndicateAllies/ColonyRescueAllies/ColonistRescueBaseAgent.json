@@ -54,7 +54,7 @@
             "DefaultReevaluationDelay": 0,
             "DistFromNav": 4,
             "MovementSpeedModifier": [
-                0.8,
+                0.80000001,
                 1.2
             ],
             "NearDistance": 5,
@@ -180,7 +180,7 @@
                         "LastDamagedWindow": 5,
                         "DistanceToTarget": 15,
                         "MovementSpeedModifier": [
-                            0.8,
+                            0.80000001,
                             1
                         ],
                         "SeekCoverDelayOnFail": 1,
@@ -237,7 +237,7 @@
                         "ReturnToCoverDamageThreshold": 0.5,
                         "ExitCoverOnDamageDuringWait": 0,
                         "ExitCoverOnDamageDuringWaitDamageThreshold": 0.5,
-                        "PushoutFromCrouchDistance": 0.3,
+                        "PushoutFromCrouchDistance": 0.30000001,
                         "RequireCover": 1,
                         "SuppressionUnderFireTime": 3,
                         "LookAtTarget": 0,
@@ -284,7 +284,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "LookAtTarget": 0,
@@ -296,7 +296,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8
@@ -412,7 +412,7 @@
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -473,7 +473,7 @@
             "GuardBehavior:MinHeadingChangeToTurn": 0
         },
         "BaseHitChance": [
-            0.8,
+            0.80000001,
             1
         ],
         "IsCoverUseEnabled": 1,

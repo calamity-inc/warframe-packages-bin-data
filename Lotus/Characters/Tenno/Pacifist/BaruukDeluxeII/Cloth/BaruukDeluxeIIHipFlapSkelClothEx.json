@@ -1,0 +1,32 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "BaruukDeluxeIIHipFlap_skel.fbx",
+        "Attached": 1,
+        "ControlData": "BaruukDeluxeIIHipFlapSkelClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.30000001,
+                0.30000001
+            ],
+            "massRange": [
+                0.5,
+                1
+            ],
+            "distConstraintRange": [
+                0.0099999998,
+                0.2
+            ],
+            "useBackstopConstraints": 1,
+            "backstopConstraintRange": [
+                0,
+                0.1
+            ],
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 0.80000001,
+            "simulateCollisionLast": 0
+        },
+        "UseDynamicCollision": 0,
+        "UseClothCollision": 1
+    }
+}

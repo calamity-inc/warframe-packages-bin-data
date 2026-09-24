@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Common/OutwardEnergySphere.fbx",
-        "MeshScale": 0.05,
+        "MeshScale": 0.050000001,
         "OverrideMaterial": [
             "PullCastHeirloomDecoMat"
         ],
@@ -25,7 +25,7 @@
             360,
             360,
             360,
-            0.01
+            0.0099999998
         ],
         "MaterialFade": [
             {
@@ -34,8 +34,8 @@
                 "TimeLength": 0.5,
                 "Multiplier": 12,
                 "FadeRange": [
-                    0.8,
-                    0.8
+                    0.80000001,
+                    0.80000001
                 ],
                 "FadeCurve": {
                     "Values": [],
@@ -52,7 +52,7 @@
                 "Parameter": "Scale",
                 "Slot": -1,
                 "TimeLength": 0.5,
-                "Multiplier": 0.04,
+                "Multiplier": 0.039999999,
                 "FadeRange": [
                     0,
                     1
@@ -64,16 +64,16 @@
                             "Value": 0
                         },
                         {
-                            "Time": 0.333333,
-                            "Value": 0.458192
+                            "Time": 0.33333334,
+                            "Value": 0.45819199
                         },
                         {
-                            "Time": 0.666667,
+                            "Time": 0.66666669,
                             "Value": 1.243601
                         },
                         {
                             "Time": 1,
-                            "Value": 0.764855
+                            "Value": 0.76485503
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"
@@ -106,11 +106,11 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.606522
+                            "Value": 0.60652202
                         },
                         {
                             "Time": 0.75,
-                            "Value": 0.977536
+                            "Value": 0.97753602
                         },
                         {
                             "Time": 1,

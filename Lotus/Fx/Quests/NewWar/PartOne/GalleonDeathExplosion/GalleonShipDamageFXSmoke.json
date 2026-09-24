@@ -8,7 +8,7 @@
                 "name": "LightingAtten",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.15
+                "value": 0.15000001
             },
             {
                 "name": "UnlitAtten",
@@ -20,7 +20,7 @@
                 "name": "AlphaAtten",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.7
+                "value": 0.69999999
             }
         ],
         "IgnoreParentRotation": 1,
@@ -28,7 +28,7 @@
         "HasLifeSpan": 0,
         "AutoKill": 1,
         "Life": [
-            0.35,
+            0.34999999,
             5
         ],
         "Size": [
@@ -39,11 +39,11 @@
             "Values": [
                 {
                     "Time": 0,
-                    "Value": 0.414692
+                    "Value": 0.41469201
                 },
                 {
                     "Time": 0.5,
-                    "Value": 0.894191
+                    "Value": 0.89419103
                 },
                 {
                     "Time": 1,
@@ -54,7 +54,7 @@
         },
         "SpawnDelay": [
             0,
-            0.05
+            0.050000001
         ],
         "InitialCount": [
             4,
@@ -108,8 +108,8 @@
         ],
         "RandOrientation": 1,
         "Spin": [
-            -0.008,
-            0.008
+            -0.0080000004,
+            0.0080000004
         ],
         "SpinByLife": {
             "Values": [
@@ -125,7 +125,7 @@
         },
         "FadeInOut": [
             0,
-            0.7
+            0.69999999
         ],
         "EyeFadeDist": 5,
         "Nozzle": "SPHERE",

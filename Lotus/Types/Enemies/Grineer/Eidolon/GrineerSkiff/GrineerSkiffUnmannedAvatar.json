@@ -120,7 +120,7 @@
             "Script": "UnmannedSkiff/HandlePilotOnSkiffDeath.lua",
             "Function": "RagdollPilot",
             "_pilotAvatarType": "/Lotus/Types/Enemies/Grineer/Eidolon/Avatars/EidolonSkiffPilotAvatar",
-            "_maxHealthAsDamagePct": 0.8
+            "_maxHealthAsDamagePct": 0.80000001
         },
         "OnDeathScript": {
             "_explosionFx": "/Lotus/Fx/Enemies/Grineer/Skiff/EidolonSkiffExplosion"
@@ -1207,7 +1207,7 @@
                 "LocalPosition": [
                     0,
                     -1,
-                    0.3
+                    0.30000001
                 ],
                 "LocalRotation": [
                     0,
@@ -1232,10 +1232,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Gameplay/SpaceFlight/ArchwingTerrainCaster",
@@ -1252,12 +1252,12 @@
         "HudMovie": "/Lotus/Interface/EmplacementHud.swf",
         "HudLocalAttachPos": [
             0.2,
-            4.15,
+            4.1500001,
             0.1
         ],
         "HudScale": [
             0.5,
-            0.6,
+            0.60000002,
             0.5
         ]
     }

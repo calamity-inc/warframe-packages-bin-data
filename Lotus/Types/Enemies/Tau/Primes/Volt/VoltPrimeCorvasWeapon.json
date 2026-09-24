@@ -18,11 +18,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -51,7 +51,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -94,7 +94,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -122,6 +121,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "",
@@ -147,6 +147,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "VoltPrimeCorvasWaveProj",
@@ -247,9 +249,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.8,
+                        "DT_IMPACT": 0.80000001,
                         "DT_PUNCTURE": 0.1,
-                        "DT_SLASH": 0.1,
+                        "DT_SLASH": 0.099999964,
                         "Amount": 54,
                         "ProcChance": 0.2,
                         "ForcedProcs": [],
@@ -379,7 +381,7 @@
                     "AccessibilityTrigger": 1,
                     "ClipSizeAffectsChargeTime": 0,
                     "ChargeTime": 2,
-                    "MinChargeRatio": 0.4,
+                    "MinChargeRatio": 0.40000001,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 2,
                     "AutoFireWhenChargeCompleted": 1,
@@ -414,14 +416,14 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.042,
+                    -0.041999999,
                     -0.07
                 ],
                 "LocalRotation": [
                     0,
-                    -0.00038,
-                    0.008727,
-                    0.999962
+                    -0.00038000001,
+                    0.0087270001,
+                    0.99996197
                 ],
                 "Type": "VoltPrimeCorvasAttachment"
             }
@@ -441,7 +443,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -484,7 +486,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -512,6 +513,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "",
@@ -537,6 +539,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "VoltPrimeCorvasWaveProj",
@@ -637,9 +641,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.8,
+                        "DT_IMPACT": 0.80000001,
                         "DT_PUNCTURE": 0.1,
-                        "DT_SLASH": 0.1,
+                        "DT_SLASH": 0.099999964,
                         "Amount": 54,
                         "ProcChance": 0.2,
                         "ForcedProcs": [],
@@ -769,7 +773,7 @@
                     "AccessibilityTrigger": 1,
                     "ClipSizeAffectsChargeTime": 0,
                     "ChargeTime": 2,
-                    "MinChargeRatio": 0.4,
+                    "MinChargeRatio": 0.40000001,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 2,
                     "AutoFireWhenChargeCompleted": 1,
@@ -848,7 +852,7 @@
         "BatteryRegenDelayFromEmpty": 1,
         "BatteryRegenRate": 20,
         "MaxCharges": 1,
-        "OmegaAttenuation": 0.95,
+        "OmegaAttenuation": 0.94999999,
         "DefaultModOverrides": {
             "SlotType": "ST_GUN"
         }

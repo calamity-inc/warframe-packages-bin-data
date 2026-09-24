@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Enemies/SargasRuk/EruptionPillarFlameMesh.fbx",
-        "MeshScale": 0.3,
+        "MeshScale": 0.30000001,
         "AutoSimChildren": [
             {
                 "LocalPosition": [
@@ -31,10 +31,10 @@
             {
                 "Parameter": "UnlitAtten",
                 "TimeLength": 6,
-                "Multiplier": 0.6,
+                "Multiplier": 0.60000002,
                 "FadeRange": [
                     0.1,
-                    0.9
+                    0.89999998
                 ],
                 "FadeCurve": {
                     "Values": [],
@@ -50,16 +50,16 @@
             {
                 "Parameter": "UnlitAtten",
                 "TimeLength": 6,
-                "Multiplier": 0.7,
+                "Multiplier": 0.69999999,
                 "FadeRange": [
                     0.1,
-                    0.96
+                    0.95999998
                 ],
                 "FadeCurve": {
                     "Values": [],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.3,
+                "BaseValue": 0.30000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,

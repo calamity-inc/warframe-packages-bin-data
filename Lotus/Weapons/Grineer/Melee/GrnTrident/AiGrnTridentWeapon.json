@@ -11,9 +11,9 @@
                 ],
                 "LocalRotation": [
                     0,
-                    0.707107,
+                    0.70710677,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "AiGrnTridentWeaponAttachment"
@@ -39,7 +39,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -138,11 +138,11 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.15,
-                        "DT_PUNCTURE": 0.15,
-                        "DT_SLASH": 0.7,
+                        "DT_IMPACT": 0.15000001,
+                        "DT_PUNCTURE": 0.15000001,
+                        "DT_SLASH": 0.69999999,
                         "Amount": 50,
-                        "ProcChance": 0.15,
+                        "ProcChance": 0.15000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -192,7 +192,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 1.5,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -245,9 +245,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333333,
+                        "DT_IMPACT": 0.33333334,
+                        "DT_PUNCTURE": 0.33333334,
+                        "DT_SLASH": 0.33333331,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -371,7 +371,7 @@
                     {
                         "BoneOverride": "",
                         "PosOffset": [
-                            -0.01,
+                            -0.0099999998,
                             0.11,
                             0
                         ],
@@ -399,7 +399,7 @@
                         "BoneOverride": "",
                         "PosOffset": [
                             0,
-                            -0.3,
+                            -0.30000001,
                             0.02
                         ],
                         "PosOffsetSecondary": [
@@ -408,10 +408,10 @@
                             0
                         ],
                         "RotOffset": [
-                            -0.707107,
+                            -0.70710677,
                             0,
                             0,
-                            0.707107
+                            0.70710677
                         ],
                         "RotOffsetSecondary": [
                             0,

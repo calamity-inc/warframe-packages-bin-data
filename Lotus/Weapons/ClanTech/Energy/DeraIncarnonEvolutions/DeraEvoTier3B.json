@@ -28,7 +28,7 @@
                     "_sourceModdedStatType": "WEAPON_CRIT_CHANCE",
                     "_bonusPercentage": 0.25,
                     "_isDynamic": 0,
-                    "_bonusMaxCap": 0.35
+                    "_bonusMaxCap": 0.34999999
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
@@ -47,14 +47,14 @@
             "_sourceModdedStatType": "WEAPON_PROC_CHANCE",
             "_bonusPercentage": 0.25,
             "_isDynamic": 1,
-            "_bonusMaxCap": 0.35
+            "_bonusMaxCap": 0.34999999
         },
         "UnappliedScript": {
             "Script": "/Lotus/Scripts/Mods/WeaponAddBaseStatForModdedStat.lua",
             "Function": "OnUpgradeRemoved",
             "_targetBaseStatType": "WEAPON_CRIT_CHANCE",
             "_sourceModdedStatType": "WEAPON_CRIT_CHANCE",
-            "_bonusPercentage": 0.3,
+            "_bonusPercentage": 0.30000001,
             "_isDynamic": 0,
             "_bonusMaxCap": 1.5
         },

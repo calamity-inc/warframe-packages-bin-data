@@ -7,9 +7,9 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalPosition": [
-                    -0.01,
+                    -0.0099999998,
                     -0.025,
-                    -0.06
+                    -0.059999999
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "TnConcreteArchgunAttachment"
@@ -31,12 +31,12 @@
         "GripPositionOffset": [
             -0.02,
             0.14,
-            -0.05
+            -0.050000001
         ],
         "GripRotationOffset": [
             -0.454519,
-            0.541675,
-            0.541675,
+            0.54167497,
+            0.54167497,
             0.454519
         ],
         "GripBone": "GAME_C1_LEVER",
@@ -46,11 +46,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -84,7 +84,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -161,7 +161,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/TnPriestPistolAimRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/TnPriestPistolAimRecoilInfo",
                     "spreadUniform": 0,
-                    "SpreadRatioHorizontal": 0.7,
+                    "SpreadRatioHorizontal": 0.69999999,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -279,8 +279,8 @@
                     "AttenuateForCharge": 0,
                     "ConsumeRemainingClip": 0,
                     "AttenuateSpreadForCharge": 1,
-                    "MinChargeSpreadAtten": 0.35,
-                    "MaxChargeSpreadAtten": 0.05,
+                    "MinChargeSpreadAtten": 0.34999999,
+                    "MaxChargeSpreadAtten": 0.050000001,
                     "OverridePunctureDepthForCharge": 0,
                     "MinChargePunctureDepth": 0,
                     "MaxChargePunctureDepth": 1,
@@ -468,7 +468,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -567,7 +567,7 @@
                     "PvpTraceDistance": 500,
                     "punctureHitEffect": "",
                     "InfinitePunctureDepth": 0,
-                    "tracePunctureDepth": 2.4,
+                    "tracePunctureDepth": 2.4000001,
                     "PunchthroughIgnoresAvatars": 0,
                     "RicochetChance": 0,
                     "RicochetRange": 15,
@@ -613,8 +613,8 @@
                         {
                             "LocalPosition": [
                                 0,
-                                0.04,
-                                0.48
+                                0.039999999,
+                                0.47999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -707,7 +707,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.232,
+                    "PvpDamageMultiplier": 0.23199999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -739,7 +739,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 1,
-                    "criticalHitChance": 0.3,
+                    "criticalHitChance": 0.30000001,
                     "criticalHitDamageMultiplier": 2.5,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -806,7 +806,7 @@
                         "radiusMin": 0,
                         "radius": 6,
                         "ignoreSource": 1,
-                        "fallOff": 0.6,
+                        "fallOff": 0.60000002,
                         "fallOffMax": 0,
                         "checkForCover": 1,
                         "hitAirborneTargets": 1,
@@ -867,7 +867,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 20,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_RADIAL",
                         "hostAuthoritative": 0,
@@ -1010,8 +1010,8 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.04,
-                    -0.06
+                    -0.039999999,
+                    -0.059999999
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "TnConcreteArchgunHeavyAttachment"
@@ -1032,7 +1032,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -1109,7 +1109,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/TnPriestPistolAimRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/Weapon/TnPriestPistolAimRecoilInfo",
                     "spreadUniform": 0,
-                    "SpreadRatioHorizontal": 0.7,
+                    "SpreadRatioHorizontal": 0.69999999,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -1227,7 +1227,7 @@
                     "AttenuateForCharge": 0,
                     "ConsumeRemainingClip": 0,
                     "AttenuateSpreadForCharge": 1,
-                    "MinChargeSpreadAtten": 0.7,
+                    "MinChargeSpreadAtten": 0.69999999,
                     "MaxChargeSpreadAtten": 0.1,
                     "OverridePunctureDepthForCharge": 0,
                     "MinChargePunctureDepth": 0,
@@ -1416,7 +1416,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -1515,7 +1515,7 @@
                     "PvpTraceDistance": 150,
                     "punctureHitEffect": "",
                     "InfinitePunctureDepth": 0,
-                    "tracePunctureDepth": 2.4,
+                    "tracePunctureDepth": 2.4000001,
                     "PunchthroughIgnoresAvatars": 1,
                     "RicochetChance": 0,
                     "RicochetRange": 15,
@@ -1561,8 +1561,8 @@
                         {
                             "LocalPosition": [
                                 0,
-                                0.08,
-                                0.48
+                                0.079999998,
+                                0.47999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -1655,7 +1655,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.232,
+                    "PvpDamageMultiplier": 0.23199999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -1687,7 +1687,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 1,
-                    "criticalHitChance": 0.3,
+                    "criticalHitChance": 0.30000001,
                     "criticalHitDamageMultiplier": 2.5,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -1815,7 +1815,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 20,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_RADIAL",
                         "hostAuthoritative": 0,
@@ -1982,10 +1982,10 @@
             -0.2
         ],
         "HolsterRotOffset": [
-            0.024392,
+            0.024391999,
             0.036162,
-            0.558661,
-            0.828249
+            0.55866098,
+            0.82824898
         ],
         "RequiredLevel": 10,
         "ArtifactSlots": [

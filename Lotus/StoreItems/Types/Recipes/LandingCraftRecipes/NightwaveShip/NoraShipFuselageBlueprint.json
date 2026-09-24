@@ -1,0 +1,40 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/CraftingComponents/CraftingComponent_NoraShipFuselageName",
+        "LocalizeDescTag": "/Lotus/Language/CraftingComponents/CraftingComponent_NoraShipFuselageDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericLandingCraftFuselage.png",
+        "TypeName": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipFuselageBlueprint",
+        "SellingPrice": 3500,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1783970553,
+        "Tradeable": 1,
+        "Giftable": 0,
+        "ExcludeFromCodex": 0,
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "NoraShipFuselageComponent",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 9000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                "ItemCount": 1800
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 4500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                "ItemCount": 10
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "SkipBuildTimePrice": 25,
+        "ShipFeaturePrereq": "/Lotus/Types/Items/ShipFeatureItems/FoundryVesselUpgradeFeatureItem"
+    }
+}

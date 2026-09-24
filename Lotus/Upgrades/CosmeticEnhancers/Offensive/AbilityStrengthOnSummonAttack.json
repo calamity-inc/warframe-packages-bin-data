@@ -42,8 +42,8 @@
         "Script": {
             "Script": "GiveStatOnCondition.lua",
             "Function": "ApplyUpgrade",
-            "_giveStatIncreaseBase": 0.01,
-            "_giveStatIncreasePerLevel": 0.01,
+            "_giveStatIncreaseBase": 0.0099999998,
+            "_giveStatIncreasePerLevel": 0.0099999998,
             "_giveStatType": "AVATAR_ABILITY_STRENGTH",
             "_giveStatOperation": "STACKING_MULTIPLY",
             "_maxStacks": 10,
@@ -60,8 +60,8 @@
         "EnhancementTagLocScript": {
             "Script": "GiveStatOnCondition.lua",
             "Function": "GetAbilityStrengthOnSummonAttacksDescriptionInfo",
-            "_giveStatIncreaseBase": 0.01,
-            "_giveStatIncreasePerLevel": 0.01,
+            "_giveStatIncreaseBase": 0.0099999998,
+            "_giveStatIncreasePerLevel": 0.0099999998,
             "_giveStatType": "AVATAR_ABILITY",
             "_giveStatOperation": "ADD",
             "_maxStacks": 10,

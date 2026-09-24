@@ -1,0 +1,26 @@
+{
+    "parent": "/Lotus/Types/Gameplay/Duviri/SideActivities/Encounters/DuviriPrisonerEncounter/CollectItemAction",
+    "data": {
+        "ScriptInstance": {
+            "Script": "DroneMonitorTC2026.lua",
+            "Function": "DroneMonitor"
+        },
+        "TriggerOnlyOnce": 1,
+        "ActionText": "/Lotus/Language/TennoCon/TennoCon2026RailJackActionName",
+        "ActionSound": "/Lotus/Sounds/Events/TauTC2026Relay/TauRelayDronePickup",
+        "CompleteScript": {
+            "Script": "/Lotus/Scripts/HiddenItemUnlock.lua",
+            "Function": "UnlockHiddenItem",
+            "_screenInstance": "",
+            "_screenPort": "Hide",
+            "_action": "",
+            "_nodeIntro": "TC2026",
+            "_storeItemToDisplay": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneGrineer"
+        },
+        "HudIndicatorOffset": [
+            0,
+            0.5,
+            0
+        ]
+    }
+}

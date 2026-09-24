@@ -9,7 +9,7 @@
                     0,
                     0.017452,
                     0,
-                    0.999848
+                    0.99984801
                 ],
                 "BoneName": "GAME_C1_WEAPONATTACH1",
                 "Type": "/Lotus/Types/Enemies/Corpus/BipedRobot/RiotMoaRifleAttachment3rd"
@@ -26,14 +26,14 @@
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.085,
+            -0.085000001,
             0,
-            0.135
+            0.13500001
         ],
         "GripRotationOffset": [
             -0.347803,
-            -0.675491,
-            0.637074,
+            -0.67549098,
+            0.63707399,
             -0.129932
         ],
         "CanUseOnZipline": 0,
@@ -56,7 +56,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -67,7 +67,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.35,
+                                    0.34999999,
                                     0.5
                                 ],
                                 "burstPauseTime": [
@@ -76,7 +76,7 @@
                                 ],
                                 "fireRate": [
                                     0.1,
-                                    0.15
+                                    0.15000001
                                 ]
                             }
                         },
@@ -142,8 +142,8 @@
                         "FireBone": "GAME_C1_WEAPONATTACH1",
                         "LocalPos": [
                             0,
-                            0.05,
-                            -0.4
+                            0.050000001,
+                            -0.40000001
                         ],
                         "LocalRot": [
                             0,
@@ -169,8 +169,8 @@
                     "chargedProjectileType": "",
                     "projectileLaunchOffset": [
                         0,
-                        0.05,
-                        -0.4
+                        0.050000001,
+                        -0.40000001
                     ],
                     "SequentialProjectileLaunchDirectionOffsets": [],
                     "UpdateFirePositionPerIteration": 0,
@@ -356,7 +356,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -449,9 +449,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],

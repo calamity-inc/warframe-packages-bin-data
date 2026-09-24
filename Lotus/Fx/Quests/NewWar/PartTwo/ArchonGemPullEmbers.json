@@ -14,18 +14,18 @@
         "EnergyTintMethod": "ETM_LIFE",
         "DisableVortexOnFadeOut": 1,
         "resilience": 0.2,
-        "drag": 0.4,
+        "drag": 0.40000001,
         "mass": [
             0,
-            0.01
+            0.0099999998
         ],
         "life": [
             0.1,
             2
         ],
         "size": [
-            0.002,
-            0.006
+            0.0020000001,
+            0.0060000001
         ],
         "velocity": [
             0.1,
@@ -35,11 +35,11 @@
         "spawnShape": "SP_DISC",
         "useForceFieldForSpawn": 1,
         "spawnScale": [
-            0.05,
-            0.05,
-            0.05
+            0.050000001,
+            0.050000001,
+            0.050000001
         ],
-        "spawnFlowBlend": 0.278912,
+        "spawnFlowBlend": 0.27891201,
         "flowForce": [
             3,
             3,
@@ -58,9 +58,9 @@
         "forceField": "/EE/Materials/Util/CurlNoiseFlowVolumeNoise_v.png",
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSpotFadeCloseAlpha",
         "colorKeys[0]": [
-            0.54,
+            0.54000002,
             1,
-            0.95,
+            0.94999999,
             1
         ],
         "colorKeys[1]": [
@@ -83,7 +83,7 @@
         ],
         "numColors": 3,
         "vortexSpeed": 3,
-        "vortexDecay": 0.05,
+        "vortexDecay": 0.050000001,
         "vortexRadialForce": 5
     }
 }

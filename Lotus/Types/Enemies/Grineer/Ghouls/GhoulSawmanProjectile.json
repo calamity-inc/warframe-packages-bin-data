@@ -44,7 +44,7 @@
         "KinematicAccel": 100,
         "KinematicInitialSpeed": 40,
         "KinematicMaxSpeed": 40,
-        "KinematicNoiseRate": 0.0001,
+        "KinematicNoiseRate": 0.000099999997,
         "OnProjectileStartScript": {
             "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/GhoulSawmanAbility.lua",
             "Function": "FireSawBlade",
@@ -75,7 +75,7 @@
         ],
         "ImpactVelocityDampen": 1,
         "AutoRecallTimer": 2,
-        "DestructionTimer": 0.6,
+        "DestructionTimer": 0.60000002,
         "CatchRadius": 5,
         "MaxReflections": 5,
         "BounceTowardSeekTarget": 1,

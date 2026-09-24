@@ -41,7 +41,7 @@
         "UnappliedScript": {
             "Script": "BonusDamagePerNearbyEnemyWithStatus.lua",
             "Function": "RemoveUpgrade",
-            "_perStatusDamageIncrease": 0.15,
+            "_perStatusDamageIncrease": 0.15000001,
             "_radius": 10,
             "_sleepInterval": 0.1
         },
@@ -53,14 +53,14 @@
         "OnEnterAuraScript": {
             "Script": "BonusDamagePerNearbyEnemyWithStatus.lua",
             "Function": "OnEnter",
-            "_perStatusDamageIncrease": 0.15,
+            "_perStatusDamageIncrease": 0.15000001,
             "_radius": 10,
             "_sleepInterval": 0.1
         },
         "OnExitAuraScript": {
             "Script": "BonusDamagePerNearbyEnemyWithStatus.lua",
             "Function": "OnExit",
-            "_perStatusDamageIncrease": 0.15,
+            "_perStatusDamageIncrease": 0.15000001,
             "_radius": 10,
             "_sleepInterval": 0.1
         }

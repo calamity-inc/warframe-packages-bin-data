@@ -12,15 +12,15 @@
             "OutputGain": -10,
             "FilterSettings": {
                 "Frequency": 4000,
-                "Resonance": 0.666667
+                "Resonance": 0.66666698
             },
             "EffectChain": [
                 {
                     "Type": "ECS_ECHO",
                     "EnableEffect": 1,
                     "EchoSettings": {
-                        "WetDryMix": 0.35,
-                        "Feedback": 0.05,
+                        "WetDryMix": 0.34999999,
+                        "Feedback": 0.050000001,
                         "Delay": 200
                     },
                     "EqSettings": {

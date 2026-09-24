@@ -8,28 +8,28 @@
         "Collision": "/Lotus/Powersuits/Ember/EmberPowerSuitSimCollision",
         "Attribs": {
             "dampeningRange": [
-                0.082,
-                0.083
+                0.082000002,
+                0.082999997
             ],
             "collidingDampeningRange": [
                 0.023,
-                0.032
+                0.032000002
             ],
             "massRange": [
                 0,
                 0
             ],
             "distConstraintRange": [
-                0.0001,
+                0.000099999997,
                 0.19
             ],
             "useBackstopConstraints": 1,
             "backstopConstraintRange": [
-                0.01,
+                0.0099999998,
                 0.1
             ],
-            "reduceStretchExponent": 0.59,
-            "shearingStiffness": 0.29,
+            "reduceStretchExponent": 0.58999997,
+            "shearingStiffness": 0.28999999,
             "addXAxisHardContraints": 1,
             "worldVelocityAtten": [
                 0,
@@ -55,13 +55,13 @@
             ],
             "windVolumeScale": [
                 1.9,
-                2.9,
+                2.9000001,
                 1.9
             ],
             "windVolumeOffsetRate": [
-                0.59,
+                0.58999997,
                 1.29,
-                0.59
+                0.58999997
             ],
             "orientationBasis": "X_Y",
             "simulateCollisionLast": 0

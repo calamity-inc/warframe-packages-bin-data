@@ -1,0 +1,41 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/PackageStoreItem",
+    "data": {
+        "ProductCategory": "Packages",
+        "LocalizeTag": "/Lotus/Language/Bundles/BaruukDeluxeIISkinBundleName",
+        "LocalizeDescTag": "/Lotus/Language/Bundles/BaruukDeluxeIISkinBundleDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/WarframeBundles/BaruukDeluxeIISkinBundle.png",
+        "DateAddedToManifest": 1786536000,
+        "Highlighted": 1,
+        "FeaturedTexture": "/Lotus/Interface/Graphics/Store/Banners/BaruukDeluxeIIBundleBanner.png",
+        "ExcludeFromCodex": 0,
+        "PackageComponents": [
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Pacifist/BaruukDeluxeIISkin",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Pacifist/BaruukDeluxeIIMaceShield",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Effects/BaruukDeluxeIIEphemera",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Crowns/BaruukDeluxeIICrown",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            }
+        ],
+        "AutoCalcPrices": 0,
+        "PremiumPrice": 335
+    }
+}

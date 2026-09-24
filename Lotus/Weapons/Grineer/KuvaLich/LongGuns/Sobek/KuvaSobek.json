@@ -26,7 +26,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -150,7 +150,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -188,7 +188,7 @@
                     ],
                     "damageFallOffMinDamage": 40,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.26,
+                    "PvpDamageMultiplier": 0.25999999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 600,
                     "additionalForce": [
@@ -220,7 +220,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.21,
+                    "criticalHitChance": 0.20999999,
                     "criticalHitDamageMultiplier": 2.3,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -239,7 +239,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponAutomaticStateBehavior",
                 "state:WeaponAutomaticStateBehavior": {
-                    "reloadTime": 2.1,
+                    "reloadTime": 2.0999999,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -305,7 +305,7 @@
         ],
         "LevelCap": 40,
         "RequiredLevel": 15,
-        "OmegaAttenuation": 0.8,
+        "OmegaAttenuation": 0.80000001,
         "VariantType": "VT_KUVA"
     }
 }

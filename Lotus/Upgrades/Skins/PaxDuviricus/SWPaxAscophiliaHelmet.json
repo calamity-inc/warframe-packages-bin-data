@@ -1,0 +1,39 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/SteamWorkshop/SWPaxAscophiliaHelmetName",
+        "LocalizeDescTag": "/Lotus/Language/SteamWorkshop/SWPaxAscophiliaHelmetDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWKullervoAscophiliaHelmet.png",
+        "ExcludeFromCodex": 0,
+        "IsPurchasePlatformLocked": 1,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricusBaseSuit",
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Characters/Tenno/PaxDuviricus/SWAscophelia/SWAscopheliaHelmetDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "ApplyEnergyColor": 1
+    }
+}

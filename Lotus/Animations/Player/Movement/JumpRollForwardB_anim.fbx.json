@@ -4,7 +4,7 @@
         "Attribs": {
             "TransitionTime": 0.1,
             "TransitionOutTime": 0.1,
-            "Rate": 0.9,
+            "Rate": 0.89999998,
             "StartEvents": [
                 "DisableLookIK"
             ],
@@ -14,7 +14,7 @@
         },
         "Events": [
             {
-                "Time": 0.01,
+                "Time": 0.0099999998,
                 "Event": "JumpStartImpulse",
                 "Param": 0,
                 "Direction": "BOTH"
@@ -26,7 +26,7 @@
                 "Direction": "BOTH"
             },
             {
-                "Time": 0.01,
+                "Time": 0.0099999998,
                 "Event": "BulletJump",
                 "Param": 0,
                 "Direction": "BOTH"
@@ -38,7 +38,7 @@
                 "Direction": "BOTH"
             },
             {
-                "Time": 0.01,
+                "Time": 0.0099999998,
                 "Event": "BulletJumpStart",
                 "Param": 0,
                 "Direction": "BOTH"
@@ -50,13 +50,13 @@
                 "Direction": "BOTH"
             },
             {
-                "Time": 0.947368,
+                "Time": 0.94736803,
                 "Event": "JumpWait",
                 "Param": 0,
                 "Direction": "BOTH"
             },
             {
-                "Time": 0.9999,
+                "Time": 0.99989998,
                 "Event": "BulletJumpEnd",
                 "Param": 0,
                 "Direction": "BOTH"

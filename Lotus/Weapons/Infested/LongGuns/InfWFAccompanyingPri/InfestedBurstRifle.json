@@ -20,7 +20,7 @@
                     0,
                     0.017452,
                     0,
-                    0.999848
+                    0.99984801
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "InfestedBurstRifleAttachment"
@@ -28,13 +28,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -58,18 +58,18 @@
         "WeaponHandAimOffset": [
             0,
             0,
-            0.4
+            0.40000001
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.05,
+            -0.050000001,
             0,
-            0.18
+            0.18000001
         ],
         "GripRotationOffset": [
-            0.18348,
-            0.693714,
-            -0.693714,
+            0.18347999,
+            0.69371402,
+            -0.69371402,
             -0.062096
         ],
         "Behaviors": [
@@ -87,7 +87,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -99,7 +99,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
-                                    0.3,
+                                    0.30000001,
                                     1
                                 ],
                                 "burstPauseTime": [
@@ -317,7 +317,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.55,
+                    "PvpDamageMultiplier": 0.55000001,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -349,7 +349,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 1.5,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -459,10 +459,10 @@
             -0.1
         ],
         "HolsterRotOffset": [
-            0.340719,
-            0.0819,
+            0.34071901,
+            0.081900001,
             -0.029809,
-            0.936117
+            0.93611699
         ],
         "RequiredLevel": 7,
         "ArtifactSlots": [
@@ -479,12 +479,12 @@
         ],
         "UseClipSizeAsMaxAmmo": 1,
         "NeedsHealthForReload": 1,
-        "HealthPercentToFullClip": 0.05,
+        "HealthPercentToFullClip": 0.050000001,
         "AutoRecoverUsedReloadAmmo": 1,
         "DamageDoneScript": {
             "Script": "/Lotus/Scripts/WeaponAttachments/InfestedBurstRifle.lua",
             "Function": "OnDamageDone",
-            "_lifeOnHitPct": 0.05,
+            "_lifeOnHitPct": 0.050000001,
             "_sound": "/Lotus/Sounds/Weapons/Infested/InfestedBurstRifle/InfestedBurstRifleHeadshot",
             "_headshotFx": "/Lotus/Fx/Weapons/Infested/InfestedBurstRifle/InfestedBurstRifleHealOnHeadshotFX",
             "_headshotFxBone": "GAME_C1_BODYMTH"

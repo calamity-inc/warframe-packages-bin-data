@@ -1,7 +1,7 @@
 {
     "parent": "/EE/Types/Effects/ParticleSys",
     "data": {
-        "MeshScale": 0.65,
+        "MeshScale": 0.64999998,
         "MaterialParams": [
             {
                 "name": "UnlitAtten",
@@ -64,7 +64,7 @@
             1.5
         ],
         "Size": [
-            0.01,
+            0.0099999998,
             0.02
         ],
         "SizeByLife": {
@@ -74,16 +74,16 @@
                     "Value": 0
                 },
                 {
-                    "Time": 0.333333,
+                    "Time": 0.33333334,
                     "Value": 1
                 },
                 {
-                    "Time": 0.666667,
-                    "Value": 0.416431
+                    "Time": 0.66666669,
+                    "Value": 0.41643101
                 },
                 {
                     "Time": 1,
-                    "Value": 0.235041
+                    "Value": 0.23504101
                 }
             ],
             "SplineType": "CUBIC_SPLINE"
@@ -94,11 +94,11 @@
         ],
         "GrowthRate": [
             0,
-            0.01
+            0.0099999998
         ],
         "SpawnDelay": [
-            0.3,
-            0.3
+            0.30000001,
+            0.30000001
         ],
         "InitialCount": [
             50,
@@ -120,8 +120,8 @@
         "RandOrientation": 1,
         "OrbitOffset": 0,
         "FadeInOut": [
-            0.35,
-            0.65
+            0.34999999,
+            0.64999998
         ],
         "DrawRelative": 1,
         "Nozzle": "SPHERE",
@@ -131,18 +131,18 @@
             0
         ],
         "NozzleBox": [
-            0.01,
-            0.01,
+            0.0099999998,
+            0.0099999998,
             0
         ],
         "Speed": [
-            -0.7,
-            -0.05
+            -0.69999999,
+            -0.050000001
         ],
         "Drag": 2.5,
         "Mass": [
             -0.035,
-            0.08
+            0.079999998
         ]
     }
 }

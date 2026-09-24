@@ -42,10 +42,10 @@
         "Script": {
             "Script": "DropPickupsOnKillForStatusProcsFromAbilities.lua",
             "Function": "OnStatusProcApplied",
-            "_chanceToDropBase": 0.01,
-            "_chanceToDropPerLevel": 0.01,
+            "_chanceToDropBase": 0.0099999998,
+            "_chanceToDropPerLevel": 0.0099999998,
             "_canApplyMultipleStacks": 1,
-            "_maxChanceToDrop": 0.6,
+            "_maxChanceToDrop": 0.60000002,
             "_pickupType": "/Lotus/Types/PickUps/EnergyHealthIncreaseLarge",
             "_procType": "PT_RAD_TOX"
         },
@@ -53,8 +53,8 @@
         "EnhancementTagLocScript": {
             "Script": "DropPickupsOnKillForStatusProcsFromAbilities.lua",
             "Function": "GetDescriptionInfo",
-            "_chanceToDropBase": 0.01,
-            "_chanceToDropPerLevel": 0.01,
+            "_chanceToDropBase": 0.0099999998,
+            "_chanceToDropPerLevel": 0.0099999998,
             "_canApplyMultipleStacks": 0,
             "_maxChanceToDrop": 0,
             "_pickupType": "",

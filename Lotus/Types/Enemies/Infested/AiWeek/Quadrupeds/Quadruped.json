@@ -122,14 +122,14 @@
         },
         "MeleeRingTactic": {
             "RingDist": [
-                0.4,
-                0.7
+                0.40000001,
+                0.69999999
             ],
             "FallbackRange": [
                 1.55,
                 10
             ],
-            "SuccessRadius": 0.7,
+            "SuccessRadius": 0.69999999,
             "LastSeenThreshold": 4,
             "ReportUnreachable": 1,
             "MeleeContinousBehavior": {
@@ -278,7 +278,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -296,7 +296,7 @@
                         0
                     ],
                     "MinAngleToTurn": 20,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8

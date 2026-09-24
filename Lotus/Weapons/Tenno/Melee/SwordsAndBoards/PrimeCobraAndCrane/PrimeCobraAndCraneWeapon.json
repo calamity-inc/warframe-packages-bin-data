@@ -28,7 +28,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -109,14 +109,14 @@
                     "InterruptAttackOnMaxAvatarsHit": 0,
                     "DistanceBetweenHittingSameNonAvatar": 2,
                     "SweepRadius": 0.25,
-                    "SweepCapsuleHalfHeight": 0.3,
+                    "SweepCapsuleHalfHeight": 0.30000001,
                     "DefaultMeleeProxies": {
                         "MAIN_HAND": {
                             "WeaponBone": "",
                             "BoneName": "GAME_R1_WEAPON1",
                             "LocalPosition": [
                                 0,
-                                2.6,
+                                2.5999999,
                                 0
                             ],
                             "LocalRotation": [
@@ -136,7 +136,7 @@
                             "LocalPosition": [
                                 0,
                                 0,
-                                2.6
+                                2.5999999
                             ],
                             "LocalRotation": [
                                 0,
@@ -217,8 +217,8 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.7,
-                        "DT_PUNCTURE": 0.3,
+                        "DT_IMPACT": 0.69999999,
+                        "DT_PUNCTURE": 0.30000001,
                         "DT_SLASH": 0,
                         "Amount": 300,
                         "ProcChance": 0.38,
@@ -274,7 +274,7 @@
                         "OFF_HAND"
                     ],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.18,
+                    "criticalHitChance": 0.18000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -331,9 +331,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -448,7 +448,7 @@
                     "HasHeavyAttack": 1,
                     "ConsumeComboOnHeavyAttack": 1,
                     "ChargeDuration": 1,
-                    "AfterAerialAttackAimGlideBonusTime": 0.3,
+                    "AfterAerialAttackAimGlideBonusTime": 0.30000001,
                     "AimGlideBonusPreventsJumpAndDodge": 0,
                     "AfterAttackCooldown": 1,
                     "TapTime": 0.22,
@@ -478,7 +478,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -568,7 +568,7 @@
                         "MultipleBones": 0,
                         "FireBone": "GAME_L1_WEAPON1",
                         "LocalPos": [
-                            0.4,
+                            0.40000001,
                             0,
                             0
                         ],
@@ -595,7 +595,7 @@
                     "AimIgnoresChargedProjectile": 0,
                     "chargedProjectileType": "",
                     "projectileLaunchOffset": [
-                        0.4,
+                        0.40000001,
                         0,
                         0
                     ],
@@ -664,9 +664,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333334,
+                        "DT_IMPACT": 0.33333299,
+                        "DT_PUNCTURE": 0.33333299,
+                        "DT_SLASH": 0.33333403,
                         "Amount": 10,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -818,7 +818,7 @@
                         "BoneOverride": "",
                         "PosOffset": [
                             0,
-                            -0.06,
+                            -0.059999999,
                             0
                         ],
                         "PosOffsetSecondary": [

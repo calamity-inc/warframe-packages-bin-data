@@ -1,0 +1,52 @@
+{
+    "parent": "/Lotus/Characters/Tenno/WarframeHelmetDeco",
+    "data": {
+        "Mesh": "BaruukDeluxeIIHelmet_skel.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_HEAD1",
+                "Type": "Cloth/BaruukDeluxeIIHelmetTubesSkelClothEx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0.40487799,
+                    -0.57216001,
+                    0.40489,
+                    0.58717197
+                ],
+                "BoneName": "GAME_C1_HEAD1",
+                "Type": "BaruukDeluxeIIHelmetEmissiveDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ]
+    }
+}

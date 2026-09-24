@@ -14,9 +14,9 @@
         "AutoSimChildren": [
             {
                 "LocalPosition": [
-                    -0.15,
-                    0.15,
-                    -0.15
+                    -0.15000001,
+                    0.15000001,
+                    -0.15000001
                 ],
                 "LocalRotation": [
                     0.5,
@@ -36,9 +36,9 @@
             },
             {
                 "LocalPosition": [
-                    -0.15,
-                    -0.15,
-                    -0.15
+                    -0.15000001,
+                    -0.15000001,
+                    -0.15000001
                 ],
                 "LocalRotation": [
                     0.5,
@@ -89,8 +89,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    -0.707107,
-                    0.707107
+                    -0.70710677,
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_ASSHEAD1",
                 "Type": "TNWJackalBossTurretAvatar",
@@ -164,7 +164,7 @@
         },
         "EyeOffset": [
             0,
-            2.65,
+            2.6500001,
             1.5
         ],
         "WeaponBone": "GAME_C1_HEAD1",
@@ -316,7 +316,7 @@
             {
                 "EventName": "SFXJackalReduxAttackBark",
                 "Sound": "/Lotus/Sounds/Enemies/Corpus/JackalRedux/Barks/JackalReduxAttack",
-                "Chance": 0.65,
+                "Chance": 0.64999998,
                 "Period": 1,
                 "Context": "PEC_ALL",
                 "CancelEventName": ""

@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Weapon/WaveProjectile",
     "data": {
         "Mesh": "GrnHeavyGrenadeLauncherClip.fbx",
-        "MeshScale": 0.15,
+        "MeshScale": 0.15000001,
         "AutoSimChildren": [
             {
                 "LocalPosition": [
@@ -34,7 +34,7 @@
             "Amount": 87,
             "ProcChance": 0.2
         },
-        "CriticalChance": 0.35,
+        "CriticalChance": 0.34999999,
         "CriticalMultiplier": 2,
         "DamageFallOff": [
             1200,
@@ -51,11 +51,11 @@
             "PT_STAGGERED"
         ],
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplodeOnFriendlies": 0,
-        "ExplosionFallOff": 0.3,
+        "ExplosionFallOff": 0.30000001,
         "ExplodeEffect": "/Lotus/Fx/Weapons/Grineer/KuvaLich/KuvaLichExplosionMediumFX",
         "DamageRadius": 9,
         "HitEffect": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitEffectSpace",
@@ -80,9 +80,9 @@
         "KinematicRestitution": 0.1,
         "BaseRotation": [
             0,
-            0.707107,
+            0.70710677,
             0,
-            0.707107
+            0.70710677
         ],
         "ApplyColorCustomization": 1,
         "SweepType": "Sphere",

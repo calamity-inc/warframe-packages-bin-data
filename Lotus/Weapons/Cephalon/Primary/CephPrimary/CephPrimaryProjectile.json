@@ -121,7 +121,7 @@
         "AttackData": {
             "Type": "DT_IMPACT",
             "Amount": 0,
-            "ProcChance": 0.3
+            "ProcChance": 0.30000001
         },
         "DealDamageThroughImpactBehavior": 1,
         "CriticalChance": 0.12,
@@ -129,7 +129,7 @@
         "ExplosiveAttack": {
             "Type": "DT_MAGNETIC",
             "Amount": 200,
-            "ProcChance": 0.3,
+            "ProcChance": 0.30000001,
             "ForcedProcs": [
                 "PT_ELECTROCUTION"
             ]
@@ -141,7 +141,7 @@
         ],
         "ExplosionIgnoreSource": 1,
         "ExplosionIgnoreCover": 0,
-        "ExplosionFallOff": 0.6,
+        "ExplosionFallOff": 0.60000002,
         "DamageRadius": 4,
         "HitEffect": "/Lotus/Sounds/Weapons/Corpus/CrpShockRifle/CrpShockRifleProjectileHitEffect",
         "DieEffect": "/Lotus/Fx/Weapons/Syndicates/CephalonPrimary/Rework/CephPrimaryExplosionFX",
@@ -181,7 +181,7 @@
         "ApplyColorCustomization": 1,
         "RiftStasisWeight": 25,
         "MeshScaleRange": [
-            0.4,
+            0.40000001,
             2
         ],
         "ExplosionRange": [
@@ -196,7 +196,7 @@
         "StackingAttack": {
             "Type": "DT_MAGNETIC",
             "Amount": 60,
-            "ProcChance": 0.3
+            "ProcChance": 0.30000001
         },
         "StackingDamage": [
             80,

@@ -115,15 +115,15 @@
         "AimAssistIgnoreInvulnerability": 1,
         "ShoulderHitProxyType": {
             "LocalPosition": [
-                -0.3,
-                0.32,
+                -0.30000001,
+                0.31999999,
                 0
             ],
             "LocalRotation": [
                 0,
                 0,
-                -0.382683,
-                0.92388
+                -0.38268301,
+                0.92387998
             ],
             "BoneName": "GAME_L1_SHOULDERCANNON",
             "Type": "/Lotus/Types/Enemies/Grineer/Vip/SargasRuk/SargasRukShoulderHitProxy"
@@ -146,8 +146,8 @@
             "LocalRotation": [
                 0,
                 0,
-                0.707107,
-                0.707107
+                0.70710677,
+                0.70710677
             ],
             "BoneName": "GAME_C1_SPINE3",
             "Type": "/Lotus/Types/Enemies/Grineer/Vip/SargasRuk/SargasRukBackHitProxy"
@@ -170,7 +170,7 @@
         },
         "ShoulderDestroyedEffect": {
             "LocalPosition": [
-                -0.3,
+                -0.30000001,
                 0.2,
                 0
             ],
@@ -214,7 +214,7 @@
             "Type": "/Lotus/Characters/Grineer/SargasRuk/SargasFrontPortDamagedDecoration"
         },
         "Phase2Health": 0.75,
-        "Phase3Health": 0.4,
+        "Phase3Health": 0.40000001,
         "SargasVentDestroyAnimActions": [
             "ShoulderDestroyed",
             "ChestDestroyed",

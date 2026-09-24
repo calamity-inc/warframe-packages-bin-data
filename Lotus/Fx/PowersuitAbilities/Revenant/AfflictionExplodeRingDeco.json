@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/ShockwaveRing.fbx",
-        "MeshScale": 0.03,
+        "MeshScale": 0.029999999,
         "OverrideMaterial": [
             "/Lotus/Fx/Weapons/UniqueMods/PoisonExplodeOnDeathRingMat"
         ],
@@ -14,7 +14,7 @@
                 "value": [
                     0.17,
                     1,
-                    0.79,
+                    0.79000002,
                     1
                 ]
             },
@@ -25,7 +25,7 @@
                 "value": [
                     0.17,
                     1,
-                    0.79,
+                    0.79000002,
                     1
                 ]
             }
@@ -35,14 +35,14 @@
         "VisibleDistortion": 1,
         "DeadParentInheritanceRule": "NONE",
         "RandomMeshScale": [
-            0.6,
+            0.60000002,
             1
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 2,
                 "FadeRange": [
                     0,
@@ -62,7 +62,7 @@
             {
                 "Parameter": "MorphAmount",
                 "Slot": -1,
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,

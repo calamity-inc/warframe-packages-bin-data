@@ -73,14 +73,14 @@
         "AttackData": {
             "Type": "DT_IMPACT",
             "Amount": 26,
-            "ProcChance": 0.06,
+            "ProcChance": 0.059999999,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ],
             "HitType": "DHT_PROJECTILE"
         },
         "DealDamageThroughImpactBehavior": 1,
-        "CriticalChance": 0.32,
+        "CriticalChance": 0.31999999,
         "CriticalMultiplier": 2.8,
         "DamageFallOff": [
             40,
@@ -90,10 +90,10 @@
         "ExplosiveAttack": {
             "Type": "DT_PHYSICAL",
             "DT_IMPACT": 0,
-            "DT_PUNCTURE": 0.8,
-            "DT_SLASH": 0.2,
+            "DT_PUNCTURE": 0.80000001,
+            "DT_SLASH": 0.19999999,
             "Amount": 44,
-            "ProcChance": 0.06
+            "ProcChance": 0.059999999
         },
         "ForcedSourceProcs": [
             "PT_IMMOLATION",
@@ -101,7 +101,7 @@
             "PT_STAGGERED"
         ],
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplosionIgnoreCover": 0,
@@ -132,7 +132,7 @@
             "Type": "DT_PHYSICAL",
             "DT_IMPACT": 0,
             "DT_PUNCTURE": 0.22,
-            "DT_SLASH": 0.78,
+            "DT_SLASH": 0.77999997,
             "Amount": 100,
             "ProcChance": 0.22,
             "ForcedProcs": [
@@ -141,7 +141,7 @@
                 "PT_BIG_STAGGER"
             ]
         },
-        "HelixRadius": 0.06,
+        "HelixRadius": 0.059999999,
         "HelixSpreadRate": 0,
         "HelixRadiusVariance": 0.02,
         "HelixSpinRate": 1.8,

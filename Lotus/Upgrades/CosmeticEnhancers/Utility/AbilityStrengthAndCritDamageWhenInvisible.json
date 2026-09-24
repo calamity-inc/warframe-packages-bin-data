@@ -65,8 +65,8 @@
         "Script": {
             "Script": "GiveStatsWhileInvisible.lua",
             "Function": "ApplyUpgrade",
-            "_giveStatOneIncreaseBase": 0.05,
-            "_giveStatOneIncreasePerLevel": 0.05,
+            "_giveStatOneIncreaseBase": 0.050000001,
+            "_giveStatOneIncreasePerLevel": 0.050000001,
             "_giveStatOneType": "AVATAR_ABILITY_STRENGTH",
             "_giveStatOneOperation": "STACKING_MULTIPLY",
             "_giveStatTwoIncreaseBase": 0.5,
@@ -78,8 +78,8 @@
         "EnhancementTagLocScript": {
             "Script": "GiveStatsWhileInvisible.lua",
             "Function": "GetAbilityStrengthAndCritDamageWhenInvisibleDescriptionInfo",
-            "_giveStatOneIncreaseBase": 0.05,
-            "_giveStatOneIncreasePerLevel": 0.05,
+            "_giveStatOneIncreaseBase": 0.050000001,
+            "_giveStatOneIncreasePerLevel": 0.050000001,
             "_giveStatOneType": "AVATAR_ABILITY",
             "_giveStatOneOperation": "ADD",
             "_giveStatTwoIncreaseBase": 0.5,

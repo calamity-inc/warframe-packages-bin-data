@@ -166,6 +166,72 @@
             {
                 "LocalPosition": [
                     0,
+                    1.5,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "VoltEximusLightningStrikeWarningPillarBDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 0.40000001
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0.5,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.0043629999,
+                    0,
+                    0.99998999
+                ],
+                "BoneName": "",
+                "Type": "VoltEximusLightningStrikeWarningPillarBDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    1,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "VoltEximusLightningStrikeWarningPillarCDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 0.80000001
+            },
+            {
+                "LocalPosition": [
+                    0,
                     0,
                     0
                 ],
@@ -176,17 +242,18 @@
                     1
                 ],
                 "BoneName": "",
-                "Type": "VoltEximusLightningStrikeWarningPillarDeco",
+                "Type": "/Lotus/Sounds/Enemies/Eximus/Volt/EximusVoltLightningStrikeChargeLoopSeq",
                 "Chance": 255,
                 "RelativeToBounds": 0,
                 "Attach": 1,
                 "DestroyWithOwner": 1,
                 "DestroyParentOnDeath": 0,
                 "FadeOutOnDestruction": 0,
-                "Scale": 0.5
+                "Scale": 1
             }
         ],
         "IgnoreParentRotation": 1,
+        "ReplicationOverride": "RO_ALWAYS",
         "TestRotate": 1,
         "TestRotateSpeed": [
             10,
@@ -194,14 +261,14 @@
             0
         ],
         "RandomMeshScale": [
-            0.6,
-            0.8
+            0.60000002,
+            0.80000001
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 5,
+                "TimeLength": 5.5,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,
@@ -214,16 +281,16 @@
                             "Value": 0
                         },
                         {
-                            "Time": 0.1,
-                            "Value": 0.749696
+                            "Time": 0.050000001,
+                            "Value": 0.75
                         },
                         {
-                            "Time": 0.3,
-                            "Value": 1
+                            "Time": 0.72000003,
+                            "Value": 0.80000001
                         },
                         {
-                            "Time": 0.8,
-                            "Value": 0.3
+                            "Time": 0.94999999,
+                            "Value": 1.5
                         },
                         {
                             "Time": 1,
@@ -244,7 +311,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.4,
+                "TimeLength": 0.40000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,

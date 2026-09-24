@@ -2,7 +2,7 @@
     "parent": "/EE/Types/Effects/PatchEntity",
     "data": {
         "UseAmbient": 1,
-        "IrradianceVolumeGain": 0.65,
+        "IrradianceVolumeGain": 0.64999998,
         "Mesh": "/Lotus/Fx/PowersuitAbilities/Paladin/StairwayToHeavenPatchMeshA",
         "OverrideMaterial": [
             "LawyerStairwayToHeavenPatchMat"
@@ -13,9 +13,9 @@
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.0084,
-                    0.082,
-                    0.019,
+                    0.0083999997,
+                    0.082000002,
+                    0.018999999,
                     1
                 ]
             },
@@ -25,8 +25,8 @@
                 "slot": -1,
                 "value": [
                     1,
-                    0.9,
-                    0.043,
+                    0.89999998,
+                    0.043000001,
                     1
                 ]
             }
@@ -41,11 +41,11 @@
             "Function": "DissolveFade",
             "_OriginalValue": 1,
             "_NewValue": 0,
-            "_TimeLength": 0.4,
+            "_TimeLength": 0.40000001,
             "_OriginalScale": 0.1,
             "_NewScale": 1,
             "_Peak": 0.5,
-            "_PeakEnd": 0.8,
+            "_PeakEnd": 0.80000001,
             "_PeakValue": 1,
             "_ValleyValue": 0,
             "_ValleyEndValue": 0,

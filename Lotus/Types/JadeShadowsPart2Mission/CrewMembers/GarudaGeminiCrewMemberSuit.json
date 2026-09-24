@@ -3,6 +3,14 @@
     "data": {
         "MarketMode": "MM_NONE",
         "LocalizeTag": "[HC] GarudaGeminiCrewMemberSuit",
+        "OwnerSetScript": {
+            "Script": "/Lotus/Scripts/JadeShadowsPart2Mission/Friendlies/GarudaForceEquipMelee.lua",
+            "Function": "GiveGarudaSuitClaws"
+        },
+        "OnRemovedScript": {
+            "Script": "/Lotus/Scripts/JadeShadowsPart2Mission/Friendlies/GarudaForceEquipMelee.lua",
+            "Function": "RetractGarudaSuitClaws"
+        },
         "DefaultCustomization": {
             "Helmet": {
                 "ItemType": "/Lotus/Upgrades/Skins/Garuda/GarudaGeminiHelmet"

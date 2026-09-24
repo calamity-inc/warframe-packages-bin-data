@@ -1,7 +1,7 @@
 {
     "parent": "WaterMineProjectile",
     "data": {
-        "MeshScale": 0.15,
+        "MeshScale": 0.15000001,
         "ExplosiveAttack": {
             "Amount": 15
         },
@@ -10,8 +10,8 @@
         "DieEffect": "/Lotus/Fx/Enemies/Drones/WaterMineDeathSmall",
         "OnProjectileStartScript": {
             "Function": "OnDeathCreate",
-            "_maxSize": 0.1,
-            "_floatSpeed": 0.3
+            "_maxSize": 0.10000001,
+            "_floatSpeed": 0.30000001
         }
     }
 }

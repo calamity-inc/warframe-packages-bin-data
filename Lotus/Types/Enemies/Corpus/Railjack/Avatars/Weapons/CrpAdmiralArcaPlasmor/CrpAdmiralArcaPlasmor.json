@@ -10,7 +10,7 @@
                     0,
                     0,
                     -0.052336,
-                    0.99863
+                    0.99862999
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "CrpAdmiralArcaPlasmorAttachment"
@@ -18,13 +18,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
-            0.05,
+            0.050000001,
+            0.050000001,
             0.1
         ],
         "HolsterBone1Rotation": [
-            -0.707107,
-            -0.707107,
+            -0.70710677,
+            -0.70710677,
             0,
             0
         ],
@@ -36,30 +36,30 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "GripPositionOffset": [
             0.07,
-            -0.08,
-            -0.05
+            -0.079999998,
+            -0.050000001
         ],
         "GripRotationOffset": [
             0.546516,
-            0.423712,
-            -0.484462,
-            0.535804
+            0.42371199,
+            -0.48446199,
+            0.53580397
         ],
         "GripBone": "GAME_C1_HANDGUARD",
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -88,7 +88,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -339,7 +339,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.18,
+                    "criticalHitChance": 0.18000001,
                     "criticalHitDamageMultiplier": 1.8,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -447,8 +447,8 @@
             "_effectsToRemove": [],
             "_fxToAttach": "/Lotus/Fx/Weapons/Corpus/Railgun/RailgunDeathEffects",
             "_decoEffect": "/Lotus/Fx/Fire/ChannelingDissolveDeco",
-            "_weightModifier": 0.9,
-            "_speed": 0.55,
+            "_weightModifier": 0.89999998,
+            "_speed": 0.55000001,
             "_cloakColorMult": 2,
             "_excludedAvatarTypes": [
                 "/Lotus/Types/Enemies/Sentients/Eidolon/SentientTeralystAvatar"

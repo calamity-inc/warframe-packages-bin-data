@@ -3,7 +3,7 @@
     "data": {
         "Attribs": {
             "TransitionTime": 0.1,
-            "TransitionOutTime": 0.15,
+            "TransitionOutTime": 0.15000001,
             "TransitionType": "TT_ADDITIVE",
             "TeleportPhysicsCapsuleForRootMotion": 1
         },
@@ -15,19 +15,19 @@
                 "Direction": "BOTH"
             },
             {
-                "Time": 0.3,
+                "Time": 0.30000001,
                 "Event": "VaultFoley",
                 "Param": 0,
                 "Direction": "BOTH"
             },
             {
-                "Time": 0.85,
+                "Time": 0.85000002,
                 "Event": "StopAnimationAdjustment",
                 "Param": 0,
                 "Direction": "BOTH"
             },
             {
-                "Time": 0.85,
+                "Time": 0.85000002,
                 "Event": "AdjustmentSyncPoint",
                 "Param": 0,
                 "Direction": "BOTH"

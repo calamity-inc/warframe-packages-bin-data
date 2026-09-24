@@ -1,0 +1,15 @@
+{
+    "parent": "BaseTitleChallenge",
+    "data": {
+        "Script": {
+            "Script": "/Lotus/Scripts/Challenges/CheckDialogueBoolean.lua",
+            "Function": "MatchTagEvent",
+            "_dialogueBooleanName": ""
+        },
+        "GameTag": "INVENTORY_REFRESH",
+        "ExtraGameTags": [
+            "LOGGED_IN",
+            "DIALOGUE_SAVED"
+        ]
+    }
+}

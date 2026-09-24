@@ -12,9 +12,9 @@
         "CHEAP_SPECULAR": 1,
         "VERTEX_AO": 1,
         "VS:WindBend": 0.1,
-        "VS:WindTremble": 0.3,
+        "VS:WindTremble": 0.30000001,
         "VS:WindTrembleBranch": 0.5,
-        "VS:WindTrembleSpeed": 0.03,
+        "VS:WindTrembleSpeed": 0.029999999,
         "VS:DeformRadius": 2,
         "VS:DeformStrength": 8,
         "VS:NearPlaneCullParams": [
@@ -22,27 +22,27 @@
             0.1
         ],
         "PS:SpecularColor": [
-            0.04,
-            0.04,
-            0.04,
+            0.039999999,
+            0.039999999,
+            0.039999999,
             0.1
         ],
         "PS:EmissiveTintColor": [
-            0.36,
+            0.36000001,
             0.41,
             0.12,
             1
         ],
         "PS:EmissiveMapAtten": 2,
         "PS:TintColor": [
-            0.57,
-            0.51,
-            0.33,
+            0.56999999,
+            0.50999999,
+            0.33000001,
             0.5
         ],
         "PS:BackWrapLight": [
             0,
-            0.05
+            0.050000001
         ],
         "PS:CheapSpecular": [
             5,
@@ -54,7 +54,7 @@
         "TX:NormalMap": "OstAlienFoliageA_n.png",
         "TX:EmissiveMap": "OstAlienFoliageA_e.png",
         "AlphaTest": 1,
-        "AlphaTestValue": 0.039216,
+        "AlphaTestValue": 0.039215688,
         "DoubleSided": 1,
         "DefaultPhysicsMaterial": "/EE/Types/Physics/Materials/VegetationNoRayPass"
     }

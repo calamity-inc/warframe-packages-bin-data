@@ -51,9 +51,9 @@
         "AttackData": {
             "Type": "DT_IMPACT",
             "Amount": 4,
-            "ProcChance": 0.05
+            "ProcChance": 0.050000001
         },
-        "CriticalChance": 0.15,
+        "CriticalChance": 0.15000001,
         "CriticalMultiplier": 2,
         "HitEffect": "/Lotus/Fx/SurfaceHitEffects/PlayerFootsteps/WaterSprayerFX",
         "DieEffectOffset": [
@@ -66,10 +66,10 @@
         "HorizontalImpulse": 200,
         "AllowPuncture": 0,
         "KinematicMovement": 1,
-        "KinematicPostCollisionsSpeedFactor": 0.3,
-        "KinematicInitialSpeed": 30,
-        "KinematicMinSpeed": 30,
-        "KinematicMaxSpeed": 30,
+        "KinematicPostCollisionsSpeedFactor": 0.30000001,
+        "KinematicInitialSpeed": 50,
+        "KinematicMinSpeed": 50,
+        "KinematicMaxSpeed": 50,
         "KinematicNoise": 0.1,
         "KinematicGravity": 1,
         "OnProjectileStartScript": {

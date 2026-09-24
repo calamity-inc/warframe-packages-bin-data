@@ -155,10 +155,10 @@
                     -0.2
                 ],
                 "LocalRotation": [
-                    0.541675,
+                    0.54167497,
                     0.454519,
                     -0.454519,
-                    0.541675
+                    0.54167497
                 ],
                 "BoneName": "GAME_L1_LEG1",
                 "Type": "/Lotus/Weapons/Corpus/Emplacement/CrpDeployableCover/CrpDeployableCoverAttachment",
@@ -198,7 +198,7 @@
                 ],
                 "AimWhenPausing": 1,
                 "ReturnToCoverOnDamage": 1,
-                "ReturnToCoverDamageThreshold": 0.15
+                "ReturnToCoverDamageThreshold": 0.15000001
             }
         },
         "LotusAttackFromTheOpenBehavior": {
@@ -404,11 +404,11 @@
         "UseExtraViewCone": 1,
         "IdleVerticalFov": 30,
         "ExtraViewConeIdleFovFactor": 1.5,
-        "ExtraViewConeIdleDistFactor": 0.3,
+        "ExtraViewConeIdleDistFactor": 0.30000001,
         "ReactionControllerType": "NarmerReactionControllerImpl",
         "PerceiverType": "NarmerPerceiver",
         "BaseHitChance": [
-            0.6,
+            0.60000002,
             1
         ]
     }

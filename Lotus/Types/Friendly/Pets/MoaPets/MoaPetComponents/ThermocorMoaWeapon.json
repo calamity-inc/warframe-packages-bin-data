@@ -8,13 +8,13 @@
                 "LocalPosition": [
                     0,
                     -0.035,
-                    -0.06
+                    -0.059999999
                 ],
                 "LocalRotation": [
                     0,
                     0,
-                    -0.061049,
-                    0.998135
+                    -0.061048999,
+                    0.99813497
                 ],
                 "BoneName": "GAME_C1_MASKATTACH",
                 "Type": "ThermocorMoaWeaponAttachment"
@@ -26,12 +26,12 @@
         "HolsterBone1Name": "GAME_C1_MASKATTACH",
         "HolsterBone1Position": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -53,8 +53,8 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.075,
-            0.24
+            0.075000003,
+            0.23999999
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
@@ -64,8 +64,8 @@
         ],
         "GripRotationOffset": [
             0,
-            -0.707107,
-            0.707107,
+            -0.70710677,
+            0.70710677,
             0
         ],
         "Behaviors": [
@@ -334,7 +334,7 @@
                     ],
                     "damageFallOffMinDamage": 1,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.232,
+                    "PvpDamageMultiplier": 0.23199999,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -468,7 +468,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_RADIAL",
                         "hostAuthoritative": 0,
@@ -545,7 +545,7 @@
                     "AccessibilityTrigger": 1,
                     "ClipSizeAffectsChargeTime": 0,
                     "ChargeTime": 1,
-                    "MinChargeRatio": 0.4,
+                    "MinChargeRatio": 0.40000001,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 1,
                     "AutoFireWhenChargeCompleted": 1,
@@ -650,8 +650,8 @@
             ],
             "_fxToAttach": "/Lotus/Fx/Moa/Thermacor/ThermacorDeathEffects",
             "_decoEffect": "/Lotus/Fx/Fire/ChannelingDissolveDeco",
-            "_weightModifier": 0.8,
-            "_speed": 0.4,
+            "_weightModifier": 0.80000001,
+            "_speed": 0.40000001,
             "_cloakColorMult": 2,
             "_useRootAvatar": 0,
             "_excludedAvatarTypes": [

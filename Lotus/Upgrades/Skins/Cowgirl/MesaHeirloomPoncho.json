@@ -1,0 +1,113 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Heirloom/MesaHeirloomPonchoName",
+        "LocalizeDescTag": "/Lotus/Language/Heirloom/MesaHeirloomPonchoDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Misc/MesaHeirloomPoncho.png",
+        "AlwaysAvailable": 1,
+        "Giftable": 0,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Powersuits/Cowgirl/CowgirlBaseSuit",
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Characters/Tenno/Gunslinger/MesaHeirloom/MesaHeirloomPonchoAttachmentDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "UpgradeSkinOverride": "MesaHeirloomPonchoWeaponSkin",
+        "CompatibleSlots": [
+            "Face"
+        ],
+        "RequiredCustomizations": [
+            "MesaHeirloomSkin"
+        ],
+        "ApplyEnergyColor": 1,
+        "OverrideAttachedFx": 1,
+        "AttachedFxOverrides": [],
+        "DefaultCustomizationOverrides": {
+            "CustomEmblem": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0.12,
+                            0,
+                            -0.029999999
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0.087155998,
+                            0,
+                            0,
+                            0.99619502
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "EventEmblem": {
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            -0.12,
+                            0,
+                            0.029999999
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0.087155998,
+                            0,
+                            0,
+                            0.99619502
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            }
+        },
+        "ColorSlot": "Attachments"
+    }
+}

@@ -29,7 +29,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -109,7 +109,7 @@
                     "InterruptAttackOnMaxAvatarsHit": 0,
                     "DistanceBetweenHittingSameNonAvatar": 2,
                     "SweepRadius": 0.25,
-                    "SweepCapsuleHalfHeight": 0.3,
+                    "SweepCapsuleHalfHeight": 0.30000001,
                     "DefaultMeleeProxies": {
                         "MAIN_HAND": {
                             "WeaponBone": "",
@@ -218,10 +218,10 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.025,
-                        "DT_PUNCTURE": 0.85,
+                        "DT_PUNCTURE": 0.85000002,
                         "DT_SLASH": 0.125,
                         "Amount": 35,
-                        "ProcChance": 0.05,
+                        "ProcChance": 0.050000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "ForcedProcCount": 1,
@@ -324,9 +324,9 @@
                     "AlternateAttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.333333,
-                        "DT_PUNCTURE": 0.333333,
-                        "DT_SLASH": 0.333333,
+                        "DT_IMPACT": 0.33333334,
+                        "DT_PUNCTURE": 0.33333334,
+                        "DT_SLASH": 0.33333331,
                         "Amount": 0,
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
@@ -424,7 +424,7 @@
                     "SetToPreviousBehaviorWhenMeleeActionEnds": 1,
                     "RecordFireEvent": 1,
                     "ComboData": {
-                        "HeavyMeleeChargeTime": 0.7,
+                        "HeavyMeleeChargeTime": 0.69999999,
                         "UseCurrentContextAfterCharge": 0
                     },
                     "GroundHitLerpRate": 0.25,
@@ -444,8 +444,8 @@
         "LevelUpType": "",
         "BulletAttractorType": "",
         "HolsterPosOffset": [
-            -0.03,
-            -0.05,
+            -0.029999999,
+            -0.050000001,
             0
         ],
         "RequiredLevel": 7,
@@ -594,7 +594,7 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             }
         ],
@@ -730,15 +730,15 @@
                 "WeaponAttachmentHand": "MAIN_HAND",
                 "IsAerialSlam": 0,
                 "HitAirborneTargets": 1,
-                "VerticalImpulse": 0.15,
+                "VerticalImpulse": 0.15000001,
                 "HorizontalImpulse": 0.1
             }
         ],
         "SlamRadiusPercentageClamps": [
-            0.833333,
+            0.83333331,
             1.5
         ],
-        "ParryDamagePercentBlocked": 0.35,
+        "ParryDamagePercentBlocked": 0.34999999,
         "ChannelingReflectAmountPvp": 0.2
     }
 }

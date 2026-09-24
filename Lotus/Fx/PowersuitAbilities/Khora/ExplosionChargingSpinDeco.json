@@ -2,17 +2,17 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/Nezha/SashRingsMesh.fbx",
-        "MeshScale": 0.35,
+        "MeshScale": 0.34999999,
         "MaterialParams": [
             {
                 "name": "TintColor",
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.072,
+                    0.071999997,
                     0.44,
                     0.75,
-                    0.67
+                    0.67000002
                 ]
             }
         ],
@@ -35,7 +35,7 @@
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.6,
+                "TimeLength": 0.60000002,
                 "Multiplier": 1,
                 "FadeRange": [
                     1,
@@ -56,7 +56,7 @@
         "TriggeredMaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.15,
+                "TimeLength": 0.15000001,
                 "Multiplier": 1,
                 "FadeRange": [
                     0,

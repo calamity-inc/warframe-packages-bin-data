@@ -1,0 +1,21 @@
+{
+    "parent": "SeasonWeeklyChallengeBase",
+    "data": {
+        "RequiredCount": 150,
+        "ProgressIndicatorFreq": 10,
+        "Script": {
+            "Script": "/Lotus/Scripts/Challenges/MatchGameRules.lua",
+            "Function": "MatchAttackEvent",
+            "_gameRules": "/Lotus/Types/Game/LotusGameRules"
+        },
+        "DamageType": "DT_ANY",
+        "DamageSources": [
+            "/Lotus/Types/Player/TennoAvatar"
+        ],
+        "DamageSourceObjects": [
+            "/Lotus/Weapons/Tenno/Rifle/LotusAssaultRifle"
+        ],
+        "EnableInPVP": 1,
+        "Icon": "/Lotus/Interface/Icons/Episodes/Weekly/RifleOffense.png"
+    }
+}

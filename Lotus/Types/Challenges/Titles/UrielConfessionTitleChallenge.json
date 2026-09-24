@@ -1,16 +1,9 @@
 {
-    "parent": "BaseTitleChallenge",
+    "parent": "BaseDialogueCounterChallenge",
     "data": {
         "Script": {
-            "Script": "/Lotus/Scripts/Challenges/CheckDialogueCounter.lua",
-            "Function": "MatchTagEvent",
             "_dialogueCounterName": "HellStory",
             "_dialogueCounterValue": 21
-        },
-        "GameTag": "INVENTORY_REFRESH",
-        "ExtraGameTags": [
-            "LOGGED_IN",
-            "DIALOGUE_SAVED"
-        ]
+        }
     }
 }

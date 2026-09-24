@@ -1,0 +1,87 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "MesaHeirloomPonchoAttachmentCollarCloth_skel.fbx",
+        "Attached": 1,
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/WeaponAttachments/WarframeHumanSkins.lua",
+            "Function": "CheekyRemapButAppliedToParentEntity",
+            "_paramName": "CustomizeCustomEyes",
+            "_eyeSlot": [
+                2
+            ],
+            "_colorSlots": [
+                "PrimaryColors"
+            ],
+            "_multiParamOption": []
+        },
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "MesaHeirloomPonchoAttachmentCollarClothData",
+        "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.082000002,
+                0.082999997
+            ],
+            "collidingDampeningRange": [
+                0.018999999,
+                0.059
+            ],
+            "massRange": [
+                0.059,
+                0.19
+            ],
+            "distConstraintRange": [
+                0,
+                0.19
+            ],
+            "reduceStretchExponent": 0.80000001,
+            "shearingStiffness": 1,
+            "worldVelocityAtten": [
+                1,
+                0.5,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "cinematicRootVelocityAtten": 0.5,
+            "maxRootVelocity": 20,
+            "wind": [
+                0.58999997,
+                0,
+                0.58999997
+            ],
+            "windStrength": [
+                -0.58999997,
+                0.58999997
+            ],
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.5,
+                2,
+                0.5
+            ],
+            "windVolumeScale": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "windVolumeOffsetRate": [
+                1,
+                1,
+                1
+            ],
+            "addFloorPlaneCollision": 0,
+            "floorPlaneHeight": 0.07,
+            "collisionExemptions": [
+                0
+            ],
+            "orientationBasis": "NEG_X_Y",
+            "orientationBasisWeighDistance": 1,
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        },
+        "UseClothCollision": 1
+    }
+}

@@ -10,7 +10,7 @@
             {
                 "UpgradeType": "AVATAR_MOVEMENT_SPEED",
                 "OperationType": "STACKING_MULTIPLY",
-                "Value": 0.05,
+                "Value": 0.050000001,
                 "DamageType": "DT_ANY",
                 "AutoType": 0,
                 "ValidType": "",
@@ -25,7 +25,7 @@
                 "LocKeyWordScript": {
                     "Script": "EntratiFistClawIncarnonSubUpgrades/EntratiFistClawIncarnonSpeedPerCombo.lua",
                     "Function": "GetDescriptionInfo",
-                    "_speedPerComboTier": 0.05
+                    "_speedPerComboTier": 0.050000001
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
@@ -41,12 +41,12 @@
         "Script": {
             "Script": "EntratiFistClawIncarnonSubUpgrades/EntratiFistClawIncarnonSpeedPerCombo.lua",
             "Function": "OnUpgradeApplied",
-            "_speedPerComboTier": 0.05
+            "_speedPerComboTier": 0.050000001
         },
         "UnappliedScript": {
             "Script": "EntratiFistClawIncarnonSubUpgrades/EntratiFistClawIncarnonSpeedPerCombo.lua",
             "Function": "OnUpgradeUnapplied",
-            "_speedPerComboTier": 0.05
+            "_speedPerComboTier": 0.050000001
         },
         "UpgradeChance": 1,
         "UpgradeDuration": 1,

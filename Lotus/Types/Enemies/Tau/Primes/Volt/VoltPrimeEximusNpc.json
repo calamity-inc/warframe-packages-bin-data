@@ -6,6 +6,7 @@
             "Function": "OwnerSetScript",
             "_SpeedSound": "",
             "_SpeedEndSound": "",
+            "_SpeedBurstSound": "",
             "_SpeedTrail": "",
             "_baseSpdMul": 5,
             "_speedMotionController": "",
@@ -17,14 +18,14 @@
             "Function": "RemoveUpgrades"
         },
         "DefaultEnergyColor": [
+            75,
             49,
-            85,
             168,
             255
         ],
         "DefaultEnergyColor1": [
+            179,
             158,
-            191,
             244,
             255
         ],
@@ -36,7 +37,7 @@
         ],
         "PassiveAbilityLocTag": "/Lotus/Language/Suits/VoltPassiveAbility",
         "MovementSpeedMultiplier": 2,
-        "PvpBulletJumpSpeedMultiplier": 0.8,
+        "PvpBulletJumpSpeedMultiplier": 0.80000001,
         "ArmourRatingOverride": 0,
         "IsPrime": 1,
         "ActivationBlockedFX": {

@@ -19,15 +19,15 @@
             },
             "EXTRA1": {
                 "LocalPosition": [
-                    0.08,
+                    0.079999998,
                     0,
                     0
                 ],
                 "LocalRotation": [
                     0.00137,
-                    0.026141,
-                    0.052318,
-                    0.998287
+                    0.026141001,
+                    0.052317999,
+                    0.99828702
                 ],
                 "BoneName": "GAME_R1_TWIST2",
                 "Type": "DrifterPistolAMPAttachment"
@@ -56,7 +56,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -401,7 +401,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -743,15 +743,11 @@
         "PVPAmmoClipSize": 10,
         "InfiniteClipsForNpcs": 1,
         "InfiniteClipsForPlayers": 1,
-        "OwnerSetScript": {
-            "Script": "DrifterPistol.lua",
-            "Function": "OnOwnerSetPlayerWeapon",
-            "_projectileIndex": 0,
-            "_behaviorIndex": -1,
-            "_perfectReloadAttachFx": ""
-        },
         "HolsterCategory": "PISTOL",
         "DefaultCustomization": {
+            "Helmet": {
+                "ItemType": "/Lotus/Upgrades/Skins/Operator/Amp/DrifterAmpSkin"
+            },
             "LegLeft": {
                 "ItemType": "/Lotus/Upgrades/Skins/HolsterCustomizations/OperatorPistol"
             }

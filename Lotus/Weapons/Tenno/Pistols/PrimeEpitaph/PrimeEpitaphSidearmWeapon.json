@@ -28,7 +28,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -298,7 +298,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponChargedStateBehavior",
                 "state:WeaponChargedStateBehavior": {
-                    "reloadTime": 0.6,
+                    "reloadTime": 0.60000002,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -354,7 +354,7 @@
                     "IsAutomatic": 0,
                     "AccessibilityTrigger": 1,
                     "ClipSizeAffectsChargeTime": 0,
-                    "ChargeTime": 0.36,
+                    "ChargeTime": 0.36000001,
                     "MinChargeRatio": 0,
                     "UseClipSizeAsDamageMultiplier": 0,
                     "DamageMultiplier": 1,
@@ -383,7 +383,7 @@
             }
         ],
         "RequiredLevel": 14,
-        "OmegaAttenuation": 0.55,
+        "OmegaAttenuation": 0.55000001,
         "EXTRA2": {
             "Type": "PrimeEpitaphSidarmAttachment"
         },

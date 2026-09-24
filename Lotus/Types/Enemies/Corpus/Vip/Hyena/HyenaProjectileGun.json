@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Weapons/GunProjectile",
     "data": {
         "Mesh": "/Lotus/Fx/Weapons/ProjectileMeshA.fbx",
-        "MeshScale": 0.6,
+        "MeshScale": 0.60000002,
         "OverrideMaterial": [
             "/Lotus/Fx/Weapons/Corpus/EnergyRifleProjMat"
         ],
@@ -11,7 +11,7 @@
                 "name": "TintColor",
                 "type": "Float4",
                 "slot": -1,
-                "value": 0.9,
+                "value": 0.89999998,
                 "value1": 0.5,
                 "value2": 0.02,
                 "value3": 0
@@ -87,11 +87,11 @@
         },
         "ReplicaRunScriptInstance": 1,
         "AttackData": {
-            "DT_IMPACT": 0.4,
-            "DT_PUNCTURE": 0.4,
-            "DT_SLASH": 0.2,
+            "DT_IMPACT": 0.40000001,
+            "DT_PUNCTURE": 0.40000001,
+            "DT_SLASH": 0.19999999,
             "Amount": 6,
-            "ProcChance": 0.05
+            "ProcChance": 0.050000001
         },
         "CriticalChance": 0.025,
         "CriticalMultiplier": 1.5,

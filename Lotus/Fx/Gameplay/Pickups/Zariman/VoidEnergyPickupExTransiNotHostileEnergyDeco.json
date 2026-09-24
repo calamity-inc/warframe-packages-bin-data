@@ -28,7 +28,7 @@
             {
                 "Parameter": "AlphaAtten",
                 "Slot": -1,
-                "TimeLength": 0.15,
+                "TimeLength": 0.15000001,
                 "Multiplier": 1.5,
                 "FadeRange": [
                     0,
@@ -41,16 +41,16 @@
                             "Value": 1.003812
                         },
                         {
-                            "Time": 0.333333,
+                            "Time": 0.33333334,
                             "Value": 0.783777
                         },
                         {
-                            "Time": 0.666667,
+                            "Time": 0.66666669,
                             "Value": 0.142029
                         },
                         {
                             "Time": 1,
-                            "Value": 0.004177
+                            "Value": 0.0041771098
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"
@@ -65,7 +65,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 8,
                 "FadeRange": [
                     0,
@@ -75,11 +75,11 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.998311
+                            "Value": 0.99831098
                         },
                         {
                             "Time": 0.25,
-                            "Value": 0.530163
+                            "Value": 0.53016299
                         },
                         {
                             "Time": 0.5,
@@ -87,7 +87,7 @@
                         },
                         {
                             "Time": 0.75,
-                            "Value": 0.402304
+                            "Value": 0.40230399
                         },
                         {
                             "Time": 1,
@@ -106,7 +106,7 @@
             {
                 "Parameter": "MeshScale",
                 "Slot": -1,
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 0.5,
                 "FadeRange": [
                     0,
@@ -120,11 +120,11 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.95939
+                            "Value": 0.95938998
                         },
                         {
                             "Time": 1,
-                            "Value": 0.691784
+                            "Value": 0.69178402
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"
@@ -140,13 +140,13 @@
         "ColorFades": [
             {
                 "Parameter": "TintColor",
-                "TimeLength": 0.15,
+                "TimeLength": 0.15000001,
                 "ColorCurve": {
                     "RED": {
                         "Values": [
                             {
                                 "Time": 0,
-                                "Value": 0.8
+                                "Value": 0.80000001
                             },
                             {
                                 "Time": 1,
@@ -163,7 +163,7 @@
                             },
                             {
                                 "Time": 1,
-                                "Value": 0.26
+                                "Value": 0.25999999
                             }
                         ],
                         "SplineType": "LINEAR_SPLINE"
@@ -197,13 +197,13 @@
             },
             {
                 "Parameter": "HighColor",
-                "TimeLength": 0.15,
+                "TimeLength": 0.15000001,
                 "ColorCurve": {
                     "RED": {
                         "Values": [
                             {
                                 "Time": 0,
-                                "Value": 0.95
+                                "Value": 0.94999999
                             },
                             {
                                 "Time": 1,
@@ -229,7 +229,7 @@
                         "Values": [
                             {
                                 "Time": 0,
-                                "Value": 0.05
+                                "Value": 0.050000001
                             },
                             {
                                 "Time": 1,

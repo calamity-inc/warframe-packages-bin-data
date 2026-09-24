@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Weapon/WaveProjectile",
     "data": {
         "Mesh": "/Lotus/Fx/Weapons/SpaceWeapons/RocketLauncher/RocketMorphMesh.fbx",
-        "MeshScale": 0.4,
+        "MeshScale": 0.40000001,
         "OverrideMaterial": [
             "/EE/Materials/Hidden"
         ],
@@ -123,7 +123,7 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/WeaponAttachments/ArchRocketCrossbow.lua",
             "Function": "ProjectileEffects",
-            "_scaleFactor": 0.18,
+            "_scaleFactor": 0.18000001,
             "_dynamicScaling": 1,
             "_randRotAmount": 6
         },
@@ -131,7 +131,7 @@
         "AttackData": {
             "DT_IMPACT": 0.2,
             "DT_PUNCTURE": 0.1,
-            "DT_SLASH": 0.7,
+            "DT_SLASH": 0.69999999,
             "Amount": 500,
             "ProcChance": 0.16,
             "ForcedProcs": [

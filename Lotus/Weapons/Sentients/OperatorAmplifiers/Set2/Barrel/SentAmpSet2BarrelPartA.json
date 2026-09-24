@@ -23,7 +23,7 @@
                         "reloadThreshold": 0,
                         "controlAim": 0,
                         "continuousAim": 0,
-                        "minimumAimMask": 0.9,
+                        "minimumAimMask": 0.89999998,
                         "ShootOnStaggerProbability": 0.1,
                         "StaggerTimeOut": 1,
                         "minAngleToTurn": 0,
@@ -155,7 +155,7 @@
                 "RiftStasisWeight": 1,
                 "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
                 "MaxTraceDistanceTime": 0.1,
-                "RetractTime": 0.05,
+                "RetractTime": 0.050000001,
                 "AttachToWeapon": 1,
                 "AttachToTarget": 0,
                 "MultiBeam": 0,
@@ -246,7 +246,7 @@
                     "staticCoverOnly": 0,
                     "minCoverDistance": 0,
                     "hitEffect": "",
-                    "verticalImpulse": 0.15,
+                    "verticalImpulse": 0.15000001,
                     "horizontalImpulse": 0.1,
                     "hitType": "DHT_NONE",
                     "hostAuthoritative": 0,
@@ -295,7 +295,7 @@
                     "staticCoverOnly": 0,
                     "minCoverDistance": 0,
                     "hitEffect": "",
-                    "verticalImpulse": 0.15,
+                    "verticalImpulse": 0.15000001,
                     "horizontalImpulse": 0.1,
                     "hitType": "DHT_NONE",
                     "hostAuthoritative": 0,
@@ -316,12 +316,12 @@
                 "AttackData": {
                     "Type": "DT_RADIANT",
                     "Amount": 1000,
-                    "ProcChance": 0.04,
+                    "ProcChance": 0.039999999,
                     "ForcedProcs": [
                         "PT_VOID"
                     ]
                 },
-                "criticalHitChance": 0.3
+                "criticalHitChance": 0.30000001
             },
             "state:Type": "/EE/Types/Game/WeaponAutomaticStateBehavior",
             "state:WeaponAutomaticStateBehavior": {

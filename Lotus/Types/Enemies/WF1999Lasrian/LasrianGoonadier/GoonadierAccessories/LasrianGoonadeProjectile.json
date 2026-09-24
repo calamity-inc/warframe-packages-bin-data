@@ -125,7 +125,7 @@
             "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/WF1999Abilities/LasrianGoonadeUtility.lua",
             "Function": "AttachRangeDeco",
             "_healRadius": 8,
-            "_healPctPerTick": 0.01,
+            "_healPctPerTick": 0.0099999998,
             "_damageAmount": 8,
             "_healTickTime": 0.5,
             "_gooLifeTime": 3,
@@ -134,14 +134,14 @@
             "_gasCloudEntity": "",
             "_noHealingAvatarsList": [],
             "_noHealingDmSymbolList": [],
-            "_alternateHealPctPerTick": 0.01,
+            "_alternateHealPctPerTick": 0.0099999998,
             "_alternateHealRateAvatarList": []
         },
         "OnProjectileDeathScript": {
             "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/WF1999Abilities/LasrianGoonadeUtility.lua",
             "Function": "GoonadeDeath",
             "_healRadius": 8,
-            "_healPctPerTick": 0.01,
+            "_healPctPerTick": 0.0099999998,
             "_damageAmount": 8,
             "_healTickTime": 0.1,
             "_gooLifeTime": 3,
@@ -150,14 +150,14 @@
             "_gasCloudEntity": "",
             "_noHealingAvatarsList": [],
             "_noHealingDmSymbolList": [],
-            "_alternateHealPctPerTick": 0.01,
+            "_alternateHealPctPerTick": 0.0099999998,
             "_alternateHealRateAvatarList": []
         },
         "OnProjectileContactScript": {
             "Script": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/WF1999Abilities/LasrianGoonadeUtility.lua",
             "Function": "GoonadeContact",
             "_healRadius": 10,
-            "_healPctPerTick": 0.01,
+            "_healPctPerTick": 0.0099999998,
             "_damageAmount": 8,
             "_healTickTime": 0.5,
             "_gooLifeTime": 3,
@@ -166,7 +166,7 @@
             "_gasCloudEntity": "LasrianGoonadeGasEntity",
             "_noHealingAvatarsList": [],
             "_noHealingDmSymbolList": [],
-            "_alternateHealPctPerTick": 0.01,
+            "_alternateHealPctPerTick": 0.0099999998,
             "_alternateHealRateAvatarList": []
         }
     }

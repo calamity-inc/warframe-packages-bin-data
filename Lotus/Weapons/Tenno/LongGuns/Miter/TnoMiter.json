@@ -7,7 +7,7 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalRotation": [
-                    0.006807,
+                    0.0068069999,
                     0.043956,
                     -0.043956,
                     0.998043
@@ -18,13 +18,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
-            0.05,
+            0.050000001,
+            0.050000001,
             0.1
         ],
         "HolsterBone1Rotation": [
-            -0.707107,
-            -0.707107,
+            -0.70710677,
+            -0.70710677,
             0,
             0
         ],
@@ -46,20 +46,20 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.05,
+            0.050000001,
             0
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.09,
-            -0.04,
-            0.15
+            -0.090000004,
+            -0.039999999,
+            0.15000001
         ],
         "GripRotationOffset": [
-            -0.183013,
-            -0.683013,
-            0.704416,
-            0.061628
+            -0.18301301,
+            -0.68301302,
+            0.70441598,
+            0.061627999
         ],
         "Behaviors": [
             {
@@ -76,7 +76,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -150,7 +150,7 @@
                     "HIP_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "AIMED_CAMERA_RECOIL": "/Lotus/Types/Game/WeaponProperties/Recoil/DefaultRecoilInfo",
                     "spreadUniform": 1,
-                    "SpreadRatioHorizontal": 0.9,
+                    "SpreadRatioHorizontal": 0.89999998,
                     "SpreadInverse": 0,
                     "MultishotUseConeAngle": 0,
                     "AimProperties": {
@@ -317,7 +317,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.96,
+                    "PvpDamageMultiplier": 0.95999998,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -445,7 +445,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -584,7 +584,7 @@
                     "BeamChild": {
                         "LocalPosition": [
                             0,
-                            0.01,
+                            0.0099999998,
                             0.25
                         ],
                         "LocalRotation": [
@@ -690,7 +690,7 @@
                     "AttenuationAtMaxCharge": 1,
                     "ExpansionTime": 1,
                     "CollapseTime": 1,
-                    "InnerRingMultiplier": 0.9,
+                    "InnerRingMultiplier": 0.89999998,
                     "UseInnerRing": 1,
                     "ConvergeanceStyle": "CS_ALWAYS",
                     "ForceFiringUntilSpread": 0,
@@ -1081,9 +1081,9 @@
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
                         "DT_PUNCTURE": 0.1,
-                        "DT_SLASH": 0.8,
+                        "DT_SLASH": 0.80000001,
                         "Amount": 100,
-                        "ProcChance": 0.35,
+                        "ProcChance": 0.34999999,
                         "ForcedProcs": [
                             "PT_STAGGERED"
                         ],
@@ -1154,7 +1154,7 @@
                         0.1,
                         1
                     ],
-                    "ContinuousDamageAttenuationTime": 0.8,
+                    "ContinuousDamageAttenuationTime": 0.80000001,
                     "ContinuousDamageAttenuationCooldownTime": 1,
                     "ContinuousDamageAttenuationCooldownDelay": 0,
                     "AttenuateContinuousDamagePerTarget": 0,
@@ -1235,7 +1235,7 @@
         "HolsterPosOffset": [
             0,
             0,
-            0.05
+            0.050000001
         ],
         "RequiredLevel": 7,
         "ArtifactSlots": [

@@ -106,8 +106,8 @@
         "KinematicPostCollisionsSpeedFactor": 1,
         "KinematicGravity": 1,
         "KinematicGravityMultiplier": 0.5,
-        "KinematicRestitution": 0.15,
-        "KinematicRestitutionParallel": 0.15,
+        "KinematicRestitution": 0.15000001,
+        "KinematicRestitutionParallel": 0.15000001,
         "KinematicBulletRaycast": 0,
         "ProjectileReplication": "REPLICATED",
         "OnProjectileStoppedScript": {
@@ -115,8 +115,8 @@
             "Function": "SpawnTurret",
             "_turretAgentType": "TurretQuadMiniBossAgent",
             "_parentAvatarType": "QuadRobotMiniBossAvatar",
-            "_parentRankMin": 0.3,
-            "_parentRankMax": 0.8,
+            "_parentRankMin": 0.30000001,
+            "_parentRankMax": 0.80000001,
             "_turretMaxLife": 30,
             "_setAgentParent": 0
         }

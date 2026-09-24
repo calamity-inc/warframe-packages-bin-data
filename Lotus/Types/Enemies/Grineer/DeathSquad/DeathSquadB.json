@@ -118,7 +118,7 @@
                             "UPWARD": "",
                             "DOWNWARD": ""
                         },
-                        "DistanceFromTargetPoint": 0.4
+                        "DistanceFromTargetPoint": 0.40000001
                     }
                 }
             ],
@@ -175,7 +175,7 @@
             "DestinationBehavior:StopMovingWhenAttacking": 0,
             "DestinationBehavior:DisablePostureChangers": 0,
             "DestinationBehavior:TimeBetweenLunges": 2,
-            "DestinationBehavior:LowTargetThreshold": 0.8,
+            "DestinationBehavior:LowTargetThreshold": 0.80000001,
             "DestinationBehavior:NormalAttack": "MELEE",
             "DestinationBehavior:LowAttack": "MELEE",
             "DestinationBehavior:ClearCoverReservationOnStart": 0,
@@ -183,7 +183,7 @@
             "DestinationBehavior:VipAvatarType": "",
             "DestinationBehavior:TimeBetweenBarks": 2,
             "DestinationBehavior:VisibilityTimeout": 0,
-            "DestinationBehavior:MaxReachableHeight": -9223372036854775808.0,
+            "DestinationBehavior:MaxReachableHeight": "3.4028235e+38",
             "DestinationBehavior:Bark": "ATTACK_SCREAM",
             "DestinationBehavior:IsOffHandWeapon": 0,
             "ExitHealthPercentage": 0,
@@ -674,7 +674,7 @@
                 "StopMovingWhenAttacking": 0,
                 "DisablePostureChangers": 0,
                 "TimeBetweenLunges": 2,
-                "LowTargetThreshold": 0.8,
+                "LowTargetThreshold": 0.80000001,
                 "NormalAttack": "MELEE",
                 "LowAttack": "MELEE",
                 "ClearCoverReservationOnStart": 0,
@@ -682,7 +682,7 @@
                 "VipAvatarType": "/Lotus/Types/Friendly/Agents/DefenseAvatar",
                 "TimeBetweenBarks": 2,
                 "VisibilityTimeout": 0,
-                "MaxReachableHeight": -9223372036854775808.0,
+                "MaxReachableHeight": "3.4028235e+38",
                 "Bark": "ATTACK_SCREAM",
                 "IsOffHandWeapon": 0
             },
@@ -779,7 +779,7 @@
             },
             "MinDistanceToTarget": 6,
             "StopRadius": 0.5,
-            "NearDistance": 0.3,
+            "NearDistance": 0.30000001,
             "SpeedMultiplier": 1
         },
         "ViewIdleFov": 120,

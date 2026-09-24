@@ -49,7 +49,7 @@
             "DT_CORROSIVE": 0,
             "DT_RADIANT": 0,
             "Amount": 250,
-            "ProcChance": 0.36,
+            "ProcChance": 0.36000001,
             "ForcedProcs": [
                 "PT_KNOCKBACK"
             ]
@@ -60,7 +60,7 @@
         "ExplosiveAttack": {
             "Type": "DT_ELECTRICITY",
             "Amount": 345,
-            "ProcChance": 0.36
+            "ProcChance": 0.36000001
         },
         "ForcedSourceProcs": [
             "PT_IMMOLATION",
@@ -69,17 +69,17 @@
             "PT_KNOCKED_DOWN"
         ],
         "ExplosionIgnoreSource": 1,
-        "ExplosionFallOff": 0.4,
+        "ExplosionFallOff": 0.40000001,
         "DamageRadius": 6,
         "HitEffect": "/Lotus/Fx/Weapons/Melee/Glaive/GlaiveMeleeHitEffect",
         "HitEffectThrottleRange": [
             0.2,
-            0.3
+            0.30000001
         ],
         "Toughness": 10000,
         "MaxLife": 10,
         "RaycastMovement": 0,
-        "VerticalImpulse": 0.05,
+        "VerticalImpulse": 0.050000001,
         "HorizontalImpulse": 0.2,
         "StopOnAvatars": 0,
         "KinematicAccel": 100,
@@ -108,7 +108,7 @@
         ],
         "ImpactVelocityDampen": 1,
         "AutoRecallTimer": 0.75,
-        "DestructionTimer": 0.6,
+        "DestructionTimer": 0.60000002,
         "CatchRadius": 5,
         "MaxReflections": 4,
         "MinFlightDistance": 29.5,

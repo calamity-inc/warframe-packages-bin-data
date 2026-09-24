@@ -14,7 +14,7 @@
             }
         },
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
@@ -28,14 +28,14 @@
             "ASSAULT_AMMO"
         ],
         "GripPositionOffset": [
-            -0.085,
+            -0.085000001,
             0,
-            0.135
+            0.13500001
         ],
         "GripRotationOffset": [
             -0.347803,
-            -0.675491,
-            0.637074,
+            -0.67549098,
+            0.63707399,
             -0.129932
         ],
         "TargetLeadType": "TLT_SIMPLE",
@@ -54,7 +54,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 1,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -181,7 +181,7 @@
                     "Drag": 1,
                     "InitialRadius": 1.8,
                     "GrowthRate": 1,
-                    "Lifetime": 0.6
+                    "Lifetime": 0.60000002
                 },
                 "impact:Type": "/EE/Types/Game/WeaponContinuousImpactBehavior",
                 "impact:WeaponContinuousImpactBehavior": {
@@ -330,7 +330,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -479,8 +479,8 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0,
-                        "DT_PUNCTURE": 0.8,
-                        "DT_SLASH": 0.2,
+                        "DT_PUNCTURE": 0.80000001,
+                        "DT_SLASH": 0.19999999,
                         "Amount": 35,
                         "ProcChance": 0.2,
                         "ForcedProcs": [],

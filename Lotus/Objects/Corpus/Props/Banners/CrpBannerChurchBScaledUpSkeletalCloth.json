@@ -2,7 +2,7 @@
     "parent": "/EE/Types/Effects/SkeletalClothEx",
     "data": {
         "Mesh": "CrpBannerChurchB_skel.fbx",
-        "MeshScale": 2.42,
+        "MeshScale": 2.4200001,
         "CullDistance": 350,
         "CullDissolveRatio": 0.1,
         "Attached": 1,
@@ -53,8 +53,8 @@
         "ControlData": "CrpBannerChurchBSkeletalClothData",
         "Attribs": {
             "dampeningRange": [
-                0.01,
-                0.06
+                0.0099999998,
+                0.059999999
             ],
             "collidingDampeningRange": [
                 0.1,
@@ -66,11 +66,11 @@
             ],
             "useDistConstraints": 0,
             "distConstraintRange": [
-                0.0001,
+                0.000099999997,
                 10
             ],
             "reduceStretchExponent": 1,
-            "shearingStiffness": 0.8,
+            "shearingStiffness": 0.80000001,
             "wind": [
                 0.2,
                 0,

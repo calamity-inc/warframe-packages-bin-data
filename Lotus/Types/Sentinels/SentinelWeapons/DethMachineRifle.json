@@ -7,14 +7,14 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.04,
+                    -0.039999999,
                     0
                 ],
                 "LocalRotation": [
                     0,
                     0.017452,
                     0,
-                    0.999848
+                    0.99984801
                 ],
                 "BoneName": "GAME_C1_MASKATTACH",
                 "Type": "DethMachineRifleAttachment"
@@ -41,14 +41,14 @@
             0.1
         ],
         "GripPositionOffset": [
-            -0.085,
+            -0.085000001,
             0,
-            0.135
+            0.13500001
         ],
         "GripRotationOffset": [
             -0.347803,
-            -0.675491,
-            0.637074,
+            -0.67549098,
+            0.63707399,
             -0.129932
         ],
         "DM_AIM": {
@@ -69,7 +69,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 1,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -207,10 +207,10 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.1,
-                        "DT_PUNCTURE": 0.05,
-                        "DT_SLASH": 0.85,
+                        "DT_PUNCTURE": 0.050000001,
+                        "DT_SLASH": 0.85000002,
                         "Amount": 15,
-                        "ProcChance": 0.01,
+                        "ProcChance": 0.0099999998,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
                         "HitType": "DHT_NONE",
@@ -259,7 +259,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.05,
+                    "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,

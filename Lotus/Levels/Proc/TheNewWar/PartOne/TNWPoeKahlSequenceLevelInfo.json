@@ -3,7 +3,7 @@
     "data": {
         "PostProcessInfo": {
             "dynamicExposure": [
-                0.15,
+                0.15000001,
                 16
             ],
             "targetExposure": 0.015,
@@ -15,11 +15,11 @@
                 "adjustmentEV": -2.75
             },
             "exposureCurveMed": {
-                "sceneEV": -2.6,
+                "sceneEV": -2.5999999,
                 "adjustmentEV": -1.4
             },
-            "toneMapToeStrength": 0.26,
-            "toneMapToeLength": 0.55,
+            "toneMapToeStrength": 0.25999999,
+            "toneMapToeLength": 0.55000001,
             "colorGradingData": {
                 "Global": {
                     "Contrast": [
@@ -31,9 +31,9 @@
                 },
                 "Shadows": {
                     "Saturation": [
-                        0.8,
-                        0.8,
-                        0.8,
+                        0.80000001,
+                        0.80000001,
+                        0.80000001,
                         1
                     ],
                     "Gain": [
@@ -44,7 +44,7 @@
                     ]
                 }
             },
-            "saturation": 0.9,
+            "saturation": 0.89999998,
             "horizonFog": 1,
             "horizonFogElevation": 1,
             "fogColor": [
@@ -53,7 +53,7 @@
                 255,
                 240
             ],
-            "distanceFogDensity": 0.082581,
+            "distanceFogDensity": 0.082580604,
             "fogTexture": "/Lotus/Objects/Natural/Skybox/FogTextures/GrineerForestFogTextureNightDesat.png",
             "zoneMapTint": [
                 141,
@@ -70,8 +70,8 @@
             ],
             "sunColor": [
                 0.25,
-                0.051,
-                0.016,
+                0.050999999,
+                0.016000001,
                 0.25
             ],
             "sunShaftsDensity": 1,
@@ -89,7 +89,7 @@
                 0.003,
                 0.003,
                 -0.001,
-                0.004
+                0.0040000002
             ]
         },
         "LightingParams": {
@@ -130,7 +130,7 @@
             "bakingOptions:IndirectLightingFilterRadius": 5
         },
         "LevelTitle": "TNWQuest",
-        "CameraNearPlane": 0.05,
+        "CameraNearPlane": 0.050000001,
         "CameraFarPlane": 4500,
         "OnLevelObjectsCreated": {
             "Script": "/Lotus/Scripts/ProceduralSpawnSetup.lua",
@@ -202,7 +202,7 @@
             "_ultraRareLootWaypointType": "",
             "_ultraRareCrateType": "",
             "_altUltraRareCrateType": "",
-            "_ultraRareLootChance": 0.01,
+            "_ultraRareLootChance": 0.0099999998,
             "_floatingCrateWaypointType": "",
             "_floatingCrateTypes": [],
             "_numFloatingCrates": 25,

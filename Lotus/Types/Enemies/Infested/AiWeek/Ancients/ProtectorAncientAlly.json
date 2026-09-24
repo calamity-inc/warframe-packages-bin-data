@@ -101,7 +101,7 @@
                 "SwapWeapon": 0,
                 "ExitOnDamage": 0,
                 "UseAttackInputRange": 3,
-                "PredictedSwingTime": 0.3,
+                "PredictedSwingTime": 0.30000001,
                 "ModifyAttackRangeBasedOnPlayerVelocity": 1,
                 "PushBackRangeWhileAttacking": 2.5,
                 "PushBackAnimEvent": "MeleeStart",
@@ -197,7 +197,7 @@
                     "VipAvatarType": "/Lotus/Types/Friendly/Agents/DefenseAvatar",
                     "TimeBetweenBarks": 2,
                     "VisibilityTimeout": 0,
-                    "MaxReachableHeight": -9223372036854775808.0,
+                    "MaxReachableHeight": "3.4028235e+38",
                     "Bark": "ATTACK_SCREAM",
                     "IsOffHandWeapon": 0
                 },
@@ -272,7 +272,7 @@
                     "m": 1,
                     "k": -1,
                     "b": 1,
-                    "c": 0.3,
+                    "c": 0.30000001,
                     "logistic": 1
                 },
                 "StopRadius": 0.5,

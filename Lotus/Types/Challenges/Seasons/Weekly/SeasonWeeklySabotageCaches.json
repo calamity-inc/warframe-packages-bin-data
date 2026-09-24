@@ -2,16 +2,8 @@
     "parent": "SeasonWeeklyChallengeBase",
     "data": {
         "RequiredCount": 6,
-        "Script": {
-            "Script": "/Lotus/Scripts/Challenges/MatchMultipleMissionTypes.lua",
-            "Function": "MatchTagEvent",
-            "_acceptedMissionTypes": [
-                "MT_SABOTAGE",
-                "MT_HIVE"
-            ]
-        },
         "GameTag": "CACHE_FOUND",
-        "Icon": "/Lotus/Interface/Icons/Episodes/Weekly/SabotageCaches.png",
-        "TipIcon": "/Lotus/Interface/Graphics/Tutorial/SeasonWeeklySabotageCaches.png"
+        "TipIcon": "/Lotus/Interface/Graphics/Tutorial/SeasonWeeklySabotageCaches.png",
+        "Icon": "/Lotus/Interface/Icons/Episodes/Weekly/SabotageCaches.png"
     }
 }

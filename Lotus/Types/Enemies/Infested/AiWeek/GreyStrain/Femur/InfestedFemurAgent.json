@@ -144,7 +144,7 @@
                                 0
                             ],
                             "MinAngleToTurn": 40,
-                            "MinAimMask": 0.9,
+                            "MinAimMask": 0.89999998,
                             "TargetNotVisibleTimeoutRange": [
                                 6,
                                 8
@@ -419,7 +419,7 @@
                         4
                     ],
                     "LungeAttackRange": [
-                        4.1,
+                        4.0999999,
                         8
                     ],
                     "TeamBbLungeSym": "",
@@ -440,7 +440,7 @@
                     "StopMovingWhenAttacking": 0,
                     "DisablePostureChangers": 0,
                     "TimeBetweenLunges": 2,
-                    "LowTargetThreshold": 0.8,
+                    "LowTargetThreshold": 0.80000001,
                     "NormalAttack": "MELEE",
                     "LowAttack": "MELEE",
                     "ClearCoverReservationOnStart": 0,
@@ -448,7 +448,7 @@
                     "VipAvatarType": "",
                     "TimeBetweenBarks": 2,
                     "VisibilityTimeout": 0,
-                    "MaxReachableHeight": -9223372036854775808.0,
+                    "MaxReachableHeight": "3.4028235e+38",
                     "Bark": "ATTACK_SCREAM",
                     "IsOffHandWeapon": 0
                 },
@@ -491,8 +491,8 @@
         },
         "InvestigateBehavior": {
             "MaxInvestigateDistance": 55,
-            "SpeedMultiplier": 0.879599,
-            "FastSpeedMultiplier": 0.882943
+            "SpeedMultiplier": 0.87959898,
+            "FastSpeedMultiplier": 0.88294297
         },
         "MoveTowardsTacEnemyInfluence": {
             "AlertMovementPosture": "WALK"
@@ -527,8 +527,8 @@
             "/EE/Types/Npc/DynamicPathFollowerGround"
         ],
         "LocomotionController:DynamicPathFollowerGroundUsingVip": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "TurnRateMultiplierOnMoveDirFacing": 1,
@@ -553,7 +553,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,
@@ -577,7 +577,7 @@
             "AvoidDynamicOnly": 0
         },
         "LocomotionController:DynamicPathFollowerGround": {
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureThreshold": 0.89999998,
             "MinimumRunDistance": 3,
             "ShortDistanceSpeedMultiplier": 2
         },
@@ -605,7 +605,7 @@
                     "PathFinderTargetIdx": 1,
                     "PathFollowerTargetIdx": 1,
                     "MoveModifierPackageTargetIdx": 1,
-                    "GracePeriod": 3.1,
+                    "GracePeriod": 3.0999999,
                     "ForcePreventSwitchOrder": "",
                     "ForceSwitchOrder": ""
                 }
@@ -633,7 +633,7 @@
                     "PathFinderTargetIdx": 0,
                     "PathFollowerTargetIdx": 0,
                     "MoveModifierPackageTargetIdx": 0,
-                    "GracePeriod": 3.1,
+                    "GracePeriod": 3.0999999,
                     "ForcePreventSwitchOrder": "",
                     "ForceSwitchOrder": ""
                 }

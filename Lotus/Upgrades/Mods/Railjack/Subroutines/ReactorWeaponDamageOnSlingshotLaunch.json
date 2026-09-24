@@ -22,7 +22,7 @@
                 "LocKeyWordScript": {
                     "Script": "RailjackSubroutines.lua",
                     "Function": "GetWeaponDamageOnSlingshotLaunchDescriptionInfo",
-                    "_upgradeVal": 0.6,
+                    "_upgradeVal": 0.60000002,
                     "_threshold": 0.5,
                     "_duration": 10,
                     "_launcherOvershield": 150,
@@ -30,7 +30,7 @@
                     "_electrifyRadius": 50,
                     "_electrifyTimer": 5,
                     "_onKillShield": 50,
-                    "_shieldDamageRedirection": 0.3,
+                    "_shieldDamageRedirection": 0.30000001,
                     "_maxDamageRedirectionBonus": 300,
                     "_shieldDamageConversionRate": 1,
                     "_damageIncreasePercentThreshold": 0.25,
@@ -50,32 +50,6 @@
                 "RoundingMode": "RM_ROUND",
                 "AllowConditionalLocMerge": 0
             }
-        ],
-        "Script": {
-            "Script": "RailjackSubroutines.lua",
-            "Function": "WeaponDamageOnSlingshotLaunch",
-            "_upgradeVal": 0.6,
-            "_threshold": 0.5,
-            "_duration": 10,
-            "_launcherOvershield": 150,
-            "_shieldRegenerationBoost": 1.5,
-            "_electrifyRadius": 50,
-            "_electrifyTimer": 5,
-            "_onKillShield": 50,
-            "_shieldDamageRedirection": 0.3,
-            "_maxDamageRedirectionBonus": 300,
-            "_shieldDamageConversionRate": 1,
-            "_damageIncreasePercentThreshold": 0.25,
-            "_lowShieldDamageMult": 1.25,
-            "_onExitDamageDuration": 20,
-            "_onExitDamageMultiplier": 0.5,
-            "_onExitMoveSpeedDuration": 10,
-            "_onExitMoveSpeedMultiplier": 1.5,
-            "_chanceToRepairBreach": 10,
-            "_repairBreachInterval": 10,
-            "_chanceOfAutomaticBreachRepair": 80,
-            "_repairInvulnerabilityMultiplier": 2,
-            "_validHullTypes": []
-        }
+        ]
     }
 }

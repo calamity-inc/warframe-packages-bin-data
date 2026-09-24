@@ -8,7 +8,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    -0.005
+                    -0.0049999999
                 ],
                 "LocalRotation": [
                     1,
@@ -134,10 +134,10 @@
             "DT_CORROSIVE": 0,
             "DT_RADIANT": 0,
             "Amount": 40,
-            "ProcChance": 0.32
+            "ProcChance": 0.31999999
         },
-        "CriticalChance": 0.08,
-        "CriticalMultiplier": 2.4,
+        "CriticalChance": 0.079999998,
+        "CriticalMultiplier": 2.4000001,
         "ExplosiveAttack": {
             "ProcChance": 0
         },
@@ -169,12 +169,12 @@
         },
         "EmbedEffect": "/Lotus/Fx/Weapons/OraxiaFlechette/OraxiaFlechetteAltProjectileDeadSpawn",
         "OwnEmbedEffect": 1,
-        "KinematicPostCollisionsSpeedFactor": 0.4,
+        "KinematicPostCollisionsSpeedFactor": 0.40000001,
         "KinematicInitialSpeed": 85,
         "KinematicMaxSpeed": 85,
-        "KinematicNoise": 0.03,
+        "KinematicNoise": 0.029999999,
         "KinematicGravity": 1,
-        "KinematicGravityMultiplier": 0.33,
+        "KinematicGravityMultiplier": 0.33000001,
         "SweepRadius": 0,
         "ProjectileReplication": "SYNCED_AUTONOMOUS",
         "OnProjectileStoppedScript": {
@@ -186,7 +186,7 @@
             "_attachBone": "GAME_C1_HIP1",
             "_tetherRange": 15,
             "_damageAmount": 320,
-            "_procChance": 0.32,
+            "_procChance": 0.31999999,
             "_damageType": "DT_POISON",
             "_forcedProcs": [
                 "PT_STAGGERED"
@@ -196,7 +196,7 @@
         "SilentProjectile": 1,
         "ApplyColorCustomization": 1,
         "PinnedRagdollsAddWeight": 1,
-        "RagdollWeightGravityMultiplier": 0.3,
+        "RagdollWeightGravityMultiplier": 0.30000001,
         "ModifyRotationBasedOnDirection": 0,
         "FlightUpVector": [
             1,
@@ -204,7 +204,7 @@
             0
         ],
         "RagdollEmbedLife": 2.7,
-        "EmbedOffset": -0.03,
+        "EmbedOffset": -0.029999999,
         "AttachmentOffsets": [
             0.25
         ],

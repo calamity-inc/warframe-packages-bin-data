@@ -12,15 +12,15 @@
         "LocalizeDescTag": "/Lotus/Language/Primes/FulminPrimeDesc",
         "Icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/FulminPrime.png",
         "GripPositionOffset": [
-            -0.065,
+            -0.064999998,
             0.0125,
             0.22
         ],
         "GripRotationOffset": [
-            -0.061394,
-            -0.709787,
-            0.701735,
-            -0.000234
+            -0.061393999,
+            -0.70978701,
+            0.70173502,
+            -0.00023400001
         ],
         "Behaviors": [
             {
@@ -37,7 +37,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -232,9 +232,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.4,
-                        "DT_PUNCTURE": 0.05,
-                        "DT_SLASH": 0.55,
+                        "DT_IMPACT": 0.40000001,
+                        "DT_PUNCTURE": 0.050000001,
+                        "DT_SLASH": 0.54999995,
                         "Amount": 24,
                         "ProcChance": 0.16,
                         "ForcedProcs": [],
@@ -286,7 +286,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.24,
+                    "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 2.8,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -380,7 +380,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -514,7 +514,7 @@
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 1,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.4,
+                    "MaxTraceDistanceTime": 0.40000001,
                     "RetractTime": 0.001,
                     "AttachToWeapon": 1,
                     "UseWeaponAttachmentFirePos": 0,
@@ -524,7 +524,7 @@
                         {
                             "LocalPosition": [
                                 0,
-                                0.04,
+                                0.039999999,
                                 0.44
                             ],
                             "LocalRotation": [
@@ -572,7 +572,7 @@
                     "AllowSelfDamage": 0,
                     "IgnoreInvisibleAvatars": 1,
                     "DestroyBeamOnFire": 0,
-                    "BeamTime": 0.06,
+                    "BeamTime": 0.059999999,
                     "ApplyRadialDamageOnMiss": 0,
                     "ApplyRadialDamageOnHit": 0
                 },
@@ -647,7 +647,7 @@
                     "AltEffectHands": [],
                     "ragdollChance": 0,
                     "criticalHitChance": 0.34,
-                    "criticalHitDamageMultiplier": 2.4,
+                    "criticalHitDamageMultiplier": 2.4000001,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
                     "AmmoConsumedWhenHitInvulnerableTarget": 0,
@@ -700,7 +700,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -749,7 +749,7 @@
                         "staticCoverOnly": 0,
                         "minCoverDistance": 0,
                         "hitEffect": "",
-                        "verticalImpulse": 0.15,
+                        "verticalImpulse": 0.15000001,
                         "horizontalImpulse": 0.1,
                         "hitType": "DHT_NONE",
                         "hostAuthoritative": 0,
@@ -865,11 +865,11 @@
             20,
             255
         ],
-        "BatteryRegenDelay": 0.7,
-        "BatteryRegenDelayFromEmpty": 0.7,
+        "BatteryRegenDelay": 0.69999999,
+        "BatteryRegenDelayFromEmpty": 0.69999999,
         "BatteryRegenRate": 40,
-        "HeavyBatteryRegenDelay": 0.7,
-        "HeavyBatteryRegenDelayFromEmpty": 0.7,
+        "HeavyBatteryRegenDelay": 0.69999999,
+        "HeavyBatteryRegenDelayFromEmpty": 0.69999999,
         "HeavyBatteryRegenRate": 40,
         "OmegaAttenuation": 0.75,
         "VariantType": "VT_PRIME"

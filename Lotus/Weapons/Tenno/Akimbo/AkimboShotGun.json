@@ -8,7 +8,7 @@
             "MAIN_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.03,
+                    -0.029999999,
                     0
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
@@ -17,7 +17,7 @@
             "OFF_HAND": {
                 "LocalPosition": [
                     0,
-                    -0.03,
+                    -0.029999999,
                     0
                 ],
                 "BoneName": "GAME_L1_WEAPON1",
@@ -27,13 +27,13 @@
         "HolsterBone1Name": "GAME_R1_HOLSTERATTACH",
         "HolsterBone1Position": [
             0.02,
-            -0.05,
-            -0.03
+            -0.050000001,
+            -0.029999999
         ],
         "HolsterBone1Rotation": [
-            0.052286,
-            -0.002283,
-            0.04356,
+            0.052285999,
+            -0.0022829999,
+            0.043559998,
             0.997679
         ],
         "GripType": "DUAL_GUN_GUN",
@@ -55,7 +55,7 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "Behaviors": [
@@ -73,7 +73,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -85,7 +85,7 @@
                             "firingPreferences": {
                                 "firingType": "FT_NORMAL",
                                 "burstTime": [
-                                    0.8,
+                                    0.80000001,
                                     1.2
                                 ],
                                 "burstPauseTime": [
@@ -200,7 +200,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -214,9 +214,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.8,
+                        "DT_IMPACT": 0.80000001,
                         "DT_PUNCTURE": 0.1,
-                        "DT_SLASH": 0.1,
+                        "DT_SLASH": 0.099999964,
                         "Amount": 42,
                         "ProcChance": 0.22,
                         "ForcedProcs": [],
@@ -268,7 +268,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 0,
-                    "criticalHitChance": 0.06,
+                    "criticalHitChance": 0.059999999,
                     "criticalHitDamageMultiplier": 2,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,

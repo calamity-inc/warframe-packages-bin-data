@@ -17,6 +17,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -33,14 +34,14 @@
                     "_animEventToWaitFor": "Fire",
                     "_animRate": 1,
                     "_resistDamageTakenPctPerLevel": [
-                        0.15,
-                        0.3,
-                        0.45,
-                        0.6,
+                        0.15000001,
+                        0.30000001,
+                        0.44999999,
+                        0.60000002,
                         0.75,
-                        0.9
+                        0.89999998
                     ],
-                    "_reflectPct": 0.4,
+                    "_reflectPct": 0.40000001,
                     "_reflectMatchesAbsorbed": 0,
                     "_forceProc": 0,
                     "_durationPerLevel": [
@@ -69,7 +70,8 @@
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "BaseDrain": "QA_NONE",
@@ -93,12 +95,12 @@
                 "_animEventToWaitFor": "Fire",
                 "_animRate": 1,
                 "_resistDamageTakenPctPerLevel": [
-                    0.15,
-                    0.3,
-                    0.45,
-                    0.6,
+                    0.15000001,
+                    0.30000001,
+                    0.44999999,
+                    0.60000002,
                     0.75,
-                    0.9
+                    0.89999998
                 ],
                 "_reflectPct": 1,
                 "_reflectMatchesAbsorbed": 0,

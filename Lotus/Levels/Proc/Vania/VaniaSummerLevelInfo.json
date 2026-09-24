@@ -52,14 +52,14 @@
             "distanceFogDensity": 0.12,
             "fogTexture": "/Lotus/Objects/Natural/Skybox/FogTextures/EidolonMiddayFogTexture.png",
             "sunPosition": [
-                0.26125,
-                0.860407,
+                0.26124999,
+                0.86040699,
                 -0.437547
             ],
             "sunColor": [
-                1.18,
-                0.96,
-                0.84,
+                1.1799999,
+                0.95999998,
+                0.83999997,
                 0
             ],
             "sunShaftsTintColor": [
@@ -71,31 +71,31 @@
             "sunShafts": 1,
             "cloudShadowsTexture": "/EE/Materials/Util/CloudShadow.png",
             "cloudShadowsMovementParams": [
-                0.005,
-                0.005,
-                0.01,
+                0.0049999999,
+                0.0049999999,
+                0.0099999998,
                 -0.001
             ],
             "volumetricFog": {
-                "NearDistance": 0.1,
                 "FogRange": 128,
                 "DepthExponent": 1.4,
+                "NearDistance": 0.1,
                 "GlobalIlluminationMultiplier": 2,
                 "Extinction": 0.25,
                 "ExtinctionConfusion": 0.25,
                 "GlobalFog": {
-                    "Density": 0.0025,
+                    "Density": 0.0024999999,
                     "G": 0.5
                 },
                 "HeightFog": {
                     "HeightFogMaxHeight": 4,
                     "HeightFogParticipatingMedia": {
-                        "Density": 0.005,
-                        "G": 0.065891
+                        "Density": 0.0049999999,
+                        "G": 0.065891497
                     },
                     "SecondaryHeightFogParticipatingMedia": {
-                        "Density": 0.005,
-                        "G": 0.8101
+                        "Density": 0.0049999999,
+                        "G": 0.81010002
                     }
                 },
                 "ClumpyNoise": {

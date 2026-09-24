@@ -41,10 +41,10 @@
         "DestroyOwnedOnDestroy": 0,
         "CreateOnDestroy": {
             "LocalRotation": [
-                -0.707107,
+                -0.70710677,
                 0,
                 0,
-                0.707107
+                0.70710677
             ],
             "Type": "/Lotus/Fx/Explosions/Generic/ExplosionFXFueledLargeShockwave"
         },
@@ -53,7 +53,7 @@
         "DestroyDamageHorizontalImpulse": 175,
         "DestroyDamageType": "DT_IMPACT",
         "DestroyDamageRadius": 10,
-        "DestroyDamageFalloff": 0.4,
+        "DestroyDamageFalloff": 0.40000001,
         "DamageImmediately": 1,
         "MarkHostile": 1,
         "StaticCoverOnly": 1,
@@ -80,6 +80,6 @@
                 "MaxDistance": 10
             }
         ],
-        "NPCLevelDamageMultiplier": 0.8
+        "NPCLevelDamageMultiplier": 0.80000001
     }
 }

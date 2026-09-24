@@ -19,13 +19,13 @@
                 "name": "LightingAtten",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.93
+                "value": 0.93000001
             },
             {
                 "name": "TemperatureAtten",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.15
+                "value": 0.15000001
             }
         ],
         "SortAgainstFog": 1,
@@ -47,7 +47,7 @@
                 },
                 {
                     "Time": 0.5,
-                    "Value": 0.995342
+                    "Value": 0.99534202
                 },
                 {
                     "Time": 1,
@@ -63,7 +63,7 @@
         "Material": "/Lotus/Fx/Explosions/Generic/ExplosionSmokeMat",
         "AnimateTiles": 1,
         "RandomStartFrame": 1,
-        "AnimateRate": 0.6,
+        "AnimateRate": 0.60000002,
         "ColorMin": [
             165,
             94,
@@ -79,12 +79,12 @@
         "RandOrientation": 1,
         "ConstrainY": 1,
         "Spin": [
-            -0.0025,
-            0.0025
+            -0.0024999999,
+            0.0024999999
         ],
         "FadeInOut": [
             0,
-            0.8
+            0.80000001
         ],
         "Nozzle": "DISC",
         "Speed": [
@@ -93,8 +93,8 @@
         ],
         "Drag": 3.7,
         "Mass": [
-            -0.03,
-            -0.018
+            -0.029999999,
+            -0.017999999
         ]
     }
 }

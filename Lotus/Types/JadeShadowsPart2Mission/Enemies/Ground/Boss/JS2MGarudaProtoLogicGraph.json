@@ -372,7 +372,7 @@
                                     "UPWARD": "/Lotus/Animations/Tenno/Movement/HandlessCartwheelForwardTeleport",
                                     "DOWNWARD": "/Lotus/Animations/Tenno/Movement/HandlessCartwheelForwardTeleport"
                                 },
-                                "DistanceFromTargetPoint": 0.4
+                                "DistanceFromTargetPoint": 0.40000001
                             },
                             "forceFaceReaction": 0,
                             "useTurnToAction": 0,
@@ -508,7 +508,7 @@
                     "UseDistanceFromCreator": 0,
                     "TargetHealthPctRange": [
                         0,
-                        0.01
+                        0.0099999998
                     ],
                     "IsPreDeath": 0,
                     "IsKilled": 0,
@@ -572,7 +572,7 @@
                         0
                     ],
                     "DoReactiveBlocking": 0,
-                    "ReactiveBlockingDefenseTime": 0.4,
+                    "ReactiveBlockingDefenseTime": 0.40000001,
                     "DefensiveCooldownTime": 1,
                     "HeavyAttackProcTypeImmunities": [],
                     "MeleeRange": [
@@ -777,7 +777,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 1,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,
@@ -1335,13 +1335,13 @@
                     "DefensiveHealthPercentage": 0,
                     "DefensiveForcedWindow": 0,
                     "StopMovementOnAttack": 1,
-                    "DefensiveParryChance": 0.013793,
+                    "DefensiveParryChance": 0.0137931,
                     "DefensiveTime": [
                         0,
                         2
                     ],
                     "DoReactiveBlocking": 0,
-                    "ReactiveBlockingDefenseTime": 0.4,
+                    "ReactiveBlockingDefenseTime": 0.40000001,
                     "DefensiveCooldownTime": 20,
                     "HeavyAttackProcTypeImmunities": [],
                     "MeleeRange": [
@@ -1353,7 +1353,7 @@
                         3
                     ],
                     "MeleeRangeDash": [
-                        3.1,
+                        3.0999999,
                         6
                     ],
                     "PlayerBehaviourEvalTime": [
@@ -1400,9 +1400,9 @@
                     "DefaultReevaluationDelay": 0,
                     "MaxStrafeDistance": 10,
                     "MinStrafeDistance": 0,
-                    "StopRadius": 0.3,
+                    "StopRadius": 0.30000001,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -1420,7 +1420,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8

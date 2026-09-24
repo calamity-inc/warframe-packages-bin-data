@@ -15,7 +15,7 @@
         "AspectRatio": 1,
         "Range": 3000,
         "RangeFalloff": 0,
-        "DepthCue": 0.99,
+        "DepthCue": 0.99000001,
         "OcclusionAttenExponent": 0.1,
         "FlareBoundsExpansion": 2,
         "Material": "/Lotus/Fx/LensFlares/LensFlarePageBGrey",
@@ -26,16 +26,16 @@
                     "Value": 0
                 },
                 {
-                    "Time": 0.333333,
-                    "Value": 0.016824
+                    "Time": 0.33333334,
+                    "Value": 0.016823901
                 },
                 {
-                    "Time": 0.666667,
+                    "Time": 0.66666669,
                     "Value": 0.178417
                 },
                 {
                     "Time": 1,
-                    "Value": 0.99628
+                    "Value": 0.99628001
                 }
             ],
             "SplineType": "CUBIC_SPLINE"
@@ -48,11 +48,11 @@
                     "Value": 1
                 },
                 {
-                    "Time": 0.333333,
-                    "Value": 0.539202
+                    "Time": 0.33333334,
+                    "Value": 0.53920197
                 },
                 {
-                    "Time": 0.666667,
+                    "Time": 0.66666669,
                     "Value": 0.146401
                 },
                 {
@@ -71,7 +71,7 @@
             255
         ],
         "NoiseBlend": 0.1,
-        "NoiseStrength": 0.76,
+        "NoiseStrength": 0.75999999,
         "ScreenAspect": 1,
         "GridX": 6,
         "GridSizeY": 4,

@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusWeaponAttachment",
     "data": {
         "Mesh": "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/CorpusMinigun_skel.fbx",
-        "MeshScale": 0.85,
+        "MeshScale": 0.85000002,
         "OverrideMaterial": [
             "NokkoMinigunMaterial",
             "NokkoMinigunMaterial"
@@ -11,8 +11,8 @@
             {
                 "LocalPosition": [
                     0,
-                    0.05,
-                    0.32
+                    0.050000001,
+                    0.31999999
                 ],
                 "LocalRotation": [
                     0,
@@ -33,14 +33,14 @@
             {
                 "LocalPosition": [
                     0,
-                    0.09,
+                    0.090000004,
                     0.035
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "GAME_C1_REARSPINNERATTACH",
                 "Type": "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/RearSpinnerDeco",
@@ -55,7 +55,7 @@
             {
                 "LocalPosition": [
                     0,
-                    -0.05,
+                    -0.050000001,
                     0.025
                 ],
                 "LocalRotation": [
@@ -261,7 +261,7 @@
                     "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
                     "Function": "ScaleUp",
                     "_largeScale": 1,
-                    "_smallScale": 0.95,
+                    "_smallScale": 0.94999999,
                     "_scaleDuration": 0.5,
                     "_animation": "",
                     "_runHost": 1,
@@ -334,7 +334,7 @@
                     "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
                     "Function": "ScaleDown",
                     "_largeScale": 1,
-                    "_smallScale": 0.95,
+                    "_smallScale": 0.94999999,
                     "_scaleDuration": 0.5,
                     "_animation": "",
                     "_runHost": 1,
@@ -469,7 +469,7 @@
                     "_adjustClipPositionAfterShow": 0,
                     "_reloadPosition": [
                         0,
-                        -0.05,
+                        -0.050000001,
                         0.025
                     ],
                     "_reloadRotation": [
@@ -631,7 +631,7 @@
                     "_adjustClipPositionAfterShow": 0,
                     "_reloadPosition": [
                         0,
-                        -0.05,
+                        -0.050000001,
                         0.025
                     ],
                     "_reloadRotation": [
@@ -695,7 +695,7 @@
                     "_adjustClipPositionAfterShow": 0,
                     "_reloadPosition": [
                         0,
-                        -0.05,
+                        -0.050000001,
                         0.025
                     ],
                     "_reloadRotation": [
@@ -712,8 +712,8 @@
             "DT_FIRE": {
                 "LocalPosition": [
                     0,
-                    0.05,
-                    0.32
+                    0.050000001,
+                    0.31999999
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Heat"
             },
@@ -721,71 +721,71 @@
                 "LocalPosition": [
                     0,
                     0.02,
-                    0.32
+                    0.31999999
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Cold"
             },
             "DT_ELECTRICITY": {
                 "LocalPosition": [
                     0,
-                    0.05,
-                    0.32
+                    0.050000001,
+                    0.31999999
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Electricity"
             },
             "DT_POISON": {
                 "LocalPosition": [
                     0,
-                    0.05,
-                    0.32
+                    0.050000001,
+                    0.31999999
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Toxin"
             },
             "DT_EXPLOSION": {
                 "LocalPosition": [
                     0,
-                    0.05,
-                    0.32
+                    0.050000001,
+                    0.31999999
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Blast"
             },
             "DT_RADIATION": {
                 "LocalPosition": [
                     0,
-                    0.05,
-                    0.32
+                    0.050000001,
+                    0.31999999
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Radiation"
             },
             "DT_GAS": {
                 "LocalPosition": [
                     0,
-                    0.05,
-                    0.32
+                    0.050000001,
+                    0.31999999
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Gas"
             },
             "DT_MAGNETIC": {
                 "LocalPosition": [
                     0,
-                    0.05,
-                    0.32
+                    0.050000001,
+                    0.31999999
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Magnetic"
             },
             "DT_VIRAL": {
                 "LocalPosition": [
                     0,
-                    0.05,
-                    0.32
+                    0.050000001,
+                    0.31999999
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Viral"
             },
             "DT_CORROSIVE": {
                 "LocalPosition": [
                     0,
-                    0.05,
-                    0.32
+                    0.050000001,
+                    0.31999999
                 ],
                 "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Corrosive"
             }

@@ -13,11 +13,11 @@
         "Script": {
             "Script": "GiveStatForStat.lua",
             "Function": "ApplyUpgrade",
-            "_giveStatIncreaseBase": 0.0035,
+            "_giveStatIncreaseBase": 0.0035000001,
             "_giveStatIncreasePerLevel": 0,
             "_giveStatType": "WEAPON_FIRE_ITERATIONS",
             "_giveStatOperation": "STACKING_MULTIPLY",
-            "_haveStatThresholdMin": 0.9,
+            "_haveStatThresholdMin": 0.89999998,
             "_haveStatThresholdBase": 0,
             "_haveStatThresholdPerLevel": 0,
             "_haveStatType": "AVATAR_POWER_MAX",
@@ -52,7 +52,7 @@
         "EnhancementTagLocScript": {
             "Script": "GiveStatForStat.lua",
             "Function": "GetDescriptionInfo",
-            "_giveStatIncreaseBase": 0.35,
+            "_giveStatIncreaseBase": 0.34999999,
             "_giveStatIncreasePerLevel": 0,
             "_giveStatType": "AVATAR_ABILITY",
             "_giveStatOperation": "ADD",

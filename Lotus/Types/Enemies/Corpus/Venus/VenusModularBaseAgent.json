@@ -187,7 +187,7 @@
                     "MinStrafeDistance": 0,
                     "StopRadius": 0.5,
                     "MovementSpeedModifier": [
-                        0.8,
+                        0.80000001,
                         1.2
                     ],
                     "MovementLineOfFireScoring": 0,
@@ -205,7 +205,7 @@
                         0
                     ],
                     "MinAngleToTurn": 40,
-                    "MinAimMask": 0.9,
+                    "MinAimMask": 0.89999998,
                     "TargetNotVisibleTimeoutRange": [
                         6,
                         8
@@ -324,7 +324,7 @@
             "DefaultReevaluationDelay": 0,
             "DistFromNav": 4,
             "MovementSpeedModifier": [
-                0.8,
+                0.80000001,
                 1.2
             ],
             "NearDistance": 5,
@@ -608,7 +608,7 @@
                 ],
                 "ShouldAim": 1,
                 "CanRun": 1,
-                "StopRadius": 4.2,
+                "StopRadius": 4.1999998,
                 "StopSearchIfNoTarget": 0,
                 "StopSearchOnAwarenessLevel": "AW_IDLE",
                 "MaintainedAwarenessLevel": "AW_ALERT",
@@ -711,7 +711,7 @@
                 "MinStrafeDistance": 0,
                 "StopRadius": 0.5,
                 "MovementSpeedModifier": [
-                    0.8,
+                    0.80000001,
                     1.2
                 ],
                 "MovementLineOfFireScoring": 0,
@@ -729,7 +729,7 @@
                     0
                 ],
                 "MinAngleToTurn": 40,
-                "MinAimMask": 0.9,
+                "MinAimMask": 0.89999998,
                 "TargetNotVisibleTimeoutRange": [
                     6,
                     8
@@ -1355,7 +1355,7 @@
             "maxHeight": 3,
             "nearbyNavSearchRadius": 4
         },
-        "SightReactionProbability": 0.8,
+        "SightReactionProbability": 0.80000001,
         "CoverEvaluatorType": "/EE/Types/Npc/AdvancingCoverEvaluator",
         "TargetEvaluatorType": "/Lotus/Types/Enemies/RangedTargetEvaluator"
     }

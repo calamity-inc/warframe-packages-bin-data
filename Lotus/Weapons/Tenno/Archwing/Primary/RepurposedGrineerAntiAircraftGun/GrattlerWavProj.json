@@ -29,8 +29,8 @@
         "PhysicsBehavior": "/EE/Types/Physics/KinematicQuery",
         "AttackData": {
             "DT_IMPACT": 0.1,
-            "DT_PUNCTURE": 0.8,
-            "DT_SLASH": 0.1,
+            "DT_PUNCTURE": 0.80000001,
+            "DT_SLASH": 0.099999964,
             "Amount": 225,
             "ProcChance": 0.25
         },
@@ -50,11 +50,11 @@
             "PT_BIG_STAGGER"
         ],
         "ExplosionSelfAOEMultiplier": [
-            0.05,
+            0.050000001,
             0.2
         ],
         "ExplosionIgnoreCover": 0,
-        "ExplosionFallOff": 0.7,
+        "ExplosionFallOff": 0.69999999,
         "DamageRadius": 9,
         "DieEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXFueledMediumCheap",
         "DieEffectOffset": [
@@ -63,7 +63,7 @@
             0
         ],
         "IgnoreCollisionsWithSameType": 1,
-        "MaxLife": 0.9,
+        "MaxLife": 0.89999998,
         "KinematicMovement": 1,
         "KinematicAccel": 250,
         "KinematicInitialSpeed": 250,

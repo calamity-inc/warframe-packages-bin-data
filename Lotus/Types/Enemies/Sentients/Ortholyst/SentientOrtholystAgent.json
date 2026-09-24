@@ -252,7 +252,7 @@
                             10
                         ],
                         "ChildAction:UpdateDistance": 3,
-                        "ChildAction:SpeedModifier": 0.3,
+                        "ChildAction:SpeedModifier": 0.30000001,
                         "ChildAction:MovementPosture": "WALK",
                         "ChildAction:FaceDirection": "MFC_FACE_TARGET",
                         "ChildAction:PredictPosition": 0,
@@ -382,7 +382,7 @@
             ],
             "ShouldAim": 1,
             "CanRun": 0,
-            "StopRadius": 4.2,
+            "StopRadius": 4.1999998,
             "StopSearchIfNoTarget": 0,
             "StopSearchOnAwarenessLevel": "AW_IDLE",
             "MaintainedAwarenessLevel": "AW_ALERT",
@@ -407,7 +407,7 @@
                     20
                 ],
                 "PauseTimeRange": [
-                    3.426,
+                    3.4260001,
                     6.204
                 ],
                 "SeekCoverDelayPostSearch": 5
@@ -455,7 +455,7 @@
             "LookAtNearbyPlayer": 0,
             "LookAtTarget": 1,
             "NearbyTeammatesThreshold": 10,
-            "PlayerBias": 0.6,
+            "PlayerBias": 0.60000002,
             "ReportAttackOnDamage": 1,
             "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
             "PatrolBehavior:Enabled": 1,
@@ -619,8 +619,8 @@
             "MinimumRunDistance": 3
         },
         "LocomotionController:DynamicPathFollowerGround": {
-            "MoveFailureTime": 0.4,
-            "MoveFailureThreshold": 0.9,
+            "MoveFailureTime": 0.40000001,
+            "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
             "TurnRateMultiplierOnMoveDirFacing": 1,
@@ -629,7 +629,7 @@
             "ShortDistanceSpeedMultiplier": 2,
             "ForceSidestepDistance": 0,
             "RunStopDist": 0.5,
-            "WalkStopDist": 0.3,
+            "WalkStopDist": 0.30000001,
             "MinWalkWhenTurningAngle": 50,
             "StopWhenTurningAngle": 90,
             "CheckFunnelForTightTurns": 0,
@@ -645,7 +645,7 @@
                 "m": -1,
                 "k": 2,
                 "b": 1,
-                "c": 0.99,
+                "c": 0.99000001,
                 "logistic": 0
             },
             "TraceFwdBias": 2,

@@ -15,7 +15,7 @@
             "Script": "WerewolfPassive.lua",
             "Function": "AddUpgrades",
             "_idleEffect": "",
-            "_passiveSpeed": 0.3,
+            "_passiveSpeed": 0.30000001,
             "_passiveInvertDirection": 0,
             "_shoulderEffectDeco": "",
             "_isRightShoulder": 0
@@ -24,7 +24,7 @@
             "Script": "WerewolfPassive.lua",
             "Function": "RemoveUpgrades",
             "_idleEffect": "",
-            "_passiveSpeed": 0.3,
+            "_passiveSpeed": 0.30000001,
             "_passiveInvertDirection": 0,
             "_shoulderEffectDeco": "",
             "_isRightShoulder": 0
@@ -55,9 +55,9 @@
                     {
                         "BoneOverride": "",
                         "PosOffset": [
-                            0.05,
+                            0.050000001,
                             0,
-                            -0.075
+                            -0.075000003
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -86,9 +86,9 @@
                     {
                         "BoneOverride": "",
                         "PosOffset": [
-                            -0.05,
+                            -0.050000001,
                             0,
-                            0.075
+                            0.075000003
                         ],
                         "PosOffsetSecondary": [
                             0,
@@ -142,7 +142,7 @@
             "Abilities/WerewolfHowlAbility"
         ],
         "PassiveAbilityLocTag": "/Lotus/Language/Suits/WerewolfPassiveAbilityDesc",
-        "MovementSpeedMultiplier": 0.95,
+        "MovementSpeedMultiplier": 0.94999999,
         "MaxHealthOverride": 455,
         "ArmourRatingOverride": 200,
         "CloakEffect": "/Lotus/Fx/PowersuitAbilities/Werewolf/WolfCloak",
@@ -240,7 +240,7 @@
                     "Script": "WerewolfPassive.lua",
                     "Function": "IdleEffect",
                     "_idleEffect": "/Lotus/Fx/PowersuitAbilities/Werewolf/IdleHeadAttach",
-                    "_passiveSpeed": 0.3,
+                    "_passiveSpeed": 0.30000001,
                     "_passiveInvertDirection": 0,
                     "_shoulderEffectDeco": "/Lotus/Fx/PowersuitAbilities/Werewolf/IdleEffectShoulderLDeco",
                     "_isRightShoulder": 0

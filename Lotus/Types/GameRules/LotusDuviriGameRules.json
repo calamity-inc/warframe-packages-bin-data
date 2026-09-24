@@ -112,11 +112,11 @@
                 },
                 "NPC_ARMOUR": {
                     "Exponent": 1.75,
-                    "Multiplier": 0.005
+                    "Multiplier": 0.0049999999
                 },
                 "NPC_MAX_SHIELD": {
                     "Exponent": 2,
-                    "Multiplier": 0.0075
+                    "Multiplier": 0.0074999998
                 },
                 "NPC_SHIELD_STRENGTH": {
                     "Multiplier": 0
@@ -170,7 +170,7 @@
         "VoidProjectionSelectionMovie": "/Lotus/Interface/ThemedProjectionManager.swf",
         "AnimalCaptureRewardsMovie": "/Lotus/Interface/FishInfo.swf",
         "PurgatoryRewardsMovie": "/Lotus/Interface/PurgatoryReward.swf",
-        "NoDeathsGroupXpBonus": 0.15,
+        "NoDeathsGroupXpBonus": 0.15000001,
         "FocusBoostScript": {
             "Script": "/Lotus/Scripts/FocusBoost.lua",
             "Function": "TrackFocusBoosters",
@@ -205,7 +205,7 @@
             "_trasmissionDeath": "/Lotus/Sounds/Dialog/Taunts/Stalker/TauntDeath",
             "_trasmissionTargetEliminated": "/Lotus/Sounds/Dialog/Taunts/Stalker/TauntTargetEliminated",
             "_baseChance": 0.015,
-            "_chancePerPlayer": 0.005,
+            "_chancePerPlayer": 0.0049999999,
             "_stalkerSpawnAnim": "/Lotus/Animations/Tenno/Menu/KneelIdle_anim.fbx",
             "_stalkerSpawnGetUpAnim": "/Lotus/Animations/Tenno/Menu/KneelToStand_anim.fbx",
             "_stalkerKneelAnim": "/Lotus/Animations/Tenno/Menu/StandToKneel_anim.fbx",
@@ -330,7 +330,7 @@
             ],
             "_MusicState": "HeavyCombat",
             "_RelayReconstructionAgentType": "/Lotus/Types/Enemies/Grineer/DeathSquad/DeathSquadFullRelay",
-            "_RelayReconstructionHunterChance": 0.6,
+            "_RelayReconstructionHunterChance": 0.60000002,
             "_RelayHunterTransmissionIntro": "/Lotus/Sounds/Dialog/RelayReconstruction/DSpottedGrustSteelM",
             "_WolfStalkerTypes": [
                 "/Lotus/Types/Enemies/Grineer/SpecialEvents/WolfStalkerAgent",
@@ -372,7 +372,7 @@
             "_trasmissionDeath": "",
             "_trasmissionTargetEliminated": "",
             "_baseChance": 0.015,
-            "_chancePerPlayer": 0.005,
+            "_chancePerPlayer": 0.0049999999,
             "_stalkerSpawnAnim": "",
             "_stalkerSpawnGetUpAnim": "",
             "_stalkerKneelAnim": "",
@@ -443,7 +443,7 @@
             "_PersistentEnemyFleeTransmissions": [],
             "_MusicState": "HeavyCombat",
             "_RelayReconstructionAgentType": "",
-            "_RelayReconstructionHunterChance": 0.4,
+            "_RelayReconstructionHunterChance": 0.40000001,
             "_RelayHunterTransmissionIntro": "",
             "_WolfStalkerTypes": [],
             "_WolfStalkerTransformationPhase": 3,
@@ -518,7 +518,7 @@
             "/Lotus/Types/DropTables/ConditionalDrops/SortieConditionalDrop",
             "/Lotus/Types/DropTables/ConditionalDrops/RelayReconstructionTwoConditionalDrop"
         ],
-        "CollectorTargetHealthThreshold": 0.35,
+        "CollectorTargetHealthThreshold": 0.34999999,
         "ItemsRequiringMissionCompletion": [
             "/Lotus/Types/Items/SyndicateDogTags/DogTag",
             "/Lotus/Types/Items/MiscItems/Kuva"

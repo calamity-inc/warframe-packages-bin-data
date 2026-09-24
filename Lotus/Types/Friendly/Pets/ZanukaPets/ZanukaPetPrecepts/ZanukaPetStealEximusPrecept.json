@@ -17,6 +17,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -49,7 +50,8 @@
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "BaseDrain": "QA_NONE",
@@ -90,7 +92,8 @@
                     "/Lotus/Types/Enemies/Enhancements/LeechEnhancement",
                     "/Lotus/Types/Enemies/Enhancements/GuardianEnhancement",
                     "/Lotus/Types/Enemies/Enhancements/ShockEnhancement",
-                    "/Lotus/Types/Enemies/Enhancements/JadeLightEnhancement"
+                    "/Lotus/Types/Enemies/Enhancements/JadeLightEnhancement",
+                    "/Lotus/Types/Enemies/Enhancements/VoltEnhancement"
                 ],
                 "_giveAuras": [
                     "",
@@ -100,6 +103,7 @@
                     "",
                     "",
                     "/Lotus/Types/Enemies/LeaderAuras/GuardianEximusDamageReductionAura",
+                    "",
                     "",
                     ""
                 ],
@@ -112,7 +116,8 @@
                     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPreceptComponents/ZanukaPetStolenHealthLeechAbility",
                     "",
                     "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/ShockEximusOrbAbility",
-                    "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPreceptComponents/ZanukaPetStolenJadeLightAbility"
+                    "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPreceptComponents/ZanukaPetStolenJadeLightAbility",
+                    "/Lotus/Types/Enemies/Tau/Primes/Volt/LightningStrikesAbility"
                 ],
                 "_giveAttach": [
                     "/Lotus/Fx/Enemies/Eximus/EximusAttachFXArson",
@@ -123,7 +128,8 @@
                     "/Lotus/Fx/Enemies/Eximus/EximusAttachFXLeechHealth",
                     "/Lotus/Fx/Enemies/Eximus/EximusAttachFXGuardian",
                     "/Lotus/Fx/Enemies/Eximus/EximusAttachFXShock",
-                    "/Lotus/Fx/Enemies/Eximus/EximusAttachFXJadeLight"
+                    "/Lotus/Fx/Enemies/Eximus/EximusAttachFXJadeLight",
+                    "/Lotus/Fx/Enemies/Eximus/Volt/VoltEximusAttachFXBlitz"
                 ],
                 "_dummyAbilityType": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPreceptComponents/StealEximusDummySuitAbility",
                 "_activateAnim": "/Lotus/Animations/Corpus/ParvosLich/Kubrow/CastRadial02_anim.fbx",
@@ -168,6 +174,7 @@
                             "",
                             "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPreceptComponents/ZanukaGuardianEximusDamageReductionAura",
                             "",
+                            "",
                             ""
                         ],
                         "_giveAbilities": [
@@ -179,7 +186,8 @@
                             "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPreceptComponents/ZanukaPetStolenHealthLeechAbility",
                             "",
                             "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/ShockEximusOrbAbility",
-                            "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPreceptComponents/ZanukaPetStolenJadeLightAbility"
+                            "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPreceptComponents/ZanukaPetStolenJadeLightAbility",
+                            "/Lotus/Types/Enemies/Tau/Primes/Volt/LightningStrikesAbility"
                         ],
                         "_giveAttach": [
                             "/Lotus/Fx/Enemies/Eximus/EximusAttachFXArson",
@@ -190,7 +198,8 @@
                             "/Lotus/Fx/Enemies/Eximus/EximusAttachFXLeechHealth",
                             "",
                             "/Lotus/Fx/Enemies/Eximus/EximusAttachFXShock",
-                            "/Lotus/Fx/Enemies/Eximus/EximusAttachFXJadeLight"
+                            "/Lotus/Fx/Enemies/Eximus/EximusAttachFXJadeLight",
+                            "/Lotus/Fx/Enemies/Eximus/Volt/VoltEximusAttachFXBlitz"
                         ],
                         "_dummyAbilityType": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPreceptComponents/StealEximusDummySuitAbility",
                         "_activateAnim": "/Lotus/Animations/Corpus/ParvosLich/Kubrow/CastRadial02_anim.fbx",

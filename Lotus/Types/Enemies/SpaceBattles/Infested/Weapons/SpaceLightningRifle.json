@@ -27,7 +27,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 1,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -154,22 +154,22 @@
                     "AdjustAimWithAvatarUp": 0,
                     "RiftStasisWeight": 1,
                     "CloakShieldType": "/Lotus/Upgrades/Focus/Defense/Objects/CloakShieldDeco",
-                    "MaxTraceDistanceTime": 0.05,
-                    "RetractTime": 0.01,
+                    "MaxTraceDistanceTime": 0.050000001,
+                    "RetractTime": 0.0099999998,
                     "RecoilRate": 60,
                     "AttachToWeapon": 0,
                     "MultiBeam": 0,
                     "BeamChild": {
                         "LocalPosition": [
                             -0.1,
-                            -0.35,
+                            -0.34999999,
                             0
                         ],
                         "LocalRotation": [
-                            0.707107,
+                            0.70710677,
                             0,
                             0,
-                            0.707107
+                            0.70710677
                         ],
                         "BoneName": "GAME_C1_HEAD1",
                         "Type": "LightningDroneBeam",

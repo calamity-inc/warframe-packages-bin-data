@@ -8,12 +8,12 @@
                 "LocalPosition": [
                     0,
                     0,
-                    -0.01
+                    -0.0099999998
                 ],
                 "LocalRotation": [
-                    -0.000761,
+                    -0.00076099997,
                     0.017436,
-                    -0.043613,
+                    -0.043613002,
                     0.998896
                 ],
                 "BoneName": "GAME_C1_MASKATTACH",
@@ -22,13 +22,13 @@
         },
         "HolsterBone1Name": "GAME_C1_MASKATTACH",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -50,19 +50,19 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.04,
+            0.039999999,
             0.25
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.085,
-            -0.075,
+            -0.085000001,
+            -0.075000003,
             0.2
         ],
         "GripRotationOffset": [
             -0.171065,
-            -0.686103,
-            0.705384,
+            -0.68610299,
+            0.70538402,
             0.049325
         ],
         "RecordFireEvent": 0,
@@ -71,11 +71,11 @@
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -104,7 +104,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 1,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -189,8 +189,8 @@
                         "OverrideLaunchBone": 0,
                         "LocalPos": [
                             0,
-                            0.075,
-                            0.24
+                            0.075000003,
+                            0.23999999
                         ],
                         "LocalRot": [
                             0,
@@ -216,8 +216,8 @@
                     "chargedProjectileType": "",
                     "projectileLaunchOffset": [
                         0,
-                        0.08,
-                        0.36
+                        0.079999998,
+                        0.36000001
                     ],
                     "SequentialProjectileLaunchDirectionOffsets": [],
                     "UpdateFirePositionPerIteration": 0,
@@ -284,7 +284,7 @@
                     "SpreadRotationOffset": 0,
                     "DrawGrenadeArc": 0,
                     "FudgeAngle": 0,
-                    "RaysPerMeter": 0.8,
+                    "RaysPerMeter": 0.80000001,
                     "MaxRays": 10,
                     "DrawCondition": "DC_HOLDING_FIRE",
                     "SplineDrawType": "",

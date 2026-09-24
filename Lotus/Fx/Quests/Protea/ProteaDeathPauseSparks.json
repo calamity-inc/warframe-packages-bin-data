@@ -19,11 +19,11 @@
                 },
                 {
                     "Time": 0.5,
-                    "Value": 0.882291
+                    "Value": 0.88229102
                 },
                 {
                     "Time": 1,
-                    "Value": 0.255717
+                    "Value": 0.25571701
                 }
             ],
             "SplineType": "CUBIC_SPLINE"
@@ -32,7 +32,7 @@
         "useCollisions": 0,
         "affectedByWind": 1,
         "resilience": 0.25,
-        "drag": 0.8,
+        "drag": 0.80000001,
         "mass": [
             0,
             0
@@ -42,8 +42,8 @@
             6
         ],
         "size": [
-            0.036,
-            0.04
+            0.035999998,
+            0.039999999
         ],
         "velocity": [
             2,
@@ -56,7 +56,7 @@
             1,
             1
         ],
-        "spawnFlowBlend": 0.8,
+        "spawnFlowBlend": 0.80000001,
         "spawnDelay": 0.2,
         "spawnFlowForcePosScale": 0.14,
         "flowScale": [
@@ -78,31 +78,31 @@
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksFadeMid",
         "colorKeys[0]": [
             0.037,
-            0.6,
-            0.7,
+            0.60000002,
+            0.69999999,
             1
         ],
         "colorKeys[1]": [
             0.037,
             0.62,
-            0.7,
+            0.69999999,
             1
         ],
         "colorKeys[2]": [
-            0.0099,
+            0.0098999999,
             0.22,
-            0.35,
+            0.34999999,
             1
         ],
         "colorKeys[3]": [
             0.0011,
-            0.043,
-            0.091,
-            0.67
+            0.043000001,
+            0.090999998,
+            0.67000002
         ],
         "numColors": 2,
         "vortexSpeed": 0.1,
-        "vortexDecay": 0.3,
+        "vortexDecay": 0.30000001,
         "vortexRadialForce": 2
     }
 }

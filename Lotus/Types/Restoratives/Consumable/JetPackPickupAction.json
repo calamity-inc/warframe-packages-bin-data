@@ -3,9 +3,9 @@
     "data": {
         "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
         "Dimensions": [
-            2.4,
-            2.4,
-            2.4
+            2.4000001,
+            2.4000001,
+            2.4000001
         ],
         "ActionSound": "/Lotus/Sounds/Vehicles/Veilbreaker/Jetpack/VeilbreakerJetpackEquip",
         "PlayerNpcUse": "PN_PLAYERS_ONLY",
@@ -47,7 +47,7 @@
             "_jetPackThrustFxType": "",
             "_jetPackPosOffset": [
                 -0.25,
-                0.15,
+                0.15000001,
                 0.1
             ],
             "_jetPackRotOffset": [
@@ -61,10 +61,13 @@
             "_jetPackRefuelStartSound": "",
             "_jetPackRefuelCompleteSound": "",
             "_jetPackEquipAnim": "",
+            "_horseMountAnim": "",
             "_overrideMeleeTree": "",
             "_overrideMeleeTreeWeaponList": [],
             "_overrideMeleeTreeList": [],
             "_operatorAllowed": 1,
+            "_defaultMotorcycleSuitRes": "",
+            "_ceilingRaycastIgnoreTypes": [],
             "_TESTkDriveWeaponType": ""
         },
         "OnPickUpItemScript": {
@@ -102,7 +105,7 @@
             "_jetPackThrustFxType": "/Lotus/Fx/PowersuitAbilities/Kahl/KahlJetPack/ThrusterJetsSpawner",
             "_jetPackPosOffset": [
                 -0.25,
-                0.15,
+                0.15000001,
                 -0.025
             ],
             "_jetPackRotOffset": [
@@ -111,11 +114,12 @@
                 0
             ],
             "_jetPackFuelRegenRate": 2.5,
-            "_jetPackFuelRegenDelay": 0.6,
+            "_jetPackFuelRegenDelay": 0.60000002,
             "_jetPackOutofFuelSound": "/Lotus/Sounds/Vehicles/Veilbreaker/Jetpack/VeilbreakerJetpackOutOfFuel",
             "_jetPackRefuelStartSound": "/Lotus/Sounds/Vehicles/Veilbreaker/Jetpack/VeilbreakerJetpackRefuel",
             "_jetPackRefuelCompleteSound": "",
             "_jetPackEquipAnim": "/Lotus/Animations/Grineer/Player/LevelEvents/VeilBreaker/KahlKneel_anim.fbx",
+            "_horseMountAnim": "",
             "_overrideMeleeTree": "",
             "_overrideMeleeTreeWeaponList": [
                 "/Lotus/Types/Friendly/PlayerControllable/Weapons/KahlMachete",
@@ -126,6 +130,8 @@
                 "/Lotus/Types/Friendly/PlayerControllable/Weapons/KahlJetPackHammerMeleeTree"
             ],
             "_operatorAllowed": 1,
+            "_defaultMotorcycleSuitRes": "",
+            "_ceilingRaycastIgnoreTypes": [],
             "_TESTkDriveWeaponType": ""
         }
     }

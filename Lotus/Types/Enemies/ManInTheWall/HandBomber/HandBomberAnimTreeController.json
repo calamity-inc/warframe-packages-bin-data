@@ -5,6 +5,7 @@
         "ParticleEvents": [
             {
                 "EventName": "CrushFX",
+                "CancelEventName": "",
                 "ParticleSys": "/Lotus/Fx/Enemies/Mitw/HandBomberFinisherCrushFX",
                 "Attached": 1,
                 "OwnedByAvatar": 0,
@@ -25,6 +26,7 @@
             },
             {
                 "EventName": "HideVFXAttachments",
+                "CancelEventName": "",
                 "ParticleSys": "/Lotus/Fx/Enemies/Mitw/HandBomberFinisherCenterFX",
                 "Attached": 1,
                 "OwnedByAvatar": 1,
@@ -73,7 +75,7 @@
                     ],
                     "_disableCollision": 0,
                     "_totalFadeOutDuration": 2,
-                    "_waitBeforeDissolve": 0.4,
+                    "_waitBeforeDissolve": 0.40000001,
                     "_waitBeforeStart": 0,
                     "_DestroyAfterFade": 1,
                     "_waitBeforeDestroy": 0,
@@ -82,7 +84,7 @@
                     "_NewValue": 2,
                     "_needsFinisherTiming": 0,
                     "_finisherDissolveProj": [],
-                    "_finisherTotalFadeOutDuration": 0.8,
+                    "_finisherTotalFadeOutDuration": 0.80000001,
                     "_finisherWaitBeforeDissolve": 0.25,
                     "_finisherWaitBeforeStart": 0,
                     "_deathProjectileType": "",

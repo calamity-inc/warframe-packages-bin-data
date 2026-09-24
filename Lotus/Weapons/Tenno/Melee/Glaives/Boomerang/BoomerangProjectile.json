@@ -34,9 +34,9 @@
             "WEAPON_MELEE_DAMAGE"
         ],
         "AttackData": {
-            "DT_IMPACT": 0.8,
+            "DT_IMPACT": 0.80000001,
             "DT_PUNCTURE": 0.1,
-            "DT_SLASH": 0.1,
+            "DT_SLASH": 0.099999964,
             "Amount": 92,
             "ProcChance": 0.12,
             "ForcedProcs": [
@@ -45,7 +45,7 @@
         },
         "DealDamageThroughImpactBehavior": 1,
         "CriticalChance": 0.12,
-        "CriticalMultiplier": 2.1,
+        "CriticalMultiplier": 2.0999999,
         "ExplosiveAttack": {
             "Amount": 126,
             "ProcChance": 0.12
@@ -55,8 +55,8 @@
             "PT_STAGGERED",
             "PT_BIG_STAGGER"
         ],
-        "ExplosionFallOff": 0.4,
-        "DamageRadius": 3.6,
+        "ExplosionFallOff": 0.40000001,
+        "DamageRadius": 3.5999999,
         "Toughness": 10000,
         "MaxLife": 15,
         "RaycastMovement": 0,
@@ -64,7 +64,7 @@
         "KinematicAccel": 100,
         "KinematicInitialSpeed": 30,
         "KinematicMaxSpeed": 30,
-        "KinematicNoiseRate": 0.0001,
+        "KinematicNoiseRate": 0.000099999997,
         "SilentProjectile": 1,
         "HeavyRecallDamageAtten": 2,
         "HeavyRecallProcs": [
@@ -87,7 +87,7 @@
         ],
         "ImpactVelocityDampen": 1,
         "AutoRecallTimer": 0.75,
-        "DestructionTimer": 0.6,
+        "DestructionTimer": 0.60000002,
         "CatchRadius": 5,
         "MaxReflections": 3,
         "MinFlightDistance": 20,

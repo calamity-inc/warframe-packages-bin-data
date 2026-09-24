@@ -9,7 +9,7 @@
         "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
         "Attribs": {
             "dampeningRange": [
-                0.01,
+                0.0099999998,
                 0.125
             ],
             "collidingDampeningRange": [
@@ -17,15 +17,15 @@
                 0.2
             ],
             "massRange": [
-                0.3,
-                0.6
+                0.30000001,
+                0.60000002
             ],
             "distConstraintRange": [
                 0,
                 1.5
             ],
             "reduceStretchExponent": 1,
-            "shearingStiffness": 0.3,
+            "shearingStiffness": 0.30000001,
             "worldVelocityAtten": [
                 1,
                 1,
@@ -52,7 +52,7 @@
                 0.1,
                 0.1
             ],
-            "floorPlaneHeight": 0.05,
+            "floorPlaneHeight": 0.050000001,
             "orientationBasis": "X_Z",
             "simulateCollisionLast": 0
         },

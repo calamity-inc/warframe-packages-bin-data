@@ -2,7 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Objects/Infestation/InfestedMicroplanet/Gameplay/InfInWorldSpawnerTendrils.fbx",
-        "MeshScale": 0.21,
+        "MeshScale": 0.20999999,
         "OverrideMaterial": [
             "/Lotus/Fx/Levels/InfestedMicroplanet/Encounters/InfestedTendrilsRootsMat"
         ],
@@ -12,9 +12,9 @@
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.43,
-                    0.43,
-                    0.43,
+                    0.43000001,
+                    0.43000001,
+                    0.43000001,
                     0
                 ]
             }
@@ -24,7 +24,7 @@
         "IgnoreParentScale": 1,
         "Tag": "DynamicKeyPiecesVines",
         "RandomMeshScale": [
-            0.98,
+            0.98000002,
             1.1
         ],
         "MaterialFade": [
@@ -45,7 +45,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.7
+                            "Value": 0.69999999
                         },
                         {
                             "Time": 1,
@@ -78,15 +78,15 @@
                         },
                         {
                             "Time": 0.25,
-                            "Value": 0.70974
+                            "Value": 0.70973998
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.990043
+                            "Value": 0.99004298
                         },
                         {
                             "Time": 0.75,
-                            "Value": 0.992938
+                            "Value": 0.99293798
                         },
                         {
                             "Time": 1,
@@ -106,7 +106,7 @@
                 "Parameter": "GrowthMaxRadius",
                 "Slot": -1,
                 "TimeLength": 1,
-                "Multiplier": 0.4,
+                "Multiplier": 0.40000001,
                 "FadeRange": [
                     0,
                     1
@@ -119,7 +119,7 @@
                         },
                         {
                             "Time": 0.5,
-                            "Value": 0.83162
+                            "Value": 0.83161998
                         },
                         {
                             "Time": 1,
@@ -128,7 +128,7 @@
                     ],
                     "SplineType": "CUBIC_SPLINE"
                 },
-                "BaseValue": 0.4,
+                "BaseValue": 0.40000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
@@ -140,7 +140,7 @@
             {
                 "Parameter": "GrowthMaxRadius",
                 "Slot": -1,
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 0.2,
                 "FadeRange": [
                     0,
@@ -153,12 +153,12 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.035519,
+                            "Time": 0.035519101,
                             "Value": 1.170173
                         },
                         {
-                            "Time": 0.074551,
-                            "Value": 1.251185
+                            "Time": 0.074551098,
+                            "Value": 1.2511851
                         },
                         {
                             "Time": 0.167447,
@@ -169,11 +169,11 @@
                             "Value": 1.148078
                         },
                         {
-                            "Time": 0.406323,
-                            "Value": 0.698826
+                            "Time": 0.40632299,
+                            "Value": 0.69882601
                         },
                         {
-                            "Time": 0.650664,
+                            "Time": 0.65066397,
                             "Value": 0.218126
                         },
                         {
@@ -183,7 +183,7 @@
                     ],
                     "SplineType": "LINEAR_SPLINE"
                 },
-                "BaseValue": 0.8,
+                "BaseValue": 0.80000001,
                 "Delay": 0,
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
@@ -193,8 +193,8 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 0.3,
-                "Multiplier": 0.05,
+                "TimeLength": 0.30000001,
+                "Multiplier": 0.050000001,
                 "FadeRange": [
                     0,
                     1
@@ -203,23 +203,23 @@
                     "Values": [
                         {
                             "Time": 0,
-                            "Value": 0.737237
+                            "Value": 0.73723698
                         },
                         {
-                            "Time": 0.045104,
+                            "Time": 0.045104101,
                             "Value": 1.04169
                         },
                         {
                             "Time": 0.101388,
-                            "Value": 0.846848
+                            "Value": 0.84684801
                         },
                         {
-                            "Time": 0.516962,
-                            "Value": 0.290974
+                            "Time": 0.51696199,
+                            "Value": 0.29097399
                         },
                         {
-                            "Time": 0.751349,
-                            "Value": 0.076075
+                            "Time": 0.75134897,
+                            "Value": 0.076074503
                         },
                         {
                             "Time": 1,

@@ -10,10 +10,10 @@
             "_decoSpeed": 1,
             "_beamTravelLength": 0,
             "_flareType": "",
-            "_waveHeight": 0.04,
+            "_waveHeight": 0.039999999,
             "_chargeWaveHeight": 0.12,
             "_chargedRadius": 155,
-            "_chargeBeamRadius": 0.08,
+            "_chargeBeamRadius": 0.079999998,
             "_unlitAtten": 2,
             "_sleepFirst": 0,
             "_extraBeamType": "",
@@ -39,8 +39,8 @@
         "TextureOffsetV": 0.1,
         "NormalizedV": 1,
         "NumPlanes": 1,
-        "Radius": 0.04,
-        "RadiusDistanceIncrease": 0.04,
+        "Radius": 0.039999999,
+        "RadiusDistanceIncrease": 0.039999999,
         "RadiusTaper": 0.1,
         "RadiusTaperDist": 0.2,
         "RadiusCurve": {
@@ -50,7 +50,7 @@
                     "Value": 0.2
                 },
                 {
-                    "Time": 0.3,
+                    "Time": 0.30000001,
                     "Value": 1
                 },
                 {
@@ -72,12 +72,12 @@
         "GrowthRate": 1000,
         "FadeBetweenPoints": [
             0.020661,
-            0.911157
+            0.91115701
         ],
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.35,
+                "TimeLength": 0.34999999,
                 "Multiplier": 0.2,
                 "FadeRange": [
                     0,
@@ -94,7 +94,7 @@
             },
             {
                 "Parameter": "UnlitAtten",
-                "TimeLength": 0.3,
+                "TimeLength": 0.30000001,
                 "Multiplier": 4,
                 "FadeRange": [
                     0,

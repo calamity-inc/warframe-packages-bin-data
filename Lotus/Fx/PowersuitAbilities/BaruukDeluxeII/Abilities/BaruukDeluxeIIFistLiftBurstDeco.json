@@ -1,0 +1,71 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "BaruukDeluxeIIFistLiftMesh.fbx",
+        "MaterialParams": [
+            {
+                "name": "vScalesStart",
+                "type": "Float4",
+                "slot": -1,
+                "value": 1,
+                "value1": 0.1,
+                "value2": 1,
+                "value3": 0
+            },
+            {
+                "name": "vScales",
+                "type": "Float4",
+                "slot": -1,
+                "value": 1,
+                "value1": 1,
+                "value2": 1,
+                "value3": 0
+            }
+        ],
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "MaterialFade": [
+            {
+                "Parameter": "vScalesFade",
+                "Slot": -1,
+                "TimeLength": 0.31999999,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.31999999,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "ApplyColorCustomization": 1
+    }
+}

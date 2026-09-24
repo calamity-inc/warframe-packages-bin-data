@@ -60,10 +60,10 @@
                     0
                 ],
                 "LocalRotation": [
-                    0.707107,
+                    0.70710677,
                     0,
                     0,
-                    0.707107
+                    0.70710677
                 ],
                 "BoneName": "",
                 "Type": "/Lotus/Fx/Weapons/Corpus/CrpAirPistol/CrpAirPistolProjEmbers",
@@ -102,7 +102,7 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/WeaponAttachments/CrpAirPistolArray.lua",
             "Function": "ProjScale",
-            "_timeLength": 0.33,
+            "_timeLength": 0.33000001,
             "_startScale": 0.1,
             "_endScale": 5,
             "_startUnlit": 12,
@@ -146,7 +146,7 @@
             "/Lotus/Types/Gameplay/Grineer/DoorSensorHitProxy"
         ],
         "Toughness": 10000,
-        "MaxLife": 0.3,
+        "MaxLife": 0.30000001,
         "BounceOnAvatars": 0,
         "BounceOnRagdolls": 0,
         "ApplyImpulseFalloff": 1,
@@ -187,7 +187,7 @@
         "AllowNormalContactBehavior": 1,
         "ProjectileResizes": [
             {
-                "Time": 0.3,
+                "Time": 0.30000001,
                 "ResizeWidth": 0,
                 "ResizeRadius": 5
             }

@@ -1,0 +1,92 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "MarketMode": "MM_NONE",
+        "LocalizeTag": "[HC] BaruukDeluxeIItEffectsSetDefault",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "AlwaysAvailable": 1,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Powersuits/Pacifist/PacifistBaseSuit",
+        "CompatibleSlots": [
+            "FxSet"
+        ],
+        "ResourceOverrides": [
+            {
+                "Tag": "DisarmCast",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/DisarmCast"
+            },
+            {
+                "Tag": "DisarmCastBurst",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/DisarmCastBurst"
+            },
+            {
+                "Tag": "DisarmAttach",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/DisarmAttach"
+            },
+            {
+                "Tag": "DisarmProjDestroy",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/DisarmProjDestroy"
+            },
+            {
+                "Tag": "FistCast",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/FistCast"
+            },
+            {
+                "Tag": "FistAttach",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/FistAttach"
+            },
+            {
+                "Tag": "FistEndCast",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/FistEndCast"
+            },
+            {
+                "Tag": "FistForwardBurst",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/FistForwardBurst"
+            },
+            {
+                "Tag": "FistForwardBurstSmall",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/FistForwardBurstSmall"
+            },
+            {
+                "Tag": "FistForwardBurstLarge",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/FistForwardBurstLarge"
+            },
+            {
+                "Tag": "FistForwardDeco",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/BaruukDeluxeII/Abilities/BaruukDeluxeIIFistForwardBurstDeco"
+            },
+            {
+                "Tag": "FistLiftDeco",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/BaruukDeluxeII/Abilities/BaruukDeluxeIIFistLiftBurstDeco"
+            },
+            {
+                "Tag": "FistLift",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/FistLiftBurst"
+            },
+            {
+                "Tag": "FistLiftLarge",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/BaruukDeluxeII/Abilities/BaruukDeluxeIIFistLiftLargeBurst"
+            },
+            {
+                "Tag": "FistPullAttach",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/FistPull"
+            },
+            {
+                "Tag": "FistPullBurst",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/FistPullBurst"
+            },
+            {
+                "Tag": "FistSlideAttack",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/FistSlideAttack"
+            },
+            {
+                "Tag": "FistSlideDeco",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/BaruukDeluxeII/Abilities/BaruukDeluxeIIFistSlideRangeDeco"
+            },
+            {
+                "Tag": "FistLiftAttach",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Pacifist/FistLiftAttach"
+            }
+        ]
+    }
+}

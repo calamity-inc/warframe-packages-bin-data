@@ -230,7 +230,7 @@
                         "Script": ""
                     },
                     "DefaultReevaluationDelay": 0,
-                    "MinimumStateTime": 2.1,
+                    "MinimumStateTime": 2.0999999,
                     "AttackStateTime": 10,
                     "IdleStateTime": 6,
                     "MaxRingSlots": 6,
@@ -254,7 +254,7 @@
                             0,
                             20
                         ],
-                        "DistanceScoreWeight": 0.4,
+                        "DistanceScoreWeight": 0.40000001,
                         "InTargetViewWeight": 1
                     },
                     "AttackBehavior:Type": "/EE/Types/Npc/Logic/LogicGraphAction",
@@ -280,7 +280,7 @@
                     "WaitBehavior:MovePosture": "RUN",
                     "WaitBehavior:CloseToTargetMovePosture": "WALK",
                     "WaitBehavior:CloseToTargetDistance": 12,
-                    "WaitBehavior:StopRadius": 0.8,
+                    "WaitBehavior:StopRadius": 0.80000001,
                     "WaitBehavior:RepositionInterval": [
                         2,
                         4
@@ -332,7 +332,7 @@
                     "MovePosture": "RUN",
                     "CloseToTargetMovePosture": "WALK",
                     "CloseToTargetDistance": 12,
-                    "StopRadius": 0.8,
+                    "StopRadius": 0.80000001,
                     "RepositionInterval": [
                         2,
                         4
@@ -440,7 +440,7 @@
                     "LookAtNearbyPlayer": 0,
                     "LookAtTarget": 1,
                     "NearbyTeammatesThreshold": 10,
-                    "PlayerBias": 0.6,
+                    "PlayerBias": 0.60000002,
                     "ReportAttackOnDamage": 1,
                     "PatrolBehavior:Type": "/EE/Types/Npc/PatrolBehavior",
                     "PatrolBehavior:Enabled": 1,
@@ -1342,7 +1342,7 @@
                     "NewAlertness": "AW_SLEEPING",
                     "TimeBeforeFleeing": [
                         0.1,
-                        0.8
+                        0.80000001
                     ],
                     "MaxPerceptionDistance": 120,
                     "StopRadius": 1.5,

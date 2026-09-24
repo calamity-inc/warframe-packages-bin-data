@@ -1,0 +1,49 @@
+{
+    "parent": "/EE/Types/Engine/ArmorDeco",
+    "data": {
+        "Mesh": "NightWaveScouterEyePiece_skel.fbx",
+        "UseParentAnimState": 1,
+        "DeadParentInheritanceRule": "COPY",
+        "ScriptInstance": {
+            "Script": "/Lotus/Powersuits/Operator/OperatorFitment.lua",
+            "Function": "RemoveDecoIfAdult",
+            "_defaultPos": [
+                0,
+                0,
+                0
+            ],
+            "_femalePos": [
+                0,
+                0,
+                0
+            ],
+            "_defaultRot": [
+                0,
+                0,
+                0
+            ],
+            "_applyToParentDeco": 0,
+            "_fixHairColour": 0,
+            "_materialSlot": 4
+        },
+        "ReplicaRunScriptInstance": 1,
+        "TestRotateSpeed": [
+            25,
+            0,
+            0
+        ],
+        "EnableReplicaMoveNoise": 1,
+        "ReplicaPositionNoise": [
+            0,
+            0,
+            0,
+            0.1
+        ],
+        "ReplicaRotationNoise": [
+            0,
+            0,
+            0,
+            0.1
+        ]
+    }
+}

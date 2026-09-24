@@ -12,14 +12,14 @@
                 "name": "AlphaFadeMult",
                 "type": "Float",
                 "slot": -1,
-                "value": 0.05
+                "value": 0.050000001
             },
             {
                 "name": "NearFadeRange",
                 "type": "Float4",
                 "slot": -1,
                 "value": 20,
-                "value1": 0.05,
+                "value1": 0.050000001,
                 "value2": 0,
                 "value3": 0
             }
@@ -37,8 +37,8 @@
             0.118812
         ],
         "life": [
-            0.15,
-            0.35
+            0.15000001,
+            0.34999999
         ],
         "size": [
             0.0015,
@@ -52,31 +52,31 @@
         "spawnShape": "SP_BOX",
         "velocityDeviation": [
             0,
-            0.01
+            0.0099999998
         ],
-        "inheritVelocity": 0.05,
+        "inheritVelocity": 0.050000001,
         "spawnScale": [
-            0.05,
-            0.05,
-            0.05
+            0.050000001,
+            0.050000001,
+            0.050000001
         ],
         "localSimulation": 1,
         "drawingMaterial": "/Lotus/Fx/Common/GpuMats/CircleGradientEnergyColor",
         "colorKeys[0]": [
-            0.85,
-            0.00041,
-            0.00041,
+            0.85000002,
+            0.00041000001,
+            0.00041000001,
             1
         ],
         "colorKeys[1]": [
-            0.72,
-            0.061,
+            0.72000003,
+            0.061000001,
             0.0066,
             1
         ],
         "numColors": 2,
         "vortexSpeed": 3,
-        "vortexDecay": 0.05,
+        "vortexDecay": 0.050000001,
         "vortexRadialForce": 50
     }
 }

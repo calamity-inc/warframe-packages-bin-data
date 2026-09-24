@@ -7,9 +7,9 @@
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "LocalPosition": [
-                    -0.01,
+                    -0.0099999998,
                     -0.015,
-                    0.01
+                    0.0099999998
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "MagnumAttachment"
@@ -18,14 +18,14 @@
         "HolsterBone1Name": "GAME_R1_LEG1",
         "HolsterBone1Position": [
             -0.125,
-            -0.03,
+            -0.029999999,
             0.17
         ],
         "HolsterBone1Rotation": [
             0,
-            -0.793353,
+            -0.79335302,
             0,
-            0.608761
+            0.60876101
         ],
         "GripType": "GUN_ONE_HAND",
         "PickUpText": "/Lotus/Language/Items/PistolPickup",
@@ -45,7 +45,7 @@
         "UseWeaponHandForAim": 1,
         "WeaponHandAimOffset": [
             0,
-            0.03,
+            0.029999999,
             0
         ],
         "Behaviors": [
@@ -63,7 +63,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -189,7 +189,7 @@
                         30
                     ],
                     "WhizDeviation": 4,
-                    "WhizChance": 0.3,
+                    "WhizChance": 0.30000001,
                     "WhizzByRemoteMinDistance": 15,
                     "TraceRadius": 0,
                     "PvpTraceRadius": 0,
@@ -203,9 +203,9 @@
                     "AttackData": {
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
-                        "DT_IMPACT": 0.45,
-                        "DT_PUNCTURE": 0.275,
-                        "DT_SLASH": 0.275,
+                        "DT_IMPACT": 0.44999999,
+                        "DT_PUNCTURE": 0.27500001,
+                        "DT_SLASH": 0.27499998,
                         "Amount": 98,
                         "ProcChance": 0.22,
                         "ForcedProcs": [],
@@ -225,7 +225,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.775,
+                    "PvpDamageMultiplier": 0.77499998,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 250,
                     "additionalForce": [
@@ -351,7 +351,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -520,7 +520,7 @@
                 },
                 "state:Type": "/EE/Types/Game/WeaponMeleeRadiusStateBehavior",
                 "state:WeaponMeleeRadiusStateBehavior": {
-                    "reloadTime": 2.4,
+                    "reloadTime": 2.4000001,
                     "PerfectReloadRange": [
                         0,
                         0
@@ -641,9 +641,9 @@
         },
         "OFF_HAND": {
             "LocalPosition": [
-                -0.01,
+                -0.0099999998,
                 -0.015,
-                -0.01
+                -0.0099999998
             ],
             "BoneName": "GAME_L1_WEAPON1",
             "Type": "MagnumDSAttachment"

@@ -111,7 +111,7 @@
                             "UPWARD": "",
                             "DOWNWARD": ""
                         },
-                        "DistanceFromTargetPoint": 0.4
+                        "DistanceFromTargetPoint": 0.40000001
                     },
                     "forceFaceReaction": 0,
                     "useTurnToAction": 0,
@@ -269,7 +269,7 @@
                         "PointBlankRange": 5,
                         "AllowShootingControllerToAim": 0,
                         "MinAngleToTurn": 40,
-                        "MinAimMask": 0.9,
+                        "MinAimMask": 0.89999998,
                         "LookAtTarget": 0,
                         "LookHorizRate": 40,
                         "LookVertRate": 20,
@@ -320,7 +320,7 @@
                                     "m": 10,
                                     "k": 1,
                                     "b": 0,
-                                    "c": 0.6,
+                                    "c": 0.60000002,
                                     "logistic": 1
                                 },
                                 "AggressiveVisibleScore": 1,
@@ -416,7 +416,7 @@
                                 "WalkFacingControl": "MFC_FACE_TARGET",
                                 "RunFacingControl": "MFC_FACE_MOVEDIR",
                                 "SpeedMultiplier": [
-                                    0.8,
+                                    0.80000001,
                                     1.2
                                 ],
                                 "StopMovingOnExit": 1,
@@ -601,7 +601,7 @@
         "ReportAwareness": 1,
         "PerceiverType": "/Lotus/Types/Enemies/GrineerChampions/GrineerChampionPerceiver",
         "BaseHitChance": [
-            0.8,
+            0.80000001,
             1.2
         ],
         "IsCoverUseEnabled": 0,

@@ -9,8 +9,8 @@
                 "LocalRotation": [
                     0,
                     0,
-                    -0.043619,
-                    0.999048
+                    -0.043618999,
+                    0.99904799
                 ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "GrnKuvaLichRifleAttachment"
@@ -18,13 +18,13 @@
         },
         "HolsterBone1Name": "GAME_C1_RIFLEATTACH",
         "HolsterBone1Position": [
-            0.05,
+            0.050000001,
             0.035,
             0
         ],
         "HolsterBone1Rotation": [
-            0.707107,
-            0.707107,
+            0.70710677,
+            0.70710677,
             0,
             0
         ],
@@ -49,29 +49,29 @@
         "WeaponHandAimOffset": [
             0,
             0,
-            0.4
+            0.40000001
         ],
         "UseGripOffset": 1,
         "GripPositionOffset": [
-            -0.075,
-            -0.042,
+            -0.075000003,
+            -0.041999999,
             0.23
         ],
         "GripRotationOffset": [
-            0.01851,
-            0.705788,
+            0.018510001,
+            0.70578802,
             -0.706864,
-            0.043168
+            0.043168001
         ],
         "ZoomLevels": [
             {
                 "OverrideCameraShake": 0,
                 "zoomShake": {
-                    "ShakeFactorPos": 0.04,
+                    "ShakeFactorPos": 0.039999999,
                     "ShakeFactorRot": [
-                        0.08,
-                        0.08,
-                        0.08
+                        0.079999998,
+                        0.079999998,
+                        0.079999998
                     ],
                     "ShakeSpeed": 2,
                     "ShakeAmbient": 0,
@@ -100,7 +100,7 @@
                             "reloadThreshold": 0,
                             "controlAim": 0,
                             "continuousAim": 0,
-                            "minimumAimMask": 0.9,
+                            "minimumAimMask": 0.89999998,
                             "ShootOnStaggerProbability": 0.1,
                             "StaggerTimeOut": 1,
                             "minAngleToTurn": 0,
@@ -296,10 +296,10 @@
                         "UseNewFormat": 0,
                         "Type": "DT_PHYSICAL",
                         "DT_IMPACT": 0.37,
-                        "DT_PUNCTURE": 0.29,
-                        "DT_SLASH": 0.34,
+                        "DT_PUNCTURE": 0.28999999,
+                        "DT_SLASH": 0.34000003,
                         "Amount": 49,
-                        "ProcChance": 0.27,
+                        "ProcChance": 0.27000001,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [
                             "PT_RAGDOLL"
@@ -319,7 +319,7 @@
                     ],
                     "damageFallOffMinDamage": 0,
                     "PlayerDamageMultiplier": 1,
-                    "PvpDamageMultiplier": 0.52,
+                    "PvpDamageMultiplier": 0.51999998,
                     "PlayerScaleDamageMultiplierByMissionLevel": 0,
                     "instantImpulse": 1300,
                     "additionalForce": [
@@ -351,7 +351,7 @@
                     ],
                     "AltEffectHands": [],
                     "ragdollChance": 1,
-                    "criticalHitChance": 0.43,
+                    "criticalHitChance": 0.43000001,
                     "criticalHitDamageMultiplier": 2.3,
                     "ConsumeAmmoWhenDamageDealt": 0,
                     "AmmoConsumedWhenHitVulnerableTarget": 0,
@@ -461,7 +461,7 @@
         "HolsterPosOffset": [
             0,
             0,
-            -0.33
+            -0.33000001
         ],
         "RequiredLevel": 15,
         "ArtifactSlots": [
@@ -477,7 +477,7 @@
             "AP_UNIVERSAL"
         ],
         "FireAimTime": 5.5,
-        "OmegaAttenuation": 0.95,
+        "OmegaAttenuation": 0.94999999,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Rifle/HybridImpact"
     }
 }

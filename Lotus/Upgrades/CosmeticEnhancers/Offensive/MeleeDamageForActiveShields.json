@@ -28,12 +28,12 @@
                 "LocKeyWordScript": {
                     "Script": "MeleeDamageForActiveShields.lua",
                     "Function": "GetDescription",
-                    "_meleeDamagePerBonus": 0.05,
-                    "_meleeDamageStepPerFusionLevel": 0.05,
+                    "_meleeDamagePerBonus": 0.050000001,
+                    "_meleeDamageStepPerFusionLevel": 0.050000001,
                     "_overshieldMeleeDamageCoef": 0.5,
                     "_shieldsToGetBonus": 200,
                     "_shieldsToGetBonusStepPerFusionLevel": 0,
-                    "_meleeDamageLimit": 4.2
+                    "_meleeDamageLimit": 4.1999998
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
@@ -44,22 +44,22 @@
         "Script": {
             "Script": "MeleeDamageForActiveShields.lua",
             "Function": "ApplyUpgrade",
-            "_meleeDamagePerBonus": 0.05,
-            "_meleeDamageStepPerFusionLevel": 0.05,
+            "_meleeDamagePerBonus": 0.050000001,
+            "_meleeDamageStepPerFusionLevel": 0.050000001,
             "_overshieldMeleeDamageCoef": 0.5,
             "_shieldsToGetBonus": 200,
             "_shieldsToGetBonusStepPerFusionLevel": 0,
-            "_meleeDamageLimit": 4.2
+            "_meleeDamageLimit": 4.1999998
         },
         "UnappliedScript": {
             "Script": "MeleeDamageForActiveShields.lua",
             "Function": "RemoveUpgrade",
-            "_meleeDamagePerBonus": 0.3,
+            "_meleeDamagePerBonus": 0.30000001,
             "_meleeDamageStepPerFusionLevel": 0.1,
             "_overshieldMeleeDamageCoef": 0.5,
             "_shieldsToGetBonus": 200,
             "_shieldsToGetBonusStepPerFusionLevel": 0,
-            "_meleeDamageLimit": 4.2
+            "_meleeDamageLimit": 4.1999998
         },
         "HudBuffIcon": "/Lotus/Interface/Icons/ModBuffIndicators/ArcaneBuffs/ArcaneProjectionCXBuff.png",
         "BaseDistillPointValue": 18
