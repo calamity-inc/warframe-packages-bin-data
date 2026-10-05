@@ -1,0 +1,71 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "UseParentVisibility": 0,
+        "Attached": 1,
+        "AttachParent": "VenusWeatherDeco",
+        "IgnoreParentRotation": 1,
+        "IgnoreParentScale": 1,
+        "Active": 0,
+        "SpawnRate": 2000,
+        "fireOnce": 0,
+        "useCollisions": 0,
+        "affectedByWind": 1,
+        "resilience": 0,
+        "drag": 0.30000001,
+        "mass": [
+            0.1,
+            0.30000001
+        ],
+        "life": [
+            0.80000001,
+            1.6
+        ],
+        "size": [
+            0.050000001,
+            0.07
+        ],
+        "streaksFactor": 1,
+        "spawnShape": "SP_BOX",
+        "velocityDeviation": [
+            0.1,
+            0.40000001
+        ],
+        "spawnScale": [
+            20,
+            10,
+            20
+        ],
+        "spawnFlowBlend": 0.2,
+        "flowScale": [
+            2,
+            2,
+            2
+        ],
+        "flowForce": [
+            2,
+            2,
+            2
+        ],
+        "flowScrolling": [
+            0,
+            -0.2,
+            0
+        ],
+        "forceField": "/EE/Materials/TestData/VortexFlowVolumeVectors_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/BlowingSnow",
+        "colorKeys[0]": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "colorKeys[3]": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "numColors": 4
+    }
+}

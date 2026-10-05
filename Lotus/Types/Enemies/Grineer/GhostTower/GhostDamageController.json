@@ -86,18 +86,10 @@
                 "damageType": "DT_ANY",
                 "applyToOtherDamageTypes": 0,
                 "hitPart": "ANY_PART",
-                "hitType": "DHT_TRACE",
-                "damageSourceObjectType": "",
-                "multiplier": 0
-            },
-            {
-                "sourceName": "",
-                "damageType": "DT_ANY",
-                "applyToOtherDamageTypes": 0,
-                "hitPart": "ANY_PART",
                 "hitType": "DHT_RADIAL",
                 "damageSourceObjectType": "",
-                "multiplier": 0
+                "multiplier": 0,
+                "showInHUD": 0
             }
         ],
         "DamageEffects": [
@@ -130,11 +122,15 @@
         ],
         "HeadShotSounds": [
             {
+                "HitFilter": "DSHF_HIT_MATCH",
                 "HitType": "DHT_TRACE",
+                "FinisherFilter": "DSFF_ANY",
                 "Sound": "/Lotus/Sounds/Weapons/BulletImpacts/HeadShotMetal/HeadShotMetal"
             },
             {
+                "HitFilter": "DSHF_HIT_MATCH",
                 "HitType": "DHT_PROJECTILE",
+                "FinisherFilter": "DSFF_ANY",
                 "Sound": "/Lotus/Sounds/Weapons/BulletImpacts/HeadShotMetal/HeadShotMetal"
             }
         ],

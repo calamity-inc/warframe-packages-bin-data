@@ -11,6 +11,7 @@
                 "MaxLiftVel": 1.5,
                 "MaxDecel": 0,
                 "MaxLiftAccel": 0.75,
+                "MaxDropAccel": 0,
                 "MaxLiftDecel": 0,
                 "MaxPitch": 45,
                 "MaxRoll": 60,
@@ -25,11 +26,21 @@
                 "FullTurnRoll": -20,
                 "FullTurnPitch": 15,
                 "BankTurnSpeed": 0,
+                "StopDistance": 0.5,
+                "VerticalStopDistance": 0,
+                "OvershootDistance": 0,
+                "StopOnBlockingAnim": 0,
+                "StraightLineBridgeTraversal": 0,
+                "AlwaysFlyToMinHeight": 1,
                 "ImpactVelocityScale": 0,
                 "HoverUtilityResource": "/Lotus/Types/Game/HoverUtilitys/DroneHoverUtility",
                 "ShowCollisionRays": 0,
                 "CollisionSafetyMargin": 2,
-                "DistanceToSlow": 2
+                "DistanceToSlow": 2,
+                "InitialSpeed": 0,
+                "SpawningAvatarSpeedMultiplier": 0,
+                "FallOnFinisher": 0,
+                "FreezeHorizontallyOnZeroNpcDesiredSpeed": 0
             }
         ]
     }

@@ -16,7 +16,7 @@
         "AnimController": "/Lotus/Types/Sentinels/SentinelAnimTreeController",
         "AnimationSubTrees": {
             "PRN_IDLE_OVERRIDE": "/Lotus/Types/Sentinels/DefaultSentinelIdle.animtree",
-            "PRN_CUSTOM_FIRE": "/Lotus/Types/Sentinels/DefaultSentinelFiring.animtree"
+            "PRN_CUSTOM_FIRE": "/Lotus/Types/Sentinels/GaussRandomFiring.animtree"
         },
         "IdleAnimationOverride": "/Lotus/Animations/Pets/GaussSentinel/Hover_anim.fbx",
         "SentinelAnimOverrides": [
@@ -199,6 +199,20 @@
             "_subtreeAssets": [
                 "/Lotus/Types/Sentinels/SentinelPowersuits/SentinelSubtrees/GaussSentinelPreDeathTree.animtree"
             ]
-        }
+        },
+        "ResourceOverrides": [
+            {
+                "Tag": "LaserCast",
+                "Resource": "/Lotus/Animations/Pets/GaussSentinel/LazerCast_anim.fbx"
+            },
+            {
+                "Tag": "PushCast",
+                "Resource": "/Lotus/Animations/Pets/GaussSentinel/CastForward_anim.fbx"
+            },
+            {
+                "Tag": "MagicCast",
+                "Resource": "/Lotus/Animations/Pets/GaussSentinel/DownedEnd_anim.fbx"
+            }
+        ]
     }
 }

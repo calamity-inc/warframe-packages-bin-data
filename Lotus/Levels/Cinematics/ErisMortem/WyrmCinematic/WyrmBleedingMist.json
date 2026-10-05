@@ -54,8 +54,8 @@
         ],
         "DecayRegenByEmission": 1,
         "SpewCount": [
-            16,
-            16
+            32,
+            32
         ],
         "Material": "/Lotus/Fx/Explosions/Generic/ExplosionSmokeMat",
         "AnimateTiles": 1,
@@ -101,21 +101,33 @@
                 }
             ]
         },
+        "Nozzle": "SPHERE",
+        "UseRootForParent": 0,
         "NozzleMeshScale": [
-            0,
-            0,
-            0
+            0.1,
+            0.1,
+            0.1
         ],
-        "NozzleDev": 0.1,
-        "NozzleBox": [
-            0.2,
-            0.2,
-            0
-        ],
+        "NozzleDev": 0.5,
+        "NozzleSize": 1.5,
         "Speed": [
-            5,
-            15
+            10,
+            10
         ],
-        "Drag": 2
+        "Drag": 2,
+        "Mass": [
+            0.5,
+            1
+        ],
+        "PushFromFacingStrength": 0,
+        "PushVector": [
+            0,
+            -25,
+            0
+        ],
+        "PushMass": [
+            0,
+            1
+        ]
     }
 }

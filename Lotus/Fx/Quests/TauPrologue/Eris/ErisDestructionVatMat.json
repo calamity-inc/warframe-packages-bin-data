@@ -1,3 +1,47 @@
 {
-    "parent": "ErisPlanetMat"
+    "parent": "ErisPlanetMat",
+    "data": {
+        "EMISSIVE_FX": "EMISSIVE_PARALLAX",
+        "VERTEX_EFFECT": "VAT_RIGID_BODY",
+        "VAT_TWO_POSITION_TEXTURES": 1,
+        "EMISSIVE_MAP": 1,
+        "VS:SimulationFrames": 30,
+        "VS:SimulationCustomOffset": [
+            0,
+            0,
+            0
+        ],
+        "VS:SimulationTime": 0,
+        "VS:SimulationAmbientSpeed": 0,
+        "VS:SimulationFramesPerSecond": 30,
+        "PS:EmissiveTintColorHi": [
+            0.014,
+            0.14,
+            0.37,
+            1
+        ],
+        "PS:EmissiveTintColorLo": [
+            0.0023000001,
+            0.25999999,
+            0.88999999,
+            1
+        ],
+        "PS:EmissiveMapAtten": 35,
+        "PS:EmissiveFresnel": [
+            1,
+            2,
+            1
+        ],
+        "PS:ParallaxDepth": 0.1,
+        "PS:ParallaxChannelMask": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "TX:VatPositionTexture": "ErisDestructionPos_p.png",
+        "TX:VatRotationTexture": "ErisDestructionRot_p.png",
+        "TX:EmissiveMap": "/Lotus/Fx/Fire/Burn_e.png",
+        "TX:VatPositionTextureLow": "ErisDestructionPosLow_p.png"
+    }
 }

@@ -27,12 +27,6 @@
             }
         ],
         "IdleAnimationOverride": "/Lotus/Animations/Pets/BansheeSentinel/Idle_anim.fbx",
-        "SentinelAnimOverrides": [
-            {
-                "ReactionName": "",
-                "ReactionAnims": []
-            }
-        ],
         "FxBoneOverride": "GAME_C1_SPINE2",
         "ApplyEnergyColor": 1,
         "OverrideAttachedFx": 1,
@@ -247,6 +241,20 @@
                     }
                 ]
             }
-        }
+        },
+        "ResourceOverrides": [
+            {
+                "Tag": "LaserCast",
+                "Resource": "/Lotus/Animations/Pets/BansheeSentinel/Fire_anim.fbx"
+            },
+            {
+                "Tag": "PushCast",
+                "Resource": "/Lotus/Animations/Pets/BansheeSentinel/Fire_anim.fbx"
+            },
+            {
+                "Tag": "MagicCast",
+                "Resource": "/Lotus/Animations/Pets/BansheeSentinel/DownedEnd_anim.fbx"
+            }
+        ]
     }
 }

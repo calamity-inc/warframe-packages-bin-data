@@ -1,0 +1,153 @@
+{
+    "parent": "/Lotus/Types/Weapons/GunProjectile",
+    "data": {
+        "Mesh": "/Lotus/Fx/Weapons/Corpus/CrpAirPistol/AirPistolProjMesh.fbx",
+        "MeshScale": 0.1,
+        "OverrideMaterial": [
+            "/Lotus/Fx/Weapons/Corpus/Shotgun/CrpShotgunProjMat"
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Thanotech/ThanotechRifle/ThanotechRifleAltProjFlare",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 0,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Weapons/Duviri/IncarnonAdapters/IncarnonSemiAutoRifleProjectileLoop3DSeq",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/ProjectileWindMotor",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicQuery",
+        "AttackData": {
+            "Type": "DT_IMPACT",
+            "Amount": 50,
+            "ProcChance": 0.23999999,
+            "ForcedProcs": [
+                "PT_KNOCKBACK"
+            ],
+            "HitType": "DHT_PROJECTILE"
+        },
+        "NotifyImpactBehavior": 1,
+        "CriticalChance": 0.31999999,
+        "CriticalMultiplier": 3,
+        "ExplosiveAttack": {
+            "UseNewFormat": 1,
+            "Type": "DT_FIRE",
+            "DT_IMPACT": 0,
+            "DT_PUNCTURE": 40,
+            "DT_SLASH": 0,
+            "DT_FIRE": 40,
+            "DT_FREEZE": 0,
+            "DT_ELECTRICITY": 0,
+            "DT_POISON": 0,
+            "DT_EXPLOSION": 0,
+            "DT_RADIATION": 0,
+            "DT_GAS": 0,
+            "DT_MAGNETIC": 0,
+            "DT_VIRAL": 0,
+            "DT_CORROSIVE": 0,
+            "DT_RADIANT": 0,
+            "Amount": 80,
+            "ProcChance": 0.23999999
+        },
+        "ForcedSourceProcs": [
+            "PT_BLEEDING",
+            "PT_IMMOLATION",
+            "PT_STAGGERED",
+            "PT_BIG_STAGGER"
+        ],
+        "ExplosionIgnoreCover": 0,
+        "ExplosionIgnoreDynamicCover": 1,
+        "ExplodeOnImpact": 1,
+        "ExplodeOnLifeExpired": 1,
+        "ExplosionFallOff": 0.2,
+        "ExplodeEffect": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/LatronVoidMSExplode",
+        "DamageRadius": 4,
+        "DieEffectOffset": [
+            0,
+            0,
+            0
+        ],
+        "Toughness": 9999,
+        "MaxLife": 2.4000001,
+        "MaxBounces": 6,
+        "SetLifeOnImpact": 1,
+        "VerticalImpulse": 140,
+        "HorizontalImpulse": 80,
+        "AllowPuncture": 0,
+        "KinematicMovement": 1,
+        "KinematicInitialSpeed": 120,
+        "KinematicMaxSpeed": 120,
+        "KinematicRestitution": 0.5,
+        "KinematicRestitutionParallel": 0.5,
+        "KinematicIgnoredTypes": [
+            "/Lotus/Types/Game/PickUps/LotusPickUp"
+        ],
+        "OnProjectileContactScript": {
+            "Script": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/BonusDamageOnNextHit.lua",
+            "Function": "OnProjectileContact",
+            "_bonusDamagePercent": 1,
+            "_multTimeWindow": 1,
+            "_hudBuffType": ""
+        },
+        "ApplyColorCustomization": 1,
+        "RiftStasisWeight": 25
+    }
+}

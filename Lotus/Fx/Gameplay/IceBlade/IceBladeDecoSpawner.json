@@ -2,6 +2,10 @@
     "parent": "/EE/Types/Effects/Spawner",
     "data": {
         "IgnoreParentRotation": 1,
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Effects/NarinBlessingEffect.lua",
+            "Function": "BladeSpawnerUpdate"
+        },
         "CreatedTypes": [
             {
                 "Type": "IceBladeDeco",

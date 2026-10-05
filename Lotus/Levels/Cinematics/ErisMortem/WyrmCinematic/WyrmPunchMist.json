@@ -1,0 +1,120 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "MaterialParams": [
+            {
+                "name": "SmokeColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.046,
+                    0.00036999999,
+                    0,
+                    1
+                ]
+            },
+            {
+                "name": "TemperatureAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            }
+        ],
+        "DetailLevel": "PQ_MEDIUM",
+        "Life": [
+            0.60000002,
+            1.25
+        ],
+        "Size": [
+            7,
+            14
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.25
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.89999998
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "InitialCount": [
+            18,
+            18
+        ],
+        "Material": "/Lotus/Fx/Explosions/Generic/ExplosionSmokeMat",
+        "AnimateTiles": 1,
+        "RandomStartFrame": 1,
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0099999998,
+            0.0099999998
+        ],
+        "SpinByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.40000001
+                }
+            ]
+        },
+        "FadeInOut": [
+            0,
+            1
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.1,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.60000002,
+                    "Value": 0.40000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "Nozzle": "PARENT_SKELETON",
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ],
+        "NozzleDev": 0.1,
+        "NozzleBox": [
+            0.2,
+            0.2,
+            0
+        ],
+        "Speed": [
+            10,
+            100
+        ],
+        "Drag": 2,
+        "Mass": [
+            0,
+            0.2
+        ]
+    }
+}

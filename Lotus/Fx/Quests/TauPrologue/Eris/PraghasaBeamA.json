@@ -15,7 +15,7 @@
                 "LocalPosition": [
                     0,
                     0,
-                    0.30000001
+                    0
                 ],
                 "LocalRotation": [
                     0,
@@ -24,7 +24,7 @@
                     1
                 ],
                 "BoneName": "",
-                "Type": "/Lotus/Fx/Weapons/Corpus/ChargeGun/ChargeGunBeamLight",
+                "Type": "PraghasaBeamAttach",
                 "Chance": 255,
                 "RelativeToBounds": 0,
                 "Attach": 1,
@@ -46,101 +46,13 @@
                     1
                 ],
                 "BoneName": "",
-                "Type": "/Lotus/Fx/Weapons/Corpus/ChargeGun/ChargeGunBeamEnergy",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 0,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 1,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0,
-                    -0.02,
-                    0.02
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "",
-                "Type": "/Lotus/Fx/Weapons/Corpus/FreezeRay/FreezeRayBeamFlare",
+                "Type": "PraghasaBeamDeco",
                 "Chance": 255,
                 "RelativeToBounds": 0,
                 "Attach": 1,
                 "DestroyWithOwner": 1,
                 "DestroyParentOnDeath": 0,
                 "FadeOutOnDestruction": 0,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "",
-                "Type": "/Lotus/Fx/Weapons/Corpus/ChargeGun/ChargeGunMuzzleFlare",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 0,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 1,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "",
-                "Type": "/Lotus/Fx/Weapons/Corpus/ChargeGun/ChargeGunBeamFlowSparks",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 0,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 1,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "",
-                "Type": "/Lotus/Fx/Weapons/Corpus/ChargeGun/ChargeGunRings",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 0,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 1,
                 "Scale": 1
             }
         ],
@@ -165,7 +77,7 @@
         "TextureScaleV": 0.02,
         "NumPlanes": 6,
         "EyeAligned": 0,
-        "Radius": 50,
+        "Radius": 16,
         "SectionLength": 1,
         "SectionRotationMax": 45,
         "MaxSections": 400,
@@ -196,7 +108,7 @@
             {
                 "Parameter": "UnlitAtten",
                 "TimeLength": 0.5,
-                "Multiplier": 12,
+                "Multiplier": 16,
                 "FadeRange": [
                     1,
                     1

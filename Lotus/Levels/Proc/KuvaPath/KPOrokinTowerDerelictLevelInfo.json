@@ -1,9 +1,15 @@
 {
     "parent": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictLevelInfo",
     "data": {
+        "PostProcessInfo": {
+            "colorGrading": "/Lotus/Fx/ColorGradingData/KuvaPathColorGrading"
+        },
         "BakeFilesEnabled": 1,
         "OnLocalAvatarCreatedScript": {
             "_MusicSequencerType": "/Lotus/Music/DynamicMusic/IcebladeOfNarin/IcebladeOfNarinCmbtMusicSequencer"
+        },
+        "WeatherAutoChild": {
+            "Type": "/Lotus/Fx/Levels/Zariman/IceBlade/KuvaPathWeather"
         }
     }
 }

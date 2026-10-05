@@ -1,0 +1,119 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "DepthSortBias": -100,
+        "MaterialParams": [
+            {
+                "name": "ErosionThreshold",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.60000002
+            }
+        ],
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.5,
+            0.69999999
+        ],
+        "Size": [
+            3,
+            5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0.0131707,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.24723101,
+                    "Value": 0.59638399
+                },
+                {
+                    "Time": 0.58534199,
+                    "Value": 0.95802402
+                },
+                {
+                    "Time": 0.81856698,
+                    "Value": 1.004843
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.79657698
+                }
+            ]
+        },
+        "Aspect": [
+            7,
+            7
+        ],
+        "InitialCount": [
+            3,
+            4
+        ],
+        "Shape": "SH_LINE",
+        "Material": "WyrmCinBloodMatB",
+        "RandomStartFrame": 1,
+        "DepthSort": 1,
+        "Pivot": [
+            0,
+            0.69999999,
+            0
+        ],
+        "SpinByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.40000001
+                }
+            ]
+        },
+        "FadeInOut": [
+            0,
+            0.2
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0.104345,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.79624802,
+                    "Value": 0.51747203
+                },
+                {
+                    "Time": 0.88057202,
+                    "Value": 0.416899
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ],
+        "NozzleDev": 0.15000001,
+        "NozzleBox": [
+            0.2,
+            0.2,
+            0
+        ],
+        "Speed": [
+            50,
+            100
+        ],
+        "Drag": 0.5,
+        "VelocityStretch": 1.5
+    }
+}

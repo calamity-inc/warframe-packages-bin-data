@@ -1,10 +1,16 @@
 {
     "parent": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsLevelInfo",
     "data": {
+        "PostProcessInfo": {
+            "colorGrading": "/Lotus/Fx/ColorGradingData/KuvaPathColorGrading"
+        },
         "BakeFilesEnabled": 1,
         "OnLocalAvatarCreatedScript": {
             "_MusicSequencerType": "/Lotus/Music/DynamicMusic/IcebladeOfNarin/IcebladeOfNarinCmbtMusicSequencer",
             "_RandomMusicSequencerType": []
+        },
+        "WeatherAutoChild": {
+            "Type": "/Lotus/Fx/Levels/Zariman/IceBlade/KuvaPathWeather"
         }
     }
 }

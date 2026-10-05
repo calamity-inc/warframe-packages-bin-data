@@ -3,17 +3,17 @@
     "data": {
         "CreatedTypes": [
             {
-                "Type": "WyrmCinBloodSplashPunch",
+                "Type": "WyrmPunchBlood",
                 "Sound": "",
                 "AttachSound": 1,
-                "Attach": "SELF",
+                "Attach": "NONE",
                 "InheritAttachBone": 1,
                 "InheritAttachPosRot": 1,
                 "AttachBone": "",
                 "WorldRotation": 0,
                 "Delay": [
-                    0,
-                    0
+                    0.1,
+                    0.1
                 ],
                 "AutoDestroy": 0,
                 "LifeSpan": [
@@ -53,57 +53,7 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "WyrmCinPunchDirectionalSpawn",
-                "Sound": "",
-                "AttachSound": 1,
-                "Attach": "SELF",
-                "InheritAttachBone": 1,
-                "InheritAttachPosRot": 1,
-                "AttachBone": "",
-                "WorldRotation": 0,
-                "Delay": [
-                    0,
-                    0
-                ],
-                "AutoDestroy": 0,
-                "LifeSpan": [
-                    30,
-                    60
-                ],
-                "Chance": 255,
-                "Force": [
-                    0,
-                    0
-                ],
-                "Torque": [
-                    0,
-                    0
-                ],
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "PositionDeviation": [
-                    0,
-                    0
-                ],
-                "RotationDeviation": [
-                    0,
-                    0
-                ],
-                "UseFullRandomRotation": 0,
-                "InheritVelocity": 0,
-                "InheritCreator": 0
-            },
-            {
-                "Type": "WyrmCinPunchSplashDeco",
+                "Type": "WyrmCinBloodSplashMultidir",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -153,7 +103,107 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "WyrmCinBloodMistMultidir",
+                "Type": "WyrmPunchInfestedLiquidDeco",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "NONE",
+                "InheritAttachBone": 1,
+                "InheritAttachPosRot": 1,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0.050000001,
+                    0.050000001
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "WyrmPunchMist",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "NONE",
+                "InheritAttachBone": 1,
+                "InheritAttachPosRot": 1,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0.1,
+                    0.1
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "WyrmPunchRipple",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -203,7 +253,7 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "/Lotus/Fx/Explosions/Generic/ExplosionRippleHuge",
+                "Type": "WyrmPunchLight",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -253,107 +303,7 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "/Lotus/Fx/Explosions/Generic/ExplosionFireLightHuge",
-                "Sound": "",
-                "AttachSound": 1,
-                "Attach": "NONE",
-                "InheritAttachBone": 1,
-                "InheritAttachPosRot": 1,
-                "AttachBone": "",
-                "WorldRotation": 0,
-                "Delay": [
-                    0,
-                    0
-                ],
-                "AutoDestroy": 0,
-                "LifeSpan": [
-                    30,
-                    60
-                ],
-                "Chance": 255,
-                "Force": [
-                    0,
-                    0
-                ],
-                "Torque": [
-                    0,
-                    0
-                ],
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "PositionDeviation": [
-                    0,
-                    0
-                ],
-                "RotationDeviation": [
-                    0,
-                    0
-                ],
-                "UseFullRandomRotation": 0,
-                "InheritVelocity": 0,
-                "InheritCreator": 0
-            },
-            {
-                "Type": "WyrmCinDropletsMultiDir",
-                "Sound": "",
-                "AttachSound": 1,
-                "Attach": "NONE",
-                "InheritAttachBone": 0,
-                "InheritAttachPosRot": 0,
-                "AttachBone": "",
-                "WorldRotation": 0,
-                "Delay": [
-                    0,
-                    0
-                ],
-                "AutoDestroy": 0,
-                "LifeSpan": [
-                    30,
-                    60
-                ],
-                "Chance": 255,
-                "Force": [
-                    0,
-                    0
-                ],
-                "Torque": [
-                    0,
-                    0
-                ],
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "PositionDeviation": [
-                    0,
-                    0
-                ],
-                "RotationDeviation": [
-                    0,
-                    0
-                ],
-                "UseFullRandomRotation": 0,
-                "InheritVelocity": 0,
-                "InheritCreator": 0
-            },
-            {
-                "Type": "/Lotus/Fx/PowersuitAbilities/Vessel/VesselPunchDustDeco",
+                "Type": "WyrmPunchDroplets",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -403,7 +353,57 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "/Lotus/Fx/PowersuitAbilities/Vessel/VesselPunchSphereDeco",
+                "Type": "WyrmPunchDarkDeco",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "NONE",
+                "InheritAttachBone": 1,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "WyrmPunchShockwaveDeco",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -503,11 +503,161 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "/Lotus/Fx/PowersuitAbilities/Vessel/VesselPunchImpactSpikesDeco",
+                "Type": "WyrmPunchSpikesDeco",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
                 "InheritAttachBone": 1,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "WyrmPunchFlare",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "NONE",
+                "InheritAttachBone": 1,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "WyrmPunchSporeSparks",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "NONE",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "WyrmPunchSpores",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "NONE",
+                "InheritAttachBone": 0,
                 "InheritAttachPosRot": 0,
                 "AttachBone": "",
                 "WorldRotation": 0,

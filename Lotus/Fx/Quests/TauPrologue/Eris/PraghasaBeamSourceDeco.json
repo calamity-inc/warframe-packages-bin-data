@@ -1,0 +1,65 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Enemies/Duviri/Pax/PaxBetrayalVortexGeo.fbx",
+        "MeshScale": 6,
+        "OverrideMaterial": [
+            "PraghasaChargeDecoMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "TimeScalar",
+                "type": "Float",
+                "slot": -1,
+                "value": -0.30000001
+            }
+        ],
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "IgnoreParentRotation": 1,
+        "IgnoreParentScale": 1,
+        "RandomMeshScale": [
+            0.60000002,
+            1
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 2,
+                "Multiplier": 20,
+                "FadeRange": [
+                    0.30000001,
+                    0.5
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "RandomMaterialParameters": [
+            {
+                "Parameter": "CustomTime",
+                "RandomLow": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "RandomHigh": [
+                    15,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ]
+    }
+}

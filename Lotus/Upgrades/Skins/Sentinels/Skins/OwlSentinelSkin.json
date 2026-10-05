@@ -43,6 +43,12 @@
         "AnimationSubTrees": {
             "PRN_IDLE_OVERRIDE": "/Lotus/Types/Sentinels/DefaultSentinelIdle.animtree"
         },
+        "NamedSubTrees": [
+            {
+                "name": "SentinelPreDeath",
+                "tree": "/Lotus/Types/Sentinels/SentinelPowersuits/SentinelSubtrees/OrdisSentinelPreDeathTree.animtree"
+            }
+        ],
         "IdleAnimationOverride": "/Lotus/Animations/OrdisSentinel/ClosedIdle_anim.fbx",
         "SentinelAnimOverrides": [
             {
@@ -318,18 +324,19 @@
                 ]
             }
         },
-        "Script": {
-            "Script": "/Lotus/Scripts/Effects/SentinelVisualEffects.lua",
-            "Function": "UpdateNamedSubtreeForSkin",
-            "_unfoldSym": "UNFOLD",
-            "_foldSym": "FOLD",
-            "_unfoldIdleSym": "UNFOLD_IDLE",
-            "_subtreeNames": [
-                "SentinelPreDeath"
-            ],
-            "_subtreeAssets": [
-                "/Lotus/Types/Sentinels/SentinelPowersuits/SentinelSubtrees/OrdisSentinelPreDeathTree.animtree"
-            ]
-        }
+        "ResourceOverrides": [
+            {
+                "Tag": "LaserCast",
+                "Resource": "/Lotus/Animations/OrdisSentinel/ClosedIdle_anim.fbx"
+            },
+            {
+                "Tag": "PushCast",
+                "Resource": "/Lotus/Animations/OrdisSentinel/ClosedToOpen_anim.fbx"
+            },
+            {
+                "Tag": "MagicCast",
+                "Resource": "/Lotus/Animations/OrdisSentinel/OpenToClose_anim.fbx"
+            }
+        ]
     }
 }

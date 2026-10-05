@@ -1,0 +1,163 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "WyrmInfestedLiquidSplashMesh.fbx",
+        "OverrideMaterial": [
+            "WyrmPunchLiquidDecoMat"
+        ],
+        "DistortionMaterial": "/Lotus/Fx/Common/EnergyDistortionCMat",
+        "DissolveOverride": "/Lotus/Fx/PowersuitAbilities/Garuda/BloodThreshold_d.png",
+        "IgnoreParentRotation": 1,
+        "TestRotate": 1,
+        "TestRotateMode": "TRM_AUTONOMOUS",
+        "TestRotateSpeed": [
+            45,
+            15,
+            15
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "Dissolve",
+                "Slot": -1,
+                "TimeLength": 0.5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.073877603,
+                            "Value": 0.97052902
+                        },
+                        {
+                            "Time": 0.29755101,
+                            "Value": 0.67706102
+                        },
+                        {
+                            "Time": 0.64122498,
+                            "Value": 0.18964601
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 1
+                        },
+                        {
+                            "Time": 0.2,
+                            "Value": 0.30000001
+                        },
+                        {
+                            "Time": 0.89999998,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "Scale",
+                "Slot": -1,
+                "TimeLength": 0.5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0.19465099
+                        },
+                        {
+                            "Time": 0.33333299,
+                            "Value": 0.784419
+                        },
+                        {
+                            "Time": 0.66666698,
+                            "Value": 0.98210102
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 1
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            }
+        ],
+        "TimeLengthMultiplierRange": [
+            0.89999998,
+            1
+        ],
+        "Movement": 1,
+        "MovementGravity": [
+            0,
+            -10,
+            0
+        ],
+        "MovementCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.2
+                },
+                {
+                    "Time": 0.59840298,
+                    "Value": -1.220787
+                },
+                {
+                    "Time": 1,
+                    "Value": -8.3877964
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        }
+    }
+}

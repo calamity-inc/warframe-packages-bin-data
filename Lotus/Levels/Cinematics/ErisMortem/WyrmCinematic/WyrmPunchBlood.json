@@ -1,0 +1,75 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "DissolveOverride": "/Lotus/Fx/Common/WrapTextureA_d.png",
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.80000001,
+            1.5
+        ],
+        "Size": [
+            2,
+            4
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.25
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "DistanceScale": 1,
+        "GrowthRate": [
+            0.30000001,
+            1
+        ],
+        "InitialCount": [
+            27,
+            27
+        ],
+        "Material": "WyrmCinBloodMat",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            218,
+            218,
+            218,
+            255
+        ],
+        "RandOrientation": 1,
+        "ParticleMeshes": [
+            "/Lotus/Fx/Gore/BloodMeshParticleA.fbx"
+        ],
+        "Spin": [
+            -0.0049999999,
+            0.0049999999
+        ],
+        "FadeInOut": [
+            0.15000001,
+            0.25
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleDev": 0.30000001,
+        "NozzleBox": [
+            0.15000001,
+            0.15000001,
+            0.050000001
+        ],
+        "NozzleSize": 1,
+        "Speed": [
+            50,
+            115
+        ],
+        "Drag": 1.5,
+        "Mass": [
+            0.36000001,
+            0.55000001
+        ]
+    }
+}

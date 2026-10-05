@@ -322,6 +322,20 @@
             "_subtreeAssets": [
                 "/Lotus/Types/Sentinels/SentinelPowersuits/SentinelSubtrees/ThanotechSentinelPreDeathTree.animtree"
             ]
-        }
+        },
+        "ResourceOverrides": [
+            {
+                "Tag": "LaserCast",
+                "Resource": "/Lotus/Animations/Pets/Thanotech/BeamFire_anim.fbx"
+            },
+            {
+                "Tag": "PushCast",
+                "Resource": "/Lotus/Animations/Pets/Thanotech/DownedStart_anim.fbx"
+            },
+            {
+                "Tag": "MagicCast",
+                "Resource": "/Lotus/Animations/Pets/Thanotech/DownedEnd_anim.fbx"
+            }
+        ]
     }
 }

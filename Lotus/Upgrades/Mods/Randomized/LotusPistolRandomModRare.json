@@ -1163,13 +1163,13 @@
             },
             {
                 "Tag": "WeaponWeakpointDamage",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/Pistol/WeaponWeakpointCriticalChanceMod.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
                             "UpgradeType": "WEAPON_DAMAGE_WEAKPOINT",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": 0.0099999998,
+                            "Value": 0.025,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -1209,13 +1209,13 @@
             },
             {
                 "Tag": "WeaponWeakpointCriticalChance",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/Pistol/WeaponWeakpointCriticalChanceMod.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
                             "UpgradeType": "WEAPON_CRIT_CHANCE_WEAKPOINT",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": 0.0099999998,
+                            "Value": 0.0275,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -1255,13 +1255,13 @@
             },
             {
                 "Tag": "WeaponAmmoEfficiency",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponAmmoEfficiency.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
                             "UpgradeType": "WEAPON_AMMO_CONSUME_RATE",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": -0.001,
+                            "Value": -0.0049999999,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -1301,7 +1301,7 @@
             },
             {
                 "Tag": "WeaponMagazineReloadHolstered",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/PvP/Pistol/PassiveReloadPistolMod.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
@@ -1347,7 +1347,7 @@
             },
             {
                 "Tag": "WeaponStatusDamage",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/DoubleMods/PistolStatusDamageDuoMod.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
@@ -1393,7 +1393,7 @@
             },
             {
                 "Tag": "WeaponGasDamageMod",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponGasDamage.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
@@ -1439,7 +1439,7 @@
             },
             {
                 "Tag": "WeaponCorrosiveDamageMod",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponCorrosiveDamage.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
@@ -1485,7 +1485,7 @@
             },
             {
                 "Tag": "WeaponViralDamageMod",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponViralDamage.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
@@ -1531,7 +1531,7 @@
             },
             {
                 "Tag": "WeaponRadiationDamageMod",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponRadiationDamage.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
@@ -1577,7 +1577,7 @@
             },
             {
                 "Tag": "WeaponBlastDamageMod",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponBlastDamage.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
@@ -1623,14 +1623,14 @@
             },
             {
                 "Tag": "WeaponMagneticDamageMod",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponMagneticDamage.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
                             "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
                             "OperationType": "ADD",
                             "Value": 0.0099999998,
-                            "DamageType": "DT_POISON",
+                            "DamageType": "DT_MAGNETIC",
                             "AutoType": 1,
                             "ValidType": "",
                             "CheckTypeOnInstall": 0,
@@ -1669,7 +1669,7 @@
             },
             {
                 "Tag": "WeaponFactionDamageOrokin",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleDamageCorrupted.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
@@ -1715,7 +1715,7 @@
             },
             {
                 "Tag": "WeaponFactionDamageTechrot",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponFactionDamageTechrot.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
@@ -1761,7 +1761,7 @@
             },
             {
                 "Tag": "WeaponFactionDamageScaldra",
-                "Icon": "",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponFactionDamageScaldra.png",
                 "Upgrades": [
                     {
                         "Upgrade": {
@@ -1808,17 +1808,97 @@
         ],
         "MergeOptions": [
             {
-                "ResultTag": "",
-                "PrimaryIngredient": "",
-                "SecondaryIngredient": ""
+                "ResultTag": "WeaponWeakpointDamage",
+                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "SecondaryIngredient": "WeaponZoomFovMod"
+            },
+            {
+                "ResultTag": "WeaponWeakpointDamage",
+                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "SecondaryIngredient": "WeaponFireIterationsMod"
+            },
+            {
+                "ResultTag": "WeaponWeakpointCriticalChance",
+                "PrimaryIngredient": "WeaponCritChanceMod",
+                "SecondaryIngredient": "WeaponZoomFovMod"
+            },
+            {
+                "ResultTag": "WeaponWeakpointCriticalChance",
+                "PrimaryIngredient": "WeaponCritChanceMod",
+                "SecondaryIngredient": "WeaponFireIterationsMod"
+            },
+            {
+                "ResultTag": "WeaponAmmoEfficiency",
+                "PrimaryIngredient": "WeaponClipMaxMod",
+                "SecondaryIngredient": "WeaponReloadSpeedMod"
+            },
+            {
+                "ResultTag": "WeaponAmmoEfficiency",
+                "PrimaryIngredient": "WeaponRecoilReductionMod",
+                "SecondaryIngredient": "WeaponAmmoMaxMod"
+            },
+            {
+                "ResultTag": "WeaponMagazineReloadHolstered",
+                "PrimaryIngredient": "WeaponAmmoMaxMod",
+                "SecondaryIngredient": "WeaponReloadSpeedMod"
+            },
+            {
+                "ResultTag": "WeaponMagazineReloadHolstered",
+                "PrimaryIngredient": "WeaponAmmoMaxMod",
+                "SecondaryIngredient": "WeaponClipMaxMod"
+            },
+            {
+                "ResultTag": "WeaponStatusDamage",
+                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "SecondaryIngredient": "WeaponStunChanceMod"
+            },
+            {
+                "ResultTag": "WeaponGasDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponFireDamageMod"
+            },
+            {
+                "ResultTag": "WeaponCorrosiveDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponElectricityDamageMod"
+            },
+            {
+                "ResultTag": "WeaponViralDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponRadiationDamageMod",
+                "PrimaryIngredient": "WeaponFireDamageMod",
+                "SecondaryIngredient": "WeaponElectricityDamageMod"
+            },
+            {
+                "ResultTag": "WeaponBlastDamageMod",
+                "PrimaryIngredient": "WeaponFireDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponMagneticDamageMod",
+                "PrimaryIngredient": "WeaponElectricityDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageOrokin",
+                "PrimaryIngredient": "WeaponFactionDamageGrineer",
+                "SecondaryIngredient": "WeaponFactionDamageCorpus"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageTechrot",
+                "PrimaryIngredient": "WeaponFactionDamageCorpus",
+                "SecondaryIngredient": "WeaponFactionDamageInfested"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageScaldra",
+                "PrimaryIngredient": "WeaponFactionDamageInfested",
+                "SecondaryIngredient": "WeaponFactionDamageGrineer"
             }
         ],
         "ItemCompatibilities": [
-            {
-                "ItemType": "/Lotus/Powersuits/Brysko/BryskoRevolver",
-                "Rarity": "NONE",
-                "Attenuation": 1
-            },
             {
                 "ItemType": "/Lotus/Powersuits/Choir/ChoirEruptWeapon",
                 "Rarity": "NONE",

@@ -1,0 +1,131 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "CullDistance": 45,
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 50
+            },
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.000099999997,
+                    0.025,
+                    0.052000001,
+                    1
+                ]
+            }
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Jade/SBACastWind",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "DetailLevel": "PQ_MEDIUM",
+        "ApplyColorCustomization": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.30000001,
+            0.40000001
+        ],
+        "Size": [
+            0.025,
+            0.075000003
+        ],
+        "Aspect": [
+            1,
+            2
+        ],
+        "EmissionTime": [
+            2,
+            2
+        ],
+        "SpewCount": [
+            350,
+            350
+        ],
+        "MaxParticlesInSystem": 2048,
+        "Shape": "SH_LINE",
+        "Material": "/Lotus/Fx/Levels/Outpost/SnowFlakeBlowingCMEnergyColor",
+        "ColorMin": [
+            251,
+            77,
+            32,
+            255
+        ],
+        "ColorMax": [
+            255,
+            116,
+            84,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.02,
+            0.02
+        ],
+        "FadeInOut": [
+            0.75737703,
+            0.895082
+        ],
+        "Nozzle": "SHELL",
+        "NozzleDev": 1,
+        "NozzleSize": 7,
+        "Speed": [
+            -500,
+            -500
+        ],
+        "Drag": 5,
+        "Mass": [
+            -0.1,
+            0
+        ],
+        "WindAffected": 1,
+        "FlowVolume": "/EE/Types/GraphicsRes/DefaultFlowVolume",
+        "FlowVelocity": [
+            20,
+            20,
+            20
+        ],
+        "FlowVelocityEndLife": [
+            10,
+            10,
+            10
+        ],
+        "FlowScale": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "FlowOffsetRate": [
+            0.2,
+            0.2,
+            0.2
+        ]
+    }
+}

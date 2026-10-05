@@ -1,0 +1,37 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Characters/Tenno/Accessory/Armour/CorpusFencer/PS4CrpFncFx.fbx",
+        "MeshScale": 2.75,
+        "OverrideMaterial": [
+            "Entrati1999PaxHandEnergyADecoMat"
+        ],
+        "DistortionMaterial": "Entrati1999PaxHandEnergyADecoDistortMat",
+        "UseParentDissolve": 0,
+        "IgnoreParentRotation": 1,
+        "IgnoreParentScale": 1,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 10.7,
+                "Multiplier": 0.47,
+                "FadeRange": [
+                    0.07,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "FaceCamera": 1
+    }
+}

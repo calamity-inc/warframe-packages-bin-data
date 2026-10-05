@@ -9,7 +9,7 @@
                 "name": "UnlitAtten",
                 "type": "Float",
                 "slot": -1,
-                "value": 5
+                "value": 12
             }
         ],
         "Size": 2,
@@ -17,10 +17,10 @@
         "Range": 0,
         "DepthCue": 0,
         "QueryScale": 2,
+        "CheckForPixelOcclusion": 0,
         "OcclusionAttenExponent": 0.2,
         "OcclusionUsesVelocity": 0,
         "FlareBoundsExpansion": 0.1,
-        "OpacityTime": 0,
         "Tint": [
             229,
             59,
@@ -29,6 +29,7 @@
         ],
         "NoiseStrength": 1,
         "NoiseRate": 1,
+        "LifeSpan": 15,
         "FlareParams": [
             {
                 "GridX": 4,

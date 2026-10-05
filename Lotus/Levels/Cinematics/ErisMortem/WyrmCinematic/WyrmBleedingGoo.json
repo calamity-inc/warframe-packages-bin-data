@@ -19,8 +19,8 @@
             2
         ],
         "Size": [
-            2.5,
-            6
+            5,
+            9
         ],
         "SizeByLife": {
             "Values": [
@@ -49,8 +49,8 @@
         ],
         "DecayRegenByEmission": 1,
         "SpewCount": [
-            32,
-            32
+            42,
+            42
         ],
         "Material": "/Lotus/Fx/Enemies/WF1999Lasrian/Tank/LasrianTankEfervonGooMat",
         "RandomStartFrame": 1,
@@ -99,22 +99,33 @@
             ],
             "SplineType": "CUBIC_SPLINE"
         },
-        "NozzleDev": 0.30000001,
-        "NozzleBox": [
-            0.15000001,
-            0.15000001,
-            0.050000001
+        "Nozzle": "SPHERE",
+        "UseRootForParent": 0,
+        "NozzleMeshScale": [
+            0.1,
+            0.1,
+            0.1
         ],
-        "NozzleSize": 0.30000001,
+        "NozzleDev": 0.5,
+        "NozzleSize": 2.5,
         "Speed": [
             10,
             10
         ],
         "Drag": 1.5,
+        "Mass": [
+            0.5,
+            1
+        ],
+        "PushFromFacingStrength": 0,
         "PushVector": [
             0,
-            1,
+            -50,
             0
+        ],
+        "PushMass": [
+            0,
+            1
         ]
     }
 }

@@ -1,0 +1,96 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 25
+            }
+        ],
+        "GridZoningExpansion": 2,
+        "UseTeamEffectsSetting": 1,
+        "SpawnRate": 800,
+        "EmissionTime": 5,
+        "BoundsExpansionOverride": 100,
+        "fireOnce": 0,
+        "useCollisions": 0,
+        "affectedByZoneWind": 0,
+        "resilience": 0.86301398,
+        "mass": [
+            -0.40000001,
+            0.1
+        ],
+        "life": [
+            0.25,
+            1.5
+        ],
+        "size": [
+            0.1,
+            0.25
+        ],
+        "velocity": [
+            50,
+            100
+        ],
+        "streaksFactor": 0.25,
+        "spawnShape": "SP_BOX",
+        "velocityDeviation": [
+            0,
+            0.0099999998
+        ],
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            8,
+            8,
+            150
+        ],
+        "spawnFlowBlend": 0,
+        "spawnDelay": 0.1,
+        "spawnFlowForcePosScale": 0.60000002,
+        "flowScale": [
+            0.1,
+            0.1,
+            0.1
+        ],
+        "flowForce": [
+            6,
+            6,
+            6
+        ],
+        "flowForceEnd": [
+            24,
+            12,
+            24
+        ],
+        "forceField": "/EE/Materials/Util/CurlNoiseFlowVolumeVectors_v.png",
+        "localSimulation": 1,
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColor",
+        "colorKeys[0]": [
+            1,
+            0.58999997,
+            0.037999999,
+            0
+        ],
+        "colorKeys[1]": [
+            0.75,
+            0.20999999,
+            0.071999997,
+            1
+        ],
+        "colorKeys[2]": [
+            0.31999999,
+            0.035,
+            0.0091000004,
+            1
+        ],
+        "colorKeys[3]": [
+            0.088,
+            0.00023000001,
+            0.00023000001,
+            1
+        ],
+        "numColors": 3
+    }
+}

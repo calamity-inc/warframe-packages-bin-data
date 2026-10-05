@@ -1271,7 +1271,7 @@
                         "Upgrade": {
                             "UpgradeType": "WEAPON_AMMO_CONSUME_RATE",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": -0.001,
+                            "Value": -0.0049999999,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -1594,7 +1594,7 @@
                             "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
                             "OperationType": "ADD",
                             "Value": 0.0099999998,
-                            "DamageType": "DT_POISON",
+                            "DamageType": "DT_MAGNETIC",
                             "AutoType": 1,
                             "ValidType": "",
                             "CheckTypeOnInstall": 0,
@@ -1768,6 +1768,88 @@
                 "LocalizePrefixTag": "/Lotus/Language/Omega/ScaldraDamagePrefix",
                 "LocalizeSuffixTag": "/Lotus/Language/Omega/ScaldraDamageSuffix",
                 "IsAdvancedTrait": 1
+            }
+        ],
+        "MergeOptions": [
+            {
+                "ResultTag": "WeaponWeakpointDamage",
+                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "SecondaryIngredient": "WeaponZoomFovMod"
+            },
+            {
+                "ResultTag": "WeaponWeakpointDamage",
+                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "SecondaryIngredient": "WeaponFireIterationsMod"
+            },
+            {
+                "ResultTag": "WeaponWeakpointCriticalChance",
+                "PrimaryIngredient": "WeaponCritChanceMod",
+                "SecondaryIngredient": "WeaponZoomFovMod"
+            },
+            {
+                "ResultTag": "WeaponWeakpointCriticalChance",
+                "PrimaryIngredient": "WeaponCritChanceMod",
+                "SecondaryIngredient": "WeaponFireIterationsMod"
+            },
+            {
+                "ResultTag": "WeaponAmmoEfficiency",
+                "PrimaryIngredient": "WeaponClipMaxMod",
+                "SecondaryIngredient": "WeaponReloadSpeedMod"
+            },
+            {
+                "ResultTag": "WeaponAmmoEfficiency",
+                "PrimaryIngredient": "WeaponRecoilReductionMod",
+                "SecondaryIngredient": "WeaponAmmoMaxMod"
+            },
+            {
+                "ResultTag": "WeaponStatusDamage",
+                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "SecondaryIngredient": "WeaponStunChanceMod"
+            },
+            {
+                "ResultTag": "WeaponGasDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponFireDamageMod"
+            },
+            {
+                "ResultTag": "WeaponCorrosiveDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponElectricityDamageMod"
+            },
+            {
+                "ResultTag": "WeaponViralDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponRadiationDamageMod",
+                "PrimaryIngredient": "WeaponFireDamageMod",
+                "SecondaryIngredient": "WeaponElectricityDamageMod"
+            },
+            {
+                "ResultTag": "WeaponBlastDamageMod",
+                "PrimaryIngredient": "WeaponFireDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponMagneticDamageMod",
+                "PrimaryIngredient": "WeaponElectricityDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageOrokin",
+                "PrimaryIngredient": "WeaponFactionDamageGrineer",
+                "SecondaryIngredient": "WeaponFactionDamageCorpus"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageTechrot",
+                "PrimaryIngredient": "WeaponFactionDamageCorpus",
+                "SecondaryIngredient": "WeaponFactionDamageInfested"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageScaldra",
+                "PrimaryIngredient": "WeaponFactionDamageInfested",
+                "SecondaryIngredient": "WeaponFactionDamageGrineer"
             }
         ],
         "ItemCompatibilities": [

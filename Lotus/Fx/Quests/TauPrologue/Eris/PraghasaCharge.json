@@ -12,8 +12,8 @@
                 "AttachBone": "",
                 "WorldRotation": 0,
                 "Delay": [
-                    2,
-                    2
+                    1.8,
+                    1.8
                 ],
                 "AutoDestroy": 0,
                 "LifeSpan": [
@@ -53,7 +53,57 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "PraghasaChargeDecoA",
+                "Type": "PraghasaChargeDecoB",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    2.5,
+                    2.5
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    180
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "PraghasaChargeDecoB",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "SELF",
@@ -64,6 +114,56 @@
                 "Delay": [
                     3,
                     3
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    180
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "PraghasaChargeDecoB",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    3.2,
+                    3.2
                 ],
                 "AutoDestroy": 0,
                 "LifeSpan": [

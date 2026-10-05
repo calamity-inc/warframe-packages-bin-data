@@ -1514,6 +1514,538 @@
                 "LocalizePrefixTag": "/Lotus/Language/Omega/MeleeComboGainBonusPrefix",
                 "LocalizeSuffixTag": "/Lotus/Language/Omega/MeleeComboGainBonusSuffix",
                 "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponGasDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponGasDamage.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_GAS",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponGasDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/GasPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/GasSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponCorrosiveDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponCorrosiveDamage.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_CORROSIVE",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponCorrosiveDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/CorrosivePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/CorrosiveSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponViralDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponViralDamage.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_VIRAL",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponViralDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ViralPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ViralSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponRadiationDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponRadiationDamage.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_RADIATION",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponRadiationDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/RadiationPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/RadiationSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponBlastDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponBlastDamage.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_EXPLOSION",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponExplosionDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/BlastPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/BlastSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponMagneticDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponMagneticDamage.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_MAGNETIC",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponMagneticDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/MagneticPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/MagneticSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponFactionDamageOrokin",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleDamageCorrupted.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "GAMEPLAY_FACTION_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0049999999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "Orokin",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponFactionDamageCorruptedDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 1,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.0099999998,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/OrokinDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/OrokinDamageSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponFactionDamageTechrot",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponFactionDamageTechrot.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "GAMEPLAY_FACTION_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0049999999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "Techrot",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponFactionDamageTechrotDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 1,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.0099999998,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/TechrotDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/TechrotDamageSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponFactionDamageScaldra",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponFactionDamageScaldra.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "GAMEPLAY_FACTION_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0049999999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "Scaldra",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponFactionDamageScaldraDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 1,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.0099999998,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ScaldraDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ScaldraDamageSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponStatusDamage",
+                "Icon": "/Lotus/Interface/Cards/Images/Melee/DualStatFireProcMelee.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PROC_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponStatusDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/StatusDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/StatusDamageSuffix",
+                "IsAdvancedTrait": 1
+            }
+        ],
+        "MergeOptions": [
+            {
+                "ResultTag": "WeaponStatusDamage",
+                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "SecondaryIngredient": "WeaponStunChanceMod"
+            },
+            {
+                "ResultTag": "WeaponGasDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponFireDamageMod"
+            },
+            {
+                "ResultTag": "WeaponCorrosiveDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponElectricityDamageMod"
+            },
+            {
+                "ResultTag": "WeaponViralDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponRadiationDamageMod",
+                "PrimaryIngredient": "WeaponFireDamageMod",
+                "SecondaryIngredient": "WeaponElectricityDamageMod"
+            },
+            {
+                "ResultTag": "WeaponBlastDamageMod",
+                "PrimaryIngredient": "WeaponFireDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponMagneticDamageMod",
+                "PrimaryIngredient": "WeaponElectricityDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageOrokin",
+                "PrimaryIngredient": "WeaponFactionDamageGrineer",
+                "SecondaryIngredient": "WeaponFactionDamageCorpus"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageTechrot",
+                "PrimaryIngredient": "WeaponFactionDamageCorpus",
+                "SecondaryIngredient": "WeaponFactionDamageInfested"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageScaldra",
+                "PrimaryIngredient": "WeaponFactionDamageInfested",
+                "SecondaryIngredient": "WeaponFactionDamageGrineer"
+            },
+            {
+                "ResultTag": "WeaponMeleeHeavyAttackDamageMod",
+                "PrimaryIngredient": "WeaponMeleeComboEfficiencyMod",
+                "SecondaryIngredient": "WeaponMeleeComboBonusOnHitMod"
+            },
+            {
+                "ResultTag": "WeaponMeleeHeavyAttackChargeMod",
+                "PrimaryIngredient": "WeaponMeleeComboEfficiencyMod",
+                "SecondaryIngredient": "ComboDurationMod"
+            },
+            {
+                "ResultTag": "WeaponMeleeParryAngleMod",
+                "PrimaryIngredient": "WeaponFireRateMod",
+                "SecondaryIngredient": "WeaponMeleeRangeIncMod"
+            },
+            {
+                "ResultTag": "WeaponMeleeSlamDamageMod",
+                "PrimaryIngredient": "WeaponMeleeDamageMod",
+                "SecondaryIngredient": "WeaponFireRateMod"
             }
         ],
         "ItemCompatibilities": [

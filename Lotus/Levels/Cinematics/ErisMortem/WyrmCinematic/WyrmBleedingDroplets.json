@@ -46,8 +46,8 @@
         ],
         "DecayRegenByEmission": 1,
         "SpewCount": [
-            80,
-            80
+            120,
+            120
         ],
         "Material": "/Lotus/Fx/Gore/BloodMetaBallEnergyColor",
         "RandomStartFrame": 1,
@@ -77,18 +77,29 @@
             0.1,
             0.60000002
         ],
-        "NozzleMeshScale": [
-            0.1,
-            0.1,
-            0.1
-        ],
-        "NozzleDev": 0.25,
-        "NozzleSize": 1,
+        "Nozzle": "SPHERE",
+        "UseRootForParent": 0,
+        "NozzleDev": 0.5,
+        "NozzleSize": 3.5,
         "Speed": [
             5,
             15
         ],
-        "Drag": 1,
+        "Drag": 2,
+        "Mass": [
+            0.5,
+            1
+        ],
+        "PushFromFacingStrength": 0,
+        "PushVector": [
+            0,
+            -50,
+            0
+        ],
+        "PushMass": [
+            0,
+            1
+        ],
         "FlowOffsetRate": [
             1,
             0,

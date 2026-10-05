@@ -15,8 +15,15 @@
             "BodySkin"
         ],
         "AnimationSubTrees": {
-            "PRN_IDLE_OVERRIDE": "/Lotus/Types/Sentinels/DefaultSentinelIdle.animtree"
+            "PRN_IDLE_OVERRIDE": "/Lotus/Types/Sentinels/DefaultSentinelIdle.animtree",
+            "PRN_CUSTOM_FIRE": "/Lotus/Types/Sentinels/CorpusFiring.animtree"
         },
+        "NamedSubTrees": [
+            {
+                "name": "SentinelPreDeath",
+                "tree": "/Lotus/Types/Sentinels/SentinelPowersuits/SentinelSubtrees/CorpusSentinelPreDeathTree.animtree"
+            }
+        ],
         "ApplyToAttachmentsOfType": [
             "/Lotus/Types/Sentinels/SentinelWeapons/GlaivePartDecoMid",
             "/Lotus/Types/Sentinels/SentinelWeapons/GlaivePartDecoFront",
@@ -235,6 +242,20 @@
                     }
                 ]
             }
-        }
+        },
+        "ResourceOverrides": [
+            {
+                "Tag": "LaserCast",
+                "Resource": "/Lotus/Animations/Pets/Corpus/Idle_anim.fbx"
+            },
+            {
+                "Tag": "PushCast",
+                "Resource": "/Lotus/Animations/Pets/Corpus/DownedEnd_anim.fbx"
+            },
+            {
+                "Tag": "MagicCast",
+                "Resource": "/Lotus/Animations/Pets/Corpus/Idle_anim.fbx"
+            }
+        ]
     }
 }

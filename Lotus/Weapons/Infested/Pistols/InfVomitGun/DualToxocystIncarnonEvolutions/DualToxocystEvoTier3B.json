@@ -7,12 +7,13 @@
         "Icon": "/Lotus/Interface/Icons/EvolvingWeapons/AdditionalViralDamageInFrenziedState.png",
         "Upgrades": [
             {
-                "UpgradeType": "WEAPON_DAMAGE_AMOUNT",
+                "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
                 "OperationType": "ADD",
                 "Value": 0.69999999,
                 "DamageType": "DT_POISON",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -29,7 +30,8 @@
                 "ReverseValueSymbol": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "ApplyUpgradesByDefault": 0,
@@ -48,6 +50,7 @@
         "ConditionalUpgrades": [
             "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OnPistolHeadshotCondition"
         ],
-        "ConditionTag": "/Lotus/Language/Upgrades/OnHeadshotCondition_Description"
+        "ConditionTag": "/Lotus/Language/Upgrades/OnHeadshotCondition_Description",
+        "HudBuffIcon": "/Lotus/Interface/Icons/EvolvingWeapons/AdditionalViralDamageInFrenziedState.png"
     }
 }

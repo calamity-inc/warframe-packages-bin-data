@@ -2252,7 +2252,7 @@
                         "Upgrade": {
                             "UpgradeType": "WEAPON_AMMO_CONSUME_RATE",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": -0.001,
+                            "Value": -0.0049999999,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -2621,7 +2621,7 @@
                             "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
                             "OperationType": "ADD",
                             "Value": 0.0099999998,
-                            "DamageType": "DT_POISON",
+                            "DamageType": "DT_MAGNETIC",
                             "AutoType": 1,
                             "ValidType": "",
                             "CheckTypeOnInstall": 0,
@@ -2795,6 +2795,148 @@
                 "LocalizePrefixTag": "/Lotus/Language/Omega/ScaldraDamagePrefix",
                 "LocalizeSuffixTag": "/Lotus/Language/Omega/ScaldraDamageSuffix",
                 "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponZoomFovMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleZoomMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_ZOOM",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0046660001,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponZoomModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ZoomPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ZoomSuffix",
+                "IsAdvancedTrait": 0
+            }
+        ],
+        "MergeOptions": [
+            {
+                "ResultTag": "WeaponWeakpointDamage",
+                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "SecondaryIngredient": "WeaponZoomFovMod"
+            },
+            {
+                "ResultTag": "WeaponWeakpointDamage",
+                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "SecondaryIngredient": "WeaponFireIterationsMod"
+            },
+            {
+                "ResultTag": "WeaponWeakpointCriticalChance",
+                "PrimaryIngredient": "WeaponCritChanceMod",
+                "SecondaryIngredient": "WeaponZoomFovMod"
+            },
+            {
+                "ResultTag": "WeaponWeakpointCriticalChance",
+                "PrimaryIngredient": "WeaponCritChanceMod",
+                "SecondaryIngredient": "WeaponFireIterationsMod"
+            },
+            {
+                "ResultTag": "WeaponAmmoEfficiency",
+                "PrimaryIngredient": "WeaponClipMaxMod",
+                "SecondaryIngredient": "WeaponReloadSpeedMod"
+            },
+            {
+                "ResultTag": "WeaponAmmoEfficiency",
+                "PrimaryIngredient": "WeaponRecoilReductionMod",
+                "SecondaryIngredient": "WeaponAmmoMaxMod"
+            },
+            {
+                "ResultTag": "WeaponMagazineReloadHolstered",
+                "PrimaryIngredient": "WeaponAmmoMaxMod",
+                "SecondaryIngredient": "WeaponReloadSpeedMod"
+            },
+            {
+                "ResultTag": "WeaponMagazineReloadHolstered",
+                "PrimaryIngredient": "WeaponAmmoMaxMod",
+                "SecondaryIngredient": "WeaponClipMaxMod"
+            },
+            {
+                "ResultTag": "WeaponStatusDamage",
+                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "SecondaryIngredient": "WeaponStunChanceMod"
+            },
+            {
+                "ResultTag": "WeaponGasDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponFireDamageMod"
+            },
+            {
+                "ResultTag": "WeaponCorrosiveDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponElectricityDamageMod"
+            },
+            {
+                "ResultTag": "WeaponViralDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponRadiationDamageMod",
+                "PrimaryIngredient": "WeaponFireDamageMod",
+                "SecondaryIngredient": "WeaponElectricityDamageMod"
+            },
+            {
+                "ResultTag": "WeaponBlastDamageMod",
+                "PrimaryIngredient": "WeaponFireDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponMagneticDamageMod",
+                "PrimaryIngredient": "WeaponElectricityDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageOrokin",
+                "PrimaryIngredient": "WeaponFactionDamageGrineer",
+                "SecondaryIngredient": "WeaponFactionDamageCorpus"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageTechrot",
+                "PrimaryIngredient": "WeaponFactionDamageCorpus",
+                "SecondaryIngredient": "WeaponFactionDamageInfested"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageScaldra",
+                "PrimaryIngredient": "WeaponFactionDamageInfested",
+                "SecondaryIngredient": "WeaponFactionDamageGrineer"
             }
         ],
         "ItemCompatibilities": [

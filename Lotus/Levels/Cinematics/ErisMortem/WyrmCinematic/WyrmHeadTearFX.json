@@ -3,10 +3,10 @@
     "data": {
         "CreatedTypes": [
             {
-                "Type": "WyrmCinBurstGoo",
+                "Type": "WyrmHeadTearGoo",
                 "Sound": "",
                 "AttachSound": 1,
-                "Attach": "SELF",
+                "Attach": "NONE",
                 "InheritAttachBone": 1,
                 "InheritAttachPosRot": 1,
                 "AttachBone": "",
@@ -53,10 +53,10 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "WyrmCinBloodSplashMultidir",
+                "Type": "WyrmHeadTearBlood",
                 "Sound": "",
                 "AttachSound": 1,
-                "Attach": "SELF",
+                "Attach": "NONE",
                 "InheritAttachBone": 1,
                 "InheritAttachPosRot": 1,
                 "AttachBone": "",
@@ -103,10 +103,10 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "WyrmCinPunchDirectionalSpawn",
+                "Type": "WyrmHeadTearBloodDirSpawn",
                 "Sound": "",
                 "AttachSound": 1,
-                "Attach": "SELF",
+                "Attach": "NONE",
                 "InheritAttachBone": 1,
                 "InheritAttachPosRot": 1,
                 "AttachBone": "",
@@ -153,10 +153,10 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "WyrmCinBloodSplashDeco",
+                "Type": "WyrmPunchInfestedLiquidDeco",
                 "Sound": "",
                 "AttachSound": 1,
-                "Attach": "SELF",
+                "Attach": "NONE",
                 "InheritAttachBone": 1,
                 "InheritAttachPosRot": 1,
                 "AttachBone": "",
@@ -203,10 +203,10 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "WyrmCinBloodMistMultidir",
+                "Type": "WyrmHeadTearMist",
                 "Sound": "",
                 "AttachSound": 1,
-                "Attach": "SELF",
+                "Attach": "NONE",
                 "InheritAttachBone": 1,
                 "InheritAttachPosRot": 1,
                 "AttachBone": "",
@@ -253,10 +253,10 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "/Lotus/Fx/Explosions/Generic/ExplosionRippleHuge",
+                "Type": "WyrmPunchRipple",
                 "Sound": "",
                 "AttachSound": 1,
-                "Attach": "SELF",
+                "Attach": "NONE",
                 "InheritAttachBone": 1,
                 "InheritAttachPosRot": 1,
                 "AttachBone": "",
@@ -303,10 +303,10 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "/Lotus/Fx/Explosions/Generic/ExplosionFireLightHuge",
+                "Type": "WyrmPunchLight",
                 "Sound": "",
                 "AttachSound": 1,
-                "Attach": "SELF",
+                "Attach": "NONE",
                 "InheritAttachBone": 1,
                 "InheritAttachPosRot": 1,
                 "AttachBone": "",
@@ -353,10 +353,60 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "WyrmCinDropletsMultiDir",
+                "Type": "WyrmHeadTearDroplets",
                 "Sound": "",
                 "AttachSound": 1,
-                "Attach": "SELF",
+                "Attach": "NONE",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "WyrmPunchSpores",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "NONE",
                 "InheritAttachBone": 0,
                 "InheritAttachPosRot": 0,
                 "AttachBone": "",

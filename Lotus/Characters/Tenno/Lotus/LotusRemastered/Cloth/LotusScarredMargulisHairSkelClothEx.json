@@ -1,0 +1,107 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "LotusHairCloth_skel.fbx",
+        "MaterialParams": [
+            {
+                "name": "PreserveDefaultTints",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            }
+        ],
+        "Attached": 1,
+        "AttachBone": "GAME_C1_HEAD1",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Sigil.lua",
+            "Function": "RemoveSigilFromThis",
+            "_applyTintColor": 1,
+            "_colorParam": "TintColor",
+            "_applyEnergyColor": 0,
+            "_energyParam": "FlipTintColor",
+            "_applyAlpha": 1,
+            "_minAlpha": 0.1,
+            "_maxAlpha": 1,
+            "_illumBase": 0,
+            "_illumAtten": 1,
+            "_emblemType": "LotusSuitCustomization_ET_GUILD",
+            "_twitchProj": "",
+            "_useLegacyMastery": 0,
+            "_legacyMasteryTextures": [],
+            "_sigilType": "/Lotus/Fx/Sigils/BasicSigil"
+        },
+        "ReplicaRunScriptInstance": 1,
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "LotusHairSkelClothData",
+        "Collision": "LotusScarredMargulisHairSimCollision",
+        "PeerCollision": "LotusScarredMargulisHairSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.082000002,
+                0.094117999
+            ],
+            "collidingDampeningRange": [
+                0.028999999,
+                0.085294001
+            ],
+            "massRange": [
+                0.2,
+                0.43200001
+            ],
+            "distConstraintRange": [
+                0.15000001,
+                0.2
+            ],
+            "useBackstopConstraints": 1,
+            "backstopConstraintRange": [
+                0.1,
+                0.5
+            ],
+            "reduceStretchExponent": 0.28999999,
+            "shearingStiffness": 0.5,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "windVelocityScale": 0.5,
+            "windStrength": [
+                0,
+                0
+            ],
+            "noiseSpeed": 0,
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.75,
+                0.75,
+                0.75
+            ],
+            "windVolumeScale": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "windVolumeOffsetRate": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "usePeerCollision": 0,
+            "addFloorPlaneCollision": 0,
+            "collisionExemptions": [
+                "Clav",
+                "SpineFull",
+                "NeckFull",
+                "Head",
+                ""
+            ],
+            "orientationBasis": "NEG_X_Y",
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        },
+        "ZoneWindScale": 2
+    }
+}

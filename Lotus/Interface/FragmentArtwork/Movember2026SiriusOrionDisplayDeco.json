@@ -1,0 +1,45 @@
+{
+    "parent": "/Lotus/Types/Game/DojoPlaceableDecorations/PosterPlaceableDecoration",
+    "data": {
+        "Mesh": "FragmentScreenB.fbx",
+        "OverrideMaterial": [
+            "Movember2026SiriusOrionDisplayMat"
+        ],
+        "UseOcclusionQuery": 0,
+        "DeadParentInheritanceRule": "NONE",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Effects/LisetEffects.lua",
+            "Function": "ApplyShipEnergyColor",
+            "_colorButNoFlickerDecos": [],
+            "_effectsDecos": [],
+            "_lightsToChange": [],
+            "_dustParticles": "",
+            "_applyColorToMe": 0,
+            "_applyToChildren": 0,
+            "_applyToTheseChildren": [],
+            "_sleepTime": 1,
+            "_MaxDistance": 6,
+            "_MinAniSpd": 0.2,
+            "_MaxAniSpd": 2,
+            "_StreamChild": "",
+            "_SpinTransTimeLength": 1
+        },
+        "ReplicaRunScriptInstance": 1,
+        "LocTag": "/Lotus/Language/ShipDecorations/Movember2026SiriusOrionName",
+        "LongDesc": "/Lotus/Language/ShipDecorations/Movember2026SiriusOrionDesc",
+        "DisablePhysicsWhenInvisible": 0,
+        "NonDojoPlaceableDecorationChildRenderPolicy": "MOP_APPLY_MAT_OVERRIDE",
+        "KinematicPhysics": "/EE/Types/Physics/KinematicAvatarsWalkThrough",
+        "PreviewScaleOverride": 1,
+        "PreviewPositionOverride": [
+            -1,
+            1.2,
+            2
+        ],
+        "PreviewRotationOverride": [
+            0,
+            -90,
+            0
+        ]
+    }
+}

@@ -1,8 +1,14 @@
 {
     "parent": "/Lotus/Levels/Proc/Corpus/CorpusShipRelightProcLevelInfo",
     "data": {
+        "PostProcessInfo": {
+            "colorGrading": "/Lotus/Fx/ColorGradingData/KuvaPathColorGrading"
+        },
         "OnLocalAvatarCreatedScript": {
             "_MusicSequencerType": "/Lotus/Music/DynamicMusic/IcebladeOfNarin/IcebladeOfNarinCmbtMusicSequencer"
+        },
+        "WeatherAutoChild": {
+            "Type": "/Lotus/Fx/Levels/Zariman/IceBlade/KuvaPathWeather"
         }
     }
 }

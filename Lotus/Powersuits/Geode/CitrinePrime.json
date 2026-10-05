@@ -90,6 +90,9 @@
             },
             "BodySkin": {
                 "ItemType": "/Lotus/Upgrades/Skins/Geode/CitrinePrimeSkin"
+            },
+            "Face": {
+                "ItemType": "/Lotus/Upgrades/Skins/Geode/CitrinePrimeAux"
             }
         },
         "VariantType": "VT_PRIME",
@@ -99,140 +102,6 @@
         "MaxShieldOverride": 270,
         "ArmourRatingOverride": 325,
         "IsPrime": 1,
-        "AttachedFX": [
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "",
-                "Type": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/CitrinePrimeArmFlapLDeco",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "",
-                "Type": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/CitrinePrimeArmFlapRDeco",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "",
-                "Type": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/CitrinePrimeLegFlapLDeco",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "",
-                "Type": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/CitrinePrimeLegFlapRDeco",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "GAME_C1_SPINE3",
-                "Type": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/Cloth/CitrinePrimeSkirtClothSkeletalCloth",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            },
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "GAME_C1_SPINE5",
-                "Type": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/Cloth/CitrinePrimeChestDangleClothSkeletalCloth",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            }
-        ],
         "NamedSubTrees": [
             {
                 "name": "Kneel",

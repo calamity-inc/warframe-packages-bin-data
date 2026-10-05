@@ -1,0 +1,52 @@
+{
+    "parent": "/Lotus/Fx/Common/VolumetricLightDeco",
+    "data": {
+        "MeshScale": 34,
+        "MaterialParams": [
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.16,
+                    0.44,
+                    0.81,
+                    1
+                ]
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 80
+            }
+        ],
+        "TestRotateSpeed": [
+            6,
+            6,
+            6
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.5,
+                "Multiplier": 60,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}
