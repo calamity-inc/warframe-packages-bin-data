@@ -1,0 +1,63 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "DraculaCape_skel.fbx",
+        "Attached": 1,
+        "AttachBone": "GAME_C1_SPINE5",
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "DraculaCapeClothData",
+        "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.070652001,
+                0.100652
+            ],
+            "collidingDampeningRange": [
+                0.07,
+                0.125
+            ],
+            "massRange": [
+                0.5,
+                0.69999999
+            ],
+            "distConstraintRange": [
+                0.0099999998,
+                3
+            ],
+            "reduceStretch": 0,
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 1,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "windStrength": [
+                0,
+                0
+            ],
+            "noiseSpeed": 0.2,
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                1,
+                1,
+                1
+            ],
+            "windVolumeScale": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "windVolumeOffsetRate": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        }
+    }
+}

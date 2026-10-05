@@ -1,0 +1,2414 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWeaponCustomization",
+    "data": {
+        "PickUpText": "",
+        "Equipable": 0,
+        "PremiumPrice": 20,
+        "LocalizeTag": "/Lotus/Language/Skins/ArchonDaggerDuelistSkinName",
+        "LocalizeDescTag": "/Lotus/Language/Skins/ArchonDaggerDuelistSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/ArchonDaggerDuelistSkin.png",
+        "ExcludeFromCodex": 0,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Weapons/Archon/Melee/DualDaggers/ArchonDualDaggersPlayerWep",
+        "DataForEachHand": 1,
+        "GraphicsOverrides": {
+            "MAIN_HAND": {
+                "FIRST_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "FIRST_PERSON_MeshOverride": "",
+                "THIRD_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_DORMANT",
+                                "matchTransitionState": 0,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/WeaponDecoEffects.lua",
+                                    "Function": "DestroyEffect",
+                                    "_materialParam": "",
+                                    "_invertValue": 0,
+                                    "_loadoutValue": 0,
+                                    "_newBurst": 1,
+                                    "_particleType": "/Lotus/Weapons/Narmer/Melee/ArchonDagger/ArchonDaggerFXDeco",
+                                    "_attachPos": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachRot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachedDecos": []
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_DORMANT",
+                                "matchTransitionState": 0,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
+                                    "Function": "ScaleDown",
+                                    "_largeScale": 1,
+                                    "_smallScale": 0.80000001,
+                                    "_scaleDuration": 0.1,
+                                    "_animation": "",
+                                    "_runHost": 1,
+                                    "_runClient": 1,
+                                    "_fadeAttachedDecos": 0,
+                                    "_doMeleeCheck": 1,
+                                    "_fadeDuration": 2,
+                                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
+                                    "_applyScaleWhileOnShip": 1,
+                                    "_smallScaleOverride": 1,
+                                    "_holsterCustomizations": [
+                                        "/Lotus/Types/Game/HolsterCustomization"
+                                    ],
+                                    "_scaledAttachmentMeshRequired": "",
+                                    "_scaledUpAttachment": "",
+                                    "_scaledDownAttachment": ""
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_FIRE",
+                                "matchTransitionState": 1,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/WeaponDecoEffects.lua",
+                                    "Function": "AttachEffectToWeapon",
+                                    "_materialParam": "",
+                                    "_invertValue": 0,
+                                    "_loadoutValue": 0,
+                                    "_newBurst": 1,
+                                    "_particleType": "/Lotus/Weapons/Narmer/Melee/ArchonDagger/ArchonDaggerFXDeco",
+                                    "_attachPos": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachRot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachedDecos": []
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_FIRE",
+                                "matchTransitionState": 1,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
+                                    "Function": "ScaleUp",
+                                    "_largeScale": 1,
+                                    "_smallScale": 0.80000001,
+                                    "_scaleDuration": 0.1,
+                                    "_animation": "",
+                                    "_runHost": 1,
+                                    "_runClient": 1,
+                                    "_fadeAttachedDecos": 0,
+                                    "_doMeleeCheck": 1,
+                                    "_fadeDuration": 2,
+                                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
+                                    "_applyScaleWhileOnShip": 1,
+                                    "_smallScaleOverride": 1,
+                                    "_holsterCustomizations": [
+                                        "/Lotus/Types/Game/HolsterCustomization"
+                                    ],
+                                    "_scaledAttachmentMeshRequired": "",
+                                    "_scaledUpAttachment": "",
+                                    "_scaledDownAttachment": ""
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_PRE_FIRE",
+                                "matchTransitionState": 1,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/WeaponDecoEffects.lua",
+                                    "Function": "AttachEffectToWeapon",
+                                    "_materialParam": "",
+                                    "_invertValue": 0,
+                                    "_loadoutValue": 0,
+                                    "_newBurst": 1,
+                                    "_particleType": "/Lotus/Weapons/Narmer/Melee/ArchonDagger/ArchonDaggerFXDeco",
+                                    "_attachPos": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachRot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachedDecos": []
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_PRE_FIRE",
+                                "matchTransitionState": 1,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
+                                    "Function": "ScaleUp",
+                                    "_largeScale": 1,
+                                    "_smallScale": 0.80000001,
+                                    "_scaleDuration": 0.1,
+                                    "_animation": "",
+                                    "_runHost": 1,
+                                    "_runClient": 1,
+                                    "_fadeAttachedDecos": 0,
+                                    "_doMeleeCheck": 0,
+                                    "_fadeDuration": 2,
+                                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
+                                    "_applyScaleWhileOnShip": 1,
+                                    "_smallScaleOverride": 1,
+                                    "_holsterCustomizations": [
+                                        "/Lotus/Types/Game/HolsterCustomization"
+                                    ],
+                                    "_scaledAttachmentMeshRequired": "",
+                                    "_scaledUpAttachment": "",
+                                    "_scaledDownAttachment": ""
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_EQUIP",
+                                "matchTransitionState": 0,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/WeaponDecoEffects.lua",
+                                    "Function": "AttachEffectToWeapon",
+                                    "_materialParam": "",
+                                    "_invertValue": 0,
+                                    "_loadoutValue": 0,
+                                    "_newBurst": 1,
+                                    "_particleType": "/Lotus/Weapons/Narmer/Melee/ArchonDagger/ArchonDaggerFXDeco",
+                                    "_attachPos": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachRot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachedDecos": []
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_EQUIP",
+                                "matchTransitionState": 0,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
+                                    "Function": "ScaleUp",
+                                    "_largeScale": 1,
+                                    "_smallScale": 0.80000001,
+                                    "_scaleDuration": 0.1,
+                                    "_animation": "",
+                                    "_runHost": 1,
+                                    "_runClient": 1,
+                                    "_fadeAttachedDecos": 0,
+                                    "_doMeleeCheck": 0,
+                                    "_fadeDuration": 2,
+                                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
+                                    "_applyScaleWhileOnShip": 1,
+                                    "_smallScaleOverride": 1,
+                                    "_holsterCustomizations": [
+                                        "/Lotus/Types/Game/HolsterCustomization"
+                                    ],
+                                    "_scaledAttachmentMeshRequired": "",
+                                    "_scaledUpAttachment": "",
+                                    "_scaledDownAttachment": ""
+                                }
+                            }
+                        }
+                    ],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnAnimEvent": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "condition": "RF_ALWAYS",
+                                "animation": "",
+                                "name": "HeavyLiftHit",
+                                "matchParam": 1,
+                                "param": 0,
+                                "hand": "ANY_HAND",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "suitMode": "SUIT_ANY",
+                                "weaponStates": [],
+                                "allowWhenDormant": 0,
+                                "useOnSkin": 0,
+                                "responseScript": {
+                                    "Script": ""
+                                },
+                                "overrideTag": "",
+                                "attachEffect": "/Lotus/Fx/Weapons/Melee/Clean/Channeling/MeleeHeavySuspendFX"
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnAnimEvent": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "condition": "RF_ALWAYS",
+                                "animation": "",
+                                "name": "HeavyLiftCharge",
+                                "matchParam": 1,
+                                "param": 0,
+                                "hand": "ANY_HAND",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "suitMode": "SUIT_ANY",
+                                "weaponStates": [],
+                                "allowWhenDormant": 0,
+                                "useOnSkin": 0,
+                                "responseScript": {
+                                    "Script": ""
+                                },
+                                "overrideTag": "",
+                                "attachEffect": "/Lotus/Fx/Weapons/Melee/Clean/Channeling/MeleeChargeSuspendFX"
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnAnimEvent": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "condition": "RF_ALWAYS",
+                                "animation": "",
+                                "name": "WeaponForceOpen",
+                                "matchParam": 1,
+                                "param": 0,
+                                "hand": "ANY_HAND",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "suitMode": "SUIT_ANY",
+                                "weaponStates": [],
+                                "allowWhenDormant": 0,
+                                "useOnSkin": 0,
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
+                                    "Function": "ScaleUp",
+                                    "_largeScale": 1,
+                                    "_smallScale": 0.80000001,
+                                    "_scaleDuration": 0.1,
+                                    "_animation": "",
+                                    "_runHost": 1,
+                                    "_runClient": 1,
+                                    "_fadeAttachedDecos": 0,
+                                    "_doMeleeCheck": 1,
+                                    "_fadeDuration": 2,
+                                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
+                                    "_applyScaleWhileOnShip": 1,
+                                    "_smallScaleOverride": 1,
+                                    "_holsterCustomizations": [
+                                        "/Lotus/Types/Game/HolsterCustomization"
+                                    ],
+                                    "_scaledAttachmentMeshRequired": "",
+                                    "_scaledUpAttachment": "",
+                                    "_scaledDownAttachment": ""
+                                },
+                                "overrideTag": "",
+                                "attachEffect": ""
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnAnimEvent": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "condition": "RF_ALWAYS",
+                                "animation": "",
+                                "name": "WeaponForceClosed",
+                                "matchParam": 1,
+                                "param": 0,
+                                "hand": "ANY_HAND",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "suitMode": "SUIT_ANY",
+                                "weaponStates": [],
+                                "allowWhenDormant": 0,
+                                "useOnSkin": 0,
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
+                                    "Function": "ScaleDown",
+                                    "_largeScale": 1,
+                                    "_smallScale": 0.80000001,
+                                    "_scaleDuration": 0.1,
+                                    "_animation": "",
+                                    "_runHost": 1,
+                                    "_runClient": 1,
+                                    "_fadeAttachedDecos": 0,
+                                    "_doMeleeCheck": 1,
+                                    "_fadeDuration": 2,
+                                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
+                                    "_applyScaleWhileOnShip": 1,
+                                    "_smallScaleOverride": 1,
+                                    "_holsterCustomizations": [
+                                        "/Lotus/Types/Game/HolsterCustomization"
+                                    ],
+                                    "_scaledAttachmentMeshRequired": "",
+                                    "_scaledUpAttachment": "",
+                                    "_scaledDownAttachment": ""
+                                },
+                                "overrideTag": "",
+                                "attachEffect": ""
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnAnimEvent": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "condition": "RF_ALWAYS",
+                                "animation": "",
+                                "name": "WeaponForceOpen",
+                                "matchParam": 1,
+                                "param": 0,
+                                "hand": "ANY_HAND",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "suitMode": "SUIT_ANY",
+                                "weaponStates": [],
+                                "allowWhenDormant": 0,
+                                "useOnSkin": 0,
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/WeaponDecoEffects.lua",
+                                    "Function": "AttachEffectToWeaponWithoutSkin",
+                                    "_materialParam": "",
+                                    "_invertValue": 0,
+                                    "_loadoutValue": 0,
+                                    "_newBurst": 1,
+                                    "_particleType": "/Lotus/Weapons/Narmer/Melee/ArchonDagger/ArchonDaggerFXDeco",
+                                    "_attachPos": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachRot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachedDecos": []
+                                },
+                                "overrideTag": "",
+                                "attachEffect": ""
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnAnimEvent": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "condition": "RF_ALWAYS",
+                                "animation": "",
+                                "name": "WeaponForceClosed",
+                                "matchParam": 1,
+                                "param": 0,
+                                "hand": "ANY_HAND",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "suitMode": "SUIT_ANY",
+                                "weaponStates": [],
+                                "allowWhenDormant": 0,
+                                "useOnSkin": 0,
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/WeaponDecoEffects.lua",
+                                    "Function": "DestroyEffect",
+                                    "_materialParam": "",
+                                    "_invertValue": 0,
+                                    "_loadoutValue": 0,
+                                    "_newBurst": 1,
+                                    "_particleType": "/Lotus/Weapons/Narmer/Melee/ArchonDagger/ArchonDaggerFXDeco",
+                                    "_attachPos": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachRot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachedDecos": []
+                                },
+                                "overrideTag": "",
+                                "attachEffect": ""
+                            }
+                        }
+                    ],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "THIRD_PERSON_MeshOverride": "",
+                "OverrideMeshScale": 0,
+                "MeshScale": 1,
+                "UpgradeSkinOverride": "ArchonDaggerDuelistWeaponSkin",
+                "FiringPositionOverrides": []
+            },
+            "OFF_HAND": {
+                "FIRST_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "FIRST_PERSON_MeshOverride": "",
+                "THIRD_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_DORMANT",
+                                "matchTransitionState": 0,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/WeaponDecoEffects.lua",
+                                    "Function": "DestroyEffect",
+                                    "_materialParam": "",
+                                    "_invertValue": 0,
+                                    "_loadoutValue": 0,
+                                    "_newBurst": 1,
+                                    "_particleType": "/Lotus/Weapons/Narmer/Melee/ArchonDagger/ArchonDaggerFXDeco",
+                                    "_attachPos": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachRot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachedDecos": []
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_DORMANT",
+                                "matchTransitionState": 0,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
+                                    "Function": "ScaleDown",
+                                    "_largeScale": 1,
+                                    "_smallScale": 0.80000001,
+                                    "_scaleDuration": 0.1,
+                                    "_animation": "",
+                                    "_runHost": 1,
+                                    "_runClient": 1,
+                                    "_fadeAttachedDecos": 0,
+                                    "_doMeleeCheck": 1,
+                                    "_fadeDuration": 2,
+                                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
+                                    "_applyScaleWhileOnShip": 1,
+                                    "_smallScaleOverride": 1,
+                                    "_holsterCustomizations": [
+                                        "/Lotus/Types/Game/HolsterCustomization"
+                                    ],
+                                    "_scaledAttachmentMeshRequired": "",
+                                    "_scaledUpAttachment": "",
+                                    "_scaledDownAttachment": ""
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_FIRE",
+                                "matchTransitionState": 1,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/WeaponDecoEffects.lua",
+                                    "Function": "AttachEffectToWeapon",
+                                    "_materialParam": "",
+                                    "_invertValue": 0,
+                                    "_loadoutValue": 0,
+                                    "_newBurst": 1,
+                                    "_particleType": "/Lotus/Weapons/Narmer/Melee/ArchonDagger/ArchonDaggerFXDeco",
+                                    "_attachPos": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachRot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachedDecos": []
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_FIRE",
+                                "matchTransitionState": 1,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
+                                    "Function": "ScaleUp",
+                                    "_largeScale": 1,
+                                    "_smallScale": 0.80000001,
+                                    "_scaleDuration": 0.1,
+                                    "_animation": "",
+                                    "_runHost": 1,
+                                    "_runClient": 1,
+                                    "_fadeAttachedDecos": 0,
+                                    "_doMeleeCheck": 1,
+                                    "_fadeDuration": 2,
+                                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
+                                    "_applyScaleWhileOnShip": 1,
+                                    "_smallScaleOverride": 1,
+                                    "_holsterCustomizations": [
+                                        "/Lotus/Types/Game/HolsterCustomization"
+                                    ],
+                                    "_scaledAttachmentMeshRequired": "",
+                                    "_scaledUpAttachment": "",
+                                    "_scaledDownAttachment": ""
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_PRE_FIRE",
+                                "matchTransitionState": 1,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/WeaponDecoEffects.lua",
+                                    "Function": "AttachEffectToWeapon",
+                                    "_materialParam": "",
+                                    "_invertValue": 0,
+                                    "_loadoutValue": 0,
+                                    "_newBurst": 1,
+                                    "_particleType": "/Lotus/Weapons/Narmer/Melee/ArchonDagger/ArchonDaggerFXDeco",
+                                    "_attachPos": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachRot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachedDecos": []
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_PRE_FIRE",
+                                "matchTransitionState": 1,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
+                                    "Function": "ScaleUp",
+                                    "_largeScale": 1,
+                                    "_smallScale": 0.80000001,
+                                    "_scaleDuration": 0.1,
+                                    "_animation": "",
+                                    "_runHost": 1,
+                                    "_runClient": 1,
+                                    "_fadeAttachedDecos": 0,
+                                    "_doMeleeCheck": 0,
+                                    "_fadeDuration": 2,
+                                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
+                                    "_applyScaleWhileOnShip": 1,
+                                    "_smallScaleOverride": 1,
+                                    "_holsterCustomizations": [
+                                        "/Lotus/Types/Game/HolsterCustomization"
+                                    ],
+                                    "_scaledAttachmentMeshRequired": "",
+                                    "_scaledUpAttachment": "",
+                                    "_scaledDownAttachment": ""
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_EQUIP",
+                                "matchTransitionState": 0,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/WeaponDecoEffects.lua",
+                                    "Function": "AttachEffectToWeapon",
+                                    "_materialParam": "",
+                                    "_invertValue": 0,
+                                    "_loadoutValue": 0,
+                                    "_newBurst": 1,
+                                    "_particleType": "/Lotus/Weapons/Narmer/Melee/ArchonDagger/ArchonDaggerFXDeco",
+                                    "_attachPos": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachRot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachedDecos": []
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_EQUIP",
+                                "matchTransitionState": 0,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_ALWAYS",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
+                                    "Function": "ScaleUp",
+                                    "_largeScale": 1,
+                                    "_smallScale": 0.80000001,
+                                    "_scaleDuration": 0.1,
+                                    "_animation": "",
+                                    "_runHost": 1,
+                                    "_runClient": 1,
+                                    "_fadeAttachedDecos": 0,
+                                    "_doMeleeCheck": 0,
+                                    "_fadeDuration": 2,
+                                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
+                                    "_applyScaleWhileOnShip": 1,
+                                    "_smallScaleOverride": 1,
+                                    "_holsterCustomizations": [
+                                        "/Lotus/Types/Game/HolsterCustomization"
+                                    ],
+                                    "_scaledAttachmentMeshRequired": "",
+                                    "_scaledUpAttachment": "",
+                                    "_scaledDownAttachment": ""
+                                }
+                            }
+                        }
+                    ],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnAnimEvent": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "condition": "RF_ALWAYS",
+                                "animation": "",
+                                "name": "HeavyLiftHit",
+                                "matchParam": 1,
+                                "param": 0,
+                                "hand": "ANY_HAND",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "suitMode": "SUIT_ANY",
+                                "weaponStates": [],
+                                "allowWhenDormant": 0,
+                                "useOnSkin": 0,
+                                "responseScript": {
+                                    "Script": ""
+                                },
+                                "overrideTag": "",
+                                "attachEffect": "/Lotus/Fx/Weapons/Melee/Clean/Channeling/MeleeHeavySuspendFX"
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnAnimEvent": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "condition": "RF_ALWAYS",
+                                "animation": "",
+                                "name": "HeavyLiftCharge",
+                                "matchParam": 1,
+                                "param": 0,
+                                "hand": "ANY_HAND",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "suitMode": "SUIT_ANY",
+                                "weaponStates": [],
+                                "allowWhenDormant": 0,
+                                "useOnSkin": 0,
+                                "responseScript": {
+                                    "Script": ""
+                                },
+                                "overrideTag": "",
+                                "attachEffect": "/Lotus/Fx/Weapons/Melee/Clean/Channeling/MeleeChargeSuspendFX"
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnAnimEvent": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "condition": "RF_ALWAYS",
+                                "animation": "",
+                                "name": "WeaponForceOpen",
+                                "matchParam": 1,
+                                "param": 0,
+                                "hand": "ANY_HAND",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "suitMode": "SUIT_ANY",
+                                "weaponStates": [],
+                                "allowWhenDormant": 0,
+                                "useOnSkin": 0,
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
+                                    "Function": "ScaleUp",
+                                    "_largeScale": 1,
+                                    "_smallScale": 0.80000001,
+                                    "_scaleDuration": 0.1,
+                                    "_animation": "",
+                                    "_runHost": 1,
+                                    "_runClient": 1,
+                                    "_fadeAttachedDecos": 0,
+                                    "_doMeleeCheck": 1,
+                                    "_fadeDuration": 2,
+                                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
+                                    "_applyScaleWhileOnShip": 1,
+                                    "_smallScaleOverride": 1,
+                                    "_holsterCustomizations": [
+                                        "/Lotus/Types/Game/HolsterCustomization"
+                                    ],
+                                    "_scaledAttachmentMeshRequired": "",
+                                    "_scaledUpAttachment": "",
+                                    "_scaledDownAttachment": ""
+                                },
+                                "overrideTag": "",
+                                "attachEffect": ""
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnAnimEvent": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "condition": "RF_ALWAYS",
+                                "animation": "",
+                                "name": "WeaponForceClosed",
+                                "matchParam": 1,
+                                "param": 0,
+                                "hand": "ANY_HAND",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "suitMode": "SUIT_ANY",
+                                "weaponStates": [],
+                                "allowWhenDormant": 0,
+                                "useOnSkin": 0,
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
+                                    "Function": "ScaleDown",
+                                    "_largeScale": 1,
+                                    "_smallScale": 0.80000001,
+                                    "_scaleDuration": 0.1,
+                                    "_animation": "",
+                                    "_runHost": 1,
+                                    "_runClient": 1,
+                                    "_fadeAttachedDecos": 0,
+                                    "_doMeleeCheck": 1,
+                                    "_fadeDuration": 2,
+                                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
+                                    "_applyScaleWhileOnShip": 1,
+                                    "_smallScaleOverride": 1,
+                                    "_holsterCustomizations": [
+                                        "/Lotus/Types/Game/HolsterCustomization"
+                                    ],
+                                    "_scaledAttachmentMeshRequired": "",
+                                    "_scaledUpAttachment": "",
+                                    "_scaledDownAttachment": ""
+                                },
+                                "overrideTag": "",
+                                "attachEffect": ""
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnAnimEvent": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "condition": "RF_ALWAYS",
+                                "animation": "",
+                                "name": "WeaponForceOpen",
+                                "matchParam": 1,
+                                "param": 0,
+                                "hand": "ANY_HAND",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "suitMode": "SUIT_ANY",
+                                "weaponStates": [],
+                                "allowWhenDormant": 0,
+                                "useOnSkin": 0,
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/WeaponDecoEffects.lua",
+                                    "Function": "AttachEffectToWeaponWithoutSkin",
+                                    "_materialParam": "",
+                                    "_invertValue": 0,
+                                    "_loadoutValue": 0,
+                                    "_newBurst": 1,
+                                    "_particleType": "/Lotus/Weapons/Narmer/Melee/ArchonDagger/ArchonDaggerFXDeco",
+                                    "_attachPos": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachRot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachedDecos": []
+                                },
+                                "overrideTag": "",
+                                "attachEffect": ""
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnAnimEvent": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "condition": "RF_ALWAYS",
+                                "animation": "",
+                                "name": "WeaponForceClosed",
+                                "matchParam": 1,
+                                "param": 0,
+                                "hand": "ANY_HAND",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "suitMode": "SUIT_ANY",
+                                "weaponStates": [],
+                                "allowWhenDormant": 0,
+                                "useOnSkin": 0,
+                                "responseScript": {
+                                    "Script": "/Lotus/Scripts/WeaponAttachments/WeaponDecoEffects.lua",
+                                    "Function": "DestroyEffect",
+                                    "_materialParam": "",
+                                    "_invertValue": 0,
+                                    "_loadoutValue": 0,
+                                    "_newBurst": 1,
+                                    "_particleType": "/Lotus/Weapons/Narmer/Melee/ArchonDagger/ArchonDaggerFXDeco",
+                                    "_attachPos": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachRot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "_attachedDecos": []
+                                },
+                                "overrideTag": "",
+                                "attachEffect": ""
+                            }
+                        }
+                    ],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "THIRD_PERSON_MeshOverride": "",
+                "OverrideMeshScale": 0,
+                "MeshScale": 1,
+                "UpgradeSkinOverride": "ArchonDaggerDuelistWeaponSkin",
+                "FiringPositionOverrides": []
+            },
+            "EXTRA1": {
+                "FIRST_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "FIRST_PERSON_MeshOverride": "",
+                "THIRD_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "THIRD_PERSON_MeshOverride": "",
+                "OverrideMeshScale": 0,
+                "MeshScale": 1,
+                "UpgradeSkinOverride": "",
+                "FiringPositionOverrides": []
+            },
+            "EXTRA2": {
+                "FIRST_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "FIRST_PERSON_MeshOverride": "",
+                "THIRD_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "THIRD_PERSON_MeshOverride": "",
+                "OverrideMeshScale": 0,
+                "MeshScale": 1,
+                "UpgradeSkinOverride": "",
+                "FiringPositionOverrides": []
+            }
+        },
+        "ApplyEnergyColor": 1,
+        "DefaultEnergyColor": [
+            114,
+            199,
+            255,
+            255
+        ],
+        "DefaultEnergyColor1": [
+            71,
+            135,
+            187,
+            255
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "parent": "/Lotus/Fx/Explosions/Generic/ExplosionFireEmbers",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 250
+            }
+        ],
+        "SpawnRate": 33,
+        "InheritParentScale": 1,
+        "drag": 0.2,
+        "life": [
+            0.1,
+            2
+        ],
+        "size": [
+            0.0099999998,
+            0.026000001
+        ],
+        "sizeByLifeMultiplier": [
+            1,
+            0.60000002,
+            0.1
+        ],
+        "velocity": [
+            1,
+            25
+        ],
+        "spawnShape": "SP_CONE",
+        "velocityDeviation": [
+            0.064846002,
+            0.72354901
+        ],
+        "spawnScale": [
+            0.1,
+            0.1,
+            0.1
+        ],
+        "spawnFlowBlend": 0.1921,
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksBright",
+        "colorKeys[0]": [
+            1,
+            0.13,
+            0.0060000001,
+            1
+        ],
+        "colorKeys[1]": [
+            0.87,
+            0.22,
+            0.023,
+            1
+        ]
+    }
+}

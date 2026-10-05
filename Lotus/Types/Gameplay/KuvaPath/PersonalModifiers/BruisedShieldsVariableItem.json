@@ -1,0 +1,34 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Iceblade/Condition_MeleeShields_Name",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/Condition_MeleeShields_Desc",
+        "ApplyUpgradesByDefault": 0,
+        "Script": {
+            "Script": "/Lotus/Scripts/KuvaPath/KuvaPathPersonalModifiers.lua",
+            "Function": "RestoreShields",
+            "_prefix": "",
+            "_shieldType": "",
+            "_grabEffect": "",
+            "_knockdownTriggerType": "",
+            "_beamType": "",
+            "_baseDmgPerSec": 10,
+            "_snakeWispType": "",
+            "_spotlightType": "",
+            "_shieldRestorePercent": 0.050000001,
+            "_staticSiphonBeamType": "",
+            "_grenadeType": "",
+            "_damageMultiplier": 2,
+            "_grenadeDamageRadius": 5,
+            "_spikeType": "",
+            "_antimatterDrop": "",
+            "_antimatterDropMarkerInfo": ""
+        },
+        "SubUpgrades": [
+            "BruisedShieldsVariableSubItem"
+        ],
+        "ConditionalUpgrades": [
+            "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OnMeleeHitCondition"
+        ]
+    }
+}

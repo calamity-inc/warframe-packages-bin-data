@@ -1,0 +1,39 @@
+{
+    "parent": "/Lotus/Powersuits/Brawler/SummonAvatar",
+    "data": {
+        "MeshScale": 1.75,
+        "OverrideMaterial": [
+            "/Lotus/Characters/Tenno/Brawler/RockMan/RockmanGrineerSettlementmat"
+        ],
+        "PhysicsBehavior": "/Lotus/Types/Enemies/Grineer/AIWeek/PhysicsBehaviors/BombardPhysicsBehavior",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/Juggernauts.lua",
+            "Function": "RumblerFight",
+            "_maxDmgTakenIncrease": 1.5,
+            "_minDmgDealtDecrease": 0.5,
+            "_slowMultiplier": 0.80000001,
+            "_fireRateMultiplier": 0.2,
+            "_juggernautProjType": "",
+            "_knockdownWindowTime": 2,
+            "_knockdownCooldownTime": 5,
+            "_knockbackForce": 5,
+            "_rumblerAgentType": "",
+            "_largeRumblerAgentType": "",
+            "_animControllerOverride": "/Lotus/Powersuits/Brawler/RockElementalAnimTreeController",
+            "_spawnFx": "/Lotus/Fx/PowersuitAbilities/Brawler/SummonSpawnBurst",
+            "_spawnAnim": "/Lotus/Animations/Tenno/Powers/Brawler/RockmanSpawn_anim.fbx"
+        },
+        "Faction": "Special",
+        "LocTag": "/Lotus/Language/Game/HostileRockman",
+        "ShortDesc": "/Lotus/Language/Game/HostileRockmanDesc",
+        "Icon": "/Lotus/Interface/Icons/Npcs/Quests/HostileRockman.png",
+        "MaxHealth": 2000,
+        "VoiceBox": "/Lotus/Sounds/Warframes/Brawler/MummyTombGolemAgentVoicebox",
+        "DropTable": "/Lotus/Types/DropTables/TombGuardianAgentDropTable",
+        "DamageControllerType": "/Lotus/Powersuits/Brawler/SummonHostileDamageController",
+        "CodexSecret": 1,
+        "ExcludedFromSimulacrum": 1,
+        "CodexScansRequiredOverride": 1,
+        "AbilityResistanceData": "/Lotus/Types/Game/LotusAbilityResistanceDatas/AbilityResistanceDataBoss"
+    }
+}

@@ -4,6 +4,7 @@
         "TINT_PACK": "TINT_MASK_RGBA",
         "EMISSIVE_MAP": 1,
         "EMISSIVE_MASK": 1,
+        "SPECULARMAP_IS_METALMAP": 1,
         "PS:TintColor0": [
             0.25999999,
             0.092,
@@ -70,13 +71,6 @@
         "TX:CharacterTintMask": "SentientSummonerBodyMask_t.png",
         "TX:DetailsAoMap": "SentientSummonerBody_d.png",
         "TX:EmissiveMap": "SentientSummonerBody_e.png",
-        "PS:GrimeTintColor": [
-            0.022,
-            0.02,
-            0.017000001,
-            0
-        ],
-        "PS:GrimeRoughness": 0.77681202,
         "PS:BlackParams": [
             0.5,
             0.15000001,
@@ -136,6 +130,13 @@
         ],
         "PS:GrimeRoughnessBlue": 0.77681202,
         "TX:BluePackMap": "/Lotus/Characters/Sentient/SentientTileableTextures/SentientRopalolystIron2PackMap",
-        "TX:BlueNormalMap": "/Lotus/Characters/Sentient/SentientTileableTextures/SentientIron_n.png"
+        "TX:BlueNormalMap": "/Lotus/Characters/Sentient/SentientTileableTextures/SentientIron_n.png",
+        "PS:GrimeTintColor": [
+            0.022,
+            0.02,
+            0.017000001,
+            0
+        ],
+        "PS:GrimeRoughness": 0.77681202
     }
 }

@@ -1,0 +1,14 @@
+{
+    "parent": "Transmission",
+    "data": {
+        "PortraitLevel": "/Lotus/Levels/TheNewWar2021/Part2/CephalonTeacherPortrait.level",
+        "OpenSound": "/Lotus/Sounds/UI/NewUI/Common/CyTransOpen",
+        "CloseSound": "/Lotus/Sounds/UI/NewUI/Common/CyTransClose",
+        "Sender": "/Lotus/Language/Npcs/CephalonTeacher",
+        "Script": {
+            "Script": "/Lotus/Scripts/Effects/MelicaTransmission.lua",
+            "Function": "MelicaTransmission",
+            "_melicaScreenMaterial": "/Lotus/Fx/Levels/Zariman/Melica/MelicaScreenMatA"
+        }
+    }
+}

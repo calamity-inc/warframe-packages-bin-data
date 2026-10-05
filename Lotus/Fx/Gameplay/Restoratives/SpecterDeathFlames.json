@@ -1,0 +1,103 @@
+{
+    "parent": "/Lotus/Fx/Explosions/DefaultExplosionFireball",
+    "data": {
+        "DepthSortBias": 5,
+        "MaterialParams": [
+            {
+                "name": "ColorScale",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            }
+        ],
+        "UseTeamEffectsSetting": 1,
+        "ApplyColorCustomization": 1,
+        "Life": [
+            0.5,
+            1.25
+        ],
+        "Size": [
+            0.34999999,
+            1
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.24827699
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 1.079164
+                },
+                {
+                    "Time": 1,
+                    "Value": 1.4969161
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "EmissionTime": [
+            3,
+            3
+        ],
+        "InitialCount": [
+            3,
+            3
+        ],
+        "SpewCount": [
+            32,
+            32
+        ],
+        "Material": "/Lotus/Fx/PowersuitAbilities/Temple/TempleFlamesMat",
+        "ColorMin": [
+            251,
+            27,
+            18,
+            255
+        ],
+        "ColorMax": [
+            255,
+            56,
+            16,
+            255
+        ],
+        "DepthSort": 1,
+        "Spin": [
+            -0.0049999999,
+            0.0049999999
+        ],
+        "FadeInOut": [
+            0.02,
+            0.80000001
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.30000001,
+                    "Value": 1
+                }
+            ]
+        },
+        "Nozzle": "PARENT_SKELETON",
+        "NozzleDev": 0.5,
+        "Speed": [
+            0.5,
+            1
+        ],
+        "Drag": 1,
+        "Mass": [
+            -0.22,
+            -0.050000001
+        ],
+        "PushVector": [
+            3,
+            0,
+            0
+        ]
+    }
+}

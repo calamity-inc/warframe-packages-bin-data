@@ -1,0 +1,129 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "Hardness",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.80000001
+            },
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 5
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 4
+            }
+        ],
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "VisibleDistortion": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.15000001,
+            0.18000001
+        ],
+        "Size": [
+            0.89999998,
+            1.1
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.40000001
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.80000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "Aspect": [
+            0.60000002,
+            1
+        ],
+        "InheritParentScale": 1,
+        "SpewCount": [
+            20,
+            20
+        ],
+        "Material": "/Lotus/Fx/Enemies/Mitw/OctoHorrorProjEnergyPMat",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            250,
+            113,
+            47,
+            155
+        ],
+        "ColorMax": [
+            244,
+            90,
+            54,
+            66
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0049999999,
+            0.0049999999
+        ],
+        "FadeInOut": [
+            0.1,
+            0.30000001
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.2,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.2
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "DrawRelative": 1,
+        "Nozzle": "PLANE",
+        "NozzleMeshScale": [
+            0.050000001,
+            0.050000001,
+            0.050000001
+        ],
+        "NozzleDev": 0.0199115,
+        "NozzleBox": [
+            0.050000001,
+            0.050000001,
+            0.050000001
+        ],
+        "NozzleSize": 4,
+        "Speed": [
+            11,
+            12
+        ],
+        "Drag": 4,
+        "Mass": [
+            0.17,
+            0.5
+        ]
+    }
+}

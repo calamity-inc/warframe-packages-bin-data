@@ -1,0 +1,110 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "ReceivesShadows": 1,
+        "UseLightProbes": 1,
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 2
+            },
+            {
+                "name": "SmokeColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.041999999,
+                    0.1,
+                    0.14,
+                    1
+                ]
+            }
+        ],
+        "DissolveOverride": "/Lotus/Fx/Common/WrapTextureA_d.png",
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            1.5,
+            2.5
+        ],
+        "Size": [
+            8,
+            20
+        ],
+        "GrowthRate": [
+            0.5,
+            1.4
+        ],
+        "EmissionTime": [
+            32,
+            32
+        ],
+        "InitialCount": [
+            8,
+            8
+        ],
+        "SpewCount": [
+            32,
+            32
+        ],
+        "Material": "/Lotus/Fx/Explosions/Generic/ExplosionWispyFlamesMat",
+        "AnimateTiles": 1,
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            72,
+            168,
+            180,
+            255
+        ],
+        "ColorMax": [
+            140,
+            207,
+            215,
+            255
+        ],
+        "RandOrientation": 1,
+        "ParticleMeshes": [
+            "/Lotus/Fx/Gore/BloodMeshParticleA.fbx"
+        ],
+        "FadeInOut": [
+            0.1,
+            0.94999999
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.69999999
+                },
+                {
+                    "Time": 0.33333334,
+                    "Value": 0.2
+                },
+                {
+                    "Time": 0.66666669,
+                    "Value": 0.052083299
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "Nozzle": "DISC",
+        "NozzleDev": 0.30000001,
+        "NozzleBox": [
+            0.15000001,
+            0.15000001,
+            0.050000001
+        ],
+        "NozzleSize": 5,
+        "Speed": [
+            15,
+            30
+        ],
+        "Drag": 0.25
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "UseParentVisibility": 0,
+        "DetailLevel": "PQ_MEDIUM",
+        "ApplyColorCustomization": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.30000001,
+            0.30000001
+        ],
+        "Size": [
+            0.15000001,
+            0.15000001
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.30000001
+                }
+            ]
+        },
+        "RibbonSegmentLength": 0.2,
+        "EmissionTime": [
+            20,
+            20
+        ],
+        "BurstProbability": 0,
+        "SpewCount": [
+            60,
+            60
+        ],
+        "Shape": "SH_RIBBON",
+        "Material": "/Lotus/Fx/Common/RibbonTrailBasicB",
+        "RibbonTextureStretch": 0,
+        "ColorKeys": [
+            [
+                30,
+                170,
+                232,
+                255
+            ],
+            [
+                30,
+                170,
+                232,
+                255
+            ]
+        ],
+        "FadeInOut": [
+            0,
+            0
+        ],
+        "EyeFadeDist": 1
+    }
+}

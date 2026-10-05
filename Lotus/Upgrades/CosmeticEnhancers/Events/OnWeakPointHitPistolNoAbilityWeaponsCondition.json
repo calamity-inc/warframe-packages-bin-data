@@ -1,0 +1,12 @@
+{
+    "parent": "OnHeadshotPistolCondition",
+    "data": {
+        "Script": {
+            "Script": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/IsWeakpoint.lua",
+            "Function": "MatchAttackEvent",
+            "_weakness": 0.5
+        },
+        "Part": "ANY_PART",
+        "DisableForAbilityWeapons": 1
+    }
+}

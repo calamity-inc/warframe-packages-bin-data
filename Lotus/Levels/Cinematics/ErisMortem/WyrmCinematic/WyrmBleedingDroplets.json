@@ -1,0 +1,98 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 5
+            }
+        ],
+        "IgnoreParentScale": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "InheritVelocity": [
+            0.30000001,
+            0.60000002
+        ],
+        "Life": [
+            0.5,
+            1.5
+        ],
+        "Size": [
+            0.5,
+            1.25
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.40000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "SpawnDelay": [
+            0,
+            0.1
+        ],
+        "EmissionTime": [
+            8,
+            8
+        ],
+        "DecayRegenByEmission": 1,
+        "SpewCount": [
+            80,
+            80
+        ],
+        "Material": "/Lotus/Fx/Gore/BloodMetaBallEnergyColor",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            175,
+            22,
+            0,
+            200
+        ],
+        "ColorMax": [
+            215,
+            28,
+            0,
+            255
+        ],
+        "RandOrientation": 1,
+        "Pivot": [
+            0,
+            -0.2,
+            0
+        ],
+        "Spin": [
+            -0.001,
+            0.001
+        ],
+        "FadeInOut": [
+            0.1,
+            0.60000002
+        ],
+        "NozzleMeshScale": [
+            0.1,
+            0.1,
+            0.1
+        ],
+        "NozzleDev": 0.25,
+        "NozzleSize": 1,
+        "Speed": [
+            5,
+            15
+        ],
+        "Drag": 1,
+        "FlowOffsetRate": [
+            1,
+            0,
+            0
+        ]
+    }
+}

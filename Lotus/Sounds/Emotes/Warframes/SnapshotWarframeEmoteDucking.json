@@ -1,0 +1,20 @@
+{
+    "parent": "/EE/Types/Sound/MixEffect",
+    "data": {
+        "Duckings": [
+            {
+                "mixGroup": "/EE/Sounds/Mixer/SoundFx",
+                "gainAdjust": -6
+            },
+            {
+                "mixGroup": "/EE/Sounds/Mixer/Dialog",
+                "gainAdjust": -3
+            },
+            {
+                "mixGroup": "/EE/Sounds/Mixer/MusicSubmix",
+                "gainAdjust": -3
+            }
+        ],
+        "UseAmplitudeEnvelope": 1
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "CullDistance": 25,
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            }
+        ],
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "IgnoreParentRotation": 1,
+        "IgnoreParentScale": 1,
+        "SpawnRate": 40,
+        "EnergyTintMethod": "ETM_LIFE",
+        "fireOnce": 0,
+        "useCollisions": 0,
+        "mass": [
+            0,
+            0
+        ],
+        "life": [
+            3,
+            5
+        ],
+        "size": [
+            0.1,
+            0.1
+        ],
+        "velocity": [
+            0,
+            0.30000001
+        ],
+        "windAttenuation": [
+            0.60000002,
+            1
+        ],
+        "streaksFactor": 0,
+        "spawnShape": "SP_BOX",
+        "velocityDeviation": [
+            0,
+            0
+        ],
+        "spawnScale": [
+            15,
+            6,
+            15
+        ],
+        "flowForce": [
+            0.2,
+            0.2,
+            0.2
+        ],
+        "flowForceEnd": [
+            0.30000001,
+            0.30000001,
+            0.30000001
+        ],
+        "flowScrolling": [
+            0,
+            0,
+            1
+        ],
+        "forceField": "/EE/Materials/Util/CurlNoiseFlowVolumeNoise_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/DepthDustMotes",
+        "colorKeys[0]": [
+            0.46000001,
+            0.46000001,
+            0.46000001,
+            1
+        ],
+        "colorKeys[2]": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "numColors": 1
+    }
+}

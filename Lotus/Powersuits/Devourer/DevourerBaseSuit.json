@@ -13,11 +13,20 @@
         "AmmoClipSize": 0,
         "OwnerSetScript": {
             "Script": "DevourerPassive.lua",
-            "Function": "AddUpgrades"
+            "Function": "AddUpgrades",
+            "_augmentFilterWeaponTypes": [
+                "/Lotus/Weapons/Tenno/Archwing/Primary/ArchGun",
+                "/Lotus/Types/Gameplay/1999Wf/Quest/1999QuestRocketLauncherWeapon",
+                "/Lotus/Types/Gameplay/1999Wf/Assassination/RocketLauncherWeapon",
+                "/Lotus/Weapons/1999/RocketPropelledGrenadeLauncher/1999RPGLauncher"
+            ],
+            "_augmentHudBuffType": "PassiveAugmentBuff"
         },
         "OnRemovedScript": {
             "Script": "DevourerPassive.lua",
-            "Function": "RemoveUpgrades"
+            "Function": "RemoveUpgrades",
+            "_augmentFilterWeaponTypes": [],
+            "_augmentHudBuffType": ""
         },
         "LevelUpgrades": [
             {
@@ -776,6 +785,10 @@
             {
                 "Tag": "KneelToStand",
                 "Resource": "/Lotus/Animations/Tenno/Menu/KneelToStandGrendel_anim.fbx"
+            },
+            {
+                "Tag": "ElementalAmmoBaseUpgrade",
+                "Resource": "/Lotus/Powersuits/Frumentarius/BaseElementalAmmoUpgrade"
             }
         ],
         "Museum": "/Lotus/Levels/Museum/LeverianGrendel.level"

@@ -1,0 +1,85 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 10
+            }
+        ],
+        "UseParentVisibility": 0,
+        "Attached": 1,
+        "AttachParent": "VenusWeatherDeco",
+        "Active": 0,
+        "MaximumParticles": 30000,
+        "SpawnRate": 600,
+        "fireOnce": 0,
+        "resilience": 0,
+        "drag": 0.41999999,
+        "mass": [
+            0.40000001,
+            0.5
+        ],
+        "life": [
+            1,
+            2
+        ],
+        "size": [
+            0.059999999,
+            0.1
+        ],
+        "sizeByLifeMultiplier": [
+            0.25,
+            1,
+            0.25
+        ],
+        "velocity": [
+            0.1,
+            0.2
+        ],
+        "streaksFactor": 0,
+        "spawnScale": [
+            10,
+            10,
+            10
+        ],
+        "flowScale": [
+            0.30000001,
+            0.30000001,
+            0.30000001
+        ],
+        "flowForce": [
+            10,
+            5,
+            10
+        ],
+        "flowForceEnd": [
+            2,
+            2,
+            2
+        ],
+        "forceField": "/EE/Materials/Util/CurlNoiseFlowVolumeVectors_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/SnowFlakesEnergyColor",
+        "colorKeys[0]": [
+            0.064999998,
+            0.064999998,
+            0.064999998,
+            0
+        ],
+        "colorKeys[1]": [
+            0.41,
+            0.41,
+            0.41,
+            0.69999999
+        ],
+        "colorKeys[3]": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "numColors": 3
+    }
+}

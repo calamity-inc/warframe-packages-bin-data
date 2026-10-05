@@ -1,0 +1,69 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "SWCitrineHeliotropiaHelmetCloth_skel.fbx",
+        "Tag": "EffectsDeco",
+        "ControlData": "SWCitrineHeliotropiaHelmetClothData",
+        "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.13122199,
+                0.132805
+            ],
+            "collidingDampeningRange": [
+                0.010181,
+                0.014706
+            ],
+            "massRange": [
+                0.074661002,
+                0.1
+            ],
+            "distConstraintRange": [
+                0.001,
+                0.0099999998
+            ],
+            "reduceStretch": 0,
+            "reduceStretchExponent": 0.0099999998,
+            "shearingStiffness": 0.25,
+            "addXAxisHardContraints": 1,
+            "worldVelocityAtten": [
+                1.5,
+                1.5,
+                1.5
+            ],
+            "worldVelocitySmooth": 0,
+            "maxRootVelocity": 30,
+            "wind": [
+                1,
+                0,
+                1
+            ],
+            "windStrength": [
+                0,
+                0
+            ],
+            "noiseSpeed": 2,
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.75,
+                0.75,
+                0.75
+            ],
+            "windVolumeScale": [
+                1,
+                1,
+                1
+            ],
+            "windVolumeOffsetRate": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "addFloorPlaneCollision": 0,
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        }
+    }
+}

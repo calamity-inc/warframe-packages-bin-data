@@ -1,5 +1,5 @@
 {
-    "parent": "/Lotus/Types/EnvDangers/OrokinLaserBeam",
+    "parent": "/Lotus/Types/EnvDangers/OrokinLaserBeamBase",
     "data": {
         "CullDistance": 80,
         "MaterialParams": [
@@ -126,9 +126,6 @@
             "ProcChance": 0.5
         },
         "HitEntityHitEffect": "",
-        "HitEntityScript": {
-            "Script": ""
-        },
         "FollowPlayerSequencerType": ""
     }
 }

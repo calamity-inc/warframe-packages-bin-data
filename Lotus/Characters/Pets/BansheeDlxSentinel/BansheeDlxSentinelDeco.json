@@ -1,0 +1,106 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "UseLightMap": 0,
+        "BakeShadowsOnLightMaps": 0,
+        "ReceivesShadows": 1,
+        "ShadowLightmaps": 1,
+        "ShadowDynamics": 1,
+        "UseAmbient": 1,
+        "SharpenSH": 1,
+        "Mesh": "BansheeDlxSentinel_skel.fbx",
+        "MotionBlurred": 1,
+        "UseParentAnimState": 1,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_TAILATTACH",
+                "Type": "/Lotus/Characters/Pets/Sockets/Tails/BansheeDlxSentinelTail/BansheeDlxSentinelTailClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_MASKATTACH",
+                "Type": "/Lotus/Characters/Pets/Sockets/Masks/BansheeDlxSentinelMask/BansheeDlxSentinelMaskClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_R1_WINGATTACH",
+                "Type": "/Lotus/Characters/Pets/Sockets/Wings/BansheeDlxSentinelWings/BansheeDlxSentinelWingRClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_L1_WINGATTACH",
+                "Type": "/Lotus/Characters/Pets/Sockets/Wings/BansheeDlxSentinelWings/BansheeDlxSentinelWingLClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": ""
+    }
+}

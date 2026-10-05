@@ -1,0 +1,13 @@
+{
+    "data": {
+        "Label": "Snap Object To Spline",
+        "Qualifications": [
+            "/EE/Editor/ToolMenus/Conditions/CndSplineEntitySelected",
+            "/EE/Editor/ToolMenus/Conditions/CndInstanceSelected"
+        ],
+        "Disqualifications": [
+            "/EE/Editor/ToolMenus/Conditions/CndSelectionViewLocked",
+            "/EE/Editor/ToolMenus/Conditions/CndOnlySplineSelected"
+        ]
+    }
+}

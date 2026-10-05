@@ -1,0 +1,34 @@
+{
+    "parent": "/Lotus/Types/Game/DojoDecorationRecipeItem",
+    "data": {
+        "RegularPrice": 50000,
+        "LocalizeTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnTankTrapAName",
+        "LocalizeDescTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnTankTrapADesc",
+        "Icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/GrineerPlaceables/GrineerTauPlaceables/STMxGrnTankTrapA.png",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 30000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 20000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 10000
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "ItemCount": 2000
+            }
+        ],
+        "BuildTime": 86400,
+        "BuildPrice": 50000,
+        "SkipBuildTimePrice": 750,
+        "ResultDecoration": "/Lotus/Objects/Tenno/Props/TauGrineerPlaceables/STMxGrnTankTrapA",
+        "DecoCapacityCost": 1,
+        "AssetRefundPercentage": 1,
+        "DecoCategory": "DDC_GRINEER"
+    }
+}

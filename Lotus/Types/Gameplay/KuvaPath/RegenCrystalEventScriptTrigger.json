@@ -1,0 +1,24 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "PhysicsBehavior": "",
+        "Tag": "KuvaEvent",
+        "SurvivesMigration": 1,
+        "Dimensions": [
+            0,
+            0,
+            0
+        ],
+        "AllowReentrant": 0,
+        "Replication": "BOTH",
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/KuvaPath/RegenCrystalEvent.lua",
+                    "Function": "Event"
+                }
+            }
+        ]
+    }
+}

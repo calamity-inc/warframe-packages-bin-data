@@ -10,10 +10,10 @@
         "DrawInTransparentPass": 1,
         "DistortionMaterial": "/Lotus/Fx/Weapons/Corpus/ElectroMag/ElectroMagProjectileDistortion",
         "DeadParentInheritanceRule": "NONE",
-        "ApplyColorCustomization": 1,
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
+                "Slot": -1,
                 "TimeLength": 0.75,
                 "Multiplier": 0.80000001,
                 "FadeRange": [
@@ -33,6 +33,7 @@
             },
             {
                 "Parameter": "DistortAtten",
+                "Slot": -1,
                 "TimeLength": 0.75,
                 "Multiplier": 3,
                 "FadeRange": [
@@ -54,6 +55,7 @@
         "TriggeredMaterialFade": [
             {
                 "Parameter": "UnlitAtten",
+                "Slot": -1,
                 "TimeLength": 0.5,
                 "Multiplier": 0.80000001,
                 "FadeRange": [
@@ -73,6 +75,7 @@
             },
             {
                 "Parameter": "DistortAtten",
+                "Slot": -1,
                 "TimeLength": 0.5,
                 "Multiplier": 3,
                 "FadeRange": [
@@ -91,6 +94,7 @@
                 "IsRepeating": 0
             }
         ],
+        "ApplyColorCustomization": 1,
         "UseTeamEffectsSetting": 1
     }
 }

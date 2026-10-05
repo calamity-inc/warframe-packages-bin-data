@@ -1,0 +1,38 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/WarframeCrafting/CraftingComponent_NarinChassisName",
+        "LocalizeDescTag": "/Lotus/Language/WarframeCrafting/CraftingComponent_NarinChassisDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeChassis.png",
+        "TypeName": "/Lotus/Types/Recipes/WarframeRecipes/NarinChassisBlueprint",
+        "SellingPrice": 3500,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1787754405,
+        "Giftable": 0,
+        "ExcludeFromCodex": 0,
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "NarinChassisComponent",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 3300
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 1200
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Cryotic",
+                "ItemCount": 800
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                "ItemCount": 10
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "SkipBuildTimePrice": 25
+    }
+}

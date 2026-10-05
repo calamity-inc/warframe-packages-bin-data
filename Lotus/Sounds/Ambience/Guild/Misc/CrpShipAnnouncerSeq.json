@@ -1,0 +1,32 @@
+{
+    "parent": "/EE/Types/Engine/Sequencer",
+    "data": {
+        "Tag": "CrpAnnouncerMain",
+        "SurvivesMigration": 1,
+        "Channels": [
+            {
+                "LoopCount": 0,
+                "TimeOfDay": "",
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "CrpShipAnnouncer",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            60,
+                            80
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": []
+            }
+        ],
+        "AllowZoneCulling": 0
+    }
+}

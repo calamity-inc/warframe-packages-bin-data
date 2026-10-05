@@ -1,0 +1,32 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "PhysicsBehavior": "",
+        "Tag": "KuvaComplicationsMgr",
+        "SurvivesMigration": 1,
+        "DebugColor": [
+            0,
+            255,
+            0,
+            255
+        ],
+        "DisabledDebugColor": [
+            255,
+            0,
+            0,
+            0
+        ],
+        "AllowReentrant": 0,
+        "Replication": "BOTH",
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/Modes/ComplicationsMgr/ComplicationsMgr.lua",
+                    "Function": "Entry",
+                    "_complicationMgrStartDelay": 20
+                }
+            }
+        ]
+    }
+}

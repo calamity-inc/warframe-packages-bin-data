@@ -1,0 +1,221 @@
+{
+    "parent": "/EE/Types/Engine/GuidedProjectile",
+    "data": {
+        "Mesh": "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGunProjectile.fbx",
+        "MeshScale": 0.1,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGunRocketProjTrail",
+                "Chance": 0,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGunBurstSpores",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGunProjectileFlare",
+                "Chance": 0,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Enemies/KuvaEximus/KuvaEximusProjectileDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 0.69999999
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Enemies/KuvaEximus/KuvaEximusProjectileTrailRibbon",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 0.69999999
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Enemies/KuvaEximus/KuvaEximusProjectileFlare",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Enemies/KuvaEximus/KuvaEximusProjectileTrailInk",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicNonCollidable",
+        "ReplicationOverride": "RO_ALWAYS",
+        "ReplicateCreator": 1,
+        "AttackData": {
+            "Amount": 100,
+            "ForcedProcs": [
+                "PT_RAGDOLL"
+            ],
+            "HitType": "DHT_PROJECTILE"
+        },
+        "DealDamageThroughImpactBehavior": 1,
+        "ExplosiveAttack": {
+            "Type": "DT_PHYSICAL",
+            "DT_IMPACT": 0.33333334,
+            "DT_PUNCTURE": 0.33333334,
+            "DT_SLASH": 0.33333331,
+            "Amount": 120,
+            "ProcChance": 0
+        },
+        "ExplosionIgnoreSource": 1,
+        "DamageRadius": 1,
+        "DamageMultAppliesToExplosiveRadius": 1,
+        "HitEffect": "/Lotus/Fx/Enemies/KuvaEximus/KuvaEximusProjectileHitEffect",
+        "DieEffect": "/Lotus/Fx/Enemies/KuvaEximus/KuvaEximusVoidImpactFX",
+        "DieEffectShot": "/Lotus/Fx/Enemies/KuvaEximus/KuvaEximusVoidImpactFX",
+        "DieSound": "/Lotus/Sounds/Enemies/Eximus/Kuva/EximusKuvaOrbExplosion",
+        "DieEffectOffset": [
+            0,
+            0,
+            0
+        ],
+        "IgnoreCollisionsWithSameType": 1,
+        "BounceOnAvatars": 0,
+        "RayMoveTestRadius": 0.2,
+        "WhizzBySound": "/Lotus/Sounds/Enemies/Eximus/Kuva/EximusKuvaOrbWhizBy",
+        "WhizzByRadius": 10,
+        "IgnoreFriendlyAvatars": 1,
+        "Health": 1,
+        "ContactDelayTimer": 0.2,
+        "CanBeAttracted": 0,
+        "KinematicMovement": 1,
+        "KinematicMaxSpeed": 120,
+        "KinematicRestitution": 0,
+        "KinematicRestitutionParallel": 0,
+        "KinematicBulletRaycast": 0,
+        "ProjectileReplication": "REPLICATED",
+        "FaceVelocity": 1,
+        "KinematicIgnoredTypes": [
+            "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/DarkKuvaEximusShieldDeco",
+            "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/DarkKuvaEximusShieldHitProxy",
+            "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/DarkKuvaEximusShieldScriptTrigger"
+        ],
+        "ApplyColorCustomization": 1,
+        "ForwardVel": 30,
+        "AimRate": 180,
+        "ReducedAimRate": 180,
+        "SeekAllEntities": 1,
+        "AvatarTargetPart": "TORSO"
+    }
+}

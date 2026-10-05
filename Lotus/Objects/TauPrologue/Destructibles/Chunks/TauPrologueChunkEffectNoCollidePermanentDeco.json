@@ -1,0 +1,67 @@
+{
+    "parent": "/EE/Types/Engine/EffectDecoration",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "PivotTilingInfluence",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0,
+                "value1": 0,
+                "value2": 0,
+                "value3": 0
+            },
+            {
+                "name": "PivotLayerTilingInfluence",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0,
+                "value1": 0,
+                "value2": 0,
+                "value3": 0
+            },
+            {
+                "name": "TintGradientPivotInfluence",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            },
+            {
+                "name": "MeshScaleLayerTilingInfluence",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0,
+                "value1": 0,
+                "value2": 0,
+                "value3": 0
+            }
+        ],
+        "MotionBlurred": 1,
+        "PhysicsBehavior": "/EE/Types/Physics/DynamicAvatarsWalkThrough",
+        "ExplicitMass": 500,
+        "Tag": "DestructibleChunk",
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 16.5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "UseDitherDissolve": 1
+    }
+}

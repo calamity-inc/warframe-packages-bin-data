@@ -1,0 +1,30 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "DuelistHelmetHoops_skel.fbx",
+        "ControlData": "DuelistHelmetHoopsSkelClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.1,
+                0.1
+            ],
+            "massRange": [
+                1,
+                1
+            ],
+            "distConstraintRange": [
+                0,
+                0.029999999
+            ],
+            "backstopConstraintRange": [
+                0,
+                0.0099999998
+            ],
+            "reduceStretchExponent": 0.69999999,
+            "shearingStiffness": 1,
+            "simulateCollisionLast": 0
+        },
+        "UseDynamicCollision": 0,
+        "UseClothCollision": 1
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "parent": "OperatorAnimController",
+    "data": {
+        "AnimTree": "OperatorConversationAnimTree.animtree",
+        "EyelidTrackingEnabled": 1,
+        "UpperLidTrackPercent": 0.30000001,
+        "LowerLidTrackPercent": 0.25,
+        "Actions": [
+            {
+                "Action": "DisableIdleVariation",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_SELECT",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_SELECT",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "Talk01",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "Talk02",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 2
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 2
+                    }
+                ]
+            },
+            {
+                "Action": "Talk03",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 3
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 3
+                    }
+                ]
+            },
+            {
+                "Action": "StopTalk",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

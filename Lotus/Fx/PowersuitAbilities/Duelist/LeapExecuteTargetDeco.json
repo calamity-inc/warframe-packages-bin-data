@@ -1,0 +1,162 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "DuelistLeapExecuteHintMesh.fbx",
+        "MeshScale": 0.64999998,
+        "OverrideMaterial": [
+            "LeapExecuteTargetDecoMat",
+            "LeapExecuteTargetDecoBMat"
+        ],
+        "DissolveOverride": "/Lotus/Fx/Weapons/Melee/WeaponTrails/Basic/WeaponTrailEnergyFire_d.png",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0.40000001,
+                    0
+                ],
+                "LocalRotation": [
+                    0.70710677,
+                    0,
+                    0,
+                    0.70710677
+                ],
+                "BoneName": "",
+                "Type": "LeapExecuteTargetDecal",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1.25
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0.60000002,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/PaxDuviricus/ExecuteTargetFlare",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 1,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.5,
+                            "Value": 1
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 1
+            },
+            {
+                "Parameter": "vScalesFade",
+                "Slot": -1,
+                "TimeLength": 0.25,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "TriggeredMaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 1,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 1
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "RandomMaterialParameters": [
+            {
+                "Parameter": "CustomTime",
+                "RandomLow": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "RandomHigh": [
+                    1,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "ApplyColorCustomization": 1
+    }
+}

@@ -841,6 +841,7 @@
                     "StopMovingWhenAttacking": 1,
                     "DisablePostureChangers": 0,
                     "TimeBetweenLunges": 2,
+                    "MaxMeleeHeightDifference": 2,
                     "LowTargetThreshold": 0.80000001,
                     "NormalAttack": "MELEE",
                     "LowAttack": "MELEE",
@@ -1593,10 +1594,8 @@
                     "MaxHorizontalLeapDistance": 15,
                     "MaxSearchHeight": 0,
                     "MaxSearchDepth": 20,
-                    "NavmeshSearchRadius": 2,
-                    "ForwardSearchIncrements": 5,
-                    "SideSearchDistance": 10,
-                    "SideSearchIncrements": 5
+                    "NumRandomPoints": 100,
+                    "NearestFirst": 0
                 },
                 "links": [
                     {
@@ -2366,6 +2365,7 @@
                     "StopMovingWhenAttacking": 1,
                     "DisablePostureChangers": 0,
                     "TimeBetweenLunges": 2,
+                    "MaxMeleeHeightDifference": 2,
                     "LowTargetThreshold": 0.80000001,
                     "NormalAttack": "MELEE",
                     "LowAttack": "MELEE",

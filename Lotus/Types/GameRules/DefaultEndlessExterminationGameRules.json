@@ -63,6 +63,7 @@
             "_bannerTextures": [],
             "_bannerJobTextures": [],
             "_bannerFailTextures": [],
+            "_bannerSidesTextures": [],
             "_bannerOverlayTextures": [],
             "_successSounds": [],
             "_bonusRewardSound": "",
@@ -103,14 +104,21 @@
             "_minSpawnDistance": 20,
             "_maxSpawnDistance": 40,
             "_boostPickUp": "",
+            "_ultimateBoostPickup": "",
             "_boostPickUpFx": "",
             "_boostEndFx": "",
+            "_ultChargeHudFx": "",
             "_focusBoostAbilityType": "",
+            "_ultimateBoostAbilityType": "",
+            "_mergedBoostAbilityType": "",
             "_focusGainScreen": "",
             "_attachEffect": "",
             "_childDecoType": "",
             "_spawnSound": "",
-            "_focusBonusToActiveSchool": 5000
+            "_focusBonusToActiveSchool": 5000,
+            "_focusUltimateAmount": 8000,
+            "_focusUltimateBoostMultiplier": 6,
+            "_focusUmtimateBoostDuration": 45
         },
         "BoonRequestScript": {
             "ScriptTemplate": {

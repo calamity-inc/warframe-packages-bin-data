@@ -1,0 +1,99 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "Hardness",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.75
+            }
+        ],
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.34999999,
+            0.5
+        ],
+        "Size": [
+            5,
+            5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.50188899,
+                    "Value": 0.293962
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "InitialCount": [
+            7,
+            7
+        ],
+        "SpewCount": [
+            20,
+            20
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 3,
+                "Multiplier": 2,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0
+            }
+        ],
+        "Material": "/Lotus/Fx/Enemies/Sentients/Aerolyst/AerolystBuffAuraPMatSoft",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            97,
+            166,
+            255,
+            255
+        ],
+        "ColorMax": [
+            79,
+            133,
+            201,
+            255
+        ],
+        "RandOrientation": 1,
+        "Pivot": [
+            0,
+            0.69999999,
+            0
+        ],
+        "Spin": [
+            -0.0070000002,
+            0.0070000002
+        ],
+        "FadeInOut": [
+            0.5,
+            1
+        ],
+        "DrawRelative": 1,
+        "Nozzle": "SPHERE",
+        "NozzleSize": 0.69999999
+    }
+}

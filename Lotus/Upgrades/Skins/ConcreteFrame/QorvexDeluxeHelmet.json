@@ -1,0 +1,41 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "PremiumPrice": 1000,
+        "LocalizeTag": "/Lotus/Language/Deluxe/QorvexDeluxeHelmetName",
+        "LocalizeDescTag": "/Lotus/Language/Deluxe/QorvexDeluxeHelmetDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/QorvexDeluxeHelmet.png",
+        "ExcludeFromCodex": 0,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrameBaseSuit",
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Characters/Tenno/Brutalist/QorvexDeluxe/QorvexDeluxeHelmetDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "ApplyEnergyColor": 1,
+        "OverrideAttachedFx": 1,
+        "AttachedFxOverrides": []
+    }
+}

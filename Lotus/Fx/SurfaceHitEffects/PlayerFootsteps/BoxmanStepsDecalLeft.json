@@ -1,0 +1,29 @@
+{
+    "parent": "StepsSandDecal",
+    "data": {
+        "Material": "BoxmanStepsDecalMat",
+        "Width": 1.5,
+        "Height": 3,
+        "Length": 1,
+        "UvMirrorMode": "UVMM_MirrorX",
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 12,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0.02,
+                    0.30000001
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 1,
+                "DestroyWhenComplete": 1
+            }
+        ]
+    }
+}

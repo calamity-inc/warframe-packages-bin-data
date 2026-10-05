@@ -1,0 +1,21 @@
+{
+    "parent": "/Lotus/Types/Game/Transmissions/LotusHudlessTransmission",
+    "data": {
+        "Fullscreen": 0,
+        "InWorld": 1,
+        "Sound": "DReachVoidPendula0060Lotus_en.wav",
+        "Text": "/Lotus/Language/Subtitles/TauMafiaTCDemo/DReachVoidPendula0060Lotus",
+        "EntityToPlayOn": "/Lotus/Types/Friendly/PlayerControllable/Lotus/ControllableLotusAvatar",
+        "Tag": "ForceDefaultLotusName",
+        "Script": {
+            "Script": "/Lotus/Fx/PowersuitAbilities/Lotus/CableAbilityEffects.lua",
+            "Function": "CableGlowTriggered",
+            "_beamCrawlEffect": "",
+            "_beamCrawlEffectFinal": "",
+            "_cableBurnProjector": "",
+            "_cableCloth": "",
+            "_lotusBurnAttach": "/Lotus/Fx/Quests/SentientCity/Cinematics/LotusBurnAttach"
+        },
+        "EndInterruptTime": 2
+    }
+}

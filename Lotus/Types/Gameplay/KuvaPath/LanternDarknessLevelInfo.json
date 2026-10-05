@@ -1,0 +1,67 @@
+{
+    "parent": "/EE/Types/Engine/LevelInfo",
+    "data": {
+        "PostProcessInfo": {
+            "colorGrading": "/Lotus/Fx/ColorGradingData/Captura/NeutralColorGrading",
+            "desaturateColor": [
+                58,
+                41,
+                255,
+                255
+            ],
+            "fogColor": [
+                9,
+                15,
+                12,
+                255
+            ],
+            "distanceFogDensity": 0.57499999,
+            "heightFogFalloff": 0.40000001,
+            "lightMapTint": [
+                119,
+                140,
+                126,
+                255
+            ],
+            "postFXMaterial": "/Lotus/Types/ACESPost"
+        },
+        "LightingParams": {
+            "bakingOptions:Type": "/EE/Types/Darkitect/BakingOptions",
+            "bakingOptions:NovaBakeRadiosity": 1,
+            "bakingOptions:NovaSamplesPerPixel": 128,
+            "bakingOptions:ExportDiffuseTextures": "ET_NONE",
+            "bakingOptions:NovaApertureSamplesPerPixel": 144,
+            "bakingOptions:LegacyIndexLighting": 0,
+            "bakingOptions:UseHiddenLights": 1,
+            "bakingOptions:BakeMainLodLightmaps": 1,
+            "bakingOptions:BakeHlodLightmaps": 1,
+            "bakingOptions:RandomSeed": 0,
+            "bakingOptions:ParentLevel": "",
+            "bakingOptions:KeepUnchangedLightmaps": 1,
+            "bakingOptions:UnchangedSignalToNoiseRatio": 50,
+            "bakingOptions:ParentSignalToNoiseRatio": 30,
+            "bakingOptions:ChromaMipBias": 2,
+            "bakingOptions:DirectionMapMipBias": 1,
+            "bakingOptions:MaxObjectLightMapSize": "MLM_2048x2048",
+            "bakingOptions:ObjectLightMapSizeDownscale": 0,
+            "bakingOptions:MaxLightMapPageSize": "MLM_2048x2048",
+            "bakingOptions:AutoGenerateLightProbes": 1,
+            "bakingOptions:LightProbeMinMax": [
+                5,
+                15
+            ],
+            "bakingOptions:LightProbeHeight": 1,
+            "bakingOptions:LightProbeAdaptiveThreshold": 2,
+            "bakingOptions:ProbeLitObjectsAffectLightProbes": 0,
+            "bakingOptions:UseSpatialAtlasingVer": 3,
+            "bakingOptions:LightmapView": "LMV_LIGHT_MAP",
+            "bakingOptions:BakeDirectional": 1,
+            "bakingOptions:BakeIndexed": 1,
+            "bakingOptions:BakeLightProbes": 1,
+            "bakingOptions:BakeCubeMaps": 1,
+            "bakingOptions:BakeSkyProbe": 1,
+            "bakingOptions:EnableApertureLightmapsPreDilate": 0,
+            "bakingOptions:IndirectLightingFilterRadius": 5
+        }
+    }
+}

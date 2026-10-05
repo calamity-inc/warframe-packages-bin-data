@@ -1,0 +1,74 @@
+{
+    "parent": "/Lotus/Types/Game/DojoPlaceableDecorations/VendorPlaceableDecoration",
+    "data": {
+        "Mesh": "/Lotus/Objects/KuvaIceBlade/Props/KIBxSwordBladeHoldA.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0.52999997,
+                    1.01,
+                    0.52999997
+                ],
+                "LocalRotation": [
+                    0.28832299,
+                    -0.27087,
+                    0.91444302,
+                    0.085405
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Icebalde/SwordPull/DuelistExaltedSwordPropDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Icebalde/SwordPull/SwordPullEnergyPropProj",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "LocTag": "/Lotus/Language/ShipDecorations/LisetPropIcebladeName",
+        "LongDesc": "/Lotus/Language/ShipDecorations/LisetPropIcebladeDesc",
+        "DisablePhysicsWhenInvisible": 0,
+        "NonDojoPlaceableDecorationChildRenderPolicy": "MOP_APPLY_MAT_OVERRIDE",
+        "KinematicPhysics": "/EE/Types/Physics/KinematicAvatarsWalkThrough",
+        "OverridePreviewCamera": 1,
+        "PreviewCameraPositionOffset": [
+            0,
+            0.2,
+            -2
+        ],
+        "PreviewCameraTargetOffset": [
+            0.75,
+            0.40000001,
+            0
+        ],
+        "PreviewScaleOverride": 0.89999998,
+        "PreviewPositionOverride": [
+            -1.2,
+            0,
+            1.25
+        ]
+    }
+}

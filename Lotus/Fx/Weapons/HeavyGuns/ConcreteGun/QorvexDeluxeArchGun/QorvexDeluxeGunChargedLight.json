@@ -1,0 +1,35 @@
+{
+    "parent": "/EE/Types/Engine/Light",
+    "data": {
+        "Color": [
+            246,
+            159,
+            103,
+            255
+        ],
+        "Brightness": 1.38875,
+        "Lumens": 2222,
+        "Radius": 7,
+        "LightEffect": "FLICKER_PERLIN",
+        "EffectRate": 5,
+        "EffectSecondary": 5,
+        "LifeSpan": 4.5,
+        "BrightnessCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.30000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        }
+    }
+}

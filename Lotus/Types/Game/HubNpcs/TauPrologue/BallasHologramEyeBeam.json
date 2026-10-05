@@ -1,0 +1,68 @@
+{
+    "parent": "/Lotus/Types/EnvDangers/OrokinLaserBeamBase",
+    "data": {
+        "DepthSortBias": 30,
+        "MaterialParams": [
+            {
+                "name": "LowColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.00044999999,
+                    0.00039,
+                    0.037999999,
+                    0
+                ]
+            }
+        ],
+        "DeadParentInheritanceRule": "NONE",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0.079999998
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "BallasHologramEyeFlare",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "Active": 1,
+        "BeamMaterial": "/Lotus/Fx/Quests/NewWar/PartThree/UnumTower/DeaconBeamMat",
+        "DotMaterial": "",
+        "Tint": [
+            0,
+            153,
+            255,
+            255
+        ],
+        "TargetInRangeTint": [
+            0,
+            3,
+            200,
+            255
+        ],
+        "Segments": 4,
+        "Radius": 0.25,
+        "TraceDist": 15,
+        "DotSize": 0.1,
+        "HitEntityAttack": {
+            "Amount": 0
+        },
+        "FollowPlayerSequencerType": "",
+        "AdjustEndPointByAim": 0
+    }
+}

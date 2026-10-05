@@ -1,0 +1,40 @@
+{
+    "parent": "/Lotus/Types/Game/PowerSuitAbility",
+    "data": {
+        "Icon": "/Lotus/Interface/Icons/Abilities/Misc/VesselStomp.png",
+        "UniquePowerIdentifier": "VESSEL_STOMP",
+        "Script": {
+            "Script": "GiantVesselStompAbility.lua",
+            "Function": "ActivateAbility",
+            "_meleeAttackBranch": "MeleeAttack_CC_GROUND_BRANCH_C"
+        },
+        "EnergyRequiredToActivate": 0,
+        "ActivationXP": 0,
+        "SoundEvents": [
+            {
+                "EventName": "SFXStompStart",
+                "Sound": "/Lotus/Sounds/Characters/EntratiVessel/Abilities/EntratiVesselStompStart",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXStompAttack",
+                "Sound": "/Lotus/Sounds/Characters/EntratiVessel/Abilities/EntratiVesselStompAttack",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXStompEnd",
+                "Sound": "/Lotus/Sounds/Characters/EntratiVessel/Abilities/EntratiVesselStompEnd",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            }
+        ]
+    }
+}

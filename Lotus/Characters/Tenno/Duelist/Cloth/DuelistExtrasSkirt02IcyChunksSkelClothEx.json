@@ -1,0 +1,56 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "DuelistExtrasSkirt02IcyChunks_skel.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "IceChunkRef2ClothBoneB2",
+                "Type": "DuelistExtrasSkirt02SmallRingsSkelClothEx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "ControlData": "DuelistExtrasSkirt02IcyChunksSkelClothData",
+        "Collision": "DuelistSkirtSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.079999998,
+                0.079999998
+            ],
+            "massRange": [
+                1,
+                1
+            ],
+            "distConstraintRange": [
+                0,
+                0.1
+            ],
+            "useBackstopConstraints": 1,
+            "backstopConstraintRange": [
+                0,
+                0.5
+            ],
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 1,
+            "simulateCollisionLast": 0
+        },
+        "UseDynamicCollision": 0,
+        "UseClothCollision": 1
+    }
+}

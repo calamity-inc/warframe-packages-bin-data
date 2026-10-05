@@ -1,0 +1,313 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 105,
+        "AdditionalItems": [
+            "SWCovenJadeHelmet"
+        ],
+        "LocalizeTag": "/Lotus/Language/SteamWorkshop/SWCovenJadeSkinName",
+        "LocalizeDescTag": "/Lotus/Language/SteamWorkshop/SWCovenJadeSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/SWJadeCovenSkin.png",
+        "ExcludeFromCodex": 0,
+        "IsPurchasePlatformLocked": 1,
+        "OverrideDateAddedToManifest": 1790215200,
+        "PCProdId": 6504,
+        "IsSteamPurchase": 1,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Powersuits/Choir/ChoirBaseSuit",
+        "UpgradeSkinOverride": "SWCovenJadeWeaponSkin",
+        "CompatibleSlots": [
+            "BodySkin"
+        ],
+        "ApplyEnergyColor": 1,
+        "OverrideAttachedFx": 1,
+        "AttachedFxOverrides": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_BELLYSPHERE",
+                "Type": "/Lotus/Characters/Tenno/Choir/SWCovenJade/SWCovenJadeLightRaysDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Characters/Tenno/Choir/SWCovenJade/SWCovenJadeBodyWingDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "DefaultEnergyColor": [
+            223,
+            42,
+            118,
+            0
+        ],
+        "DefaultEnergyColor1": [
+            59,
+            39,
+            157,
+            0
+        ],
+        "DefaultCustomizationOverrides": {
+            "CustomEmblem": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0.050000001,
+                            0.0099999998,
+                            -0.079999998
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "EventEmblem": {
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            -0.050000001,
+                            -0.0099999998,
+                            0.079999998
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "Chest": {
+                "EXTRA2": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            }
+        },
+        "ScriptEvents": [
+            {
+                "EventName": "WingsOpen",
+                "ExecuteScript": {
+                    "Script": "/Lotus/Scripts/Effects/ChoirFrameCloth.lua",
+                    "Function": "WingsOpenClose",
+                    "_openWings": 1,
+                    "_wingsTags": [
+                        "WingsCloth",
+                        "WingsClothChest"
+                    ],
+                    "_maxRigidity": 0.02,
+                    "_sleepFirst": 0,
+                    "_arsenalOnly": 0,
+                    "_helmetOnly": 0,
+                    "_idleEffect": ""
+                }
+            },
+            {
+                "EventName": "WingsOpenArsenal",
+                "ExecuteScript": {
+                    "Script": "/Lotus/Scripts/Effects/ChoirFrameCloth.lua",
+                    "Function": "WingsOpenClose",
+                    "_openWings": 1,
+                    "_wingsTags": [
+                        "WingsCloth",
+                        "WingsClothChest"
+                    ],
+                    "_maxRigidity": 0.02,
+                    "_sleepFirst": 0,
+                    "_arsenalOnly": 1,
+                    "_helmetOnly": 0,
+                    "_idleEffect": ""
+                }
+            },
+            {
+                "EventName": "WingsClosedArsenal",
+                "ExecuteScript": {
+                    "Script": "/Lotus/Scripts/Effects/ChoirFrameCloth.lua",
+                    "Function": "WingsOpenClose",
+                    "_openWings": 0,
+                    "_wingsTags": [
+                        "WingsCloth",
+                        "WingsClothChest"
+                    ],
+                    "_maxRigidity": 0.02,
+                    "_sleepFirst": 0,
+                    "_arsenalOnly": 1,
+                    "_helmetOnly": 0,
+                    "_idleEffect": ""
+                }
+            },
+            {
+                "EventName": "WingsClosed",
+                "ExecuteScript": {
+                    "Script": "/Lotus/Scripts/Effects/ChoirFrameCloth.lua",
+                    "Function": "WingsOpenClose",
+                    "_openWings": 0,
+                    "_wingsTags": [
+                        "WingsCloth",
+                        "WingsClothChest"
+                    ],
+                    "_maxRigidity": 0.15000001,
+                    "_sleepFirst": 0,
+                    "_arsenalOnly": 0,
+                    "_helmetOnly": 0,
+                    "_idleEffect": ""
+                }
+            },
+            {
+                "EventName": "WingsOpenChest",
+                "ExecuteScript": {
+                    "Script": "/Lotus/Scripts/Effects/ChoirFrameCloth.lua",
+                    "Function": "WingsOpenClose",
+                    "_openWings": 1,
+                    "_wingsTags": [
+                        "WingsClothChest"
+                    ],
+                    "_maxRigidity": 0.15000001,
+                    "_sleepFirst": 0,
+                    "_arsenalOnly": 0,
+                    "_helmetOnly": 0,
+                    "_idleEffect": ""
+                }
+            },
+            {
+                "EventName": "WingsClosedChest",
+                "ExecuteScript": {
+                    "Script": "/Lotus/Scripts/Effects/ChoirFrameCloth.lua",
+                    "Function": "WingsOpenClose",
+                    "_openWings": 0,
+                    "_wingsTags": [
+                        "WingsClothChest"
+                    ],
+                    "_maxRigidity": 0.15000001,
+                    "_sleepFirst": 0,
+                    "_arsenalOnly": 0,
+                    "_helmetOnly": 0,
+                    "_idleEffect": ""
+                }
+            },
+            {
+                "EventName": "WingsOpenHead",
+                "ExecuteScript": {
+                    "Script": "/Lotus/Scripts/Effects/ChoirFrameCloth.lua",
+                    "Function": "WingsOpenClose",
+                    "_openWings": 1,
+                    "_wingsTags": [
+                        "WingsCloth"
+                    ],
+                    "_maxRigidity": 0.15000001,
+                    "_sleepFirst": 0,
+                    "_arsenalOnly": 0,
+                    "_helmetOnly": 1,
+                    "_idleEffect": ""
+                }
+            },
+            {
+                "EventName": "WingsClosedHead",
+                "ExecuteScript": {
+                    "Script": "/Lotus/Scripts/Effects/ChoirFrameCloth.lua",
+                    "Function": "WingsOpenClose",
+                    "_openWings": 0,
+                    "_wingsTags": [
+                        "WingsCloth"
+                    ],
+                    "_maxRigidity": 0.15000001,
+                    "_sleepFirst": 0,
+                    "_arsenalOnly": 0,
+                    "_helmetOnly": 1,
+                    "_idleEffect": ""
+                }
+            }
+        ]
+    }
+}

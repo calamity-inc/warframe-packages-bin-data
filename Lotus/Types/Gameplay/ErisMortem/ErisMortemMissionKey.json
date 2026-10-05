@@ -1,0 +1,23 @@
+{
+    "parent": "/Lotus/Types/Game/KeyItem",
+    "data": {
+        "MarketMode": "MM_HIDDEN",
+        "LocalizeTag": "/Lotus/Language/TauPrologue/KeychainBMission",
+        "Mission": {
+            "missionType": "MT_GENERIC",
+            "faction": "FC_INFESTATION",
+            "uniqueName": "/Lotus/Language/TauPrologue/KeychainBMission",
+            "levelOverride": "/Lotus/Levels/Proc/ErisMortem/ErisMortemEvent",
+            "loadingScreenOverride": "/Lotus/Levels/ErisMortem/ErisMortemLoadingScreen.level",
+            "soloMode": 1,
+            "transferenceDisabled": 1,
+            "keyChainName": "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainB"
+        },
+        "RegionIdx": 11,
+        "NodePos": [
+            1.89,
+            0.80199999,
+            -0.1
+        ]
+    }
+}

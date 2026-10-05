@@ -1,0 +1,37 @@
+{
+    "parent": "/EE/Types/Engine/EffectDecoration",
+    "data": {
+        "UseLightProbes": 0,
+        "Mesh": "/Lotus/Fx/Common/Sphere10.fbx",
+        "MeshScale": 0.98000002,
+        "OverrideMaterial": [
+            "KuvaEximusShieldOutlineMat"
+        ],
+        "IgnoreParentRotation": 1,
+        "ReplicationOverride": "RO_DEFAULT",
+        "IsDecorationRelevant": 0,
+        "StopSoundOnInvisible": 1,
+        "TriggeredMaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 1,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

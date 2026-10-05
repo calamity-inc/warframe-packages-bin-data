@@ -87,6 +87,11 @@
             "_inkCloneFrameAvatar": "/Lotus/Types/Enemies/Shadowgrapher/InkframeCloneEnemyAvatar",
             "_inkCloneCooldown": 30,
             "_inkFrameSkipResource": "",
+            "_ignoreForTeleport": [
+                "/Lotus/Types/Enemies/Shadowgrapher/InkframeEnemyAgent",
+                "/Lotus/Types/Enemies/Shadowgrapher/InkframeCloneEnemyAgent",
+                "/Lotus/Types/Enemies/Shadowgrapher/ShadowEnemies/ShadowInfestedExplodingTendrilDroneAgent"
+            ],
             "_escalationFlickerColorGrading": "/Lotus/Fx/Interface/ThemeColorGrading/EquinoxColorGrading",
             "_escalationFlickerTime": 1.5,
             "_paBroadcastMin": 1,
@@ -104,7 +109,8 @@
             "_balloonLootCrateSpawnFX": "",
             "_balloonLootCrateType": "",
             "_balloonLootSpawnCount": 15,
-            "_shadowgrapherResource": "Resources/ShadowgrapherResource"
+            "_shadowgrapherResource": "Resources/ShadowgrapherResource",
+            "_shadowgrapherResourcePickedUp": "/Lotus/Sounds/Gameplay/Shadowgrapher/Pickups/ShadowgrapherResourcePickup"
         },
         "ClientRunsOnAddedRemovedScripts": 1
     }

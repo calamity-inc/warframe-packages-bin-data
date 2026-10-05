@@ -1,6 +1,10 @@
 {
     "parent": "CmdOpenCustomLevel",
     "data": {
-        "DefaultGameRules": "/Lotus/Types/GameRules/LotusPhotoBoothGameRules"
+        "DefaultGameRules": "/Lotus/Types/GameRules/LotusPhotoBoothGameRules",
+        "LevelSelectionScript": {
+            "Script": "/Lotus/Scripts/Cmds/CmdOpenPhotoBoothSelector.lua",
+            "Function": "ShowCapturaLevelSelect"
+        }
     }
 }

@@ -1,0 +1,117 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 3
+            },
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    1,
+                    0.56999999,
+                    0.2,
+                    0
+                ]
+            }
+        ],
+        "DistortionEffect": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "AlwaysRespectParentVisibility": 1,
+        "LifeSpan": 0,
+        "InheritVelocity": [
+            0.5,
+            0.5
+        ],
+        "Life": [
+            0.30000001,
+            0.5
+        ],
+        "Size": [
+            0.60000002,
+            0.80000001
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.5
+                },
+                {
+                    "Time": 1,
+                    "Value": 1.4
+                }
+            ]
+        },
+        "SpewCount": [
+            8,
+            8
+        ],
+        "Material": "/Lotus/Fx/Common/RadialBlurCleanMat",
+        "ColorMin": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "ColorMax": [
+            2,
+            1,
+            0,
+            255
+        ],
+        "ColorKeys": [
+            [
+                3,
+                2,
+                0,
+                225
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "RandOrientation": 1,
+        "FadeInOut": [
+            0.1,
+            0.5
+        ],
+        "Nozzle": "PARENT_SKELETON",
+        "SkeletalBoneMask": [
+            "GAME_C1_SPINE1",
+            "GAME_C1_SPINE2",
+            "GAME_C1_SPINE3",
+            "GAME_C1_NECK1",
+            "GAME_R1_ARM1",
+            "GAME_L1_ARM1",
+            "GAME_L1_LEG1",
+            "GAME_R1_LEG1",
+            "GAME_L1_LEG2",
+            "GAME_R1_LEG2"
+        ],
+        "InvertSkeletalMask": 1,
+        "Drag": 1,
+        "Mass": [
+            -0.5,
+            0
+        ],
+        "PushVector": [
+            0,
+            0,
+            1
+        ],
+        "PushMass": [
+            0,
+            1
+        ]
+    }
+}

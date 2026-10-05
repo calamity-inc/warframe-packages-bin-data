@@ -5,6 +5,7 @@
             "Script": "/Lotus/Scripts/Effects/EphemeraPrimeA.lua",
             "Function": "CreateIdleEffect",
             "_idleEffect": "CorpusLichEphemeraATickerSpawner",
+            "_movingEffect": "",
             "_beamType": "SnowEphemeraFXIdle",
             "_beamPermType": "",
             "_timerBase": 0.30000001,
@@ -13,7 +14,18 @@
             "_ditherUnlitAtten": 5,
             "_ditherMax": 0.80000001,
             "_projType": "",
-            "_lichSoundType": ""
+            "_lichSoundType": "",
+            "_spinePassiveInvertDirection": 0,
+            "_splineSize": [
+                5,
+                2,
+                5
+            ],
+            "_cloneDecoType": "",
+            "_applyAttachmentsCustomization": 0,
+            "_isSleep": 1,
+            "_minDelay": 0.40000001,
+            "_maxDelay": 0.60000002
         },
         "ReplicaRunScriptInstance": 1,
         "CreatedTypes": [

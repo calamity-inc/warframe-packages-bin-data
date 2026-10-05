@@ -3,18 +3,8 @@
     "data": {
         "EquipTime": 1.1,
         "InventorySlot": "SLOT_2",
-        "FIRST_PERSON_ATTACHMENT": {
-            "MAIN_HAND": {
-                "BoneName": "GAME_C1_RIFLEATTACH"
-            }
-        },
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
-                "LocalPosition": [
-                    0,
-                    0,
-                    -0.02
-                ],
                 "BoneName": "GAME_R1_WEAPON1",
                 "Type": "/Lotus/Weapons/Operator/Pistols/DrifterPistol/DrifterPistolAttachment"
             },
@@ -105,6 +95,7 @@
                             "onlyFireAboveMinRangeMultiplier": 0,
                             "aimAtPart": "TORSO",
                             "aimAtClosestPart": 0,
+                            "lockAimOnFullCharge": 0,
                             "firingPreferences": {
                                 "firingType": "FT_NORMAL",
                                 "burstTime": [
@@ -135,6 +126,7 @@
                         "hitSpreadMultiplier": 0
                     },
                     "IgnoreFireIterations": 0,
+                    "IgnoreOwner": 1,
                     "IsSilenced": 1,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
@@ -164,7 +156,9 @@
                         "LockOnPart": "ANY_PART",
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
-                        "LockOnIgnoreEndPointTarget": 0
+                        "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
+                        "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "",
                     "AIMED_ACCURACY": "",
@@ -201,6 +195,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 20,
                     "PvpTraceDistance": 1000,
@@ -210,6 +206,7 @@
                     "PunchthroughIgnoresAvatars": 0,
                     "RicochetChance": 0,
                     "RicochetRange": 15,
+                    "OnlyHitEnitiesOnce": 1,
                     "ForceCameraAimForLocalPlayer": 1,
                     "AimTranslationOffset": [
                         0,
@@ -243,6 +240,7 @@
                     "MaxTraceDistanceTime": 0.1,
                     "RetractTime": 0.050000001,
                     "AttachToWeapon": 1,
+                    "UseWeaponAttachmentFirePos": 0,
                     "AttachToTarget": 0,
                     "MultiBeam": 0,
                     "BeamChild": {
@@ -322,9 +320,11 @@
                             "DT_ENERGY_DRAIN": 0,
                             "DT_FINISHER": 0
                         },
+                        "radiusMin": 0,
                         "radius": 1,
                         "ignoreSource": 1,
                         "fallOff": 1,
+                        "fallOffMax": 0,
                         "checkForCover": 1,
                         "hitAirborneTargets": 1,
                         "staticCoverOnly": 0,
@@ -344,7 +344,9 @@
                         "selfAOEMultiplier": [
                             0.25,
                             0.75
-                        ]
+                        ],
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "PvpRadialDamage": {
                         "baseAmount": 20,
@@ -371,9 +373,11 @@
                             "DT_ENERGY_DRAIN": 0,
                             "DT_FINISHER": 0
                         },
+                        "radiusMin": 0,
                         "radius": 2.5,
                         "ignoreSource": 1,
                         "fallOff": 1,
+                        "fallOffMax": 0,
                         "checkForCover": 1,
                         "hitAirborneTargets": 1,
                         "staticCoverOnly": 0,
@@ -393,7 +397,9 @@
                         "selfAOEMultiplier": [
                             0.25,
                             0.75
-                        ]
+                        ],
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "RadialDamageEffects": [],
                     "RadialDamageUpgradeType": "WEAPON_DAMAGE_AMOUNT"
@@ -409,6 +415,7 @@
                             "PT_VOID"
                         ],
                         "ForcedDeathProcs": [],
+                        "ForcedProcCount": 1,
                         "HitType": "DHT_NONE",
                         "ProcExtraTime": 0
                     },
@@ -417,6 +424,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -437,6 +445,7 @@
                     ],
                     "minImpulseFallOff": 0.2,
                     "applyPushVelocity": 0,
+                    "applyPushVelocityOnlyToBlockingTarget": 0,
                     "pushMagnitude": [
                         0.5,
                         1
@@ -462,12 +471,14 @@
                     "strength": 0,
                     "radius": 0,
                     "flash": 0,
+                    "OnHitScriptEnabled": 1,
                     "OnHitScript": {
                         "Script": ""
                     },
                     "UseNextShotDamageBonus": 1,
                     "IgnoreHeadshotBonus": 0,
                     "IgnoreHeadshotBonusPvp": 0,
+                    "AlwaysOverrideFiringAvatar": 0,
                     "ApplyForcedProcsOnDeath": 0
                 },
                 "state:Type": "/EE/Types/Game/WeaponContinuousStateBehavior",
@@ -478,13 +489,17 @@
                         0
                     ],
                     "fireRate": 0.1,
+                    "NeedsPassiveUpdate": 0,
                     "ApplyNumChargesToDamageMultiplier": 1,
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 1,
+                    "PrefireTime": 0,
+                    "ShareFireRateWithPrefire": 0,
                     "ShouldAutoPreFireToFire": 0,
                     "SkipRefireOnEmpty": 0,
                     "QueueReloadOnEmptyClip": 0,
@@ -499,8 +514,11 @@
                     "CanChargeWhileRunning": 1,
                     "CanFireWhileInAir": 1,
                     "PreventRunWhileRecharging": 0,
+                    "PreventRunDuringModeSwitch": 1,
                     "UseReloadTimeBetweenShots": 0,
                     "OnlyGiveAmmoOnReloadCompleteEvent": 0,
+                    "CanInterruptModeSwitch": 0,
+                    "NeedsLockOnTargets": 0,
                     "IsAlternateFire": 0,
                     "LocTag": "/Lotus/Language/Menu/Loadout_TriggerContinous",
                     "BehaviorTag": "",
@@ -508,9 +526,12 @@
                     "MaxNumProjectiles": 0,
                     "PvpMaxNumProjectiles": 0,
                     "OverheatStyle": "OS_PLATEAU",
+                    "InstantOverheat": 0,
                     "OverheatTime": 0,
+                    "ReduceOverheatAmount": 0,
                     "OverheatCooldownModifier": 0,
                     "AmmoOverheatSound": "",
+                    "OverheatEndedSound": "",
                     "AmmoOverheatSoundResetThreshold": 0.75,
                     "ReplicateAmmoConsumption": 0,
                     "OnNewProjectileScript": {
@@ -544,6 +565,9 @@
         "BulletAttractorType": "",
         "HolsterCategory": "RIFLE",
         "UtilityReq": "/Lotus/Types/Items/MiscItems/WeaponUtilityUnlocker",
+        "UseHolsterOffsetOnAttachments": [
+            "EXTRA1"
+        ],
         "ArtifactSlots": [
             "AP_UNIVERSAL",
             "AP_UNIVERSAL",

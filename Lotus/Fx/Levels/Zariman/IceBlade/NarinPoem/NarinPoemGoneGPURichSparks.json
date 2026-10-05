@@ -1,0 +1,116 @@
+{
+    "parent": "/Lotus/Fx/Weapons/Tenno/Grimoire/GrimoireVoidElectricityImpactGPUSparks",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 60
+            },
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    1,
+                    0.62,
+                    0.19,
+                    0
+                ]
+            }
+        ],
+        "UseTeamEffectsSetting": 0,
+        "SpawnRate": 200,
+        "BoundsExpansionOverride": 0,
+        "DisableVortexOnFadeOut": 0,
+        "VortexCurve": {
+            "Values": []
+        },
+        "affectedByWind": 0,
+        "resilience": 0.1,
+        "drag": 0.30000001,
+        "mass": [
+            0.2,
+            1
+        ],
+        "life": [
+            1,
+            2
+        ],
+        "size": [
+            0.0049999999,
+            0.0099999998
+        ],
+        "velocity": [
+            0.1,
+            50
+        ],
+        "windAttenuation": [
+            1,
+            1
+        ],
+        "windKillDistance": 0.1,
+        "streaksFactor": 2,
+        "collisionDelay": 0,
+        "spawnShape": "SP_CONE",
+        "velocityDeviation": [
+            0.050000001,
+            1
+        ],
+        "spawnScale": [
+            1,
+            1,
+            1
+        ],
+        "spawnFlowBlend": 1,
+        "flowScale": [
+            0.30000001,
+            0.30000001,
+            0.30000001
+        ],
+        "flowForce": [
+            12,
+            12,
+            12
+        ],
+        "flowForceEnd": [
+            6,
+            6,
+            6
+        ],
+        "flowScrolling": [
+            0,
+            -0.5,
+            0
+        ],
+        "colorKeys[0]": [
+            0.059999999,
+            0.93000001,
+            1.92,
+            1
+        ],
+        "colorKeys[1]": [
+            0.95999998,
+            1.62,
+            1.9400001,
+            1
+        ],
+        "colorKeys[2]": [
+            0.012,
+            0.18000001,
+            0.34999999,
+            0.67000002
+        ],
+        "colorKeys[3]": [
+            0.0011,
+            0.043000001,
+            0.090999998,
+            0.67000002
+        ],
+        "simVortex": 0,
+        "vortexSpeed": 0.25,
+        "vortexDecay": 0.80000001,
+        "vortexRadialForce": 0.64999998
+    }
+}

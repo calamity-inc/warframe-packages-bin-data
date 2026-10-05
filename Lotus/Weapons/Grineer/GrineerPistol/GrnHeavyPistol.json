@@ -125,6 +125,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/HeavyPistolHipAccuracyInfo",
@@ -149,6 +150,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 300,
                     "PvpTraceDistance": 300,
@@ -211,6 +214,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -279,6 +283,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0.2,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -331,7 +336,8 @@
                     "BurstRemainingClip": 0,
                     "ConsumeAmmoOncePerBurst": 0,
                     "ForceBurstLogicOnClient": 0,
-                    "PreFireDuringBurst": 0
+                    "PreFireDuringBurst": 0,
+                    "InstantModeSwitchCancel": 0
                 }
             }
         ],
@@ -430,9 +436,12 @@
                 "RequiresAmmoInClip": 0,
                 "RequiresAmmoInInventory": 0,
                 "RespondsToEvents": 0,
+                "RespondsToAnimEvents": 1,
+                "OnlyRespondsToEventsWhenVisible": 0,
                 "UseHolster": 0,
                 "HolsterCategory": "PISTOL",
-                "ForceOffhandHolster": 0
+                "ForceOffhandHolster": 0,
+                "UseAttachmentIndexForHolsterHand": 0
             }
         ],
         "DarkSectorStateAnimations": [

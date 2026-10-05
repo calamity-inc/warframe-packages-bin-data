@@ -2816,11 +2816,11 @@
                     "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEArcaneRewards",
                     "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEVsTennoWinnerRewards",
                     "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEVsTennoHardWinnerRewards",
-                    "/Lotus/Sounds/Dialog/BaroHalloween/Week1InboxMessage/DWeek1InboxMessage01290Baro",
-                    "/Lotus/Sounds/Dialog/BaroHalloween/EndingInboxMessage/DEndingInboxMessage0230Baro",
-                    "/Lotus/Sounds/Dialog/BaroHalloween/Week2InboxMessage/DWeek2InboxMessage0060Baro",
-                    "/Lotus/Sounds/Dialog/BaroHalloween/Week3InboxMessage/DWeek3InboxMessage0120Baro",
-                    "/Lotus/Sounds/Dialog/BaroHalloween/Week4InboxMessage/DWeek4InboxMessage0170Baro",
+                    "/Lotus/Sounds/Dialog/BaroHalloween2026/DEndingRealBaroInbox0290Baro",
+                    "/Lotus/Sounds/Dialog/BaroHalloween2026/DWeekFourInbox0220Baro",
+                    "/Lotus/Sounds/Dialog/BaroHalloween2026/DWeekOneInbox0010Baro",
+                    "/Lotus/Sounds/Dialog/BaroHalloween2026/DWeekThreeInbox0150Baro",
+                    "/Lotus/Sounds/Dialog/BaroHalloween2026/DWeekTwoInbox0080Baro",
                     "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceCoHRewards/OldPeaceCoHArcaneRewards",
                     "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceCoHRewards/OldPeaceCoHCopperRewards",
                     "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceCoHRewards/OldPeaceCoHGoldRewards",
@@ -3379,6 +3379,373 @@
                     "gameRules": "",
                     "uniqueName": "",
                     "icon": "",
+                    "seed": 767676,
+                    "difficulty": 0.5,
+                    "missionReward": {
+                        "credits": 0,
+                        "xp": 0,
+                        "items": [],
+                        "countedItems": [],
+                        "countedStoreItems": [],
+                        "randomizedItems": ""
+                    },
+                    "missionRewardExtra": {
+                        "credits": 0,
+                        "xp": 0,
+                        "items": [],
+                        "countedItems": [],
+                        "countedStoreItems": [],
+                        "randomizedItems": ""
+                    },
+                    "enemyCacheOverride": "",
+                    "descText": "",
+                    "location": "",
+                    "levelOverride": "",
+                    "loadingScreenOverride": "",
+                    "enemySpec": "",
+                    "customEnemies": [],
+                    "customAdvancedSpawners": [],
+                    "customNpcEncounters": [],
+                    "extraEnemySpec": "",
+                    "regionalEnemySpawnTag": "",
+                    "regionalEnemySpec": "",
+                    "vipAgent": "",
+                    "vipAgentBeginWavePhrase": "",
+                    "vipLevelModifier": 0,
+                    "minEnemyLevel": 1,
+                    "maxEnemyLevel": 1,
+                    "minSpaceEnemyLevel": 1,
+                    "maxSpaceEnemyLevel": 1,
+                    "maxWaveNum": 0,
+                    "soloMode": 0,
+                    "archwingRequired": 0,
+                    "isSharkwingMission": 0,
+                    "requiredItems": [],
+                    "requiredItemCounts": [],
+                    "consumeRequiredItems": 0,
+                    "exclusiveWeapon": "",
+                    "fxLayer": "",
+                    "leadersAlwaysAllowed": 0,
+                    "missionUpgrades": [],
+                    "challengesEnabled": 1,
+                    "challengeTag": "",
+                    "syndicateTag": "",
+                    "syndicateXP": 0,
+                    "syndicateTitle": [
+                        1,
+                        1
+                    ],
+                    "forceAllyFaction": 0,
+                    "masteryReq": 0,
+                    "maxSuitReq": 0,
+                    "maxPlayersOverride": 0,
+                    "gravityAtten": -1,
+                    "focusAtten": 1,
+                    "transmissionOverrides": "",
+                    "buddyAgents": [],
+                    "periodicMissionTag": "",
+                    "periodicMissionCooldown": 0,
+                    "questReq": "",
+                    "eomBoss": "",
+                    "eomBossTaunt": "",
+                    "eomBossTransmission": "",
+                    "miscItemFee": {
+                        "ItemCount": 0,
+                        "ItemType": ""
+                    },
+                    "transferenceDisabled": 0,
+                    "spawnAsOperator": 0,
+                    "hubLevelTag": "",
+                    "songFragmentOverride": [],
+                    "alertId": "",
+                    "alertTag": "",
+                    "goalId": "",
+                    "goalTag": "",
+                    "syndicateId": "",
+                    "invasionId": "",
+                    "sortieId": "",
+                    "sortieTag": "",
+                    "activeMissionId": "",
+                    "activeMissionTag": "",
+                    "jobId": "",
+                    "jobTier": 0,
+                    "invasionAllyFaction": "FC_GRINEER",
+                    "levelKeyName": "",
+                    "levelKeyOwnerId": "",
+                    "keyChainName": "",
+                    "nightmare": 0,
+                    "voidStorm": 0,
+                    "voidStormId": "",
+                    "prereqIds": [],
+                    "enemyCellId": "",
+                    "enemyCellNodeId": "",
+                    "enemyCellProgress": 0,
+                    "scenarioId": "",
+                    "challengeMissionId": "",
+                    "metadata": "",
+                    "tier": 0,
+                    "bountyTag": "",
+                    "levelAuras": [],
+                    "customAuras": [],
+                    "greedWagers": [],
+                    "skillReqs": []
+                },
+                "JobCurrentVersion": {
+                    "$oid": 0
+                },
+                "Jobs": [],
+                "JobPreviousVersion": {
+                    "$oid": 0
+                },
+                "PreviousJobs": [],
+                "JobAffiliationTag": "",
+                "SuccessHubEvent": {
+                    "Transmissions": [],
+                    "Tag": "",
+                    "CinematicTag": "",
+                    "Activation": {
+                        "$date": {
+                            "$numberLong": 0
+                        }
+                    },
+                    "Expiry": {
+                        "$date": {
+                            "$numberLong": 0
+                        }
+                    },
+                    "RepeatInterval": 3600,
+                    "CycleFrequency": 7200,
+                    "Node": ""
+                },
+                "FailureHubEvent": {
+                    "Transmissions": [],
+                    "Tag": "",
+                    "CinematicTag": "",
+                    "Activation": {
+                        "$date": {
+                            "$numberLong": 0
+                        }
+                    },
+                    "Expiry": {
+                        "$date": {
+                            "$numberLong": 0
+                        }
+                    },
+                    "RepeatInterval": 3600,
+                    "CycleFrequency": 7200,
+                    "Node": ""
+                },
+                "ContinuousHubEvent": {
+                    "Transmissions": [],
+                    "Tag": "",
+                    "CinematicTag": "",
+                    "Activation": {
+                        "$date": {
+                            "$numberLong": 0
+                        }
+                    },
+                    "Expiry": {
+                        "$date": {
+                            "$numberLong": 0
+                        }
+                    },
+                    "RepeatInterval": 3600,
+                    "CycleFrequency": 7200,
+                    "Node": ""
+                },
+                "InstructionalItem": "",
+                "IsMultiProgress": 0,
+                "MultiProgress": [],
+                "UpgradeIds": [],
+                "Metadata": "",
+                "MissionKeyRotation": [],
+                "MissionKeyRotationInterval": 0,
+                "Community": 0,
+                "NightLevel": ""
+            },
+            {
+                "_id": {
+                    "$oid": 0
+                },
+                "PrereqGoalTags": [],
+                "Desc": "",
+                "ToolTip": "",
+                "CommunityReqDesc": "",
+                "ScoreLocTag": "",
+                "Transmission": "/Lotus/Sounds/Dialog/RoadToTau/DErisMortem0560Lotus",
+                "Types": [
+                    "/Lotus/Types/Gameplay/Events/RoadToTauEvent/RoadToTauEventPickup"
+                ],
+                "ItemType": "",
+                "Goal": 0,
+                "InterimGoals": [],
+                "BonusGoal": 0,
+                "ClanGoal": [],
+                "HideWhenComplete": 0,
+                "Count": 0,
+                "CountAlt": 0,
+                "ParentCountClamp": 0,
+                "HealthPct": -1,
+                "Reward": {
+                    "credits": 0,
+                    "xp": 0,
+                    "items": [],
+                    "countedItems": [],
+                    "countedStoreItems": [],
+                    "randomizedItems": ""
+                },
+                "RewardMessage": {
+                    "sub": "",
+                    "sndr": "",
+                    "msg": "",
+                    "contextInfo": "",
+                    "icon": "",
+                    "att": [],
+                    "modPacks": [],
+                    "countedAtt": [],
+                    "attSpecial": [],
+                    "transmission": "",
+                    "ordisReactionTransmission": "",
+                    "arg": [],
+                    "acceptAction": "NONE",
+                    "declineAction": "NONE",
+                    "highPriority": 0,
+                    "teleportLoc": "TP_NONE",
+                    "RegularCredits": 0,
+                    "PremiumCredits": 0,
+                    "PrimeTokens": 0,
+                    "syndicateAttachment": [],
+                    "tutorialTag": "",
+                    "customData": "",
+                    "url": "",
+                    "urlButtonText": "",
+                    "cinematic": "",
+                    "museum": "",
+                    "requiredLevel": 0
+                },
+                "InterimRewards": [],
+                "InterimRewardMessages": [],
+                "BonusReward": {
+                    "credits": 0,
+                    "xp": 0,
+                    "items": [],
+                    "countedItems": [],
+                    "countedStoreItems": [],
+                    "randomizedItems": ""
+                },
+                "BonusRewardMessage": {
+                    "sub": "",
+                    "sndr": "",
+                    "msg": "",
+                    "contextInfo": "",
+                    "icon": "",
+                    "att": [],
+                    "modPacks": [],
+                    "countedAtt": [],
+                    "attSpecial": [],
+                    "transmission": "",
+                    "ordisReactionTransmission": "",
+                    "arg": [],
+                    "acceptAction": "NONE",
+                    "declineAction": "NONE",
+                    "highPriority": 0,
+                    "teleportLoc": "TP_NONE",
+                    "RegularCredits": 0,
+                    "PremiumCredits": 0,
+                    "PrimeTokens": 0,
+                    "syndicateAttachment": [],
+                    "tutorialTag": "",
+                    "customData": "",
+                    "url": "",
+                    "urlButtonText": "",
+                    "cinematic": "",
+                    "museum": "",
+                    "requiredLevel": 0
+                },
+                "RewardRegion": "",
+                "RewardNode": "",
+                "Activation": {
+                    "$date": {
+                        "$numberLong": 0
+                    }
+                },
+                "Expiry": {
+                    "$date": {
+                        "$numberLong": 0
+                    }
+                },
+                "AltActivation": {
+                    "$date": {
+                        "$numberLong": 0
+                    }
+                },
+                "AltExpiry": {
+                    "$date": {
+                        "$numberLong": 0
+                    }
+                },
+                "NextAltActivation": {
+                    "$date": {
+                        "$numberLong": 0
+                    }
+                },
+                "NextAltExpiry": {
+                    "$date": {
+                        "$numberLong": 0
+                    }
+                },
+                "GracePeriod": {
+                    "$date": {
+                        "$numberLong": 0
+                    }
+                },
+                "Node": "",
+                "Regions": [],
+                "VictimNode": "",
+                "InvasionNode": "",
+                "OptionalInMission": 0,
+                "RegionDrops": [],
+                "ArchwingDrops": [],
+                "ConcurrentNodes": [],
+                "ConcurrentNodeReqs": [],
+                "KeyRequired": "",
+                "MissionKeyName": "",
+                "ConcurrentMissionKeyNames": [],
+                "ConcurrentMissionInfo": [],
+                "WebUrl": "",
+                "Success": 0,
+                "Ongoing": 0,
+                "Personal": 0,
+                "Best": 0,
+                "ClampNodeScores": 0,
+                "Bounty": 0,
+                "Fomorian": 0,
+                "Invasion": 0,
+                "RelayReconstruction": 0,
+                "ArchiveTag": "",
+                "Diorama": "",
+                "Icon": "/Lotus/Interface/Icons/WorldStatePanel/EpochOperationEventBadge.png",
+                "RadioSound": "",
+                "Faction": "FC_OROKIN",
+                "BonusLevelModifier": 0,
+                "BonusWaveModifier": 0,
+                "Roaming": 0,
+                "RoamingVIP": "",
+                "PvpRep": 0,
+                "ScoreVar": "",
+                "ScoreSumTag": "",
+                "ScoreMaxTag": "",
+                "ScoreMaxNode": "",
+                "ScoreTagBlocksGuildTierChanges": 1,
+                "ShowTotalAtEOM": 1,
+                "Tag": "",
+                "ParentTag": "",
+                "MissionInfo": {
+                    "missionType": "MT_ASSASSINATION",
+                    "faction": "FC_GRINEER",
+                    "gameRules": "",
+                    "uniqueName": "",
+                    "icon": "/Lotus/Interface/Icons/WorldStatePanel/EpochOperationEventBadgeSmall.png",
                     "seed": 767676,
                     "difficulty": 0.5,
                     "missionReward": {

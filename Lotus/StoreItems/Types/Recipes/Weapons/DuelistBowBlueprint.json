@@ -1,0 +1,41 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/Iceblade/DuelistBowName",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/DuelistBowDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/DuelistBow.png",
+        "TypeName": "/Lotus/Types/Recipes/Weapons/DuelistBowBlueprint",
+        "SellingPrice": 3500,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1788985644,
+        "RequiredLevel": 14,
+        "Giftable": 0,
+        "SearchTags": [
+            "/Lotus/Language/Loadout/LoadoutCat_Bow"
+        ],
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "/Lotus/StoreItems/Weapons/Tenno/Bows/DuelistBow/DuelistBow",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistBowUpperLimb",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistBowString",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistBowGrip",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistBowLowerLimb",
+                "ItemCount": 1
+            }
+        ],
+        "BuildTime": 86400,
+        "BuildPrice": 20000,
+        "SkipBuildTimePrice": 25
+    }
+}

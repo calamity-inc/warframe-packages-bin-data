@@ -1,0 +1,91 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "KpReviveStationDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "ServerChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0.75,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "KPReviveStationContextAction",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "",
+        "Tag": "KuvaPathReviveStation",
+        "Dimensions": [
+            0,
+            0,
+            0
+        ],
+        "Replication": "BOTH",
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/KuvaPath/KuvaPath.lua",
+                    "Function": "ReviveStationMonitor",
+                    "_complicationsMgr": "/Lotus/Scripts/KuvaPath/KuvaComplicationsMgr/KuvaComplicationsMgrScriptTrigger",
+                    "_cryobellTransmissionSet": "",
+                    "_eventMarkerType": "",
+                    "_eventStartActionType": "",
+                    "_loadingMovie": "",
+                    "_survivalRewardsMovie": "",
+                    "_goldChestRewardManifest": "",
+                    "_silverChestRewardManifest": "",
+                    "_goldKeyItemType": "",
+                    "_silverKeyItemType": "",
+                    "_silverChestType": "",
+                    "_endOfMatchMovie": "",
+                    "_chestFx": "",
+                    "_eventStartedSound": "",
+                    "_keyReceivedSound": "",
+                    "_iceTransitionSound": "",
+                    "_reviveFxType": "/Lotus/Fx/PowersuitAbilities/ReviveBlast",
+                    "_respawnAnim": "/Lotus/Animations/Tenno/Contextual/RevivePowerBoost_anim.fbx",
+                    "_reviveSound": "/Lotus/Sounds/Gameplay/Arbitration/ArbitrationPlayerRevive",
+                    "_reviveStationRes": "",
+                    "_stationStateRes": ""
+                }
+            }
+        ]
+    }
+}

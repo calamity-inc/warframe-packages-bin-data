@@ -1,0 +1,97 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "DepthSortBias": -5,
+        "MaterialParams": [
+            {
+                "name": "Hardness",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.34999999
+            },
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.69999999
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.69999999
+            },
+            {
+                "name": "LightingAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.97000003
+            },
+            {
+                "name": "LowResLightingStrength",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.97000003
+            },
+            {
+                "name": "LowResLightingQuadDepth",
+                "type": "Float",
+                "slot": -1,
+                "value": 7
+            }
+        ],
+        "UseParentVisibility": 0,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            1.7,
+            2.5
+        ],
+        "Size": [
+            8,
+            10
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.53230798
+                },
+                {
+                    "Time": 0.237864,
+                    "Value": 0.88307703
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "InitialCount": [
+            12,
+            15
+        ],
+        "Material": "/Lotus/Fx/Smoke/SmokeFlip",
+        "AnimateTiles": 1,
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0070000002,
+            0.0070000002
+        ],
+        "FadeInOut": [
+            0.25,
+            0.34999999
+        ],
+        "NozzleDev": 0.43000001,
+        "Speed": [
+            0,
+            45
+        ],
+        "Drag": 0.87,
+        "Mass": [
+            -0.13,
+            -0.050000001
+        ]
+    }
+}

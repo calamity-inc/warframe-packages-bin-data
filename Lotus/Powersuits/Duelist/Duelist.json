@@ -1,0 +1,98 @@
+{
+    "parent": "DuelistBaseSuit",
+    "data": {
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 370,
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/DuelistSuitDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Narin.png",
+        "Diorama": "/Lotus/Levels/Episodes/WarframesNarin.level",
+        "ExcludeFromCodex": 0,
+        "OverrideDateAddedToManifest": 1790215200,
+        "RecipeHelpText": "/Lotus/Language/Recipes/DuelistSuitRecipeHelpText",
+        "ArtifactSlots": [
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL",
+            "AP_DEFENSE",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL",
+            "AP_ATTACK",
+            "AP_TACTIC",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL"
+        ],
+        "DefaultCustomization": {
+            "CustomEmblem": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0.029999999,
+                            0,
+                            -0.015
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "EventEmblem": {
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            -0.1,
+                            0,
+                            0.02
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "AnimationSet": {
+                "ItemType": "/Lotus/Upgrades/Skins/Duelist/DuelistNobleAnims"
+            }
+        },
+        "MaxEnergy": 200,
+        "MaxHealthOverride": 270,
+        "MaxShieldOverride": 550,
+        "ArmourRatingOverride": 165
+    }
+}

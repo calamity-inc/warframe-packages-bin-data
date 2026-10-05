@@ -1,0 +1,76 @@
+{
+    "parent": "/EE/Types/Effects/Spawner",
+    "data": {
+        "CreatedTypes": [
+            {
+                "Type": "",
+                "Sound": "/Lotus/Sounds/Ambience/TauSentientCity/Props/TauCityOrokinGenericDestructibleExplosion",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 1,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            }
+        ],
+        "DestructionChunkType": "/Lotus/Objects/TauPrologue/Destructibles/Chunks/TauPrologueChunkEffectDeco",
+        "InheritDamageOriginFromDeco": 1,
+        "InheritMeshScaleForDestruction": 1,
+        "DestructionForceDirectionVariance": [
+            90,
+            90
+        ],
+        "DestructionForceRange": [
+            10,
+            15
+        ],
+        "DestructionMeshes": [
+            "/Lotus/Objects/TauPrologue/Destructibles/Chunks/OroCoverLightDChunkB.fbx",
+            "/Lotus/Objects/TauPrologue/Destructibles/Chunks/OroCoverLightDChunkC.fbx",
+            "/Lotus/Objects/TauPrologue/Destructibles/Chunks/OroCoverLightDChunkD.fbx",
+            "/Lotus/Objects/TauPrologue/Destructibles/Chunks/OroCoverLightDChunkE.fbx",
+            "/Lotus/Objects/TauPrologue/Destructibles/Chunks/OroCoverLightDChunkF.fbx",
+            "/Lotus/Objects/TauPrologue/Destructibles/Chunks/OroCoverLightDChunkG.fbx"
+        ]
+    }
+}

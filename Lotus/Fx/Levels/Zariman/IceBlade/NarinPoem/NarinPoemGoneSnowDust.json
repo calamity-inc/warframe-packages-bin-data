@@ -1,0 +1,63 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "DissolveOverride": "/Lotus/Fx/Common/CurlNoise_d.png",
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            4,
+            6.5
+        ],
+        "Size": [
+            4.5,
+            6
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.37056601
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "InitialCount": [
+            15,
+            20
+        ],
+        "Shape": "SH_SPIN_SPRITE",
+        "Material": "NarinPoemGoneSnowDustMat",
+        "AnimateTiles": 1,
+        "ColorMin": [
+            95,
+            139,
+            174,
+            255
+        ],
+        "ColorMax": [
+            131,
+            170,
+            185,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.003,
+            0.003
+        ],
+        "OrbitOffset": 0,
+        "FadeInOut": [
+            0.15000001,
+            0.34999999
+        ],
+        "Nozzle": "DISC",
+        "Speed": [
+            0.25,
+            5
+        ],
+        "Drag": 5
+    }
+}

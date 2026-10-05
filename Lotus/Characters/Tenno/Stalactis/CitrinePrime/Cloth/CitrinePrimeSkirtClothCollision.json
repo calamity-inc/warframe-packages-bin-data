@@ -1,0 +1,76 @@
+{
+    "parent": "/EE/Types/Effects/SimCollision",
+    "data": {
+        "Elements": [
+            {
+                "bone": "GAME_L1_LEG1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_L1_LEG2",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.15000001,
+                "radiusB": 0.17,
+                "tag": "Leg1Left",
+                "debugColor": [
+                    0,
+                    22,
+                    255,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_LEG1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_R1_LEG2",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.15000001,
+                "radiusB": 0.17,
+                "tag": "Leg1Right",
+                "debugColor": [
+                    255,
+                    6,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_HIP1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_C1_HIP1",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.2,
+                "radiusB": 0.2,
+                "tag": "Hip1",
+                "debugColor": [
+                    241,
+                    0,
+                    255,
+                    128
+                ]
+            }
+        ]
+    }
+}

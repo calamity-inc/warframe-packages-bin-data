@@ -9124,7 +9124,7 @@
             },
             {
                 "Suit": "/Lotus/Powersuits/Geode/Geode",
-                "Mesh": "",
+                "Mesh": "/Lotus/Characters/Tenno/Stalactis/StalactisBody_skel.fbx",
                 "MAIN_HAND": {
                     "AttachBone": "GAME_R1_LEG1",
                     "Position": [
@@ -12123,6 +12123,66 @@
                 }
             },
             {
+                "Suit": "/Lotus/Powersuits/Duelist/Duelist",
+                "Mesh": "/Lotus/Characters/Tenno/Duelist/DuelistBody_skel.fbx",
+                "MAIN_HAND": {
+                    "AttachBone": "GAME_C1_HIP1",
+                    "Position": [
+                        0.2,
+                        0,
+                        -0.079999998
+                    ],
+                    "Rotation": [
+                        0.70710677,
+                        0.241845,
+                        0,
+                        0.66446298
+                    ]
+                },
+                "OFF_HAND": {
+                    "AttachBone": "GAME_C1_HIP1",
+                    "Position": [
+                        -0.2,
+                        0,
+                        -0.079999998
+                    ],
+                    "Rotation": [
+                        0.70710677,
+                        -0.241845,
+                        0,
+                        0.66446298
+                    ]
+                },
+                "EXTRA1": {
+                    "AttachBone": "",
+                    "Position": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                "EXTRA2": {
+                    "AttachBone": "",
+                    "Position": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            },
+            {
                 "Suit": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
                 "Mesh": "/Lotus/Characters/Tenno/Styanax/StyanaxPrime/StyanaxPrimeBody_skel.fbx",
                 "MAIN_HAND": {
@@ -12151,6 +12211,66 @@
                         -0.73994201,
                         -0.166366,
                         0.62088501
+                    ]
+                },
+                "EXTRA1": {
+                    "AttachBone": "",
+                    "Position": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                "EXTRA2": {
+                    "AttachBone": "",
+                    "Position": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            },
+            {
+                "Suit": "",
+                "Mesh": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/CitrinePrimeBody_skel.fbx",
+                "MAIN_HAND": {
+                    "AttachBone": "GAME_R1_LEG1",
+                    "Position": [
+                        -0.19,
+                        0.039999999,
+                        0.11
+                    ],
+                    "Rotation": [
+                        -0.027549,
+                        -0.76512599,
+                        0.102506,
+                        0.63507098
+                    ]
+                },
+                "OFF_HAND": {
+                    "AttachBone": "GAME_L1_LEG1",
+                    "Position": [
+                        -0.19,
+                        0.039999999,
+                        -0.11
+                    ],
+                    "Rotation": [
+                        0.102506,
+                        -0.63507098,
+                        -0.027549,
+                        0.76512599
                     ]
                 },
                 "EXTRA1": {

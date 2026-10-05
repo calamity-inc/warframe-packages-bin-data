@@ -1,0 +1,104 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 5
+            }
+        ],
+        "CompositedEffect": 1,
+        "IgnoreParentScale": 1,
+        "ApplyColorCustomization": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "InheritVelocity": [
+            0.30000001,
+            0.60000002
+        ],
+        "Life": [
+            0.5,
+            1.5
+        ],
+        "Size": [
+            0.34999999,
+            0.85000002
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.40000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "SpawnDelay": [
+            0,
+            0.1
+        ],
+        "InitialCount": [
+            100,
+            100
+        ],
+        "BurstCount": [
+            100,
+            100
+        ],
+        "Material": "/Lotus/Fx/Gore/BloodMetaBallEnergyColor",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            145,
+            111,
+            255,
+            200
+        ],
+        "ColorMax": [
+            129,
+            125,
+            255,
+            255
+        ],
+        "RandOrientation": 1,
+        "Pivot": [
+            0,
+            -0.2,
+            0
+        ],
+        "Spin": [
+            -0.001,
+            0.001
+        ],
+        "FadeInOut": [
+            0.1,
+            0.60000002
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ],
+        "NozzleDev": 0.80000001,
+        "NozzleSize": 0.2,
+        "Speed": [
+            15,
+            75
+        ],
+        "Drag": 2,
+        "Mass": [
+            0.1,
+            0.5
+        ],
+        "FlowOffsetRate": [
+            1,
+            0,
+            0
+        ]
+    }
+}

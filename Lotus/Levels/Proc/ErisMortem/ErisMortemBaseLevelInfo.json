@@ -1,0 +1,300 @@
+{
+    "parent": "/EE/Types/Engine/LevelInfo",
+    "data": {
+        "PostProcessInfo": {
+            "targetExposure": 0.1345,
+            "useExposureEVCurve": 1,
+            "exposureCurveAdjustClamp": [
+                -10,
+                10
+            ],
+            "exposureCurveBias": -0.31400001,
+            "toneMapType": "TM_ACES_REF",
+            "toneMapLUT": "/EE/Materials/PostFX/FilmLooks/Rec709Fujifilm3513DID55.cube",
+            "toneMapLUTBlend": 0.69999999,
+            "colorGradingData": {
+                "Global": {
+                    "Saturation": [
+                        1,
+                        1.17,
+                        1,
+                        1.2
+                    ],
+                    "Contrast": [
+                        1,
+                        1,
+                        1,
+                        1.3
+                    ],
+                    "Gamma": [
+                        1,
+                        1,
+                        1,
+                        0.98000002
+                    ]
+                }
+            },
+            "bloom": 1.5,
+            "horizonFog": 0.12,
+            "fogColor": [
+                166,
+                198,
+                213,
+                240
+            ],
+            "distanceFogDensity": 0.12,
+            "fogTexture": "/Lotus/Objects/Natural/Skybox/FogTextures/EidolonMiddayFogTexture.png",
+            "postFXMaterial": "/Lotus/Types/ACESPost",
+            "sunPosition": [
+                0.71796799,
+                0.566342,
+                -0.40469599
+            ],
+            "sunColor": [
+                1.14,
+                0.97000003,
+                0.86000001,
+                0
+            ],
+            "cloudShadowsTexture": "/EE/Materials/Util/CloudNoise.png",
+            "cloudShadowsMovementParams": [
+                0.015,
+                0.015,
+                0.0255,
+                -0.025
+            ],
+            "cloudShadowsAttenuationsParams": [
+                0.34999999,
+                4
+            ],
+            "volumetricFog": {
+                "Enabled": 1,
+                "NearDistance": 0.0099999998,
+                "Extinction": 0.34999999,
+                "ExtinctionConfusion": 0.5,
+                "GlobalFog": {
+                    "Density": 0.001,
+                    "G": 0.40000001
+                },
+                "ClumpyNoise": {
+                    "ClumpAmount": 0.75,
+                    "ClumpStart": 0.40000001,
+                    "ClumpEnd": 0.80000001,
+                    "NoiseScale": 0.039999999
+                },
+                "ColorGrading": {
+                    "Vibrance": 0.15000001
+                }
+            },
+            "volumetricWind": {
+                "enabled": 1
+            }
+        },
+        "EnableGIVolumes": 1,
+        "LightingParams": {
+            "diffuseBoost": 1.25,
+            "diffuseGamma": 1.3,
+            "indirectRadiusBoost": 2.25,
+            "emissiveScale": 0,
+            "bakingOptions:Type": "/EE/Types/Darkitect/BakingOptions",
+            "bakingOptions:NovaBakeRadiosity": 1,
+            "bakingOptions:NovaSamplesPerPixel": 128,
+            "bakingOptions:ExportDiffuseTextures": "ET_256_PIXELS",
+            "bakingOptions:NovaApertureSamplesPerPixel": 144,
+            "bakingOptions:LegacyIndexLighting": 0,
+            "bakingOptions:UseHiddenLights": 0,
+            "bakingOptions:BakeMainLodLightmaps": 1,
+            "bakingOptions:BakeHlodLightmaps": 1,
+            "bakingOptions:RandomSeed": 0,
+            "bakingOptions:ParentLevel": "",
+            "bakingOptions:KeepUnchangedLightmaps": 1,
+            "bakingOptions:UnchangedSignalToNoiseRatio": 40,
+            "bakingOptions:ParentSignalToNoiseRatio": 30,
+            "bakingOptions:ChromaMipBias": 2,
+            "bakingOptions:DirectionMapMipBias": 1,
+            "bakingOptions:MaxObjectLightMapSize": "MLM_2048x2048",
+            "bakingOptions:ObjectLightMapSizeDownscale": 0,
+            "bakingOptions:MaxLightMapPageSize": "MLM_2048x2048",
+            "bakingOptions:AutoGenerateLightProbes": 0,
+            "bakingOptions:LightProbeMinMax": [
+                5,
+                15
+            ],
+            "bakingOptions:LightProbeHeight": 1,
+            "bakingOptions:LightProbeAdaptiveThreshold": 2,
+            "bakingOptions:ProbeLitObjectsAffectLightProbes": 0,
+            "bakingOptions:UseSpatialAtlasingVer": 3,
+            "bakingOptions:LightmapView": "LMV_LIGHT_MAP",
+            "bakingOptions:BakeDirectional": 1,
+            "bakingOptions:BakeIndexed": 1,
+            "bakingOptions:BakeLightProbes": 1,
+            "bakingOptions:BakeCubeMaps": 1,
+            "bakingOptions:BakeSkyProbe": 0,
+            "bakingOptions:EnableApertureLightmapsPreDilate": 0,
+            "bakingOptions:IndirectLightingFilterRadius": 5
+        },
+        "MiniMapParams": {
+            "miniMapType": "MMT_DISTANCE_FIELD"
+        },
+        "BakeFilesEnabled": 1,
+        "BakeStatic": "BA_USE_CHILD",
+        "EditorMissionAISpec": "/Lotus/Types/Game/EnemySpecs/Tau/TauOrokinEmpireSpec",
+        "EditorMissionAISpawnCount": 30,
+        "CameraFarPlane": 2000,
+        "WeatherAutoChild": {
+            "Type": "/Lotus/Fx/Levels/Tau/Weather/TauWeather"
+        },
+        "DecalCullDistance": 75,
+        "PortsDbFile": "/Lotus/Levels/ErisMortem/ObjErisLandscape/0_ports.txt",
+        "PrefabPortsDbFiles": [
+            {
+                "scope": "/Layer9/Prefab0/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnRockFormationDestructibleA/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab1/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnRockFormationDestructibleA/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab2/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnDropshipDestructible/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab3/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnDropshipDestructible/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab4/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnDropshipDestructible/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab5/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnDropshipDestructible/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab6/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnRockFormationDestructibleA/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab7/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnRockFormationDestructibleA/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab8/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnRockFormationDestructibleA/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab9/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnDropshipDestructible/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab10/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnRockFormationDestructibleA/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab11/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnRockFormationDestructibleA/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab12/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnDropshipDestructible/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab13/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnRockFormationDestructibleA/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab14/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnDropshipDestructible/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab15/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnRockFormationDestructibleA/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab16/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnDropshipDestructible/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab17/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnDropshipDestructible/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer9/Prefab18/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMGrnRockFormationDestructibleA/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer12/Prefab2/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/PHErisMortemLightBeast/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer12/Prefab4/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/PHErisMortemLightBeast/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer12/Prefab6/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/PHErisMortemLightBeast/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer12/Prefab7/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/PHErisMortemLightBeast/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer12/Prefab10/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/PHErisMortemLightBeast/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer12/Prefab11/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/PHErisMortemLightBeast/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer12/Prefab12/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/PHErisMortemLightBeast/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer12/Prefab13/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/PHErisMortemLightBeast/0_ports.txt",
+                "useClientSidePorts": 0
+            },
+            {
+                "scope": "/Layer12/Prefab14/",
+                "portsDbFile": "/Lotus/Levels/ErisMortem/Prefabs/EMBlockageA/0_ports.txt",
+                "useClientSidePorts": 0
+            }
+        ],
+        "EnvProbesData": "/Lotus/Levels/ErisMortem/ObjErisLandscape/0.epd",
+        "GlobalProbePosition": [
+            0,
+            0,
+            0
+        ],
+        "TimeOfDayRate": 0,
+        "NavMeshDesignOptions": "/EE/Types/Darkitect/RecastAutoBridgeNavMeshDesignOptions"
+    }
+}

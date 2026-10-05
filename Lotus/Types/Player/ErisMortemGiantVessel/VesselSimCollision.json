@@ -1,0 +1,306 @@
+{
+    "parent": "/EE/Types/Effects/SimCollision",
+    "data": {
+        "Elements": [
+            {
+                "bone": "GAME_C1_HEAD1",
+                "offset": [
+                    -0.079999998,
+                    0.039999999,
+                    0
+                ],
+                "boneB": "",
+                "offsetB": [
+                    -0.02,
+                    0,
+                    0
+                ],
+                "radius": 0.12,
+                "radiusB": 0,
+                "tag": "Head",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_CLAV1",
+                "offset": [
+                    -0.1,
+                    -0.050000001,
+                    0
+                ],
+                "boneB": "GAME_R1_CLAV1",
+                "offsetB": [
+                    0.1,
+                    0.050000001,
+                    0
+                ],
+                "radius": 0.12,
+                "radiusB": 0,
+                "tag": "Clav",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_SPINE1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_C1_SPINE3",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.15000001,
+                "radiusB": 0,
+                "tag": "Spine",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_ARM1",
+                "offset": [
+                    0,
+                    0.025,
+                    0.025
+                ],
+                "boneB": "GAME_R1_ARM2",
+                "offsetB": [
+                    0,
+                    0.025,
+                    0.025
+                ],
+                "radius": 0.075000003,
+                "radiusB": 0,
+                "tag": "Arm1Right",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_ARM2",
+                "offset": [
+                    0,
+                    0.025,
+                    0.025
+                ],
+                "boneB": "GAME_R1_ARM3",
+                "offsetB": [
+                    0,
+                    0.025,
+                    0
+                ],
+                "radius": 0.075000003,
+                "radiusB": 0,
+                "tag": "Arm2Right",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_ARM3",
+                "offset": [
+                    0.1,
+                    0.025,
+                    0.025
+                ],
+                "boneB": "",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.075000003,
+                "radiusB": 0,
+                "tag": "Arm3Right",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_ARM1",
+                "offset": [
+                    0,
+                    -0.025,
+                    -0.025
+                ],
+                "boneB": "GAME_L1_ARM2",
+                "offsetB": [
+                    0,
+                    -0.025,
+                    -0.025
+                ],
+                "radius": 0.075000003,
+                "radiusB": 0,
+                "tag": "Arm1Left",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_ARM2",
+                "offset": [
+                    0,
+                    -0.025,
+                    -0.025
+                ],
+                "boneB": "GAME_L1_ARM3",
+                "offsetB": [
+                    0,
+                    -0.025,
+                    -0.025
+                ],
+                "radius": 0.075000003,
+                "radiusB": 0,
+                "tag": "Arm2Left",
+                "debugColor": [
+                    255,
+                    0,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_ARM3",
+                "offset": [
+                    0.1,
+                    0.025,
+                    0.025
+                ],
+                "boneB": "",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.075000003,
+                "radiusB": 0,
+                "tag": "Arm3Left",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_LEG1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_R1_LEG2",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.1,
+                "radiusB": 0.079999998,
+                "tag": "Leg1Right",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_LEG1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_L1_LEG2",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.1,
+                "radiusB": 0.079999998,
+                "tag": "Leg1Left",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_R1_LEG2",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_R1_LEG3",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.079999998,
+                "radiusB": 0.059999999,
+                "tag": "Leg2Right",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_LEG2",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_L1_LEG3",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.079999998,
+                "radiusB": 0.059999999,
+                "tag": "Leg2Left",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            }
+        ]
+    }
+}

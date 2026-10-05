@@ -1,0 +1,30 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Common/Sphere10.fbx",
+        "MeshScale": 0.11,
+        "OverrideMaterial": [
+            "IceVoidBubbleDecoMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "TimeScalar",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.1
+            },
+            {
+                "name": "Scalar2",
+                "type": "Float",
+                "slot": -1,
+                "value": 3
+            }
+        ],
+        "TestRotate": 1,
+        "TestRotateSpeed": [
+            1.372,
+            0.85699999,
+            0
+        ]
+    }
+}

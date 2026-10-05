@@ -5,10 +5,10 @@
         "OverrideMaterial": [
             "SonarDecoBMat"
         ],
-        "ApplyColorCustomization": 1,
         "MaterialFade": [
             {
                 "Parameter": "vScalesFade",
+                "Slot": -1,
                 "TimeLength": 0.40000001,
                 "Multiplier": 0.80000001,
                 "FadeRange": [
@@ -28,6 +28,7 @@
             },
             {
                 "Parameter": "UnlitAtten",
+                "Slot": -1,
                 "TimeLength": 0.40000001,
                 "Multiplier": 1,
                 "FadeRange": [
@@ -45,6 +46,7 @@
                 "IsMeshScale": 0,
                 "IsRepeating": 0
             }
-        ]
+        ],
+        "ApplyColorCustomization": 1
     }
 }

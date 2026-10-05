@@ -1,0 +1,30 @@
+{
+    "parent": "/Lotus/Types/Game/RecipeItem",
+    "data": {
+        "RegularPrice": 35000,
+        "ExcludeFromCodex": 0,
+        "ResultItem": "/Lotus/StoreItems/Powersuits/Duelist/Duelist",
+        "Ingredients": [
+            {
+                "ItemType": "NarinHelmetComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "NarinChassisComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "NarinSystemsComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 1
+            }
+        ],
+        "BuildTime": 259200,
+        "BuildPrice": 25000,
+        "SkipBuildTimePrice": 50,
+        "ActivityFeedInfo": "Ash"
+    }
+}

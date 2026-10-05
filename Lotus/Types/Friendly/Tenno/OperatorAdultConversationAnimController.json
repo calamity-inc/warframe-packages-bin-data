@@ -1,0 +1,925 @@
+{
+    "parent": "OperatorAnimController",
+    "data": {
+        "AnimTree": "OperatorAdultConversationAnimTree.animtree",
+        "EyelidTrackingEnabled": 1,
+        "UpperLidTrackPercent": 0.30000001,
+        "LowerLidTrackPercent": 0.25,
+        "Actions": [
+            {
+                "Action": "DisableIdleVariation",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_SELECT",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_SELECT",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "Talk01",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "Talk02",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 2
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 2
+                    }
+                ]
+            },
+            {
+                "Action": "Talk03",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 3
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 3
+                    }
+                ]
+            },
+            {
+                "Action": "StopTalk",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 0
+                    }
+                ]
+            }
+        ],
+        "SoundEvents": [
+            {
+                "EventName": "TennoLandStep",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Footsteps/Land/TennoLandDefault",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "QuickFoley",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericJump",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "MiscFoleyA",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/TennoMiscFoleyA",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "MiscFoleyB",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/TennoMiscFoleyB",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "MiscFoleyC",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/TennoMiscFoleyC",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "QuickFoleyLouder",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericJump",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "VaultFoley",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericQuickFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "ArmSwing",
+                "Sound": "/Lotus/Sounds/Characters/Brawling/BrawlWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "MiscFoley",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/TennoMiscFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "HolsterItem",
+                "Sound": "/Lotus/Sounds/Characters/TennoAlt/Foley/TennoAltHolsterWeapon",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GroundStab",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/MeleeGroundSlam",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "ArmRaise",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/AkimboReloadArmRaise",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "PunchSwing",
+                "Sound": "/Lotus/Sounds/Characters/Brawling/BrawlWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GauntletPowerPunch",
+                "Sound": "/Lotus/Sounds/Weapons/Gauntlets/GauntletPowerPunch",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_LOCAL_ONLY",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GauntletPowerPunch3D",
+                "Sound": "/Lotus/Sounds/Weapons/Gauntlets/GauntletPowerPunch3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_REMOTE_ONLY",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GroundStabImpact",
+                "Sound": "/Lotus/Sounds/Impacts/GroundStab/GroundStabImpact",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "DaggerStealthHit",
+                "Sound": "/Lotus/Sounds/Finishers/StealthHits/DaggerStealthHit",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "DualSwordStealthHit",
+                "Sound": "/Lotus/Sounds/Finishers/StealthHits/DualSwordStealthHit",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GauntletsStealthHit",
+                "Sound": "/Lotus/Sounds/Finishers/StealthHits/GauntletsStealthHit",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BulletParryMetal",
+                "Sound": "/Lotus/Sounds/Weapons/Swords/Sounds/Swipes/SwordSwipeParry",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BulletParryAxe",
+                "Sound": "/Lotus/Sounds/Weapons/Swords/Sounds/Swipes/SwordSwipeParry",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BulletParryDagger",
+                "Sound": "/Lotus/Sounds/Weapons/DualDaggers/DaggerWhooshParry3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BulletParryMetalHeavy",
+                "Sound": "/Lotus/Sounds/Impacts/BulletParries/BulletParryMetalHeavy",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GauntletsGroundHit",
+                "Sound": "/Lotus/Sounds/Finishers/GauntletsGroundHit/GauntletsGroundHit",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GlaiveStealthHit",
+                "Sound": "/Lotus/Sounds/Finishers/StealthHits/GlaiveStealthHit",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "StealthDualDaggerAttack",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Stealth/StealthDualDaggerAttack",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "LightBodyfall",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/TennoBodyfalls",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "StealthPunch",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Stealth/StealthPunch",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "TennoGenericHit",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Generic/TennoGenericHit",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "TennoGenericGrab",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Generic/TennoGenericGrab",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "TennoGenericGrabMetal",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Generic/TennoGenericGrabMetal",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "TennoNeckSnap",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Generic/TennoStealthNeckSnap",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GrabZipline",
+                "Sound": "/Lotus/Sounds/Gadgets/Zipline/ParkourZipline/ZiplineGrab",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "MeleeGroundSlamWhoosh",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/MeleeSlamGenericWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BulletParryStaff",
+                "Sound": "/Lotus/Sounds/Weapons/Staff/StaffSwingParry3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMantleFoley",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericMantleFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXGenericFlipWhoosh",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericFlipWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTennoDownloadAction",
+                "Sound": "/Lotus/Sounds/Misc/DownloadContextAction",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTennoRemoveBoltZapA",
+                "Sound": "/Lotus/Sounds/Levels/Tutorial/TennoRemoveBoltZap",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTennoRemoveBoltZapB",
+                "Sound": "/Lotus/Sounds/Levels/Tutorial/TennoRemoveBoltZapB",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXWarframeReleaseGunFoley",
+                "Sound": "/Lotus/Sounds/Levels/Tutorial/WarframeReleaseGunFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTennoRevivePowerBoost",
+                "Sound": "/Lotus/Sounds/Warframes/Revive/TennoRevivePowerBoost",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeSpinWhooshStealth",
+                "Sound": "/Lotus/Sounds/Weapons/Swords/Sounds/Swipes/SwordSpinWhoosh3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXFuraxSwingBurst",
+                "Sound": "/Lotus/Sounds/Weapons/Furax/FuraxSwingBurst",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXGenericBackflipWhoosh",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericBackflipWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTennoHackButton",
+                "Sound": "/Lotus/Sounds/Misc/ConsoleHackButtonPress/ConsoleHackButtonPress",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTennoItemPickupFoley",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/TennoItemPickupFoleyA",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeKickWhoosh",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/MeleeKickWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeKickWhooshImpact",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Impacts/KickHitDefault",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeKickImpactMetal",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Impacts/KickHitDefaultMetal",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXSharkwingWaterEnter",
+                "Sound": "/Lotus/Sounds/Vehicles/Sharkwing/SharkwingWaterEnter",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "DoubleJump",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericBackflipWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXWallJumpFoley",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Footsteps/WallRun/TennoWallJumpFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXParkourKickImpact",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Impacts/ParkourKickHitDefault",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXZiplineBrakeFoley",
+                "Sound": "/Lotus/Sounds/Gadgets/Zipline/ParkourZipline/ZiplineBrakeFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXZiplineBrakeContact",
+                "Sound": "/Lotus/Sounds/Gadgets/Zipline/ParkourZipline/ZiplineBrakeFoleyContact",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXJumpProjection",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Footsteps/WallRun/TennoJumpProjection",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTennoSpinWhoosh",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericSpinWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BulletJump",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/BulletJump",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXZiplineSteps",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Footsteps/Walk/TennoStepZipline",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXZiplineRunSteps",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Footsteps/Run/TennoRunZipline",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTurretGrabA",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/WallGrabMetalFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTurretGrabB",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/WallGrabMetalFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTurretLoad",
+                "Sound": "/Lotus/Sounds/Weapons/Grineer/GrineerEmplacement/GrineerEmplacementMountLoad",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTurretUnload",
+                "Sound": "/Lotus/Sounds/Weapons/Grineer/GrineerEmplacement/GrineerEmplacementMountUnLoad",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTennoMeleeChargeWhooshB",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/MeleeChargeSwingWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXInfestedDevourerTeleportStart",
+                "Sound": "/Lotus/Sounds/Enemies/Infested/Devourer/InfestedDevourerTeleportStart",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXInfestedDevourerTeleportEnd",
+                "Sound": "/Lotus/Sounds/Enemies/Infested/Devourer/InfestedDevourerTeleportEnd",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeFinisherHitBipedSword",
+                "Sound": "/Lotus/Sounds/Weapons/Swords/Sounds/Impacts/SwordArmourImpactFinisher",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeFinisherHitBipedDagger",
+                "Sound": "/Lotus/Sounds/Weapons/DualDaggers/HitEffects/DaggerMetalImpactFinisher",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeFinisherHitBipedWhip",
+                "Sound": "/Lotus/Sounds/Weapons/Corpus/CorpusWhip/Impacts/CorpusWhipImpactDefaultFinisher",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeFinisherHitBipedStaff",
+                "Sound": "/Lotus/Sounds/Weapons/Staff/Impacts/Metal/StaffImpactMetalFinisher",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeFinisherHitBipedFist",
+                "Sound": "/Lotus/Sounds/Weapons/Furax/Impacts/FuraxImpactMetalFinisher",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXOperatorVoidMove",
+                "Sound": "/Lotus/Sounds/Focus/Operators/Powers/WraithMovement/OperatorWraithVoidMoveDefault",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXOperatorFoleyMisc",
+                "Sound": "/Lotus/Sounds/Characters/Operator/Foley/OperatorFoleyMisc",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXOperatorSlideDefault",
+                "Sound": "/Lotus/Sounds/Characters/Operator/Slide/OperatorSlideDefault",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXOperatorFireballChargeUp",
+                "Sound": "/Lotus/Sounds/Focus/Operators/Powers/Attack/OperatorFocusBlastFireballCharge",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": "StartMeleeSweep"
+            },
+            {
+                "EventName": "SFXOperatorFireballChargeUpD",
+                "Sound": "/Lotus/Sounds/Focus/Operators/Powers/Attack/OperatorFocusBlastFireballChargeD",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": "StartMeleeSweep"
+            },
+            {
+                "EventName": "SFXOperatorFireballChargeUpB",
+                "Sound": "/Lotus/Sounds/Focus/Operators/Powers/Attack/OperatorFocusBlastFireballChargeB",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": "StartMeleeSweep"
+            },
+            {
+                "EventName": "SFXOperatorFireballChargeUpC",
+                "Sound": "/Lotus/Sounds/Focus/Operators/Powers/Attack/OperatorFocusBlastFireballChargeC",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": "StartMeleeSweep"
+            },
+            {
+                "EventName": "SFXRailjackTurretHarnessPilotEquip",
+                "Sound": "/Lotus/Sounds/Vehicles/RailJack/RailJackTurretHarness/RailjackTurretHarnessPilotEquip",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXRailjackTurretHarnessUnderneathEquip",
+                "Sound": "/Lotus/Sounds/Vehicles/RailJack/RailJackTurretHarness/RailjackTurretHarnessUnderneathEquip",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXRailjackTurretHarnessSideEquip",
+                "Sound": "/Lotus/Sounds/Vehicles/RailJack/RailJackTurretHarness/RailjackTurretHarnessSideEquip",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXRailjackTurretHarnessPilotUnequip",
+                "Sound": "/Lotus/Sounds/Vehicles/RailJack/RailJackTurretHarness/RailjackTurretHarnessPilotUnequip",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXRailjackTurretHarnessSideUnequip",
+                "Sound": "/Lotus/Sounds/Vehicles/RailJack/RailJackTurretHarness/RailjackTurretHarnessSideUnequip",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXRailjackTurretHarnessUnderneathUnequip",
+                "Sound": "/Lotus/Sounds/Vehicles/RailJack/RailJackTurretHarness/RailjackTurretHarnessUnderneathUnequip",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "InjectHypospray",
+                "Sound": "/Lotus/Sounds/Enemies/VayHek/VayHekDrone/VayHekDroneInject",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMendOstronStart",
+                "Sound": "/Lotus/Sounds/Quests/TheNewWar/Gameplay/PartThree/TNWP3M2MendOstronStart",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMendOstronGrabChoke",
+                "Sound": "/Lotus/Sounds/Quests/TheNewWar/Gameplay/PartThree/TNWP3M2MendOstronGrabAndChokeFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMendOstronFinishFree",
+                "Sound": "/Lotus/Sounds/Quests/TheNewWar/Gameplay/PartThree/TNWP3M2MendOstronFinishAndFree",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMendOstronFailAndEscape",
+                "Sound": "/Lotus/Sounds/Quests/TheNewWar/Gameplay/PartThree/TNWP3M2MendOstronFailAndEscape",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXDrifterMountBalloonJump",
+                "Sound": "/Lotus/Sounds/Quests/TheNewWar/Gameplay/PartThree/TNWP3M2DrifterMountBalloonJump",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXDrifterMountBalloonLand",
+                "Sound": "/Lotus/Sounds/Quests/TheNewWar/Gameplay/PartThree/TNWP3M2DrifterMountBalloonLand",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXDrifterDismountBalloon",
+                "Sound": "/Lotus/Sounds/Quests/TheNewWar/Gameplay/PartThree/TNWP3M2DrifterDismountBalloon",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXDrifterKnockDown",
+                "Sound": "/Lotus/Sounds/Quests/TheNewWar/Characters/Drifter/Foley/Movement/DrifterFall",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "RemoveFromBack",
+                "Sound": "/Lotus/Sounds/Characters/TennoAlt/Foley/TennoAltRemoveFromBack",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXJumpSlamImpact",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/JumpSlam/MeleeJumpSlamImpact3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXJumpShortSlamImpact",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/JumpSlam/MeleeJumpShortSlamImpact3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXJumpLargeSlamImpact",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/JumpSlam/MeleeJumpLargeSlamImpact3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeHeavyAttackSlam",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/JumpSlam/MeleeHeavyAttackSlam3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "MeleeSlam",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/JumpSlam/MeleeJumpShortSlamImpact3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXLasrianAPCMountFoley",
+                "Sound": "/Lotus/Sounds/Enemies/Lasrian/LasrianAPC/LasrianAPCMountFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXLasrianAPCDismountFoley",
+                "Sound": "/Lotus/Sounds/Enemies/Lasrian/LasrianAPC/LasrianAPCDismountFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXKnockdownFastTech",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericTechRecoveryWhooshLocal",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            }
+        ],
+        "FinisherCtlType": "/Lotus/Types/Player/DrifterOperatorFinisherController",
+        "CinematicID": "Tenno",
+        "AlternateVictimCinematicID": "TennoB",
+        "UpdateTrajectory": 1,
+        "DesiredTrajectoryType": "/EE/Types/Engine/DesiredTrajectory"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "parent": "/EE/Types/Game/DamageTrigger",
+    "data": {
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "Shape": "VES_SPHERE",
+        "Radius": 10,
+        "ReplicateDimensions": 1,
+        "AcceptType": "/Lotus/Types/Game/LotusNpcAvatar",
+        "AllowRagdolls": 1,
+        "AttackData": {
+            "Type": "DT_FREEZE",
+            "Amount": 100,
+            "ProcChance": 2
+        },
+        "DamageOnEnter": 1,
+        "DamageOverTimeInterval": 1,
+        "DamageSource": "PLAYER_AVATAR",
+        "Faction": "Tenno"
+    }
+}

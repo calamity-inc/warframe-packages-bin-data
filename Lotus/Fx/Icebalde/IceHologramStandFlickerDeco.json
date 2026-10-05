@@ -1,0 +1,66 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Common/SpaceTrapSphere.fbx",
+        "MeshScale": 0.029999999,
+        "OverrideMaterial": [
+            "/Lotus/Fx/Env/Grineer/HologramMatBlue"
+        ],
+        "MaterialParams": [
+            {
+                "name": "vScales",
+                "type": "Float4",
+                "slot": -1,
+                "value": 1,
+                "value1": 0.80000001,
+                "value2": 1,
+                "value3": 1
+            },
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.0026,
+                    0.49000001,
+                    0.69999999,
+                    0
+                ]
+            },
+            {
+                "name": "FresnelPower",
+                "type": "Float",
+                "slot": -1,
+                "value": 6
+            }
+        ],
+        "TestRotate": 1,
+        "TestRotateSpeed": [
+            3.5,
+            8,
+            -7
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 1.5,
+                "Multiplier": 10,
+                "FadeRange": [
+                    0.5,
+                    0.5
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 1
+            }
+        ]
+    }
+}

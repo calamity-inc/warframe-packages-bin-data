@@ -1,0 +1,123 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 50
+            }
+        ],
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Explosions/ImplosionWindPersistentParent",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "MaximumParticles": 300000,
+        "SpawnRate": 600,
+        "SpawnCurve": {
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "VelocityCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.15000001
+                }
+            ]
+        },
+        "ApplyColorCustomization": 1,
+        "DisableVortexOnFadeOut": 1,
+        "useCollisions": 0,
+        "affectedByWind": 1,
+        "resilience": 0.050000001,
+        "drag": 1,
+        "mass": [
+            0,
+            0
+        ],
+        "life": [
+            0.5,
+            3.25
+        ],
+        "size": [
+            0.003,
+            0.017999999
+        ],
+        "velocity": [
+            4,
+            10
+        ],
+        "windAttenuation": [
+            0.2,
+            0.60000002
+        ],
+        "streaksFactor": 7,
+        "collisionDelay": 0.30000001,
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            0.2,
+            0.2,
+            0.2
+        ],
+        "spawnFlowBlend": 0.798742,
+        "flowScale": [
+            0.2,
+            0.2,
+            0.2
+        ],
+        "flowForce": [
+            12,
+            12,
+            12
+        ],
+        "flowScrolling": [
+            0,
+            -1,
+            0
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "localSimulation": 1,
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSpotFadeCloseAlpha",
+        "colorKeys[0]": [
+            1,
+            0.13,
+            0.0060000001,
+            1
+        ],
+        "colorKeys[1]": [
+            0.87,
+            0.22,
+            0.023,
+            1
+        ],
+        "numColors": 1,
+        "vortexDecay": 0.1
+    }
+}

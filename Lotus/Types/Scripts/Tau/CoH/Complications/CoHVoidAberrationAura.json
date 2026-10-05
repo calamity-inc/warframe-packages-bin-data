@@ -23,9 +23,11 @@
             "_levelOfAgents": 15,
             "_agentTag": "VoidAberrationAgent",
             "_maxAgentTypes": 0,
-            "_spawnPointDistanceMin": 3,
-            "_spawnPointDistanceMax": 500,
+            "_spawnPointDistanceMin": 2,
+            "_spawnPointDistanceMax": 250,
+            "_delayedStart": 0,
             "_isDescent": 1,
+            "_assignFactionCustom": 0,
             "_destroyVFX": ""
         },
         "OnAuraRemovedFromLevelScript": {
@@ -39,7 +41,9 @@
             "_maxAgentTypes": 3,
             "_spawnPointDistanceMin": 3,
             "_spawnPointDistanceMax": 500,
+            "_delayedStart": 0,
             "_isDescent": 0,
+            "_assignFactionCustom": 1,
             "_destroyVFX": "/Lotus/Fx/Quests/TauPrequel/CohSpawnEnemyFx"
         }
     }

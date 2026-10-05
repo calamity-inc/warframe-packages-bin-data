@@ -1,0 +1,45 @@
+{
+    "parent": "/EE/Types/Engine/HitProxy",
+    "data": {
+        "IgnoreParentScale": 1,
+        "ShowDamageNumbers": 0,
+        "Type": "SPHERE",
+        "Radius": 0.80000001,
+        "PhysicsRegister": 1,
+        "NormalCollision": 1,
+        "Part": "ANY_PART",
+        "Health": 1,
+        "OnDamageScript": {
+            "Script": "/Lotus/Scripts/Tau/TauProximityMine.lua",
+            "Function": "OnHitProxyDamaged",
+            "_capExtendTime": 0.25,
+            "_capExtendDistance": 0.5,
+            "_ejectTime": 0.5,
+            "_applyRotationOffsetDuringEject": 0,
+            "_debugDraw": 1,
+            "_smokeVFX": "",
+            "_launchEffect": "",
+            "_launchFinishedEffect": "",
+            "_capOpenSound": "",
+            "_launchSound": "",
+            "_capCloseSound": "",
+            "_loopingSound": "",
+            "_projectileType": "",
+            "_splineType": "",
+            "_capType": "",
+            "_activateTriggerType": "",
+            "_flashingLightVFXType": ""
+        },
+        "HitTypeMultipliers": {
+            "DHT_NONE": 0,
+            "DHT_TRACE": 0,
+            "DHT_PROJECTILE": 0,
+            "DHT_RADIAL": 0,
+            "DHT_SCRIPT": 0,
+            "DHT_LINK": 0,
+            "DHT_DOT": 0
+        },
+        "DestroyWhenHealthRunsOut": 0,
+        "DisablePhysicsWhenInvisible": 0
+    }
+}

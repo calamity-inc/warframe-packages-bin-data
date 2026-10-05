@@ -1,0 +1,74 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 11
+            }
+        ],
+        "IgnoreParentRotation": 1,
+        "HasLifeSpan": 0,
+        "Life": [
+            1.75,
+            3
+        ],
+        "Size": [
+            0.30000001,
+            0.5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.5
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.80000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "RegenCount": [
+            7,
+            7
+        ],
+        "Material": "/Lotus/Fx/PowersuitAbilities/CustomEffects/JadeLightEnergyMat",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            248,
+            114,
+            54,
+            255
+        ],
+        "ColorMax": [
+            255,
+            149,
+            90,
+            55
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.001,
+            0.001
+        ],
+        "FadeInOut": [
+            0.49640301,
+            0.49640301
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleSize": 0.27500001,
+        "Speed": [
+            0.1,
+            0.1
+        ],
+        "Drag": 1
+    }
+}

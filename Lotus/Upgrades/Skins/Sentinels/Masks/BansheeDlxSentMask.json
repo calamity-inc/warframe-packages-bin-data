@@ -1,0 +1,38 @@
+{
+    "parent": "/Lotus/Upgrades/Skins/Sentinels/SentinelMaskBase",
+    "data": {
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 30,
+        "LocalizeTag": "/Lotus/Language/Deluxe/BansheeDeluxeSentinelMaskName",
+        "LocalizeDescTag": "/Lotus/Language/Deluxe/BansheeDeluxeSentinelMaskDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Sentinels/Cosmetics/Masks/BansheeDeluxe2Mask.png",
+        "ExcludeFromCodex": 0,
+        "OverrideDateAddedToManifest": 1790215200,
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        -0.0049999999
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "GAME_C1_MASKATTACH",
+                    "Type": "/Lotus/Characters/Pets/Sockets/Masks/BansheeDlxSentinelMask/BansheeDlxSentinelMaskDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        }
+    }
+}

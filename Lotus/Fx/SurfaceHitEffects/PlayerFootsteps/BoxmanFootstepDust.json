@@ -1,0 +1,125 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "DepthSortBias": 200,
+        "MaterialParams": [
+            {
+                "name": "SmokeColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.15000001,
+                    0.16,
+                    0.18000001,
+                    1
+                ]
+            },
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.60000002
+            }
+        ],
+        "CompositedEffect": 1,
+        "DetailLevel": "PQ_HIGH",
+        "CanNano": 0,
+        "LifeSpan": 3,
+        "Life": [
+            1.2,
+            2.4000001
+        ],
+        "Size": [
+            1.25,
+            2.2
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.25
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.89999998
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "InitialCount": [
+            24,
+            24
+        ],
+        "Material": "/Lotus/Fx/Explosions/Generic/ExplosionSmokeMat",
+        "AnimateTiles": 1,
+        "RandomStartFrame": 1,
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0099999998,
+            0.0099999998
+        ],
+        "SpinByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.40000001
+                }
+            ]
+        },
+        "FadeInOut": [
+            0,
+            1
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.1,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.60000002,
+                    "Value": 0.40000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "EyeFadeDist": 0.2,
+        "Nozzle": "DISC",
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ],
+        "NozzleDev": 1,
+        "NozzleBox": [
+            0.2,
+            0.2,
+            0
+        ],
+        "Speed": [
+            3,
+            8
+        ],
+        "Drag": 3,
+        "Mass": [
+            -0.079999998,
+            -0.050000001
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "parent": "/Lotus/Objects/Zariman/Decals/ZARxBloodLarge",
+    "data": {
+        "Material": "/Lotus/Fx/PowersuitAbilities/Priest/CondemnTravelBurstDecalMat",
+        "CensoredMaterial": "",
+        "TilesNumberY": 4,
+        "Width": 6,
+        "Height": 3,
+        "Length": 4,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 1,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 1,
+                "DestroyWhenComplete": 0
+            },
+            {
+                "Parameter": "EmissiveAttenuation",
+                "TimeLength": 30,
+                "Multiplier": 5,
+                "FadeRange": [
+                    0,
+                    0.1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 0
+            }
+        ],
+        "TriggeredFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 0.5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 1,
+                "DestroyWhenComplete": 1
+            }
+        ]
+    }
+}

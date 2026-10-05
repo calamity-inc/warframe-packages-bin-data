@@ -92,29 +92,6 @@
                 "Scale": 1
             }
         ],
-        "ScriptInstance": {
-            "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
-            "Function": "AnimateAndScaleDown",
-            "_largeScale": 1,
-            "_smallScale": 1,
-            "_scaleDuration": 0.5,
-            "_animation": "TennoClawsClosed",
-            "_runHost": 1,
-            "_runClient": 1,
-            "_fadeAttachedDecos": 0,
-            "_doMeleeCheck": 1,
-            "_fadeDuration": 2,
-            "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
-            "_applyScaleWhileOnShip": 1,
-            "_smallScaleOverride": 0.5,
-            "_holsterCustomizations": [
-                "/Lotus/Types/Game/HolsterCustomization"
-            ],
-            "_scaledAttachmentMeshRequired": "",
-            "_scaledUpAttachment": "",
-            "_scaledDownAttachment": ""
-        },
-        "ReplicaRunScriptInstance": 1,
         "OnEnter": [
             {
                 "sound": "",
@@ -167,13 +144,7 @@
                 "overrideTag": "",
                 "soundSequencerType": "",
                 "responseScript": {
-                    "Script": "/Lotus/Scripts/Effects/KatanaEffects.lua",
-                    "Function": "SheathWeapon",
-                    "_useRoot": 1,
-                    "_materialFade": 0,
-                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
-                    "_dissolveChildren": 0,
-                    "_fadeChildren": 0
+                    "Script": ""
                 }
             },
             {
@@ -227,13 +198,7 @@
                 "overrideTag": "",
                 "soundSequencerType": "",
                 "responseScript": {
-                    "Script": "/Lotus/Scripts/Effects/KatanaEffects.lua",
-                    "Function": "SheathWeapon",
-                    "_useRoot": 1,
-                    "_materialFade": 0,
-                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
-                    "_dissolveChildren": 0,
-                    "_fadeChildren": 0
+                    "Script": ""
                 }
             },
             {
@@ -287,13 +252,7 @@
                 "overrideTag": "",
                 "soundSequencerType": "",
                 "responseScript": {
-                    "Script": "/Lotus/Scripts/Effects/KatanaEffects.lua",
-                    "Function": "UnsheathWeapon",
-                    "_useRoot": 1,
-                    "_materialFade": 0,
-                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
-                    "_dissolveChildren": 0,
-                    "_fadeChildren": 0
+                    "Script": ""
                 }
             }
         ],
@@ -341,13 +300,7 @@
                 "allowWhenDormant": 0,
                 "useOnSkin": 0,
                 "responseScript": {
-                    "Script": "/Lotus/Scripts/Effects/KatanaEffects.lua",
-                    "Function": "UnsheathWeapon",
-                    "_useRoot": 1,
-                    "_materialFade": 0,
-                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
-                    "_dissolveChildren": 0,
-                    "_fadeChildren": 0
+                    "Script": ""
                 },
                 "overrideTag": "",
                 "attachEffect": ""
@@ -395,13 +348,7 @@
                 "allowWhenDormant": 0,
                 "useOnSkin": 0,
                 "responseScript": {
-                    "Script": "/Lotus/Scripts/Effects/KatanaEffects.lua",
-                    "Function": "SheathWeapon",
-                    "_useRoot": 1,
-                    "_materialFade": 0,
-                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
-                    "_dissolveChildren": 0,
-                    "_fadeChildren": 0
+                    "Script": ""
                 },
                 "overrideTag": "",
                 "attachEffect": ""
@@ -449,13 +396,7 @@
                 "allowWhenDormant": 0,
                 "useOnSkin": 0,
                 "responseScript": {
-                    "Script": "/Lotus/Scripts/Effects/KatanaEffects.lua",
-                    "Function": "UnsheathWeapon",
-                    "_useRoot": 1,
-                    "_materialFade": 0,
-                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
-                    "_dissolveChildren": 0,
-                    "_fadeChildren": 0
+                    "Script": ""
                 },
                 "overrideTag": "",
                 "attachEffect": ""
@@ -503,13 +444,7 @@
                 "allowWhenDormant": 0,
                 "useOnSkin": 0,
                 "responseScript": {
-                    "Script": "/Lotus/Scripts/Effects/KatanaEffects.lua",
-                    "Function": "SheathWeapon",
-                    "_useRoot": 1,
-                    "_materialFade": 0,
-                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
-                    "_dissolveChildren": 0,
-                    "_fadeChildren": 0
+                    "Script": ""
                 },
                 "overrideTag": "",
                 "attachEffect": ""
@@ -557,13 +492,7 @@
                 "allowWhenDormant": 0,
                 "useOnSkin": 0,
                 "responseScript": {
-                    "Script": "/Lotus/Scripts/Effects/KatanaEffects.lua",
-                    "Function": "UnsheathWeapon",
-                    "_useRoot": 1,
-                    "_materialFade": 0,
-                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
-                    "_dissolveChildren": 0,
-                    "_fadeChildren": 0
+                    "Script": ""
                 },
                 "overrideTag": "",
                 "attachEffect": ""

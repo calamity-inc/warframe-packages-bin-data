@@ -1,0 +1,45 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/Primes/CitrinePrimeName",
+        "LocalizeDescTag": "/Lotus/Language/Primes/CitrinePrimeDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Primes/CitrinePrime.png",
+        "TypeName": "/Lotus/Types/Recipes/WarframeRecipes/CitrinePrimeBlueprint",
+        "RegularPrice": 35000,
+        "SellingPrice": 2500,
+        "PrimeSellingPrice": 100,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1786537352,
+        "Tradeable": 1,
+        "Giftable": 0,
+        "SearchTags": [
+            "/Lotus/Language/Loadout/LoadoutCat_Support"
+        ],
+        "ExcludeFromCodex": 0,
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "/Lotus/StoreItems/Powersuits/Geode/CitrinePrime",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/CitrinePrimeHelmetComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/CitrinePrimeChassisComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/CitrinePrimeSystemsComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 5
+            }
+        ],
+        "BuildTime": 259200,
+        "BuildPrice": 25000,
+        "SkipBuildTimePrice": 50,
+        "ActivityFeedInfo": "Chroma Prime"
+    }
+}

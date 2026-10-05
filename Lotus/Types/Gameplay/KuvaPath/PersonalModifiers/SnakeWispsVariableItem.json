@@ -1,0 +1,24 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
+    "data": {
+        "LocalizeTag": "[HC] SnakeWispsVariableItem",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "ApplyUpgradesByDefault": 0,
+        "Script": {
+            "Script": "/Lotus/Scripts/KuvaPath/KuvaPathPersonalModifiers.lua",
+            "Function": "SpawnSnakeWisp",
+            "_prefix": "snakeWispsOrbsList",
+            "_shieldType": "VoltShieldDeco",
+            "_grabEffect": "/Lotus/Fx/PowersuitAbilities/Volt/ShieldGrab",
+            "_knockdownTriggerType": "/Lotus/Powersuits/Volt/ShieldKnockdownTrigger",
+            "_beamType": "",
+            "_baseDmgPerSec": 10,
+            "_snakeWispType": "SnakeWispsOrbProjectile"
+        },
+        "ExecuteAppliedEvent": 1,
+        "ConditionalUpgrades": [
+            "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OnBulletOrDoubleJumpCondition",
+            "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OnGroundJumpCondition"
+        ]
+    }
+}

@@ -1,6 +1,30 @@
 {
     "parent": "/Lotus/Types/Game/LotusDamageController",
     "data": {
+        "HitProxies": [
+            {
+                "LocalPosition": [
+                    0,
+                    0.25,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/EliteDroneFullBody",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
         "HideOnExplodeDeath": 0,
         "ExplodeOnDeathDamageEffects": [
             {

@@ -1,0 +1,21 @@
+{
+    "parent": "/EE/Types/Effects/Spawner",
+    "data": {
+        "MotionBlurred": 1,
+        "IgnoreParentRotation": 1,
+        "ScriptInstance": {
+            "Script": "QorvexDeluxeEphemeraBat.lua",
+            "Function": "Spawnbats",
+            "_singleBatDeco": "QorvexDeluxeEphemeraDecor",
+            "_batIdleAnim": "/Lotus/Animations/Tenno/Accessory/Ephemeras/QorvexDeluxeEphemera/QorvexDeluxeEphemeraIdle_anim.fbx",
+            "_batFlyAnim": "/Lotus/Animations/Tenno/Accessory/Ephemeras/QorvexDeluxeEphemera/QorvexDeluxeEphemeraFly_anim.fbx",
+            "_batFlyingFastAnim": "/Lotus/Animations/Tenno/Accessory/Ephemeras/QorvexDeluxeEphemera/QorvexDeluxeEphemeraFlyFast_anim.fbx"
+        },
+        "ReplicaRunScriptInstance": 1,
+        "OwnChildren": 1,
+        "WaitForCinematic": 1,
+        "ApplyColorCustomization": 1,
+        "UseAttachmentColorSlot": 1,
+        "AllowCreateWhenInvisible": 1
+    }
+}

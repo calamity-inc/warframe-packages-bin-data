@@ -1,0 +1,68 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "MaterialParams": [
+            {
+                "name": "LightingAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.75
+            },
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.69999999
+            }
+        ],
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            1.6,
+            2
+        ],
+        "Size": [
+            2,
+            2.5
+        ],
+        "GrowthRate": [
+            0,
+            0.69999999
+        ],
+        "InitialCount": [
+            15,
+            25
+        ],
+        "Material": "/Lotus/Fx/Smoke/SmokeFlipSPSoft",
+        "AnimateTiles": 1,
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            47,
+            107,
+            241,
+            255
+        ],
+        "ColorMax": [
+            34,
+            89,
+            213,
+            255
+        ],
+        "FadeInOut": [
+            0.125,
+            0.69999999
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleSize": 0.5,
+        "Speed": [
+            25,
+            35
+        ],
+        "Drag": 6,
+        "Mass": [
+            -0.037,
+            0
+        ]
+    }
+}

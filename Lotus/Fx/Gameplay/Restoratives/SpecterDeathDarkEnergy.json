@@ -1,0 +1,69 @@
+{
+    "parent": "/Lotus/Fx/Levels/Settlement/FallingWaterSplashesPS",
+    "data": {
+        "BakeShadowsOnLightMaps": 0,
+        "UseLightProbes": 1,
+        "MaterialParams": [
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 20
+            }
+        ],
+        "UseTeamEffectsSetting": 1,
+        "Life": [
+            0.80000001,
+            1.2
+        ],
+        "Size": [
+            1.25,
+            3
+        ],
+        "SizeByLife": {
+            "SplineType": "BEZIER_SPLINE"
+        },
+        "EmissionTime": [
+            3,
+            3
+        ],
+        "SpewCount": [
+            32,
+            32
+        ],
+        "Material": "/Lotus/Fx/Gameplay/Muse/InkSplashWaterDropsPMat",
+        "ColorMin": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "ColorMax": [
+            63,
+            50,
+            84,
+            255
+        ],
+        "Spin": [
+            -0.0020000001,
+            0.0020000001
+        ],
+        "GoboFOV": -10,
+        "Nozzle": "PARENT_SKELETON",
+        "NozzleBox": [
+            0,
+            0,
+            0
+        ],
+        "NozzleSize": 0,
+        "Speed": [
+            0,
+            1
+        ],
+        "Drag": 5,
+        "Mass": [
+            0,
+            0.5
+        ]
+    }
+}

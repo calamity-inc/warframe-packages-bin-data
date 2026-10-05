@@ -25,6 +25,23 @@
             "_shieldCenterDeco": "",
             "_iceShieldDestroy": ""
         },
+        "AbilityEvents": [
+            {
+                "tag": "OnKillOrAssist",
+                "eventType": "ET_ON_KILL_OR_ASSIST",
+                "scriptInstance": {
+                    "Script": "IceShield.lua",
+                    "Function": "OnKillOrAssist",
+                    "_activateAnim": "",
+                    "_ShieldTypes": [],
+                    "_launchSound": "",
+                    "_augmentOneDeco": "",
+                    "_freezeProjPvP": "",
+                    "_shieldCenterDeco": "",
+                    "_iceShieldDestroy": ""
+                }
+            }
+        ],
         "NpcCooldownDuration": 30,
         "EnergyRequiredToActivate": 50,
         "ActivationXP": 75,

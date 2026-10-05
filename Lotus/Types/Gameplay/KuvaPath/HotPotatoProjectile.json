@@ -1,0 +1,57 @@
+{
+    "parent": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/ArachnoidCamperHeatJuiceProjectile",
+    "data": {
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0.1,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "HotPotatoLiquidDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "SurvivesMigration": 1,
+        "ExplodeOnImpact": 0,
+        "AllowedHitTypes": [],
+        "AllowedDamageTypes": [],
+        "UseNextShotDamageBonus": 0,
+        "DieEffect": "",
+        "KinematicSpinRate": [
+            0,
+            0,
+            0
+        ],
+        "SweepRadius": 1.2,
+        "OnProjectileStartScript": {
+            "Script": "/Lotus/Scripts/KuvaPath/HotPotatoEvent.lua",
+            "Function": "OnProjectileStart",
+            "_bombPickUpType": "",
+            "_explosionFx": "",
+            "_bombDecoType": ""
+        },
+        "OnProjectileDeathScript": {
+            "Script": "/Lotus/Scripts/KuvaPath/HotPotatoEvent.lua",
+            "Function": "OnProjectileDeath",
+            "_bombPickUpType": "",
+            "_explosionFx": "",
+            "_bombDecoType": ""
+        },
+        "RecreatePickupOnDeath": 1,
+        "PickupInheritVelocity": 1
+    }
+}

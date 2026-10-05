@@ -1,0 +1,45 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/PowersuitAbilities/BuildUpMesh.fbx",
+        "MeshScale": 3,
+        "OverrideMaterial": [
+            "/Lotus/Fx/Enemies/VoidAngels/VoidPortalAuraMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.07,
+                    0.38,
+                    0.63,
+                    1
+                ]
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 10
+            },
+            {
+                "name": "TimeScalar",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.5
+            }
+        ],
+        "DrawInTransparentPass": 1,
+        "UseParentVisibility": 0,
+        "GridZoningExpansion": 5,
+        "DeadParentInheritanceRule": "NONE",
+        "TestRotate": 1,
+        "TestRotateSpeed": [
+            12,
+            0,
+            0
+        ]
+    }
+}

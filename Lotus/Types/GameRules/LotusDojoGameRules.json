@@ -30,6 +30,7 @@
             "Function": "DisplayMessage"
         },
         "StoreManifest": "/Lotus/Types/Game/Store/ProductsManifest",
+        "DojoRecipeManifest": "/Lotus/Types/Game/Store/DojoRecipeManifest",
         "JsonProcLevelHelperType": "/Lotus/Levels/ClanDojo/DojoProcLevelHelper",
         "DebugScript": {
             "Script": "/Lotus/Scripts/HubGearStressTest.lua",
@@ -409,12 +410,10 @@
         },
         "MapLegendMovie": "/Lotus/Interface/Map/MapLegend.swf",
         "AvatarType": "/Lotus/Types/Player/TennoAvatarHubPeer",
-        "TradingStoreManifest": "/Lotus/Types/Game/Store/TradingStoreManifest",
-        "TradingControllerType": "/Lotus/Types/Game/DojoTradingController",
+        "HubType": "/Lotus/Types/Game/LotusDojoHub",
         "IsTradeHub": 1,
         "OperatorsAllowed": 1,
         "HubMovie": "/Lotus/Interface/Hub.swf",
-        "DojoRecipeManifest": "/Lotus/Types/Game/Store/DojoRecipeManifest",
         "DojoRoomSelectionMovie": "/Lotus/Interface/Dojo/DojoRoomSelection.swf",
         "DojoColorPickerMovie": "/Lotus/Interface/Dojo/ThemedDojoColorPicker.swf",
         "DuelBeginContextAction": "/Lotus/Types/Actions/DuelingReplicatedHitSwitch",

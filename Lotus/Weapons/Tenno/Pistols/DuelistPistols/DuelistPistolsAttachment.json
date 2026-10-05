@@ -1,0 +1,1813 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWeaponAttachment",
+    "data": {
+        "Mesh": "DuelistPistols_skel.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    -0.0135,
+                    -0.0099999998
+                ],
+                "LocalRotation": [
+                    -0.70710677,
+                    0,
+                    0,
+                    0.70710677
+                ],
+                "BoneName": "GAME_C1_SHARD1",
+                "Type": "DuelistPistolShardDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    -0.0135,
+                    0.015
+                ],
+                "LocalRotation": [
+                    -0.70710677,
+                    0,
+                    0,
+                    0.70710677
+                ],
+                "BoneName": "GAME_C1_SHARD2",
+                "Type": "DuelistPistolShardDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    -0.0135,
+                    0.039999999
+                ],
+                "LocalRotation": [
+                    -0.70710677,
+                    0,
+                    0,
+                    0.70710677
+                ],
+                "BoneName": "GAME_C1_SHARD3",
+                "Type": "DuelistPistolShardDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    -0.0135,
+                    0.064999998
+                ],
+                "LocalRotation": [
+                    -0.70710677,
+                    0,
+                    0,
+                    0.70710677
+                ],
+                "BoneName": "GAME_C1_SHARD4",
+                "Type": "DuelistPistolShardDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "OnEnter": [
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": "DuelistPistols.lua",
+                    "Function": "UpdateShards",
+                    "_shardDecoType": "DuelistPistolShardDeco"
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_EMPTY",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [
+                    {
+                        "LocalPosition": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "LocalRotation": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "BoneName": "GAME_R1_WEAPON1",
+                        "Type": "/Lotus/Fx/Weapons/Tenno/DuelistPistol/DuelistPistolReloadSpawner",
+                        "Chance": 255,
+                        "RelativeToBounds": 0,
+                        "Attach": 1,
+                        "DestroyWithOwner": 1,
+                        "DestroyParentOnDeath": 0,
+                        "FadeOutOnDestruction": 0,
+                        "Scale": 1
+                    }
+                ],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "/Lotus/Animations/Tenno/Movement/DualWield/ReloadDualDuelistWEP_anim.fbx",
+                "state": "WS_RELOAD",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_WIELD_ONLY",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [
+                    {
+                        "LocalPosition": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "LocalRotation": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "BoneName": "",
+                        "Type": "/Lotus/Fx/Weapons/Tenno/DuelistPistol/DuelistPistolReloadSpawner",
+                        "Chance": 255,
+                        "RelativeToBounds": 0,
+                        "Attach": 1,
+                        "DestroyWithOwner": 1,
+                        "DestroyParentOnDeath": 0,
+                        "FadeOutOnDestruction": 0,
+                        "Scale": 1
+                    }
+                ],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": "DuelistPistols.lua",
+                    "Function": "ReloadDecos",
+                    "_shardDecoType": "DuelistPistolShardDeco"
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_RELOAD",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [
+                    {
+                        "LocalPosition": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "LocalRotation": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "BoneName": "GAME_R1_WEAPON1",
+                        "Type": "/Lotus/Fx/Weapons/Tenno/DuelistPistol/DuelistPistolReloadSpawner",
+                        "Chance": 255,
+                        "RelativeToBounds": 0,
+                        "Attach": 1,
+                        "DestroyWithOwner": 1,
+                        "DestroyParentOnDeath": 0,
+                        "FadeOutOnDestruction": 0,
+                        "Scale": 1
+                    }
+                ],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 1,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": "DuelistPistolsPassive.lua",
+                    "Function": "RadialDamageOnReload",
+                    "_mistBone": "GAME_C1_SPINE3",
+                    "_mistEffect": "",
+                    "_tickEffect": "/Lotus/Fx/Weapons/Tenno/DuelistPistol/DuelisPistolsReloadAOESpawner",
+                    "_radialDamageHitEffect": "/Lotus/Fx/Weapons/Tenno/DuelistPistol/DuelistPistolsReloadAOESmoke",
+                    "_mistSound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsReloadExplosion"
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_EMPTY",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_RELOAD",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "DUAL_WIELD_ONLY",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [
+                    {
+                        "LocalPosition": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "LocalRotation": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "BoneName": "",
+                        "Type": "/Lotus/Fx/Weapons/Tenno/DuelistPistol/DuelistIceMuzzleFlash",
+                        "Chance": 255,
+                        "RelativeToBounds": 0,
+                        "Attach": 1,
+                        "DestroyWithOwner": 1,
+                        "DestroyParentOnDeath": 0,
+                        "FadeOutOnDestruction": 0,
+                        "Scale": 1
+                    }
+                ],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsShotLocal",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "/Lotus/Sounds/Weapons/ForceFeedbackSettings/Pistols/ForceFeedbackPistolFireMedium",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsShot",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_NON_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "/Lotus/Sounds/Weapons/ForceFeedbackSettings/Rifles/ForceFeedbackRifleFireMedium",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsMechLocal",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsMech",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_NON_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsPunchLocal",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsPunch",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_NON_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsTail",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "LARGE",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsLastShot",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 1,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0.001
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsLowClip",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 1,
+                "ammoInClipRangeLimit": [
+                    0.001,
+                    0.34999999
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 1,
+                "ammoInClipPitchRange": [
+                    1,
+                    1.4
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsProjectileLocal",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsMechReactLocal",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsMechReactLocal",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            }
+        ],
+        "OnExit": [
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_RELOAD",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": "DuelistPistolsPassive.lua",
+                    "Function": "OnExitReload",
+                    "_mistBone": "GAME_C1_SPINE3",
+                    "_mistEffect": "",
+                    "_tickEffect": "",
+                    "_radialDamageHitEffect": "",
+                    "_mistSound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsReloadExplosion"
+                }
+            }
+        ],
+        "OnAnimEvent": [
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "",
+                "name": "ReloadComplete",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 1,
+                "responseScript": {
+                    "Script": "DuelistPistolsPassive.lua",
+                    "Function": "OnReloadComplete",
+                    "_mistBone": "GAME_C1_SPINE3",
+                    "_mistEffect": "",
+                    "_tickEffect": "",
+                    "_radialDamageHitEffect": "",
+                    "_mistSound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsReloadExplosion"
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsReloadA",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "",
+                "name": "SFXDuelistPistolsReloadA",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsReloadB",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "",
+                "name": "SFXDuelistPistolsReloadB",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsReloadC",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "",
+                "name": "SFXDuelistPistolsReloadC",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsReloadD",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "",
+                "name": "SFXDuelistPistolsReloadD",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsReloadEmptyLocal",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 1,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_OWNER",
+                "animation": "",
+                "name": "SFXDuelistPistolsReloadEmpty",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsReloadEmptyQuarterLocal",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 1,
+                "ammoInClipRangeLimit": [
+                    0.0099999998,
+                    0.25
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_OWNER",
+                "animation": "",
+                "name": "SFXDuelistPistolsReloadEmptyQuarter",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistPistols/DuelistPistolsReloadEmptyHalfLocal",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 1,
+                "ammoInClipRangeLimit": [
+                    0.25,
+                    0.5
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_OWNER",
+                "animation": "",
+                "name": "SFXDuelistPistolsReloadEmptyHalf",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_OWNER",
+                "animation": "",
+                "name": "SFXDuelistPistolsReloadEmptyEighth",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            }
+        ],
+        "ContinuousFireMixingEffect": {
+            "mixEffect": "/Lotus/Sounds/MixEffects/SnapshotWeaponContinuousFire2DCommon"
+        },
+        "ElementalEffects": {
+            "DT_FIRE": {
+                "LocalPosition": [
+                    0,
+                    0.059999999,
+                    0.30000001
+                ],
+                "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Heat"
+            },
+            "DT_FREEZE": {
+                "LocalPosition": [
+                    0,
+                    0.059999999,
+                    0.30000001
+                ],
+                "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Cold"
+            },
+            "DT_ELECTRICITY": {
+                "LocalPosition": [
+                    0,
+                    0.059999999,
+                    0.30000001
+                ],
+                "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Electricity"
+            },
+            "DT_POISON": {
+                "LocalPosition": [
+                    0,
+                    0.059999999,
+                    0.30000001
+                ],
+                "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Toxin"
+            },
+            "DT_EXPLOSION": {
+                "LocalPosition": [
+                    0,
+                    0.059999999,
+                    0.30000001
+                ],
+                "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Blast"
+            },
+            "DT_RADIATION": {
+                "LocalPosition": [
+                    0,
+                    0.059999999,
+                    0.30000001
+                ],
+                "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Radiation"
+            },
+            "DT_GAS": {
+                "LocalPosition": [
+                    0,
+                    0.059999999,
+                    0.30000001
+                ],
+                "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Gas"
+            },
+            "DT_MAGNETIC": {
+                "LocalPosition": [
+                    0,
+                    0.059999999,
+                    0.30000001
+                ],
+                "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Magnetic"
+            },
+            "DT_VIRAL": {
+                "LocalPosition": [
+                    0,
+                    0.059999999,
+                    0.30000001
+                ],
+                "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Viral"
+            },
+            "DT_CORROSIVE": {
+                "LocalPosition": [
+                    0,
+                    0.059999999,
+                    0.30000001
+                ],
+                "Type": "/Lotus/Fx/Weapons/ElementalMuzzleFlashes/Corrosive"
+            }
+        }
+    }
+}

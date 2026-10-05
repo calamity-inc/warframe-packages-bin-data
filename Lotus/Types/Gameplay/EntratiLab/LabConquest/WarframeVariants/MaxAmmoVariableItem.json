@@ -11,6 +11,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -26,7 +27,13 @@
         ],
         "Script": {
             "Script": "/Lotus/Scripts/Gameplay/HexConquestModifiers.lua",
-            "Function": "ResetReserveAmmo"
+            "Function": "ResetReserveAmmo",
+            "_overguardGainReduction": 0.75,
+            "_energyReductionMultiplier": 0.75,
+            "_healthMult": 0.98500001,
+            "_healthRestorePercent": 0.029999999,
+            "_healthRestoretime": 12,
+            "_voidImplosionScriptTrigger": ""
         }
     }
 }

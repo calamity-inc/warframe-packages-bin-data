@@ -1,0 +1,137 @@
+{
+    "parent": "/EE/Materials/Defaults/CharacterPBRDetail",
+    "data": {
+        "DETAIL_MASK": "DETAIL_MASK_RGBA",
+        "UNIQUE_TEXTURE": "CRYSTAL",
+        "MACRO_ROUGHNESS": 1,
+        "CLEARCOAT": 1,
+        "EMISSIVE_MAP": 1,
+        "EMISSIVE_MASK": 1,
+        "VERTEX_AO": 1,
+        "PS:SpecularColor": [
+            0.013,
+            0.012,
+            0.012,
+            1
+        ],
+        "PS:TintColor0": [
+            0.075000003,
+            0.079999998,
+            0.14,
+            1
+        ],
+        "PS:TintColor1": [
+            0.82999998,
+            0.82999998,
+            0.82999998,
+            1
+        ],
+        "PS:TintColor2": [
+            0.097000003,
+            0.34,
+            0.47999999,
+            1
+        ],
+        "PS:TintColor3": [
+            0.69999999,
+            0.37,
+            0.19,
+            1
+        ],
+        "PS:CurvatureStrength": 1,
+        "PS:ClearCoatLayerStrength": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "PS:ClearCoatParams": [
+            0.029999999,
+            0.039999999,
+            1,
+            0.60000002
+        ],
+        "PS:ClearCoatUnderlyingTintChoice": 6,
+        "PS:ClearCoatMacroRoughnessStrength": 1,
+        "PS:CrystalParams": [
+            0.69999999,
+            0.5,
+            6,
+            0.1
+        ],
+        "PS:CrystalLayerStrength": [
+            0,
+            0,
+            0.97000003,
+            0
+        ],
+        "PS:CrystalPan": 0,
+        "PS:CrystalRoughness": 0.079999998,
+        "PS:CrystalFlattenNormal": 0,
+        "PS:EmissiveTintColorLo": [
+            0.00017,
+            0.1,
+            0.34999999,
+            1
+        ],
+        "PS:EmissiveTintColorHi": [
+            0.47,
+            0.67000002,
+            0.72000003,
+            1
+        ],
+        "PS:EmissiveMapAtten": 2,
+        "PS:EmissivePan": [
+            0.0040000002,
+            0.0017,
+            4
+        ],
+        "PS:EmissiveMaskBlend": 1,
+        "PS:EmissiveMaskBlueChannelInfluence": 1,
+        "TX:NormalMap": "DuelistBody_n.png",
+        "TX:MacroPackMap": "DuelistBodyPackmap",
+        "TX:CrystalMap": "DuelistIce_d.png",
+        "TX:EmissiveMap": "DuelistBody3component_e.png",
+        "PS:LayerNormalStrength": [
+            0.60000002,
+            0.40000001,
+            0.2,
+            0.1
+        ],
+        "PS:UvScaleRedGreen": [
+            9,
+            9,
+            6,
+            6
+        ],
+        "PS:UvScaleBlueAlpha": [
+            4,
+            4,
+            4,
+            4
+        ],
+        "PS:MicroCavityAoStrength": [
+            0.80000001,
+            1,
+            1,
+            1
+        ],
+        "PS:MicroCavityRoughnessMultiplier": [
+            0.80000001,
+            1,
+            1,
+            1
+        ],
+        "TX:RedNormalMap": "/Lotus/Characters/SharedTileableTextures/CharacterPBRDetail/Textiles/BullLeatherCavity_n.png",
+        "TX:GreenNormalMap": "/Lotus/Objects/Natural/Structural/SnowTileA_n.png",
+        "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/PlayerTintable/Concrete50_n.png",
+        "TX:AlphaNormalMap": "/Lotus/Characters/SharedTileableTextures/PlayerTintable/Concrete50_n.png",
+        "TX:DetailMask": "DuelistBodyDetail_t.png",
+        "PS:BaseTintColor": [
+            0.0029,
+            0.0031000001,
+            0.0033,
+            1
+        ]
+    }
+}

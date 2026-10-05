@@ -1,0 +1,246 @@
+{
+    "parent": "BaseEphemera",
+    "data": {
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 75,
+        "LocalizeTag": "/Lotus/Language/Iceblade/DuelistEphemeraName",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/DuelistEphemeraDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/DuelistEphemera.png",
+        "ExcludeFromCodex": 0,
+        "OverrideDateAddedToManifest": 1790215200,
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Characters/Tenno/Accessory/Ephemeras/DuelistEphemera/DuelistEphemeraL03Deco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Characters/Tenno/Accessory/Ephemeras/DuelistEphemera/DuelistEphemeraR03Deco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Fx/PowersuitAbilities/Duelist/Ephemera/DuelistEphemeraFX",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                {
+                    "LocalPosition": [
+                        0,
+                        0.25,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0.70710677,
+                        0,
+                        0,
+                        0.70710677
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Fx/PowersuitAbilities/Duelist/Ephemera/DuelistEphemeraSlideSpawner",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Fx/PowersuitAbilities/Duelist/Ephemera/DuelistEphemeraAttachIdle",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "ApplyEnergyColor": 1,
+        "DefaultEnergyColor": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "DefaultEnergyColor1": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "ParticleEvents": [
+            {
+                "EventName": "StepL",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/PowersuitAbilities/Duelist/Ephemera/DuelistEphemeraFootStep",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_LEG5",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.70710677,
+                    0.70710677,
+                    0
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "StepR",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/PowersuitAbilities/Duelist/Ephemera/DuelistEphemeraFootStep",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_LEG5",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.70710677,
+                    0.70710677,
+                    0
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "WispStep",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/PowersuitAbilities/Duelist/Ephemera/DuelistEphemeraFootStep",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0.02,
+                    0
+                ],
+                "LocalRotation": [
+                    -0.70710677,
+                    0,
+                    0,
+                    0.70710677
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "HowlStepFront",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/PowersuitAbilities/Duelist/Ephemera/DuelistEphemeraFootStep",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "HowlStepRear",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/PowersuitAbilities/Duelist/Ephemera/DuelistEphemeraFootStep",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            }
+        ]
+    }
+}

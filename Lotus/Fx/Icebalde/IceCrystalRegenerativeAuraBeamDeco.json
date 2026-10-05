@@ -1,0 +1,78 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/ParisVoidDrawGeo.fbx",
+        "MeshScale": 15,
+        "MaterialParams": [
+            {
+                "name": "vScalesStart",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0,
+                "value1": 0,
+                "value2": 0,
+                "value3": 0
+            },
+            {
+                "name": "vScales",
+                "type": "Float4",
+                "slot": -1,
+                "value": 1,
+                "value1": 1,
+                "value2": 1,
+                "value3": 0
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.69999999
+            },
+            {
+                "name": "TimeScalar",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.23
+            },
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.017000001,
+                    0.63999999,
+                    0.93000001,
+                    1
+                ]
+            },
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.017000001,
+                    0.63999999,
+                    0.93000001,
+                    1
+                ]
+            },
+            {
+                "name": "uvScales",
+                "type": "Float4",
+                "slot": -1,
+                "value": 1,
+                "value1": 0.25,
+                "value2": 1,
+                "value3": 1
+            }
+        ],
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "TestRotate": 1,
+        "TestRotateSpeed": [
+            0,
+            0,
+            32
+        ]
+    }
+}

@@ -4,6 +4,7 @@
         "Rarity": "RARE",
         "MarketMode": "MM_HIDDEN",
         "LocalizeTag": "/Lotus/Language/Suits/PushAbilityAugment1Name",
+        "StatusDescTag": "/Lotus/Language/Buffs/BansheePushAbilityAugment1BuffDesc",
         "Icon": "/Lotus/Interface/Cards/Images/AbilityAugments/BansheePushAugment.png",
         "ExcludeFromCodex": 0,
         "Upgrades": [
@@ -14,6 +15,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "AUGMENT_ONE",
                 "UpgradeObject": "Abilities/PushAbility",
                 "ValidPostures": [],
@@ -27,12 +29,13 @@
                     "Function": "GetAugmentDescriptionInfo",
                     "_expfx": "",
                     "_activateAnim": "",
-                    "_augmentOneArmorDamageProj": "",
+                    "_armourStealFX": "",
                     "_invalidTargetTypes": []
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "ArtifactPolarity": "AP_POWER",

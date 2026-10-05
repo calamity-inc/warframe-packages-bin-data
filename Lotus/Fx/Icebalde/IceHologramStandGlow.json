@@ -1,0 +1,49 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.5
+            }
+        ],
+        "UseParentVisibility": 0,
+        "HasLifeSpan": 0,
+        "Life": [
+            3,
+            3
+        ],
+        "Size": [
+            2,
+            2
+        ],
+        "InitialCount": [
+            1,
+            1
+        ],
+        "SpewCount": [
+            2,
+            2
+        ],
+        "Material": "/Lotus/Fx/Common/GlowSPMat",
+        "ColorMin": [
+            17,
+            184,
+            217,
+            255
+        ],
+        "ColorMax": [
+            17,
+            184,
+            217,
+            255
+        ],
+        "FadeInOut": [
+            0.5,
+            0.5
+        ],
+        "DrawRelative": 1
+    }
+}

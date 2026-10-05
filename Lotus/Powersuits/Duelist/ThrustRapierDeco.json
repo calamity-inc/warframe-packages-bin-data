@@ -1,0 +1,132 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Characters/Tenno/Duelist/DuelistExaltedSword/DuelistExaltedSword_skel.fbx",
+        "MeshScale": 1.2,
+        "OverrideMaterial": [
+            "/Lotus/Fx/PowersuitAbilities/Duelist/BladeDanceFloatingRapierWeaponMat"
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Duelist/DuelistThrustAttackSparksSpawner",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 0,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Duelist/ThrustSwordTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "ScriptInstance": {
+            "Script": "Abilities/DuelistBladeDance.lua",
+            "Function": "SwordDecoLoop",
+            "_castAnims": [],
+            "_inputFilter": "",
+            "_swordDecoType": "",
+            "_projType": "",
+            "_areaTrigger": "",
+            "_inputMatchSound": "",
+            "_inputMissSound": "",
+            "_markQuadType": "",
+            "_rangeDeco": "",
+            "_icePlatformDeco": "",
+            "_iceExplosionFx": "",
+            "_iceExplosionSound": "",
+            "_dancePhysics": "",
+            "_defaultPhysics": "",
+            "_areaLoopSeq": "",
+            "_abilityEndSound": "",
+            "_targetLockedSound": "",
+            "_projExplosionSound": "",
+            "_dodgeSound": ""
+        },
+        "ReplicaPositionNoise": [
+            0,
+            0.25,
+            0.2,
+            0.1
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.2,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0.15000001,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "MovementVector": [
+            0,
+            3,
+            0
+        ],
+        "MovementTimeLength": 0.2,
+        "MovementCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.342105,
+                    "Value": 0.73525101
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "ApplyColorCustomization": 1,
+        "InheritCreatorColors": 1
+    }
+}

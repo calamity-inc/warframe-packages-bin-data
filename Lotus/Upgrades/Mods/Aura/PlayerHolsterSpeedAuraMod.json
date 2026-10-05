@@ -40,7 +40,8 @@
         "HudBuffIcon": "/Lotus/Interface/Icons/ModBuffIndicators/IncreasedDamage.png",
         "TargetType": "/Lotus/Types/Player/TennoAvatar",
         "ExcludedAvatars": [
-            "/Lotus/Types/Player/LotusOperatorAvatar"
+            "/Lotus/Types/Player/LotusOperatorAvatar",
+            "/Lotus/Types/Friendly/PlayerControllable/ControllableDuviriDrifterTennoAvatar"
         ],
         "OnEnterAuraScript": {
             "Script": "/Lotus/Scripts/Mods/AuraAvatarHolsterDamage.lua",

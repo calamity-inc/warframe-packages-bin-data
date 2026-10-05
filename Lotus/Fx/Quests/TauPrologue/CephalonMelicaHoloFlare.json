@@ -1,0 +1,61 @@
+{
+    "parent": "/EE/Types/Effects/LensFlare",
+    "data": {
+        "OverrideMaterial": [
+            ""
+        ],
+        "MirrorDraw": "MF_CULL_FROM_MIRRORS",
+        "UseOcclusionQuery": 0,
+        "IgnoreParentScale": 1,
+        "ReplicaRunScriptInstance": 1,
+        "Size": 0.5,
+        "AspectRatio": 1,
+        "Range": 40,
+        "DepthCue": 0.60000002,
+        "QueryScale": 10,
+        "OcclusionAttenExponent": 0.5,
+        "OcclusionUsesVelocity": 0,
+        "FlareBoundsExpansion": 2,
+        "OpacityTime": 0.30000001,
+        "TileCount": 16,
+        "Tile": 15,
+        "Tint": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "NoiseRate": 2,
+        "ScreenAspect": 0.85000002,
+        "AttenByParentDissolve": 0,
+        "FlareParams": [
+            {
+                "GridX": 4,
+                "GridY": 0,
+                "GridSizeX": 2,
+                "GridSizeY": 2,
+                "Tile": 0,
+                "Distance": 0,
+                "Size": 6,
+                "Aspect": 1,
+                "Tint": [
+                    149,
+                    196,
+                    221,
+                    255
+                ],
+                "FlareTintMethod": "FTM_PRIMARY",
+                "Brightness": 1,
+                "Rotating": 0,
+                "Orientation": 0,
+                "SpinRate": 0,
+                "CenteringScale": 1,
+                "CenteringFade": 1,
+                "AxisConstraint": "AC_NONE",
+                "LensDirt": 0,
+                "LensDirtX": 0,
+                "LensDirtY": 0
+            }
+        ]
+    }
+}

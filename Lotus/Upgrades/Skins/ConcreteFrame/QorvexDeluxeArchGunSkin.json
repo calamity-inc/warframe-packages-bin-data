@@ -1,0 +1,1077 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWeaponCustomization",
+    "data": {
+        "THIRD_PERSON_ATTACHMENT": {
+            "MAIN_HAND": {
+                "LocalPosition": [
+                    0,
+                    -0.028999999,
+                    0
+                ]
+            }
+        },
+        "PickUpText": "",
+        "Equipable": 0,
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 60,
+        "LocalizeTag": "/Lotus/Language/Deluxe/QorvexDeluxeArchGunSkinName",
+        "LocalizeDescTag": "/Lotus/Language/Deluxe/QorvexDeluxeArchGunSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/HeavyWeapons/Skins/QorvexDeluxeArchgunSkin.png",
+        "ExcludeFromCodex": 0,
+        "OverrideDateAddedToManifest": 1790215200,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Weapons/Tenno/Archwing/Primary/TnConcreteArchgun/TnConcreteArchgunWeapon",
+        "THIRD_PERSON_Attachment": {
+            "IsDeluxeSkin": 1,
+            "OverrideGripOffset": 1,
+            "UseGripOffset": 1,
+            "GripPositionOffset": [
+                -0.02,
+                0.145,
+                0.20999999
+            ],
+            "GripRotationOffset": [
+                -0.454519,
+                0.54167497,
+                0.54167497,
+                0.454519
+            ],
+            "ClearAttachmentAnimations": 1,
+            "ForceRemoveAutoChildren": 1,
+            "AppliesToWeaponAttachment": 1,
+            "OnEnterOverrides": [
+                {
+                    "Index": -1,
+                    "Tag": "ArchGunCharging",
+                    "OverrideConditions": 1,
+                    "OnEnter": {
+                        "sound": "",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            0
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "animation": "/Lotus/Animations/Tenno/Movement/HeavyWeapon/TnConcreteArchgun/TnConcreteArchgunChargeUpWEP_anim.fbx",
+                        "state": "WS_CHARGE",
+                        "matchTransitionState": 0,
+                        "transitionState": "WS_READY",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "equippedHand": "ANY_HAND",
+                        "aimMode": "HIP_AND_AIM",
+                        "suitMode": "SUIT_ANY",
+                        "activeBehaviorIndexIgnoreList": [],
+                        "stateSignalAttachments": [],
+                        "effectsToCreate": [
+                            {
+                                "LocalPosition": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "LocalRotation": [
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                "BoneName": "",
+                                "Type": "/Lotus/Fx/Weapons/HeavyGuns/ConcreteGun/QorvexDeluxeArchGun/QorvexDeluxeGunChargingFX",
+                                "Chance": 255,
+                                "RelativeToBounds": 0,
+                                "Attach": 1,
+                                "DestroyWithOwner": 1,
+                                "DestroyParentOnDeath": 0,
+                                "FadeOutOnDestruction": 0,
+                                "Scale": 1
+                            }
+                        ],
+                        "effectsToDestroy": [],
+                        "ammoStatus": "ALL_CASES",
+                        "condition": "RF_ALWAYS",
+                        "newBehaviorIndex": -1,
+                        "useOnSkin": 0,
+                        "upgradeType": "NONE",
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "overrideTag": "",
+                        "soundSequencerType": "",
+                        "responseScript": {
+                            "Script": ""
+                        }
+                    }
+                },
+                {
+                    "Index": -1,
+                    "Tag": "ArchGunCharged",
+                    "OverrideConditions": 1,
+                    "OnEnter": {
+                        "sound": "",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            0
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "animation": "/Lotus/Animations/Tenno/Movement/HeavyWeapon/TnConcreteArchgun/TnConcreteArchgunChargedIdleWEP_anim.fbx",
+                        "state": "WS_FULLY_CHARGED",
+                        "matchTransitionState": 0,
+                        "transitionState": "WS_READY",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "equippedHand": "ANY_HAND",
+                        "aimMode": "HIP_AND_AIM",
+                        "suitMode": "SUIT_ANY",
+                        "activeBehaviorIndexIgnoreList": [],
+                        "stateSignalAttachments": [],
+                        "effectsToCreate": [
+                            {
+                                "LocalPosition": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "LocalRotation": [
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                "BoneName": "",
+                                "Type": "/Lotus/Fx/Weapons/HeavyGuns/ConcreteGun/QorvexDeluxeArchGun/QorvexDeluxeGunChargedFX",
+                                "Chance": 255,
+                                "RelativeToBounds": 0,
+                                "Attach": 1,
+                                "DestroyWithOwner": 1,
+                                "DestroyParentOnDeath": 0,
+                                "FadeOutOnDestruction": 0,
+                                "Scale": 1
+                            }
+                        ],
+                        "effectsToDestroy": [],
+                        "ammoStatus": "ALL_CASES",
+                        "condition": "RF_ALWAYS",
+                        "newBehaviorIndex": -1,
+                        "useOnSkin": 0,
+                        "upgradeType": "NONE",
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "overrideTag": "",
+                        "soundSequencerType": "",
+                        "responseScript": {
+                            "Script": ""
+                        }
+                    }
+                },
+                {
+                    "Index": -1,
+                    "Tag": "ArchGunReload",
+                    "OverrideConditions": 1,
+                    "OnEnter": {
+                        "sound": "",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            0
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "animation": "",
+                        "state": "WS_RELOAD",
+                        "matchTransitionState": 0,
+                        "transitionState": "WS_READY",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "equippedHand": "ANY_HAND",
+                        "aimMode": "HIP_AND_AIM",
+                        "suitMode": "SUIT_ANY",
+                        "activeBehaviorIndexIgnoreList": [],
+                        "stateSignalAttachments": [],
+                        "effectsToCreate": [
+                            {
+                                "LocalPosition": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "LocalRotation": [
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                "BoneName": "",
+                                "Type": "/Lotus/Fx/Weapons/HeavyGuns/ConcreteGun/QorvexDeluxeArchGun/QorvexDeluxeGunReloadFX",
+                                "Chance": 255,
+                                "RelativeToBounds": 0,
+                                "Attach": 1,
+                                "DestroyWithOwner": 1,
+                                "DestroyParentOnDeath": 0,
+                                "FadeOutOnDestruction": 0,
+                                "Scale": 1
+                            }
+                        ],
+                        "effectsToDestroy": [],
+                        "ammoStatus": "ALL_CASES",
+                        "condition": "RF_ALWAYS",
+                        "newBehaviorIndex": -1,
+                        "useOnSkin": 0,
+                        "upgradeType": "NONE",
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "overrideTag": "",
+                        "soundSequencerType": "",
+                        "responseScript": {
+                            "Script": "/Lotus/Scripts/WeaponAttachments/PlayAnimation.lua",
+                            "Function": "PlayAnimation",
+                            "_animation": "/Lotus/Animations/Tenno/Movement/HeavyWeapon/TnConcreteArchgun/TnConcreteArchgunCoolDownWEP_anim.fbx",
+                            "_animations": [],
+                            "_attachmentType": "",
+                            "_loop": 0,
+                            "_rateOverride": 1,
+                            "_animBlendLayer": 0,
+                            "_avatarTypes": [],
+                            "_ignoreAvatarTypes": 0,
+                            "_numBurstShots": 0,
+                            "_spinRate": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "_stopSpinStates": [
+                                "WS_DORMANT"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "OnAnimEventOverrides": [
+                {
+                    "Index": -1,
+                    "Tag": "TnConcreteArchgunReloadA",
+                    "OverrideConditions": 1,
+                    "OnAnimEvent": {
+                        "sound": "/Lotus/Sounds/Weapons/Archwing/Primary/TnConcreteArchgun/TnConcreteArchgunReloadA",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            1
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "condition": "RF_ALWAYS",
+                        "animation": "",
+                        "name": "SFXTnConcreteArchgunReloadA",
+                        "matchParam": 1,
+                        "param": 0,
+                        "hand": "ANY_HAND",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "suitMode": "SUIT_ANY",
+                        "weaponStates": [],
+                        "allowWhenDormant": 0,
+                        "useOnSkin": 0,
+                        "responseScript": {
+                            "Script": ""
+                        },
+                        "overrideTag": "",
+                        "attachEffect": ""
+                    }
+                },
+                {
+                    "Index": -1,
+                    "Tag": "TnConcreteArchgunReloadB",
+                    "OverrideConditions": 1,
+                    "OnAnimEvent": {
+                        "sound": "/Lotus/Sounds/Weapons/Archwing/Primary/TnConcreteArchgun/TnConcreteArchgunReloadB",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            1
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "condition": "RF_ALWAYS",
+                        "animation": "",
+                        "name": "SFXTnConcreteArchgunReloadB",
+                        "matchParam": 1,
+                        "param": 0,
+                        "hand": "ANY_HAND",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "suitMode": "SUIT_ANY",
+                        "weaponStates": [],
+                        "allowWhenDormant": 0,
+                        "useOnSkin": 0,
+                        "responseScript": {
+                            "Script": ""
+                        },
+                        "overrideTag": "TnConcreteArchgunReloadB",
+                        "attachEffect": ""
+                    }
+                },
+                {
+                    "Index": -1,
+                    "Tag": "ThanoTechArchGunReloadB3D",
+                    "OverrideConditions": 1,
+                    "OnAnimEvent": {
+                        "sound": "/Lotus/Sounds/Weapons/ThanoTechArchGun/ThanoTechArchGunReloadB3D",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            0
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 1,
+                        "exitState": "WS_FIRE",
+                        "stopSoundEventNames": [
+                            "WeaponBatteryFullyCharged"
+                        ],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "condition": "RF_ALWAYS",
+                        "animation": "",
+                        "name": "WeaponBatteryChargeStart",
+                        "matchParam": 1,
+                        "param": 0,
+                        "hand": "ANY_HAND",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "suitMode": "SUIT_ANY",
+                        "weaponStates": [],
+                        "allowWhenDormant": 0,
+                        "useOnSkin": 0,
+                        "responseScript": {
+                            "Script": ""
+                        },
+                        "overrideTag": "WeaponBatteryChargeStartTag",
+                        "attachEffect": ""
+                    }
+                },
+                {
+                    "Index": -1,
+                    "Tag": "ThanoTechArchGunReloadC3D",
+                    "OverrideConditions": 1,
+                    "OnAnimEvent": {
+                        "sound": "/Lotus/Sounds/Weapons/ThanoTechArchGun/ThanoTechArchGunReloadC3D",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            0
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "condition": "RF_ALWAYS",
+                        "animation": "",
+                        "name": "WeaponBatteryFullyCharged",
+                        "matchParam": 1,
+                        "param": 0,
+                        "hand": "ANY_HAND",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "suitMode": "SUIT_ANY",
+                        "weaponStates": [],
+                        "allowWhenDormant": 0,
+                        "useOnSkin": 0,
+                        "responseScript": {
+                            "Script": ""
+                        },
+                        "overrideTag": "WeaponBatteryChargeChargedTag",
+                        "attachEffect": ""
+                    }
+                },
+                {
+                    "Index": -1,
+                    "Tag": "TnConcreteArchgunReact",
+                    "OverrideConditions": 1,
+                    "OnAnimEvent": {
+                        "sound": "/Lotus/Sounds/Weapons/Archwing/Primary/TnConcreteArchgun/TnConcreteArchgunReact",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            0
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "condition": "RF_ALWAYS",
+                        "animation": "",
+                        "name": "SFXTnConcreteArchgunReact",
+                        "matchParam": 1,
+                        "param": 0,
+                        "hand": "ANY_HAND",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "suitMode": "SUIT_ANY",
+                        "weaponStates": [],
+                        "allowWhenDormant": 0,
+                        "useOnSkin": 0,
+                        "responseScript": {
+                            "Script": ""
+                        },
+                        "overrideTag": "",
+                        "attachEffect": ""
+                    }
+                },
+                {
+                    "Index": -1,
+                    "Tag": "TnConcreteArchgunChargedReact",
+                    "OverrideConditions": 1,
+                    "OnAnimEvent": {
+                        "sound": "/Lotus/Sounds/Weapons/Archwing/Primary/TnConcreteArchgun/TnConcreteArchgunChargedReact",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            0
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "condition": "RF_ALWAYS",
+                        "animation": "",
+                        "name": "SFXTnConcreteArchgunChargedReact",
+                        "matchParam": 1,
+                        "param": 0,
+                        "hand": "ANY_HAND",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "suitMode": "SUIT_ANY",
+                        "weaponStates": [],
+                        "allowWhenDormant": 0,
+                        "useOnSkin": 0,
+                        "responseScript": {
+                            "Script": ""
+                        },
+                        "overrideTag": "",
+                        "attachEffect": ""
+                    }
+                },
+                {
+                    "Index": -1,
+                    "Tag": "HeavyWeaponSummon",
+                    "OverrideConditions": 1,
+                    "OnAnimEvent": {
+                        "sound": "/Lotus/Sounds/Weapons/Archwing/Primary/ArchCannon/HeavyWeaponSummonArchCannon3D",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            0
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "condition": "RF_ALWAYS",
+                        "animation": "",
+                        "name": "SFXHeavyWeaponSummon",
+                        "matchParam": 0,
+                        "param": 0,
+                        "hand": "ANY_HAND",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "suitMode": "SUIT_ANY",
+                        "weaponStates": [],
+                        "allowWhenDormant": 0,
+                        "useOnSkin": 0,
+                        "responseScript": {
+                            "Script": ""
+                        },
+                        "overrideTag": "",
+                        "attachEffect": ""
+                    }
+                },
+                {
+                    "Index": -1,
+                    "Tag": "ArchwingMachGunUnEquip",
+                    "OverrideConditions": 1,
+                    "OnAnimEvent": {
+                        "sound": "/Lotus/Sounds/Weapons/Archwing/Primary/ArchWingMachGun/ArchwingMachGunUnEquip",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            0
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "condition": "RF_ALWAYS",
+                        "animation": "",
+                        "name": "SFXArchwingMachGunUnEquip",
+                        "matchParam": 1,
+                        "param": 0,
+                        "hand": "ANY_HAND",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "suitMode": "SUIT_ANY",
+                        "weaponStates": [],
+                        "allowWhenDormant": 0,
+                        "useOnSkin": 0,
+                        "responseScript": {
+                            "Script": ""
+                        },
+                        "overrideTag": "",
+                        "attachEffect": ""
+                    }
+                },
+                {
+                    "Index": -1,
+                    "Tag": "ArchCannonEquip",
+                    "OverrideConditions": 1,
+                    "OnAnimEvent": {
+                        "sound": "/Lotus/Sounds/Weapons/Archwing/Primary/ArchWingMachGun/ArchwingMachGunEquipShort",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            0
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "condition": "RF_ALWAYS",
+                        "animation": "",
+                        "name": "SFXArchwingMachGunUnEquip",
+                        "matchParam": 1,
+                        "param": 0,
+                        "hand": "ANY_HAND",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "suitMode": "SUIT_ANY",
+                        "weaponStates": [],
+                        "allowWhenDormant": 0,
+                        "useOnSkin": 0,
+                        "responseScript": {
+                            "Script": ""
+                        },
+                        "overrideTag": "",
+                        "attachEffect": ""
+                    }
+                },
+                {
+                    "Index": -1,
+                    "Tag": "WeaponChargesFullTag",
+                    "OverrideConditions": 1,
+                    "OnAnimEvent": {
+                        "sound": "/Lotus/Sounds/Weapons/ThanoTechArchGun/ThanotechArchGunAltFullyCharged3D",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            0
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "condition": "RF_ALWAYS",
+                        "animation": "",
+                        "name": "WeaponChargesFull",
+                        "matchParam": 1,
+                        "param": 0,
+                        "hand": "ANY_HAND",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "suitMode": "SUIT_ANY",
+                        "weaponStates": [],
+                        "allowWhenDormant": 0,
+                        "useOnSkin": 0,
+                        "responseScript": {
+                            "Script": ""
+                        },
+                        "overrideTag": "",
+                        "attachEffect": ""
+                    }
+                }
+            ],
+            "OnEnterFullyChargedFireOverrides": [
+                {
+                    "Index": -1,
+                    "Tag": "ArchGunChargedFire",
+                    "OverrideConditions": 1,
+                    "OnExit": {
+                        "sound": "",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            0
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "animation": "/Lotus/Animations/Tenno/Movement/HeavyWeapon/TnConcreteArchgun/TnConcreteArchgunChargedFireWEP_anim.fbx",
+                        "state": "WS_FIRE",
+                        "matchTransitionState": 0,
+                        "transitionState": "WS_READY",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "equippedHand": "ANY_HAND",
+                        "aimMode": "HIP_AND_AIM",
+                        "suitMode": "SUIT_ANY",
+                        "activeBehaviorIndexIgnoreList": [],
+                        "stateSignalAttachments": [],
+                        "effectsToCreate": [
+                            {
+                                "LocalPosition": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "LocalRotation": [
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                "BoneName": "",
+                                "Type": "/Lotus/Fx/Weapons/HeavyGuns/ConcreteGun/QorvexDeluxeArchGun/QorvexDeluxeGunChargedFireFX",
+                                "Chance": 255,
+                                "RelativeToBounds": 0,
+                                "Attach": 1,
+                                "DestroyWithOwner": 1,
+                                "DestroyParentOnDeath": 0,
+                                "FadeOutOnDestruction": 0,
+                                "Scale": 1
+                            }
+                        ],
+                        "effectsToDestroy": [],
+                        "ammoStatus": "ALL_CASES",
+                        "condition": "RF_ALWAYS",
+                        "newBehaviorIndex": -1,
+                        "useOnSkin": 0,
+                        "upgradeType": "NONE",
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "overrideTag": ""
+                    }
+                }
+            ],
+            "OnEnterPartiallyChargedFireOverrides": [
+                {
+                    "Index": -1,
+                    "Tag": "ArchGunFire",
+                    "OverrideConditions": 1,
+                    "OnExit": {
+                        "sound": "",
+                        "playerType": "PT_ANY",
+                        "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                        "ammoInClipRangeLimit": [
+                            0,
+                            0
+                        ],
+                        "multiplyPitchByFireRateRatio": 0,
+                        "adjustPitchByChargeRatio": 0,
+                        "reverbCategory": "UNSPECIFIED",
+                        "fireRatePitchMultiplier": 1,
+                        "chargePitchRange": [
+                            0,
+                            0
+                        ],
+                        "adjustPitchByAmmoInClip": 0,
+                        "ammoInClipPitchRange": [
+                            0,
+                            0
+                        ],
+                        "stopSoundOnExitState": 0,
+                        "stopSoundEventNames": [],
+                        "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                        "useRandomPitchSeed": 0,
+                        "randomPitchSeed": [
+                            1,
+                            1
+                        ],
+                        "animation": "/Lotus/Animations/Tenno/Movement/HeavyWeapon/TnConcreteArchgun/TnConcreteArchgunFireWEP_anim.fbx",
+                        "state": "WS_FIRE",
+                        "matchTransitionState": 0,
+                        "transitionState": "WS_READY",
+                        "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                        "equippedHand": "ANY_HAND",
+                        "aimMode": "HIP_AND_AIM",
+                        "suitMode": "SUIT_ANY",
+                        "activeBehaviorIndexIgnoreList": [],
+                        "stateSignalAttachments": [],
+                        "effectsToCreate": [
+                            {
+                                "LocalPosition": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "LocalRotation": [
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                "BoneName": "",
+                                "Type": "/Lotus/Fx/Weapons/HeavyGuns/ConcreteGun/QorvexDeluxeArchGun/QorvexDeluxeGunFireFX",
+                                "Chance": 255,
+                                "RelativeToBounds": 0,
+                                "Attach": 1,
+                                "DestroyWithOwner": 1,
+                                "DestroyParentOnDeath": 0,
+                                "FadeOutOnDestruction": 0,
+                                "Scale": 1
+                            }
+                        ],
+                        "effectsToDestroy": [],
+                        "ammoStatus": "ALL_CASES",
+                        "condition": "RF_ALWAYS",
+                        "newBehaviorIndex": -1,
+                        "useOnSkin": 0,
+                        "upgradeType": "NONE",
+                        "forceFeedbackEffect": "",
+                        "continuousForceFeedback": 0,
+                        "overrideTag": ""
+                    }
+                }
+            ],
+            "ClearWeaponStateAnimations": 1,
+            "UpdateWeaponAttachment": 1,
+            "AttachmentPosition": [
+                -0.0049999999,
+                -0.035,
+                -0.059999999
+            ],
+            "AttachmentRotation": [
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        "THIRD_PERSON_MeshOverride": "/Lotus/Weapons/Tenno/Archwing/Primary/TnConcreteArchgun/QorvexDeluxeArchGun/QorvexDeluxeArchGun_skel.fbx",
+        "OverrideMeshScale": 1,
+        "UpgradeSkinOverride": "QorvexDeluxeArchGunWeaponSkin",
+        "FiringPositionOverrides": [
+            {
+                "UseMultipleFirePositions": 0,
+                "FirePosition": {
+                    "LocalPosition": [
+                        -0.1,
+                        -0.125,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "GAME_C1_ROOT",
+                    "Type": "",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                "MoveEffectAttachmentsToFirePosition": 0,
+                "CreateFiringAutoChild": 0
+            }
+        ],
+        "OverrideFiringPositions": 1,
+        "ApplyEnergyColor": 1,
+        "DefaultEnergyColor": [
+            240,
+            84,
+            0,
+            255
+        ],
+        "DefaultEnergyColor1": [
+            132,
+            16,
+            0,
+            255
+        ],
+        "ResourceOverrides": [
+            {
+                "Tag": "",
+                "Resource": ""
+            }
+        ],
+        "OverrideProjectileType": 1,
+        "ProjectileType": "/Lotus/Weapons/Tau/OrokinEmpire/TauDaxNinjaKunaiProjectile",
+        "ChargedProjectileType": "/Lotus/Weapons/Tau/OrokinEmpire/TauDaxNinjaKunaiProjectile",
+        "MultiShotProjectileType": "/Lotus/Weapons/Tau/OrokinEmpire/TauDaxNinjaKunaiProjectile",
+        "ChargedMultiShotProjectileType": "/Lotus/Weapons/Tau/OrokinEmpire/TauDaxNinjaKunaiProjectile",
+        "PvpProjectileType": "/Lotus/Weapons/Tau/OrokinEmpire/TauDaxNinjaKunaiProjectile",
+        "PvpChargedProjectileType": "/Lotus/Weapons/Tau/OrokinEmpire/TauDaxNinjaKunaiProjectile"
+    }
+}

@@ -2,6 +2,9 @@
     "data": {
         "Label": "Landscape",
         "Material": "/EE/Materials/Defaults/Landscape/LandscapeMaterial",
-        "MaterialLOD": "/EE/Materials/Defaults/Landscape/LandscapeMaterialLOD"
+        "MaterialLOD": "/EE/Materials/Defaults/Landscape/LandscapeMaterialLOD",
+        "Qualifications": [
+            "/EE/Editor/ToolMenus/Conditions/CndLevelIsLoaded"
+        ]
     }
 }

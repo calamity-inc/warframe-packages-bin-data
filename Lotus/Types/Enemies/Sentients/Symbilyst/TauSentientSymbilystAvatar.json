@@ -1,0 +1,116 @@
+{
+    "parent": "/Lotus/Types/Enemies/Sentients/SentientBaseAvatar",
+    "data": {
+        "Mesh": "/Lotus/Characters/Sentient/Symbilyst/Symbilyst_skel.fbx",
+        "MeshScale": 1.2,
+        "ServerChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Characters/Sentient/Symbilyst/SymbilystArmsSkelDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "SentientSymbilystBaseWalk",
+        "LocTag": "/Lotus/Language/Enemies/SentientSymbilystName",
+        "ShortDesc": "/Lotus/Language/Enemies/SentientSymbiliystDesc",
+        "Icon": "/Lotus/Interface/Icons/Npcs/Sentients/Symbilyst.png",
+        "MaxHealth": 1000,
+        "VoiceBox": "/Lotus/Sounds/Enemies/Sentients/Symbilyst/Barks/SentientSymbilystVoiceBox",
+        "DropTable": "/Lotus/Types/DropTables/SentientSymbolistDropTable",
+        "AgentControllerType": "/Lotus/Types/Enemies/Sentients/Troopers/SentientTrooperAgentController",
+        "AnimControllerType": "SentientSymbilystAnimTreeController",
+        "DamageControllerType": "TauSentientSymbilystDamageController",
+        "InventoryControllerType": "SentientSymbilystInventoryController",
+        "OnDeathScript": {
+            "Script": "/Lotus/Scripts/Sentient/SentientMutators.lua",
+            "Function": "WardOnDeath"
+        },
+        "SoundEvents": [
+            {
+                "EventName": "SFXSymbilystShieldAirStart",
+                "Sound": "/Lotus/Sounds/Enemies/Sentients/SentientMovement/SentientMetallicMove",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXSymbilystShieldAirLock",
+                "Sound": "/Lotus/Sounds/Enemies/Sentients/Symbilyst/Abilities/SentientSymbilystShieldLock",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeWhoosh",
+                "Sound": "/Lotus/Sounds/Enemies/Sentients/SentientTrooper/Mimic/SentientMimicMeleeWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXSymbilystRegenerate",
+                "Sound": "/Lotus/Sounds/Enemies/Sentients/Symbilyst/Abilities/SentientSymbilystRegenerate",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            }
+        ],
+        "VoiceBoxEvents": [
+            {
+                "EventName": "SFXSymbilystAttackBark",
+                "Phrase": "ATTACK",
+                "Filter": "",
+                "Chance": 1
+            }
+        ],
+        "ParticleEvents": [
+            {
+                "EventName": "FXSHIELDDEPLOY",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Enemies/Sentients/Symbilyst/SymbilystShieldDeploy",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_SHIELDFX",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            }
+        ],
+        "KillXPReward": 300,
+        "AiDirEncounterScore": 300,
+        "AbilityResistanceData": "/Lotus/Types/Game/LotusAbilityResistanceDatas/AbilityResistanceDataResistTime",
+        "DisarmAction": "DA_REMOVE_ARMS",
+        "ReactionAnims": "/Lotus/Types/Game/ReactionAnims/SentientSymbilystReactionAnims"
+    }
+}

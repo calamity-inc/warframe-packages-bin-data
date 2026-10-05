@@ -10,7 +10,48 @@
             {
                 "slot": 4,
                 "name": "DiffuseMap",
-                "texture": "/Lotus/Characters/Tenno/Operator/RemasteredOperator/Heads/Shared/Albedo/ExtraBDiffuseRoughness_d.png"
+                "texture": "/Lotus/Characters/Tenno/Operator/RemasteredOperator/Heads/Shared/Albedo/LegacyDiffuseRoughness_d.png"
+            },
+            {
+                "slot": 4,
+                "name": "SkinToneMask",
+                "texture": "/Lotus/Characters/Tenno/Operator/RemasteredOperator/Heads/Shared/Albedo/Vitiligo/VitiligoMaskA_d.png"
+            }
+        ],
+        "MaterialParams": [
+            {
+                "name": "DefaultSkinToneColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.28999999,
+                    0.14,
+                    0.086000003,
+                    0
+                ]
+            },
+            {
+                "name": "AltSkinToneColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.76999998,
+                    0.55000001,
+                    0.46000001,
+                    1
+                ]
+            },
+            {
+                "name": "Vitiligo",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            },
+            {
+                "name": "SkinToneSpread",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.025
             }
         ]
     }

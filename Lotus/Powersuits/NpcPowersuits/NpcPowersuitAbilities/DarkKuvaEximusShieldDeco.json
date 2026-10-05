@@ -1,0 +1,151 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "UseLightMap": 0,
+        "Mesh": "/Lotus/Fx/Common/Sphere10RaycastCollisionOnly.fbx",
+        "OverrideMaterial": [
+            "/EE/Materials/Hidden"
+        ],
+        "UseOcclusionQuery": 0,
+        "DeadParentInheritanceRule": "NONE",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "DarkKuvaEximusShieldHitProxy",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Enemies/Eximus/Kuva/EximusKuvaShieldLoopSeq",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Enemies/KuvaEximus/KuvaEximusShield",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Enemies/KuvaEximus/TestProjs",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "DarkKuvaEximusShieldScriptTrigger",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicNonCollidableRaycastableIgnoreCamera",
+        "IgnoreParentRotation": 1,
+        "IgnoreParentScale": 1,
+        "ShowDamageNumbers": 0,
+        "Tag": "EffectsDeco",
+        "ReplicationOverride": "RO_ALWAYS",
+        "ReplicateCreator": 1,
+        "Health": 900000000,
+        "Invulnerable": 1,
+        "CanDie": 0,
+        "PreventPunchthrough": 1,
+        "RemoveOnDestroy": 1,
+        "CreateOnDestroy": {
+            "Type": "/Lotus/Fx/Enemies/KuvaEximus/KuvaEximusShieldDestroyed"
+        },
+        "DestroyDamageIgnoreSource": 0,
+        "OnDamageScript": {
+            "Script": "/Lotus/Scripts/DarkKuvaEximusMain.lua",
+            "Function": "OnDamageShield",
+            "_shieldType": "",
+            "_hitSound": "/Lotus/Sounds/Enemies/Eximus/Kuva/EximusKuvaShieldHitNotification",
+            "_attachEffect": "/Lotus/Fx/Enemies/KuvaEximus/KuvaEximusGhostHitProj",
+            "_hitEffect": "/Lotus/Fx/Enemies/KuvaEximus/KuvaEximusShieldImpactSpawner",
+            "_colourCorrection": ""
+        },
+        "IgnoreDamageFromCreatorFaction": 1,
+        "ShowHealthInHud": 0
+    }
+}

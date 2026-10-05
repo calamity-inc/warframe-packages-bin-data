@@ -96,6 +96,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "NotifyPotentialVictimsOfIncomingAttack": 0,
@@ -230,6 +231,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_MELEE_DAMAGE"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -305,6 +307,7 @@
                         "CC_GROUND_BRANCH_B": [],
                         "CC_GROUND_BRANCH_C": [],
                         "CC_GROUND_HEAVY": [],
+                        "CC_GROUND_HELD_HEAVY": [],
                         "CC_SLIDING": [],
                         "CC_AIR": [],
                         "CC_AIR_RIGHT": [],
@@ -346,6 +349,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -421,7 +425,12 @@
                     "SetToPreviousBehaviorWhenMeleeActionEnds": 1,
                     "RecordFireEvent": 1,
                     "ComboData": {
+                        "MinHeldHeavyTime": 0,
                         "HeavyMeleeChargeTime": 0.69999999,
+                        "PerfectHeldHeavyRange": [
+                            0,
+                            0
+                        ],
                         "UseCurrentContextAfterCharge": 0
                     },
                     "GroundHitLerpRate": 0.25,
@@ -520,6 +529,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "",
@@ -544,6 +554,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0
                 },
                 "impact:Type": "/EE/Types/Game/WeaponImpactBehavior",
@@ -567,6 +579,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -635,6 +648,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,

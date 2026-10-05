@@ -1,0 +1,100 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            }
+        ],
+        "UseParentVisibility": 0,
+        "UseTeamEffectsSetting": 1,
+        "SpawnRate": 2000,
+        "EmissionTime": 1,
+        "BoundsExpansionOverride": 5,
+        "EnergyTintMethod": "ETM_LIFE",
+        "DisableVortexOnFadeOut": 1,
+        "fireOnce": 0,
+        "resilience": 0.2,
+        "drag": 0.60000002,
+        "mass": [
+            0,
+            0
+        ],
+        "life": [
+            0.1,
+            2
+        ],
+        "size": [
+            0.0040000002,
+            0.012
+        ],
+        "velocity": [
+            0,
+            2
+        ],
+        "windAttenuation": [
+            0.1,
+            0.2
+        ],
+        "streaksFactor": 3,
+        "velocityDeviation": [
+            0,
+            0.1
+        ],
+        "inheritVelocity": 0.2,
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            0.050000001,
+            0.050000001,
+            0.050000001
+        ],
+        "spawnDelay": 0.2,
+        "flowForce": [
+            4,
+            4,
+            4
+        ],
+        "flowForceEnd": [
+            2,
+            2,
+            2
+        ],
+        "flowScrolling": [
+            0.2,
+            0.2,
+            0.2
+        ],
+        "forceField": "/EE/Materials/Util/CurlNoiseFlowVolumeNoise_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSpotFadeCloseMidAlpha",
+        "colorKeys[0]": [
+            0.54000002,
+            1,
+            0.94999999,
+            1
+        ],
+        "colorKeys[1]": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "colorKeys[2]": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "colorKeys[3]": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "vortexSpeed": 3,
+        "vortexDecay": 0.050000001,
+        "vortexRadialForce": 5
+    }
+}

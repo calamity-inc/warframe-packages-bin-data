@@ -1,0 +1,33 @@
+{
+    "data": {
+        "Label": "GenerateNightwaveSeason",
+        "SyndicateTemplate": {
+            "sourceType": "/Lotus/Syndicates/RadioLegionIntermission16Syndicate",
+            "newTypeName": "RadioLegionIntermission17Syndicate",
+            "replacementTerms": [
+                {
+                    "key": "Intermission17",
+                    "value": "Intermission17"
+                },
+                {
+                    "key": "IntermissionSixteen",
+                    "value": "IntermissionSeventeen"
+                }
+            ]
+        },
+        "VendorManifestTemplate": {
+            "sourceType": "/Lotus/Types/Game/VendorManifests/Events/RadioLegionIntermission16VendorManifest",
+            "newTypeName": "RadioLegionIntermission17VendorManifest",
+            "replacementTerms": [
+                {
+                    "key": "Intermission16",
+                    "value": "Intermission17"
+                },
+                {
+                    "key": "IntermissionSixteen",
+                    "value": "IntermissionSeventeen"
+                }
+            ]
+        }
+    }
+}

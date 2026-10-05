@@ -99,6 +99,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/DefaultAccuracyInfo",
@@ -123,6 +124,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0
                 },
                 "impact:Type": "/EE/Types/Game/WeaponImpactBehavior",
@@ -146,6 +149,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -183,6 +187,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 2,
@@ -214,6 +219,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -589,9 +595,6 @@
             "Abilities/SonicEarthQuakeAbility"
         ],
         "PassiveAbilityLocTag": "/Lotus/Language/Suits/BansheePassiveAbility",
-        "CastSounds": [
-            "/Lotus/Sounds/Warframes/Decree/BansheeAbilityCast"
-        ],
         "MaxEnergy": 175,
         "InitialEnergy": 100,
         "MovementSpeedMultiplier": 1.1,
@@ -643,38 +646,6 @@
         ],
         "SoundEvents": [
             {
-                "EventName": "DecreeSonicBoom2D",
-                "Sound": "/Lotus/Sounds/Warframes/Decree/DecreeSonicBoom2D",
-                "Chance": 1,
-                "Period": 1,
-                "Context": "PEC_LOCAL_ONLY",
-                "CancelEventName": ""
-            },
-            {
-                "EventName": "DecreeSonicBoom3D",
-                "Sound": "/Lotus/Sounds/Warframes/Decree/DecreeSonicBoom3D",
-                "Chance": 1,
-                "Period": 1,
-                "Context": "PEC_REMOTE_ONLY",
-                "CancelEventName": ""
-            },
-            {
-                "EventName": "DecreeQuake2D",
-                "Sound": "/Lotus/Sounds/Warframes/Decree/DecreeQuake2D",
-                "Chance": 1,
-                "Period": 1,
-                "Context": "PEC_LOCAL_ONLY",
-                "CancelEventName": ""
-            },
-            {
-                "EventName": "DecreeQuake3D",
-                "Sound": "/Lotus/Sounds/Warframes/Decree/DecreeQuake3D",
-                "Chance": 1,
-                "Period": 1,
-                "Context": "PEC_REMOTE_ONLY",
-                "CancelEventName": ""
-            },
-            {
                 "EventName": "BansheeQuakeEnd",
                 "Sound": "/Lotus/Sounds/Warframes/Decree/DecreeQuakeEnd",
                 "Chance": 1,
@@ -689,27 +660,12 @@
                 "Period": 1,
                 "Context": "PEC_REMOTE_ONLY",
                 "CancelEventName": ""
-            },
-            {
-                "EventName": "BansheeSonar",
-                "Sound": "/Lotus/Sounds/Warframes/Decree/DecreeSonar2D",
-                "Chance": 1,
-                "Period": 1,
-                "Context": "PEC_LOCAL_ONLY",
-                "CancelEventName": ""
-            },
-            {
-                "EventName": "BansheeSonar",
-                "Sound": "/Lotus/Sounds/Warframes/Decree/DecreeSonar3D",
-                "Chance": 1,
-                "Period": 1,
-                "Context": "PEC_REMOTE_ONLY",
-                "CancelEventName": ""
             }
         ],
         "ParticleEvents": [
             {
                 "EventName": "SonarCast",
+                "CancelEventName": "",
                 "ParticleSys": "/Lotus/Fx/PowersuitAbilities/Decree/SonarCastSpawner",
                 "Attached": 1,
                 "OwnedByAvatar": 0,
@@ -730,6 +686,7 @@
             },
             {
                 "EventName": "EarthquakeFXStart",
+                "CancelEventName": "",
                 "ParticleSys": "/Lotus/Fx/PowersuitAbilities/Decree/SonicEQStartSpawner",
                 "Attached": 1,
                 "OwnedByAvatar": 0,

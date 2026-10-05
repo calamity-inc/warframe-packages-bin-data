@@ -1,0 +1,37 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/Iceblade/DuelistPistolsName",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/DuelistPistolsDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/DuelistPistols.png",
+        "TypeName": "/Lotus/Types/Recipes/Weapons/DuelistPistolsBlueprint",
+        "SellingPrice": 5000,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1789050054,
+        "RequiredLevel": 14,
+        "Giftable": 0,
+        "SearchTags": [
+            "/Lotus/Language/Loadout/LoadoutCat_Pistol"
+        ],
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "/Lotus/StoreItems/Weapons/Tenno/Pistols/DuelistPistols/DuelistPistols",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistPistolsBarrel",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistPistolsReceiver",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistPistolsLink",
+                "ItemCount": 1
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "SkipBuildTimePrice": 25
+    }
+}

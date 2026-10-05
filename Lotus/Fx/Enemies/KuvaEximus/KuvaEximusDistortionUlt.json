@@ -1,0 +1,48 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "ExtrudePoint",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0,
+                "value1": 5,
+                "value2": 0,
+                "value3": 0
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 6
+            }
+        ],
+        "RefractiveWater": 1,
+        "DeadParentInheritanceRule": "NONE",
+        "Material": "/Lotus/Fx/Enemies/Grineer/Railjack/Admirals/Ephemera/KuvaTricksterEphemeraDistortionMatB",
+        "OnlyRenderOverOpaque": 0,
+        "UseAttachRoot": 0,
+        "TriggeredFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 0.40000001,
+                "Multiplier": 2,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 1,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

@@ -1,6 +1,10 @@
 {
     "parent": "OperatorSuit",
     "data": {
+        "LocalizeTag": "/Lotus/Language/Labels/NewWarOperatorAdult",
+        "SearchTags": [
+            "/Lotus/Language/Labels/NewWarOperatorAdult"
+        ],
         "Behaviors": [
             {
                 "fire:Type": "/EE/Types/Game/WeaponProjectileFireBehavior",
@@ -234,6 +238,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 2,

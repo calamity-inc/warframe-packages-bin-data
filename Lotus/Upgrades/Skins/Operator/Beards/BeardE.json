@@ -1,0 +1,36 @@
+{
+    "parent": "BaseBeard",
+    "data": {
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 20,
+        "LocalizeTag": "",
+        "LocalizeDescTag": "/Lotus/Language/Operator/DrifterBeardDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Beards/BeardE.png",
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Characters/Tenno/Operator/RemasteredOperator/RemasteredHair/Beard005RM/Beard005RMDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/Primes/CraftingComponent_CitrinePrimeSystemsName",
+        "LocalizeDescTag": "/Lotus/Language/Primes/CraftingComponent_CitrinePrimeSystemsDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeSystem.png",
+        "TypeName": "/Lotus/Types/Recipes/WarframeRecipes/CitrinePrimeSystemsBlueprint",
+        "RegularPrice": 35000,
+        "SellingPrice": 3500,
+        "PrimeSellingPrice": 45,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1786537352,
+        "Tradeable": 1,
+        "Giftable": 0,
+        "ExcludeFromCodex": 0,
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "CitrinePrimeSystemsComponent",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                "ItemCount": 5
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 1775
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 4000
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "SkipBuildTimePrice": 25
+    }
+}

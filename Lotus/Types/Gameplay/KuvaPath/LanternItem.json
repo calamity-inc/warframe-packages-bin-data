@@ -1,0 +1,44 @@
+{
+    "parent": "/Lotus/Types/PickUps/GameplayObjectItem",
+    "data": {
+        "PickUpMesh": "/Lotus/Objects/Ostron/Props/ArloHealingLamp.fbx",
+        "PickupSound": "/Lotus/Sounds/Gameplay/EmissarySeasonTwo/EmissaryLanternItemPickup",
+        "THIRD_PERSON_ATTACHMENT": {
+            "OFF_HAND": {
+                "LocalPosition": [
+                    0.67000002,
+                    -0.050000001,
+                    -0.050000001
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "Type": "LanternDeco"
+            }
+        },
+        "PickUpText": "/Lotus/Language/Events/EmissaryBossLampPickup",
+        "DropOnPreDeath": 1,
+        "LocalizeTag": "[HC] LanternItem",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "Upgrades": [
+            {
+                "UpgradeType": "AVATAR_POWER_RATE",
+                "OperationType": "ADD",
+                "Value": -15,
+                "ValidType": "",
+                "DamageType": "DT_ANY",
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "IsAutonomous": 0,
+                "ValidProcTypes": []
+            }
+        ],
+        "AllowMultiple": 0
+    }
+}

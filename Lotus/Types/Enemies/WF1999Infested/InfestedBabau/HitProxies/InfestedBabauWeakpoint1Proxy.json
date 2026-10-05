@@ -1,6 +1,8 @@
 {
-    "parent": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerFullBody",
+    "parent": "/EE/Types/Engine/HitProxy",
     "data": {
+        "DeadParentInheritanceRule": "NONE",
+        "Type": "CAPSULE",
         "CapsuleHeight": 0.050000001,
         "Radius": 0.2,
         "DebugColor": [
@@ -9,6 +11,7 @@
             52,
             255
         ],
+        "PhysicsRegister": 1,
         "PhysicsMaterial": "/EE/Types/Physics/Materials/TechnocyteFlesh",
         "Part": "HEAD",
         "CriticalChance": 1,

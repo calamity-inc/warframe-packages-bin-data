@@ -1,0 +1,67 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "DepthSortBias": -10,
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 8
+            }
+        ],
+        "UseOcclusionQuery": 0,
+        "UseParentVisibility": 0,
+        "IgnoreParentScale": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "SleepOffscreen": 0,
+        "Life": [
+            1,
+            2
+        ],
+        "Size": [
+            0.0099999998,
+            0.1
+        ],
+        "SpewCount": [
+            30,
+            30
+        ],
+        "VelocityCount": [
+            25,
+            25
+        ],
+        "VelocityCountIsDensity": 1,
+        "Material": "/Lotus/Fx/Gameplay/NegationTower/KuvaMistGhostBokPMat",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            58,
+            78,
+            250,
+            255
+        ],
+        "ColorMax": [
+            40,
+            62,
+            235,
+            255
+        ],
+        "FadeInOut": [
+            0.15000001,
+            0.69999999
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleDev": 1,
+        "NozzleSize": 1,
+        "Speed": [
+            -1,
+            1
+        ],
+        "Drag": 0.5,
+        "WindAffected": 1,
+        "WindDragIncrease": 0,
+        "WindAlphaDispersion": 8,
+        "WindSizeGrowth": 0.2
+    }
+}

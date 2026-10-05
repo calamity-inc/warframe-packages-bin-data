@@ -1,0 +1,94 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.055,
+                    0.19,
+                    0.5,
+                    1
+                ]
+            }
+        ],
+        "SpawnRate": 120,
+        "BoundsExpansionOverride": 5,
+        "fireOnce": 0,
+        "drag": 0.69999999,
+        "mass": [
+            -0.30000001,
+            0.30000001
+        ],
+        "life": [
+            0.69999999,
+            1.5
+        ],
+        "size": [
+            0.025,
+            0.18000001
+        ],
+        "sizeByLifeMultiplier": [
+            0.25,
+            1,
+            0.5
+        ],
+        "velocity": [
+            -7,
+            7
+        ],
+        "streaksFactor": 3.5,
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "spawnFlowBlend": 0.80000001,
+        "spawnFlowForcePosScale": 0.34999999,
+        "flowScale": [
+            0.69999999,
+            0.69999999,
+            0.69999999
+        ],
+        "flowForce": [
+            12,
+            12,
+            12
+        ],
+        "flowForceEnd": [
+            6,
+            6,
+            6
+        ],
+        "flowScrolling": [
+            0,
+            -1,
+            0
+        ],
+        "flowAtten": [
+            0.5,
+            4
+        ],
+        "forceField": "/EE/Materials/Util/CurlNoiseFlowVolumeVectors_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColor",
+        "colorKeys[0]": [
+            0.055,
+            0.19,
+            0.5,
+            1
+        ],
+        "colorKeys[1]": [
+            0.012,
+            0.11,
+            0.44,
+            1
+        ],
+        "numColors": 2,
+        "simVortex": 1,
+        "vortexSpeed": 0.34999999,
+        "vortexRadialForce": 0.44999999
+    }
+}

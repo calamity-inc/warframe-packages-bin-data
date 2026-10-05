@@ -1,0 +1,53 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/MissionConditions/MissionConditionItem",
+    "data": {
+        "LocalizeTag": "[HC] ThinBoundaryBubbleItem",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "StatusDescTag": "/Lotus/Language/Shadowgrapher/OnEnemyDeathSlow_Desc",
+        "Icon": "/Lotus/Interface/Icons/Markers/FollieCloneIconMinimap.png",
+        "Upgrades": [],
+        "ApplyUpgradesByDefault": 0,
+        "Script": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/ThinBoundary.lua",
+            "Function": "AbilityUsed",
+            "_murmerAgentTypes": [],
+            "_murmerSpawnAnims": [],
+            "_murmerAvatarWeakRes": [],
+            "_specialMurmerAgentTypes": [],
+            "_specialMurmerSpawnAnims": [],
+            "_specialMurmerAvatarWeakRes": [],
+            "_normalAgentTypes": [],
+            "_normalSpawnAnims": [],
+            "_normalAvatarWeakRes": [],
+            "_specialAgentTypes": [],
+            "_specialSpawnAnims": [],
+            "_specialAvatarWeakRes": [],
+            "_sandDissolveFX": "/Lotus/Fx/Enemies/Mitw/MitwSandProj",
+            "_bubbleEntityType": "",
+            "_minSpawnDistance": 30,
+            "_maxSpawnDistance": 100,
+            "_spawnDistanceFromBubble": 15,
+            "_spawnDistanceFromPlayer": 10,
+            "_bubbleSpawnLimit": 25,
+            "_abilityTrackingItem": "",
+            "_minSpeed": 0.75,
+            "_maxSpeed": 2,
+            "_minMovementDelay": 1,
+            "_maxMovementDelay": 10,
+            "_damageTick": 1,
+            "_debuffIcon": "ThinBoundaryDebuffItem",
+            "_incarnonIcon": "ThinBoundaryDebuffIncarnonItem",
+            "_debuffRemoveDelay": 5,
+            "_abilityStatDebuff": 0.5,
+            "_energyDrainPerTick": 15,
+            "_incarnonDrainTickRate": 0.5,
+            "_incarnonChargesConsumedPerTick": 0.1,
+            "_bubbleDecoWeakRes": "/Lotus/Fx/Icebalde/IceVoidBubbleDeco",
+            "_bubbleDecoEdgeWeakRes": "/Lotus/Fx/Icebalde/IceVoidBubbleEdgesDeco"
+        },
+        "ConditionalUpgrades": [
+            "/Lotus/Upgrades/CosmeticEnhancers/Utility/OnWarframeOnlyAbilityCondition"
+        ],
+        "UseDebuffIcon": 1
+    }
+}

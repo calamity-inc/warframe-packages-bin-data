@@ -1,0 +1,69 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "DistortionEffect": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.55000001,
+            0.55000001
+        ],
+        "Size": [
+            8,
+            8
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.00045248901
+                },
+                {
+                    "Time": 0.418367,
+                    "Value": 0.78506798
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.999547
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "InheritParentScale": 1,
+        "SpewCount": [
+            5,
+            5
+        ],
+        "Material": "/Lotus/Fx/Common/DistortionRippleMat",
+        "ColorMin": [
+            255,
+            255,
+            255,
+            35
+        ],
+        "ColorMax": [
+            255,
+            255,
+            255,
+            80
+        ],
+        "MeshFullRotation": 1,
+        "FadeInOut": [
+            0.44999999,
+            0.55000001
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.40000001
+                }
+            ]
+        },
+        "EyeFadeDist": 0.2
+    }
+}

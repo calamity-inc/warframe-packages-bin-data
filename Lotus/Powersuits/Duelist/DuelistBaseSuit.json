@@ -1,0 +1,654 @@
+{
+    "parent": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
+    "data": {
+        "GripType": "MELEE_ONE_HAND",
+        "MarketMode": "MM_NONE",
+        "LocalizeTag": "/Lotus/Language/Iceblade/DuelistSuitName",
+        "Diorama": "/Lotus/Levels/Episodes/WarframesYareli.level",
+        "SearchTags": [
+            "/Lotus/Language/Loadout/LoadoutCat_Control",
+            "/Lotus/Language/Loadout/LoadoutCat_Assassin"
+        ],
+        "AmmoClipSize": 0,
+        "OwnerSetScript": {
+            "Script": "DuelistPassive.lua",
+            "Function": "AddUpgrades",
+            "_passiveHealFx": "",
+            "_filterWeaponTypes": [],
+            "_hudBuffType": "",
+            "_pickupType": "",
+            "_pickupFx": ""
+        },
+        "OnRemovedScript": {
+            "Script": "DuelistPassive.lua",
+            "Function": "RemoveUpgrades",
+            "_passiveHealFx": "",
+            "_filterWeaponTypes": [],
+            "_hudBuffType": "",
+            "_pickupType": "",
+            "_pickupFx": ""
+        },
+        "LevelUpgrades": [
+            {
+                "UpgradeType": "NONE",
+                "OperationType": "ADD_BASE",
+                "Value": 0,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_HEALTH_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_SHIELD_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_POWER_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_HEALTH_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_SHIELD_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_POWER_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_HEALTH_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_SHIELD_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_POWER_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_HEALTH_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_SHIELD_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_POWER_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_HEALTH_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_SHIELD_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_POWER_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_HEALTH_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_SHIELD_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_POWER_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_HEALTH_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_SHIELD_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_POWER_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_HEALTH_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_SHIELD_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_POWER_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_HEALTH_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_SHIELD_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_POWER_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_HEALTH_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_SHIELD_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            },
+            {
+                "UpgradeType": "AVATAR_POWER_MAX",
+                "OperationType": "ADD_BASE",
+                "Value": 10,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": []
+            }
+        ],
+        "ArtifactSlots": [
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL",
+            "AP_TACTIC",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL",
+            "AP_ATTACK",
+            "AP_ATTACK",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL"
+        ],
+        "DefaultCustomization": {
+            "Helmet": {
+                "ItemType": "/Lotus/Upgrades/Skins/Duelist/DuelistHelmet"
+            },
+            "CustomEmblem": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0.050000001,
+                            0,
+                            -0.075000003
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "EventEmblem": {
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            -0.050000001,
+                            0,
+                            0.075000003
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "AnimationSet": {
+                "ItemType": "/Lotus/Upgrades/Skins/Yareli/YareliNobleAnims"
+            },
+            "BodySkin": {
+                "ItemType": "/Lotus/Upgrades/Skins/Duelist/DuelistSkin"
+            }
+        },
+        "DefaultEnergyColor": [
+            131,
+            182,
+            226,
+            255
+        ],
+        "DefaultEnergyColor1": [
+            78,
+            139,
+            193,
+            255
+        ],
+        "DefaultModTemplate": "/Lotus/Types/ModLists/Warframe/ShieldFocus",
+        "Mesh": "/Lotus/Characters/Tenno/Duelist/DuelistBody_skel.fbx",
+        "AbilityTypes": [
+            "Abilities/DuelistThrustAbility",
+            "Abilities/DuelistRiposteAbility",
+            "Abilities/DuelistLeapAbility",
+            "Abilities/DuelistBladeDanceAbility"
+        ],
+        "PassiveAbilityLocTag": "/Lotus/Language/Iceblade/DuelistSuitPassiveDesc",
+        "MovementSpeedMultiplier": 1.1,
+        "ApplyEnergyColor": 1,
+        "DefaultAnimControllerOverride": "/Lotus/Types/Player/Animation/WarframeAnimTrees/DuelistAnimController",
+        "NamedSubTrees": [
+            {
+                "name": "Kneel",
+                "tree": "/Lotus/Types/Friendly/Tenno/DuelistKneelSubTree.animtree"
+            }
+        ],
+        "SimCollision": "/Lotus/Powersuits/Yareli/YareliPowerSuitSimCollision",
+        "CustomHudMovie": "/Lotus/Interface/PowerSuitCustomHuds/DuelistCustomHud.swf",
+        "MiniMapIcon": "/Lotus/Interface/Icons/Markers/Powersuits/NarinMinimapPortrait.png",
+        "MiniMapLargeIcon": "/Lotus/Interface/Icons/Markers/Powersuits/LargePortraits/NarinLargePortrait.png",
+        "ResourceOverrides": [
+            {
+                "Tag": "KneelToStandTurn",
+                "Resource": "/Lotus/Animations/Tenno/Menu/Idles/Narin/KneelIdleSet/NarinKneelToStandTurn_anim.fbx"
+            },
+            {
+                "Tag": "KneelToStand",
+                "Resource": "/Lotus/Animations/Tenno/Menu/Idles/Narin/KneelIdleSet/NarinKneelToStand_anim.fbx"
+            },
+            {
+                "Tag": "StandToKneel",
+                "Resource": "/Lotus/Animations/Tenno/Menu/Idles/Narin/KneelIdleSet/NarinStandToKneel_anim.fbx"
+            },
+            {
+                "Tag": "KneelIdle",
+                "Resource": "/Lotus/Animations/Tenno/Menu/Idles/Narin/KneelIdleSet/NarinKneelIdle_anim.fbx"
+            },
+            {
+                "Tag": "DuelistDodgeAttach",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Duelist/DuelistDodgeAttach"
+            },
+            {
+                "Tag": "DuelistSwordAttach",
+                "Resource": "RapierDeco"
+            },
+            {
+                "Tag": "DuelistWings",
+                "Resource": "DuelistWingsDeco"
+            },
+            {
+                "Tag": "DuelistElementalAmmoBase",
+                "Resource": "/Lotus/Powersuits/Frumentarius/BaseElementalAmmoUpgrade"
+            }
+        ]
+    }
+}

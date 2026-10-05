@@ -28,7 +28,11 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/Gameplay/TarotCardPickup.lua",
             "Function": "DisableTarotPickupLocallyIfNotEligible",
-            "_loreFragment": "/Lotus/Types/Lore/Fragments/LoreCardFragments/JadeLoreCardFragment"
+            "_loreFragment": "/Lotus/Types/Lore/Fragments/LoreCardFragments/JadeLoreCardFragment",
+            "_fragmentType": "",
+            "_pickupType": "",
+            "_waypointTag": "",
+            "_isMissionPickup": 1
         },
         "ReplicaRunScriptInstance": 1,
         "PickUpItemType": "LoreCardItem/LoreCardJadeItem",

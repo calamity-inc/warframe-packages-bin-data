@@ -1,20 +1,6 @@
 {
     "parent": "/EE/Types/Effects/Spawner",
     "data": {
-        "ScriptInstance": {
-            "Script": "/Lotus/Scripts/Effects/FireDeath.lua",
-            "Function": "EnemyDeathByFire",
-            "_pFX": [
-                "BladeStormDeathSmoke"
-            ],
-            "_burntBodyMat": "BladeStormDeathBurnedBody",
-            "_leadUpFxToKill": [
-                "/Lotus/Fx/Enemies/GrineerDeathLeadUp",
-                "/Lotus/Fx/Enemies/GrineerVIPDeathLeadUp"
-            ],
-            "_speed": 2,
-            "_useCreator": 1
-        },
         "ReplicaRunScriptInstance": 1,
         "ReplicationOverride": "RO_ALWAYS",
         "ReplicateCreator": 1,

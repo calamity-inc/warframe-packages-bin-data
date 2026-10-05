@@ -1,3 +1,61 @@
 {
-    "parent": "/EE/Types/GraphicsRes/Material"
+    "parent": "/EE/Types/GraphicsRes/Material",
+    "data": {
+        "Blend": "BLEND_ALPHA",
+        "Shader0": "/Lotus/Shaders/MelicaScreen.hlsl",
+        "Shader9": "/Lotus/Shaders/MelicaScreenDistortion.hlsl",
+        "RIPPLE": 1,
+        "CONE_STEP": 1,
+        "ALLOW_CONE_STEP_LQ": 0,
+        "PS:TintColor": [
+            0.25,
+            0.23999999,
+            0.28,
+            0.94999999
+        ],
+        "PS:SpeechEnabledAtten": [
+            0,
+            0
+        ],
+        "PS:FresnelPower": 1.2,
+        "PS:RipplePan": [
+            0,
+            0.2,
+            3,
+            1
+        ],
+        "PS:RippleScale": [
+            0.050000001,
+            0.029999999
+        ],
+        "PS:PanScaleNoiseA": [
+            0,
+            0.2,
+            1,
+            0.2
+        ],
+        "PS:PanScaleNoiseB": [
+            0,
+            -0.1,
+            1,
+            0.30000001
+        ],
+        "PS:PanScaleNoiseC": [
+            0,
+            0.079999998,
+            1,
+            0.40000001
+        ],
+        "PS:Amplitude": 0,
+        "PS:ParallaxScale": 0.5,
+        "PS:ParallaxMapTwoMultiplier": 0,
+        "TX:DiffuseMap": "MelicaScreen_d.png",
+        "TX:SecondaryMap": "/Lotus/Fx/InfestedSources/InfestedSpotsTile_d.png",
+        "TX:NoiseMap": "/Lotus/Fx/Common/ScanlinesB_d.png",
+        "TX:NormalMap": "/Lotus/Fx/Common/HeatHaze_n.png",
+        "TX:ConeMap": "MelicaScreenCone_h.png",
+        "CanLight": 0,
+        "CastShadow": 0,
+        "Emissive": 1
+    }
 }

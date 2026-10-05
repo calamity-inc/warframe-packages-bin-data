@@ -1,0 +1,525 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "PremiumPrice": 50,
+        "LocalizeTag": "/Lotus/Language/Armour/EntNecraArmorTwoAName",
+        "LocalizeDescTag": "/Lotus/Language/Armour/EntNecraArmorTwoDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/EntNecraArmourTwoA.png",
+        "ExcludeFromCodex": 0,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
+        "DataForEachHand": 1,
+        "GraphicsOverrides": {
+            "MAIN_HAND": {
+                "FIRST_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "FIRST_PERSON_MeshOverride": "",
+                "THIRD_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [
+                        {
+                            "LocalPosition": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "LocalRotation": [
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            "BoneName": "ATT_R1_SHOULDERARMOUR",
+                            "Type": "/Lotus/Characters/Tenno/Accessory/Armour/EntNecraArmorTwo/EntNecraArmorTwoARDeco",
+                            "Chance": 255,
+                            "RelativeToBounds": 0,
+                            "Attach": 1,
+                            "DestroyWithOwner": 1,
+                            "DestroyParentOnDeath": 0,
+                            "FadeOutOnDestruction": 0,
+                            "Scale": 1
+                        }
+                    ],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "THIRD_PERSON_MeshOverride": "",
+                "OverrideMeshScale": 0,
+                "MeshScale": 1,
+                "UpgradeSkinOverride": "",
+                "FiringPositionOverrides": []
+            },
+            "OFF_HAND": {
+                "FIRST_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "FIRST_PERSON_MeshOverride": "",
+                "THIRD_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [
+                        {
+                            "LocalPosition": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "LocalRotation": [
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            "BoneName": "ATT_L1_SHOULDERARMOUR",
+                            "Type": "/Lotus/Characters/Tenno/Accessory/Armour/EntNecraArmorTwo/EntNecraArmorTwoALDeco",
+                            "Chance": 255,
+                            "RelativeToBounds": 0,
+                            "Attach": 1,
+                            "DestroyWithOwner": 1,
+                            "DestroyParentOnDeath": 0,
+                            "FadeOutOnDestruction": 0,
+                            "Scale": 1
+                        }
+                    ],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "THIRD_PERSON_MeshOverride": "",
+                "OverrideMeshScale": 0,
+                "MeshScale": 1,
+                "UpgradeSkinOverride": "",
+                "FiringPositionOverrides": []
+            },
+            "EXTRA1": {
+                "FIRST_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [
+                        {
+                            "Index": -1,
+                            "Child": {
+                                "LocalPosition": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "LocalRotation": [
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                "BoneName": "",
+                                "Type": "",
+                                "Chance": 255,
+                                "RelativeToBounds": 0,
+                                "Attach": 1,
+                                "DestroyWithOwner": 1,
+                                "DestroyParentOnDeath": 0,
+                                "FadeOutOnDestruction": 0,
+                                "Scale": 1
+                            }
+                        }
+                    ],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "FIRST_PERSON_MeshOverride": "",
+                "THIRD_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "THIRD_PERSON_MeshOverride": "",
+                "OverrideMeshScale": 0,
+                "MeshScale": 1,
+                "UpgradeSkinOverride": "",
+                "FiringPositionOverrides": []
+            },
+            "EXTRA2": {
+                "FIRST_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "FIRST_PERSON_MeshOverride": "",
+                "THIRD_PERSON_Attachment": {
+                    "WeaponPart": "PART_NONE",
+                    "ReplaceEntireWeaponAttachment": 0,
+                    "IsDeluxeSkin": 0,
+                    "OverrideGripOffset": 0,
+                    "UseGripOffset": 0,
+                    "GripPositionOffset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "GripRotationOffset": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "GripBone": "",
+                    "ClearAttachmentAnimations": 0,
+                    "ForceRemoveAutoChildren": 0,
+                    "DisableAmmoAttachments": 0,
+                    "AppliesToWeaponAttachment": 0,
+                    "UpgradeAutoChildrenOverrides": [],
+                    "UpgradeAutoChildren": [],
+                    "InitialAnimationOverride": "",
+                    "OnEnterOverrides": [],
+                    "OnExitOverrides": [],
+                    "OnAnimEventOverrides": [],
+                    "OnlyOverrideExistingSpecialResponses": 1,
+                    "OnFiringStartedOverrides": [],
+                    "OnFiringStoppedOverrides": [],
+                    "OnEnterFullyChargedFireOverrides": [],
+                    "OnExitFullyChargedFireOverrides": [],
+                    "OnEnterPartiallyChargedFireOverrides": [],
+                    "OnExitPartiallyChargedFireOverrides": [],
+                    "OnChargeCancelledOverrides": [],
+                    "OnModeSwitchSuccessOverrides": [],
+                    "OnModeSwitchCancelledOverrides": [],
+                    "OnEnterAimResponsesOverrides": [],
+                    "ClearWeaponStateAnimations": 0,
+                    "UpdateWeaponAttachment": 0
+                },
+                "THIRD_PERSON_MeshOverride": "",
+                "OverrideMeshScale": 0,
+                "MeshScale": 1,
+                "UpgradeSkinOverride": "",
+                "FiringPositionOverrides": []
+            }
+        },
+        "CompatibleSlots": [
+            "ArmLeft",
+            "ArmRight"
+        ],
+        "ApplyEnergyColor": 1,
+        "DefaultCustomizationOverrides": {
+            "CustomEmblem": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "UseAttachment",
+                        "PosOffset": [
+                            0.14,
+                            0.1,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0.56098598,
+                            -0.43045899,
+                            -0.43045899,
+                            0.56098503
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "EventEmblem": {
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "UseAttachment",
+                        "PosOffset": [
+                            -0.14,
+                            0.1,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            -0.56098598,
+                            -0.43045899,
+                            0.43045899,
+                            0.56098503
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            }
+        },
+        "ColorSlot": "Attachments"
+    }
+}

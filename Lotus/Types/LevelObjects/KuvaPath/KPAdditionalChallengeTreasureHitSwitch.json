@@ -1,0 +1,56 @@
+{
+    "parent": "/EE/Types/Engine/SimpleAnimationAction",
+    "data": {
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "IsCenterBaseOriented": 1,
+        "Dimensions": [
+            2,
+            2.5,
+            1.5
+        ],
+        "RiftStatus": "RS_OUT_RIFT",
+        "Action": "HIT_SWITCH",
+        "ActionText": "/Lotus/Language/Iceblade/OpenSmallChest",
+        "ActionSound": "/Lotus/Sounds/Gameplay/Iceblade/IcebladeOfNarinTreasureSilverOpen",
+        "FacingAngle": 180,
+        "CanPerformDuringCinematics": 0,
+        "UseTeleport": 0,
+        "DisableOnUse": 1,
+        "OverrideEyePosition": 0,
+        "RequiredItem": "/Lotus/Types/Gameplay/KuvaPath/SilverKeyItem",
+        "ConsumeRequiredItem": 1,
+        "CompleteScript": {
+            "Script": "/Lotus/Scripts/KuvaPath/KuvaPath.lua",
+            "Function": "OpenChest",
+            "_complicationsMgr": "/Lotus/Scripts/KuvaPath/KuvaComplicationsMgr/KuvaComplicationsMgrScriptTrigger",
+            "_cryobellTransmissionSet": "",
+            "_eventMarkerType": "",
+            "_eventStartActionType": "",
+            "_loadingMovie": "",
+            "_survivalRewardsMovie": "/Lotus/Interface/SurvivalReward.swf",
+            "_goldChestRewardManifest": "",
+            "_silverChestRewardManifest": "",
+            "_goldKeyItemType": "",
+            "_silverKeyItemType": "",
+            "_silverChestType": "",
+            "_endOfMatchMovie": "",
+            "_chestFx": "",
+            "_eventStartedSound": "",
+            "_keyReceivedSound": "",
+            "_iceTransitionSound": "",
+            "_reviveFxType": "/Lotus/Fx/PowersuitAbilities/ReviveBlast",
+            "_respawnAnim": "/Lotus/Animations/Tenno/Contextual/RevivePowerBoost_anim.fbx",
+            "_reviveSound": "/Lotus/Sounds/Gameplay/Arbitration/ArbitrationPlayerRevive",
+            "_reviveStationRes": "",
+            "_stationStateRes": ""
+        },
+        "EnablePrePress": 0,
+        "HudIndicatorOffset": [
+            0,
+            0.60000002,
+            0.5
+        ],
+        "UsesAnimation": 0,
+        "SweepForLandPos": 0
+    }
+}

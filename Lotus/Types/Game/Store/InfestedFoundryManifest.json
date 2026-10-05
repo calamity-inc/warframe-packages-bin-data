@@ -11,6 +11,7 @@
             "/Lotus/Types/Recipes/AbilityOverrides/ConcretePillarBlueprint",
             "/Lotus/Types/Recipes/AbilityOverrides/DagathVolleyBlueprint",
             "/Lotus/Types/Recipes/AbilityOverrides/DemonFrameHealBlueprint",
+            "/Lotus/Types/Recipes/AbilityOverrides/DuelistThrustBlueprint",
             "/Lotus/Types/Recipes/AbilityOverrides/EmberFireBlastBlueprint",
             "/Lotus/Types/Recipes/AbilityOverrides/EquinoxRestAndRageBlueprint",
             "/Lotus/Types/Recipes/AbilityOverrides/ExcaliburRadialBlindBlueprint",
@@ -93,6 +94,11 @@
                 "MeshScale": 0.60000002
             },
             {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/1999Wf/Resources/1999ResourceDefense",
+                "Mesh": "",
+                "MeshScale": 0
+            },
+            {
                 "StoreItem": "/Lotus/StoreItems/Types/Gameplay/1999Wf/Resources/1999ResourceRareA",
                 "Mesh": "/Lotus/Objects/Lasria/Gameplay/Resources/LASxProtoInfestedMotherboard.fbx",
                 "MeshScale": 0.80000001
@@ -139,8 +145,8 @@
             },
             {
                 "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
-                "Mesh": "/Lotus/Objects/Gameplay/AmmoBoxUniversal.fbx",
-                "MeshScale": 1
+                "Mesh": "/Lotus/Objects/SolarisVenus/Natural/Foliage/SVSeedPodB.fbx",
+                "MeshScale": 0.5
             },
             {
                 "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemA",
@@ -191,6 +197,16 @@
                 "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriRockItem",
                 "Mesh": "/Lotus/Objects/Duviri/Gameplay/DUVxAggristone.fbx",
                 "MeshScale": 0.1
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemA",
+                "Mesh": "/Lotus/Fx/Gameplay/Pickups/DuviriMurmurParticleEmit.fbx",
+                "MeshScale": 1
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB",
+                "Mesh": "",
+                "MeshScale": 0
             },
             {
                 "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Eidolon/Resources/SentientShards/LephantisShardItem",
@@ -276,6 +292,31 @@
                 "StoreItem": "/Lotus/StoreItems/Types/Gameplay/InfestedMicroplanet/Resources/OrbStoneItem",
                 "Mesh": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/OrbStone/OrbStoneBall.fbx",
                 "MeshScale": 2
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Tau/Resources/CoHResourceCommonItem",
+                "Mesh": "/Lotus/Objects/Orokin/CoH/ORKxCohKCCommonResource.fbx",
+                "MeshScale": 0.40000001
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+                "Mesh": "/Lotus/Objects/Orokin/CoH/ORKxCohKCRareResource.fbx",
+                "MeshScale": 0.5
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "Mesh": "/Lotus/Objects/Tau/SentientMoon/Grineer/Gameplay/STMxGrnOldPeaceDogTags.fbx",
+                "MeshScale": 1
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "Mesh": "/Lotus/Objects/Tau/SentientMoon/Orokin/Gameplay/STMxOroOldPeaceBroach.fbx",
+                "MeshScale": 1
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "Mesh": "/Lotus/Objects/Tau/SentientMoon/Orokin/Gameplay/STMxOroOldPeaceMedal.fbx",
+                "MeshScale": 1
             },
             {
                 "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Venus/Resources/CoolantItem",
@@ -433,6 +474,11 @@
                 "MeshScale": 1.25
             },
             {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/MushroomFood",
+                "Mesh": "",
+                "MeshScale": 0
+            },
+            {
                 "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Nanospores",
                 "Mesh": "/Lotus/Objects/Gameplay/NanoSporesPickup.fbx",
                 "MeshScale": 1.5
@@ -494,6 +540,11 @@
             },
             {
                 "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/SentientFragmentLootItem",
+                "Mesh": "",
+                "MeshScale": 0
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/ShrineFragment",
                 "Mesh": "",
                 "MeshScale": 0
             },
@@ -809,6 +860,19 @@
                     "m1": -54228,
                     "en": -2194645,
                     "e1": 14304009
+                }
+            },
+            {
+                "ItemType": "/Lotus/Powersuits/Duelist/Duelist",
+                "Colors": {
+                    "t0": -11579032,
+                    "t1": -1381654,
+                    "t2": -10969929,
+                    "t3": -2514312,
+                    "m0": -4860452,
+                    "m1": -16426338,
+                    "en": -8145182,
+                    "e1": -11629631
                 }
             },
             {
@@ -1558,8 +1622,7 @@
                 "key": "/Lotus/Powersuits/Banshee/Abilities/SonarAbility",
                 "value": {
                     "UpgradeTypes": [
-                        "/Lotus/Powersuits/Banshee/SonarAugmentCard",
-                        "/Lotus/Powersuits/Banshee/SonarPvPAugmentCard"
+                        "/Lotus/Powersuits/Banshee/SonarAugmentCard"
                     ]
                 }
             },
@@ -1743,6 +1806,14 @@
                 }
             },
             {
+                "key": "/Lotus/Powersuits/DemonFrame/Abilities/DemonFrameFireBallAbility",
+                "value": {
+                    "UpgradeTypes": [
+                        "/Lotus/Powersuits/DemonFrame/DemonFrameFireBallAugmentCard"
+                    ]
+                }
+            },
+            {
                 "key": "/Lotus/Powersuits/Devourer/Abilities/DevourerBowlAbility",
                 "value": {
                     "UpgradeTypes": [
@@ -1910,7 +1981,8 @@
                 "key": "/Lotus/Powersuits/Frost/Abilities/IceShieldAbility",
                 "value": {
                     "UpgradeTypes": [
-                        "/Lotus/Powersuits/Frost/IceShieldAugmentCard"
+                        "/Lotus/Powersuits/Frost/IceShieldAugmentCard",
+                        "/Lotus/Powersuits/Frost/IceShieldAugmentTwoCard"
                     ]
                 }
             },
@@ -2455,6 +2527,14 @@
                 "value": {
                     "UpgradeTypes": [
                         "/Lotus/Powersuits/Odalisk/OdaliskDispensaryAugmentCard"
+                    ]
+                }
+            },
+            {
+                "key": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaSpidersAbility",
+                "value": {
+                    "UpgradeTypes": [
+                        "/Lotus/Powersuits/Oraxia/BroodAugmentCard"
                     ]
                 }
             },
@@ -3301,6 +3381,15 @@
                 }
             },
             {
+                "key": "/Lotus/Powersuits/DemonFrame/DemonFrameFireBallAugmentCard",
+                "value": {
+                    "SyndicateTypes": [
+                        "/Lotus/Syndicates/PerrinSyndicate",
+                        "/Lotus/Syndicates/SteelMeridianSyndicate"
+                    ]
+                }
+            },
+            {
                 "key": "/Lotus/Powersuits/Devourer/DevourerBowlAugmentCard",
                 "value": {
                     "SyndicateTypes": [
@@ -3516,6 +3605,15 @@
             },
             {
                 "key": "/Lotus/Powersuits/Frost/IceShieldAugmentCard",
+                "value": {
+                    "SyndicateTypes": [
+                        "/Lotus/Syndicates/CephalonSudaSyndicate",
+                        "/Lotus/Syndicates/SteelMeridianSyndicate"
+                    ]
+                }
+            },
+            {
+                "key": "/Lotus/Powersuits/Frost/IceShieldAugmentTwoCard",
                 "value": {
                     "SyndicateTypes": [
                         "/Lotus/Syndicates/CephalonSudaSyndicate",
@@ -4188,6 +4286,15 @@
                     "SyndicateTypes": [
                         "/Lotus/Syndicates/ArbitersSyndicate",
                         "/Lotus/Syndicates/PerrinSyndicate"
+                    ]
+                }
+            },
+            {
+                "key": "/Lotus/Powersuits/Oraxia/BroodAugmentCard",
+                "value": {
+                    "SyndicateTypes": [
+                        "/Lotus/Syndicates/CephalonSudaSyndicate",
+                        "/Lotus/Syndicates/NewLokaSyndicate"
                     ]
                 }
             },

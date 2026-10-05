@@ -1,0 +1,96 @@
+{
+    "parent": "OperatorEarringRootBase",
+    "data": {
+        "MarketMode": "MM_HIDDEN",
+        "LocalizeTag": "/Lotus/Language/Primes/CitrinePrimeEarpieceName",
+        "LocalizeDescTag": "/Lotus/Language/Primes/CitrinePrimeOperatorCosmeticDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Earpieces/CitrinePrimeEarpiece.png",
+        "ExcludeFromCodex": 0,
+        "FIRST_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "GAME_C1_HEAD1",
+                    "Type": "/Lotus/Characters/Tenno/Operator/Accessories/CitrinePrimeAccessories/CitrinePrimeEarDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "GAME_C1_HEAD1",
+                    "Type": "/Lotus/Characters/Tenno/Operator/Accessories/CitrinePrimeAccessories/CitrinePrimeEarDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "AcessoryFitments": [
+            {
+                "SuitType": "/Lotus/Powersuits/Operator/AdultOperatorSuit",
+                "MeshType": "",
+                "Position": [
+                    0.014,
+                    0.0040000002,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    -0.087155998,
+                    0.99619502
+                ],
+                "Scale": 1.1
+            },
+            {
+                "SuitType": "/Lotus/Types/Friendly/PlayerControllable/ControllableDrifterSuit",
+                "MeshType": "",
+                "Position": [
+                    0.022,
+                    0.0080000004,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": 1.1
+            }
+        ]
+    }
+}

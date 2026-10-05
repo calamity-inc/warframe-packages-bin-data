@@ -1,0 +1,29 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
+    "data": {
+        "LocalizeTag": "[HC] ThornyTerrainVariableItem",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "ApplyUpgradesByDefault": 0,
+        "Script": {
+            "Script": "/Lotus/Scripts/KuvaPath/KuvaPathPersonalModifiers.lua",
+            "Function": "ActivateThornyTerrain",
+            "_prefix": "",
+            "_shieldType": "VoltShieldDeco",
+            "_grabEffect": "/Lotus/Fx/PowersuitAbilities/Volt/ShieldGrab",
+            "_knockdownTriggerType": "/Lotus/Powersuits/Volt/ShieldKnockdownTrigger",
+            "_beamType": "",
+            "_baseDmgPerSec": 10,
+            "_snakeWispType": "SnakeWispsOrbProjectile",
+            "_spotlightType": "",
+            "_shieldRestorePercent": 0.050000001,
+            "_staticSiphonBeamType": "StaticSiphonDamageBeam",
+            "_grenadeType": "",
+            "_damageMultiplier": 2,
+            "_grenadeDamageRadius": 5,
+            "_spikeType": "/Lotus/Weapons/Thanotech/EntFistIncarnon/EntFistIncarnonImpaleDeco"
+        },
+        "ConditionalUpgrades": [
+            "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OnGroundSlamCondition"
+        ]
+    }
+}

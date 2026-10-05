@@ -4,10 +4,10 @@
         "Mesh": "SonarMesh.fbx",
         "IgnoreParentRotation": 1,
         "LifeSpan": 2.8,
-        "ApplyColorCustomization": 1,
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
+                "Slot": -1,
                 "TimeLength": 2.5,
                 "Multiplier": 1,
                 "FadeRange": [
@@ -25,6 +25,7 @@
                 "IsMeshScale": 0,
                 "IsRepeating": 0
             }
-        ]
+        ],
+        "ApplyColorCustomization": 1
     }
 }

@@ -1,0 +1,98 @@
+{
+    "parent": "/Lotus/Fx/Weapons/Syndicates/NewLoka/NLCastanasExplosionLightningBeam",
+    "data": {
+        "MaterialParams": [],
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "Material": "/Lotus/Fx/Enemies/Eximus/EximusAttachFXShockOrbBeamMat",
+        "Tint": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TexturePanRateV": -0.5,
+        "TextureScaleV": 0.1,
+        "Radius": 0.5,
+        "SectionLength": 0.5,
+        "MaxSections": 90,
+        "Waves": [
+            {
+                "Frequency": 1,
+                "Amplitude": [
+                    0.2,
+                    0.2,
+                    0
+                ],
+                "RadiusAmplitude": 0.02,
+                "PhaseShift": -4
+            },
+            {
+                "Frequency": 3,
+                "Amplitude": [
+                    -0.050000001,
+                    0.050000001,
+                    0
+                ],
+                "RadiusAmplitude": 0.02,
+                "PhaseShift": -5
+            },
+            {
+                "Frequency": 0.5,
+                "Amplitude": [
+                    0.1,
+                    0.1,
+                    0
+                ],
+                "RadiusAmplitude": 0.0099999998,
+                "PhaseShift": -2
+            }
+        ],
+        "RaycastOffset": [
+            0,
+            2,
+            0
+        ],
+        "RaycastSpread": [
+            180,
+            180,
+            180
+        ],
+        "GrowthRate": 150,
+        "RetractRate": 1,
+        "ExtendStartSound": "/Lotus/Sounds/Enemies/Eximus/Shock/EximusShockOrbBeamHit",
+        "EndPointEffect": {
+            "Type": "/Lotus/Fx/Enemies/Eximus/EximusAttachFXShockOrbBeamEndFX",
+            "DestroyWithOwner": 0,
+            "FadeOutOnDestruction": 1
+        },
+        "FadeBetweenPoints": [
+            0,
+            0
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 1,
+                "Multiplier": 160,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsRadius": 0,
+                "IsAmplitude": 0,
+                "IsOffsetCurveScale": 0,
+                "IsRepeating": 0,
+                "IsWorldPosUpdate": 0
+            }
+        ],
+        "Lifespan": [
+            0.5,
+            0.5
+        ],
+        "ApplyColorCustomization": 0
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "parent": "/Lotus/Types/PickUps/GameplayObjectPickup",
+    "data": {
+        "Mesh": "/Lotus/Objects/Zariman/Props/ZARxPrpTechTabletA.fbx",
+        "OverrideMaterial": [
+            "",
+            "/Lotus/Objects/Zariman/Materials/ZARxPrpTechTabletScreenBlue"
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Gameplay/Excavation/PowerCellBeam",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "LockedCrateKeyMarkerInfo",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "Tag": "LockedCrateKey",
+        "SurvivesMigration": 1,
+        "PickUpItemType": "LockedCrateKeyItem",
+        "ImmediateCreate": 1,
+        "PickUpActionType": "LockedCratePickupAction",
+        "EmptyPickUpAmmoDestroyTime": 15
+    }
+}

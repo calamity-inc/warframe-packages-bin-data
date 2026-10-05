@@ -1,0 +1,83 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "VisibleDistortion": 1,
+        "DistortionMaterial": "/Lotus/Fx/PowersuitAbilities/Loki/CloakedDistortionMat",
+        "DeadParentInheritanceRule": "NONE",
+        "ReplicationOverride": "RO_NEVER",
+        "Material": "CryobellAmbientEnergyProjMatB",
+        "UseAttachRoot": 0,
+        "ApplyProjectorToNewSiblings": 1,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 2.5,
+                "Multiplier": 5,
+                "FadeRange": [
+                    0.01626,
+                    0.97967499
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.135913,
+                            "Value": 1.030109
+                        },
+                        {
+                            "Time": 0.251084,
+                            "Value": 0.59854501
+                        },
+                        {
+                            "Time": 0.447988,
+                            "Value": 0.648727
+                        },
+                        {
+                            "Time": 0.57244599,
+                            "Value": 0.039854102
+                        },
+                        {
+                            "Time": 0.77678001,
+                            "Value": 0.68552703
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0.27000001,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 0,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 1
+            }
+        ],
+        "TriggeredFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 1,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 1,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

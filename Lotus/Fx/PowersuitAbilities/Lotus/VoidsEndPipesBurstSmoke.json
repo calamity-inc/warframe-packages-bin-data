@@ -1,0 +1,76 @@
+{
+    "parent": "/EE/Types/FX/EnvEffects/EnvParticleSys",
+    "data": {
+        "OverrideMaterial": [
+            ""
+        ],
+        "CullDistance": 25,
+        "MirrorDraw": "MF_CULL_FROM_MIRRORS",
+        "DetailLevel": "PQ_MEDIUM",
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            2,
+            5
+        ],
+        "Size": [
+            1.75,
+            2.5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 1.8
+                }
+            ]
+        },
+        "Aspect": [
+            0.89999998,
+            1.1
+        ],
+        "SpewCount": [
+            3,
+            3
+        ],
+        "Material": "/Lotus/Fx/Smoke/SmokeFlipSPSoft",
+        "AnimateTiles": 1,
+        "ColorMin": [
+            61,
+            61,
+            61,
+            35
+        ],
+        "ColorMax": [
+            72,
+            72,
+            72,
+            55
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0049999999,
+            0.0049999999
+        ],
+        "FadeInOut": [
+            0.1,
+            0.30000001
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleMeshScale": [
+            2,
+            2,
+            2
+        ],
+        "NozzleBox": [
+            1.2,
+            0,
+            0
+        ],
+        "Drag": 1
+    }
+}

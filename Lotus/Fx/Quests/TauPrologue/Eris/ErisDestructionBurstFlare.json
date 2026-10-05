@@ -1,0 +1,90 @@
+{
+    "parent": "/Lotus/Types/Fx/LensFlares/LensFlareABlue",
+    "data": {
+        "OverrideMaterial": [
+            ""
+        ],
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 16
+            }
+        ],
+        "Size": 3,
+        "AspectRatio": 1,
+        "Range": 0,
+        "DepthCue": 0,
+        "QueryScale": 5,
+        "OcclusionAttenExponent": 0.2,
+        "OcclusionUsesVelocity": 0,
+        "FlareBoundsExpansion": 0.1,
+        "QueryViewOffset": 1,
+        "Tint": [
+            239,
+            183,
+            163,
+            255
+        ],
+        "NoiseStrength": 1,
+        "NoiseRate": 1,
+        "LifeSpan": 6,
+        "FlareParams": [
+            {
+                "GridX": 4,
+                "GridY": 0,
+                "GridSizeX": 2,
+                "GridSizeY": 2,
+                "Tile": 0,
+                "Distance": 0,
+                "Size": 16,
+                "Aspect": 0.2,
+                "Tint": [
+                    48,
+                    117,
+                    148,
+                    255
+                ],
+                "FlareTintMethod": "FTM_PRIMARY",
+                "Brightness": 1,
+                "Rotating": 0,
+                "Orientation": 0,
+                "SpinRate": 0,
+                "CenteringScale": 1,
+                "CenteringFade": 1,
+                "AxisConstraint": "AC_NONE",
+                "LensDirt": 0,
+                "LensDirtX": 0,
+                "LensDirtY": 0
+            },
+            {
+                "GridX": 6,
+                "GridY": 4,
+                "GridSizeX": 2,
+                "GridSizeY": 2,
+                "Tile": 0,
+                "Distance": 0,
+                "Size": 32,
+                "Aspect": 0.1,
+                "Tint": [
+                    3,
+                    49,
+                    66,
+                    255
+                ],
+                "FlareTintMethod": "FTM_PRIMARY",
+                "Brightness": 1,
+                "Rotating": 0,
+                "Orientation": 0,
+                "SpinRate": 0,
+                "CenteringScale": 1,
+                "CenteringFade": 1,
+                "AxisConstraint": "AC_NONE",
+                "LensDirt": 0,
+                "LensDirtX": 0,
+                "LensDirtY": 0.1
+            }
+        ]
+    }
+}

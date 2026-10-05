@@ -1,0 +1,166 @@
+{
+    "parent": "/Lotus/Types/Weapons/BoltoProjectile",
+    "data": {
+        "Mesh": "DuelistPistolsShard.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Weapons/CrossBolt/Projectile/BoltProjectileLoopSeq",
+                "Chance": 255,
+                "RelativeToBounds": 1,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 1,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Basic/Ballistic/Muzzle/BallisticProjectileTrailSmoke",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 0,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/DuelistPistol/DuelistPistolFlarePerfect",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/DuelistPistol/DuelistPistolTrailPerfect",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 0.2
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/DuelistPistol/DuelistProjectileEmbers",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "AttackData": {
+            "UseNewFormat": 1,
+            "Type": "DT_PUNCTURE",
+            "DT_IMPACT": 0,
+            "DT_PUNCTURE": 70,
+            "DT_SLASH": 0,
+            "DT_FIRE": 0,
+            "DT_FREEZE": 70,
+            "DT_ELECTRICITY": 0,
+            "DT_POISON": 0,
+            "DT_EXPLOSION": 0,
+            "DT_RADIATION": 0,
+            "DT_GAS": 0,
+            "DT_MAGNETIC": 0,
+            "DT_VIRAL": 0,
+            "DT_CORROSIVE": 0,
+            "DT_RADIANT": 0,
+            "Amount": 140,
+            "ProcChance": 0.22
+        },
+        "CriticalChance": 0.23999999,
+        "CriticalMultiplier": 2.5999999,
+        "HitEffect": "/Lotus/Fx/Weapons/Tenno/DuelistPistol/DuelistPistolsHitEffectSmall",
+        "SpikeAttack": {
+            "Amount": 0
+        },
+        "EmbedAttack": {
+            "Type": "DT_IMPACT"
+        },
+        "KinematicPostCollisionsSpeedFactor": 0.15000001,
+        "KinematicInitialSpeed": 110,
+        "KinematicMaxSpeed": 110,
+        "KinematicNoise": 0.050000001,
+        "KinematicGravity": 1,
+        "KinematicGravityMultiplier": 0.2,
+        "SweepRadius": 0,
+        "ApplyColorCustomization": 1,
+        "RagdollEmbedLife": 10,
+        "EmbedOffset": -0.15000001,
+        "AttachmentOffsets": [
+            0.25
+        ],
+        "ColorSlot": "PrimaryColors",
+        "EmbedWithNormal": 0,
+        "ContactExplosionDamage": 250,
+        "ContactExplosionRadius": 10,
+        "ContactExplosionEffect": "/Lotus/Fx/Weapons/Bow/ExpArrowDeath",
+        "ContactExplosionMirrorEffect": "/Lotus/Fx/Weapons/Bow/ExpArrowDeath"
+    }
+}

@@ -19,10 +19,8 @@
         "OnEnterAuraScript": {
             "Script": "/Lotus/Scripts/Modes/WF99PvPvEStoreItems.lua",
             "Function": "RadarStart",
-            "_pickupFailedFxType": "",
             "_energyRestoreRate": 5,
             "_energyRestoreRange": 50,
-            "_newBeamEffect": "/Lotus/Fx/PowersuitAbilities/IronFrame/AuraLinked",
             "_shieldBeamType": "/Lotus/Fx/PowersuitAbilities/IronFrame/AuraShieldBeam",
             "_groupEnergyAcceptTypes": [],
             "_healthDrainEffectType": "",
@@ -63,10 +61,8 @@
         "OnExitAuraScript": {
             "Script": "/Lotus/Scripts/Modes/WF99PvPvEStoreItems.lua",
             "Function": "RadarStop",
-            "_pickupFailedFxType": "",
             "_energyRestoreRate": 5,
             "_energyRestoreRange": 50,
-            "_newBeamEffect": "/Lotus/Fx/PowersuitAbilities/IronFrame/AuraLinked",
             "_shieldBeamType": "/Lotus/Fx/PowersuitAbilities/IronFrame/AuraShieldBeam",
             "_groupEnergyAcceptTypes": [],
             "_healthDrainEffectType": "",

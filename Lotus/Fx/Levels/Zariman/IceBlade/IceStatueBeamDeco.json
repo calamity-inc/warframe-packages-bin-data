@@ -1,0 +1,36 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Levels/Corpus/CorpusShip/VoidGunBeam.fbx",
+        "MeshScale": 0.5,
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 2
+            },
+            {
+                "name": "vScalesStart",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0.30000001,
+                "value1": 0.30000001,
+                "value2": 1,
+                "value3": 0
+            },
+            {
+                "name": "vScales",
+                "type": "Float4",
+                "slot": -1,
+                "value": 1,
+                "value1": 1,
+                "value2": 1,
+                "value3": 1
+            }
+        ],
+        "DissolveOverride": "/Lotus/Fx/Common/VerticalGradNarrow_d.png",
+        "IgnoreParentRotation": 1,
+        "IgnoreParentScale": 1
+    }
+}

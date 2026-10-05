@@ -14,6 +14,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "AUGMENT_ONE",
                 "UpgradeObject": "Abilities/TidalWaveAbility",
                 "ValidPostures": [],
@@ -47,13 +48,14 @@
                     "_augmentOneEnd": "",
                     "_waveMotionController": "",
                     "_chanceToPlayPickupBark": 0.25,
-                    "_wavePickupBark": "VoiceBox_PAIN",
+                    "_wavePickupBark": "VoiceBoxPhrase_PAIN",
                     "_chanceToPlayEndBark": 0.25,
-                    "_waveEndBark": "VoiceBox_DEATH"
+                    "_waveEndBark": "VoiceBoxPhrase_DEATH"
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "ArtifactPolarity": "AP_POWER",
@@ -86,9 +88,9 @@
             "_augmentOneEnd": "",
             "_waveMotionController": "",
             "_chanceToPlayPickupBark": 0.25,
-            "_wavePickupBark": "VoiceBox_PAIN",
+            "_wavePickupBark": "VoiceBoxPhrase_PAIN",
             "_chanceToPlayEndBark": 0.25,
-            "_waveEndBark": "VoiceBox_DEATH"
+            "_waveEndBark": "VoiceBoxPhrase_DEATH"
         },
         "UnappliedScript": {
             "Script": "Abilities/TidalWaveNew.lua",
@@ -115,9 +117,9 @@
             "_augmentOneEnd": "",
             "_waveMotionController": "",
             "_chanceToPlayPickupBark": 0.25,
-            "_wavePickupBark": "VoiceBox_PAIN",
+            "_wavePickupBark": "VoiceBoxPhrase_PAIN",
             "_chanceToPlayEndBark": 0.25,
-            "_waveEndBark": "VoiceBox_DEATH"
+            "_waveEndBark": "VoiceBoxPhrase_DEATH"
         }
     }
 }

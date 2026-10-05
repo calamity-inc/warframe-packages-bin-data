@@ -22,7 +22,8 @@
                 "Attach": 1,
                 "DestroyWithOwner": 1,
                 "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
             },
             {
                 "LocalPosition": [
@@ -43,7 +44,8 @@
                 "Attach": 1,
                 "DestroyWithOwner": 1,
                 "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
             }
         ],
         "AttackData": {
@@ -53,15 +55,8 @@
             "Amount": 45
         },
         "ExplosionIgnoreSource": 1,
-        "ExplosionIgnoreCover": 0,
         "DamageRadius": 3,
         "DieEffect": "/Lotus/Fx/Corpus/SuperDrone/RaptorMortarProjDeath",
-        "DieEffectOffset": [
-            0.1,
-            0.1,
-            0.1
-        ],
-        "MaxLife": 4,
         "SpikeAttack": {
             "Amount": 5
         },

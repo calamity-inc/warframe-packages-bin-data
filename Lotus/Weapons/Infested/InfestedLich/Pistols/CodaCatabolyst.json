@@ -69,7 +69,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -97,6 +96,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/InfBeamPistolAccuracyInfo",
@@ -121,6 +121,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 19,
                     "PvpTraceDistance": 19,
@@ -717,6 +719,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.11,
                     "criticalHitDamageMultiplier": 2.9000001,
@@ -838,7 +841,7 @@
                 ]
             }
         ],
-        "OmegaAttenuation": 0.64999998,
+        "OmegaAttenuation": 0.69999999,
         "OFF_HAND": {
             "Type": "CodaCatabolystPistolDSAttachment"
         },

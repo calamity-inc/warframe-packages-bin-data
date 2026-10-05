@@ -37,10 +37,10 @@
                 ]
             }
         ],
-        "ApplyColorCustomization": 1,
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
+                "Slot": -1,
                 "TimeLength": 0.25,
                 "Multiplier": 500,
                 "FadeRange": [
@@ -73,6 +73,7 @@
             },
             {
                 "Parameter": "",
+                "Slot": -1,
                 "TimeLength": 0.25,
                 "Multiplier": 2,
                 "FadeRange": [
@@ -103,6 +104,7 @@
                 "IsMeshScale": 1,
                 "IsRepeating": 0
             }
-        ]
+        ],
+        "ApplyColorCustomization": 1
     }
 }

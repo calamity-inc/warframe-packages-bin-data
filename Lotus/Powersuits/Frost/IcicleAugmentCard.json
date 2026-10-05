@@ -14,6 +14,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "AUGMENT_ONE",
                 "UpgradeObject": "Abilities/IcicleAbility",
                 "ValidPostures": [],
@@ -36,6 +37,7 @@
                     "_pvpProjTypes": [],
                     "_fightingGameProjType": "",
                     "_launchSound": "",
+                    "_heldLaunchSound": "",
                     "_localLaunchSound": "",
                     "_remoteLaunchSound": "",
                     "_chargeLaunchSound": "",
@@ -76,6 +78,12 @@
                     "_projSpread": 0,
                     "_dealDamageThroughImpactBehavior": 0,
                     "_instigatorItemSlot": "INVALID",
+                    "_matchInstigatorVelocity": 0,
+                    "_instigatorVelocityScale": [
+                        1,
+                        1,
+                        1
+                    ],
                     "_augmentElementDamageEffect": "",
                     "_augmentElementRangeDecoType": "",
                     "_deluxeSkin": "",
@@ -83,18 +91,21 @@
                     "_deluxeBone": "",
                     "_castEffectSymbol": "",
                     "_castEffectAirSymbol": "",
+                    "_heldCastEffectSymbol": "",
+                    "_heldCastEffectAirSymbol": "",
                     "_castEffectBurstSymbol": "",
                     "_explosionEffectSymbol": "",
                     "_useBark": 0,
                     "_barkFilter": "",
-                    "_barkType": "VoiceBox_GRENADE",
+                    "_barkType": "VoiceBoxPhrase_GRENADE",
                     "_decosToShowOnAbilityInit": [],
                     "_attenuateFov": 0,
                     "_fovAtten": 1.5
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "ArtifactPolarity": "AP_POWER",

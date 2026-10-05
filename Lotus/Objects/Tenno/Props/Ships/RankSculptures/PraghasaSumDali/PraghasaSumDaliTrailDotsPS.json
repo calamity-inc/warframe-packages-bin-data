@@ -1,0 +1,88 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "CanNano": 0,
+        "ApplyColorCustomization": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            1.5,
+            2
+        ],
+        "Size": [
+            0.34999999,
+            0.69999999
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.49811101,
+                    "Value": 0.171698
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "InheritParentScale": 1,
+        "SpewCount": [
+            50,
+            50
+        ],
+        "VelocityCount": [
+            25,
+            25
+        ],
+        "VelocityCountIsDensity": 1,
+        "Material": "/Lotus/Fx/Weapons/Melee/Fist/FistSpotPMat",
+        "RandOrientation": 1,
+        "FadeInOut": [
+            0.25,
+            0.69999999
+        ],
+        "Nozzle": "PLANE",
+        "UseRootForParent": 0,
+        "NozzleBox": [
+            1,
+            1,
+            0
+        ],
+        "NozzleSize": 0.80000001,
+        "Speed": [
+            3.5,
+            8
+        ],
+        "Drag": 2.75,
+        "PushVector": [
+            1,
+            1,
+            1
+        ],
+        "PushMass": [
+            -1,
+            1
+        ],
+        "FlowVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+        "FlowVelocity": [
+            7,
+            7,
+            7
+        ],
+        "FlowVelocityEndLife": [
+            7,
+            7,
+            7
+        ],
+        "FlowScale": [
+            2.3,
+            2.3,
+            2.3
+        ]
+    }
+}

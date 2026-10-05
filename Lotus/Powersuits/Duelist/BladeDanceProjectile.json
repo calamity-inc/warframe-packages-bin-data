@@ -1,0 +1,136 @@
+{
+    "parent": "/Lotus/Types/Weapon/WaveProjectile",
+    "data": {
+        "Mesh": "/Lotus/Fx/PowersuitAbilities/Duelist/BladeDanceProjectileMesh.fbx",
+        "MaterialParams": [
+            {
+                "name": "MorphAmount",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            }
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    2
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Duelist/BladeDanceProjLensFlare",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    1.5,
+                    0,
+                    1.6
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Duelist/BladeDanceProjUpdateTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicQuery",
+        "OnlyRegisterBounds": 0,
+        "ScriptInstance": {
+            "Script": "/Lotus/Powersuits/Excalibur/Abilities/SwordOfDoom.lua",
+            "Function": "ProjectileEffects",
+            "_blindProjector": "",
+            "_swordSpawnEffect": "",
+            "_swordSpawnFlare": "",
+            "_swordSpawnLight": "",
+            "_localAttachEffect": "",
+            "_hideWithAtten": 0,
+            "_equipAnim": "",
+            "_scaleFactor": 0.18000001,
+            "_isHeavySwing": 0,
+            "_pvpBlindDuration": 2,
+            "_blindSoundLocal": "",
+            "_augmentOneSwordAttach": [],
+            "_augmentOneProjectileAttach": []
+        },
+        "ReplicaRunScriptInstance": 1,
+        "DamageUpgradeTypes": [],
+        "AttackData": {
+            "Type": "DT_FREEZE",
+            "Amount": 0,
+            "ProcChance": 0,
+            "ForcedProcs": [
+                "PT_BIG_STAGGER"
+            ]
+        },
+        "IgnoreHeadShotBonus": 1,
+        "PassThroughEffect": "/Lotus/Fx/PowersuitAbilities/Duelist/DuelistSwordProjHit",
+        "MaxLife": 5,
+        "RaycastMovement": 0,
+        "WhizzBySound": "/Lotus/Sounds/Warframes/Narin/Abilities/NarinGeommuProjBy",
+        "WhizzByRadius": 20,
+        "WhizzByLocal": 1,
+        "KinematicMovement": 1,
+        "StopOnCollision": 0,
+        "KinematicAccel": 5,
+        "KinematicInitialSpeed": 45,
+        "KinematicMaxSpeed": 45,
+        "ApplyColorCustomization": 1,
+        "InitialWidth": 6,
+        "InitialRadius": 2,
+        "DestroyOnContactTypes": [
+            "/Lotus/Types/Enemies/Corpus/Spaceman/AIWeek/NullifyShieldDecoCollision"
+        ],
+        "OnHitScript": {
+            "Script": "Abilities/DuelistBladeDance.lua",
+            "Function": "OnProjectileContact",
+            "_castAnims": [],
+            "_inputFilter": "",
+            "_swordDecoType": "",
+            "_projType": "",
+            "_areaTrigger": "",
+            "_inputMatchSound": "",
+            "_inputMissSound": "",
+            "_markQuadType": "",
+            "_rangeDeco": "",
+            "_icePlatformDeco": "",
+            "_iceExplosionFx": "/Lotus/Fx/PowersuitAbilities/Duelist/BladeDanceMaxIceStacksBurst",
+            "_iceExplosionSound": "/Lotus/Sounds/Warframes/Narin/Abilities/NarinGeommuIceExplosion",
+            "_dancePhysics": "",
+            "_defaultPhysics": "",
+            "_areaLoopSeq": "",
+            "_abilityEndSound": "",
+            "_targetLockedSound": "",
+            "_projExplosionSound": "/Lotus/Sounds/Warframes/Narin/Abilities/NarinGeommuProjExplosion",
+            "_dodgeSound": ""
+        }
+    }
+}

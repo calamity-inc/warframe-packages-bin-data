@@ -1,0 +1,294 @@
+{
+    "parent": "/Lotus/Types/Weapon/WaveProjectile",
+    "data": {
+        "Mesh": "DuelistBowArrow.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Bow/DuelistLargeChargedProjectileFlarePerfect",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Bow/DuelistChargedLargeProjectileTrailPerfect",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Bow/DuelistBowChargedLargeProjectileEmbers",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Bow/DuelistBowChargedLargeLingerProjectileEmbers",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Gameplay/Emotes/FrostSnowFlakesPsys",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    3.5,
+                    0
+                ],
+                "LocalRotation": [
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Bow/DuelistBowChargedProjectileDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    1,
+                    0
+                ],
+                "LocalRotation": [
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Bow/DuelistBowChargedProjectileDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 0.5
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Bow/DuelistBowChargeProjectileFogTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/WeaponAttachments/DuelistBow.lua",
+            "Function": "CreateIceTrail",
+            "_iceType": "/Lotus/Fx/Weapons/Bow/DuelistBowGroundSpawner",
+            "_desiredScale": 0.30000001,
+            "_scaleUpTime": 0.75,
+            "_lifeTime": 10
+        },
+        "ReplicaRunScriptInstance": 1,
+        "ReplicationOverride": "RO_NEVER",
+        "AttackData": {
+            "UseNewFormat": 1,
+            "Type": "DT_PUNCTURE",
+            "DT_IMPACT": 0,
+            "DT_PUNCTURE": 250,
+            "DT_SLASH": 250,
+            "DT_FIRE": 0,
+            "DT_FREEZE": 500,
+            "DT_ELECTRICITY": 0,
+            "DT_POISON": 0,
+            "DT_EXPLOSION": 0,
+            "DT_RADIATION": 0,
+            "DT_GAS": 0,
+            "DT_MAGNETIC": 0,
+            "DT_VIRAL": 0,
+            "DT_CORROSIVE": 0,
+            "DT_RADIANT": 0,
+            "Amount": 1000,
+            "ProcChance": 0.36000001,
+            "ForcedProcs": [
+                "PT_CHILLED"
+            ],
+            "ForcedProcCount": 10,
+            "HitType": "DHT_PROJECTILE"
+        },
+        "CriticalChance": 0.36000001,
+        "CriticalMultiplier": 3,
+        "GrenadeShootPermissions": [],
+        "GrenadeShootBonus": [],
+        "PostFireInvulnDuration": 1,
+        "DieEffect": "/Lotus/Fx/Weapons/Bow/DuelistBowLargeChargedProjExplode",
+        "DieSound": "/Lotus/Sounds/Weapons/DuelistBow/DuelistBowAltProjExplosion",
+        "DieEffectOffset": [
+            0,
+            0,
+            0
+        ],
+        "IgnoreCollisionsWithSameType": 1,
+        "PassThroughLiquidSurfaces": 1,
+        "Toughness": 1,
+        "WhizzBySound": "/Lotus/Sounds/Weapons/DuelistBow/DuelistBowChargedProjectile",
+        "WhizzByRadius": 15,
+        "WhizzByLocal": 1,
+        "VerticalImpulse": 75,
+        "HorizontalImpulse": 75,
+        "EmbedAttack": {
+            "Amount": 0
+        },
+        "EmbedTime": [
+            0,
+            0
+        ],
+        "KinematicMovement": 1,
+        "KinematicPostCollisionsSpeedFactor": 0.40000001,
+        "KinematicInitialSpeed": 70,
+        "KinematicMaxSpeed": 70,
+        "KinematicNoiseRate": 0.050000001,
+        "KinematicGravityMultiplier": 0.0099999998,
+        "KinematicRestitution": 0,
+        "KinematicRestitutionParallel": 0,
+        "ProjectileReplication": "SYNCED_AUTONOMOUS",
+        "InstantTurn": 1,
+        "FaceVelocity": 1,
+        "BaseRotation": [
+            -0.70710677,
+            0,
+            0,
+            0.70710677
+        ],
+        "OnProjectileDeathScript": {
+            "Script": "/Lotus/Scripts/WeaponAttachments/DuelistBow.lua",
+            "Function": "RefreshTrailLifetime",
+            "_iceType": "",
+            "_desiredScale": 1.8,
+            "_scaleUpTime": 0.80000001,
+            "_lifeTime": 10
+        },
+        "ApplyColorCustomization": 1,
+        "RiftStasisWeight": 25,
+        "SweepType": "Sphere",
+        "InitialWidth": 1,
+        "InitialRadius": 0.2,
+        "InitialExtents": [
+            1,
+            0.2,
+            0.75
+        ],
+        "AllowNormalContactBehavior": 1,
+        "ProjectileResizes": [
+            {
+                "Time": 0.25,
+                "ResizeWidth": 2.5,
+                "ResizeRadius": 2.5
+            }
+        ],
+        "DestroyOnContactTypes": [
+            "/Lotus/Powersuits/Frost/IceShieldDeco",
+            "/Lotus/Types/Enemies/Corpus/Spaceman/AIWeek/NullifyShieldDecoCollision",
+            "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/NpcIceShieldDeco"
+        ]
+    }
+}

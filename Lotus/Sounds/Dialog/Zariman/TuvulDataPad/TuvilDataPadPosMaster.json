@@ -3,6 +3,7 @@
     "data": {
         "BankDefaults": {
             "MixingGroup": "/EE/Sounds/Mixer/DialogSubmix",
+            "OverrideGroup": "DataPad",
             "MixEffect": "SnapshotDataPad",
             "OverrideDuckingEnvelope": 1,
             "DuckingEnvelope": {
@@ -10,8 +11,8 @@
                 "DecayTime": 1
             },
             "Gain": [
-                11.5,
-                11.5
+                12,
+                12
             ],
             "Occlusion": [
                 -15,
@@ -57,6 +58,10 @@
                 "PlayMode": "ONE_SHOT",
                 "LoopCount": 0,
                 "PlayOffsetRange": [
+                    0,
+                    0
+                ],
+                "DelayTime": [
                     0,
                     0
                 ],

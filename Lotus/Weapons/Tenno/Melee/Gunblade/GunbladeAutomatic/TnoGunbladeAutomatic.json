@@ -130,6 +130,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "NotifyPotentialVictimsOfIncomingAttack": 0,
@@ -264,6 +265,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_MELEE_DAMAGE"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -339,6 +341,7 @@
                         "CC_GROUND_BRANCH_B": [],
                         "CC_GROUND_BRANCH_C": [],
                         "CC_GROUND_HEAVY": [],
+                        "CC_GROUND_HELD_HEAVY": [],
                         "CC_SLIDING": [],
                         "CC_AIR": [],
                         "CC_AIR_RIGHT": [],
@@ -380,6 +383,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -455,7 +459,12 @@
                     "SetToPreviousBehaviorWhenMeleeActionEnds": 0,
                     "RecordFireEvent": 1,
                     "ComboData": {
+                        "MinHeldHeavyTime": 0,
                         "HeavyMeleeChargeTime": 2,
+                        "PerfectHeldHeavyRange": [
+                            0,
+                            0
+                        ],
                         "UseCurrentContextAfterCharge": 0
                     },
                     "GroundHitLerpRate": 0.25,
@@ -578,6 +587,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/ShotgunHipAccuracyInfo",
@@ -602,6 +612,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 300,
                     "PvpTraceDistance": 300,
@@ -664,6 +676,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_MELEE_DAMAGE"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         20,
                         40
@@ -739,6 +752,7 @@
                         "CC_GROUND_BRANCH_B": [],
                         "CC_GROUND_BRANCH_C": [],
                         "CC_GROUND_HEAVY": [],
+                        "CC_GROUND_HELD_HEAVY": [],
                         "CC_SLIDING": [],
                         "CC_AIR": [],
                         "CC_AIR_RIGHT": [],
@@ -781,6 +795,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,

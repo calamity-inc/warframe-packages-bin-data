@@ -1,0 +1,107 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "UseLightMap": 0,
+        "Mesh": "/Lotus/Objects/Duviri/Gameplay/LootCrates/DUVxTreasureChest_skel.fbx",
+        "OverrideMaterial": [
+            "/Lotus/Objects/Duviri/Gameplay/LootCrates/DUVxTreasureChestIce"
+        ],
+        "MotionBlurred": 1,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Objects/KuvaIceBlade/Props/KIBxSwordBladeWingCDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Objects/KuvaIceBlade/Props/KIBxSwordBladeWingCmDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Levels/Zariman/IceBlade/IceLootChestIdleFx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "ServerChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    1
+                ],
+                "LocalRotation": [
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "KPMainMissionTreasureHitSwitch",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/Kinematic",
+        "ReplicationOverride": "RO_ALWAYS",
+        "TriggeredAnimation": "/Lotus/Objects/Duviri/Gameplay/LootCrates/DUVxTreasureChestOpen_anim.fbx",
+        "MaterialForSwap": "/Lotus/Objects/Duviri/Gameplay/LootCrates/DUVxTreasureChestIceOff"
+    }
+}

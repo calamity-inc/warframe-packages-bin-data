@@ -13,7 +13,8 @@
             "Function": "ActivateAbility",
             "_expfx": "/Lotus/Fx/PowersuitAbilities/Decree/PushSpawner",
             "_activateAnim": "/Lotus/Animations/Tenno/Powers/Temp/SoundWave_anim.fbx",
-            "_augmentOneArmorDamageProj": "",
+            "_armourStealFX": "/Lotus/Fx/PowersuitAbilities/Decree/PushAugmentArmorAttach",
+            "_augmentAttachFX": "",
             "_invalidTargetTypes": [
                 "/Lotus/Types/NeutralCreatures/CreatureAvatars/SandRayAvatar"
             ]
@@ -22,14 +23,15 @@
             {
                 "tag": "DoPush",
                 "executionMode": "EM_ALL",
-                "inheritPrimary": 0,
-                "functionName": "",
+                "inheritPrimary": 1,
+                "functionName": "DoPush",
                 "scriptInstance": {
                     "Script": "Push.lua",
                     "Function": "DoPush",
-                    "_expfx": "",
-                    "_activateAnim": "",
-                    "_augmentOneArmorDamageProj": "/Lotus/Fx/PowersuitAbilities/Decree/PushAugmentArmorDamageProj",
+                    "_expfx": "/Lotus/Fx/PowersuitAbilities/Decree/PushSpawner",
+                    "_activateAnim": "/Lotus/Animations/Tenno/Powers/Temp/SoundWave_anim.fbx",
+                    "_armourStealFX": "/Lotus/Fx/PowersuitAbilities/Decree/PushAugmentArmorAttach",
+                    "_augmentAttachFX": "",
                     "_invalidTargetTypes": [
                         "/Lotus/Types/NeutralCreatures/CreatureAvatars/SandRayAvatar"
                     ]
@@ -38,7 +40,26 @@
         ],
         "NpcCooldownDuration": 12,
         "ActivationXP": 25,
+        "PlayCastSound": 0,
         "VideoTexture": "/Lotus/Interface/AbilityVideos/BansheePower1_s.bk2",
+        "SoundEvents": [
+            {
+                "EventName": "BansheeSonicBoomCastSFX",
+                "Sound": "/Lotus/Sounds/Warframes/Decree/BansheeSonicBoomCast3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BansheeSonicBoomImpactSFX",
+                "Sound": "/Lotus/Sounds/Warframes/Decree/BansheeSonicBoomImpact3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            }
+        ],
         "ForceFeedbackEffectEvents": [
             {
                 "EventName": "BansheeImpactMediumFeedback",

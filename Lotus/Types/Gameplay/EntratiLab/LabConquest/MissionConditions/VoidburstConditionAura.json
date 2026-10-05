@@ -3,10 +3,15 @@
     "data": {
         "LocalizeTag": "/Lotus/Language/Conquest/Condition_Voidburst",
         "LocalizeDescTag": "/Lotus/Language/Conquest/Condition_Voidburst_Desc",
-        "OnEnterAuraScript": {
+        "OnAuraAddedToLevelScript": {
             "Script": "/Lotus/Scripts/Gameplay/VoidburstEffect.lua",
             "Function": "ApplyAura",
             "_voidImplosionScriptTrigger": "/Lotus/Types/Gameplay/EntratiLab/VoidVaults/Burdens/VoidImplosion"
+        },
+        "OnAuraRemovedFromLevelScript": {
+            "Script": "/Lotus/Scripts/Gameplay/VoidburstEffect.lua",
+            "Function": "RemoveAura",
+            "_voidImplosionScriptTrigger": ""
         }
     }
 }

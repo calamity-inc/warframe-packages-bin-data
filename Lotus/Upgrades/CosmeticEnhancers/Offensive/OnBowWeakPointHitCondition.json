@@ -1,0 +1,22 @@
+{
+    "parent": "/EE/Types/Engine/GenericChallenge",
+    "data": {
+        "HideChallenge": 1,
+        "ProgressIndicatorFreq": 0,
+        "ShowProgressOnFirstCount": 0,
+        "Recurring": 1,
+        "Script": {
+            "Script": "IsWeakpoint.lua",
+            "Function": "MatchAttackEvent",
+            "_weakness": 0.5
+        },
+        "Injury": "ANY",
+        "IgnoreHitTypes": [
+            "DHT_DOT"
+        ],
+        "DamageType": "DT_ANY",
+        "DamageSourceObjects": [
+            "/Lotus/Weapons/Tenno/Bows/LotusBow"
+        ]
+    }
+}

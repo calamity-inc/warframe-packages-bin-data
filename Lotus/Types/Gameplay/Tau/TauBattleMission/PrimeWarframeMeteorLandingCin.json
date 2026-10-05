@@ -260,6 +260,10 @@
         "AllowAvatarsAsActors": 1,
         "PreserveAvatarPositions": 1,
         "UseCinematicBlendNode": 1,
+        "CinematicBlendNode": {
+            "CrossfadeTransition": 0,
+            "AvatarTransitionOutTime": -1
+        },
         "WaitForLocalPlayerInPrepareState": 1
     }
 }

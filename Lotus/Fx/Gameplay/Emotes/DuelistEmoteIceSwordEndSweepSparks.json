@@ -1,0 +1,88 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 300
+            }
+        ],
+        "SpawnRate": 2000,
+        "EmissionTime": 0.5,
+        "ApplyColorCustomization": 1,
+        "fireOnce": 0,
+        "resilience": 0.34999999,
+        "drag": 0.5,
+        "mass": [
+            0.02,
+            0.1
+        ],
+        "life": [
+            0.80000001,
+            1.5
+        ],
+        "size": [
+            0.012,
+            0.017999999
+        ],
+        "velocity": [
+            0.2,
+            1.2
+        ],
+        "streaksFactor": 3,
+        "spawnShape": "SP_BOX",
+        "inheritVelocity": 1,
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            0.1,
+            1.1,
+            0.1
+        ],
+        "spawnDelay": 0.1,
+        "spawnFlowForcePosScale": 0.5,
+        "flowScale": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "flowForceEnd": [
+            3,
+            3,
+            3
+        ],
+        "flowScrolling": [
+            0,
+            -0.5,
+            0
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColor",
+        "colorKeys[0]": [
+            0.064999998,
+            0.33000001,
+            0.43000001,
+            1
+        ],
+        "colorKeys[1]": [
+            0.028999999,
+            0.18000001,
+            0.23999999,
+            1
+        ],
+        "colorKeys[2]": [
+            0.012,
+            0.18000001,
+            0.34999999,
+            0.67000002
+        ],
+        "colorKeys[3]": [
+            0.0011,
+            0.043000001,
+            0.090999998,
+            0.67000002
+        ],
+        "numColors": 2
+    }
+}

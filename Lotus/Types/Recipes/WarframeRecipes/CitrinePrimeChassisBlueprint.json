@@ -1,0 +1,31 @@
+{
+    "parent": "/Lotus/Types/Game/RecipeItem",
+    "data": {
+        "RegularPrice": 35000,
+        "SellingPrice": 3500,
+        "PrimeSellingPrice": 15,
+        "ExcludeFromCodex": 0,
+        "TradeCapability": "RO_ALWAYS",
+        "ResultItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/CitrinePrimeChassisComponent",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Alertium",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                "ItemCount": 10
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                "ItemCount": 1600
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 7800
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000
+    }
+}

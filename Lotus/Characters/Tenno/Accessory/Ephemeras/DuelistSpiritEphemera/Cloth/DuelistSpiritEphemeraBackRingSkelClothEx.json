@@ -1,0 +1,23 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "DuelistSpiritEphemeraBackRing_skel.fbx",
+        "CollisionDebugVis": "CDV_ALL",
+        "ShowSimCollisionTags": 1,
+        "ControlData": "DuelistSpiritEphemeraBackRingSkelClothData",
+        "Attribs": {
+            "massRange": [
+                0.2,
+                0.2
+            ],
+            "distConstraintRange": [
+                0,
+                0.039999999
+            ],
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 1
+        },
+        "UseDynamicCollision": 0,
+        "UseClothCollision": 1
+    }
+}

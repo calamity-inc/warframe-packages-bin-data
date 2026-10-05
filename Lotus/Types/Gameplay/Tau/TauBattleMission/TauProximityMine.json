@@ -1,0 +1,228 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "BakeShadowsOnLightMaps": 0,
+        "Mesh": "/Lotus/Objects/Tau/SentientMoon/Orokin/Gameplay/STMxOroDeathOrbA_skel.fbx",
+        "MeshScale": 0.30000001,
+        "OverrideMaterial": [
+            "/Lotus/Objects/Tau/SentientMoon/Materials/Orokin/Props/STMxOroDeathOrbMine"
+        ],
+        "CullDistance": 70,
+        "MaterialParams": [
+            {
+                "name": "PivotLayerTilingInfluence",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            },
+            {
+                "name": "TintGradientPivotInfluence",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            }
+        ],
+        "MotionBlurred": 1,
+        "UseParentVisibility": 0,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "TauProximityMineTargetingTrigger",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "TauProximityMineHitProxy",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "ServerChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0.70710677,
+                    0,
+                    0,
+                    0.70710677
+                ],
+                "BoneName": "",
+                "Type": "TauProximityMineActivateTrigger",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0.5
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "TauProximityMineCap",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "MineDisarmObjective/MineHostileGlowProj",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/Kinematic",
+        "Tag": "TauProximityMine",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Tau/TauProximityMine.lua",
+            "Function": "Initialize",
+            "_capExtendTime": 0.25,
+            "_capExtendDistance": 0.5,
+            "_ejectTime": 0.5,
+            "_applyRotationOffsetDuringEject": 0,
+            "_debugDraw": 1,
+            "_smokeVFX": "TauProximityMineSmokeFX",
+            "_launchEffect": "TauProximityMineActiveSpawner",
+            "_launchFinishedEffect": "TauProximityMineLaunchFinishedFX",
+            "_capOpenSound": "/Lotus/Sounds/Gameplay/Tau/TwelveMinuteWar/MineDisarm/TauMineCapOpen",
+            "_launchSound": "/Lotus/Sounds/Gameplay/Tau/TwelveMinuteWar/MineDisarm/TauMineLaunch",
+            "_capCloseSound": "/Lotus/Sounds/Gameplay/Tau/TwelveMinuteWar/MineDisarm/TauMineCapClose",
+            "_loopingSound": "",
+            "_projectileType": "",
+            "_splineType": "",
+            "_capType": "TauProximityMineCap",
+            "_activateTriggerType": "TauProximityMineActivateTrigger",
+            "_flashingLightVFXType": "TauProximityMineArmedFX"
+        },
+        "ReplicaRunScriptInstance": 1,
+        "ReplicationOverride": "RO_ALWAYS",
+        "ReplicaPositionNoise": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "ReplicaRotationNoise": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Health": 99999,
+        "Redirector": 1,
+        "CanDie": 0,
+        "RemoveOnDestroy": 1,
+        "CreateHitEffectWhenDead": 0,
+        "ModifyDamageScript": {
+            "Script": "/Lotus/Scripts/Tau/TauProximityMine.lua",
+            "Function": "ModifyDamageData",
+            "_capExtendTime": 0.25,
+            "_capExtendDistance": 0.5,
+            "_ejectTime": 0.5,
+            "_applyRotationOffsetDuringEject": 0,
+            "_debugDraw": 1,
+            "_smokeVFX": "",
+            "_launchEffect": "",
+            "_launchFinishedEffect": "",
+            "_capOpenSound": "",
+            "_launchSound": "",
+            "_capCloseSound": "",
+            "_loopingSound": "",
+            "_projectileType": "",
+            "_splineType": "",
+            "_capType": "",
+            "_activateTriggerType": "",
+            "_flashingLightVFXType": ""
+        },
+        "OnDamageScript": {
+            "Script": "/Lotus/Scripts/Tau/TauProximityMine.lua",
+            "Function": "OnDamaged",
+            "_capExtendTime": 0.25,
+            "_capExtendDistance": 0.5,
+            "_ejectTime": 0.5,
+            "_applyRotationOffsetDuringEject": 0,
+            "_debugDraw": 0,
+            "_smokeVFX": "",
+            "_launchEffect": "",
+            "_launchFinishedEffect": "",
+            "_capOpenSound": "",
+            "_launchSound": "",
+            "_capCloseSound": "",
+            "_loopingSound": "",
+            "_projectileType": "TauProximityMineProjectile",
+            "_splineType": "",
+            "_capType": "",
+            "_activateTriggerType": "",
+            "_flashingLightVFXType": ""
+        },
+        "MarkHostile": 1,
+        "NavMeshInfluence": "NMI_CUT_WITH_COLLISION_SHAPES"
+    }
+}

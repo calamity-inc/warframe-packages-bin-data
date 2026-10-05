@@ -1,0 +1,44 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/Primes/PrimeCorufellName",
+        "LocalizeDescTag": "/Lotus/Language/Primes/PrimeCorufellDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/CorufellPrime.png",
+        "TypeName": "/Lotus/Types/Recipes/Weapons/CorufellPrimeBlueprint",
+        "SellingPrice": 2500,
+        "PrimeSellingPrice": 15,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1786537348,
+        "RequiredLevel": 16,
+        "Tradeable": 1,
+        "Giftable": 0,
+        "SearchTags": [
+            "/Lotus/Language/Loadout/LoadoutCat_Scythe"
+        ],
+        "ExcludeFromCodex": 0,
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "/Lotus/StoreItems/Weapons/Tenno/Archwing/Melee/PrimeCorufell/PrimeCorufellScytheWeapon",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/CorufellPrimeBarrel",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/CorufellPrimeHandle",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/CorufellPrimeReceiver",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 15
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "SkipBuildTimePrice": 50
+    }
+}

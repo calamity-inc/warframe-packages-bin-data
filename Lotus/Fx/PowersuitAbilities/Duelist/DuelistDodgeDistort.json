@@ -1,0 +1,36 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            }
+        ],
+        "DistortionEffect": 1,
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.5,
+            0.5
+        ],
+        "Size": [
+            4,
+            4
+        ],
+        "InitialCount": [
+            1,
+            1
+        ],
+        "Material": "/Lotus/Fx/Water/RippleDistortPMat",
+        "FadeInOut": [
+            0.2,
+            0.75
+        ],
+        "DrawRelative": 1
+    }
+}

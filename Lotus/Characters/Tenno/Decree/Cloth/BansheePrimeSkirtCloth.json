@@ -46,9 +46,11 @@
             "_useBossBar": 0
         },
         "ReplicaRunScriptInstance": 1,
+        "CollisionDebugVis": "CDV_ALL",
         "ControlData": "BansheePrimeSkirtClothData",
         "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
         "PeerCollision": "BansheePrimePeerCollision",
+        "AddedCollision": "BansheePrimeFlapsSimCollision",
         "Attribs": {
             "dampeningRange": [
                 0.075000003,
@@ -59,12 +61,12 @@
                 0.2
             ],
             "massRange": [
-                0.2,
+                0.050000001,
                 0.30000001
             ],
             "distConstraintRange": [
                 0.000099999997,
-                1
+                0.1
             ],
             "reduceStretchExponent": 1,
             "shearingStiffness": 0.40000001,

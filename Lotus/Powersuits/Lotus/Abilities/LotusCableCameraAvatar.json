@@ -1,0 +1,101 @@
+{
+    "parent": "/Lotus/Types/Game/LotusAvatar",
+    "data": {
+        "Mesh": "/Lotus/Characters/Tenno/Lotus/AdisHandForCable.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "HandConnectionPoint",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusCableMoveLoopSeq",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_ROOT",
+                "Type": "/Lotus/Types/Friendly/PlayerControllable/Lotus/CableRagdollHook",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "CableFlyer",
+        "Tag": "LotusCableAvatar",
+        "ScriptInstance": {
+            "Script": "CableCameraAvatar.lua",
+            "Function": "Update",
+            "_posRange": [
+                -1,
+                1
+            ],
+            "_debugDraw": 0
+        },
+        "IsFirstPersonAvatar": 1,
+        "UseFPAnimControllerForFinishers": 1,
+        "InputControllerType": "CableInputController",
+        "InventoryControllerType": "/Lotus/Types/Player/InventoryController",
+        "MotionControllerType": "CableMotionController",
+        "RaycastProxy": {
+            "Type": "/Lotus/Types/Player/TennoFullBodyRaycast"
+        },
+        "CollisionProxy": {
+            "Type": "/Lotus/Types/Enemies/Corpus/QuadRobot/QuadRobotFullBodyCollision"
+        },
+        "EnableCameraCollisionCulling": 0,
+        "ShowHealthInHud": 0,
+        "ExcludedFromCodex": 1,
+        "ExcludedFromSimulacrum": 1,
+        "CanBeInspected": 0
+    }
+}

@@ -10,6 +10,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 0,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -26,7 +27,8 @@
                 "ReverseValueSymbol": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.001,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             },
             {
                 "UpgradeType": "SKILL_RJ_BC_COOLDOWN",
@@ -35,6 +37,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 0,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -51,7 +54,8 @@
                 "ReverseValueSymbol": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             },
             {
                 "UpgradeType": "AVATAR_DAMAGE_TAKEN",
@@ -60,6 +64,7 @@
                 "DamageType": "DT_BASE_ELEMENTAL",
                 "AutoType": 0,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -76,7 +81,8 @@
                 "ReverseValueSymbol": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             },
             {
                 "UpgradeType": "WEAPON_CLIP_MAX",
@@ -85,6 +91,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 0,
                 "ValidType": "/Lotus/Weapons/CrewShip/RailjackTurretWeapon",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -101,7 +108,8 @@
                 "ReverseValueSymbol": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "ArtifactPolarity": "AP_TACTIC"

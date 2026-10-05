@@ -142,6 +142,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/TennoHeavyPistolHipAccuracyInfo",
@@ -166,6 +167,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 300,
                     "PvpTraceDistance": 300,
@@ -228,6 +231,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -296,6 +300,7 @@
                     "ModeSwitchTime": 1.4,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0.1,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -430,6 +435,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/DefaultAccuracyInfo",
@@ -454,6 +460,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 300,
                     "PvpTraceDistance": 300,
@@ -599,6 +607,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -707,7 +716,8 @@
                             0.25,
                             0.75
                         ],
-                        "friendlyFire": 0
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "PvpRadialDamage": {
                         "baseAmount": 0,
@@ -757,7 +767,8 @@
                             0.25,
                             0.75
                         ],
-                        "friendlyFire": 0
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "RadialDamageEffects": [
                         "/Lotus/Fx/Weapons/Zariman/IncarnonAdapters/ZylokVoidImpactFX"
@@ -777,6 +788,7 @@
                     "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -921,8 +933,13 @@
         "ShowBehaviorOnUI": 1,
         "MaxCharges": 12,
         "ClearChargesOnBehaviorChange": 1,
-        "AddChargeConditions": [
-            "PRIMARY_HEADSHOT"
+        "AddCharges": [
+            {
+                "Conditions": [
+                    "PRIMARY_HEADSHOT"
+                ],
+                "NumCharges": 1
+            }
         ],
         "ConsumeChargeConditions": [
             "SECONDARY_FIRE"

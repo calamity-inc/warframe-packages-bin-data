@@ -1,0 +1,90 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "UseTeamEffectsSetting": 1,
+        "SpawnRate": 8,
+        "SpawnCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 20
+                },
+                {
+                    "Time": 0.30000001,
+                    "Value": 100
+                },
+                {
+                    "Time": 1,
+                    "Value": 15
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "fireOnce": 0,
+        "useCollisions": 0,
+        "resilience": 1,
+        "drag": 5,
+        "mass": [
+            -0.40000001,
+            -0.18000001
+        ],
+        "life": [
+            0.2,
+            0.40000001
+        ],
+        "size": [
+            0.0099999998,
+            0.029999999
+        ],
+        "velocity": [
+            0.5,
+            1
+        ],
+        "useForceFieldForSpawn": 1,
+        "spawnFlowBlend": 0.85000002,
+        "spawnFlowForcePosScale": 0.1,
+        "flowScale": [
+            3,
+            3,
+            3
+        ],
+        "flowForceEnd": [
+            3,
+            3,
+            3
+        ],
+        "flowScrolling": [
+            0,
+            -0.1,
+            0
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColor",
+        "colorKeys[0]": [
+            0.059999999,
+            0.93000001,
+            1.92,
+            1
+        ],
+        "colorKeys[1]": [
+            1.53,
+            2.0599999,
+            2.3,
+            1
+        ],
+        "colorKeys[2]": [
+            0.012,
+            0.18000001,
+            0.34999999,
+            0.67000002
+        ],
+        "colorKeys[3]": [
+            0.0011,
+            0.043000001,
+            0.090999998,
+            0.67000002
+        ],
+        "numColors": 2,
+        "vortexRadialForce": 0.69999999
+    }
+}

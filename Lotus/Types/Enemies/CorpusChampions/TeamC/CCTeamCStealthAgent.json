@@ -203,6 +203,7 @@
                         "DefaultReevaluationDelay": 0,
                         "TimeSinceLastSeen": 5,
                         "MaxDistToTarget": 100,
+                        "SpeedMultiplier": 1,
                         "ConsiderOrderType": 0,
                         "Order": "",
                         "FailsOnTargetAcquired": 0,
@@ -221,7 +222,8 @@
                         "ClearOrderOnMoveSuccess": 0,
                         "AllowTeleportToCatchUp": 1,
                         "TeleportToDestination": 0,
-                        "AllowPartialPath": 1
+                        "AllowPartialPath": 1,
+                        "RestrictToDV": 0
                     },
                     "GuardTactic": {
                         "Enabled": 1,
@@ -251,6 +253,7 @@
                         "PatrolBehavior:NearDistance": 2,
                         "PatrolBehavior:SpeedMultiplier": 1,
                         "PatrolBehavior:AlertSpeedMultiplier": 1,
+                        "PatrolBehavior:MovementPosture": "WALK",
                         "PatrolBehavior:FailOnTargetAcquired": 1,
                         "PatrolBehavior:AimWhenIdle": 0,
                         "PatrolBehavior:AimWhenAlert": 1,
@@ -265,6 +268,10 @@
                         "PatrolBehavior:AutoAssignClosestPatrol": 0,
                         "PatrolBehavior:SameZoneOnly": 1,
                         "PatrolBehavior:AutoPatrolRadius": 30,
+                        "PatrolBehavior:OnCompleteScript": {
+                            "Script": ""
+                        },
+                        "RandomWalkBehavior:Type": "/EE/Types/Npc/RandomTacWalkBehavior",
                         "RandomWalkBehavior:Enabled": 1,
                         "RandomWalkBehavior:OnStartScript": {
                             "Script": ""
@@ -272,6 +279,77 @@
                         "RandomWalkBehavior:OnDamagedScript": {
                             "Script": ""
                         },
+                        "RandomWalkBehavior:DefaultReevaluationDelay": 0,
+                        "RandomWalkBehavior:StopRadius": 2,
+                        "RandomWalkBehavior:NearDistance": 4,
+                        "RandomWalkBehavior:SpeedMultiplier": 1,
+                        "RandomWalkBehavior:AlertSpeedMultiplier": 1,
+                        "RandomWalkBehavior:AllowTarget": 0,
+                        "RandomWalkBehavior:AimWhenIdle": 0,
+                        "RandomWalkBehavior:AimWhenAlert": 1,
+                        "RandomWalkBehavior:PermanentAlert": 0,
+                        "RandomWalkBehavior:AnimAction": "PatrolIdle",
+                        "RandomWalkBehavior:GenericAnims": [],
+                        "RandomWalkBehavior:MinPlayerDist": [
+                            0,
+                            0
+                        ],
+                        "RandomWalkBehavior:MinPlayerFov": 60,
+                        "RandomWalkBehavior:PauseTime": [
+                            3,
+                            5
+                        ],
+                        "RandomWalkBehavior:TimeBetweenPauses": [
+                            15,
+                            25
+                        ],
+                        "RandomWalkBehavior:ReevaluationDelayOnAbortedMove": 5,
+                        "RandomWalkBehavior:PlayPhrase": 1,
+                        "RandomWalkBehavior:Bark": "IDLE",
+                        "RandomWalkBehavior:BarkFilter": "",
+                        "RandomWalkBehavior:BarkInterval": [
+                            0,
+                            0
+                        ],
+                        "RandomWalkBehavior:StartUpDelay": [
+                            0,
+                            0
+                        ],
+                        "RandomWalkBehavior:UseWasAlert": 0,
+                        "RandomWalkBehavior:ScanLength": 2,
+                        "RandomWalkBehavior:MovementPosture": "WALK",
+                        "RandomWalkBehavior:MinimumTacWalkAreas": 4,
+                        "RandomWalkBehavior:WanderWhenNotEnoughTacAreas": 1,
+                        "RandomWalkBehavior:TeammateBarkBehavior:Type": "/EE/Types/Npc/BarkAtNearbyAllyBehavior",
+                        "RandomWalkBehavior:TeammateBarkBehavior:Enabled": 1,
+                        "RandomWalkBehavior:TeammateBarkBehavior:OnStartScript": {
+                            "Script": ""
+                        },
+                        "RandomWalkBehavior:TeammateBarkBehavior:OnDamagedScript": {
+                            "Script": ""
+                        },
+                        "RandomWalkBehavior:TeammateBarkBehavior:DefaultReevaluationDelay": 0,
+                        "RandomWalkBehavior:TeammateBarkBehavior:StopForTeammateDuration": [
+                            3,
+                            6
+                        ],
+                        "RandomWalkBehavior:TeammateBarkBehavior:DontStopForTeammateDuration": 30,
+                        "RandomWalkBehavior:TeammateBarkBehavior:PostFailureEvaluationDelay": [
+                            3,
+                            3
+                        ],
+                        "RandomWalkBehavior:TeammateBarkBehavior:AllowableTeammateAngle": 90,
+                        "RandomWalkBehavior:TeammateBarkBehavior:TeammateSearchDistance": 5,
+                        "RandomWalkBehavior:TeammateBarkBehavior:TeammateBark": "IDLE",
+                        "RandomWalkBehavior:TeammateBarkBehavior:TeammateBarkFilter": "",
+                        "RandomWalkBehavior:UseDefenseVolume": 0,
+                        "RandomWalkBehavior:EvaluateMoveScript": {
+                            "Script": ""
+                        },
+                        "RandomWalkBehavior:OnlyFindPositionsOnFlightNav": 0,
+                        "RandomWalkBehavior:MaxPatrolDistanceFromEncounterHint": 0,
+                        "RandomWalkBehavior:UseStartingPositionAsEncounterPosition": 0,
+                        "RandomWalkBehavior:ResetStartingPositionOnStartup": 0,
                         "GuardBehavior:Type": "/EE/Types/Npc/GuardBehavior",
                         "GuardBehavior:Enabled": 1,
                         "GuardBehavior:OnStartScript": {
@@ -293,7 +371,8 @@
                             0,
                             0
                         ],
-                        "GuardBehavior:MinHeadingChangeToTurn": 0
+                        "GuardBehavior:MinHeadingChangeToTurn": 0,
+                        "GuardBehavior:AimWhenAlert": 1
                     },
                     "FailOnChildFailure": 0,
                     "OrderName": "Banker",
@@ -327,17 +406,29 @@
                             "Script": ""
                         },
                         "DefaultReevaluationDelay": 0,
+                        "UseCombatMgr": 0,
                         "SucceedAfterCombo": 1,
+                        "SucceedAfterDefensive": 0,
                         "AdjustAimDuringCombo": 1,
                         "AlwaysCompleteCombo": 0,
+                        "LastSeenTargetStopComboTime": 2,
                         "AttackFirst": 1,
                         "DefensiveMoveTowards": 0,
+                        "DefensiveWhenNotAttacking": 0,
+                        "AllowWeaponSwapForDefence": 0,
+                        "DefensiveWhenAimedAt": 0,
+                        "DefensiveHealthPercentage": 0,
+                        "DefensiveForcedWindow": 3,
                         "StopMovementOnAttack": 1,
                         "DefensiveParryChance": 1,
                         "DefensiveTime": [
                             1,
                             2
                         ],
+                        "DoReactiveBlocking": 0,
+                        "ReactiveBlockingDefenseTime": 0.40000001,
+                        "DefensiveCooldownTime": 1,
+                        "HeavyAttackProcTypeImmunities": [],
                         "MeleeRange": [
                             0,
                             4
@@ -354,6 +445,8 @@
                             0.5,
                             2
                         ],
+                        "MaxAllowedAttacksBlocked": 0,
+                        "AggressiveHealthThreshold": 0,
                         "BasicAttackTypes": [],
                         "DashAttackType": "CC_SLIDING",
                         "UseEquippedWeapon": 1,
@@ -519,6 +612,7 @@
                         "DefaultReevaluationDelay": 0,
                         "TimeSinceLastSeen": 5,
                         "MaxDistToTarget": 25,
+                        "SpeedMultiplier": 1,
                         "ConsiderOrderType": 0,
                         "Order": "",
                         "FailsOnTargetAcquired": 1,
@@ -537,7 +631,8 @@
                         "ClearOrderOnMoveSuccess": 0,
                         "AllowTeleportToCatchUp": 1,
                         "TeleportToDestination": 0,
-                        "AllowPartialPath": 1
+                        "AllowPartialPath": 1,
+                        "RestrictToDV": 0
                     },
                     "PursueTargetBehavior": {
                         "Enabled": 1,
@@ -764,6 +859,7 @@
                         "DefaultReevaluationDelay": 0,
                         "TimeSinceLastSeen": 5,
                         "MaxDistToTarget": 25,
+                        "SpeedMultiplier": 1,
                         "ConsiderOrderType": 0,
                         "Order": "StormTarget",
                         "FailsOnTargetAcquired": 1,
@@ -782,7 +878,8 @@
                         "ClearOrderOnMoveSuccess": 0,
                         "AllowTeleportToCatchUp": 1,
                         "TeleportToDestination": 0,
-                        "AllowPartialPath": 1
+                        "AllowPartialPath": 1,
+                        "RestrictToDV": 0
                     },
                     "FailOnChildFailure": 0,
                     "OrderName": "Attacker",
@@ -967,6 +1064,7 @@
                     ],
                     "MaxMovementDistance": 100,
                     "AllowRetreat": 1,
+                    "AllowTeleportFromOffScreen": 0,
                     "AllowRun": 1,
                     "AllowChase": 0,
                     "ForceWalkBelowMinIdealRange": 1,
@@ -1004,6 +1102,8 @@
                     "WeaponSlot": "SLOT_1",
                     "WeaponHand": "MAIN_HAND",
                     "EquipStyle": "ES_PLAY_EQUIP_ANIM",
+                    "AttackPhrase": "CHARGE_SCREAM",
+                    "AlwaysPlayAttackPhrase": 0,
                     "PlayPhrase": 0,
                     "Bark": "IDLE",
                     "BarkFilter": "",
@@ -1031,6 +1131,7 @@
                     "AimPosture": 0,
                     "MinimalEnemyDistance": 0,
                     "TrackTarget": 0,
+                    "TrackTargetNotVisible": 0,
                     "Peek": 0,
                     "FailOnDamaged": 1,
                     "PreventShooting": 0,

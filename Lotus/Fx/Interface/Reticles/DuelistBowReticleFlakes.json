@@ -1,0 +1,99 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.20999999,
+                    0.56,
+                    1,
+                    1
+                ]
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 12
+            }
+        ],
+        "DrawPostUI": 1,
+        "SpawnRate": 25,
+        "BoundsExpansionOverride": 3,
+        "EnergyTintMethod": "ETM_LIFE",
+        "fireOnce": 0,
+        "useCollisions": 0,
+        "affectedByZoneWind": 0,
+        "resilience": 0.050000001,
+        "drag": 1.35,
+        "mass": [
+            0.0049999999,
+            0.0049999999
+        ],
+        "life": [
+            0.1,
+            1
+        ],
+        "size": [
+            0.0015,
+            0.0020000001
+        ],
+        "velocity": [
+            0.001,
+            0.0020000001
+        ],
+        "windAttenuation": [
+            0,
+            0
+        ],
+        "windKillDistance": 0,
+        "collisionDelay": 0.02,
+        "spawnShape": "SP_POINT_TEXTURE",
+        "spawnScale": [
+            0.039999999,
+            0.039999999,
+            0.001
+        ],
+        "spawnFlowBlend": 0,
+        "pointTexture": "/Lotus/Interface/Graphics/SpecialReticles/IceBowReticle/IceBowReticleSoftBlur_pz.png",
+        "flowScale": [
+            4,
+            4,
+            4
+        ],
+        "flowForce": [
+            0.0099999998,
+            0.0099999998,
+            0.0099999998
+        ],
+        "flowForceEnd": [
+            0.001,
+            0.001,
+            0.001
+        ],
+        "flowScrolling": [
+            1,
+            1,
+            1
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "localSimulation": 1,
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/SnowFlakesUI",
+        "colorKeys[0]": [
+            0.34,
+            0.41,
+            0.47999999,
+            1
+        ],
+        "colorKeys[1]": [
+            0.19,
+            0.28,
+            0.34999999,
+            1
+        ],
+        "numColors": 2
+    }
+}

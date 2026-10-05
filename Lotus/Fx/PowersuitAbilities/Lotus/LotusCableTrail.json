@@ -1,0 +1,43 @@
+{
+    "parent": "/Lotus/Fx/Weapons/Melee/WeaponTrails/SwordWeaponTrail",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 7
+            }
+        ],
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "Active": 1,
+        "EdgeTime": 0.85000002,
+        "Length": 0.1,
+        "Subdivision": 6,
+        "Centered": 1,
+        "EaseOutRate": 0.5,
+        "FadeOutTime": 0.5,
+        "Material": "VoidsEndCableTrailMatB",
+        "TextureScale": 2,
+        "Tint": [
+            255,
+            220,
+            154,
+            255
+        ],
+        "TintOverLife": 1,
+        "EndTint": [
+            255,
+            198,
+            92,
+            255
+        ],
+        "Lifespan": [
+            5,
+            5
+        ],
+        "MaxDistanceBetweenPoints": 2,
+        "ApplyColorCustomization": 0
+    }
+}

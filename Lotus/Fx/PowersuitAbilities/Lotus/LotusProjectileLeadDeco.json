@@ -1,0 +1,89 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Weapons/Tenno/Melee/Scythe/JadeLightScythe/JadeScytheSlashGeo.fbx",
+        "OverrideMaterial": [
+            "LotusProjectileHeadMainMat",
+            "LotusProjectileLeadMatB",
+            "LotusProjectileLeadMatC"
+        ],
+        "MaterialParams": [
+            {
+                "name": "DistortAtten",
+                "type": "Float",
+                "slot": 0,
+                "value": 0
+            },
+            {
+                "name": "DistortAtten",
+                "type": "Float",
+                "slot": 2,
+                "value": 0.60000002
+            },
+            {
+                "name": "DistortAtten",
+                "type": "Float",
+                "slot": 1,
+                "value": 0
+            }
+        ],
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0.85000002
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "",
+                "Type": "LotusProjectileTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            }
+        ],
+        "IgnoreParentScale": 1,
+        "MaterialFade": [
+            {
+                "Parameter": "Scale",
+                "Slot": -1,
+                "TimeLength": 0.25,
+                "Multiplier": 0.2,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0.2
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 6
+                        }
+                    ],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

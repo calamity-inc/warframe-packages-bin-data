@@ -1,0 +1,40 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "ReplicationOverride": "RO_ALWAYS",
+        "Shape": "VES_SPHERE",
+        "Radius": 7,
+        "AcceptType": "/Lotus/Types/Game/LotusAvatar",
+        "SendAvatarEventsOnClear": 1,
+        "IgnoredTypes": [
+            "/Lotus/Types/Game/LotusSentinelAvatar"
+        ],
+        "Replication": "BOTH",
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/KuvaPath/KuvaPathPersonalModifiers.lua",
+                    "Function": "SnakeWispsDamageLoop",
+                    "_prefix": "",
+                    "_shieldType": "",
+                    "_grabEffect": "",
+                    "_knockdownTriggerType": "",
+                    "_beamType": "/Lotus/Fx/Enemies/Eximus/EximusAbilityFXShockOrbDamageBeam",
+                    "_baseDmgPerSec": 8,
+                    "_snakeWispType": "",
+                    "_spotlightType": "",
+                    "_shieldRestorePercent": 0.050000001,
+                    "_staticSiphonBeamType": "",
+                    "_grenadeType": "",
+                    "_damageMultiplier": 2,
+                    "_grenadeDamageRadius": 5,
+                    "_spikeType": "",
+                    "_antimatterDrop": "",
+                    "_antimatterDropMarkerInfo": ""
+                }
+            }
+        ]
+    }
+}

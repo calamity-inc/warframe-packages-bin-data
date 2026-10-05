@@ -1,0 +1,49 @@
+{
+    "parent": "/Lotus/Types/Game/DojoPlaceableDecorations/ResourcePickupPlaceableDecoration",
+    "data": {
+        "Mesh": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/Crystals/CrystalRoundA.fbx",
+        "LocTag": "/Lotus/Language/Primes/ChromaPrimeCrystalDecoName",
+        "LongDesc": "/Lotus/Language/Primes/ChromaPrimeCrystalDecoDesc",
+        "HitProxies": [
+            {
+                "LocalPosition": [
+                    0,
+                    0.64999998,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "CitrinePrimeCrystalHitProxy",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "MaterialOverridePolicy": "MOP_SHOW",
+        "KinematicPhysics": "/EE/Types/Physics/KinematicAvatarsWalkThrough",
+        "PreviewCameraPositionOffset": [
+            -4,
+            1.5,
+            -2
+        ],
+        "PreviewCameraTargetOffset": [
+            0.5,
+            0,
+            0
+        ],
+        "PreviewRotationOverride": [
+            19.999973,
+            0,
+            0
+        ]
+    }
+}

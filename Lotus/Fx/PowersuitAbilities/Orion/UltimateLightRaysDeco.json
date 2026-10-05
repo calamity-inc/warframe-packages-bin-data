@@ -1,0 +1,82 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Common/LightRays.fbx",
+        "OverrideMaterial": [
+            "/Lotus/Fx/PowersuitAbilities/CustomEffects/CorpusLichEphemeraABeamsMat"
+        ],
+        "TestRotate": 1,
+        "TestRotateMode": "TRM_AUTONOMOUS",
+        "TestRotateSpeed": [
+            120,
+            120,
+            120
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.55000001,
+                "Multiplier": 100,
+                "FadeRange": [
+                    0.1,
+                    0.1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "Scale",
+                "Slot": -1,
+                "TimeLength": 0.25,
+                "Multiplier": 3,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            }
+        ],
+        "TriggeredMaterialFade": [
+            {
+                "Parameter": "",
+                "Slot": -1,
+                "TimeLength": 1,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            }
+        ],
+        "ApplyColorCustomization": 1,
+        "UseTeamEffectsSetting": 1
+    }
+}

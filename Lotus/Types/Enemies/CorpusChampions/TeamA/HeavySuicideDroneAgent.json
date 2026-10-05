@@ -173,8 +173,8 @@
             "NeedsTarget": 0,
             "PatrolRouteOnly": 0,
             "RecruitFromPatrols": 0,
+            "MatchingDesiredDestinationOnly": 0,
             "FormationIdentifier": "",
-            "MergeThreshold": 0,
             "LeaderAction:Type": "/EE/Types/Npc/Action",
             "LeaderAction:Enabled": 1,
             "LeaderAction:OnStartScript": {
@@ -256,6 +256,7 @@
                     2.5
                 ],
                 "CheckTargetVisible": 1,
+                "CriticalWhenFiring": 0,
                 "BaitType": "",
                 "MaxBaitRadius": 1000,
                 "FaceTarget": 1,
@@ -359,6 +360,7 @@
                 1.5
             ],
             "CheckTargetVisible": 1,
+            "CriticalWhenFiring": 0,
             "BaitType": "",
             "MaxBaitRadius": 1000,
             "FaceTarget": 1,
@@ -428,6 +430,7 @@
             "PatrolBehavior:NearDistance": 2,
             "PatrolBehavior:SpeedMultiplier": 1,
             "PatrolBehavior:AlertSpeedMultiplier": 1,
+            "PatrolBehavior:MovementPosture": "WALK",
             "PatrolBehavior:FailOnTargetAcquired": 1,
             "PatrolBehavior:AimWhenIdle": 0,
             "PatrolBehavior:AimWhenAlert": 0,
@@ -442,6 +445,9 @@
             "PatrolBehavior:AutoAssignClosestPatrol": 0,
             "PatrolBehavior:SameZoneOnly": 1,
             "PatrolBehavior:AutoPatrolRadius": 30,
+            "PatrolBehavior:OnCompleteScript": {
+                "Script": ""
+            },
             "RandomWalkBehavior:Type": "/EE/Types/Npc/RandomTacWalkBehavior",
             "RandomWalkBehavior:Enabled": 1,
             "RandomWalkBehavior:OnStartScript": {
@@ -459,7 +465,6 @@
             "RandomWalkBehavior:AimWhenIdle": 0,
             "RandomWalkBehavior:AimWhenAlert": 1,
             "RandomWalkBehavior:PermanentAlert": 0,
-            "RandomWalkBehavior:ForceIdleForSinglePointPatrols": 1,
             "RandomWalkBehavior:AnimAction": "PatrolIdle",
             "RandomWalkBehavior:GenericAnims": [],
             "RandomWalkBehavior:MinPlayerDist": [
@@ -490,6 +495,8 @@
             "RandomWalkBehavior:UseWasAlert": 0,
             "RandomWalkBehavior:ScanLength": 2,
             "RandomWalkBehavior:MovementPosture": "WALK",
+            "RandomWalkBehavior:MinimumTacWalkAreas": 4,
+            "RandomWalkBehavior:WanderWhenNotEnoughTacAreas": 1,
             "RandomWalkBehavior:TeammateBarkBehavior:Type": "/EE/Types/Npc/BarkAtNearbyAllyBehavior",
             "RandomWalkBehavior:TeammateBarkBehavior:Enabled": 1,
             "RandomWalkBehavior:TeammateBarkBehavior:OnStartScript": {
@@ -518,6 +525,8 @@
             },
             "RandomWalkBehavior:OnlyFindPositionsOnFlightNav": 0,
             "RandomWalkBehavior:MaxPatrolDistanceFromEncounterHint": 0,
+            "RandomWalkBehavior:UseStartingPositionAsEncounterPosition": 0,
+            "RandomWalkBehavior:ResetStartingPositionOnStartup": 0,
             "GuardBehavior:Type": "/EE/Types/Npc/GuardBehavior",
             "GuardBehavior:Enabled": 1,
             "GuardBehavior:OnStartScript": {
@@ -539,7 +548,8 @@
                 0,
                 0
             ],
-            "GuardBehavior:MinHeadingChangeToTurn": 0
+            "GuardBehavior:MinHeadingChangeToTurn": 0,
+            "GuardBehavior:AimWhenAlert": 1
         },
         "LocomotionController:Type": "/EE/Types/Npc/DynamicLocomotionControllerHover",
         "LocomotionController:DynamicPathFinderGround": {
@@ -553,6 +563,7 @@
             "MoveFailureThreshold": 0.89999998,
             "LockedInPlaceTimeout": 5,
             "KeepPathWhileBlocking": 0,
+            "TurnRateMultiplierOnMoveDirFacing": 1,
             "MinimumMoveDistance": 0.1,
             "MinimumRunDistance": 0,
             "ShortDistanceSpeedMultiplier": 2,
@@ -581,8 +592,11 @@
             "SlopeThrottleMapping": [],
             "EnableViewChange": 1,
             "InitialAngleDiffForTurn": 0,
+            "MaxAngleDiffForTurn": 360,
+            "AngleDiffTolerance": 0,
             "ForceLookTarget": 0,
             "ForcePredictUsingDesiredViewHeading": 0,
+            "MaxLookAheadDistanceForPeakHeight": 5,
             "TransitionDistance": 2,
             "CoverWalkTransitionDistance": 0.5,
             "AlternateCoverPoseTransitionDistance": 0,
@@ -595,10 +609,14 @@
             "UseVIPNav": 0,
             "AvoidDynamicOnly": 0,
             "HoverHeightCorrection": 1,
+            "HoverHeightCorrectionOnInit": 1,
+            "StayAboveUpwardMovingNavBridges": 1,
             "MinMoveDistToCorrectHeight": 5,
             "DesiredHeightTolerance": 0.25,
             "HeightRecoverFactor": 3,
             "HeightRecoverSpeed": 3,
+            "PreferredHeightAboveWater": -1,
+            "WaterRaycastCooldownDuration": 0.5,
             "GroundRaycastCorrection": 0,
             "RaycastCooldownDuration": 0.5,
             "MaxDownwardsRaytraceDist": -3,
@@ -609,8 +627,10 @@
             "NoiseAmplitudeRot": 0,
             "NoiseAmplitudePitch": 0,
             "NoiseAmplitudeVel": 0,
+            "UseLinearTurnRateForHeadingChange": 0,
             "YawAccel": 720,
-            "MaxDesiredHeightOnBridges": 1
+            "MaxDesiredHeightOnBridges": 1,
+            "NearBridgeDistance": 2
         },
         "LocomotionController:MoveModifierCollection": [],
         "LocomotionController:PathingPreferences": {

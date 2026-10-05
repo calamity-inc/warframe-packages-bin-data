@@ -1,0 +1,93 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 300
+            }
+        ],
+        "UseTeamEffectsSetting": 1,
+        "SpawnRate": 75,
+        "EmissionTime": 3.5,
+        "ApplyColorCustomization": 1,
+        "fireOnce": 0,
+        "useCollisions": 0,
+        "drag": 3,
+        "mass": [
+            -0.25,
+            -0.1
+        ],
+        "life": [
+            0.1,
+            1
+        ],
+        "size": [
+            0.0049999999,
+            0.015
+        ],
+        "velocity": [
+            3,
+            6
+        ],
+        "streaksFactor": 2,
+        "spawnFlowBlend": 0,
+        "flowScale": [
+            0.1,
+            0.1,
+            0.1
+        ],
+        "flowForce": [
+            50,
+            50,
+            50
+        ],
+        "flowForceEnd": [
+            2,
+            2,
+            2
+        ],
+        "flowScrolling": [
+            0,
+            0,
+            1
+        ],
+        "flowAtten": [
+            0,
+            1
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColor",
+        "colorKeys[0]": [
+            0.064999998,
+            0.33000001,
+            0.43000001,
+            1
+        ],
+        "colorKeys[1]": [
+            0.028999999,
+            0.18000001,
+            0.23999999,
+            1
+        ],
+        "colorKeys[2]": [
+            0.012,
+            0.18000001,
+            0.34999999,
+            0.67000002
+        ],
+        "colorKeys[3]": [
+            0.0011,
+            0.043000001,
+            0.090999998,
+            0.67000002
+        ],
+        "numColors": 2,
+        "simVortex": 1,
+        "vortexDecay": 1,
+        "vortexRadialForce": 20,
+        "vortexAlongFullAxis": 1
+    }
+}

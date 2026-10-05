@@ -1,0 +1,36 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnDropshipDestroyedAName",
+        "LocalizeDescTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnDropshipDestroyedADesc",
+        "Icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/GrineerPlaceables/GrineerTauPlaceables/STMxGrnDropshipDestroyedA.png",
+        "TypeName": "/Lotus/Levels/ClanDojo/ComponentPropRecipes/GrineerPlaceables/GrineerTauPlaceables/GrineerTau1stRelease/STMxGrnDropshipDestroyedA",
+        "RegularPrice": 50000,
+        "SellingPrice": 2500,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1787671514,
+        "Giftable": 0,
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 6000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 20000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 10000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                "ItemCount": 7
+            }
+        ],
+        "BuildTime": 86400,
+        "BuildPrice": 50000,
+        "SkipBuildTimePrice": 750
+    }
+}

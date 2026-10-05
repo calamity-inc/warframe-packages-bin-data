@@ -8,15 +8,9 @@
         "ShadowDynamics": 1,
         "UseAmbient": 1,
         "Mesh": "GarudaGeminiOperatorHairCap_skel.fbx",
-        "MaterialParams": [
-            {
-                "name": "",
-                "type": "Float",
-                "slot": -1,
-                "value": 0
-            }
-        ],
+        "MotionBlurred": 1,
         "UseParentAnimState": 1,
+        "DeadParentInheritanceRule": "INHERIT",
         "AutoSimChildren": [
             {
                 "LocalPosition": [
@@ -40,6 +34,7 @@
                 "FadeOutOnDestruction": 0,
                 "Scale": 1
             }
-        ]
+        ],
+        "PhysicsBehavior": ""
     }
 }

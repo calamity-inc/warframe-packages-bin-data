@@ -1,0 +1,69 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "EmissiveMapAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1.8
+            }
+        ],
+        "UseParentDissolve": 0,
+        "HasLifeSpan": 0,
+        "Life": [
+            1.5,
+            2
+        ],
+        "Size": [
+            0.37,
+            0.80000001
+        ],
+        "InitialCount": [
+            8,
+            15
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "Dissolve",
+                "TimeLength": 2,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0.5
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1
+            }
+        ],
+        "Shape": "SH_MESH",
+        "Material": "/Lotus/Objects/Gameplay/CrystalSharpA",
+        "RandOrientation": 1,
+        "MeshFullRotation": 1,
+        "ParticleMeshes": [
+            "/Lotus/Objects/Gameplay/CrystalSharpD.fbx"
+        ],
+        "MeshUsesDissolve": 1,
+        "AllowDeferredMeshParticles": 1,
+        "Spin": [
+            -0.07,
+            0.07
+        ],
+        "SpinWithDirection": 1,
+        "NozzleDev": 1,
+        "Speed": [
+            2,
+            5
+        ],
+        "Drag": 0.69999999,
+        "Mass": [
+            0.69999999,
+            1
+        ]
+    }
+}

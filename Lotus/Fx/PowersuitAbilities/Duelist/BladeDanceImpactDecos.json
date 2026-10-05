@@ -1,0 +1,104 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 20
+            }
+        ],
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.25,
+            0.40000001
+        ],
+        "Size": [
+            0.025,
+            0.039999999
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.125,
+                    "Value": 0.5
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "SpewCount": [
+            64,
+            64
+        ],
+        "Shape": "SH_SPIN_SPRITE",
+        "Material": "/Lotus/Fx/Env/SnowMat",
+        "ColorKeys": [
+            [
+                119,
+                168,
+                254,
+                255
+            ],
+            [
+                119,
+                168,
+                254,
+                255
+            ]
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.050000001,
+            0.050000001
+        ],
+        "FadeInOut": [
+            0.088710003,
+            0.600806
+        ],
+        "LightweightCollision": 1,
+        "Nozzle": "SPHERE",
+        "NozzleDev": 1,
+        "NozzleBox": [
+            0.1,
+            0.1,
+            0
+        ],
+        "NozzleSize": 0.125,
+        "Sound": "/Lotus/Sounds/Warframes/Frost/IceBallImpact",
+        "SoundDelay": [
+            0,
+            0.0099999998
+        ],
+        "SuppressMultipleSounds": 1,
+        "Speed": [
+            0,
+            1
+        ],
+        "Drag": 3,
+        "FlowVolume": "/EE/Types/GraphicsRes/DefaultFlowVolume",
+        "FlowVelocity": [
+            8,
+            8,
+            8
+        ],
+        "FlowScale": [
+            0.40000001,
+            0.40000001,
+            0.40000001
+        ],
+        "FlowOffsetRate": [
+            0,
+            0.050000001,
+            0
+        ]
+    }
+}

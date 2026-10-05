@@ -1,0 +1,145 @@
+{
+    "parent": "/EE/Types/Effects/LensFlare",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 5
+            }
+        ],
+        "MirrorDraw": "MF_CULL_FROM_MIRRORS",
+        "UseOcclusionQuery": 0,
+        "ReplicaRunScriptInstance": 1,
+        "Size": 0.60000002,
+        "AspectRatio": 1,
+        "Range": 25,
+        "DepthCue": 1,
+        "QueryScale": 0.2,
+        "OcclusionAttenExponent": 0.1,
+        "OcclusionUsesVelocity": 0,
+        "FlareBoundsExpansion": 1.727031,
+        "OpacityTime": 0.30000001,
+        "TileCount": 16,
+        "Tile": 15,
+        "Tint": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "ScreenAspect": 0.85000002,
+        "AttenByParentDissolve": 0,
+        "FlareParams": [
+            {
+                "GridX": 4,
+                "GridY": 0,
+                "GridSizeX": 2,
+                "GridSizeY": 2,
+                "Tile": 0,
+                "Distance": 0,
+                "Size": 1,
+                "Aspect": 1,
+                "Tint": [
+                    236,
+                    127,
+                    3,
+                    255
+                ],
+                "FlareTintMethod": "FTM_PRIMARY",
+                "Brightness": 0.5,
+                "Rotating": 0,
+                "Orientation": 0,
+                "SpinRate": 0,
+                "CenteringScale": 1,
+                "CenteringFade": 1,
+                "AxisConstraint": "AC_NONE",
+                "LensDirt": 0,
+                "LensDirtX": 0,
+                "LensDirtY": 0
+            },
+            {
+                "GridX": 4,
+                "GridY": 0,
+                "GridSizeX": 2,
+                "GridSizeY": 2,
+                "Tile": 0,
+                "Distance": 0,
+                "Size": 2,
+                "Aspect": 1,
+                "Tint": [
+                    236,
+                    127,
+                    3,
+                    255
+                ],
+                "FlareTintMethod": "FTM_PRIMARY",
+                "Brightness": 0.050000001,
+                "Rotating": 0,
+                "Orientation": 0,
+                "SpinRate": 0,
+                "CenteringScale": 1,
+                "CenteringFade": 1,
+                "AxisConstraint": "AC_NONE",
+                "LensDirt": 0,
+                "LensDirtX": 0,
+                "LensDirtY": 0
+            },
+            {
+                "GridX": 0,
+                "GridY": 7,
+                "GridSizeX": 1,
+                "GridSizeY": 1,
+                "Tile": 0,
+                "Distance": 0,
+                "Size": 0.2,
+                "Aspect": 0.25,
+                "Tint": [
+                    248,
+                    168,
+                    65,
+                    255
+                ],
+                "FlareTintMethod": "FTM_PRIMARY",
+                "Brightness": 1,
+                "Rotating": 0,
+                "Orientation": 90,
+                "SpinRate": 0,
+                "CenteringScale": 1,
+                "CenteringFade": 1,
+                "AxisConstraint": "AC_NONE",
+                "LensDirt": 0,
+                "LensDirtX": 0,
+                "LensDirtY": 0
+            },
+            {
+                "GridX": 4,
+                "GridY": 0,
+                "GridSizeX": 2,
+                "GridSizeY": 2,
+                "Tile": 0,
+                "Distance": 0,
+                "Size": 4,
+                "Aspect": 0.25,
+                "Tint": [
+                    242,
+                    149,
+                    30,
+                    255
+                ],
+                "FlareTintMethod": "FTM_PRIMARY",
+                "Brightness": 0.2,
+                "Rotating": 0,
+                "Orientation": 0,
+                "SpinRate": 0,
+                "CenteringScale": 1,
+                "CenteringFade": 1,
+                "AxisConstraint": "AC_NONE",
+                "LensDirt": 0,
+                "LensDirtX": 0,
+                "LensDirtY": 0
+            }
+        ]
+    }
+}

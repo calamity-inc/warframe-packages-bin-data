@@ -5,7 +5,7 @@
         "MarketMode": "MM_HIDDEN",
         "LocalizeTag": "/Lotus/Language/Arcanes/SecondaryDamageOnPrecisionHeadshotKill",
         "LocalizeDescTag": "",
-        "StatusDescTag": "/Lotus/Language/Buffs/SecondaryDamageIncreaseOnHeadshotKillBuffDesc",
+        "StatusDescTag": "/Lotus/Language/Buffs/SecondaryDamageIncreaseOnWeakPointKillBuffDesc",
         "Icon": "/Lotus/Interface/Icons/CosmeticEnhancers/Arcanes/Projections/ArcaneProjectionSteelPathPrecisionHeadshotA.png",
         "ExcludeFromCodex": 0,
         "Upgrades": [
@@ -107,9 +107,9 @@
         "StackMode": "SM_DECAY",
         "MaxConditionalStacks": 3,
         "ConditionalUpgrades": [
-            "OnHeadshotKillAnySourceCondition"
+            "OnWeakPointKillAnySourceCondition"
         ],
-        "ConditionTag": "/Lotus/Language/Upgrades/OnPrecisionHeadshotKillCondition_Description",
+        "ConditionTag": "/Lotus/Language/Upgrades/OnWeakPointKillCondition_Description",
         "HudBuffIcon": "/Lotus/Interface/Icons/ModBuffIndicators/ArcaneBuffs/SteelPathArcanesBuff18.png",
         "HudBuffIconScaleWidth": 1.35,
         "HudBuffIconScaleHeight": 1.35,

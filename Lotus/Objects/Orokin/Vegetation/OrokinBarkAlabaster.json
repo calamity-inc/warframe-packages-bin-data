@@ -2,20 +2,18 @@
     "parent": "/EE/Materials/Defaults/PBR",
     "data": {
         "DETAILING": "TINT_MASK_PACK_MAP",
-        "NORMALS": "OCCLUSION_MAP",
         "EMISSIVE_COMPRESSION": "EC_COMPONENT",
         "EMISSIVE_FX": "NONE",
-        "PACKMAP": "PACK_MAP",
         "UV_TILE": 1,
-        "DIFFUSE_MAP": 0,
+        "ROUGHNESS_MAP": 0,
+        "SPECULAR_MAP": 0,
         "EMISSIVE_MAP": 1,
         "SPECULARMAP_IS_METALMAP": 0,
-        "ENERGY_CONSERVING_SPECULAR": 0,
         "VS:UvOffset": [
             0,
             0
         ],
-        "PS:Roughness": 0.36060601,
+        "PS:Roughness": 0.25,
         "PS:EmissiveTintColor": [
             0.50893515,
             0.77110869,
@@ -53,10 +51,8 @@
             1,
             1
         ],
-        "TX:PackMap": "OrokinBarkAlabasterPBRPackMap",
-        "TX:OcclusionMap": "OrokinBarkAlabaster_o.png",
-        "TX:RoughnessMap": "OrokinBarkAlabasterPBR_g.png",
-        "TX:SpecularMap": "OrokinBarkAlabasterPBR_s.png",
+        "TX:DiffuseMap": "OrokinBarkAlabasterPBR_d.png",
+        "TX:NormalMap": "OrokinBarkAlabaster_n.png",
         "TX:EmissiveMap": "OrokinBarkAlabaster_e.png",
         "DefaultPhysicsMaterial": "/EE/Types/Physics/Materials/Metal"
     }

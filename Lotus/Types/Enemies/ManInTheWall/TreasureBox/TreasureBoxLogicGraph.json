@@ -5,109 +5,181 @@
             {
                 "key": 0,
                 "value": {
-                    "type": "Selector"
+                    "type": "Selector",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 1,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 2,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 5,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 21,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 61,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 67,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 68,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 70,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 71,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 73,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 74,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 75,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 76,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 77,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 78,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 79,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             },
             {
                 "key": 80,
                 "value": {
-                    "type": "Action"
+                    "type": "Action",
+                    "comment": "",
+                    "requiresChildAction": 0,
+                    "posX": 0,
+                    "posY": 0
                 }
             }
         ],
@@ -222,10 +294,22 @@
                                 "AlertTeammates": 0,
                                 "AwarenessPropagationDistance": -1,
                                 "ReportAttackAfterReact": 0
-                            }
+                            },
+                            "forceFaceReaction": 0,
+                            "useTurnToAction": 0,
+                            "chanceToReact": 1
                         }
                     ],
-                    "BlockingResponse": 1
+                    "BlockingResponse": 1,
+                    "TurnToAction:Type": "/EE/Types/Npc/TurnToAction",
+                    "TurnToAction:Enabled": 1,
+                    "TurnToAction:OnStartScript": {
+                        "Script": ""
+                    },
+                    "TurnToAction:OnDamagedScript": {
+                        "Script": ""
+                    },
+                    "TurnAccuracyThreshold": 15
                 },
                 "links": [
                     {
@@ -282,7 +366,10 @@
                                 "AlertTeammates": 0,
                                 "AwarenessPropagationDistance": -1,
                                 "ReportAttackAfterReact": 0
-                            }
+                            },
+                            "forceFaceReaction": 0,
+                            "useTurnToAction": 0,
+                            "chanceToReact": 1
                         },
                         {
                             "reaction": "INVESTIGATE_COMBAT",
@@ -313,7 +400,10 @@
                                 "AlertTeammates": 0,
                                 "AwarenessPropagationDistance": -1,
                                 "ReportAttackAfterReact": 0
-                            }
+                            },
+                            "forceFaceReaction": 0,
+                            "useTurnToAction": 0,
+                            "chanceToReact": 1
                         },
                         {
                             "reaction": "LIGHT_OUT",
@@ -344,7 +434,10 @@
                                 "AlertTeammates": 0,
                                 "AwarenessPropagationDistance": -1,
                                 "ReportAttackAfterReact": 0
-                            }
+                            },
+                            "forceFaceReaction": 0,
+                            "useTurnToAction": 0,
+                            "chanceToReact": 1
                         },
                         {
                             "reaction": "WHAT_WAS_THAT",
@@ -375,7 +468,10 @@
                                 "AlertTeammates": 0,
                                 "AwarenessPropagationDistance": -1,
                                 "ReportAttackAfterReact": 0
-                            }
+                            },
+                            "forceFaceReaction": 0,
+                            "useTurnToAction": 0,
+                            "chanceToReact": 1
                         },
                         {
                             "reaction": "UNDER_FIRE",
@@ -406,10 +502,22 @@
                                 "AlertTeammates": 0,
                                 "AwarenessPropagationDistance": -1,
                                 "ReportAttackAfterReact": 0
-                            }
+                            },
+                            "forceFaceReaction": 0,
+                            "useTurnToAction": 0,
+                            "chanceToReact": 1
                         }
                     ],
-                    "BlockingResponse": 1
+                    "BlockingResponse": 1,
+                    "TurnToAction:Type": "/EE/Types/Npc/TurnToAction",
+                    "TurnToAction:Enabled": 1,
+                    "TurnToAction:OnStartScript": {
+                        "Script": ""
+                    },
+                    "TurnToAction:OnDamagedScript": {
+                        "Script": ""
+                    },
+                    "TurnAccuracyThreshold": 15
                 },
                 "links": [
                     {
@@ -675,6 +783,9 @@
                     },
                     "FullBodyAction": "FBA_ROLL",
                     "Action": "DodgeJump",
+                    "DoDirectionFiltering": 0,
+                    "DirectionFilterFov": 180,
+                    "InvertFacingFilter": 0,
                     "UseTacPosMgr": 1,
                     "IdealJumpDist": [
                         1,
@@ -799,6 +910,7 @@
                     "PatrolBehavior:NearDistance": 2,
                     "PatrolBehavior:SpeedMultiplier": 1,
                     "PatrolBehavior:AlertSpeedMultiplier": 1,
+                    "PatrolBehavior:MovementPosture": "WALK",
                     "PatrolBehavior:FailOnTargetAcquired": 1,
                     "PatrolBehavior:AimWhenIdle": 0,
                     "PatrolBehavior:AimWhenAlert": 1,
@@ -833,7 +945,6 @@
                     "RandomWalkBehavior:AimWhenIdle": 0,
                     "RandomWalkBehavior:AimWhenAlert": 1,
                     "RandomWalkBehavior:PermanentAlert": 0,
-                    "RandomWalkBehavior:ForceIdleForSinglePointPatrols": 1,
                     "RandomWalkBehavior:AnimAction": "PatrolIdle",
                     "RandomWalkBehavior:GenericAnims": [],
                     "RandomWalkBehavior:MinPlayerDist": [
@@ -894,6 +1005,8 @@
                     },
                     "RandomWalkBehavior:OnlyFindPositionsOnFlightNav": 0,
                     "RandomWalkBehavior:MaxPatrolDistanceFromEncounterHint": 0,
+                    "RandomWalkBehavior:UseStartingPositionAsEncounterPosition": 0,
+                    "RandomWalkBehavior:ResetStartingPositionOnStartup": 0,
                     "GuardBehavior:Type": "/EE/Types/Npc/GuardBehavior",
                     "GuardBehavior:Enabled": 1,
                     "GuardBehavior:OnStartScript": {
@@ -947,6 +1060,7 @@
                     "NearDistance": 2,
                     "SpeedMultiplier": 1,
                     "AlertSpeedMultiplier": 1,
+                    "MovementPosture": "WALK",
                     "FailOnTargetAcquired": 1,
                     "AimWhenIdle": 0,
                     "AimWhenAlert": 1,
@@ -998,7 +1112,6 @@
                     "AimWhenIdle": 0,
                     "AimWhenAlert": 1,
                     "PermanentAlert": 0,
-                    "ForceIdleForSinglePointPatrols": 1,
                     "AnimAction": "PatrolIdle",
                     "GenericAnims": [],
                     "MinPlayerDist": [
@@ -1058,7 +1171,9 @@
                         "Script": ""
                     },
                     "OnlyFindPositionsOnFlightNav": 0,
-                    "MaxPatrolDistanceFromEncounterHint": 0
+                    "MaxPatrolDistanceFromEncounterHint": 0,
+                    "UseStartingPositionAsEncounterPosition": 0,
+                    "ResetStartingPositionOnStartup": 0
                 },
                 "links": [
                     {
@@ -1149,6 +1264,7 @@
                     "LookAtTarget": 0,
                     "LookHorizRate": 40,
                     "LookVertRate": 20,
+                    "BlockStartShootingAndWaiting": 0,
                     "FiringPreferencesOverride": [],
                     "Action:Type": "/EE/Types/Npc/TacAreaFleeBehavior",
                     "Action:TacAreaFleeBehavior": {
@@ -1279,6 +1395,7 @@
                     "AimWhileMoving": 0,
                     "SetViewWhileMoving": 1,
                     "ShootingDistance": 0,
+                    "NeedsVisibilityForShooting": 1,
                     "ChangeWeapons": 0,
                     "WeaponSlot": "SLOT_1",
                     "WeaponHand": "MAIN_HAND",

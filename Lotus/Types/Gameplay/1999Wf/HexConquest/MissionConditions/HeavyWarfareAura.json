@@ -16,6 +16,7 @@
                 "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/AbilitySword/NechroTechSwordWeapon",
                 "/Lotus/Types/Gameplay/1999Wf/Assassination/RocketLauncherWeapon"
             ],
+            "_affectsOverguard": 0,
             "_cooldownReductionAura": ""
         },
         "OnAuraAddedToLevelScript": {
@@ -26,6 +27,7 @@
             "_ammoDropProbability": 65,
             "_heavyAmmoSpawnerType": "/Lotus/Types/Items/HeavyAmmoSpawner",
             "_effectiveWeapons": [],
+            "_affectsOverguard": 0,
             "_cooldownReductionAura": "HeavyWarfareCooldownReductionAura"
         },
         "OnAuraRemovedFromLevelScript": {
@@ -36,6 +38,7 @@
             "_ammoDropProbability": 0,
             "_heavyAmmoSpawnerType": "",
             "_effectiveWeapons": [],
+            "_affectsOverguard": 0,
             "_cooldownReductionAura": ""
         }
     }

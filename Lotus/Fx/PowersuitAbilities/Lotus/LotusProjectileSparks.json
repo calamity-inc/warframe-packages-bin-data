@@ -1,0 +1,109 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    1,
+                    0.5,
+                    0.12,
+                    1
+                ]
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 16
+            }
+        ],
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "BoundsExpansionOverride": 3,
+        "EnergyTintMethod": "ETM_LIFE",
+        "fireOnce": 0,
+        "useCollisions": 0,
+        "affectedByWind": 1,
+        "resilience": 0.025,
+        "drag": 3,
+        "mass": [
+            -0.25,
+            -0.1
+        ],
+        "life": [
+            0.40000001,
+            2
+        ],
+        "size": [
+            0.017999999,
+            0.026000001
+        ],
+        "velocity": [
+            2,
+            6
+        ],
+        "windAttenuation": [
+            0.40000001,
+            1
+        ],
+        "windKillDistance": 0,
+        "streaksFactor": 8,
+        "collisionDelay": 0.02,
+        "spawnShape": "SP_DISC",
+        "velocityDeviation": [
+            0.80000001,
+            1
+        ],
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            0.25,
+            0.25,
+            0.025
+        ],
+        "spawnFlowBlend": 0.2,
+        "flowScale": [
+            0.1,
+            0.1,
+            0.1
+        ],
+        "flowForce": [
+            3,
+            3,
+            3
+        ],
+        "flowForceEnd": [
+            2,
+            2,
+            2
+        ],
+        "flowScrolling": [
+            0,
+            -1,
+            0
+        ],
+        "forceField": "/EE/Materials/Util/CurlNoiseFlowVolumeVectors_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksFadeMidB",
+        "colorKeys[0]": [
+            0.098999999,
+            0.72000003,
+            0.61000001,
+            1
+        ],
+        "colorKeys[1]": [
+            0.098999999,
+            0.56999999,
+            0.72000003,
+            1
+        ],
+        "colorKeys[2]": [
+            0,
+            0.059999999,
+            0.037999999,
+            1
+        ],
+        "numColors": 2
+    }
+}

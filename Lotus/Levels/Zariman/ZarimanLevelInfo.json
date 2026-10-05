@@ -9,96 +9,11 @@
                 1
             ]
         },
-        "OnLocalAvatarCreatedScript": {
-            "Script": "/Lotus/Scripts/ProceduralLevel.lua",
-            "Function": "InitializeMusic",
-            "_MusicSequencerType": "",
-            "_RandomMusicSequencerType": [],
-            "_hasDayNightCycle": 0,
-            "_alwaysDay": 0,
-            "_alwaysNight": 0,
-            "_spawnOverrideTag": "",
-            "_enableSpawnPoints": 1,
-            "_skipIntroCinematics": 0,
-            "_itemTypes": [],
-            "_itemProbability": [
-                1
-            ],
-            "_itemTypesSecondary": [],
-            "_itemProbabilitySecondary": [
-                1
-            ],
-            "_railjackPickupTypes": [],
-            "_railjackPickupWeighting": [
-                1
-            ],
-            "_defaultCrateSpawningCap": 100,
-            "_useCustomCrateSpawning": 0,
-            "_customCrateCap": 50,
-            "_customCrateChance": 0.25,
-            "_barrelTypes": [],
-            "_barrelProbability": [
-                1
-            ],
-            "_barrelMinLevel": [
-                0
-            ],
-            "_randomRotation": 1,
-            "_randomRotationSecondary": 1,
-            "_doRandomEnvSetupColorCorrection": 1,
-            "_disableCorpusCamerasAndTurrets": 0,
-            "_enableKubrowDens": 1,
-            "_corpseTypes": [],
-            "_corpseProbability": [
-                1
-            ],
-            "_dynamicCoverTypes": [
-                "/Lotus/Types/LevelObjects/DeployableCoverNavVolume"
-            ],
-            "_emplacementTypes": [],
-            "_emplacementProbabilities": [
-                1
-            ],
-            "_numRandomEmplacements": 10,
-            "_emplacementMinLevel": 15,
-            "_customEnemyScaling": "",
-            "_timeoutDuration": 900,
-            "_idelTimeoutLoc": "/Lotus/Language/Game/ExterminateMissionFail",
-            "_eidolonGroupCoordinatorAgentType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGroupCoordinatorAgent",
-            "_testAiSpec": "",
-            "_hasMoodChanges": 0,
-            "_skipObjectives": 0,
-            "_MaxXp": 5000,
-            "_BaseXPPool": 0,
-            "_SameZone": 0,
-            "_enableAutoSpawns": 1,
-            "_ambientMissionTransSet": "/Lotus/Sounds/Lotus/TransmissionSets/Mission/AmbientMissionTransmissions",
-            "_rareLootWaypointType": "",
-            "_rareCrateType": "",
-            "_altRareCrateType": "",
-            "_rareLootChance": 0.25,
-            "_syndicatePickupTypes": [],
-            "_syndicatePickupCount": 6,
-            "_syndicateRarePickupType": "",
-            "_ultraRareLootWaypointType": "",
-            "_ultraRareCrateType": "",
-            "_altUltraRareCrateType": "",
-            "_ultraRareLootChance": 0.0099999998,
-            "_floatingCrateWaypointType": "",
-            "_floatingCrateTypes": [],
-            "_numFloatingCrates": 25,
-            "_moonFissureType": "",
-            "_disableSpawnedLoot": 0,
-            "_disableLockers": 0,
-            "_disableCrateLootDrops": 0,
-            "_isOpenSpace": 0,
-            "_isArchwingMission": 0,
-            "_spawnZoneIndexOverride": 0
-        },
         "OnLevelObjectsCreated": {
             "Script": "/Lotus/Scripts/ProceduralSpawnSetup.lua",
             "Function": "SpawnSetup",
             "_spawnOverrideTag": "",
+            "_cinOverrideString": "",
             "_enableSpawnPoints": 1,
             "_spawnZoneIndexOverride": 2
         },
@@ -131,6 +46,7 @@
             "_customCrateChance": 0.25,
             "_barrelTypes": [],
             "_barrelProbability": [],
+            "_barrelTags": [],
             "_barrelMinLevel": [],
             "_randomRotation": 0,
             "_randomRotationSecondary": 0,
@@ -155,6 +71,7 @@
             "_testAiSpec": "",
             "_hasMoodChanges": 0,
             "_skipObjectives": 0,
+            "_hasQuestTrigger": 0,
             "_MaxXp": 5000,
             "_BaseXPPool": 0,
             "_SameZone": 0,
@@ -166,7 +83,7 @@
             "_rareLootChance": 0.02,
             "_syndicatePickupTypes": [],
             "_syndicatePickupCount": 6,
-            "_syndicateRarePickupType": "",
+            "_syndicateGuaranteedPickupTypes": [],
             "_ultraRareLootWaypointType": "/Lotus/Types/LevelObjects/UltraRareLootCrateWaypoint",
             "_ultraRareCrateType": "/Lotus/Types/LevelObjects/Zariman/ZarLootCrateUltraRare",
             "_altUltraRareCrateType": "",
@@ -176,6 +93,93 @@
             "_numFloatingCrates": 25,
             "_moonFissureType": "",
             "_disableSpawnedLoot": 0,
+            "_disableFusionTreasures": 0,
+            "_disableLockers": 0,
+            "_disableCrateLootDrops": 0,
+            "_isOpenSpace": 0,
+            "_isArchwingMission": 0
+        },
+        "OnLocalAvatarCreatedScript": {
+            "Script": "/Lotus/Scripts/ProceduralLevel.lua",
+            "Function": "InitializeMusic",
+            "_MusicSequencerType": "/Lotus/Music/DynamicMusic/Zariman/ZarimanMusicSequencer",
+            "_RandomMusicSequencerType": [],
+            "_hasDayNightCycle": 0,
+            "_alwaysDay": 0,
+            "_alwaysNight": 0,
+            "_skipIntroCinematics": 0,
+            "_itemTypes": [],
+            "_itemProbability": [
+                1
+            ],
+            "_itemTypesSecondary": [],
+            "_itemProbabilitySecondary": [
+                1
+            ],
+            "_railjackPickupTypes": [],
+            "_railjackPickupWeighting": [
+                1
+            ],
+            "_defaultCrateSpawningCap": 100,
+            "_useCustomCrateSpawning": 0,
+            "_customCrateCap": 50,
+            "_customCrateChance": 0.25,
+            "_barrelTypes": [],
+            "_barrelProbability": [
+                1
+            ],
+            "_barrelTags": [],
+            "_barrelMinLevel": [
+                0
+            ],
+            "_randomRotation": 1,
+            "_randomRotationSecondary": 1,
+            "_doRandomEnvSetupColorCorrection": 1,
+            "_disableCorpusCamerasAndTurrets": 0,
+            "_enableKubrowDens": 1,
+            "_corpseTypes": [],
+            "_corpseProbability": [
+                1
+            ],
+            "_dynamicCoverTypes": [
+                "/Lotus/Types/LevelObjects/DeployableCoverNavVolume"
+            ],
+            "_emplacementTypes": [],
+            "_emplacementProbabilities": [
+                1
+            ],
+            "_numRandomEmplacements": 10,
+            "_emplacementMinLevel": 15,
+            "_customEnemyScaling": "",
+            "_timeoutDuration": 900,
+            "_idelTimeoutLoc": "/Lotus/Language/Game/ExterminateMissionFail",
+            "_eidolonGroupCoordinatorAgentType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGroupCoordinatorAgent",
+            "_testAiSpec": "",
+            "_hasMoodChanges": 0,
+            "_skipObjectives": 0,
+            "_hasQuestTrigger": 0,
+            "_MaxXp": 5000,
+            "_BaseXPPool": 0,
+            "_SameZone": 0,
+            "_enableAutoSpawns": 1,
+            "_ambientMissionTransSet": "/Lotus/Sounds/Lotus/TransmissionSets/Mission/AmbientMissionTransmissions",
+            "_rareLootWaypointType": "",
+            "_rareCrateType": "",
+            "_altRareCrateType": "",
+            "_rareLootChance": 0.25,
+            "_syndicatePickupTypes": [],
+            "_syndicatePickupCount": 6,
+            "_syndicateGuaranteedPickupTypes": [],
+            "_ultraRareLootWaypointType": "",
+            "_ultraRareCrateType": "",
+            "_altUltraRareCrateType": "",
+            "_ultraRareLootChance": 0.0099999998,
+            "_floatingCrateWaypointType": "",
+            "_floatingCrateTypes": [],
+            "_numFloatingCrates": 25,
+            "_moonFissureType": "",
+            "_disableSpawnedLoot": 0,
+            "_disableFusionTreasures": 0,
             "_disableLockers": 0,
             "_disableCrateLootDrops": 0,
             "_isOpenSpace": 0,

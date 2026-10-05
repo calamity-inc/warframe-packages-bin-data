@@ -1,0 +1,29 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "PhysicsBehavior": "",
+        "Tag": "KuvaEvent",
+        "SurvivesMigration": 1,
+        "Dimensions": [
+            0,
+            0,
+            0
+        ],
+        "AllowReentrant": 0,
+        "Replication": "BOTH",
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/KuvaPath/AntiVoidSurgeEvent.lua",
+                    "Function": "Event",
+                    "_crystalType": "AntiVoidSurgeCrystal",
+                    "_debuffItem": "AntiVoidSurgeDebuffItem",
+                    "_lightningStrikeSpawner": "AntiVoidSurgePlaceholderLightningStrike",
+                    "_lightningProjectorType": "/Lotus/Fx/Gameplay/StatusEffects/TennoElectrocutedProj",
+                    "_wedgeDeco": "AntiVoidSurgeWedge"
+                }
+            }
+        ]
+    }
+}

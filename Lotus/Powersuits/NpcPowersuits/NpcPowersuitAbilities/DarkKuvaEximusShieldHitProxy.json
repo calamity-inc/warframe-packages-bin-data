@@ -1,0 +1,22 @@
+{
+    "parent": "/Lotus/Types/Weapon/LotusHitProxyShield",
+    "data": {
+        "DeadParentInheritanceRule": "NONE",
+        "PhysicsBehavior": "/EE/Types/Physics/HitProxyIgnoreCamera",
+        "ReplicationOverride": "RO_ALWAYS",
+        "Type": "SPHERE",
+        "Dimensions": [
+            0.60000002,
+            1.5,
+            0.1
+        ],
+        "Radius": 5,
+        "PreventPunchthrough": 1,
+        "PhysicsMaterial": "/EE/Types/Physics/Materials/BulletBlockingVolume",
+        "IgnoreTeamDamage": 1,
+        "CanDie": 0,
+        "OnlyUseDamageBufferWhenBlocked": 0,
+        "BlockedHitEffect": "/Lotus/Sounds/Enemies/Eximus/Kuva/EximusKuvaShieldHitEffect",
+        "AllowInternalFire": 1
+    }
+}

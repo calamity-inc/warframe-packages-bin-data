@@ -1,0 +1,83 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 6
+            }
+        ],
+        "UseParentVisibility": 0,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.40000001,
+            0.40000001
+        ],
+        "Size": [
+            0.059999999,
+            0.059999999
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.40000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.2
+                }
+            ]
+        },
+        "RibbonSegmentLength": 0.050000001,
+        "EmissionTime": [
+            5,
+            5
+        ],
+        "SpewCount": [
+            120,
+            120
+        ],
+        "Shape": "SH_RIBBON",
+        "Material": "/Lotus/Fx/PowersuitAbilities/Ninja/GlaiveTrailMat",
+        "RibbonTextureScale": 1,
+        "ColorMin": [
+            157,
+            157,
+            157,
+            255
+        ],
+        "ColorMax": [
+            157,
+            157,
+            157,
+            255
+        ],
+        "ColorKeys": [
+            [
+                156,
+                156,
+                156,
+                255
+            ],
+            [
+                156,
+                156,
+                156,
+                255
+            ]
+        ],
+        "FadeInOut": [
+            0.050000001,
+            0.1
+        ],
+        "EyeFadeDist": 2.5
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 100,
+        "LocalizeTag": "/Lotus/Language/SteamWorkshop/SWReliquiaSyandanaName",
+        "LocalizeDescTag": "/Lotus/Language/SteamWorkshop/SWReliquiaSyandanaDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/SWReliquiaSyandana.png",
+        "ExcludeFromCodex": 0,
+        "IsPurchasePlatformLocked": 1,
+        "OverrideDateAddedToManifest": 1790215200,
+        "PCProdId": 6501,
+        "IsSteamPurchase": 1,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "GAME_C1_SPINE5",
+                    "Type": "/Lotus/Characters/Tenno/Accessory/Scarves/SWReliquiaSyandana/SWReliquiaSyandanaDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "CompatibleSlots": [
+            "Neckwear"
+        ],
+        "ColorSlot": "Syandana"
+    }
+}

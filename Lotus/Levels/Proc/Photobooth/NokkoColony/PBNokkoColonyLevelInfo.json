@@ -1,0 +1,30 @@
+{
+    "parent": "/Lotus/Levels/Proc/CivilianHubs/VenusLandscapeLevelInfo",
+    "data": {
+        "PostProcessInfo": {
+            "distanceFogDensity": 0.1,
+            "volumetricFog": {
+                "Enabled": 1,
+                "EmissiveColor": [
+                    0.033,
+                    0.38,
+                    0.33000001,
+                    1
+                ],
+                "GlobalFog": {
+                    "Density": 0.0125,
+                    "ScatteringMultiplier": 0.30000001,
+                    "EmissiveIntensity": 0.02
+                }
+            }
+        },
+        "EnableGIVolumes": 1,
+        "ConfigureScript": {
+            "Script": ""
+        },
+        "WeatherAutoChild": {
+            "Type": "/Lotus/Fx/Levels/NokkoColony/NokkoWeatherAttach"
+        },
+        "NavMeshDesignOptions": ""
+    }
+}

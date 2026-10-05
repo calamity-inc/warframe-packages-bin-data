@@ -1,0 +1,86 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 2
+            }
+        ],
+        "ReplicaRunScriptInstance": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "LifeSpan": 0,
+        "FadeOutTime": 0.1,
+        "Life": [
+            0.2,
+            0.27500001
+        ],
+        "Size": [
+            0.1,
+            0.30000001
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.2
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.80000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "DistanceScale": 1,
+        "InitialCount": [
+            8,
+            8
+        ],
+        "SpewCount": [
+            40,
+            40
+        ],
+        "Material": "/Lotus/Fx/Levels/Grineer/Lava/GrnLavaBurstPMat",
+        "ColorMin": [
+            250,
+            124,
+            38,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.003,
+            0.003
+        ],
+        "FadeInOut": [
+            0.1,
+            0.80000001
+        ],
+        "DrawRelative": 1,
+        "NozzleDev": 0.175,
+        "NozzleBox": [
+            8,
+            0,
+            2
+        ],
+        "Speed": [
+            6,
+            8
+        ],
+        "Drag": 0.17,
+        "FlowVolume": "/EE/Types/GraphicsRes/AirFlowVolumeY",
+        "FlowVelocityEndLife": [
+            0,
+            -1,
+            0
+        ]
+    }
+}

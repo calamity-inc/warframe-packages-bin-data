@@ -1,0 +1,91 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 7
+            },
+            {
+                "name": "DistortScale",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            },
+            {
+                "name": "AlphaScale",
+                "type": "Float",
+                "slot": -1,
+                "value": 2
+            }
+        ],
+        "ApplyColorCustomization": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            1.25,
+            1.8
+        ],
+        "Size": [
+            3,
+            5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.239623
+                },
+                {
+                    "Time": 0.30167899,
+                    "Value": 0.81018901
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "InitialCount": [
+            8,
+            12
+        ],
+        "Material": "/Lotus/Fx/PowersuitAbilities/CustomEffects/JadeLightEnergyMat",
+        "RandOrientation": 1,
+        "Spin": [
+            -0.003,
+            0.003
+        ],
+        "FadeInOut": [
+            0,
+            1
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.36841601,
+                    "Value": 0.19886801
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "Nozzle": "SPHERE",
+        "NozzleSize": 0.34999999,
+        "Speed": [
+            3,
+            5
+        ],
+        "Drag": 6
+    }
+}

@@ -237,6 +237,9 @@
             },
             "FullBodyAction": "FBA_NONE",
             "Action": "DodgeForward",
+            "DoDirectionFiltering": 0,
+            "DirectionFilterFov": 180,
+            "InvertFacingFilter": 0,
             "UseTacPosMgr": 0,
             "IdealJumpDist": [
                 2,
@@ -413,6 +416,7 @@
                         ],
                         "MaxMovementDistance": 6,
                         "AllowRetreat": 0,
+                        "AllowTeleportFromOffScreen": 0,
                         "AllowRun": 1,
                         "AllowChase": 0,
                         "ForceWalkBelowMinIdealRange": 1,
@@ -501,6 +505,7 @@
                 "TargetVisibility": "TVB_IGNORE",
                 "TargetFlyer": "TFC_ANY",
                 "MaximumDistance": 100,
+                "UseDistanceFromCreator": 0,
                 "TargetHealthPctRange": [
                     0,
                     1
@@ -591,6 +596,7 @@
                     "LookAtTarget": 0,
                     "LookHorizRate": 40,
                     "LookVertRate": 20,
+                    "BlockStartShootingAndWaiting": 0,
                     "FiringPreferencesOverride": [],
                     "Action:Type": "/EE/Types/Npc/GenericBehaviorSelector",
                     "Action:GenericBehaviorSelector": {
@@ -672,6 +678,7 @@
                                 "DefaultReevaluationDelay": 0,
                                 "TimeSinceLastSeen": 5,
                                 "MaxDistToTarget": 100,
+                                "SpeedMultiplier": 1,
                                 "ConsiderOrderType": 0,
                                 "Order": "",
                                 "FailsOnTargetAcquired": 0,
@@ -756,7 +763,6 @@
                                 "RandomWalkBehavior:AimWhenIdle": 0,
                                 "RandomWalkBehavior:AimWhenAlert": 1,
                                 "RandomWalkBehavior:PermanentAlert": 0,
-                                "RandomWalkBehavior:ForceIdleForSinglePointPatrols": 1,
                                 "RandomWalkBehavior:AnimAction": "PatrolIdle",
                                 "RandomWalkBehavior:GenericAnims": [],
                                 "RandomWalkBehavior:MinPlayerDist": [
@@ -818,6 +824,7 @@
                                 "RandomWalkBehavior:OnlyFindPositionsOnFlightNav": 0,
                                 "RandomWalkBehavior:MaxPatrolDistanceFromEncounterHint": 0,
                                 "RandomWalkBehavior:UseStartingPositionAsEncounterPosition": 0,
+                                "RandomWalkBehavior:ResetStartingPositionOnStartup": 0,
                                 "GuardBehavior:Type": "/EE/Types/Npc/GuardBehavior",
                                 "GuardBehavior:Enabled": 1,
                                 "GuardBehavior:OnStartScript": {
@@ -934,6 +941,7 @@
                             "TargetVisibility": "TVB_IGNORE",
                             "TargetFlyer": "TFC_ANY",
                             "MaximumDistance": 100,
+                            "UseDistanceFromCreator": 0,
                             "TargetHealthPctRange": [
                                 0,
                                 1
@@ -1332,6 +1340,7 @@
                                 "DefaultReevaluationDelay": 0,
                                 "TimeSinceLastSeen": 5,
                                 "MaxDistToTarget": 25,
+                                "SpeedMultiplier": 1,
                                 "ConsiderOrderType": 0,
                                 "Order": "StormTarget",
                                 "FailsOnTargetAcquired": 1,
@@ -1627,6 +1636,7 @@
                                 "DefaultReevaluationDelay": 0,
                                 "TimeSinceLastSeen": 5,
                                 "MaxDistToTarget": 25,
+                                "SpeedMultiplier": 1,
                                 "ConsiderOrderType": 0,
                                 "Order": "",
                                 "FailsOnTargetAcquired": 1,
@@ -1828,6 +1838,7 @@
                             "AimWhileMoving": 0,
                             "SetViewWhileMoving": 1,
                             "ShootingDistance": 0,
+                            "NeedsVisibilityForShooting": 1,
                             "ChangeWeapons": 0,
                             "WeaponSlot": "SLOT_1",
                             "WeaponHand": "MAIN_HAND",
@@ -1992,6 +2003,7 @@
                 "DefaultReevaluationDelay": 0,
                 "TimeSinceLastSeen": 5,
                 "MaxDistToTarget": 25,
+                "SpeedMultiplier": 1,
                 "ConsiderOrderType": 0,
                 "Order": "StormTarget",
                 "FailsOnTargetAcquired": 0,
@@ -2030,7 +2042,6 @@
                 "AimWhenIdle": 0,
                 "AimWhenAlert": 1,
                 "PermanentAlert": 0,
-                "ForceIdleForSinglePointPatrols": 1,
                 "AnimAction": "PatrolIdle",
                 "GenericAnims": [],
                 "MinPlayerDist": [
@@ -2091,7 +2102,8 @@
                 },
                 "OnlyFindPositionsOnFlightNav": 0,
                 "MaxPatrolDistanceFromEncounterHint": 0,
-                "UseStartingPositionAsEncounterPosition": 0
+                "UseStartingPositionAsEncounterPosition": 0,
+                "ResetStartingPositionOnStartup": 0
             },
             "FailOnChildFailure": 0
         },
@@ -2316,7 +2328,6 @@
             "RandomWalkBehavior:AimWhenIdle": 0,
             "RandomWalkBehavior:AimWhenAlert": 1,
             "RandomWalkBehavior:PermanentAlert": 0,
-            "RandomWalkBehavior:ForceIdleForSinglePointPatrols": 1,
             "RandomWalkBehavior:AnimAction": "PatrolIdle",
             "RandomWalkBehavior:GenericAnims": [],
             "RandomWalkBehavior:MinPlayerDist": [
@@ -2378,6 +2389,7 @@
             "RandomWalkBehavior:OnlyFindPositionsOnFlightNav": 0,
             "RandomWalkBehavior:MaxPatrolDistanceFromEncounterHint": 0,
             "RandomWalkBehavior:UseStartingPositionAsEncounterPosition": 0,
+            "RandomWalkBehavior:ResetStartingPositionOnStartup": 0,
             "GuardBehavior:Type": "/EE/Types/Npc/GuardBehavior",
             "GuardBehavior:Enabled": 1,
             "GuardBehavior:OnStartScript": {

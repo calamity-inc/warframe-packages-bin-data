@@ -1,0 +1,27 @@
+{
+    "parent": "/Lotus/Types/Player/InventoryController",
+    "data": {
+        "DefaultInv": [
+            "/Lotus/Powersuits/Lotus/ControllableLotusSuit"
+        ],
+        "PersistentUpgrades": [
+            {
+                "UpgradeType": "GAMEPLAY_FREE_REVIVE_COUNT",
+                "OperationType": "MULTIPLY",
+                "Value": 0,
+                "ValidType": "",
+                "DamageType": "DT_ANY",
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "IsAutonomous": 0,
+                "ValidProcTypes": []
+            }
+        ],
+        "DoWeaponGripIK": 0,
+        "CanEarnSyndicateMissionXP": 0,
+        "MeleeInputFilter": "/Lotus/Types/Friendly/PlayerControllable/TeshinInputFilter"
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/PowersuitAbilities/Concrete/PillarPulseGeo.fbx",
+        "OverrideMaterial": [
+            "IceLootChestOpenDecoMat",
+            "IceLootChestOpenDecoBMat"
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 2.25,
+                "Multiplier": 0.69999999,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.056138501,
+                            "Value": 0.50226402
+                        },
+                        {
+                            "Time": 0.2,
+                            "Value": 1
+                        },
+                        {
+                            "Time": 0.35204601,
+                            "Value": 0.37094301
+                        },
+                        {
+                            "Time": 0.63032502,
+                            "Value": 0.11283
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "MeshScale",
+                "Slot": -1,
+                "TimeLength": 1.5,
+                "Multiplier": 2,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0.50226402
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 1
+                        }
+                    ],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            }
+        ],
+        "ApplyColorCustomization": 1
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "Tag": "LanternTrigger",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/LanternInTheDark.lua",
+            "Function": "RegisterTrigger",
+            "_lanternType": "",
+            "_lanternItemType": "",
+            "_darkLevelInfo": "",
+            "_invulnEffect": "",
+            "_numLanterns": 2,
+            "_droppedRadius": 2,
+            "_shrinkDuration": 15,
+            "_damageReduction": 0.94999999
+        },
+        "ReplicaRunScriptInstance": 1,
+        "ReplicationOverride": "RO_ALWAYS",
+        "Dimensions": [
+            1.5,
+            0.34999999,
+            2
+        ],
+        "Shape": "VES_SPHERE",
+        "Radius": 15,
+        "ReplicateDimensions": 1,
+        "AcceptType": "/Lotus/Types/Game/LotusAvatar",
+        "AllowRagdolls": 1,
+        "LiveRagdollsOnly": 1,
+        "IgnoredTypes": [
+            "/Lotus/Types/Game/LotusSentinelAvatar",
+            "/Lotus/Types/Game/Pets/PetAvatar",
+            "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/DecodeSpawnAvatar"
+        ],
+        "AllowReentrant": 0,
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/Gameplay/Complications/LanternInTheDark.lua",
+                    "Function": "LampTriggerOnEnter",
+                    "_lanternType": "",
+                    "_lanternItemType": "",
+                    "_darkLevelInfo": "",
+                    "_invulnEffect": "",
+                    "_numLanterns": 2,
+                    "_droppedRadius": 2,
+                    "_shrinkDuration": 15,
+                    "_damageReduction": 0.94999999
+                }
+            }
+        ],
+        "ExitScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/LanternInTheDark.lua",
+            "Function": "LampTriggerOnExit",
+            "_lanternType": "",
+            "_lanternItemType": "",
+            "_darkLevelInfo": "",
+            "_invulnEffect": "",
+            "_numLanterns": 2,
+            "_droppedRadius": 2,
+            "_shrinkDuration": 15,
+            "_damageReduction": 0.94999999
+        }
+    }
+}

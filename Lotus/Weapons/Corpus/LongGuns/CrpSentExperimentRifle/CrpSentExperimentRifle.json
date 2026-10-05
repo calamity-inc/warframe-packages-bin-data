@@ -179,6 +179,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/PrimeBurstonHipAccuracyInfo",
@@ -217,6 +218,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "CrpSentExpBurstProjectile",
@@ -297,6 +300,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -374,6 +378,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -426,7 +431,8 @@
                     "BurstRemainingClip": 0,
                     "ConsumeAmmoOncePerBurst": 0,
                     "ForceBurstLogicOnClient": 0,
-                    "PreFireDuringBurst": 0
+                    "PreFireDuringBurst": 0,
+                    "InstantModeSwitchCancel": 0
                 }
             },
             {
@@ -513,6 +519,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/DefaultAccuracyInfo",
@@ -537,6 +544,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 100,
                     "PvpTraceDistance": 50,
@@ -680,6 +689,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -797,7 +807,9 @@
                         "selfAOEMultiplier": [
                             0.25,
                             0.75
-                        ]
+                        ],
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "PvpRadialDamage": {
                         "baseAmount": 0,
@@ -846,7 +858,9 @@
                         "selfAOEMultiplier": [
                             0.25,
                             0.75
-                        ]
+                        ],
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "RadialDamageEffects": [],
                     "RadialDamageUpgradeType": "WEAPON_DAMAGE_AMOUNT"
@@ -864,6 +878,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -999,8 +1014,13 @@
         "ShowBehaviorOnUI": 1,
         "MaxCharges": 3,
         "NumChargesToConsume": 0,
-        "AddChargeConditions": [
-            "PRIMARY_KILL"
+        "AddCharges": [
+            {
+                "Conditions": [
+                    "PRIMARY_KILL"
+                ],
+                "NumCharges": 1
+            }
         ],
         "ConsumeChargeConditions": [
             "SECONDARY_FIRE"

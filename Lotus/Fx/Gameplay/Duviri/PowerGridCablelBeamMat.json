@@ -1,3 +1,44 @@
 {
-    "parent": "/EE/Materials/Defaults/BeamShading"
+    "parent": "/EE/Materials/Defaults/BeamShading",
+    "data": {
+        "Blend": "BLEND_PREMULT_ALPHA",
+        "UV_DISTORT": 1,
+        "COLOR_MAPPING": 1,
+        "SOFTEN_ALPHA": 1,
+        "SOFTEN_ALL": 1,
+        "USE_EFFECTS_INTENSITY": 0,
+        "VS:UvScalePan": [
+            1,
+            1.2,
+            0,
+            0
+        ],
+        "PS:DistortPan": [
+            0.5,
+            0.5,
+            0.050000001,
+            0.050000001
+        ],
+        "PS:DistortAgePan": [
+            0,
+            0
+        ],
+        "PS:DistortScale": [
+            0.34999999,
+            0
+        ],
+        "PS:Hardness": 0.75,
+        "PS:DepthBias": 0,
+        "PS:AlphaScale": 1,
+        "PS:UnlitAtten": 1.5,
+        "PS:HighColor": [
+            0,
+            1,
+            0.25,
+            1
+        ],
+        "TX:DiffuseMap": "PowerGridCablelBeamLine_d.png",
+        "TX:NormalMap": "/EE/Materials/Defaults/Textures/WaterWrap_n.png",
+        "DoubleSided": 1
+    }
 }

@@ -148,8 +148,8 @@
                 "InTimer": 1,
                 "Timer": 1,
                 "TimeBetweenAttacksRange": [
-                    0.050000001,
-                    0.050000001
+                    1,
+                    1
                 ],
                 "ShouldModifyPosture": 1,
                 "UsePredictedPosition": 0,
@@ -284,6 +284,7 @@
             "AngleDiffTolerance": 0,
             "ForceLookTarget": 0,
             "ForcePredictUsingDesiredViewHeading": 0,
+            "MaxLookAheadDistanceForPeakHeight": 5,
             "TransitionDistance": 2,
             "CoverWalkTransitionDistance": 0.5,
             "AlternateCoverPoseTransitionDistance": 0,

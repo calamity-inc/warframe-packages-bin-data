@@ -1,0 +1,49 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
+    "data": {
+        "LocalizeTag": "[HC] VoltShieldVariableItem",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "Upgrades": [
+            {
+                "UpgradeType": "AVATAR_SHIELD_MAX",
+                "OperationType": "MULTIPLY",
+                "Value": 0.25,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": [],
+                "OverrideLocalization": 0,
+                "SmallerIsBetter": 0,
+                "RoundTo": 0.1,
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
+            }
+        ],
+        "Script": {
+            "Script": "/Lotus/Scripts/KuvaPath/KuvaPathPersonalModifiers.lua",
+            "Function": "DirectionalShield",
+            "_prefix": "",
+            "_shieldType": "VoltShieldDeco",
+            "_grabEffect": "/Lotus/Fx/PowersuitAbilities/Volt/ShieldGrab",
+            "_knockdownTriggerType": "/Lotus/Powersuits/Volt/ShieldKnockdownTrigger",
+            "_beamType": "",
+            "_baseDmgPerSec": 10,
+            "_snakeWispType": "",
+            "_spotlightType": "",
+            "_shieldRestorePercent": 0.050000001,
+            "_staticSiphonBeamType": "",
+            "_grenadeType": "",
+            "_damageMultiplier": 2,
+            "_grenadeDamageRadius": 5,
+            "_spikeType": "",
+            "_antimatterDrop": "",
+            "_antimatterDropMarkerInfo": ""
+        }
+    }
+}

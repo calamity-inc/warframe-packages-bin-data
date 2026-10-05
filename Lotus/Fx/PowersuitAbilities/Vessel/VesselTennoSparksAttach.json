@@ -1,0 +1,121 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    1,
+                    0.032000002,
+                    0.0037,
+                    1
+                ]
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 24
+            }
+        ],
+        "SpawnRate": 100,
+        "BoundsExpansionOverride": 2,
+        "EnergyTintMethod": "ETM_LIFE",
+        "VortexCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.2
+                },
+                {
+                    "Time": 0.050000001,
+                    "Value": 4
+                },
+                {
+                    "Time": 0.2,
+                    "Value": 0.2
+                },
+                {
+                    "Time": 0.30000001,
+                    "Value": 0
+                }
+            ]
+        },
+        "fireOnce": 0,
+        "useCollisions": 0,
+        "resilience": 0.050000001,
+        "drag": 1,
+        "mass": [
+            -0.050000001,
+            0.050000001
+        ],
+        "life": [
+            0.25,
+            1
+        ],
+        "size": [
+            0.0099999998,
+            0.029999999
+        ],
+        "velocity": [
+            0.1,
+            0.30000001
+        ],
+        "windAttenuation": [
+            0.40000001,
+            1
+        ],
+        "windKillDistance": 0,
+        "streaksFactor": 10,
+        "collisionDelay": 0.02,
+        "velocityDeviation": [
+            0.89999998,
+            1
+        ],
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            0.60000002,
+            0.60000002,
+            0.1
+        ],
+        "spawnFlowBlend": 0.5,
+        "spawnDelay": 0.30000001,
+        "flowScale": [
+            0.30000001,
+            0.30000001,
+            0.30000001
+        ],
+        "flowForce": [
+            2,
+            2,
+            2
+        ],
+        "flowForceEnd": [
+            12,
+            12,
+            12
+        ],
+        "flowScrolling": [
+            0,
+            -1,
+            0
+        ],
+        "forceField": "/EE/Materials/Util/CurlNoiseFlowVolumeVectors_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksFadeClose",
+        "colorKeys[0]": [
+            0.13,
+            0.88,
+            1,
+            1
+        ],
+        "colorKeys[1]": [
+            0.11,
+            0.55000001,
+            1,
+            1
+        ],
+        "numColors": 1
+    }
+}

@@ -316,39 +316,8 @@
         },
         "HeadShotSounds": [],
         "DeathSounds": [],
-        "CreatedOnDeath": [
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "",
-                "Type": "",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            }
-        ],
-        "CreateOnDestroy": {
-            "LocalPosition": [
-                0,
-                1,
-                0
-            ],
-            "Attach": 0,
-            "DestroyWithOwner": 0
-        },
+        "DeathEffectType": "/Lotus/Fx/Gameplay/DeathEffects/DeathEffectSpecter",
+        "AllowDeathEffectOverrides": 0,
         "DestroyCorpseTime": 15,
         "BurnRate": 0,
         "PreDeathMaxHealth": 225,

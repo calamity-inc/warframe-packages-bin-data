@@ -1,0 +1,31 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "DeadParentInheritanceRule": "NONE",
+        "Material": "VoidsEndLotusAttachScorchedMat",
+        "UseAttachRoot": 0,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 8.5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0.5,
+                    0.75
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 1,
+                "DestroyWhenComplete": 1,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "UseDitherDissolve": 1,
+        "ApplyColorCustomization": 1
+    }
+}

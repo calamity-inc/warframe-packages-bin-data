@@ -1,0 +1,55 @@
+{
+    "parent": "/Lotus/Types/Game/LotusMissionAISpec",
+    "data": {
+        "Enemies": [
+            {
+                "agent": "/Lotus/Types/Enemies/Infested/AiWeek/Quadrupeds/Quadruped",
+                "weaponOverrides": [],
+                "probability": 1,
+                "maxSimultaneous": 0,
+                "tier": 0,
+                "mergeSymbol": ""
+            },
+            {
+                "agent": "/Lotus/Types/Enemies/Infested/AiWeek/Runners/LeapingRunner",
+                "weaponOverrides": [],
+                "probability": 1,
+                "maxSimultaneous": 0,
+                "tier": 0,
+                "mergeSymbol": ""
+            },
+            {
+                "agent": "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/SpawningAncient",
+                "weaponOverrides": [],
+                "probability": 1,
+                "maxSimultaneous": 0,
+                "tier": 0,
+                "mergeSymbol": ""
+            },
+            {
+                "agent": "/Lotus/Types/Enemies/Infested/AiWeek/Crawlers/MeleeCrawler",
+                "weaponOverrides": [],
+                "probability": 0.5,
+                "maxSimultaneous": 0,
+                "tier": 0,
+                "mergeSymbol": ""
+            },
+            {
+                "agent": "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/DiseasedAncient",
+                "weaponOverrides": [],
+                "probability": 0.2,
+                "maxSimultaneous": 0,
+                "tier": 0,
+                "mergeSymbol": ""
+            },
+            {
+                "agent": "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/HealingAncient",
+                "weaponOverrides": [],
+                "probability": 0.2,
+                "maxSimultaneous": 0,
+                "tier": 0,
+                "mergeSymbol": ""
+            }
+        ]
+    }
+}

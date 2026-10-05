@@ -1,0 +1,37 @@
+{
+    "parent": "/Lotus/Types/Game/DojoPlaceableDecorations/TarotPlaceableDecoration",
+    "data": {
+        "Mesh": "/Lotus/Objects/Tenno/Props/CollectibleCards/CollectibleCardBase.fbx",
+        "MeshScale": 6,
+        "OverrideMaterial": [
+            "/Lotus/Objects/Tenno/Props/CollectibleCards/CollectibleCardNarin",
+            "/Lotus/Objects/Orokin/Structural/Walls/OroTileWallGoldBaseA",
+            "/Lotus/Objects/Tenno/Props/CollectibleCards/CollectibleCardBacker"
+        ],
+        "UseOcclusionQuery": 0,
+        "LocTag": "/Lotus/Language/Tarot/TarotCardNarinName",
+        "LongDesc": "/Lotus/Language/Tarot/TarotCardNarinDesc",
+        "OverridePreviewCamera": 1,
+        "PreviewCameraPositionOffset": [
+            0,
+            0,
+            2
+        ],
+        "PreviewCameraTargetOffset": [
+            0.80000001,
+            0,
+            0
+        ],
+        "PreviewScaleOverride": 15,
+        "PreviewPositionOverride": [
+            -1,
+            1.5,
+            2
+        ],
+        "PreviewRotationOverride": [
+            -90,
+            0,
+            -90
+        ]
+    }
+}

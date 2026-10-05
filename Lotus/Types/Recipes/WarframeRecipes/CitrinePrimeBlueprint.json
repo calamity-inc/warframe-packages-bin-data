@@ -1,0 +1,32 @@
+{
+    "parent": "/Lotus/Types/Game/RecipeItem",
+    "data": {
+        "RegularPrice": 35000,
+        "PrimeSellingPrice": 100,
+        "ExcludeFromCodex": 0,
+        "TradeCapability": "RO_ALWAYS",
+        "ResultItem": "/Lotus/StoreItems/Powersuits/Geode/CitrinePrime",
+        "Ingredients": [
+            {
+                "ItemType": "CitrinePrimeHelmetComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "CitrinePrimeChassisComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "CitrinePrimeSystemsComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 5
+            }
+        ],
+        "BuildTime": 259200,
+        "BuildPrice": 25000,
+        "SkipBuildTimePrice": 50,
+        "ActivityFeedInfo": "Chroma Prime"
+    }
+}

@@ -3,6 +3,7 @@
     "data": {
         "VoiceBox": "/Lotus/Sounds/Dialog/Barks/Battle/Eximus/EximusGrineerMale/EximusGrineerMaleVoiceBox",
         "VoiceBoxVariants": [],
+        "CodexScansRequiredOverride": 3,
         "AvatarEnhancements": [
             {
                 "EnhancementType": "/Lotus/Types/Enemies/Enhancements/ArcticEnhancement",
@@ -132,6 +133,18 @@
                     "WeaponOverride": "",
                     "LocTagOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderName",
                     "ShortDescOverride": "/Lotus/Language/EnemyLeaders/JadeLightLeaderDesc",
+                    "MeshScale": 1.1
+                },
+                "Probability": 1
+            },
+            {
+                "EnhancementType": "/Lotus/Types/Enemies/Enhancements/DarkKuvaEximusEnhancement",
+                "AvatarOverrides": {
+                    "MaterialOverrides": [],
+                    "ChildMaterialOverrides": [],
+                    "WeaponOverride": "",
+                    "LocTagOverride": "/Lotus/Language/Iceblade/KuvaEximus",
+                    "ShortDescOverride": "",
                     "MeshScale": 1.1
                 },
                 "Probability": 1

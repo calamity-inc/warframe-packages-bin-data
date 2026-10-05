@@ -1,0 +1,118 @@
+{
+    "parent": "/EE/Materials/Defaults/CharacterPBRDetail",
+    "data": {
+        "DETAIL_MASK": "DETAIL_MASK_RGBA",
+        "UNIQUE_TEXTURE": "CRYSTAL",
+        "MACRO_ROUGHNESS": 1,
+        "EMISSIVE_MAP": 1,
+        "EMISSIVE_MASK": 1,
+        "WET": 1,
+        "SPECULARMAP_IS_METALMAP": 1,
+        "VERTEX_AO": 1,
+        "PS:TintColor0": [
+            0.54000002,
+            0.077,
+            0.037999999,
+            0.5
+        ],
+        "PS:TintColor1": [
+            0.87,
+            0.74000001,
+            0.67000002,
+            0.5
+        ],
+        "PS:TintColor2": [
+            0.015,
+            0.079999998,
+            0.11,
+            0.5
+        ],
+        "PS:TintColor3": [
+            0.69,
+            0.55000001,
+            0.14,
+            0.5
+        ],
+        "PS:CrystalParams": [
+            0.2,
+            0.80000001,
+            0.40000001,
+            0.1
+        ],
+        "PS:CrystalLayerStrength": [
+            1,
+            0,
+            0,
+            0
+        ],
+        "PS:CrystalPan": 0.050000001,
+        "PS:CrystalRoughness": 0.2,
+        "PS:CrystalFlattenNormal": 0,
+        "PS:EmissiveTintColorLo": [
+            0.99000001,
+            0.19,
+            0,
+            1
+        ],
+        "PS:EmissiveTintColorHi": [
+            0.97000003,
+            0.013,
+            0,
+            1
+        ],
+        "PS:EmissiveMapAtten": 3,
+        "PS:EmissivePan": [
+            0.050000001,
+            0.025,
+            18
+        ],
+        "PS:EmissiveMaskBlend": 1,
+        "PS:EmissiveMaskBlueChannelInfluence": 0,
+        "PS:WetBias": -1,
+        "TX:NormalMap": "CitrinePrimeBody_n.png",
+        "TX:MacroPackMap": "CitrinePrimeBodyPackMap",
+        "TX:CrystalMap": "/Lotus/Objects/Natural/DirtRockyABlnd_d.png",
+        "TX:EmissiveMap": "CitrinePrimeBodyScrolling_e.png",
+        "PS:LayerNormalStrength": [
+            1,
+            0.30000001,
+            0.050000001,
+            1
+        ],
+        "PS:UvScaleRedGreen": [
+            10,
+            10,
+            15,
+            15
+        ],
+        "PS:UvScaleBlueAlpha": [
+            10,
+            10,
+            8,
+            8
+        ],
+        "PS:MicroCavityAoStrength": [
+            1,
+            0.5,
+            0,
+            1
+        ],
+        "PS:MicroCavityRoughnessMultiplier": [
+            1,
+            1.5,
+            0.5,
+            1
+        ],
+        "TX:RedNormalMap": "/Lotus/Fx/PowersuitAbilities/Glass/FragmentFacets_n.png",
+        "TX:GreenNormalMap": "/Lotus/Characters/SharedTileableTextures/CharacterPBRDetail/OrganicSurfaces/Bone_n.png",
+        "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/CharacterPBRDetail/ManufacturedSurfaces/ScratchedMetal_n.png",
+        "TX:AlphaNormalMap": "/Lotus/Characters/SharedTileableTextures/GoldSpecGloss_n.png",
+        "TX:DetailMask": "CitrinePrimeBodyDetail_t.png",
+        "PS:BaseTintColor": [
+            0.043000001,
+            0.043000001,
+            0.043000001,
+            0.5
+        ]
+    }
+}

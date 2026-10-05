@@ -1,0 +1,267 @@
+{
+    "parent": "/EE/Types/Engine/CameraController",
+    "data": {
+        "ViewShake": {
+            "ShakeFactorPos": 0,
+            "ShakeFactorRot": [
+                0.1,
+                0.1,
+                0
+            ],
+            "ShakeSpeed": 0.5,
+            "ShakeAmbient": 0.2,
+            "ShakeDampening": 4
+        },
+        "RumbleShake": {
+            "ShakeFactorPos": 0.050000001,
+            "ShakeFactorRot": [
+                0.0099999998,
+                0.039999999,
+                0.0099999998
+            ],
+            "ShakeSpeed": 3,
+            "ShakeDampening": 7
+        },
+        "ZoomShake": {
+            "ShakeFactorPos": 0,
+            "ShakeFactorRot": [
+                0.2,
+                0.2,
+                0.1
+            ],
+            "ShakeSpeed": 0.079999998
+        },
+        "ImpactShake": {
+            "RotationSpring": {
+                "enable": 1,
+                "xDeflection": [
+                    -0.2,
+                    0.2
+                ],
+                "deflectionStrength": [
+                    2,
+                    2
+                ],
+                "stiffness": 500,
+                "dampening": 16
+            },
+            "TranslationSpring": {
+                "deflectionStrength": [
+                    1,
+                    1
+                ],
+                "normalizeDeflection": 1
+            },
+            "RotationNoise": {
+                "enable": 1,
+                "deflectionStrength": [
+                    0.050000001,
+                    0.050000001
+                ],
+                "rate": 2,
+                "dampening": 9
+            },
+            "TranslationNoise": {
+                "xDeflection": [
+                    -0.5,
+                    0.5
+                ],
+                "deflectionStrength": [
+                    0.1,
+                    0.1
+                ],
+                "rate": 0.5,
+                "dampening": 6
+            }
+        },
+        "DollyShake": {
+            "enable": 1,
+            "zDeflection": [
+                1,
+                1
+            ],
+            "deflectionStrength": [
+                0.1,
+                0.1
+            ],
+            "dampening": 30
+        },
+        "RunShake": 1,
+        "JogShake": 1.5,
+        "WalkShake": 0.5,
+        "CollisionRadius": 0.25,
+        "SweepCameraUp": 1,
+        "PitchClamp": [
+            -89,
+            89
+        ],
+        "BaseFovOverride": 65,
+        "RunBlurStrength": 0,
+        "CameraListenerRotationHeadingOnly": 0,
+        "StrafeBankingScale": 0,
+        "RunBankingScale": 0,
+        "UseFirstPersonInTightSpace": 0,
+        "AfterTouchTransitionTime": 0.2,
+        "ViewOffsetSpeed": 1,
+        "VelocityZOffset": 0,
+        "VelocityZOffsetMappingMapping": [
+            12,
+            20
+        ],
+        "VelocityZFollowerAccelReponse": 0.2,
+        "VelocityZFollowerDecelResponse": 2,
+        "VelocityZExponent": 0.5,
+        "ViewOffset": [
+            0.5,
+            0.1,
+            -1.5
+        ],
+        "AimViewOffset": [
+            0.5,
+            0.1,
+            -1
+        ],
+        "DualWieldingAimViewOffset": [
+            0.5,
+            0,
+            -1.5
+        ],
+        "RunViewOffset": [
+            0.5,
+            0.1,
+            -1.5
+        ],
+        "TightViewOffset": [
+            0.5,
+            0.1,
+            -1.5
+        ],
+        "CoverLeftViewOffset": [
+            0.5,
+            0.40000001,
+            -1.7
+        ],
+        "CoverRightViewOffset": [
+            0.5,
+            0.40000001,
+            -1.7
+        ],
+        "CoverAimLeftViewOffset": [
+            0,
+            0,
+            -1.5
+        ],
+        "CoverAimRightViewOffset": [
+            0,
+            0,
+            -1.5
+        ],
+        "CoverAimDiscLeftViewOffset": [
+            -1,
+            0.1,
+            -2
+        ],
+        "CoverAimDiscRightViewOffset": [
+            1,
+            0.050000001,
+            -1.6
+        ],
+        "DodgeOffset": [
+            0.5,
+            0.1,
+            -1.75
+        ],
+        "AfterTouchViewOffset": [
+            0,
+            0.40000001,
+            -3.5
+        ],
+        "InAirViewOffset": [
+            0.5,
+            -0.2,
+            -1.6
+        ],
+        "InAirAimViewOffset": [
+            0.5,
+            0.1,
+            -2.7
+        ],
+        "ZipLineViewOffset": [
+            0.5,
+            0.1,
+            -2
+        ],
+        "ZipLineAimViewOffset": [
+            0.5,
+            0.1,
+            -1.5
+        ],
+        "MantleViewOffset": [
+            0.5,
+            -0.40000001,
+            -1.6
+        ],
+        "WallRunLeftViewOffset": [
+            0.80000001,
+            -1,
+            -1.8
+        ],
+        "WallRunLeftAimViewOffset": [
+            0.80000001,
+            -1,
+            -1.8
+        ],
+        "WallRunRightViewOffset": [
+            -0.80000001,
+            -1,
+            -1.8
+        ],
+        "WallRunRightAimViewOffset": [
+            -0.80000001,
+            -1,
+            -1.8
+        ],
+        "WallRunUpViewOffset": [
+            0.5,
+            -0.80000001,
+            -2
+        ],
+        "WallRunUpAimViewOffset": [
+            0.5,
+            0,
+            -0.69999999
+        ],
+        "MeleeOffset": [
+            0.5,
+            0.1,
+            -1.5
+        ],
+        "SpectateCameraOffset": [
+            0,
+            0.2,
+            -3
+        ],
+        "AimHeadingDeadZone": 13,
+        "AimPitchDeadZone": 8,
+        "ConvergeSpeed": 1,
+        "ConvergeThreshold": 0.5,
+        "DeadZoneSoften": 0.89999998,
+        "CameraSmoothTime": 0.25,
+        "CameraRotationSmoothTime": 0.15000001,
+        "AfterTouchPostProcess": {
+            "blur": 0.5,
+            "viewShake": {
+                "ShakeFactorPos": 0.050000001,
+                "ShakeFactorRot": [
+                    0.050000001,
+                    0.1,
+                    0.2
+                ],
+                "ShakeSpeed": 6,
+                "ShakeAmbient": 2,
+                "ShakeDampening": 1
+            }
+        },
+        "WaterSimTriggerType": "/EE/Types/Engine/WaterSimTrigger"
+    }
+}

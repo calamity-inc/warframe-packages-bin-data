@@ -1,0 +1,54 @@
+{
+    "parent": "/Lotus/Fx/PowersuitAbilities/Fairy/FlightCastArcDeco",
+    "data": {
+        "Mesh": "/Lotus/Fx/PowersuitAbilities/Orion/SwirlsMesh.fbx",
+        "MeshScale": 1.75,
+        "OverrideMaterial": [
+            "SpecterDeathSwirlsOutMat"
+        ],
+        "IgnoreParentRotation": 1,
+        "MaterialFade": [
+            {
+                "Parameter": "BlueClipThreshold",
+                "Slot": -1,
+                "TimeLength": 0.85000002,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.85000002,
+                "Multiplier": 5,
+                "FadeRange": [
+                    0.25,
+                    0.75
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "ApplyColorCustomization": 1
+    }
+}

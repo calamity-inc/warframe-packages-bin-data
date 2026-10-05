@@ -1,6 +1,8 @@
 {
-    "parent": "/Lotus/Types/Enemies/Corpus/BipedRobot/BipedRobotHitProxy",
+    "parent": "/EE/Types/Engine/HitProxy",
     "data": {
+        "DeadParentInheritanceRule": "NONE",
+        "Type": "CAPSULE",
         "CapsuleHeight": 0.60000002,
         "Radius": 0.1,
         "DebugColor": [
@@ -10,7 +12,7 @@
             255
         ],
         "DebugDrawWireFrame": 0,
-        "PhysicsRegister": 0,
+        "PhysicsMaterial": "/EE/Types/Physics/Materials/Biped",
         "Part": "LEG_LEFT"
     }
 }

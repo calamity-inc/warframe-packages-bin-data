@@ -1,0 +1,399 @@
+{
+    "parent": "/Lotus/Types/Weapon/WaveProjectile",
+    "data": {
+        "Mesh": "/Lotus/Fx/Weapons/Corpus/CrpAirPistol/AirPistolProjMesh.fbx",
+        "MeshScale": 0.5,
+        "OverrideMaterial": [
+            "/EE/Materials/Hidden"
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/SolarisUnited/BarrelMuzzleRippleShotgun",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 0,
+                "DestroyWithOwner": 0,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/TnLotusPodShotgunProjDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/TnLotusPodShotgunTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/TnLotusPodShotgunProjFlare",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/TnLotusPodShotgunProjSparks",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/Prime/TnPodShotgunPrimeSparkleSmall",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/TnLotusPodShotgunProjLight",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/Prime/TnLotusPodShotgunPrimeFlowerDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.5,
+                    0.86602497
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/Prime/TnLotusPodShotgunPrimeFlowerDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.86602497,
+                    0.5
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/Prime/TnLotusPodShotgunPrimeFlowerDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/Prime/TnLotusPodShotgunPrimeFlowerDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    -0.5,
+                    0.86602497
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/Prime/TnLotusPodShotgunPrimeFlowerDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    -0.86602497,
+                    0.5
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/Prime/TnLotusPodShotgunPrimeFlowerDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/ProjectileWindMotor",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "AttackData": {
+            "UseNewFormat": 1,
+            "Type": "DT_IMPACT",
+            "DT_IMPACT": 195,
+            "DT_PUNCTURE": 0,
+            "DT_SLASH": 0,
+            "DT_FIRE": 285,
+            "DT_FREEZE": 0,
+            "DT_ELECTRICITY": 0,
+            "DT_POISON": 0,
+            "DT_EXPLOSION": 0,
+            "DT_RADIATION": 0,
+            "DT_GAS": 0,
+            "DT_MAGNETIC": 0,
+            "DT_VIRAL": 0,
+            "DT_CORROSIVE": 0,
+            "DT_RADIANT": 0,
+            "Amount": 480,
+            "ProcChance": 0.28,
+            "ForcedDeathProcs": [
+                "PT_RAGDOLL"
+            ],
+            "HitType": "DHT_PROJECTILE"
+        },
+        "IgnoreHeadShotBonus": 1,
+        "CriticalChance": 0.18000001,
+        "CriticalMultiplier": 2.2,
+        "DamageFallOff": [
+            8,
+            24
+        ],
+        "DamageFallOffMinDamage": 180,
+        "ExplosiveAttack": {
+            "Type": "DT_RADIATION",
+            "ProcChance": 0
+        },
+        "GrenadeShootPermissions": [],
+        "GrenadeShootBonus": [],
+        "DieSound": "/Lotus/Sounds/Weapons/Tenno/TnoLotusPodShotgun/TnoLotusPodShotgunProjectileDie",
+        "Toughness": 1,
+        "MaxLife": 10,
+        "WhizzBySound": "/Lotus/Sounds/Weapons/Tenno/TnoLotusPodShotgun/TnoLotusPodShotgunProjBy",
+        "HorizontalImpulse": 500,
+        "KinematicMovement": 1,
+        "KinematicInitialSpeed": 20,
+        "KinematicMaxSpeed": 20,
+        "ProjectileReplication": "SYNCED_AUTONOMOUS",
+        "OnProjectileStartScript": {
+            "Script": "/Lotus/Scripts/WeaponAttachments/TnoLotusPodShotgun.lua",
+            "Function": "OnProjectileSpawned",
+            "_avatarHitEffect": "",
+            "_projDeathEffect": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/Prime/TnLotusPodShotgunPrimeProjEndFX"
+        },
+        "ApplyColorCustomization": 1,
+        "RiftStasisWeight": 25,
+        "SweepType": "Sphere",
+        "InitialWidth": 0.1,
+        "InitialRadius": 0.1,
+        "AllowNormalContactBehavior": 1,
+        "ProjectileResizes": [
+            {
+                "Time": 1.2,
+                "ResizeWidth": 4,
+                "ResizeRadius": 4
+            }
+        ],
+        "DestroyOnContactTypes": [
+            "/Lotus/Types/Enemies/Corpus/Spaceman/AIWeek/NullifyShieldDecoCollision",
+            "/Lotus/Powersuits/Frost/IceShieldDeco",
+            "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/NpcIceShieldDeco"
+        ],
+        "ImpulseScale": 2,
+        "OnHitScript": {
+            "Script": "/Lotus/Scripts/WeaponAttachments/TnoLotusPodShotgun.lua",
+            "Function": "OnProjectileHit",
+            "_avatarHitEffect": "/Lotus/Fx/Weapons/Tenno/TnPodShotgun/TnLotusPodShotgunHitFX",
+            "_projDeathEffect": ""
+        },
+        "RunHitScriptOnDirectHit": 1
+    }
+}

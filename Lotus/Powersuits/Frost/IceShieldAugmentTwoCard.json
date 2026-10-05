@@ -1,0 +1,45 @@
+{
+    "parent": "IceShieldBaseAugmentCard",
+    "data": {
+        "MarketMode": "MM_HIDDEN",
+        "LocalizeTag": "/Lotus/Language/Suits/SnowGlobeAbilityAugment2Name",
+        "Icon": "/Lotus/Interface/Cards/Images/AbilityAugments/FrostIceShieldAugmentTwoCard.png",
+        "ExcludeFromCodex": 0,
+        "Upgrades": [
+            {
+                "UpgradeType": "AVATAR_ABILITY_AUGMENT",
+                "OperationType": "ADD",
+                "Value": 1,
+                "DamageType": "DT_ANY",
+                "AutoType": 1,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "AUGMENT_TWO",
+                "UpgradeObject": "Abilities/IceShieldAbility",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": [],
+                "OverrideLocalization": 1,
+                "LocTag": "/Lotus/Language/Suits/SnowGlobeAbilityAugment2Desc",
+                "LocKeyWordScript": {
+                    "Script": "Abilities/IceShield.lua",
+                    "Function": "GetAugmentDescriptionInfo",
+                    "_activateAnim": "",
+                    "_ShieldTypes": [],
+                    "_launchSound": "",
+                    "_augmentOneDeco": "",
+                    "_freezeProjPvP": "",
+                    "_shieldCenterDeco": "",
+                    "_iceShieldDestroy": ""
+                },
+                "SmallerIsBetter": 0,
+                "RoundTo": 0.1,
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
+            }
+        ],
+        "ArtifactPolarity": "AP_POWER",
+        "IsUtility": 1
+    }
+}

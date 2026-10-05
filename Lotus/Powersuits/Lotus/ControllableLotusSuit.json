@@ -1,0 +1,54 @@
+{
+    "parent": "LotusSuit",
+    "data": {
+        "MarketMode": "MM_NONE",
+        "LocalizeTag": "/Lotus/Language/TauMafia/LotusSuitName",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "SupportsXP": 0,
+        "ExcludeFromPlayerLevelCalculations": 1,
+        "DefaultCustomization": {
+            "Helmet": {
+                "ItemType": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/EmptyCustomization"
+            },
+            "BodySkin": {
+                "ItemType": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/EmptyCustomization"
+            }
+        },
+        "DefaultEnergyColor": [
+            103,
+            255,
+            255,
+            255
+        ],
+        "DefaultEnergyColor1": [
+            91,
+            224,
+            255,
+            255
+        ],
+        "Mesh": "",
+        "AbilityTypes": [
+            "Abilities/LotusBlastAbility",
+            "Abilities/LotusSingAbility"
+        ],
+        "AbilityRanks": [
+            {
+                "RankLevels": [
+                    0
+                ]
+            },
+            {
+                "RankLevels": [
+                    0
+                ]
+            },
+            {
+                "RankLevels": [
+                    0
+                ]
+            }
+        ],
+        "MaxHealthOverride": 300,
+        "MaxShieldOverride": 150
+    }
+}

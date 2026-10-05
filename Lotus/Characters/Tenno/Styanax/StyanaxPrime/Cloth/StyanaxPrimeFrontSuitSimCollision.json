@@ -1,0 +1,145 @@
+{
+    "parent": "/EE/Types/Effects/SimCollision",
+    "data": {
+        "Elements": [
+            {
+                "bone": "GAME_C1_SPINE1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_C1_SPINE3",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.15000001,
+                "radiusB": 0,
+                "tag": "Spine",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_SPINE1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_C1_SPINE5",
+                "offsetB": [
+                    0,
+                    0.15000001,
+                    0
+                ],
+                "radius": 0.079999998,
+                "radiusB": 0,
+                "tag": "SpineExo1",
+                "debugColor": [
+                    0,
+                    245,
+                    255,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_SPINE3",
+                "offset": [
+                    -0.15000001,
+                    0.2,
+                    0
+                ],
+                "boneB": "GAME_C1_SPINE5",
+                "offsetB": [
+                    0.1,
+                    0.2,
+                    0
+                ],
+                "radius": 0.079999998,
+                "radiusB": 0,
+                "tag": "SpineExo2",
+                "debugColor": [
+                    166,
+                    0,
+                    255,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_LEG1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_L1_LEG2",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.12,
+                "radiusB": 0.12,
+                "tag": "Leg1Left",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_L1_LEG2",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_L1_LEG3",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.11,
+                "radiusB": 0.090000004,
+                "tag": "Leg2Left",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            },
+            {
+                "bone": "GAME_C1_HIP1",
+                "offset": [
+                    0,
+                    0,
+                    0
+                ],
+                "boneB": "GAME_C1_HIP1",
+                "offsetB": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 0.30000001,
+                "radiusB": 0,
+                "tag": "hip",
+                "debugColor": [
+                    0,
+                    255,
+                    0,
+                    128
+                ]
+            }
+        ]
+    }
+}

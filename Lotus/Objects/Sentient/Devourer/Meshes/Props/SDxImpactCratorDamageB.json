@@ -1,3 +1,33 @@
 {
-    "parent": "SDxImpactCratorDamageA"
+    "parent": "SDxImpactCratorDamageA",
+    "data": {
+        "UV_TILE": 1,
+        "EMISSIVE_MAP_FLICKER": 1,
+        "VS:UvOffset": [
+            0,
+            0
+        ],
+        "PS:EmissiveMapAtten": 3,
+        "PS:FlickerParam": [
+            0.1,
+            0.5
+        ],
+        "PS:NoiseChannelsStrength": [
+            0.1,
+            0,
+            0.1,
+            2
+        ],
+        "PS:EmissivePulse": [
+            0,
+            0,
+            1
+        ],
+        "PS:UvScale": [
+            1.5,
+            1.5,
+            1,
+            1
+        ]
+    }
 }

@@ -1,28 +1,6 @@
 {
     "parent": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyPokeAbility",
     "data": {
-        "Script": {
-            "Script": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyPoke.lua"
-        },
-        "SecondaryScripts": [
-            {
-                "tag": "AugmentSlamBuff",
-                "executionMode": "EM_HOST",
-                "inheritPrimary": 0,
-                "functionName": "",
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyPoke.lua",
-                    "Function": "AugmentSlamBuff",
-                    "_castEffect": "",
-                    "_castBurstEffect": "",
-                    "_staffDecoType": "",
-                    "_enemyAttachEffect": "",
-                    "_staffWeaponType": "",
-                    "_staffAnims": [],
-                    "_augmentOneEffect": ""
-                }
-            }
-        ],
         "CooldownDuration": 9
     }
 }

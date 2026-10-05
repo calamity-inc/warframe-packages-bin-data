@@ -1,0 +1,87 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "UseParentVisibility": 0,
+        "UseTeamEffectsSetting": 1,
+        "SpawnRate": 200,
+        "EmissionTime": 3,
+        "BoundsExpansionOverride": 2,
+        "fireOnce": 0,
+        "resilience": 0.15000001,
+        "drag": 0.5,
+        "mass": [
+            0.5,
+            1
+        ],
+        "life": [
+            0.5,
+            1
+        ],
+        "size": [
+            0.02,
+            0.029999999
+        ],
+        "velocity": [
+            1,
+            4
+        ],
+        "streaksFactor": 2,
+        "collisionDelay": 0.050000001,
+        "inheritVelocity": 0.2,
+        "useForceFieldForSpawn": 1,
+        "spawnFlowBlend": 0.60000002,
+        "spawnDelay": 0.02,
+        "spawnFlowForcePosScale": 0.60000002,
+        "flowScale": [
+            0.40000001,
+            0.40000001,
+            0.40000001
+        ],
+        "flowForce": [
+            6,
+            4,
+            6
+        ],
+        "flowForceEnd": [
+            3,
+            4.5,
+            4.3000002
+        ],
+        "flowScrolling": [
+            0,
+            -0.5,
+            0
+        ],
+        "flowAtten": [
+            0.5,
+            1
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColor",
+        "colorKeys[0]": [
+            0.69999999,
+            0.81,
+            0.83999997,
+            1
+        ],
+        "colorKeys[1]": [
+            0.31999999,
+            0.56,
+            0.70999998,
+            1
+        ],
+        "colorKeys[2]": [
+            0.097999997,
+            0.23999999,
+            0.34999999,
+            1
+        ],
+        "colorKeys[3]": [
+            0.097999997,
+            0.23999999,
+            0.34999999,
+            1
+        ],
+        "numColors": 3
+    }
+}

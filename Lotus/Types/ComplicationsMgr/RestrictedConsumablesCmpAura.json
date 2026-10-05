@@ -1,0 +1,16 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/ConquestVariableAura",
+    "data": {
+        "LocalizeTag": "[HC] RestrictedConsumablesCmpAura",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "OnAuraAddedToLevelScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/RestrictedConsumables.lua",
+            "Function": "OnAuraAddedToLevel"
+        },
+        "OnAuraRemovedFromLevelScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/RestrictedConsumables.lua",
+            "Function": "OnAuraRemovedFromLevel"
+        },
+        "ClientRunsOnAddedRemovedScripts": 1
+    }
+}

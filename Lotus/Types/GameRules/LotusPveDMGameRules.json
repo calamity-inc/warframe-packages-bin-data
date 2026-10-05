@@ -66,14 +66,21 @@
             "_minSpawnDistance": 30,
             "_maxSpawnDistance": 60,
             "_boostPickUp": "/Lotus/Types/PickUps/FocusBoost",
+            "_ultimateBoostPickup": "",
             "_boostPickUpFx": "",
             "_boostEndFx": "",
+            "_ultChargeHudFx": "",
             "_focusBoostAbilityType": "",
+            "_ultimateBoostAbilityType": "",
+            "_mergedBoostAbilityType": "",
             "_focusGainScreen": "",
             "_attachEffect": "",
             "_childDecoType": "",
             "_spawnSound": "",
-            "_focusBonusToActiveSchool": 5000
+            "_focusBonusToActiveSchool": 5000,
+            "_focusUltimateAmount": 8000,
+            "_focusUltimateBoostMultiplier": 6,
+            "_focusUmtimateBoostDuration": 45
         },
         "StalkerScript": {
             "Script": "/Lotus/Scripts/Stalker.lua",
@@ -221,7 +228,8 @@
             "_JadeScytheSkin": "",
             "_JadeTransmissionNeverOutro": "",
             "_JadeTransmissionDeath": "",
-            "_JadeTransmissionTargetEliminated": ""
+            "_JadeTransmissionTargetEliminated": "",
+            "_SiriusOrionTransmission": ""
         },
         "NightmareScript": {
             "Script": "/Lotus/Scripts/Mutators.lua",
@@ -330,7 +338,8 @@
             "_JadeScytheSkin": "",
             "_JadeTransmissionNeverOutro": "",
             "_JadeTransmissionDeath": "",
-            "_JadeTransmissionTargetEliminated": ""
+            "_JadeTransmissionTargetEliminated": "",
+            "_SiriusOrionTransmission": ""
         },
         "RareSpawnScript": {
             "Script": "/Lotus/Scripts/NPC/RareSpawnScript.lua",

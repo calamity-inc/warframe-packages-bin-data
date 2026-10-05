@@ -9,7 +9,6 @@
         "Shader7": "/EE/Shaders/Lighting/OmniShadowLightMap.hlsl",
         "Shader8": "/EE/Shaders/Lighting/ProjectOnly.hlsl",
         "Shader10": "/EE/Shaders/Depth.hlsl",
-        "Shader12": "/EE/Shaders/Lighting/MotionBlur.hlsl",
         "NORMALS": "NORMAL_MAP",
         "DETAILING": "NONE",
         "SPECULAR_MASK": "NONE",
@@ -63,6 +62,8 @@
             1
         ],
         "PS:Roughness": 0.5,
+        "TX:DiffuseMap": "",
+        "TX:NormalMap": "",
         "TX:SkinRamp": "/EE/Materials/Util/SkinRamp.png",
         "DepthWrite": 1,
         "DefaultPhysicsMaterial": "/EE/Types/Physics/Materials/Flesh"

@@ -1,0 +1,28 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Objects/Cephalon/Props/CephalonTeacher.fbx",
+        "OverrideMaterial": [
+            "/EE/Materials/HiddenNonShadowing",
+            "CephalonMelicaHoloPBRMat",
+            "/EE/Materials/HiddenNonShadowing"
+        ],
+        "TestRotateSpeed": [
+            0,
+            0,
+            0
+        ],
+        "ReplicaPositionNoise": [
+            0,
+            0.1,
+            0,
+            0.1
+        ],
+        "ReplicaRotationNoise": [
+            0.1,
+            0,
+            0.1,
+            0.1
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWeaponAttachments/LotusQuiverAttachment",
+    "data": {
+        "Mesh": "DuelistBowQuiver.fbx",
+        "MeshScale": 0.85000002,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0.02,
+                    -0.30000001,
+                    0.029999999
+                ],
+                "LocalRotation": [
+                    0,
+                    0.34202,
+                    0,
+                    0.93969297
+                ],
+                "BoneName": "",
+                "Type": "DuelistArrowDecoSmall",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1.6
+            },
+            {
+                "LocalPosition": [
+                    -0.0070000002,
+                    -0.31999999,
+                    0.029999999
+                ],
+                "LocalRotation": [
+                    0,
+                    0.34202,
+                    0,
+                    0.93969297
+                ],
+                "BoneName": "",
+                "Type": "DuelistArrowDecoSmall",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1.6
+            },
+            {
+                "LocalPosition": [
+                    -0.034000002,
+                    -0.34,
+                    0.029999999
+                ],
+                "LocalRotation": [
+                    0,
+                    0.5,
+                    0,
+                    0.86602497
+                ],
+                "BoneName": "",
+                "Type": "DuelistArrowDecoSmall",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1.6
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "Cloth/DuelistBowQuiverDangleSkeletalClothEx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ]
+    }
+}

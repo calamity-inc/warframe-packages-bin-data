@@ -183,6 +183,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "",
@@ -468,6 +469,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.25,
                     "criticalHitDamageMultiplier": 2.5,
@@ -637,6 +639,7 @@
                         "LockOnDistanceWeighting": 100,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "",
@@ -866,6 +869,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.2,
                     "criticalHitDamageMultiplier": 1.8,
@@ -950,7 +954,8 @@
                     "BurstRemainingClip": 0,
                     "ConsumeAmmoOncePerBurst": 0,
                     "ForceBurstLogicOnClient": 0,
-                    "PreFireDuringBurst": 0
+                    "PreFireDuringBurst": 0,
+                    "InstantModeSwitchCancel": 0
                 }
             }
         ],
@@ -1011,11 +1016,11 @@
         "BatteryRegenDelay": 0.5,
         "BatteryRegenDelayFromEmpty": 2,
         "BatteryRegenRate": 300,
-        "NumChargesToAdd": 0,
         "MaxCharges": 0,
         "NumChargesToConsume": 0,
         "WeaknessBonus": 0.5,
         "FireAimTime": 4,
+        "OmegaAttenuation": 0.60000002,
         "FireModes": [
             {
                 "localizedTag": "/Lotus/Language/Menu/Loadout_TriggerAuto",

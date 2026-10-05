@@ -1,0 +1,90 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "DepthSortBias": -10,
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.85000002
+            }
+        ],
+        "HasLifeSpan": 0,
+        "Life": [
+            6,
+            8
+        ],
+        "Size": [
+            0.079999998,
+            0.15000001
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "SpewCount": [
+            15,
+            30
+        ],
+        "Material": "/Lotus/Fx/Levels/Outpost/SnowFlakeBlowing",
+        "ColorMin": [
+            128,
+            201,
+            229,
+            255
+        ],
+        "ColorMax": [
+            197,
+            224,
+            234,
+            255
+        ],
+        "RandOrientation": 1,
+        "FadeInOut": [
+            0.34999999,
+            0.75
+        ],
+        "EyeFadeDist": 30,
+        "InvertEyeFadeDist": 1,
+        "Nozzle": "PLANE",
+        "NozzleDev": 0.16,
+        "NozzleBox": [
+            2.5,
+            3,
+            2
+        ],
+        "Mass": [
+            0.0099999998,
+            0.0099999998
+        ],
+        "FlowVolume": "/EE/Types/GraphicsRes/SphericalFlowVolume",
+        "FlowVelocity": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "FlowVelocityEndLife": [
+            0.31999999,
+            0.31999999,
+            0.31999999
+        ],
+        "FlowScale": [
+            7,
+            7,
+            7
+        ]
+    }
+}

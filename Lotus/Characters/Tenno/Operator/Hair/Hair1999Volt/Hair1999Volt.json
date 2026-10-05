@@ -12,7 +12,6 @@
         "FOG": 0,
         "STRAND_NOISE": 0,
         "AO_MAP_SPECULAR": 1,
-        "DOUBLE_SIDED_LIGHTING": 1,
         "SIMPLE_AO_BOUNCE": 1,
         "VS:TextureScale": [
             1,
@@ -20,8 +19,10 @@
             3,
             3
         ],
-        "PS:Shine": 1,
-        "PS:StochasticRange": 0.80000001,
+        "PS:Shine": 0.5,
+        "PS:ShiftScale": 0.38,
+        "PS:Roughness": 0.41999999,
+        "PS:StochasticRange": 0.69999999,
         "TX:DiffuseMap": "/Lotus/Characters/Shared/Hair/HairBeardF/HairBeardCardF_d.png",
         "TX:StrandMap": "/Lotus/Characters/Shared/Hair/HairStrandShift_d.png",
         "TX:NormalMap": "/Lotus/Characters/Shared/Hair/HairBeardF/HairBeardCardF_n.png",

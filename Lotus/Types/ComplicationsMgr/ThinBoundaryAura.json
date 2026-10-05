@@ -1,0 +1,173 @@
+{
+    "parent": "/Lotus/Types/Scripts/Tau/CoH/Complications/CoHBaseAura",
+    "data": {
+        "LocalizeTag": "[HC] ThinBoundaryAura",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "Upgrades": [],
+        "TargetType": "/Lotus/Types/Player/TennoAvatar",
+        "ApplyToOwner": 0,
+        "AffectedByAuraEffectiveness": 0,
+        "RequiresOwner": 0,
+        "MaxStacks": 1,
+        "OnEnterAuraScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/ThinBoundary.lua",
+            "Function": "ApplyPlayerItem",
+            "_murmerAgentTypes": [],
+            "_murmerSpawnAnims": [],
+            "_murmerAvatarWeakRes": [],
+            "_specialMurmerAgentTypes": [],
+            "_specialMurmerSpawnAnims": [],
+            "_specialMurmerAvatarWeakRes": [],
+            "_normalAgentTypes": [],
+            "_normalSpawnAnims": [],
+            "_normalAvatarWeakRes": [],
+            "_specialAgentTypes": [],
+            "_specialSpawnAnims": [],
+            "_specialAvatarWeakRes": [],
+            "_sandDissolveFX": "/Lotus/Fx/Enemies/Mitw/MitwSandProj",
+            "_bubbleEntityType": "",
+            "_minSpawnDistance": 30,
+            "_maxSpawnDistance": 100,
+            "_spawnDistanceFromBubble": 15,
+            "_spawnDistanceFromPlayer": 10,
+            "_bubbleSpawnLimit": 25,
+            "_abilityTrackingItem": "ThinBoundaryBubbleItem",
+            "_minSpeed": 0.75,
+            "_maxSpeed": 2,
+            "_minMovementDelay": 1,
+            "_maxMovementDelay": 10,
+            "_damageTick": 1,
+            "_debuffIcon": "ThinBoundaryDebuffItem",
+            "_incarnonIcon": "ThinBoundaryDebuffIncarnonItem",
+            "_debuffRemoveDelay": 5,
+            "_abilityStatDebuff": 0.5,
+            "_energyDrainPerTick": 15,
+            "_incarnonDrainTickRate": 0.5,
+            "_incarnonChargesConsumedPerTick": 0.1,
+            "_bubbleDecoWeakRes": "/Lotus/Fx/Icebalde/IceVoidBubbleDeco",
+            "_bubbleDecoEdgeWeakRes": "/Lotus/Fx/Icebalde/IceVoidBubbleEdgesDeco"
+        },
+        "OnAuraAddedToLevelScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/ThinBoundary.lua",
+            "Function": "ApplyLevelAura",
+            "_murmerAgentTypes": [
+                "/Lotus/Types/Enemies/ManInTheWall/Octopede/Arm/MITWOctopedeArmAgent",
+                "/Lotus/Types/Enemies/ManInTheWall/Octopede/Arm/MITWOctopedeArmLeftAgent",
+                "/Lotus/Types/Enemies/ManInTheWall/Octopede/Leg/BipedalLegs/MITWOctopedeBipedalLegsAgent"
+            ],
+            "_murmerSpawnAnims": [
+                "/Lotus/Animations/MITW/Arm/Entry_anim.fbx",
+                "/Lotus/Animations/MITW/LArm/EntryLEFTARM_anim.fbx",
+                "/Lotus/Animations/MITW/TwoLegs/Spawn_anim.fbx"
+            ],
+            "_murmerAvatarWeakRes": [
+                "/Lotus/Types/Enemies/ManInTheWall/Octopede/Arm/MITWOctopedeArmAvatar",
+                "/Lotus/Types/Enemies/ManInTheWall/Octopede/Arm/MITWOctopedeArmLeftAvatar",
+                "/Lotus/Types/Enemies/ManInTheWall/Octopede/Leg/BipedalLegs/MITWOctopedeBipedalLegsAvatar"
+            ],
+            "_specialMurmerAgentTypes": [
+                "/Lotus/Types/Enemies/ManInTheWall/HandBomber/HandBomberAgent",
+                "/Lotus/Types/Enemies/ManInTheWall/Triangle/MITWSupportTriangleAgent",
+                "/Lotus/Types/Enemies/ManInTheWall/Slinky/MITWSlinkyAgent"
+            ],
+            "_specialMurmerSpawnAnims": [
+                "/Lotus/Animations/MITW/Handbomber/SpawnGround_anim.fbx",
+                "/Lotus/Animations/MITW/Triangle/OpenGround_anim.fbx",
+                "/Lotus/Animations/MITW/Slinky/GroundSpawn_anim.fbx"
+            ],
+            "_specialMurmerAvatarWeakRes": [
+                "/Lotus/Types/Enemies/ManInTheWall/HandBomber/HandBomberAvatar",
+                "/Lotus/Types/Enemies/ManInTheWall/Triangle/MITWSupportTriangleAvatar",
+                "/Lotus/Types/Enemies/ManInTheWall/Slinky/MITWSlinkyAvatar"
+            ],
+            "_normalAgentTypes": [
+                "/Lotus/Types/Enemies/Orokin/RifleSpacemanAgent",
+                "/Lotus/Types/Enemies/Orokin/RifleLancer",
+                "/Lotus/Types/Enemies/Orokin/OrokinBladeSawman"
+            ],
+            "_normalSpawnAnims": [
+                "/Lotus/Animations/Grineer/HitReacts/KnockDown/GetUpChestA_anim.fbx",
+                "/Lotus/Animations/Grineer/HitReacts/KnockDown/GetUpChestA_anim.fbx",
+                "/Lotus/Animations/Grineer/HitReacts/KnockDown/GetUpChestA_anim.fbx"
+            ],
+            "_normalAvatarWeakRes": [
+                "/Lotus/Types/Enemies/Orokin/RifleSpacemanAvatar",
+                "/Lotus/Types/Enemies/Orokin/RifleLancerAvatar",
+                "/Lotus/Types/Enemies/Orokin/OrokinBladeSawmanAvatar"
+            ],
+            "_specialAgentTypes": [
+                "/Lotus/Types/Enemies/Orokin/OrokinMinigunBombard",
+                "/Lotus/Types/Enemies/Orokin/OrokinHealingAncient"
+            ],
+            "_specialSpawnAnims": [
+                "/Lotus/Animations/Grineer/HitReacts/KnockDown/GetUpChestA_anim.fbx",
+                "/Lotus/Animations/Infested/MiniBoss/GetupFromFront_anim.fbx"
+            ],
+            "_specialAvatarWeakRes": [
+                "/Lotus/Types/Enemies/Orokin/OrokinHeavyFemaleAvatar",
+                "/Lotus/Types/Enemies/Orokin/OrokinHealingAncientAvatar"
+            ],
+            "_sandDissolveFX": "/Lotus/Fx/Enemies/Mitw/MitwSandProj",
+            "_bubbleEntityType": "ThinBoundaryBubbleTrigger",
+            "_minSpawnDistance": 10,
+            "_maxSpawnDistance": 75,
+            "_spawnDistanceFromBubble": 20,
+            "_spawnDistanceFromPlayer": 10,
+            "_bubbleSpawnLimit": 25,
+            "_abilityTrackingItem": "",
+            "_minSpeed": 0.75,
+            "_maxSpeed": 2,
+            "_minMovementDelay": 1,
+            "_maxMovementDelay": 10,
+            "_damageTick": 1,
+            "_debuffIcon": "ThinBoundaryDebuffItem",
+            "_incarnonIcon": "ThinBoundaryDebuffIncarnonItem",
+            "_debuffRemoveDelay": 5,
+            "_abilityStatDebuff": 0.5,
+            "_energyDrainPerTick": 15,
+            "_incarnonDrainTickRate": 0.5,
+            "_incarnonChargesConsumedPerTick": 0.1,
+            "_bubbleDecoWeakRes": "/Lotus/Fx/Icebalde/IceVoidBubbleDeco",
+            "_bubbleDecoEdgeWeakRes": "/Lotus/Fx/Icebalde/IceVoidBubbleEdgesDeco"
+        },
+        "OnAuraRemovedFromLevelScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/ThinBoundary.lua",
+            "Function": "RemoveLevelAura",
+            "_murmerAgentTypes": [],
+            "_murmerSpawnAnims": [],
+            "_murmerAvatarWeakRes": [],
+            "_specialMurmerAgentTypes": [],
+            "_specialMurmerSpawnAnims": [],
+            "_specialMurmerAvatarWeakRes": [],
+            "_normalAgentTypes": [],
+            "_normalSpawnAnims": [],
+            "_normalAvatarWeakRes": [],
+            "_specialAgentTypes": [],
+            "_specialSpawnAnims": [],
+            "_specialAvatarWeakRes": [],
+            "_sandDissolveFX": "/Lotus/Fx/Enemies/Mitw/MitwSandProj",
+            "_bubbleEntityType": "",
+            "_minSpawnDistance": 30,
+            "_maxSpawnDistance": 100,
+            "_spawnDistanceFromBubble": 15,
+            "_spawnDistanceFromPlayer": 10,
+            "_bubbleSpawnLimit": 25,
+            "_abilityTrackingItem": "",
+            "_minSpeed": 0.75,
+            "_maxSpeed": 2,
+            "_minMovementDelay": 1,
+            "_maxMovementDelay": 10,
+            "_damageTick": 1,
+            "_debuffIcon": "ThinBoundaryDebuffItem",
+            "_incarnonIcon": "ThinBoundaryDebuffIncarnonItem",
+            "_debuffRemoveDelay": 5,
+            "_abilityStatDebuff": 0.5,
+            "_energyDrainPerTick": 15,
+            "_incarnonDrainTickRate": 0.5,
+            "_incarnonChargesConsumedPerTick": 0.1,
+            "_bubbleDecoWeakRes": "/Lotus/Fx/Icebalde/IceVoidBubbleDeco",
+            "_bubbleDecoEdgeWeakRes": "/Lotus/Fx/Icebalde/IceVoidBubbleEdgesDeco"
+        },
+        "ClientRunsOnAddedRemovedScripts": 1
+    }
+}

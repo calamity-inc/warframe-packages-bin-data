@@ -1,0 +1,36 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnStorageCrateBName",
+        "LocalizeDescTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnStorageCrateBDesc",
+        "Icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/GrineerPlaceables/GrineerTauPlaceables/STMxGrnStorageCrateB.png",
+        "TypeName": "/Lotus/Levels/ClanDojo/ComponentPropRecipes/GrineerPlaceables/GrineerTauPlaceables/GrineerTau1stRelease/STMxGrnStorageCrateB",
+        "RegularPrice": 50000,
+        "SellingPrice": 2500,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1787671514,
+        "Giftable": 0,
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 30000
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 6000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 10000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                "ItemCount": 7
+            }
+        ],
+        "BuildTime": 86400,
+        "BuildPrice": 50000,
+        "SkipBuildTimePrice": 750
+    }
+}

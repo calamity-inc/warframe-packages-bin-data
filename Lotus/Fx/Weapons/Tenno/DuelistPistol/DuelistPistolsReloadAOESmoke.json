@@ -1,0 +1,90 @@
+{
+    "parent": "/Lotus/Fx/Explosions/Generic/SurfaceHitEffects/ExplosionHitEffectMediumMetalDustRadial",
+    "data": {
+        "UseLightProbes": 0,
+        "OverrideMaterial": [
+            ""
+        ],
+        "CullDistance": 25,
+        "DepthSortBias": 0,
+        "MaterialParams": [
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.2
+            }
+        ],
+        "CompositedEffect": 0,
+        "MirrorDraw": "MF_CULL_FROM_MIRRORS",
+        "RootMotion": 1,
+        "DetailLevel": "PQ_MEDIUM",
+        "UseTeamEffectsSetting": 1,
+        "CanNano": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "LifeSpan": 1,
+        "Life": [
+            1.2,
+            1.8
+        ],
+        "Size": [
+            0.80000001,
+            1.2
+        ],
+        "SizeByLife": {
+            "Values": [],
+            "SplineType": "LINEAR_SPLINE"
+        },
+        "Aspect": [
+            0.89999998,
+            1.1
+        ],
+        "GrowthRate": [
+            0.30000001,
+            0.60000002
+        ],
+        "InitialCount": [
+            12,
+            12
+        ],
+        "Material": "/Lotus/Fx/Smoke/SmokeBillowFlipSP",
+        "RandomStartFrame": 0,
+        "ColorMin": [
+            180,
+            238,
+            238,
+            32
+        ],
+        "ColorMax": [
+            171,
+            205,
+            239,
+            64
+        ],
+        "Spin": [
+            -0.0049999999,
+            0.0049999999
+        ],
+        "SpinByLife": {
+            "Values": []
+        },
+        "FadeInOut": [
+            0,
+            0.80000001
+        ],
+        "FadeByLife": {
+            "Values": []
+        },
+        "EyeFadeDist": 0.5,
+        "Speed": [
+            0.5,
+            3
+        ],
+        "Drag": 3.855422,
+        "Mass": [
+            -0.0099999998,
+            0.02
+        ]
+    }
+}

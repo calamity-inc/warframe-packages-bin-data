@@ -1,0 +1,236 @@
+{
+    "parent": "/Lotus/Types/Weapon/WaveProjectile",
+    "data": {
+        "Mesh": "/Lotus/Fx/Weapons/Corpus/CrpAirPistol/AirPistolProjMesh.fbx",
+        "MeshScale": 0.1,
+        "OverrideMaterial": [
+            "/Lotus/Fx/Weapons/Corpus/Shotgun/CrpShotgunProjMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "vScales",
+                "type": "Float4",
+                "slot": -1,
+                "value": 1,
+                "value1": 1,
+                "value2": 0.64999998,
+                "value3": 0
+            }
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Melee/Gunblade/ExaltedAWGunScythe/GunScytheProjDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Melee/Gunblade/ExaltedAWGunScythe/GunScytheProjSparks",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Melee/Gunblade/ExaltedAWGunScythe/GunScytheProjTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Explosions/ExplosionWindPersistentMedium",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Melee/Gunblade/ExaltedAWGunScythe/GunScytheProjLight",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Melee/Gunblade/ExaltedAWGunScythe/GunScytheProjFlare",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Melee/Gunblade/ExaltedAWGunScythe/GunScytheMuzzleFX",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "DamageUpgradeTypes": [
+            "WEAPON_MELEE_DAMAGE"
+        ],
+        "AttackData": {
+            "Type": "DT_FIRE",
+            "Amount": 650,
+            "ProcChance": 0.2,
+            "ForcedProcs": [
+                "PT_BIG_STAGGER"
+            ],
+            "ForcedDeathProcs": [
+                "PT_RAGDOLL"
+            ]
+        },
+        "NotifyImpactBehavior": 1,
+        "IgnoreHeadShotBonus": 1,
+        "CriticalChance": 0.30000001,
+        "CriticalMultiplier": 2.5,
+        "DamageFallOff": [
+            15,
+            30
+        ],
+        "DamageFallOffMinDamage": 300,
+        "GrenadeShootPermissions": [],
+        "GrenadeShootBonus": [],
+        "DieEffect": "/Lotus/Fx/Weapons/Melee/Gunblade/ExaltedAWGunScythe/GunScytheDieFX",
+        "DieSound": "/Lotus/Sounds/Weapons/Archwing/Melee/ExaltedArchwingScythe/ExaltedArchwingScythePrimeLayerProjDie",
+        "MaxLife": 0.68000001,
+        "WhizzBySound": "/Lotus/Sounds/Weapons/Archwing/Melee/ExaltedArchwingScythe/ExaltedArchwingScytheProjBy",
+        "HorizontalImpulse": 500,
+        "KinematicMovement": 1,
+        "KinematicInitialSpeed": 40,
+        "KinematicMinSpeed": 40,
+        "KinematicMaxSpeed": 40,
+        "ProjectileReplication": "SYNCED_AUTONOMOUS",
+        "ApplyColorCustomization": 1,
+        "RiftStasisWeight": 25,
+        "SweepType": "Sphere",
+        "InitialWidth": 0.1,
+        "InitialRadius": 1,
+        "AllowNormalContactBehavior": 1,
+        "ProjectileResizes": [
+            {
+                "Time": 0,
+                "ResizeWidth": 0,
+                "ResizeRadius": 0
+            },
+            {
+                "Time": 0.5,
+                "ResizeWidth": 2,
+                "ResizeRadius": 4
+            }
+        ],
+        "DestroyOnContactTypes": [
+            "/Lotus/Types/Enemies/Corpus/Spaceman/AIWeek/NullifyShieldDecoCollision",
+            "/Lotus/Powersuits/Frost/IceShieldDeco",
+            "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/NpcIceShieldDeco"
+        ],
+        "ImpulseScale": 2
+    }
+}

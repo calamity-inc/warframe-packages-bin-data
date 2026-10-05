@@ -128,7 +128,13 @@
         ],
         "OnSpeak": {
             "Script": "/Lotus/Scripts/Venus/Hub/HubNpcConversation.lua",
-            "Function": "OnSpeak"
+            "Function": "OnSpeak",
+            "_flickerEmissive": 0,
+            "_emissiveParam": "EmissiveMapAtten",
+            "_emissiveMin": 0.1,
+            "_emissiveMax": 6,
+            "_applyToChildren": 1,
+            "_returnToBaseline": 0
         },
         "EnableEyeTracking": 1,
         "EnableEyeDarting": 1,

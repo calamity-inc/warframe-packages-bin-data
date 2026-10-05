@@ -1,0 +1,63 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "UseLightProbes": 1,
+        "DepthSortBias": 15,
+        "RefractiveWater": 1,
+        "UseParentDissolve": 0,
+        "ReplicationOverride": "RO_NEVER",
+        "Material": "/Lotus/Fx/PowersuitAbilities/Glass/FragmentAttachProjMat",
+        "OnlyRenderOverOpaque": 0,
+        "UseAttachRoot": 0,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 3,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0.25,
+                    0.75
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 1,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "TriggeredFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 0.5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 1,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "LifeSpan": 30,
+        "TexturesToCopy": [
+            {
+                "TextureNameFromParent": "NormalMap",
+                "TextureNameToCopyTo": "NormalMapp",
+                "CopyToDissolveOverride": 0
+            }
+        ]
+    }
+}

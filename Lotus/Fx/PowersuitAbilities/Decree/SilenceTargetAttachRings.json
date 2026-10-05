@@ -1,0 +1,72 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "DistortionEffect": 1,
+        "VisibleDistortion": 1,
+        "DistortionMaterial": "/Lotus/Fx/Common/ThickRingEnergyColor",
+        "DetailLevel": "PQ_MEDIUM",
+        "HasLifeSpan": 0,
+        "LifeSpan": 8,
+        "Life": [
+            0.18000001,
+            0.25
+        ],
+        "Size": [
+            0.1,
+            0.2
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 3
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "SpewCount": [
+            14,
+            14
+        ],
+        "Material": "/Lotus/Fx/Common/ThinRingEnergyColor",
+        "AnimateTiles": 1,
+        "ColorMin": [
+            107,
+            201,
+            230,
+            255
+        ],
+        "ColorMax": [
+            107,
+            201,
+            230,
+            255
+        ],
+        "ColorKeys": [
+            [
+                107,
+                201,
+                230,
+                255
+            ],
+            [
+                107,
+                201,
+                230,
+                255
+            ]
+        ],
+        "RandOrientation": 1,
+        "FadeInOut": [
+            0.80000001,
+            1
+        ],
+        "EyeFadeDist": 2,
+        "Nozzle": "SPHERE",
+        "NozzleDev": 1,
+        "NozzleSize": 1
+    }
+}

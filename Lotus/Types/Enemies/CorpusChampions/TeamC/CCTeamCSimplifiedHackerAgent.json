@@ -61,6 +61,7 @@
             ],
             "KeepTrying": 1,
             "DrawDest": 0,
+            "ClearTarget": 0,
             "MoveAction:Type": "/EE/Types/Npc/LocomotionFollowPath",
             "MoveAction:Enabled": 1,
             "MoveAction:OnStartScript": {
@@ -88,7 +89,8 @@
             "MinDistFromEnemy": 3,
             "EvaluationDelayOnEnemyToClose": 8,
             "MatchActionAttachOwnerFaction": 0,
-            "AttackTargetsOnRoute": 0
+            "AttackTargetsOnRoute": 0,
+            "StopWhenNoLongerTouching": 1
         },
         "CoordinatedEntityPlacementBehavior": {
             "Enabled": 1,

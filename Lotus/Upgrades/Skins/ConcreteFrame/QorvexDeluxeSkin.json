@@ -1,0 +1,137 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 165,
+        "AdditionalItems": [
+            "QorvexDeluxeHelmet"
+        ],
+        "LocalizeTag": "/Lotus/Language/Deluxe/QorvexDeluxeSkinName",
+        "LocalizeDescTag": "/Lotus/Language/Deluxe/QorvexDeluxeSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/QorvexDeluxeSkin.png",
+        "ExcludeFromCodex": 0,
+        "OverrideDateAddedToManifest": 1790215200,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrameBaseSuit",
+        "UpgradeSkinOverride": "QorvexDeluxeWeaponSkin",
+        "CompatibleSlots": [
+            "BodySkin"
+        ],
+        "ApplyEnergyColor": 1,
+        "OverrideAttachedFx": 1,
+        "AttachedFxOverrides": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Characters/Tenno/Brutalist/QorvexDeluxe/QorvexDeluxePlatesDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "DefaultEnergyColor": [
+            230,
+            117,
+            33,
+            255
+        ],
+        "DefaultEnergyColor1": [
+            219,
+            60,
+            18,
+            255
+        ],
+        "DefaultCustomizationOverrides": {
+            "CustomEmblem": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0.050000001,
+                            0.090000004,
+                            -0.22
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0.087155998,
+                            0,
+                            0,
+                            0.99619502
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "EventEmblem": {
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            -0.050000001,
+                            -0.050000001,
+                            0.23
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0.087155998,
+                            0,
+                            0,
+                            0.99619502
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            }
+        },
+        "ResourceOverrides": [
+            {
+                "Tag": "PillarDeco",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Concrete/QorvexDeluxe/QorvexDeluxePillarDeco"
+            },
+            {
+                "Tag": "WallDeco",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Concrete/QorvexDeluxe/QorvexDeluxeWallDeco"
+            },
+            {
+                "Tag": "ChargeDeco",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Concrete/QorvexDeluxe/QorvexDeluxeHalfLifeBuffDeco"
+            }
+        ]
+    }
+}

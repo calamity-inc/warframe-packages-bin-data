@@ -1,0 +1,67 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "DressCloth_skel.fbx",
+        "ControlData": "DressClothData",
+        "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.1,
+                0.1
+            ],
+            "collidingDampeningRange": [
+                0,
+                0
+            ],
+            "massRange": [
+                0.1,
+                0.5
+            ],
+            "distConstraintRange": [
+                0.1,
+                1
+            ],
+            "shearingStiffness": 0.5,
+            "worldVelocityAtten": [
+                1,
+                1.25,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "wind": [
+                1,
+                0,
+                1
+            ],
+            "windStrength": [
+                0,
+                1
+            ],
+            "noiseSpeed": 2,
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                1,
+                0.30000001,
+                1
+            ],
+            "windVolumeScale": [
+                0.5,
+                0.2,
+                0.5
+            ],
+            "windVolumeOffsetRate": [
+                0.2,
+                0,
+                0.2
+            ],
+            "collisionExemptions": [
+                "Leg2Right"
+            ],
+            "orientationBasis": "NEG_X_Y",
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 12
+            },
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.79000002,
+                    0.071000002,
+                    0.97000003,
+                    1
+                ]
+            }
+        ],
+        "SpawnRate": 100,
+        "SpawnCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "EmissionTime": 1,
+        "EnergyTintMethod": "ETM_LIFE",
+        "useCollisions": 0,
+        "affectedByWind": 1,
+        "drag": 0.60000002,
+        "mass": [
+            -0.1,
+            0.1
+        ],
+        "life": [
+            0.2,
+            1
+        ],
+        "size": [
+            0.0099999998,
+            0.015
+        ],
+        "velocity": [
+            0.1,
+            2
+        ],
+        "streaksFactor": 12,
+        "spawnShape": "SP_DISC",
+        "velocityDeviation": [
+            0,
+            0.30000001
+        ],
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            0.1,
+            0.1,
+            0.0099999998
+        ],
+        "spawnFlowBlend": 0.60000002,
+        "pointTexture": "/Lotus/Fx/Common/Sphere10Truncated_p.png",
+        "flowForceEnd": [
+            4,
+            4,
+            4
+        ],
+        "flowScrolling": [
+            0,
+            -0.60000002,
+            0
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksFadeMidB",
+        "colorKeys[0]": [
+            0.95999998,
+            0.14,
+            1,
+            1
+        ]
+    }
+}

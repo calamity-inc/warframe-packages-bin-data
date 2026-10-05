@@ -5,8 +5,11 @@
         "ProgressIndicatorFreq": 0,
         "ShowProgressOnFirstCount": 0,
         "Recurring": 1,
-        "IsWeakpoint": 1,
-        "WeakpointWeaknessValue": 0.1,
+        "Script": {
+            "Script": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/IsWeakpoint.lua",
+            "Function": "MatchAttackEvent",
+            "_weakness": 0.1
+        },
         "DamageType": "DT_ANY"
     }
 }

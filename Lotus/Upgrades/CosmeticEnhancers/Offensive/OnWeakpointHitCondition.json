@@ -5,9 +5,12 @@
         "ProgressIndicatorFreq": 0,
         "ShowProgressOnFirstCount": 0,
         "Recurring": 1,
+        "Script": {
+            "Script": "IsWeakpoint.lua",
+            "Function": "MatchAttackEvent",
+            "_weakness": 0.5
+        },
         "Injury": "ANY",
-        "IsWeakpoint": 1,
-        "WeakpointWeaknessValue": 0.5,
         "IgnoreHitTypes": [
             "DHT_RADIAL",
             "DHT_DOT"

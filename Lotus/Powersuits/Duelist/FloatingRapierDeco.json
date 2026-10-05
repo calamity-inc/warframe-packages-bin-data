@@ -1,0 +1,119 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Characters/Tenno/Duelist/DuelistExaltedSword/DuelistExaltedSword_skel.fbx",
+        "MeshScale": 1.2,
+        "OverrideMaterial": [
+            "/Lotus/Fx/PowersuitAbilities/Duelist/BladeDanceFloatingRapierWeaponMat"
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    1.25,
+                    0
+                ],
+                "LocalRotation": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                "BoneName": "GAME_C1_ROOT",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Duelist/BladeDanceFloatingRapierTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "ScriptInstance": {
+            "Script": "Abilities/DuelistBladeDance.lua",
+            "Function": "SwordDecoLoop",
+            "_castAnims": [],
+            "_inputFilter": "",
+            "_swordDecoType": "",
+            "_projType": "",
+            "_areaTrigger": "",
+            "_inputMatchSound": "",
+            "_inputMissSound": "",
+            "_markQuadType": "",
+            "_rangeDeco": "",
+            "_icePlatformDeco": "",
+            "_iceExplosionFx": "",
+            "_iceExplosionSound": "",
+            "_dancePhysics": "",
+            "_defaultPhysics": "",
+            "_areaLoopSeq": "",
+            "_abilityEndSound": "",
+            "_targetLockedSound": "",
+            "_projExplosionSound": "",
+            "_dodgeSound": ""
+        },
+        "ReplicaRunScriptInstance": 1,
+        "TriggeredAnimation": "/Lotus/Animations/Tenno/Powers/Narin/Ability4SwordAWEP_anim.fbx",
+        "PlayTriggeredAnimOnStart": 1,
+        "EnableReplicaMoveNoise": 1,
+        "ReplicaPositionNoise": [
+            0,
+            0.25,
+            0.2,
+            0.1
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.30000001,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "TriggeredMaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.30000001,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0.12,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "MovementVector": [
+            0,
+            10,
+            0
+        ],
+        "MovementIsSimPosition": 1,
+        "ApplyColorCustomization": 1,
+        "InheritCreatorColors": 1
+    }
+}

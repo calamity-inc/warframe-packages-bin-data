@@ -1,0 +1,86 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "MaterialParams": [
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            }
+        ],
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.80000001,
+            1.6
+        ],
+        "Size": [
+            2,
+            3
+        ],
+        "GrowthRate": [
+            0.2,
+            1
+        ],
+        "InitialCount": [
+            18,
+            18
+        ],
+        "Material": "/Lotus/Fx/Explosions/ExplosionFlipLargeShaderEnergyColor",
+        "AnimateTiles": 1,
+        "AnimatePower": [
+            1,
+            1.2
+        ],
+        "ColorKeys": [
+            [
+                134,
+                64,
+                244,
+                255
+            ],
+            [
+                82,
+                50,
+                228,
+                255
+            ]
+        ],
+        "DepthSort": 1,
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0020000001,
+            0.0020000001
+        ],
+        "FadeInOut": [
+            0.1,
+            0.69999999
+        ],
+        "LightingOffset": [
+            0,
+            0,
+            1.2
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleDev": 1,
+        "NozzleBox": [
+            0.30000001,
+            0.30000001,
+            0.30000001
+        ],
+        "NozzleSize": 0.40000001,
+        "Speed": [
+            5,
+            25
+        ],
+        "Drag": 2,
+        "Mass": [
+            -0.25,
+            -0.1
+        ]
+    }
+}

@@ -2,6 +2,7 @@
     "parent": "/Lotus/Types/Game/InjuryHandlers/LotusExplosionDamageProc",
     "data": {
         "DeathInjuryType": "DEATH_RAGDOLL",
+        "DeathEffectType": "/Lotus/Fx/Gameplay/DeathEffects/DeathEffectExplosion",
         "EvaluatorTypes": [
             "DefaultExplosionProcEvaluator"
         ],
@@ -60,30 +61,6 @@
         "DeathRadialPercentBaseDamage": 3,
         "DeathRadialDamageRadius": 5,
         "DeathRadialDamageFallOff": 0.69999999,
-        "DeathEffects": [
-            {
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "",
-                "Type": "/Lotus/Fx/Gameplay/DeathEffects/ExplosionDeath",
-                "Chance": 255,
-                "RelativeToBounds": 1,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            }
-        ],
         "DestroyAvatar": 1,
         "DestroyAvatarDelay": 1.5
     }

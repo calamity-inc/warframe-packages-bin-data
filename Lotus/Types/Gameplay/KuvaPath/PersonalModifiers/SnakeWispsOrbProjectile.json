@@ -1,0 +1,219 @@
+{
+    "parent": "/EE/Types/Engine/GuidedProjectile",
+    "data": {
+        "Mesh": "/Lotus/Powersuits/Trapper/Deployables/DeploySphere.x",
+        "OverrideMaterial": [
+            "/EE/Materials/Hidden"
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Enemies/Eximus/Shock/EximusShockOrbLoopSeq",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "SnakeWispsOrbScriptTrigger",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Enemies/Eximus/EximusAbilityFXShockOrbFlare",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Enemies/Eximus/EximusAbilityFXShockOrbTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Enemies/Eximus/EximusAbilityFXShockOrbDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Enemies/Eximus/EximusAbilityFXShockOrbEmbers",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Enemies/Eximus/EximusAttachFXShockLight",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicAvatarsWalkThroughIgnoreCamera",
+        "RespondToDamageImpulse": 1,
+        "ReplicaRunScriptInstance": 1,
+        "ReplicationOverride": "RO_ALWAYS",
+        "ReplicateCreator": 1,
+        "AttackData": {
+            "Type": "DT_ELECTRICITY",
+            "Amount": 0,
+            "ProcChance": 0
+        },
+        "ExplosiveAttack": {
+            "Type": "DT_ELECTRICITY",
+            "ProcChance": 0
+        },
+        "ExplosionIgnoreSource": 1,
+        "AllowedDamageTypes": [
+            "DT_ANY"
+        ],
+        "DamageRadius": 5,
+        "DieEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXScifiSmall",
+        "DieSound": "/Lotus/Sounds/Enemies/Eximus/Shock/EximusShockGlobeExplosion",
+        "DieEffectOffset": [
+            0,
+            0,
+            0
+        ],
+        "Toughness": 100,
+        "MaxLife": 10,
+        "MaxBounces": 999,
+        "IgnoreFriendlyAvatars": 1,
+        "VerticalImpulse": 1000,
+        "HorizontalImpulse": 1000,
+        "Health": 100,
+        "SendEvents": 0,
+        "AlwaysChangeInstigatorIfShot": 1,
+        "EmbedDeathAttack": {
+            "Type": "DT_ELECTRICITY",
+            "ProcChance": 0
+        },
+        "EmbedEffect": "/Lotus/Fx/HitEffects/TennoShieldHit",
+        "KinematicPostCollisionsSpeedFactor": 1.1,
+        "KinematicInitialSpeed": 0,
+        "KinematicMaxSpeed": 40,
+        "KinematicGravityMultiplier": 0,
+        "KinematicRestitution": 1,
+        "KinematicRestitutionParallel": 1,
+        "KinematicBulletRaycast": 0,
+        "ProjectileReplication": "REPLICATED",
+        "ApplyColorCustomization": 1,
+        "ForwardVel": 0,
+        "AimRate": 180,
+        "ReducedAimRate": 180,
+        "SeekAllEntities": 1,
+        "AvatarTargetPart": "TORSO"
+    }
+}

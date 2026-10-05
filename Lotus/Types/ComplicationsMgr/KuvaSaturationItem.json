@@ -1,15 +1,45 @@
 {
     "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
     "data": {
-        "LocalizeTag": "[HC] KuvaSaturationItem",
-        "LocalizeDescTag": "[HC] Give me a description",
+        "LocalizeTag": "/Lotus/Language/Iceblade/CryobellTheme_Kuva_Name",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/CryobellTheme_Kuva_Desc",
         "Script": {
             "Script": "/Lotus/Scripts/Gameplay/Complications/KuvaSaturation.lua",
             "Function": "OnUpgradeApplied",
             "_abilityUsedDamageChallenge": "KuvaSaturationOnAbilityCastCondition",
             "_mildSaturationLevelAura": "KuvaSaturationMildCmpAura",
             "_strongSaturationLevelAura": "KuvaSaturationStrongCmpAura",
-            "_severeSaturationLevelAura": "KuvaSaturationSevereCmpAura"
+            "_severeSaturationLevelAura": "KuvaSaturationSevereCmpAura",
+            "_OnKuvaIncreaseFx": "/Lotus/Fx/Icebalde/IceKuvaCrystalSpreadFx",
+            "_KuvaStackEffects": [
+                "/Lotus/Fx/Icebalde/IceKuvaCrystalRainMildFx",
+                "/Lotus/Fx/Icebalde/IceKuvaCrystalRainStrongFx",
+                "/Lotus/Fx/Icebalde/IceKuvaCrystalRainSevereFx"
+            ],
+            "_KuvaWispAgent": "KuvaSaturationGhostAgent",
+            "_KuvaSpeedBuffFx": "/Lotus/Fx/Icebalde/IceKuvaBurstEnergyFx",
+            "_wispExplosionDamageRadius": 4,
+            "_wispExplosionDamageAmount": 500,
+            "_wispExplosionBonusDamagePerKuvaStack": 250,
+            "_KuvaWispSpawnFx": "",
+            "_KuvaWispExplosionFx": ""
+        },
+        "UnappliedScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/KuvaSaturation.lua",
+            "Function": "OnUpgradeRemoved",
+            "_abilityUsedDamageChallenge": "KuvaSaturationOnAbilityCastCondition",
+            "_mildSaturationLevelAura": "",
+            "_strongSaturationLevelAura": "",
+            "_severeSaturationLevelAura": "",
+            "_OnKuvaIncreaseFx": "",
+            "_KuvaStackEffects": [],
+            "_KuvaWispAgent": "KuvaSaturationGhostAgent",
+            "_KuvaSpeedBuffFx": "/Lotus/Fx/Icebalde/IceKuvaBurstEnergyFx",
+            "_wispExplosionDamageRadius": 4,
+            "_wispExplosionDamageAmount": 500,
+            "_wispExplosionBonusDamagePerKuvaStack": 250,
+            "_KuvaWispSpawnFx": "",
+            "_KuvaWispExplosionFx": ""
         }
     }
 }

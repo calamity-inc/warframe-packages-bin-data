@@ -1,0 +1,78 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Objects/Gameplay/CrystalSharpD.fbx",
+        "MeshScale": 0.40000001,
+        "MotionBlurred": 1,
+        "IgnoreParentScale": 1,
+        "TestRotate": 1,
+        "TestRotateSpeed": [
+            50,
+            0,
+            0
+        ],
+        "EnableReplicaMoveNoise": 1,
+        "CancelNoiseOnDestroy": 1,
+        "ReplicaPositionNoise": [
+            0,
+            0.34999999,
+            0,
+            0.075000003
+        ],
+        "ReplicaRotationNoise": [
+            87,
+            0,
+            0,
+            0.163
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "Dissolve",
+                "Slot": -1,
+                "TimeLength": 2,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 1
+                        }
+                    ],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "UseDitherDissolve": 1,
+        "RandomMaterialParameters": [
+            {
+                "Parameter": "TintColor3",
+                "RandomLow": [
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "RandomHigh": [
+                    0.30000001,
+                    0,
+                    1.8,
+                    0
+                ]
+            }
+        ]
+    }
+}

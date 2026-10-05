@@ -1,0 +1,49 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
+    "data": {
+        "LocalizeDescTag": "/Lotus/Language/Conquest/WeaponBuff_WeaponCriticalChanceAndMultiplier_Desc",
+        "Upgrades": [
+            {
+                "UpgradeType": "WEAPON_CRIT_CHANCE",
+                "OperationType": "STACKING_MULTIPLY",
+                "Value": 1.5,
+                "DamageType": "DT_ANY",
+                "AutoType": 1,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": [],
+                "OverrideLocalization": 0,
+                "SmallerIsBetter": 0,
+                "RoundTo": 0.1,
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
+            },
+            {
+                "UpgradeType": "WEAPON_CRIT_DAMAGE",
+                "OperationType": "STACKING_MULTIPLY",
+                "Value": 1.5,
+                "DamageType": "DT_ANY",
+                "AutoType": 1,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": [],
+                "OverrideLocalization": 0,
+                "SmallerIsBetter": 0,
+                "RoundTo": 0.1,
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
+            }
+        ],
+        "ItemCompatibility": ""
+    }
+}

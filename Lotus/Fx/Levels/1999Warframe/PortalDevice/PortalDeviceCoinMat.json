@@ -3,6 +3,19 @@
     "data": {
         "VERTEX_EFFECT": "PIVOT_VOLUME_OFFSET",
         "ONE_C_ALPHA_MASK": 1,
+        "PS:AlphaMaskClip": 0.25,
+        "PS:AlphaMaskUvSelect": 0,
+        "PS:AlphaMaskRedInfluence": 0,
+        "PS:AlphaMaskFlowInfluence": 0,
+        "PS:TintColor": [
+            0.70999998,
+            0.46000001,
+            0.027000001,
+            1
+        ],
+        "TX:PackMap": "/Lotus/Fx/Levels/InfestedMicroplanet/OrokinCoinTileAltPackMap",
+        "TX:NormalMap": "/Lotus/Fx/Levels/InfestedMicroplanet/OrokinCoinTileAlt_n.png",
+        "TX:AlphaMask": "/Lotus/Fx/Common/CircleGradient_d.png",
         "VS:VolumePan": [
             0.1,
             0.050000001,
@@ -29,18 +42,7 @@
             1,
             0.02
         ],
-        "PS:AlphaMaskClip": 0.25,
-        "PS:AlphaMaskUvSelect": 0,
-        "PS:TintColor": [
-            0.70999998,
-            0.46000001,
-            0.027000001,
-            1
-        ],
         "TX:NoiseVolume": "/EE/Materials/Util/CurlNoiseFlowVolumeNoise_v.png",
-        "TX:PackMap": "/Lotus/Fx/Levels/InfestedMicroplanet/OrokinCoinTileAltPackMap",
-        "TX:NormalMap": "/Lotus/Fx/Levels/InfestedMicroplanet/OrokinCoinTileAlt_n.png",
-        "TX:AlphaMask": "/Lotus/Fx/Common/CircleGradient_d.png",
         "AlphaTest": 1,
         "AlphaTestValue": 0.1
     }

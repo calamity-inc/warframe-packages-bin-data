@@ -1,0 +1,42 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/SteamWorkshop/SWCovenJadeHelmetName",
+        "LocalizeDescTag": "/Lotus/Language/SteamWorkshop/SWCovenJadeHelmetDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWJadeCovenHelmet.png",
+        "ExcludeFromCodex": 0,
+        "IsPurchasePlatformLocked": 1,
+        "IsSteamPurchase": 1,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Powersuits/Choir/ChoirBaseSuit",
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Characters/Tenno/Choir/SWCovenJade/SWCovenJadeHelmetMainDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "ApplyEnergyColor": 1,
+        "OverrideAttachedFx": 1,
+        "AttachedFxOverrides": []
+    }
+}

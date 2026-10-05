@@ -1,0 +1,64 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "BansheeDeluxeTailCloth_skel.fbx",
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "BansheeDeluxeTailClothData",
+        "Collision": "/Lotus/Characters/Tenno/Berserker/ValkyrHeirloom/Cloth/ValkyrHeirloomClothSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.082000002,
+                0.082999997
+            ],
+            "collidingDampeningRange": [
+                0.082000002,
+                0.082999997
+            ],
+            "massRange": [
+                0.28999999,
+                0.58999997
+            ],
+            "distConstraintRange": [
+                0.0099999998,
+                0.69999999
+            ],
+            "backstopConstraintRange": [
+                0.0099999998,
+                0.2
+            ],
+            "shearingStiffness": 0.28999999,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "windVelocityScale": 0.28999999,
+            "windAffected": 0,
+            "windStrength": [
+                0,
+                0
+            ],
+            "noiseSpeed": 0,
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "windVolumeScale": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "windVolumeOffsetRate": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "simulateCollisionLast": 0
+        },
+        "UseClothCollision": 1,
+        "ZoneWindScale": 1
+    }
+}

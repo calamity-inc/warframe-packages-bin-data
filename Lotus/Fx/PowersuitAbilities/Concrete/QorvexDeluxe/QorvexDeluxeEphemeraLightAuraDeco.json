@@ -1,0 +1,68 @@
+{
+    "parent": "/Lotus/Fx/Explosions/Generic/ExplosionAlienAuraDecoMedium",
+    "data": {
+        "MeshScale": 0.40000001,
+        "OverrideMaterial": [
+            "QorvexDeluxeEphemeraAuraMat"
+        ],
+        "NearCullDistance": 0,
+        "MaterialParams": [
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.94,
+                    0.17,
+                    0.033,
+                    1
+                ]
+            }
+        ],
+        "TestRotate": 0,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0.723005,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "TriggeredMaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0.14554
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

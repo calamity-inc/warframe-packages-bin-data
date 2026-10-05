@@ -1,0 +1,35 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Objects/Tenno/Shadowgrapher/InkSplashA.fbx",
+        "MeshScale": 1.7,
+        "OverrideMaterial": [
+            "KuvaEximusLiquidMat",
+            "/EE/Materials/Hidden",
+            ""
+        ],
+        "MaterialParams": [
+            {
+                "name": "vScales",
+                "type": "Float4",
+                "slot": -1,
+                "value": 2,
+                "value1": 1.3,
+                "value2": 2,
+                "value3": 0
+            }
+        ],
+        "AcceptsDynamicProjectors": 0,
+        "IgnoreParentRotation": 1,
+        "TestRotateSpeed": [
+            40,
+            10,
+            20
+        ],
+        "BoundsExpansion": [
+            1,
+            1,
+            1
+        ]
+    }
+}

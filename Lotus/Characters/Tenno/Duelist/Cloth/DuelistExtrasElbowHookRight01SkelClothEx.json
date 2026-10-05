@@ -1,0 +1,27 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "DuelistExtrasElbowHookRight01_skel.fbx",
+        "ControlData": "DuelistExtrasElbowHookRight01SkelClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.07,
+                0.07
+            ],
+            "massRange": [
+                1,
+                1
+            ],
+            "distConstraintRange": [
+                0,
+                0.40000001
+            ],
+            "useBackstopConstraints": 1,
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 0.30000001,
+            "simulateCollisionLast": 0
+        },
+        "UseDynamicCollision": 0,
+        "UseClothCollision": 1
+    }
+}

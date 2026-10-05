@@ -1,0 +1,29 @@
+{
+    "parent": "/EE/Types/Effects/Spawner",
+    "data": {
+        "Position": [
+            0,
+            0.25,
+            0
+        ],
+        "Rotation": [
+            0.70710677,
+            0,
+            0,
+            0.70710677
+        ],
+        "IgnoreParentRotation": 1,
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Effects/MovementEffects.lua",
+            "Function": "AttachDuringSlide",
+            "_attachType": "QorvexDeluxeEphemeraSlideTrailSpawner",
+            "_allowSlidingInAir": 0
+        },
+        "IsAutoFire": 1,
+        "OwnChildren": 1,
+        "WaitForCinematic": 1,
+        "ApplyColorCustomization": 1,
+        "UseAttachmentColorSlot": 1,
+        "AllowCreateWhenInvisible": 1
+    }
+}

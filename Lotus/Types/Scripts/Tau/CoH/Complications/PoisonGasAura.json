@@ -11,18 +11,12 @@
         "OnAuraAddedToLevelScript": {
             "Script": "CohLevelFeatureAura.lua",
             "Function": "PoisonGasChallengeStart",
-            "_darkLevelInfoOverride": "",
-            "_tilesetSymb": "",
-            "_disableFlashLight": 0,
             "_poisonGasAuraType": "/Lotus/Types/Gameplay/1999Wf/HexConquest/MissionConditions/PoisonGasCloudCondition",
             "_damageZoneAuraType": "/Lotus/Types/Gameplay/1999Wf/Survival/ContaminatedZoneAreaAura"
         },
         "OnAuraRemovedFromLevelScript": {
             "Script": "CohLevelFeatureAura.lua",
             "Function": "PoisonGasChallengeEnd",
-            "_darkLevelInfoOverride": "",
-            "_tilesetSymb": "",
-            "_disableFlashLight": 0,
             "_poisonGasAuraType": "/Lotus/Types/Gameplay/1999Wf/HexConquest/MissionConditions/PoisonGasCloudCondition",
             "_damageZoneAuraType": "/Lotus/Types/Gameplay/1999Wf/Survival/ContaminatedZoneAreaAura"
         }

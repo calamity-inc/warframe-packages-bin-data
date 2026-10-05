@@ -1,0 +1,41 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/Primes/CraftingComponent_CitrinePrimeHelmetName",
+        "LocalizeDescTag": "/Lotus/Language/Primes/CraftingComponent_CitrinePrimeHelmetDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeHelmet.png",
+        "TypeName": "/Lotus/Types/Recipes/WarframeRecipes/CitrinePrimeHelmetBlueprint",
+        "RegularPrice": 35000,
+        "SellingPrice": 3500,
+        "PrimeSellingPrice": 100,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1786537352,
+        "Tradeable": 1,
+        "Giftable": 0,
+        "ExcludeFromCodex": 0,
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "CitrinePrimeHelmetComponent",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                "ItemCount": 4
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 1750
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 450
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 4750
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "SkipBuildTimePrice": 25
+    }
+}

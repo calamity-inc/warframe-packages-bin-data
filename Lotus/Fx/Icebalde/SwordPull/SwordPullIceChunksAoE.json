@@ -1,0 +1,74 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "DepthSortBias": -10,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "AlwaysRespectParentVisibility": 1,
+        "Life": [
+            0.25,
+            0.60000002
+        ],
+        "Size": [
+            0.025,
+            0.055
+        ],
+        "Aspect": [
+            0.94999999,
+            1.2
+        ],
+        "InitialCount": [
+            3,
+            3
+        ],
+        "RegenCount": [
+            1,
+            1
+        ],
+        "BurstCount": [
+            5,
+            8
+        ],
+        "Shape": "SH_SPIN_SPRITE",
+        "Material": "/Lotus/Fx/Destruction/GlassChunks",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            108,
+            166,
+            201,
+            255
+        ],
+        "ColorMax": [
+            188,
+            215,
+            226,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.097561002,
+            0.146341
+        ],
+        "OrbitOffset": 0,
+        "FadeInOut": [
+            0,
+            0.89999998
+        ],
+        "Nozzle": "SPHERE",
+        "UseRootForParent": 0,
+        "NozzleDev": 0.542373,
+        "SkeletalBoneMask": [
+            "GAME_C1_FXATTACH"
+        ],
+        "Speed": [
+            1.5,
+            3
+        ],
+        "Drag": 8,
+        "Mass": [
+            0.60000002,
+            1
+        ],
+        "VelocityStretch": 3
+    }
+}

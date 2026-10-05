@@ -1,0 +1,90 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "DeadParentInheritanceRule": "NONE",
+        "IgnoreParentScale": 1,
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Effects/CustomEffects.lua",
+            "Function": "SetAttachmentEnergyColourParam",
+            "_TintColor0": "TintColor",
+            "_TintColor1": "SecondTintColor",
+            "_TintColor2": "TintColor_1",
+            "_TintColor3": "SecondaryTintColor_1",
+            "_EmissiveTintColor0": "EmissiveTintColorHi",
+            "_EmissiveTintColor1": "EmissiveTintColorLo",
+            "_Desaturation": 0,
+            "_AlphaStrength": 1,
+            "_Spawner": "",
+            "_Delay": 0.0099999998,
+            "_UnlitAtten": 0,
+            "_CustomDitherDissolve": 1,
+            "_invulnDamageProj": "",
+            "_invulnDamageEffect": "",
+            "_ParamToSampleHigh": "HighColor",
+            "_ParamToSampleLow": "LowColor"
+        },
+        "Material": "BladeDanceFrozenFeetProjMat",
+        "UseAttachRoot": 0,
+        "MaterialFade": [
+            {
+                "Parameter": "impactPoint",
+                "TimeLength": 1,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 0,
+                "IsWorldPosUpdate": 1,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 1,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0.60000002,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 0,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "TriggeredFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 0.25,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0.2
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 1,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

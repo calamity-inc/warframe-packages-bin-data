@@ -193,6 +193,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/DefaultAccuracyInfo",
@@ -559,6 +560,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/DefaultAccuracyInfo",
@@ -1089,11 +1091,15 @@
                 "UseAttachmentIndexForHolsterHand": 0
             }
         ],
-        "NumChargesToAdd": 5,
         "MaxCharges": 20,
         "ClearChargesOnBehaviorChange": 1,
-        "AddChargeConditions": [
-            "PRIMARY_HEADSHOT"
+        "AddCharges": [
+            {
+                "Conditions": [
+                    "PRIMARY_HEADSHOT"
+                ],
+                "NumCharges": 5
+            }
         ],
         "ConsumeChargeConditions": [
             "SECONDARY_FIRE"

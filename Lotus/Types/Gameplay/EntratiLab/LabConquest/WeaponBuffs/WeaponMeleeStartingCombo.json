@@ -1,0 +1,29 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
+    "data": {
+        "LocalizeDescTag": "/Lotus/Language/Conquest/WeaponBuff_WeaponMeleeStartingCombo_Desc",
+        "Upgrades": [
+            {
+                "UpgradeType": "WEAPON_MELEE_COMBO_INITIAL_BONUS",
+                "OperationType": "ADD",
+                "Value": 40,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": [],
+                "OverrideLocalization": 0,
+                "SmallerIsBetter": 0,
+                "RoundTo": 0.1,
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
+            }
+        ],
+        "ItemCompatibility": ""
+    }
+}

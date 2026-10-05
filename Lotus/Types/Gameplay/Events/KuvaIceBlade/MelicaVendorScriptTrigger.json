@@ -1,0 +1,79 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "PhysicsBehavior": "",
+        "Tag": "MelicaVendor",
+        "Dimensions": [
+            0,
+            0,
+            0
+        ],
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/Events/EventVendor.lua",
+                    "Function": "OpenEventTraderMenu",
+                    "_name": "/Lotus/Language/Iceblade/MelicaName",
+                    "_customSpeakerNamesPerRank": [],
+                    "_subTitle": "",
+                    "_topicName": "",
+                    "_eventTag": "",
+                    "_clanEventTag": "",
+                    "_gracePeriodOverrideTag": "",
+                    "_syndicate": "",
+                    "_isNightwave": 0,
+                    "_idleTransFunction": "",
+                    "_transmissionSet": "",
+                    "_transmissionIdleDelay": [
+                        20,
+                        25
+                    ],
+                    "_transmissionIdleInterupt": 0,
+                    "_setConversationTransmissionSet": 0,
+                    "_vendorManifest": "/Lotus/Types/Game/VendorManifests/Hubs/MelicaVendorManifest",
+                    "_loopingSound": "",
+                    "_openSound": "",
+                    "_closeSound": "",
+                    "_extraCurrencyTypes": [
+                        "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem"
+                    ],
+                    "_hideBackground": 1,
+                    "_widthOffset": 0,
+                    "_timeLeftTitle": "/Lotus/Language/Store/EventVendor_WaresRefreshTimeLeft",
+                    "_addSortBys": 0,
+                    "_sortByFunctions": [
+                        "NAME",
+                        "DEFAULT",
+                        "PRICE"
+                    ],
+                    "_perItemExpiry": 0,
+                    "_priceTagIgnoresCount": 0,
+                    "_hideMisc": 0,
+                    "_showHideOwned": 1,
+                    "_showSyndicateProgressInfo": 0,
+                    "_addExtraCurrencyFilter": 0,
+                    "_isTiedToCiruitTimer": 0,
+                    "_hideInstigatorAvatar": 1,
+                    "_disableTransmissionCameraTracking": 1,
+                    "_cameraSpot": "",
+                    "_light": "",
+                    "_useThemedLight": 1,
+                    "_entityToTrack": "",
+                    "_entityBone": "",
+                    "_midMissionPurchaseActionTag": "",
+                    "_useAttachedCameraSpot": 0,
+                    "_cameraSpotTransitionTime": -1,
+                    "_dpdSquadOverlayTitle": "",
+                    "_dpdPurchaseBtnTag": "",
+                    "_dpdPriceTagOverride": "",
+                    "_dpdBundleTag": "",
+                    "_dpdHidePurchaseConfirm": 0,
+                    "_dpdHideRelated": 0,
+                    "_dpdVendorMode": 0,
+                    "_requirementsMetBacker": "/Lotus/Interface/Icons/Store/RequirementsMetBacker.png"
+                }
+            }
+        ]
+    }
+}

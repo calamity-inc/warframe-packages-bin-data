@@ -1,0 +1,36 @@
+{
+    "parent": "/EE/Types/Engine/DeferredDecalProjector",
+    "data": {
+        "CullDissolveRatio": 0,
+        "UseHZBOcclusionCulling": 0,
+        "Material": "DuelistEphemeraSlidingDecalMat",
+        "Width": 2.5,
+        "Height": 2.5,
+        "ScaleDeviation": [
+            1,
+            2
+        ],
+        "UvScale": 0.5,
+        "DiscardAngle": 180,
+        "IsEffectsMaterial": 1,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 0.80000001,
+                "Multiplier": 2,
+                "FadeRange": [
+                    0.2,
+                    0.2
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 1
+            }
+        ]
+    }
+}

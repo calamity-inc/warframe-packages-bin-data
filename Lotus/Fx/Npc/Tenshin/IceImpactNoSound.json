@@ -1,0 +1,95 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.5,
+            3
+        ],
+        "Size": [
+            0.025,
+            0.039999999
+        ],
+        "InitialCount": [
+            128,
+            160
+        ],
+        "Shape": "SH_SPIN_SPRITE",
+        "Material": "/Lotus/Fx/Env/SnowMat",
+        "ColorMin": [
+            157,
+            211,
+            228,
+            255
+        ],
+        "ColorMax": [
+            185,
+            211,
+            223,
+            255
+        ],
+        "ColorKeys": [
+            [
+                64,
+                179,
+                209,
+                255
+            ],
+            [
+                64,
+                179,
+                209,
+                255
+            ]
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.050000001,
+            0.050000001
+        ],
+        "FadeInOut": [
+            0,
+            0.89999998
+        ],
+        "Nozzle": "PLANE",
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ],
+        "NozzleDev": 1,
+        "NozzleBox": [
+            0.1,
+            0.1,
+            0
+        ],
+        "NozzleSize": 0.5,
+        "SoundDelay": [
+            0,
+            0.0099999998
+        ],
+        "SuppressMultipleSounds": 1,
+        "Speed": [
+            6,
+            8
+        ],
+        "Drag": 3,
+        "FlowVolume": "/EE/Types/GraphicsRes/DefaultFlowVolume",
+        "FlowVelocity": [
+            8,
+            8,
+            8
+        ],
+        "FlowScale": [
+            0.40000001,
+            0.40000001,
+            0.40000001
+        ],
+        "FlowOffsetRate": [
+            0,
+            0.050000001,
+            0
+        ]
+    }
+}

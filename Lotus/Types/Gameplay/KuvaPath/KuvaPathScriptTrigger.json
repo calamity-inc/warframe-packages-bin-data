@@ -1,0 +1,45 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "PhysicsBehavior": "",
+        "Tag": "KuvaPathScript",
+        "SurvivesMigration": 1,
+        "Dimensions": [
+            0,
+            0,
+            0
+        ],
+        "AllowReentrant": 0,
+        "Replication": "BOTH",
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/KuvaPath/KuvaPath.lua",
+                    "Function": "KuvaPath",
+                    "_complicationsMgr": "/Lotus/Scripts/KuvaPath/KuvaComplicationsMgr/KuvaComplicationsMgrScriptTrigger",
+                    "_cryobellTransmissionSet": "/Lotus/Sounds/Dialog/CryobellMissions/CryobellMissionTransmissionSet",
+                    "_eventMarkerType": "KuvaPathEventAreaMarker",
+                    "_eventStartActionType": "KuvaPathStartEventAction",
+                    "_loadingMovie": "/Lotus/Interface/FullScreenQuad.swf",
+                    "_survivalRewardsMovie": "/Lotus/Interface/SurvivalReward.swf",
+                    "_goldChestRewardManifest": "/Lotus/Types/Game/MissionDecks/KuvaPathRewards/KuvaPathGoldRewards",
+                    "_silverChestRewardManifest": "/Lotus/Types/Game/MissionDecks/KuvaPathRewards/KuvaPathSilverRewards",
+                    "_goldKeyItemType": "GoldKeyItem",
+                    "_silverKeyItemType": "SilverKeyItem",
+                    "_silverChestType": "/Lotus/Types/LevelObjects/KuvaPath/KPAdditionalChallengeTreasureDeco",
+                    "_endOfMatchMovie": "/Lotus/Interface/EndOfMatch.swf",
+                    "_chestFx": "/Lotus/Fx/Levels/Zariman/IceBlade/IceLootChestOpenFx",
+                    "_eventStartedSound": "/Lotus/Sounds/UI/IcebladeOfNarin/IceBladeOfNarinSixStackEventStarted",
+                    "_keyReceivedSound": "/Lotus/Sounds/UI/IcebladeOfNarin/IceBladeOfNarinSixStackFrozenKeyPickup",
+                    "_iceTransitionSound": "/Lotus/Sounds/UI/IcebladeOfNarin/IceBladeFrostedLoadScreenTreasureRoomStart",
+                    "_reviveFxType": "/Lotus/Fx/PowersuitAbilities/ReviveBlast",
+                    "_respawnAnim": "/Lotus/Animations/Tenno/Contextual/RevivePowerBoost_anim.fbx",
+                    "_reviveSound": "/Lotus/Sounds/Gameplay/Arbitration/ArbitrationPlayerRevive",
+                    "_reviveStationRes": "KPReviveStationTrigger",
+                    "_stationStateRes": "KpReviveStationState"
+                }
+            }
+        ]
+    }
+}

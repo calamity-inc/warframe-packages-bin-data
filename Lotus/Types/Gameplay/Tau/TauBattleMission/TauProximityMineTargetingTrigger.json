@@ -1,0 +1,43 @@
+{
+    "parent": "/EE/Types/Engine/AutonomousScriptTrigger",
+    "data": {
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "Shape": "VES_SPHERE",
+        "Radius": 2.7,
+        "DebugColor": [
+            0,
+            245,
+            255,
+            127
+        ],
+        "AcceptType": "/Lotus/Types/Player/TennoAvatar",
+        "AllowReentrant": 0,
+        "Replication": "AUTONOMOUS",
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/Tau/TauProximityMine.lua",
+                    "Function": "TauProximityMineTargetingTrigger",
+                    "_capExtendTime": 0.25,
+                    "_capExtendDistance": 0.5,
+                    "_ejectTime": 0.5,
+                    "_applyRotationOffsetDuringEject": 0,
+                    "_debugDraw": 0,
+                    "_smokeVFX": "",
+                    "_launchEffect": "",
+                    "_launchFinishedEffect": "",
+                    "_capOpenSound": "",
+                    "_launchSound": "",
+                    "_capCloseSound": "",
+                    "_loopingSound": "",
+                    "_projectileType": "",
+                    "_splineType": "/Lotus/Fx/Gameplay/ThrowItemSplineDraw",
+                    "_capType": "",
+                    "_activateTriggerType": "",
+                    "_flashingLightVFXType": ""
+                }
+            }
+        ]
+    }
+}

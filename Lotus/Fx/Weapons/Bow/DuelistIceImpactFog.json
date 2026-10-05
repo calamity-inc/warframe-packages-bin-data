@@ -1,0 +1,88 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "OverrideMaterial": [
+            ""
+        ],
+        "CullDistance": 25,
+        "MaterialParams": [
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.2
+            }
+        ],
+        "MirrorDraw": "MF_CULL_FROM_MIRRORS",
+        "RootMotion": 1,
+        "DetailLevel": "PQ_MEDIUM",
+        "UseTeamEffectsSetting": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.89999998,
+            1.3
+        ],
+        "Size": [
+            0.5,
+            1
+        ],
+        "Aspect": [
+            0.89999998,
+            1.1
+        ],
+        "GrowthRate": [
+            0.30000001,
+            0.60000002
+        ],
+        "InitialCount": [
+            6,
+            6
+        ],
+        "Material": "/Lotus/Fx/Smoke/SmokeBillowFlipSP",
+        "AnimateTiles": 1,
+        "ColorMin": [
+            197,
+            198,
+            187,
+            32
+        ],
+        "ColorMax": [
+            239,
+            240,
+            241,
+            64
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0049999999,
+            0.0049999999
+        ],
+        "FadeInOut": [
+            0,
+            0.80000001
+        ],
+        "EyeFadeDist": 0.5,
+        "Nozzle": "SPHERE",
+        "NozzleMeshScale": [
+            2,
+            2,
+            2
+        ],
+        "NozzleDev": 0.60000002,
+        "NozzleBox": [
+            1.2,
+            0,
+            0
+        ],
+        "Speed": [
+            0.30000001,
+            1
+        ],
+        "Drag": 3.855422,
+        "Mass": [
+            -0.0099999998,
+            0.02
+        ]
+    }
+}

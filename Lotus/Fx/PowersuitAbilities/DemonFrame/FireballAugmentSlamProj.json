@@ -1,0 +1,43 @@
+{
+    "parent": "/Lotus/Fx/Weapons/Melee/Clean/Slams/MeleeSlamMediumDecalProj",
+    "data": {
+        "Width": 4,
+        "Height": 4,
+        "MaterialFade": [
+            {
+                "Parameter": "",
+                "TimeLength": 2,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0.02,
+                    0.66949201
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 1,
+                "DestroyWhenComplete": 0
+            },
+            {
+                "Parameter": "EmissiveAttenuation",
+                "TimeLength": 3,
+                "Multiplier": 2,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 0
+            }
+        ]
+    }
+}

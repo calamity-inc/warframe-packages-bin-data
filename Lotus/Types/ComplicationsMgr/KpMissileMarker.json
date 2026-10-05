@@ -1,0 +1,43 @@
+{
+    "parent": "/Lotus/Types/Game/MarkerInfo",
+    "data": {
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/KPMissileStrike.lua",
+            "Function": "MarkerSelfDestroy",
+            "_projectileSpawnerEntity": "",
+            "_projType": "",
+            "_projMarkerType": "",
+            "_projectileCount": 5,
+            "_minSpawnRange": 15,
+            "_maxSpawnRange": 25,
+            "_minSpawnDuration": 7,
+            "_maxSpawnDuration": 15
+        },
+        "ReplicaRunScriptInstance": 1,
+        "ReplicationOverride": "RO_NEVER",
+        "AlwaysInRange": 1,
+        "DisplayRange": [
+            10,
+            30
+        ],
+        "MarkerType": "MMMT_ALLY",
+        "Icon": "/Lotus/Interface/Icons/Markers/ArchRocketLauncherInitialMark.png",
+        "IconScale": [
+            2,
+            2,
+            1
+        ],
+        "ShowIconBacker": 0,
+        "Priority": 110,
+        "UseContextColorId": 0,
+        "Color": [
+            255,
+            0,
+            0,
+            255
+        ],
+        "DrawAsFloatingIcon": 1
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 100
+            }
+        ],
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.25,
+            1.5
+        ],
+        "Size": [
+            0.050000001,
+            0.079999998
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.25,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "InitialCount": [
+            40,
+            80
+        ],
+        "Shape": "SH_SPIN_SPRITE",
+        "Material": "/Lotus/Fx/Env/SnowMat",
+        "ColorMax": [
+            181,
+            201,
+            237,
+            255
+        ],
+        "ColorKeys": [
+            [
+                181,
+                201,
+                237,
+                255
+            ],
+            [
+                119,
+                168,
+                254,
+                255
+            ]
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.050000001,
+            0.050000001
+        ],
+        "FadeInOut": [
+            0,
+            0.69999999
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ],
+        "NozzleDev": 1,
+        "NozzleBox": [
+            0.1,
+            0.1,
+            0
+        ],
+        "NozzleSize": 0.25,
+        "Sound": "/Lotus/Sounds/Warframes/Frost/IceBallImpact",
+        "SoundDelay": [
+            0,
+            0.0099999998
+        ],
+        "SuppressMultipleSounds": 1,
+        "Speed": [
+            6,
+            8
+        ],
+        "Drag": 3,
+        "FlowVolume": "/EE/Types/GraphicsRes/DefaultFlowVolume",
+        "FlowVelocity": [
+            8,
+            8,
+            8
+        ],
+        "FlowScale": [
+            0.40000001,
+            0.40000001,
+            0.40000001
+        ],
+        "FlowOffsetRate": [
+            0,
+            0.050000001,
+            0
+        ]
+    }
+}

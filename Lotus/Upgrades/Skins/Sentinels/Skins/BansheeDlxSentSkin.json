@@ -1,0 +1,252 @@
+{
+    "parent": "/Lotus/Types/Game/LotusCompanionCustomization",
+    "data": {
+        "PickUpText": "",
+        "Equipable": 0,
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 40,
+        "LocalizeTag": "/Lotus/Language/Deluxe/BansheeDeluxeSentinelSkinName",
+        "LocalizeDescTag": "/Lotus/Language/Deluxe/BansheeDeluxeSentinelSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Sentinels/Cosmetics/Skins/BansheeDeluxe2SentinelSkin.png",
+        "ExcludeFromCodex": 0,
+        "OverrideDateAddedToManifest": 1790215200,
+        "Weapon": "/Lotus/Types/Sentinels/SentinelPowerSuit",
+        "UpgradeSkinOverride": "BansheeDlxSentWeaponSkin",
+        "CompatibleSlots": [
+            "BodySkin"
+        ],
+        "AnimController": "/Lotus/Types/Sentinels/SentinelAnimTreeController",
+        "AnimationSubTrees": {
+            "PRN_IDLE_OVERRIDE": "/Lotus/Types/Sentinels/DefaultSentinelIdle.animtree",
+            "PRN_CUSTOM_FIRE": "/Lotus/Types/Sentinels/BansheeDlxFiring.animtree"
+        },
+        "NamedSubTrees": [
+            {
+                "name": "SentinelPreDeath",
+                "tree": "/Lotus/Types/Sentinels/SentinelPowersuits/SentinelSubtrees/BansheeDlxSentinelPreDeathTree.animtree"
+            }
+        ],
+        "IdleAnimationOverride": "/Lotus/Animations/Pets/BansheeSentinel/Idle_anim.fbx",
+        "SentinelAnimOverrides": [
+            {
+                "ReactionName": "",
+                "ReactionAnims": []
+            }
+        ],
+        "FxBoneOverride": "GAME_C1_SPINE2",
+        "ApplyEnergyColor": 1,
+        "OverrideAttachedFx": 1,
+        "AttachedFxOverrides": [],
+        "DefaultCustomizationOverrides": {
+            "ArmLeft": {
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            -0.70710677,
+                            0,
+                            0.70710677
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "LegLeft": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0,
+                            0,
+                            0.0099999998
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "CustomEmblem": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "GAME_R1_WINGATTACH",
+                        "PosOffset": [
+                            0.02,
+                            0.1,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0.52133399,
+                            -0.65328097,
+                            -0.477714,
+                            0.27059799
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    },
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "EventEmblem": {
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "GAME_L1_WINGATTACH",
+                        "PosOffset": [
+                            0,
+                            -0.1,
+                            0.0099999998
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0.56098598,
+                            -0.62721097,
+                            -0.43045899,
+                            0.32650501
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    },
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "ArmRight": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0.70710677,
+                            0,
+                            0.70710677,
+                            0
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            }
+        }
+    }
+}

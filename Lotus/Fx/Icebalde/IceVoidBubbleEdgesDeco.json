@@ -1,0 +1,119 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Common/OutwardEnergy10mShell.fbx",
+        "MeshScale": 0.0099999998,
+        "OverrideMaterial": [
+            "/Lotus/Fx/Grineer/CaptainVor/CptVorGrenadeAttachSpikesMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.23,
+                    0.77999997,
+                    0.83999997,
+                    1
+                ]
+            },
+            {
+                "name": "LowColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.23,
+                    0.77999997,
+                    0.83999997,
+                    1
+                ]
+            },
+            {
+                "name": "FresnelPower",
+                "type": "Float",
+                "slot": -1,
+                "value": 5
+            },
+            {
+                "name": "TimeScalar",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.050000001
+            },
+            {
+                "name": "Pan",
+                "type": "Float4",
+                "slot": -1,
+                "value": -0.25,
+                "value1": -0.5,
+                "value2": 0,
+                "value3": 0
+            },
+            {
+                "name": "Hardness",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.5
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 8.4448242
+            }
+        ],
+        "UseOcclusionQuery": 0,
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "StartHidden": 1,
+        "TestRotate": 1,
+        "TestRotateSpeed": [
+            12,
+            0,
+            0
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "Scale",
+                "Slot": -1,
+                "TimeLength": 2,
+                "Multiplier": 0.30000001,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0.80000001,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 1
+            },
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 2,
+                "Multiplier": 12,
+                "FadeRange": [
+                    0.5,
+                    0.5
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnDropshipDestroyedBName",
+        "LocalizeDescTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnDropshipDestroyedBDesc",
+        "Icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/GrineerPlaceables/GrineerTauPlaceables/STMxGrnDropshipDestroyedB.png",
+        "TypeName": "/Lotus/Levels/ClanDojo/ComponentPropRecipes/GrineerPlaceables/GrineerTauPlaceables/GrineerTau1stRelease/STMxGrnDropshipDestroyedB",
+        "RegularPrice": 50000,
+        "SellingPrice": 2500,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1787671514,
+        "Giftable": 0,
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 30000
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 6000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 10000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                "ItemCount": 7
+            }
+        ],
+        "BuildTime": 86400,
+        "BuildPrice": 50000,
+        "SkipBuildTimePrice": 750
+    }
+}

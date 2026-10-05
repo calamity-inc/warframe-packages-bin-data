@@ -114,6 +114,7 @@
                                 "DefaultReevaluationDelay": 0,
                                 "TimeSinceLastSeen": 5,
                                 "MaxDistToTarget": 100,
+                                "SpeedMultiplier": 1,
                                 "ConsiderOrderType": 0,
                                 "Order": "",
                                 "FailsOnTargetAcquired": 0,
@@ -308,6 +309,7 @@
                                 "DefaultReevaluationDelay": 0,
                                 "TimeSinceLastSeen": 5,
                                 "MaxDistToTarget": 100,
+                                "SpeedMultiplier": 1,
                                 "ConsiderOrderType": 0,
                                 "Order": "",
                                 "FailsOnTargetAcquired": 0,
@@ -366,7 +368,6 @@
                                 "AimWhenIdle": 0,
                                 "AimWhenAlert": 1,
                                 "PermanentAlert": 0,
-                                "ForceIdleForSinglePointPatrols": 1,
                                 "AnimAction": "PatrolIdle",
                                 "GenericAnims": [],
                                 "MinPlayerDist": [
@@ -427,7 +428,8 @@
                                 },
                                 "OnlyFindPositionsOnFlightNav": 0,
                                 "MaxPatrolDistanceFromEncounterHint": 0,
-                                "UseStartingPositionAsEncounterPosition": 0
+                                "UseStartingPositionAsEncounterPosition": 0,
+                                "ResetStartingPositionOnStartup": 0
                             }
                         },
                         "CtfOrderHunterBehaviorSelector": {

@@ -4,24 +4,15 @@
         "Blend": "BLEND_ALPHA",
         "EMISSIVE_FX": "EMISSIVE_MASK",
         "VERTEX_EFFECT": "VERTEX_NORMAL_OFFSET",
-        "ONE_C_ALPHA_MASK": 1,
         "OPACITY_TREATMENT": "OT_ALPHA",
         "USE_LOW_RES_LIGHTING": 1,
         "EMISSIVE_MAP": 1,
+        "ONE_C_ALPHA_MASK": 1,
         "SPECULARMAP_IS_METALMAP": 0,
         "VS:Pan": [
             0.00013,
             -0.0020000001
         ],
-        "VS:NormalOffsetScale": [
-            0.0099999998,
-            0.0099999998,
-            0.0099999998
-        ],
-        "VS:NormalOffsetFade": 1,
-        "VS:OffsetPulseSize": 0.5,
-        "VS:OffsetPulseScale": 0.050000001,
-        "VS:OffsetPulseSpeed": 4,
         "PS:EmissiveTintColorHi": [
             0.086999997,
             0.38,
@@ -47,6 +38,8 @@
         ],
         "PS:AlphaMaskClip": 0.050000001,
         "PS:AlphaMaskUvSelect": 0,
+        "PS:AlphaMaskRedInfluence": 0,
+        "PS:AlphaMaskFlowInfluence": 0,
         "PS:TintColor": [
             0.34999999,
             0.41,
@@ -83,6 +76,15 @@
         "TX:NormalMap": "/Lotus/Objects/Tenno/Props/ZenGarden/ZenClimbingVine_n.png",
         "TX:EmissiveMap": "/Lotus/Objects/Natural/Skybox/Void/VoidRMDust01a_e.png",
         "TX:AlphaMask": "OvergrowthEphemeraAlpha_d.png",
+        "VS:NormalOffsetScale": [
+            0.0099999998,
+            0.0099999998,
+            0.0099999998
+        ],
+        "VS:NormalOffsetFade": 1,
+        "VS:OffsetPulseSize": 0.5,
+        "VS:OffsetPulseScale": 0.050000001,
+        "VS:OffsetPulseSpeed": 4,
         "DepthWrite": 0,
         "DepthBias": -0.0000099999997
     }

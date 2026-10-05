@@ -1,0 +1,51 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "PhysicsSleep": 1,
+        "PhysicsBehavior": "",
+        "Dimensions": [
+            0,
+            0,
+            0
+        ],
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/VoidTrader.lua",
+                    "Function": "OpenVoidTraderMenu",
+                    "_traderDecoType": "",
+                    "_evilTraderDecoType": "",
+                    "_traderSpawnEffect": "",
+                    "_genericVendorMovie": "/Lotus/Interface/GenericVendor.swf",
+                    "_traderTransmissions": "/Lotus/Sounds/Lotus/TransmissionSets/VoidTraderTransmissions",
+                    "_evilBaroTransmissionSets": [],
+                    "_evilBaroTransmissionType": "",
+                    "_inarosSuitType": "/Lotus/Powersuits/Sandman/Sandman",
+                    "_treasureBox": "/Lotus/Types/BoosterPacks/BaroTreasureBox",
+                    "_treasureBoxButtonCornerTexture": "/Lotus/Interface/Graphics/BaroBannerBorderDeco.png",
+                    "_treasureBoxBackerTexture": "/Lotus/Interface/Graphics/LoginRewards/BackGlow.png",
+                    "_treasureBoxBackerMaterial": "/Lotus/Interface/Materials/ArchonCrystalBacker",
+                    "_treasureBoxHighlightTexture": "/Lotus/Interface/Graphics/Themes/ItemHighlight.png",
+                    "_treasureBoxRevealMovie": "/Lotus/Interface/TreasureBoxReveal.swf",
+                    "_cameraSpotOffset": [
+                        -0.87089998,
+                        2.1300001,
+                        1.29956
+                    ],
+                    "_cameraSpotRotationOffset": [
+                        -230,
+                        20,
+                        -3
+                    ],
+                    "_leavingSoonWarningTime": 36000,
+                    "_transmissionIdleDelay": [
+                        20,
+                        25
+                    ],
+                    "_transmissionIdleInterupt": 0
+                }
+            }
+        ]
+    }
+}

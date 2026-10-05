@@ -1,0 +1,181 @@
+{
+    "parent": "/EE/Types/Engine/GuidedProjectile",
+    "data": {
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Ember/FireballProjFire",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 0,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Ember/FireballProjTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 0,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/DemonFrame/InfernalAttachFlames",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/DemonFrame/FireballAugmentFlames",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 2
+            }
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicNonCollidable",
+        "AttackData": {
+            "Type": "DT_FIRE",
+            "Amount": 1500,
+            "ProcChance": 0
+        },
+        "ExplosiveAttack": {
+            "Type": "DT_FIRE",
+            "Amount": 1500,
+            "ProcChance": 0,
+            "ForcedProcs": [
+                "PT_IMMOLATION"
+            ]
+        },
+        "ExplosionIgnoreSource": 1,
+        "ExplosionSelfAOEMultiplier": [
+            0,
+            0
+        ],
+        "ExplosionIgnoreCover": 0,
+        "ExplosionFallOff": 0.80000001,
+        "ExplodeEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXConcussiveSmall",
+        "DamageRadius": 5,
+        "DieSound": "/Lotus/Sounds/Vehicles/Motorcycle/MotorcycleNinetyNine/Abilities/MC99MarkTargetExplosionInst",
+        "MaxLife": 3,
+        "WhizzBySound": "/Lotus/Sounds/Vehicles/Motorcycle/MotorcycleNinetyNine/Abilities/MC99MarkTargetProjBy",
+        "WhizzByRadius": 25,
+        "WhizzByLocal": 1,
+        "OnlyCollideWithTarget": 1,
+        "IgnoreFriendlyAvatars": 1,
+        "VerticalImpulse": 1000,
+        "HorizontalImpulse": 1000,
+        "Health": 1,
+        "CanBeReflected": 0,
+        "KinematicMovement": 1,
+        "KinematicAccel": 400,
+        "KinematicInitialSpeed": 40,
+        "KinematicMinSpeed": 40,
+        "KinematicMaxSpeed": 40,
+        "KinematicRestitution": 0,
+        "KinematicRestitutionParallel": 0,
+        "KinematicBulletRaycast": 0,
+        "ProjectileReplication": "SYNCED_AUTONOMOUS",
+        "OnProjectileContactScript": {
+            "Script": "Abilities/DemonFrameFireBall.lua",
+            "Function": "OnAugmentProjectileContact",
+            "_activateAnim": "",
+            "_castEffect": "",
+            "_castDeco": "",
+            "_attachEffect": "",
+            "_castSound": "",
+            "_deactivateSound": "",
+            "_rangeDeco": "",
+            "_demonRangeDeco": "",
+            "_damageElement": "",
+            "_dashDamageElement": "",
+            "_demonDamageElement": "",
+            "_dodgeSubTree": "",
+            "_dashSubTree": "",
+            "_catenachCastSound": "",
+            "_gulphagorCastSound": "",
+            "_vythelasCastSound": "",
+            "_dodgeEffect": "",
+            "_dashEffect": "",
+            "_dashEffectLocal": "",
+            "_infernalDashSeqType": "",
+            "_infernalDashStartSound": "",
+            "_infernalDashStopSound": "",
+            "_dodgeAnimBase": "",
+            "_dodgeLoopAnim": "",
+            "_dodgeEndAnim": "",
+            "_dodgeEndInAirAnim": "",
+            "_inputFilter": "",
+            "_walkPhysics": "",
+            "_dashPhysics": "",
+            "_bossCollisionChecks": [],
+            "_bossCollisionSounds": []
+        },
+        "ApplyColorCustomization": 1,
+        "SmoothUnguidedFlightTransition": 1,
+        "SmoothUnguidedFlightTime": 0.5,
+        "AimRate": 720,
+        "ReducedAimRate": 720,
+        "IgnoreFlares": 1,
+        "CanTurnAround": 1,
+        "AvatarTargetPart": "TORSO"
+    }
+}

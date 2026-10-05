@@ -1,0 +1,38 @@
+{
+    "parent": "/EE/Types/FX/Explosions/Grenade/GrenadeLight",
+    "data": {
+        "DetailLevel": "LQ_MEDIUM",
+        "Color": [
+            111,
+            181,
+            234,
+            255
+        ],
+        "Brightness": 0.34687498,
+        "Lumens": 555,
+        "Radius": 5,
+        "CullShadows": 1,
+        "HasLifeSpan": 1,
+        "LifeSpan": 5,
+        "BrightnessCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.1,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.69999999,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        }
+    }
+}

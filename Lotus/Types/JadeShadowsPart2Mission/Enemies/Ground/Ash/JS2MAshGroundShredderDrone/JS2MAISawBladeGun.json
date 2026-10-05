@@ -881,11 +881,15 @@
             "AP_ATTACK",
             "AP_UNIVERSAL"
         ],
-        "NumChargesToAdd": 5,
         "MaxCharges": 20,
         "ClearChargesOnBehaviorChange": 1,
-        "AddChargeConditions": [
-            "PRIMARY_HEADSHOT"
+        "AddCharges": [
+            {
+                "Conditions": [
+                    "PRIMARY_HEADSHOT"
+                ],
+                "NumCharges": 5
+            }
         ],
         "ConsumeChargeConditions": [
             "SECONDARY_FIRE"

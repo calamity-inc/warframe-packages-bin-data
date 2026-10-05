@@ -1,0 +1,16 @@
+{
+    "parent": "/EE/Types/Game/MultiAvatarTrigger",
+    "data": {
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "IgnoreParentRotation": 1,
+        "ReplicationOverride": "RO_ALWAYS",
+        "Shape": "VES_SPHERE",
+        "Radius": 8,
+        "AllowRagdolls": 1,
+        "LiveRagdollsOnly": 1,
+        "OnlyCountPlayerControlledAvatars": 1,
+        "MaxAvatarsInside": 6,
+        "RefireOnFull": 0,
+        "DisplayMessages": 0
+    }
+}

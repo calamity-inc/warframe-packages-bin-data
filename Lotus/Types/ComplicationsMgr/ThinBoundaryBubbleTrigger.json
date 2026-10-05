@@ -1,0 +1,165 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Icebalde/IceVoidBubbleDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Icebalde/IceVoidBubbleEdgesDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 0.5
+            }
+        ],
+        "ServerChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "ThinBoundaryBubbleState",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "",
+        "Tag": "ThinBoundaryBubbleTrigger",
+        "IsCenterBaseOriented": 1,
+        "Shape": "VES_SPHERE",
+        "Radius": 0.1,
+        "Replication": "BOTH",
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/Gameplay/Complications/ThinBoundary.lua",
+                    "Function": "BubbleMovement",
+                    "_murmerAgentTypes": [],
+                    "_murmerSpawnAnims": [],
+                    "_murmerAvatarWeakRes": [],
+                    "_specialMurmerAgentTypes": [],
+                    "_specialMurmerSpawnAnims": [],
+                    "_specialMurmerAvatarWeakRes": [],
+                    "_normalAgentTypes": [],
+                    "_normalSpawnAnims": [],
+                    "_normalAvatarWeakRes": [],
+                    "_specialAgentTypes": [],
+                    "_specialSpawnAnims": [],
+                    "_specialAvatarWeakRes": [],
+                    "_sandDissolveFX": "/Lotus/Fx/Enemies/Mitw/MitwSandProj",
+                    "_bubbleEntityType": "",
+                    "_minSpawnDistance": 30,
+                    "_maxSpawnDistance": 100,
+                    "_spawnDistanceFromBubble": 15,
+                    "_spawnDistanceFromPlayer": 10,
+                    "_bubbleSpawnLimit": 25,
+                    "_abilityTrackingItem": "",
+                    "_minSpeed": 0.75,
+                    "_maxSpeed": 2,
+                    "_minMovementDelay": 1,
+                    "_maxMovementDelay": 10,
+                    "_damageTick": 1,
+                    "_debuffIcon": "ThinBoundaryDebuffItem",
+                    "_incarnonIcon": "ThinBoundaryDebuffIncarnonItem",
+                    "_debuffRemoveDelay": 5,
+                    "_abilityStatDebuff": 0.5,
+                    "_energyDrainPerTick": 15,
+                    "_incarnonDrainTickRate": 0.5,
+                    "_incarnonChargesConsumedPerTick": 0.1,
+                    "_bubbleDecoWeakRes": "/Lotus/Fx/Icebalde/IceVoidBubbleDeco",
+                    "_bubbleDecoEdgeWeakRes": "/Lotus/Fx/Icebalde/IceVoidBubbleEdgesDeco"
+                }
+            },
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/Gameplay/Complications/ThinBoundary.lua",
+                    "Function": "RadiusMonitor",
+                    "_murmerAgentTypes": [],
+                    "_murmerSpawnAnims": [],
+                    "_murmerAvatarWeakRes": [],
+                    "_specialMurmerAgentTypes": [],
+                    "_specialMurmerSpawnAnims": [],
+                    "_specialMurmerAvatarWeakRes": [],
+                    "_normalAgentTypes": [],
+                    "_normalSpawnAnims": [],
+                    "_normalAvatarWeakRes": [],
+                    "_specialAgentTypes": [],
+                    "_specialSpawnAnims": [],
+                    "_specialAvatarWeakRes": [],
+                    "_sandDissolveFX": "/Lotus/Fx/Enemies/Mitw/MitwSandProj",
+                    "_bubbleEntityType": "",
+                    "_minSpawnDistance": 30,
+                    "_maxSpawnDistance": 100,
+                    "_spawnDistanceFromBubble": 15,
+                    "_spawnDistanceFromPlayer": 10,
+                    "_bubbleSpawnLimit": 25,
+                    "_abilityTrackingItem": "",
+                    "_minSpeed": 0.75,
+                    "_maxSpeed": 2,
+                    "_minMovementDelay": 1,
+                    "_maxMovementDelay": 10,
+                    "_damageTick": 1,
+                    "_debuffIcon": "ThinBoundaryDebuffItem",
+                    "_incarnonIcon": "ThinBoundaryDebuffIncarnonItem",
+                    "_debuffRemoveDelay": 5,
+                    "_abilityStatDebuff": 0.5,
+                    "_energyDrainPerTick": 15,
+                    "_incarnonDrainTickRate": 0.5,
+                    "_incarnonChargesConsumedPerTick": 0.1,
+                    "_bubbleDecoWeakRes": "/Lotus/Fx/Icebalde/IceVoidBubbleDeco",
+                    "_bubbleDecoEdgeWeakRes": "/Lotus/Fx/Icebalde/IceVoidBubbleEdgesDeco"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "parent": "/EE/Types/Engine/DeathEffect",
+    "data": {
+        "DeathEffectChild": {
+            "Type": "MGFireDeath"
+        },
+        "OnDeathScript": {
+            "Script": "/Lotus/Scripts/Effects/FireDeath.lua",
+            "Function": "EnemyDeathByFire",
+            "_pFX": [],
+            "_leadUpFxToKill": [
+                "/Lotus/Fx/Enemies/GrineerDeathLeadUp",
+                "/Lotus/Fx/Enemies/GrineerVIPDeathLeadUp"
+            ],
+            "_speed": 1
+        },
+        "OverrideMaterialOnDeath": "/Lotus/Fx/Npc/BurnedBody"
+    }
+}

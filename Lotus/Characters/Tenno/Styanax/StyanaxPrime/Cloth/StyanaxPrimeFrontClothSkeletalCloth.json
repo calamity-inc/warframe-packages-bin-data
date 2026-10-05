@@ -46,10 +46,10 @@
             "_useBossBar": 0
         },
         "ReplicaRunScriptInstance": 1,
-        "DebugVis": "CV_JOINTS",
         "CollisionDebugVis": "CDV_ALL",
         "ControlData": "StyanaxPrimeFrontClothData",
         "Collision": "/Lotus/Powersuits/Hoplite/HopliteStyanaxPrimePowerSuitSimCollision",
+        "AddedCollision": "StyanaxPrimeFrontSuitSimCollision",
         "Attribs": {
             "dampeningRange": [
                 0.082000002,
@@ -64,8 +64,8 @@
                 0.54716998
             ],
             "distConstraintRange": [
-                0.000099999997,
-                0.37735799
+                0.0099999998,
+                1
             ],
             "reduceStretchExponent": 0.0099999998,
             "shearingStiffness": 0.041025601,
@@ -108,6 +108,7 @@
         "DefaultBoneConfig": {
             "distContraint": 0.5
         },
+        "AddedCollisionIsLocal": 1,
         "ZoneWindScale": 2
     }
 }

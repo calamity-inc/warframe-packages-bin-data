@@ -1734,6 +1734,54 @@
                 "Period": 1,
                 "Context": "PEC_ALL",
                 "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXSwordPullStart",
+                "Sound": "/Lotus/Sounds/Gameplay/Iceblade/IcebladeOfNarinSwordPullStart",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXSwordPullFail",
+                "Sound": "/Lotus/Sounds/Gameplay/Iceblade/IcebladeOfNarinSwordPullFail",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXSwordPullSuccess",
+                "Sound": "/Lotus/Sounds/Gameplay/Iceblade/IcebladeOfNarinSwordPullSuccess",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXSwordPullLoop",
+                "Sound": "/Lotus/Sounds/Gameplay/Iceblade/IcebladeOfNarinSwordPullLoop",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXSwordPullBlessing",
+                "Sound": "/Lotus/Sounds/Gameplay/Iceblade/IcebladeOfNarinSwordPullBlessing",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXSwordPullSuccess",
+                "Sound": "/Lotus/Sounds/UI/IcebladeOfNarin/IcebladeOfNarinPullSuccessMusic",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
             }
         ],
         "ForceFeedbackEffectEvents": [
@@ -2592,7 +2640,7 @@
                     "StepL"
                 ],
                 "RaycasterBoneName": "GAME_L1_LEG4",
-                "HitEffect": "/Lotus/Fx/SurfaceHitEffects/PlayerFootsteps/TennoSteps",
+                "HitEffect": "/Lotus/Fx/SurfaceHitEffects/PlayerFootsteps/TennoStepsLeft",
                 "OverridePostures": [
                     {
                         "Posture": "RUN",

@@ -1,0 +1,20 @@
+{
+    "parent": "/EE/Types/Engine/Entity",
+    "data": {
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/KPMissileStrike.lua",
+            "Function": "SpawnProjectileEntity",
+            "_projectileSpawnerEntity": "",
+            "_projType": "KpKelaMissileProjectile",
+            "_projMarkerType": "KpMissileMarker",
+            "_projectileCount": 5,
+            "_minSpawnRange": 15,
+            "_maxSpawnRange": 25,
+            "_minSpawnDuration": 7,
+            "_maxSpawnDuration": 15
+        },
+        "ReplicaRunScriptInstance": 1,
+        "ReplicationOverride": "RO_ALWAYS",
+        "ReplicateCreator": 1
+    }
+}

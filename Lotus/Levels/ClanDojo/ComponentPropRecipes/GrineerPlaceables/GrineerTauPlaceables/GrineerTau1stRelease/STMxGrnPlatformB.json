@@ -1,0 +1,34 @@
+{
+    "parent": "/Lotus/Types/Game/DojoDecorationRecipeItem",
+    "data": {
+        "RegularPrice": 50000,
+        "LocalizeTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnPlatformBName",
+        "LocalizeDescTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnPlatformBDesc",
+        "Icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/GrineerPlaceables/GrineerTauPlaceables/STMxGrnPlatformB.png",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 30000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 20000
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "ItemCount": 6000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                "ItemCount": 7
+            }
+        ],
+        "BuildTime": 86400,
+        "BuildPrice": 50000,
+        "SkipBuildTimePrice": 750,
+        "ResultDecoration": "/Lotus/Objects/Tenno/Props/TauGrineerPlaceables/STMxGrnPlatformB",
+        "DecoCapacityCost": 1,
+        "AssetRefundPercentage": 1,
+        "DecoCategory": "DDC_GRINEER"
+    }
+}

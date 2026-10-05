@@ -1,0 +1,83 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "OpulaArmorARCloth_skel.fbx",
+        "Attached": 1,
+        "AttachBone": "GAME_C1_SPINE5",
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "OpulaArmorARClothData",
+        "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.082000002,
+                0.082999997
+            ],
+            "collidingDampeningRange": [
+                0.032000002,
+                0.093167
+            ],
+            "massRange": [
+                -0.0077519999,
+                0.038759999
+            ],
+            "distConstraintRange": [
+                0.0099999998,
+                3.5999999
+            ],
+            "shearingStiffness": 0.5,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "wind": [
+                0.5,
+                0,
+                0.5
+            ],
+            "windStrength": [
+                0.2,
+                0.5
+            ],
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "windVolumeScale": [
+                2,
+                2,
+                2
+            ],
+            "windVolumeOffsetRate": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "floorPlaneHeight": 0.079999998,
+            "collisionExemptions": [
+                "LeftLegBump",
+                "LeftLegBump2",
+                "Rwing",
+                "BotSpine",
+                "BotSpineExt",
+                "Lwing",
+                "Leg1LeftExt",
+                "TopWingL2RPeer",
+                "R2LWingPeer",
+                "L2RWingPeer",
+                "SpineBump",
+                "RightLegBump",
+                "RightLegBump2"
+            ],
+            "orientationBasis": "X_Y",
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        },
+        "ZoneWindScale": 3
+    }
+}

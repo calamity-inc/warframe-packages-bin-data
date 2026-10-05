@@ -1,0 +1,183 @@
+{
+    "parent": "/EE/Types/Engine/Sequencer",
+    "data": {
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Ambience/Guild/MiscRemaster/CrpGuildAnnouncerSeq",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0
+            }
+        ],
+        "RandomOffset": 1,
+        "RandomOffsetExtent": [
+            30,
+            2,
+            30
+        ],
+        "Channels": [
+            {
+                "LoopCount": 0,
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "/Lotus/Sounds/Ambience/Guild/MiscRemaster/CrpGuildRoboticChatter",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            3
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": []
+            },
+            {
+                "LoopCount": 0,
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "/Lotus/Sounds/Ambience/Guild/MiscRemaster/CrpGuildHighTech",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            3
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": []
+            },
+            {
+                "LoopCount": 0,
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "/Lotus/Sounds/Ambience/Guild/MiscRemaster/CrpGuildHighTech",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            3
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": []
+            },
+            {
+                "LoopCount": 0,
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "/Lotus/Sounds/Ambience/Guild/MiscRemaster/CrpGuildHighMechanics",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            1
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": []
+            },
+            {
+                "LoopCount": 0,
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "/Lotus/Sounds/Ambience/Guild/MiscRemaster/CrpGuildMidTexture",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            1
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": []
+            },
+            {
+                "LoopCount": 0,
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "/Lotus/Sounds/Ambience/Guild/MiscRemaster/CrpGuildLowBoom",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            1
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": []
+            },
+            {
+                "LoopCount": 0,
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "/Lotus/Sounds/Ambience/Guild/MiscRemaster/CrpGuildCreatureRobotic",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            1
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": []
+            }
+        ]
+    }
+}

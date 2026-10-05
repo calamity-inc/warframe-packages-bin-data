@@ -1,0 +1,41 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/PackageStoreItem",
+    "data": {
+        "ProductCategory": "Packages",
+        "LocalizeTag": "/Lotus/Language/Bundles/QorvexDeluxeSkinBundleName",
+        "LocalizeDescTag": "/Lotus/Language/Bundles/QorvexDeluxeSkinBundleDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/WarframeBundles/QorvexDeluxeSkinBundle.png",
+        "DateAddedToManifest": 1790215200,
+        "Highlighted": 1,
+        "FeaturedTexture": "/Lotus/Interface/Graphics/Store/Banners/QorvexDeluxeBanner.png",
+        "ExcludeFromCodex": 0,
+        "PackageComponents": [
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/ConcreteFrame/QorvexDeluxeSkin",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/ConcreteFrame/QorvexDeluxeArchGunSkin",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/QorvexDeluxeSyandana",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Effects/QorvexDeluxeEphemera",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            }
+        ],
+        "AutoCalcPrices": 0,
+        "PremiumPrice": 340
+    }
+}

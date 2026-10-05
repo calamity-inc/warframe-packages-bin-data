@@ -1,0 +1,92 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 2000
+            }
+        ],
+        "MaximumParticles": 100,
+        "SpawnRate": 50,
+        "resilience": 0.25,
+        "drag": 0.1,
+        "mass": [
+            1,
+            1.5
+        ],
+        "life": [
+            0.30000001,
+            0.89999998
+        ],
+        "size": [
+            0.001,
+            0.0099999998
+        ],
+        "velocity": [
+            5,
+            14
+        ],
+        "windAttenuation": [
+            0.2,
+            0.5
+        ],
+        "streaksFactor": 8,
+        "spawnShape": "SP_CONE",
+        "velocityDeviation": [
+            0.217143,
+            0.25142899
+        ],
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            0.050000001,
+            0.050000001,
+            0.050000001
+        ],
+        "spawnFlowBlend": 0.5,
+        "spawnFlowForcePosScale": 0.15000001,
+        "flowScale": [
+            0.25,
+            0.25,
+            0.25
+        ],
+        "flowForce": [
+            50,
+            50,
+            50
+        ],
+        "flowForceEnd": [
+            20,
+            20,
+            20
+        ],
+        "flowScrolling": [
+            0,
+            -0.5,
+            0
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparks",
+        "colorKeys[0]": [
+            1,
+            0.31999999,
+            0.011,
+            1
+        ],
+        "colorKeys[1]": [
+            1,
+            0.31999999,
+            0.011,
+            1
+        ],
+        "colorKeys[2]": [
+            1,
+            0.31999999,
+            0.011,
+            1
+        ],
+        "numColors": 2
+    }
+}

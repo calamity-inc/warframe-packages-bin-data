@@ -1,0 +1,78 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "DuelistExaltedSwordTasselCloth_skel.fbx",
+        "Attached": 1,
+        "AttachBone": "GAME_C1_SPINE5",
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "DuelistExaltedSwordTasselClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.045499999,
+                0.082999997
+            ],
+            "collidingDampeningRange": [
+                0.040437002,
+                0.070436999
+            ],
+            "massRange": [
+                0.221,
+                0.29903501
+            ],
+            "useDistConstraints": 0,
+            "distConstraintRange": [
+                0,
+                1
+            ],
+            "useBackstopConstraints": 1,
+            "backstopConstraintRange": [
+                0,
+                1
+            ],
+            "useHardConstraints": 1,
+            "shearingStiffness": 0.5,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "windStrength": [
+                0,
+                0
+            ],
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                1,
+                1,
+                1
+            ],
+            "windVolumeScale": [
+                1,
+                1,
+                1
+            ],
+            "windVolumeOffsetRate": [
+                1,
+                1,
+                1
+            ],
+            "useCollision": 0,
+            "usePeerCollision": 0,
+            "addFloorPlaneCollision": 0,
+            "floorPlaneHeight": 0.090000004,
+            "collisionExemptions": [
+                "Arm2Left",
+                "Arm2Right",
+                "Arm2Left",
+                "Arm3Right"
+            ],
+            "orientationBasis": "NEG_X_Y",
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        },
+        "ZoneWindScale": 1
+    }
+}

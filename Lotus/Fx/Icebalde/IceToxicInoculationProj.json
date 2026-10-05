@@ -1,0 +1,68 @@
+{
+    "parent": "/Lotus/Fx/Gameplay/Duviri/OwlReconObjectHighlight",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.011,
+                    0.43000001,
+                    0.22,
+                    1
+                ]
+            },
+            {
+                "name": "nScales",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0.0099999998,
+                "value1": 0.0099999998,
+                "value2": 0.0099999998,
+                "value3": 0
+            },
+            {
+                "name": "Scalar1",
+                "type": "Float",
+                "slot": -1,
+                "value": 2
+            },
+            {
+                "name": "Scalar2",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.15000001
+            },
+            {
+                "name": "Scalar3",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.34999999
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.41999999
+            },
+            {
+                "name": "TimeScalar",
+                "type": "Float",
+                "slot": -1,
+                "value": 1.5
+            },
+            {
+                "name": "nScalesFade",
+                "type": "Float",
+                "slot": -1,
+                "value": 2
+            }
+        ],
+        "DeadParentInheritanceRule": "COPY",
+        "Active": 1,
+        "Material": "IceJuggernautsProjectorMat",
+        "RegisterAutoKill": 1,
+        "ApplyColorCustomization": 1
+    }
+}

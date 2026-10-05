@@ -1,0 +1,226 @@
+{
+    "parent": "/Lotus/Types/Game/HubNpcs/NewStaticHubNpc",
+    "data": {
+        "Mesh": "/Lotus/Characters/Orokin/BallasArmored/BallasHead_skel.fbx",
+        "MeshScale": 1.25,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Characters/Orokin/BallasArmored/BallasArmoredBodyDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_HEAD1",
+                "Type": "/Lotus/Characters/Orokin/BallasArmored/Cloth/BallasArmoredHeadStrandsClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_R1_CLAV1",
+                "Type": "/Lotus/Characters/Orokin/BallasArmored/Cloth/TauHologramBallasArmoredShoulderRSkelClothEx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "BallasHologramFX",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    -0.13052601,
+                    0,
+                    0.991445
+                ],
+                "BoneName": "GAME_L1_EYE1",
+                "Type": "BallasHologramEyeBeam",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.13052601,
+                    0,
+                    0.991445
+                ],
+                "BoneName": "GAME_R1_EYE1",
+                "Type": "BallasHologramEyeBeam",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.12,
+                    -0.15000001,
+                    0
+                ],
+                "LocalRotation": [
+                    0.70710677,
+                    0,
+                    0,
+                    0.70710677
+                ],
+                "BoneName": "GAME_C1_HEAD1",
+                "Type": "BallasConeDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "Tag": "Ballas",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Quests/TauPrologue/BallasHologram.lua",
+            "Function": "Update",
+            "_fadeOutDelay": 1,
+            "_fadeInSound": "/Lotus/Sounds/Quests/TauSentientCity/Misc/TauCityBallasHologramFadeIn",
+            "_fadeOutSound": "/Lotus/Sounds/Quests/TauSentientCity/Misc/TauCityBallasHologramFadeOut",
+            "_fadeInEffect": "/Lotus/Fx/Quests/SentientCity/BallasFadeIn",
+            "_fadeOutEffect": "/Lotus/Fx/Quests/SentientCity/BallasFadeOut",
+            "_headTrack": 1,
+            "_headBone": "GAME_C1_HEAD1",
+            "_neckBoneA": "GAME_C1_NECK1",
+            "_neckBoneB": "GAME_C1_NECK2",
+            "_headBlendWeight": 0.66000003,
+            "_neckBlendWeightA": 0.057999998,
+            "_neckBlendWeightB": 0.016000001,
+            "_headSmoothTime": 0.60000002,
+            "_torsoTrack": 1,
+            "_torsoBoneA": "GAME_C1_SPINE1",
+            "_torsoBoneB": "GAME_C1_SPINE2",
+            "_torsoBoneC": "GAME_C1_SPINE3",
+            "_torsoBlendWeightA": 0.278,
+            "_torsoBlendWeightB": 0.168,
+            "_torsoBlendWeightC": 0.072999999,
+            "_torsoSmoothTime": 0.60000002,
+            "_debugDraw": 0
+        },
+        "Radius": 4,
+        "OnlyCountPlayerControlledAvatars": 1,
+        "InactiveAnims": [
+            "/Lotus/Animations/Visemes/Ballas/Idles/BallasIdle03_anim.fbx"
+        ],
+        "ActiveAnims": [
+            "/Lotus/Animations/Visemes/Ballas/Idles/BallasIdle03_anim.fbx"
+        ],
+        "TriggeredAnims": [
+            {
+                "Tag": "SpeechA",
+                "AnimList": [
+                    "/Lotus/Animations/Visemes/Ballas/Idles/BallasIdle01_anim.fbx"
+                ]
+            },
+            {
+                "Tag": "SpeechB",
+                "AnimList": [
+                    "/Lotus/Animations/Visemes/Ballas/Idles/BallasIdle02_anim.fbx"
+                ]
+            }
+        ],
+        "maxTrackingAngle": 90,
+        "EnableHeadTracking": 0,
+        "HeadClampMin": [
+            0,
+            0,
+            -360
+        ],
+        "HeadClampMax": [
+            0,
+            0,
+            360
+        ],
+        "EnableEyeTracking": 0
+    }
+}

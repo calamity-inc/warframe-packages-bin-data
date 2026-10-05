@@ -1,0 +1,27 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
+    "data": {
+        "LocalizeTag": "[HC] AttackEchoesVariableItem",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "ApplyUpgradesByDefault": 0,
+        "Script": {
+            "Script": "/Lotus/Scripts/KuvaPath/KuvaPathPersonalModifiers.lua",
+            "Function": "SpawnGrenade",
+            "_shieldType": "VoltShieldDeco",
+            "_grabEffect": "/Lotus/Fx/PowersuitAbilities/Volt/ShieldGrab",
+            "_knockdownTriggerType": "/Lotus/Powersuits/Volt/ShieldKnockdownTrigger",
+            "_shieldRestorePercent": 0.050000001,
+            "_beamType": "",
+            "_baseDmgPerSec": 10,
+            "_snakeWispType": "SnakeWispsOrbProjectile",
+            "_grenadeType": "AttackEchoesGrenadeProjectile",
+            "_damageMultiplier": 2,
+            "_grenadeDamageRadius": 5
+        },
+        "ExecuteAppliedEvent": 1,
+        "ReprocTime": 5,
+        "ConditionalUpgrades": [
+            "/Lotus/Upgrades/CosmeticEnhancers/Defensive/OnDamageNoDotCondition"
+        ]
+    }
+}

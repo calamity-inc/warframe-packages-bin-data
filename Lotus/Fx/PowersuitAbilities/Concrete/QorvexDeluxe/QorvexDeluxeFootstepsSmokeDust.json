@@ -1,0 +1,152 @@
+{
+    "parent": "/Lotus/Fx/PowersuitAbilities/Asp/ShedAttachSmoke",
+    "data": {
+        "UseLightProbes": 1,
+        "DepthSortBias": 0,
+        "MaterialParams": [
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.2
+            },
+            {
+                "name": "SmokeEnergyMix",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            },
+            {
+                "name": "DepthBias",
+                "type": "Float",
+                "slot": -1,
+                "value": -0.1
+            }
+        ],
+        "CompositedEffect": 1,
+        "IgnoreParentRotation": 1,
+        "DetailLevel": "PQ_HIGH",
+        "UseTeamEffectsSetting": 0,
+        "CanNano": 0,
+        "ApplyColorCustomization": 1,
+        "UseAttachmentColorSlot": 1,
+        "HasLifeSpan": 1,
+        "AutoKill": 0,
+        "LifeSpan": 3,
+        "Life": [
+            1.5,
+            2.25
+        ],
+        "Size": [
+            1.2,
+            2
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.25
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.89999998
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "InitialCount": [
+            2,
+            4
+        ],
+        "Material": "/Lotus/Fx/Explosions/Generic/ExplosionSmokeMat",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            255,
+            229,
+            199,
+            255
+        ],
+        "ColorMax": [
+            255,
+            225,
+            178,
+            255
+        ],
+        "ColorKeys": [],
+        "Spin": [
+            -0.0099999998,
+            0.0099999998
+        ],
+        "SpinByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.40000001
+                }
+            ]
+        },
+        "FadeInOut": [
+            0,
+            0.044052999
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.33333334,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.66666669,
+                    "Value": 0.40000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "EyeFadeDist": 0.2,
+        "Nozzle": "DISC",
+        "NozzleMeshScale": [
+            0.1,
+            0.1,
+            0.1
+        ],
+        "NozzleBox": [
+            0.2,
+            0.2,
+            0
+        ],
+        "Speed": [
+            0.75,
+            1.5
+        ],
+        "Drag": 8,
+        "Mass": [
+            0.0099999998,
+            0.0099999998
+        ],
+        "PushVector": [
+            0,
+            0,
+            0
+        ],
+        "PushMass": [
+            0,
+            0
+        ]
+    }
+}

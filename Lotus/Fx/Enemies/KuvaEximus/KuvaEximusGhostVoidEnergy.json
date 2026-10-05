@@ -1,0 +1,44 @@
+{
+    "parent": "/Lotus/Fx/PowersuitAbilities/CustomEffects/NarmerEvolvingEphemeraAEnergy",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.25
+            },
+            {
+                "name": "Hardness",
+                "type": "Float",
+                "slot": -1,
+                "value": 2
+            },
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 5
+            }
+        ],
+        "DistortionEffect": 0,
+        "DrawInTransparentPass": 0,
+        "Size": [
+            0.80000001,
+            1.2
+        ],
+        "ColorMin": [
+            111,
+            255,
+            225,
+            255
+        ],
+        "ColorMax": [
+            111,
+            255,
+            225,
+            255
+        ],
+        "EnergyTintMethod": "ETM_LIFE"
+    }
+}

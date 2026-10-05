@@ -1,0 +1,3353 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWeaponAttachment",
+    "data": {
+        "Mesh": "DuelistBowExpressions_skel.fbx",
+        "InitialAnimation": "/Lotus/Weapons/Tenno/Bows/BowCockedAntlerBowWEP_anim.fbx",
+        "OnEnter": [
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "/Lotus/Weapons/Tenno/Bows/BowIdleAntlerBowWEP_anim.fbx",
+                "state": "WS_DORMANT",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": "DuelistBow.lua",
+                    "Function": "HideSpikes"
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "/Lotus/Weapons/Tenno/Bows/BowReloadAntlerBowWEP_anim.fbx",
+                "state": "WS_REFIRE_WAIT",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_NON_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "/Lotus/Weapons/Tenno/Bows/BowReloadAntlerBowWEP_anim.fbx",
+                "state": "WS_REFIRE_WAIT",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "/Lotus/Weapons/Tenno/Bows/BowReloadAntlerBowWEP_anim.fbx",
+                "state": "WS_REFIRE_WAIT",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_NON_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "/Lotus/Weapons/Tenno/Bows/BowCockedAntlerBowWEP_anim.fbx",
+                "state": "WS_FIRE_DISABLED",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": "/Lotus/Scripts/WeaponAttachments/ScaleAttachment.lua",
+                    "Function": "ScaleUp",
+                    "_largeScale": 1,
+                    "_smallScale": 0.85000002,
+                    "_scaleDuration": 0.80000001,
+                    "_animation": "",
+                    "_runHost": 1,
+                    "_runClient": 1,
+                    "_fadeAttachedDecos": 0,
+                    "_doMeleeCheck": 1,
+                    "_fadeDuration": 2,
+                    "_shipAvatar": "/Lotus/Types/Player/TennoShipAvatar",
+                    "_applyScaleWhileOnShip": 0,
+                    "_smallScaleOverride": 0.5,
+                    "_holsterCustomizations": [
+                        "/Lotus/Types/Game/HolsterCustomization"
+                    ],
+                    "_scaledAttachmentMeshRequired": "",
+                    "_scaledUpAttachment": "",
+                    "_scaledDownAttachment": ""
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "/Lotus/Weapons/Tenno/Bows/BowCockedAntlerBowWEP_anim.fbx",
+                "state": "WS_READY",
+                "matchTransitionState": 1,
+                "transitionState": "WS_DORMANT",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": "DuelistBow.lua",
+                    "Function": "ForceShowSpikes"
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "/Lotus/Weapons/Tenno/Bows/BowCockedAntlerBowWEP_anim.fbx",
+                "state": "WS_EQUIP",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": "DuelistBow.lua",
+                    "Function": "ShowSpikes"
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "/Lotus/Weapons/Tenno/Bows/BowReloadAntlerBowWEP_anim.fbx",
+                "state": "WS_FIRE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FULLY_CHARGED",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [
+                    {
+                        "LocalPosition": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "LocalRotation": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "BoneName": "",
+                        "Type": "/Lotus/Fx/Weapons/Bow/DuelistBowCharge",
+                        "Chance": 255,
+                        "RelativeToBounds": 0,
+                        "Attach": 1,
+                        "DestroyWithOwner": 1,
+                        "DestroyParentOnDeath": 0,
+                        "FadeOutOnDestruction": 0,
+                        "Scale": 1
+                    }
+                ],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_READY",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": "DuelistBow.lua",
+                    "Function": "Charging"
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/WeaponPunchLayers/WeaponPunchLayersBows/WeaponPunchBowCommonOne2D",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_REFIRE_WAIT",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [
+                    1
+                ],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/WeaponPunchLayers/WeaponPunchLayersBows/WeaponPunchBowCommonOne3D",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_REFIRE_WAIT",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_NON_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistBow/DuelistBowQuickShot",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_REFIRE_WAIT",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistBow/DuelistBowQuickShot3D",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_REFIRE_WAIT",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_NON_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistBow/DuelistBowShot",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_REFIRE_WAIT",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [
+                    0
+                ],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistBow/DuelistBowShot3D",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_REFIRE_WAIT",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [
+                    0
+                ],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_NON_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistBow/DuelistBowChargeFull",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_FULLY_CHARGED",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistBow/DuelistBowCharge3D",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 1,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 0.89999998,
+                "chargePitchRange": [
+                    0.30000001,
+                    10
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [
+                    "WeaponChargeStopped"
+                ],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "/Lotus/Weapons/Tenno/Bows/AntlerBowCharge_anim.fbx",
+                "state": "WS_CHARGE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [
+                    1
+                ],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": "DuelistBow.lua",
+                    "Function": "Charging"
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/DuelistBow/DuelistBowAltCharge3D",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 1,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 0.89999998,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [
+                    "WeaponChargeStopped"
+                ],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "/Lotus/Weapons/Tenno/Bows/AntlerBowCharge_anim.fbx",
+                "state": "WS_CHARGE",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [
+                    0
+                ],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [
+                    {
+                        "LocalPosition": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "LocalRotation": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "BoneName": "",
+                        "Type": "/Lotus/Fx/Weapons/Bow/DuelistBowLargeChargeUpawner",
+                        "Chance": 255,
+                        "RelativeToBounds": 0,
+                        "Attach": 1,
+                        "DestroyWithOwner": 1,
+                        "DestroyParentOnDeath": 0,
+                        "FadeOutOnDestruction": 0,
+                        "Scale": 1
+                    }
+                ],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            },
+            {
+                "sound": "/Lotus/Sounds/Weapons/WeaponPunchLayers/WeaponPunchLayersShotguns/WeaponPunchShotgunCommonThree2D",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "",
+                "state": "WS_REFIRE_WAIT",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [
+                    0
+                ],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [
+                    "WS_CHARGE"
+                ],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_OWNER",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            }
+        ],
+        "OnExit": [
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "animation": "/Lotus/Weapons/Tenno/Bows/BowReload_anim.fbx",
+                "state": "WS_FULLY_CHARGED",
+                "matchTransitionState": 0,
+                "transitionState": "WS_READY",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "equippedHand": "ANY_HAND",
+                "aimMode": "HIP_AND_AIM",
+                "suitMode": "SUIT_ANY",
+                "activeBehaviorIndexIgnoreList": [],
+                "stateSignalAttachments": [],
+                "effectsToCreate": [],
+                "effectsToDestroy": [],
+                "ammoStatus": "ALL_CASES",
+                "condition": "RF_ALWAYS",
+                "newBehaviorIndex": -1,
+                "useOnSkin": 0,
+                "upgradeType": "NONE",
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "overrideTag": "",
+                "soundSequencerType": "",
+                "responseScript": {
+                    "Script": ""
+                }
+            }
+        ],
+        "OnAnimEvent": [
+            {
+                "sound": "/Lotus/Sounds/Weapons/ChoirBow/ChoirBowLoadWhoosh",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [
+                    "WeaponChargeStopped"
+                ],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "",
+                "name": "BowLoadWhoosh",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 1,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Weapons/Tenno/Bows/BowCockedAntlerBowWEP_anim.fbx",
+                "name": "EndIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [
+                    "WS_READY",
+                    "WS_EMPTY"
+                ],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Ash/AgileIdleBowVariantWeapon_anim.fbx",
+                "name": "StartAshAgileIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Ash/IdleBowVariantWeapon_anim.fbx",
+                "name": "StartAshNobleIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Banshee/NobleIdleBowVariantWeapon_anim.fbx",
+                "name": "StartBansheeNobleIdleVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Ember/IdleBowVariantWeapon_anim.fbx",
+                "name": "StartEmberAgileBowIdleVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Ember/NobleIdleBowVariantWeapon_anim.fbx",
+                "name": "StartEmberNobleBowIdleVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Excalibur/NobleIdleBowVariantWeapon_anim.fbx",
+                "name": "StartExcaliburNobleIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Frost/AgileIdleBowVariantWeapon_anim.fbx",
+                "name": "StartFrostNobleIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Mag/IdleBowVariantWeapon_anim.fbx",
+                "name": "StartMagAgileIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Trinity/AgileIdleBowVariantWeapon_anim.fbx",
+                "name": "StartTrinityAgileIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Water/AgileIdleBowVariantWEP_anim.fbx",
+                "name": "PirateBowIdle",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Loki/IdleBowVariantWeapon_anim.fbx",
+                "name": "StartLokiAgileIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Mag/NobleIdleBowVariantWEP_anim.fbx",
+                "name": "StartMagNobleIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Berserker/NobleIdleBowVariantWEP_anim.fbx",
+                "name": "NobleIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/MonkeyKing/AgileBowboIdleVariantWeapon_anim.fbx",
+                "name": "StartMonkeyKingAgileIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/MonkeyKing/NobleIdleBowVariantWEP_anim.fbx",
+                "name": "StartMonkeyKingNobleIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Weapons/Tenno/Bows/BowCockedAntlerBowWEP_anim.fbx",
+                "name": "IdleWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Weapons/Tenno/Bows/BowIdleAntlerBowWEP_anim.fbx",
+                "name": "BowIdle",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Titania/AgileIdleBowVariantWEP_anim.fbx",
+                "name": "StartFairyAgileIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Titania/NobleIdleBowVariantWEP_anim.fbx",
+                "name": "StartFairyNobleIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Titania/NobleIdleBowVariantV2WEP_anim.fbx",
+                "name": "StartFairyNobleIdleBowVariant2",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Infestation/AgileIdleBowVariantWEP_anim.fbx",
+                "name": "StartInfestationAgileIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Bard/AgileIdleBowVariantAntlerBowWEP_anim.fbx",
+                "name": "AgileBardBowVariant",
+                "matchParam": 0,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Bard/NobleIdleBowVariantWEP_anim.fbx",
+                "name": "NobleBardBowVariant",
+                "matchParam": 0,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Priest/AgileIdleBowVariantWEP_anim.fbx",
+                "name": "AgilePriestBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Glass/AgileIdleBowVariantWEP_anim.fbx",
+                "name": "AgileGlassBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Eidolon/AgileIdleBowVariantWEP_anim.fbx",
+                "name": "StartVampireAgileIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Weapons/Bow/BowCockedAntlerBowWEP_anim.fbx",
+                "name": "BowCocked",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Weapons/Tenno/Bows/BowIdleAntlerBowWEP_anim.fbx",
+                "name": "MeleeActionStart",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Dragon/AgileIdleBowVariantWeapon_anim.fbx",
+                "name": "StartDragonAgileIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Dragon/NobleIdleBowVariantWeapon_anim.fbx",
+                "name": "StartDragonNobleIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Gunslinger/AgileIdleBowVariantWEP_anim.fbx",
+                "name": "StartGunslingerAgileIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Harlequin/AgileIdleBowVariantWEP_anim.fbx",
+                "name": "StartHarlequinAgileIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Harlequin/NobleIdleBowVariantWEP_anim.fbx",
+                "name": "StartHarlequinNobleIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/YinYang/Anima/NobleIdleBowVariantWEP_anim.fbx",
+                "name": "StartAnimaNobleIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Broken/AgileIdleBowVariantWEP_anim.fbx",
+                "name": "StartBrokenAgileIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Broken/NobleIdleBowVariantAntlerBowWEP_anim.fbx",
+                "name": "StartBrokenNobleIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Mummy/AgileIdleBowVariantWEP_anim.fbx",
+                "name": "StartMummyAgileIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Runner/AgileIdleBowVariantWEP_anim.fbx",
+                "name": "StartRunnerAgileIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Nyx/NobleIdleBowVariantWEP_anim.fbx",
+                "name": "StartNyxNobleIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Paladin/NobleIdleBowVariantWEP_anim.fbx",
+                "name": "StartPaladinNobleIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Alchemist/Bow/AgileIdleBowVariantArcherBowWEP_anim.fbx",
+                "name": "StartAlchemistAgileIdleBowVariantWEP",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            },
+            {
+                "sound": "",
+                "playerType": "PT_ANY",
+                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                "ammoInClipRangeLimit": [
+                    0,
+                    0
+                ],
+                "multiplyPitchByFireRateRatio": 0,
+                "adjustPitchByChargeRatio": 0,
+                "reverbCategory": "UNSPECIFIED",
+                "fireRatePitchMultiplier": 1,
+                "chargePitchRange": [
+                    0,
+                    0
+                ],
+                "adjustPitchByAmmoInClip": 0,
+                "ammoInClipPitchRange": [
+                    0,
+                    0
+                ],
+                "stopSoundOnExitState": 0,
+                "stopSoundEventNames": [],
+                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                "useRandomPitchSeed": 0,
+                "randomPitchSeed": [
+                    1,
+                    1
+                ],
+                "forceFeedbackEffect": "",
+                "continuousForceFeedback": 0,
+                "condition": "RF_ALWAYS",
+                "animation": "/Lotus/Animations/Tenno/Menu/Idles/Berserker/Deluxe/Bow/AgileIdleBowVariantArcherPrimeBowWEP_anim.fbx",
+                "name": "StartBeserkerDeluxeAgileIdleBowVariant",
+                "matchParam": 1,
+                "param": 0,
+                "hand": "ANY_HAND",
+                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                "suitMode": "SUIT_ANY",
+                "weaponStates": [],
+                "allowWhenDormant": 0,
+                "useOnSkin": 0,
+                "responseScript": {
+                    "Script": ""
+                },
+                "overrideTag": "",
+                "attachEffect": ""
+            }
+        ],
+        "OnAnimEventResource": "/Lotus/Weapons/Bow/BowAnimEventContainer"
+    }
+}

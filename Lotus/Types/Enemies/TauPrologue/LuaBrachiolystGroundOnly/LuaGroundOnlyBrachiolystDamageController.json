@@ -1,0 +1,914 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDamageController",
+    "data": {
+        "HitProxies": [
+            {
+                "LocalPosition": [
+                    0.0099999998,
+                    0.059999999,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.34202,
+                    0.93969297
+                ],
+                "BoneName": "GAME_L1_ARMCLAW1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystClawLeftUpperA",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.36000001,
+                    0.13,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.731354,
+                    0.68199801
+                ],
+                "BoneName": "GAME_L1_ARMCLAW1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystClawLeftUpperB",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.33000001,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "GAME_L1_ARMCLAW2",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystClawLeftLowerA",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.69999999,
+                    -0.050000001,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.88701099,
+                    0.46174899
+                ],
+                "BoneName": "GAME_L1_ARMCLAW2",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystClawLeftLowerB",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.15000001,
+                    0,
+                    -0.050000001
+                ],
+                "LocalRotation": [
+                    -0.092295997,
+                    -0.092295997,
+                    0.70105702,
+                    0.70105702
+                ],
+                "BoneName": "GAME_L1_ARM3",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystArmLeftLower",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.1,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "GAME_L1_ARM2",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystArmLeftUpper",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.050000001,
+                    0.0099999998,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.60876101,
+                    0.79335302
+                ],
+                "BoneName": "GAME_L1_ARM1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystShoulderLeft",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.0099999998,
+                    -0.059999999,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.34202,
+                    0.93969297
+                ],
+                "BoneName": "GAME_R1_ARMCLAW1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystClawRightUpperA",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.36000001,
+                    -0.13,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.731354,
+                    0.68199801
+                ],
+                "BoneName": "GAME_R1_ARMCLAW1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystClawRightUpperB",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.33000001,
+                    -0.0099999998,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "GAME_R1_ARMCLAW2",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystClawRightLowerA",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.69999999,
+                    0.050000001,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.88701099,
+                    0.46174899
+                ],
+                "BoneName": "GAME_R1_ARMCLAW2",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystClawRightLowerB",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.15000001,
+                    0,
+                    0.050000001
+                ],
+                "LocalRotation": [
+                    -0.092295997,
+                    -0.092295997,
+                    0.70105702,
+                    0.70105702
+                ],
+                "BoneName": "GAME_R1_ARM3",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystArmRightLower",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.1,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "GAME_R1_ARM2",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystArmRightUpper",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.050000001,
+                    -0.0099999998,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.60876101,
+                    0.79335302
+                ],
+                "BoneName": "GAME_R1_ARM1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystShoulderRight",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.079999998,
+                    0.039999999,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.57357597,
+                    0.819152
+                ],
+                "BoneName": "GAME_L1_LEG1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystLegLeftUpper",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.059999999,
+                    0.02,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.64278799,
+                    0.76604402
+                ],
+                "BoneName": "GAME_L1_LEG2",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystLegLeftLower",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.23999999,
+                    0.02,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "GAME_L1_GUNREAR1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystLegLeftFin",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.23999999,
+                    0.02,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "GAME_L1_GUNREAR3",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystLegLeftFin",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.079999998,
+                    -0.039999999,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.57357597,
+                    0.819152
+                ],
+                "BoneName": "GAME_R1_LEG1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystLegRightUpper",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.059999999,
+                    -0.02,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.64278799,
+                    0.76604402
+                ],
+                "BoneName": "GAME_R1_LEG2",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystLegRightLower",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.23999999,
+                    -0.02,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "GAME_R1_GUNREAR1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystLegRightFin",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.23999999,
+                    -0.02,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "GAME_R1_GUNREAR3",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystLegRightFin",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.050000001,
+                    -0.28,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_BODYLO1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystTorsoLowerA",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.07,
+                    -0.40000001,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.819152,
+                    0.57357597
+                ],
+                "BoneName": "GAME_C1_BODYLO1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystTorsoLowerB",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.1,
+                    0.02,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.76604402,
+                    0.64278799
+                ],
+                "BoneName": "GAME_C1_BODYLO2",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystTorsoLowerC",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.050000001,
+                    -0.02,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.38268301,
+                    0.92387998
+                ],
+                "BoneName": "GAME_C1_HEAD1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystHead",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.16,
+                    0.059999999,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "GAME_C1_BODYTOP1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystTorsoUpperA",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.38,
+                    0.19,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.422618,
+                    0.906308
+                ],
+                "BoneName": "GAME_C1_BODYTOP1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystTorsoUpperB",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.60000002,
+                    0.16,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    -0.422618,
+                    0.906308
+                ],
+                "BoneName": "GAME_C1_BODYTOP1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystTorsoUpperC",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.85000002,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_BODYTOP1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystTorsoDisk",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.02,
+                    -0.029999999,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_L1_GUNFIREFRONT2",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystTorsoFin",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.02,
+                    0.029999999,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_R1_GUNFIREFRONT2",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystTorsoFin",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.5,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_BODYTOP1",
+                "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystTorsoSpark",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "HideOnExplodeDeath": 0,
+        "RejectSelfDamage": 1,
+        "SelfDamageMultiplier": 0,
+        "HeadShotEffect": {
+            "Type": "/Lotus/Fx/HitSpangs/FPHitSpangFleshSparks"
+        },
+        "ReplicaCreatedOnDeath": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_SPINE2",
+                "Type": "/Lotus/Fx/Enemies/Sentients/SentientDeathFXHigh",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "CreateOnDestroy": {
+            "LocalPosition": [
+                0,
+                1,
+                0
+            ],
+            "Attach": 0,
+            "DestroyWithOwner": 0
+        },
+        "DestroyCorpseTime": 0.02,
+        "PreDeathHealthDrain": 0,
+        "InvulnerableInPreDeath": 1,
+        "GetUpFromPreDeathHealth": 2,
+        "PreDeathChance": 1,
+        "CanSlice": 0,
+        "MultipleSliceChance": 75,
+        "SeverBodyChance": 100,
+        "BoneHead": "GAME_C1_HEAD1",
+        "BoneNeck": "GAME_C1_NECK2",
+        "BoneSpine": "GAME_C1_SPINE1",
+        "BonePelvis": "GAME_C1_HIP1",
+        "BoneArmL": "GAME_L1_ARM1",
+        "BoneWristL": "GAME_L1_ARM2",
+        "BoneThighL": "GAME_L1_LEG1",
+        "BoneShinL": "GAME_L1_LEG2",
+        "BoneArmR": "GAME_R1_ARM1",
+        "BoneWristR": "GAME_R1_ARM2",
+        "BoneThighR": "GAME_R1_LEG1",
+        "BoneShinR": "GAME_R1_LEG2",
+        "InjuryHandlersEx": {
+            "PT_KNOCKBACK": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusImpactDamageProc",
+            "PT_FRAILTY": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusPunctureDamageProc",
+            "PT_BLEEDING": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusSlashDamageProc",
+            "PT_IMMOLATION": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusFireDamageProc",
+            "PT_CHILLED": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusFreezeDamageProc",
+            "PT_ELECTROCUTION": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusElectricityDamageProc",
+            "PT_POISONED": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusPoisonDamageProc",
+            "PT_FLASHBANG": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusExplosionDamageProc",
+            "PT_RAD_TOX": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusRadiationDamageProc",
+            "PT_ASPHYXIATION": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusGasDamageProc",
+            "PT_MAGNETIZED": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusMagneticDamageProc",
+            "PT_INFECTED": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusViralDamageProc",
+            "PT_CAUSTIC_BURN": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusCorrosiveDamageProc",
+            "PT_RADIANT": "/Lotus/Types/Game/InjuryHandlers/BaseEnemyRadiantDamageProc",
+            "PT_STAGGERED": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusStaggeredInjuryHandler",
+            "PT_STUNNED": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusStunnedInjuryHandler",
+            "PT_KNOCKED_DOWN": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusKnockdownInjuryHandler",
+            "PT_RAGDOLL": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusRagdollInjuryHandler",
+            "PT_SLEEP": "/Lotus/Types/Enemies/Corpus/Spaceman/Avatars/SpacemanSleepProc"
+        },
+        "PreDeathHandler": "/Lotus/Types/Game/InjuryHandlers/LotusPreDeathHandler",
+        "MaxShield": 450,
+        "ShieldRechargeRate": 0,
+        "ShieldRechargePercent": 0.25,
+        "ShieldAuraAutoChild": {
+            "Type": "/Lotus/Fx/Projectors/ShieldAuraProjector"
+        },
+        "EnableShieldGating": 1,
+        "ArmourRating": 50,
+        "FrozenEffects": {
+            "FROZEN_ICE": {
+                "FrozenDamageDeformers": [
+                    {
+                        "SeveredBones": [
+                            {
+                                "boneName": "GAME_L1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_L1_ARM1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_ARM1",
+                                "probability": 0.30000001
+                            }
+                        ],
+                        "LocalPosition": [
+                            0,
+                            1.2,
+                            0
+                        ],
+                        "RagdollScene": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystRagdoll"
+                    }
+                ]
+            },
+            "FROZEN_STONE": {
+                "FrozenDamageDeformers": [
+                    {
+                        "SeveredBones": [
+                            {
+                                "boneName": "GAME_L1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_L1_ARM1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_ARM1",
+                                "probability": 0.30000001
+                            }
+                        ],
+                        "LocalPosition": [
+                            0,
+                            1.2,
+                            0
+                        ],
+                        "RagdollScene": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystRagdoll"
+                    }
+                ]
+            },
+            "FROZEN_GLASS": {
+                "FrozenDamageDeformers": [
+                    {
+                        "SeveredBones": [
+                            {
+                                "boneName": "GAME_L1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_L1_ARM1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_ARM1",
+                                "probability": 0.30000001
+                            }
+                        ],
+                        "LocalPosition": [
+                            0,
+                            1.2,
+                            0
+                        ],
+                        "RagdollScene": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystRagdoll"
+                    }
+                ]
+            }
+        }
+    }
+}

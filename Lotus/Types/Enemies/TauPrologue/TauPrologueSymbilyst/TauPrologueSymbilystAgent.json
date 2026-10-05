@@ -1,0 +1,474 @@
+{
+    "parent": "/Lotus/Types/Enemies/Sentients/Troopers/SentientBaseTrooperAgent",
+    "data": {
+        "AvatarTypes": {
+            "STANDARD": "/Lotus/Types/Enemies/Sentients/Symbilyst/TauSentientSymbilystAvatar"
+        },
+        "MinLevel": 1,
+        "NewAdditionalInventory": [
+            {
+                "item": "/Lotus/Types/Enemies/Sentients/Symbilyst/SentientSymbilystLaserLeft",
+                "forceEquip": 1,
+                "hand": "OFF_HAND"
+            },
+            {
+                "item": "/Lotus/Types/Enemies/Sentients/Symbilyst/SentientSymbilystPowerSuit",
+                "forceEquip": 1,
+                "hand": "MAIN_HAND"
+            },
+            {
+                "item": "/Lotus/Types/Enemies/Sentients/Symbilyst/SentientSymbilystMeleeWeaponRight",
+                "forceEquip": 1,
+                "hand": "MAIN_HAND"
+            }
+        ],
+        "DefaultSlot": "SLOT_1",
+        "BehaviorDatabase": [
+            "/EE/Types/Npc/WaitForSpawnAnimationBehavior",
+            "/EE/Types/Npc/BlockingBehavior",
+            "/EE/Types/Npc/DroneRecoveryBehavior",
+            "/EE/Types/Npc/InterruptResponseBehavior",
+            "/Lotus/Types/Behaviors/GetPickUpBehavior",
+            "/Lotus/Types/Behaviors/UsePowerSuitAbilitiesBehavior",
+            "/EE/Types/Npc/BehaviorParallel"
+        ],
+        "DroneRecoveryBehavior": {
+            "Enabled": 1,
+            "OnStartScript": {
+                "Script": ""
+            },
+            "OnDamagedScript": {
+                "Script": ""
+            },
+            "DefaultReevaluationDelay": 0,
+            "TimeOffNav": 2,
+            "ToleranceDistance": 1,
+            "DisableWhenFlying": 0,
+            "RerunDelay": 5,
+            "OffNavBehaviors": [
+                "/EE/Types/Npc/DodgeJumpBackToNavBehavior",
+                "/EE/Types/Npc/FlyDescendToNavBehavior"
+            ],
+            "DodgeJumpBackToNavBehavior": {
+                "Enabled": 1,
+                "OnStartScript": {
+                    "Script": ""
+                },
+                "OnDamagedScript": {
+                    "Script": ""
+                },
+                "DefaultReevaluationDelay": 0,
+                "Action": "DodgeJump",
+                "SweepForValidPos": 1,
+                "OnlyIfRecentlyDamaged": 0,
+                "RequestDelay": 0,
+                "FaceDirectionOfPathFollowerTarget": 0,
+                "JumpToClosestNavPoint": 0
+            },
+            "FlyDescendToNavBehavior": {
+                "Enabled": 1,
+                "OnStartScript": {
+                    "Script": ""
+                },
+                "OnDamagedScript": {
+                    "Script": ""
+                },
+                "DefaultReevaluationDelay": 0,
+                "DelayEvaluationOnNavFindFailure": 12,
+                "DownwardRaycastLength": 50,
+                "RaycastIgnoreTypes": [
+                    "/EE/Types/Engine/BaseAvatar",
+                    "/EE/Types/Engine/HitProxy",
+                    "/EE/Types/Engine/Decoration",
+                    "/EE/Types/Physics/Ragdoll"
+                ],
+                "UseLastGoodPosition": 0
+            }
+        },
+        "GetPickUpBehavior": {
+            "NearSpeedMultiplier": [
+                1,
+                1
+            ],
+            "FarSpeedMultiplier": [
+                2,
+                2
+            ]
+        },
+        "BehaviorParallel": {
+            "Behaviors": [
+                "/Lotus/Types/Enemies/Sentients/Troopers/Behaviors/RightHookDynamicBehavior",
+                "/Lotus/Types/Enemies/Sentients/Troopers/Behaviors/LeftHookDynamicBehavior",
+                "/EE/Types/Npc/RequiredAttachmentBehaviorSelector",
+                "/EE/Types/Npc/GenericBehaviorSelector"
+            ],
+            "RequiredAttachmentBehaviorSelector": {
+                "Enabled": 1,
+                "OnStartScript": {
+                    "Script": ""
+                },
+                "OnDamagedScript": {
+                    "Script": ""
+                },
+                "DefaultReevaluationDelay": 0,
+                "AttachmentType": "/Lotus/Characters/Sentient/Symbilyst/SymbilystArmsSkelDeco",
+                "InitialAttachmentCheckOnly": 0,
+                "CheckTargetForAttachmentInstead": 0,
+                "SubBehaviors": [
+                    "/EE/Types/Npc/AimedByPlayerBehavior"
+                ],
+                "AimedByPlayerBehavior": {
+                    "Enabled": 1,
+                    "OnStartScript": {
+                        "Script": "/Lotus/Scripts/Sentient/SentientShieldDeflect.lua",
+                        "Function": "GetAimed",
+                        "_shieldEndAnim": "",
+                        "_shieldStartAnims": [],
+                        "_shieldLoopAnims": [],
+                        "_shieldEffect": "/Lotus/Fx/Enemies/Sentients/Symbilyst/SymbilystEnergyShieldDeco"
+                    },
+                    "OnDamagedScript": {
+                        "Script": ""
+                    },
+                    "DefaultReevaluationDelay": 0,
+                    "OnEndScript": {
+                        "Script": "/Lotus/Scripts/Sentient/SentientShieldDeflect.lua",
+                        "Function": "EndAimed",
+                        "_shieldEndAnim": "",
+                        "_shieldStartAnims": [],
+                        "_shieldLoopAnims": [],
+                        "_shieldEffect": "/Lotus/Fx/Enemies/Sentients/Symbilyst/SymbilystEnergyShieldDeco"
+                    },
+                    "AimEndWaitTime": 5
+                }
+            },
+            "GenericBehaviorSelector": {
+                "Actions": [
+                    "/EE/Types/Npc/StormTargetOrderBehavior",
+                    "/EE/Types/Npc/SetupAmbushBehavior",
+                    "/EE/Types/Npc/MoveTowardsTacEnemyInfluence",
+                    "/EE/Types/Npc/KeepIdealDistanceBehavior",
+                    "/EE/Types/Npc/MultiTargetFaceBehavior",
+                    "/EE/Types/Npc/RequiredAttachmentBehaviorSelectorSymbilyst",
+                    "/EE/Types/Npc/CustomResponseBehavior",
+                    "/EE/Types/Npc/SearchForTargetBehavior",
+                    "/Lotus/Types/Behaviors/HoverNearTeammatesBehavior",
+                    "/Lotus/Types/Behaviors/FollowAllyPlayerBehavior",
+                    "/EE/Types/Npc/InvestigateBehavior",
+                    "/EE/Types/Npc/PoiBehavior",
+                    "/EE/Types/Npc/GuardTactic"
+                ],
+                "SetupAmbushBehavior": {
+                    "Enabled": 1,
+                    "OnStartScript": {
+                        "Script": ""
+                    },
+                    "OnDamagedScript": {
+                        "Script": ""
+                    },
+                    "DefaultReevaluationDelay": 0,
+                    "IdealDistance": [
+                        20,
+                        30
+                    ],
+                    "NumResults": 1,
+                    "MinDistFromNavEdge": 5,
+                    "DistanceFromTargetScoreRange": [
+                        10,
+                        40
+                    ],
+                    "StopRadius": 0.5,
+                    "SamplePointSpacing": 2,
+                    "DistanceScoreCurve": {
+                        "m": 1,
+                        "k": 2,
+                        "b": 0,
+                        "c": 0,
+                        "logistic": 0
+                    }
+                },
+                "MoveTowardsTacEnemyInfluence": {
+                    "MustBeFurtherFromObjective": 1,
+                    "DistAheadToAdvance": 0
+                },
+                "MultiTargetFaceBehavior": {
+                    "ChildAction:Actions": [
+                        "/EE/Types/Npc/BehaviorParallel"
+                    ],
+                    "ChildAction:BehaviorParallel": {
+                        "Enabled": 1,
+                        "OnStartScript": {
+                            "Script": ""
+                        },
+                        "OnDamagedScript": {
+                            "Script": ""
+                        },
+                        "DefaultReevaluationDelay": 0,
+                        "RequireAllToRun": 0,
+                        "FailOnChildFailure": 0,
+                        "Behaviors": [
+                            "/EE/Types/Npc/GenericBehaviorSelector"
+                        ],
+                        "GenericBehaviorSelector": {
+                            "Enabled": 1,
+                            "OnStartScript": {
+                                "Script": ""
+                            },
+                            "OnDamagedScript": {
+                                "Script": ""
+                            },
+                            "DefaultReevaluationDelay": 0,
+                            "Actions": [
+                                "/Lotus/Types/Enemies/Sentients/Troopers/Behaviors/SentientRetreatDecorator",
+                                "/EE/Types/Npc/RequiredAttachmentBehaviorSelectorSymbilyst",
+                                "/Lotus/Types/Enemies/Sentients/Troopers/Behaviors/SentientRangedCircleDecorator"
+                            ],
+                            "SentientRetreatDecorator": {
+                                "Enabled": 1,
+                                "OnStartScript": {
+                                    "Script": ""
+                                },
+                                "OnDamagedScript": {
+                                    "Script": ""
+                                },
+                                "DefaultReevaluationDelay": 0,
+                                "ChildAction:Type": "/EE/Types/Npc/TacAreaFleeBehavior",
+                                "ChildAction:TacAreaFleeBehavior": {
+                                    "Enabled": 1,
+                                    "OnStartScript": {
+                                        "Script": ""
+                                    },
+                                    "OnDamagedScript": {
+                                        "Script": ""
+                                    },
+                                    "DefaultReevaluationDelay": 0,
+                                    "MovementSpeedModifier": 1,
+                                    "StopRadius": 0.5,
+                                    "NearDistance": 1,
+                                    "OnlyActiveAreas": 1,
+                                    "EvaluateTime": 0,
+                                    "DoorWeight": 0.75,
+                                    "NeighborWeight": 0.25,
+                                    "PrevNodeWeight": 2,
+                                    "BreadCrumbRadius": 15,
+                                    "BreadCrumbDropRate": 5,
+                                    "BreadCrumbWeight": 5,
+                                    "AllowFiringAtTarget": 0,
+                                    "TimeSinceSeenTarget": 5,
+                                    "MaxNodeWeight": 15
+                                },
+                                "StopWhenChildStops": 1,
+                                "DualWieldRestrictAction": "",
+                                "DualWieldRestriction": "DWR_NONE",
+                                "RequiredConfig": "WC_NONE",
+                                "NumRequiredRangedWeapons": 0,
+                                "NumRequiredMeleeWeapons": 0,
+                                "RequiresSpecifiedNumbers": 0
+                            },
+                            "RequiredAttachmentBehaviorSelectorSymbilyst": {
+                                "Enabled": 1,
+                                "OnStartScript": {
+                                    "Script": ""
+                                },
+                                "OnDamagedScript": {
+                                    "Script": ""
+                                },
+                                "DefaultReevaluationDelay": 0,
+                                "AttachmentType": "/Lotus/Characters/Sentient/Symbilyst/SymbilystArmsSkelDeco",
+                                "InitialAttachmentCheckOnly": 0,
+                                "CheckTargetForAttachmentInstead": 0,
+                                "SubBehaviors": [
+                                    "/EE/Types/Npc/TacPosIdealDistanceBehavior"
+                                ],
+                                "TacPosIdealDistanceBehavior": {
+                                    "Enabled": 1,
+                                    "OnStartScript": {
+                                        "Script": ""
+                                    },
+                                    "OnDamagedScript": {
+                                        "Script": ""
+                                    },
+                                    "DefaultReevaluationDelay": 0,
+                                    "FailOnQueryFailure": 0,
+                                    "ReevaluationDelayOnQueryFail": 0,
+                                    "RandomizeRange": 0,
+                                    "UseWeaponRange": 0,
+                                    "IdealDistance": [
+                                        0,
+                                        3
+                                    ],
+                                    "NumResults": 1,
+                                    "MinDistFromNavEdge": 0,
+                                    "GenerateFromTarget": 1,
+                                    "navType": "NT_NAVMESH",
+                                    "ScoreDistanceFromTarget": 1,
+                                    "DistanceFromTargetScoreRange": [
+                                        0,
+                                        0
+                                    ],
+                                    "HeightFromTargetRange": [
+                                        0,
+                                        0
+                                    ],
+                                    "UseTacAreaFilter": 0,
+                                    "ScoreDirectionFromTarget": 1,
+                                    "DistanceFromSelfRange": [
+                                        0,
+                                        10
+                                    ],
+                                    "EvaluateDistance": [
+                                        0,
+                                        100
+                                    ],
+                                    "StopRadius": 0,
+                                    "UpdateDestinationInterval": 0.5,
+                                    "UpdateDestinationDistance": 1,
+                                    "ForceRepositionTime": 0,
+                                    "OnlyTravelWhenVisible": 0,
+                                    "CompleteTravelWhenTargetLost": 1,
+                                    "AllowRetreat": 0,
+                                    "AllowRun": 1,
+                                    "LookAtTarget": 0,
+                                    "LockTarget": 0,
+                                    "OnlyFindPositionsOnFlightNav": 0,
+                                    "WalkFacingControl": "MFC_FACE_TARGET",
+                                    "RunFacingControl": "MFC_FACE_TARGET",
+                                    "SpeedMultiplier": [
+                                        0.30000001,
+                                        0.40000001
+                                    ],
+                                    "StopMovingOnExit": 1,
+                                    "SamplePointSpacing": 0.5,
+                                    "DoTacVisTrace": 1,
+                                    "DoVisRaycast": 0,
+                                    "WantTargetVisible": 1,
+                                    "WaitPeriodAfterVisibilityViolation": 0,
+                                    "PrioritizeVisibility": 0,
+                                    "DistanceScoreCurve": {
+                                        "m": -3,
+                                        "k": 2,
+                                        "b": 1,
+                                        "c": 0.5,
+                                        "logistic": 0
+                                    },
+                                    "DirectionScoreCurve": {
+                                        "m": 1000,
+                                        "k": 1,
+                                        "b": 0,
+                                        "c": 0.75,
+                                        "logistic": 1
+                                    },
+                                    "AimWhileMoving": 0,
+                                    "SetViewWhileMoving": 1,
+                                    "ShootingDistance": 0,
+                                    "NeedsVisibilityForShooting": 1,
+                                    "ChangeWeapons": 0,
+                                    "WeaponSlot": "SLOT_1",
+                                    "WeaponHand": "MAIN_HAND",
+                                    "EquipStyle": "ES_PLAY_EQUIP_ANIM",
+                                    "ForceWeaponCancelOnStopFiring": 0
+                                }
+                            },
+                            "SentientRangedCircleDecorator": {
+                                "Enabled": 1,
+                                "OnStartScript": {
+                                    "Script": ""
+                                },
+                                "OnDamagedScript": {
+                                    "Script": ""
+                                },
+                                "DefaultReevaluationDelay": 0,
+                                "ChildAction:Type": "/EE/Types/Npc/MultiTargetCircleBehavior",
+                                "ChildAction:MultiTargetCircleBehavior": {
+                                    "Enabled": 1,
+                                    "OnStartScript": {
+                                        "Script": ""
+                                    },
+                                    "OnDamagedScript": {
+                                        "Script": ""
+                                    },
+                                    "DefaultReevaluationDelay": 0,
+                                    "CloseInDistance": [
+                                        0,
+                                        100
+                                    ],
+                                    "IdealDistance": [
+                                        6,
+                                        18
+                                    ],
+                                    "MovementRange": [
+                                        5,
+                                        10
+                                    ],
+                                    "UpdateDistance": 3,
+                                    "SpeedModifier": 0.30000001,
+                                    "MovementPosture": "WALK",
+                                    "FaceDirection": "MFC_FACE_TARGET",
+                                    "PredictPosition": 0,
+                                    "CircleTime": [
+                                        5,
+                                        8
+                                    ],
+                                    "SamplePointSpacing": 2,
+                                    "AgentTargetWeight": 1,
+                                    "MainHandTargetWeight": 1,
+                                    "OffHandTargetWeight": 1,
+                                    "UseDefenseVolume": 0,
+                                    "MaxDistanceFromEncounterHint": 0,
+                                    "UseMinHeightAsOffset": 0,
+                                    "DebugDraw": 0
+                                },
+                                "StopWhenChildStops": 1,
+                                "DualWieldRestrictAction": "",
+                                "DualWieldRestriction": "DWR_NONE",
+                                "RequiredConfig": "WC_MIX",
+                                "NumRequiredRangedWeapons": 1,
+                                "NumRequiredMeleeWeapons": 0,
+                                "RequiresSpecifiedNumbers": 0
+                            },
+                            "FailOnChildFailure": 0
+                        }
+                    }
+                },
+                "RequiredAttachmentBehaviorSelectorSymbilyst": {
+                    "Enabled": 1,
+                    "OnStartScript": {
+                        "Script": ""
+                    },
+                    "OnDamagedScript": {
+                        "Script": ""
+                    },
+                    "DefaultReevaluationDelay": 0,
+                    "AttachmentType": "/Lotus/Characters/Sentient/Symbilyst/SymbilystArmsSkelDeco",
+                    "InitialAttachmentCheckOnly": 0,
+                    "CheckTargetForAttachmentInstead": 0,
+                    "SubBehaviors": [
+                        "/Lotus/Types/Behaviors/ContinuousMoveToTargetBehavior"
+                    ],
+                    "ContinuousMoveToTargetBehavior": {
+                        "Enabled": 1,
+                        "OnStartScript": {
+                            "Script": ""
+                        },
+                        "OnDamagedScript": {
+                            "Script": ""
+                        },
+                        "DefaultReevaluationDelay": 0,
+                        "DesiredPosture": "WALK",
+                        "MaxMovementDistance": 100,
+                        "StopDistance": 3.5,
+                        "ClearAvoidance": 0,
+                        "SpeedModifier": 1,
+                        "MoveFacingControl": "MFC_FACE_TARGET",
+                        "OffsetDistance": 0,
+                        "UseEyePos": 0,
+                        "UseLastPosWhenTargetLost": 0
+                    }
+                }
+            }
+        },
+        "ViewFov": 180,
+        "VerticalFov": 90,
+        "IsCoverUseEnabled": 0
+    }
+}

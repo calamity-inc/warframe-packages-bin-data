@@ -1,0 +1,37 @@
+{
+    "parent": "/Lotus/Types/Weapon/QuadRobotShockwaveEntity",
+    "data": {
+        "ReplicationOverride": "RO_ALWAYS",
+        "ReplicateCreator": 1,
+        "Range": [
+            0,
+            100
+        ],
+        "RayCheckExpand": 0,
+        "Spherical": 1,
+        "ShockwaveDecoType": "/Lotus/Fx/PowersuitAbilities/Lotus/LotusSingShockwaveDeco",
+        "AttackData": {
+            "Amount": 0,
+            "ProcChance": 0.5,
+            "ForcedProcs": [],
+            "ForcedDeathProcs": [
+                "PT_VOID"
+            ]
+        },
+        "AttackTime": 10,
+        "HitAirTargets": 1,
+        "ShockWaveCenterHeight": 2,
+        "TargetHitScript": {
+            "Script": "LotusSingAbility.lua",
+            "Function": "OnShockwaveHit",
+            "_maxNumBlindReactionAnims": 3,
+            "_activateAnim": "",
+            "_blindEffect": "",
+            "_castEffect": "",
+            "_shockwaveType": "",
+            "_shockwaveWindEffect": "",
+            "_killDelayTime": 1,
+            "_avatarDeathSound": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusSingEnemyDeathExplosion"
+        }
+    }
+}

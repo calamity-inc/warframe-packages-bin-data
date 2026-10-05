@@ -1,0 +1,80 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "UseParentVisibility": 0,
+        "SpawnRate": 25,
+        "BoundsExpansionOverride": 1,
+        "fireOnce": 0,
+        "useCollisions": 0,
+        "drag": 1,
+        "mass": [
+            -0.039999999,
+            0.039999999
+        ],
+        "life": [
+            0.30000001,
+            1
+        ],
+        "size": [
+            0.0049999999,
+            0.029999999
+        ],
+        "velocity": [
+            0.2,
+            0.5
+        ],
+        "streaksFactor": 1,
+        "spawnScale": [
+            0.40000001,
+            0.1,
+            0.039999999
+        ],
+        "flowScale": [
+            0.40000001,
+            0.40000001,
+            0.40000001
+        ],
+        "flowForce": [
+            3,
+            3,
+            3
+        ],
+        "flowForceEnd": [
+            2,
+            2,
+            2
+        ],
+        "flowScrolling": [
+            0,
+            -0.2,
+            0
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksBright",
+        "colorKeys[0]": [
+            0.037,
+            0.46000001,
+            0.69999999,
+            1
+        ],
+        "colorKeys[1]": [
+            0.037,
+            0.46000001,
+            0.69999999,
+            1
+        ],
+        "colorKeys[2]": [
+            0.0060000001,
+            1,
+            0.77999997,
+            1
+        ],
+        "colorKeys[3]": [
+            0.0019,
+            0.0014,
+            0.071000002,
+            1
+        ],
+        "numColors": 2
+    }
+}

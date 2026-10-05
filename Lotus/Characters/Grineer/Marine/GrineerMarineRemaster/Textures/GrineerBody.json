@@ -1,3 +1,155 @@
 {
-    "parent": "/EE/Types/GraphicsRes/PBRMaterial"
+    "parent": "/EE/Types/GraphicsRes/PBRMaterial",
+    "data": {
+        "Shader2": "/EE/Shaders/Deferred/CharacterPBRDetailDeferred.hlsl",
+        "Shader3": "/EE/Shaders/Lighting/ShadowMapCharacter.hlsl",
+        "Shader4": "/EE/Shaders/Lighting/ShadowProject.hlsl",
+        "Shader5": "/EE/Shaders/Lighting/OmniShadow.hlsl",
+        "Shader6": "/EE/Shaders/Lighting/ShadowLightMap.hlsl",
+        "Shader7": "/EE/Shaders/Lighting/OmniShadowLightMap.hlsl",
+        "Shader8": "/EE/Shaders/Lighting/ProjectOnly.hlsl",
+        "Shader10": "/EE/Shaders/DepthCharacter.hlsl",
+        "LAYERS": "X4",
+        "DETAIL_MASK": "NONE",
+        "EFFECT": "NONE",
+        "UNIQUE_TEXTURE": "NONE",
+        "VISUALIZATION": "NONE",
+        "FX": "NONE",
+        "UNDO_TINT_FOR_PACKING": 0,
+        "USE_DEFORMERS": 1,
+        "DIFFUSE_MAP": 1,
+        "MACRO_ROUGHNESS": 0,
+        "SKIN_BRDF": 0,
+        "USE_TINT_MASK": 0,
+        "CLEARCOAT": 0,
+        "EMISSIVE_MAP": 0,
+        "EMISSIVE_MASK": 0,
+        "OPACITY": 0,
+        "CLOAK": 1,
+        "WET": 0,
+        "SPECULARMAP_IS_METALMAP": 1,
+        "EMISSIVE_ON_UV1": 0,
+        "VERTEX_AO": 1,
+        "HOLES": 0,
+        "VS:Pan": [
+            0,
+            0,
+            0
+        ],
+        "PS:DiffuseColor": [
+            0.75,
+            0.75,
+            0.75,
+            1
+        ],
+        "PS:SpecularColor": [
+            0.1,
+            0.1,
+            0.1,
+            1
+        ],
+        "PS:Roughness": 0.5,
+        "PS:RoughnessAtten": 1,
+        "PS:ReflectionsLodBias": 0,
+        "PS:MacroLayerStrength": [
+            0.80000001,
+            0.80000001,
+            0.80000001,
+            0.80000001
+        ],
+        "PS:TintColor0": [
+            0.098999999,
+            0.22,
+            0.18000001,
+            1
+        ],
+        "PS:TintColor1": [
+            0.16,
+            0.16,
+            0.16,
+            0.5
+        ],
+        "PS:TintColor2": [
+            0.18000001,
+            0.11,
+            0.054000001,
+            1
+        ],
+        "PS:TintColor3": [
+            0.30000001,
+            0.25999999,
+            0.17,
+            1
+        ],
+        "PS:CurvatureStrength": 0,
+        "TX:NormalMap": "GrineerBody_n.png",
+        "TX:MacroPackMap": "GrineerBodyPackMap",
+        "TX:DiffuseMap": "GrineerBody_d.png",
+        "PS:CloakHDR": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "PS:CloakVector": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "PS:CloakParams": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "PS:LayerNormalStrength": [
+            0,
+            2,
+            0.5,
+            0.5
+        ],
+        "PS:UvScaleRedGreen": [
+            0,
+            0,
+            1,
+            1
+        ],
+        "PS:UvScaleBlueAlpha": [
+            4,
+            4,
+            3,
+            3
+        ],
+        "PS:MicroCavityAoStrength": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "PS:MicroCavityRoughnessMultiplier": [
+            2,
+            0,
+            1,
+            3
+        ],
+        "PS:MicroCavitySpecularMultiplier": [
+            0,
+            0,
+            1,
+            1
+        ],
+        "TX:RedNormalMap": "/Lotus/Characters/SharedTileableTextures/CharacterPBRDetail/OrganicSurfaces/Bone_n.png",
+        "TX:GreenNormalMap": "/Lotus/Characters/SharedTileableTextures/Metal/PaintedMetal/PaintedMetal_n.png",
+        "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/Leather/LeatherGrained/LeatherGrained_n.png",
+        "TX:AlphaNormalMap": "/Lotus/Characters/SharedTileableTextures/CharacterPBRDetail/Textiles/NaturalSuedeCavity_n.png",
+        "PS:BaseTintColor": [
+            0.23,
+            0.23,
+            0.23,
+            0.5
+        ],
+        "DepthWrite": 1,
+        "DefaultPhysicsMaterial": "/EE/Types/Physics/Materials/Default"
+    }
 }

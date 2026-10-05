@@ -1,0 +1,34 @@
+{
+    "parent": "/Lotus/Types/Game/DojoDecorationRecipeItem",
+    "data": {
+        "RegularPrice": 50000,
+        "LocalizeTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnDropshipThrusterBName",
+        "LocalizeDescTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnDropshipThrusterBDesc",
+        "Icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/GrineerPlaceables/GrineerTauPlaceables/STMxGrnDropshipThrusterB.png",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 30000
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 6000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 10000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                "ItemCount": 7
+            }
+        ],
+        "BuildTime": 86400,
+        "BuildPrice": 50000,
+        "SkipBuildTimePrice": 750,
+        "ResultDecoration": "/Lotus/Objects/Tenno/Props/TauGrineerPlaceables/STMxGrnDropshipThrusterB",
+        "DecoCapacityCost": 1,
+        "AssetRefundPercentage": 1,
+        "DecoCategory": "DDC_GRINEER"
+    }
+}

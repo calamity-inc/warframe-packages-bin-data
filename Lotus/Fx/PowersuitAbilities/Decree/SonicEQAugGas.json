@@ -1,0 +1,105 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "BakeShadowsOnLightMaps": 0,
+        "UseLightProbes": 1,
+        "MaterialParams": [
+            {
+                "name": "LightingAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.60000002
+            },
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.40000001
+            }
+        ],
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "UseTeamEffectsSetting": 1,
+        "CanNano": 0,
+        "ApplyColorCustomization": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "LifeSpan": 0,
+        "Life": [
+            0.5,
+            0.80000001
+        ],
+        "Size": [
+            0.80000001,
+            1.2
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.30844599
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.748555
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.99458301
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "DistanceScale": 0.5,
+        "SpewCount": [
+            24,
+            24
+        ],
+        "Material": "/Lotus/Fx/Smoke/SmokeFlipDetailedSP",
+        "AnimateTiles": 1,
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            194,
+            254,
+            96,
+            255
+        ],
+        "ColorMax": [
+            64,
+            100,
+            3,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.02,
+            0.02
+        ],
+        "FadeInOut": [
+            0.065743998,
+            0.2
+        ],
+        "EyeFadeDist": 3,
+        "LightingOffset": [
+            0,
+            0,
+            0
+        ],
+        "Nozzle": "PLANE",
+        "UseRootForParent": 0,
+        "NozzleBox": [
+            3,
+            0.30000001,
+            0
+        ],
+        "Speed": [
+            8,
+            10
+        ],
+        "Drag": 1.6,
+        "Mass": [
+            -0.2,
+            0.1
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "LotusScarfCloth_skel.fbx",
+        "Attached": 1,
+        "AttachBone": "GAME_C1_SPINE5",
+        "ControlData": "LotusScarfSkelClothData",
+        "Collision": "LotusSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.082000002,
+                0.082999997
+            ],
+            "collidingDampeningRange": [
+                0.018999999,
+                0.07
+            ],
+            "massRange": [
+                0.28999999,
+                0.58999997
+            ],
+            "distConstraintRange": [
+                0.0049999999,
+                4
+            ],
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 0.28999999,
+            "worldVelocityAtten": [
+                1,
+                1.25,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "windAffected": 0,
+            "wind": [
+                1,
+                0,
+                1
+            ],
+            "windStrength": [
+                0,
+                0
+            ],
+            "noiseSpeed": 0.050000001,
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.75,
+                0.75,
+                0.75
+            ],
+            "windVolumeScale": [
+                1,
+                1,
+                1
+            ],
+            "windVolumeOffsetRate": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "usePeerCollision": 0,
+            "floorPlaneHeight": 0.059,
+            "orientationBasis": "X_Y",
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        },
+        "UseClothCollision": 1,
+        "ZoneWindScale": 2
+    }
+}

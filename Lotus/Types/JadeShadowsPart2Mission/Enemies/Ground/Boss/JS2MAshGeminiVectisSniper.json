@@ -163,7 +163,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -191,6 +190,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/GrnSniperRifleHipAccuracyInfo",
@@ -215,6 +215,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 1000,
                     "PvpTraceDistance": 1000,
@@ -495,7 +497,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -523,6 +524,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "",
@@ -548,6 +550,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "/Lotus/Weapons/Tenno/Rifle/IncarnonTennoSniperRifleProj",
@@ -789,11 +793,15 @@
         "AltScopeReticleMovie": "/Lotus/Interface/SpecialReticles/VectisScope.swf",
         "RequiredLevel": 2,
         "HideWhenHolstered": 1,
-        "NumChargesToAdd": 15,
         "MaxCharges": 100,
         "ClearChargesOnBehaviorChange": 1,
-        "AddChargeConditions": [
-            "PRIMARY_HEADSHOT"
+        "AddCharges": [
+            {
+                "Conditions": [
+                    "PRIMARY_HEADSHOT"
+                ],
+                "NumCharges": 15
+            }
         ],
         "ConsumeChargeConditions": [
             "SECONDARY_FIRE"

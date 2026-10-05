@@ -1,0 +1,33 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "timeScalar",
+                "type": "Float",
+                "slot": -1,
+                "value": -0.5
+            },
+            {
+                "name": "impactPoint",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0,
+                "value1": 0,
+                "value2": 0,
+                "value3": 0
+            },
+            {
+                "name": "FrontLineScale",
+                "type": "Float",
+                "slot": -1,
+                "value": 6
+            }
+        ],
+        "DeadParentInheritanceRule": "NONE",
+        "Material": "/Lotus/Fx/PowersuitAbilities/Caliban/ShockWaveCastProjMat",
+        "UseAttachRoot": 0,
+        "Fadeup": 0.2,
+        "ApplyColorCustomization": 1
+    }
+}

@@ -2,7 +2,9 @@
     "parent": "/Lotus/Types/Enemies/Corpus/BipedRobot/BipedRobotRagdoll",
     "data": {
         "Level": "/Lotus/Characters/Sentient/Brachiolyst/BrachiolystRoM_physics.fbx",
-        "RecoverAnims": [],
+        "RecoverAnims": [
+            "/Lotus/Animations/Sentient/Trooper/StunDownEnd_anim.fbx"
+        ],
         "DeathEffect": {
             "Type": "/Lotus/Fx/Enemies/Sentients/SentientDestroyFX"
         },

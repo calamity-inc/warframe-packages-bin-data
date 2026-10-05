@@ -1,0 +1,76 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "UseLightMap": 0,
+        "BakeShadowsOnLightMaps": 0,
+        "UseAmbient": 1,
+        "Mesh": "/Lotus/Fx/Weapons/Ballistic/PistolShell.fbx",
+        "OverrideMaterial": [
+            "/EE/Materials/HiddenNonShadowing"
+        ],
+        "LODBias": -2,
+        "MaterialParams": [
+            {
+                "name": "PreserveDefaultTints",
+                "type": "Float",
+                "slot": 0,
+                "value": 0
+            },
+            {
+                "name": "PreserveDefaultTints",
+                "type": "Float",
+                "slot": 1,
+                "value": 0
+            },
+            {
+                "name": "PreserveDefaultTints",
+                "type": "Float",
+                "slot": 2,
+                "value": 0
+            },
+            {
+                "name": "PreserveDefaultTints",
+                "type": "Float",
+                "slot": 3,
+                "value": 0
+            }
+        ],
+        "MotionBlurred": 1,
+        "UseParentAnimState": 1,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Objects/Tenno/Props/Ships/RankSculptures/DuelistSumdali/Cloth/DuelistSumdaliSkeletalClothEx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "",
+        "Tag": "EffectsDeco",
+        "ReplicaRunScriptInstance": 1,
+        "ReplicationOverride": "RO_NEVER",
+        "SleepOffscreen": 0,
+        "ReplicaPositionNoise": [
+            0,
+            2,
+            0,
+            0.1
+        ]
+    }
+}

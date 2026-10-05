@@ -70,9 +70,12 @@
                 "RequiresAmmoInClip": 0,
                 "RequiresAmmoInInventory": 0,
                 "RespondsToEvents": 0,
+                "RespondsToAnimEvents": 1,
+                "OnlyRespondsToEventsWhenVisible": 0,
                 "UseHolster": 0,
                 "HolsterCategory": "PISTOL",
-                "ForceOffhandHolster": 0
+                "ForceOffhandHolster": 0,
+                "UseAttachmentIndexForHolsterHand": 0
             },
             {
                 "Attachment": {
@@ -141,9 +144,12 @@
                 "RequiresAmmoInClip": 0,
                 "RequiresAmmoInInventory": 0,
                 "RespondsToEvents": 1,
+                "RespondsToAnimEvents": 1,
+                "OnlyRespondsToEventsWhenVisible": 0,
                 "UseHolster": 0,
                 "HolsterCategory": "QUIVER",
-                "ForceOffhandHolster": 0
+                "ForceOffhandHolster": 0,
+                "UseAttachmentIndexForHolsterHand": 0
             }
         ]
     }

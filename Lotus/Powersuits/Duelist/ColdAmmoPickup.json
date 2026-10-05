@@ -1,0 +1,126 @@
+{
+    "parent": "/Lotus/Types/Game/PickUps/LotusPickUp",
+    "data": {
+        "Mesh": "/Lotus/Fx/Common/Sphere1.fbx",
+        "MeshScale": 1.2,
+        "OverrideMaterial": [
+            "/Lotus/Fx/PowersuitAbilities/Duelist/DuelistRunePickupMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.47,
+                    0.58999997,
+                    0.85000002,
+                    1
+                ]
+            }
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/EE/Types/Pickups/PickupGlow",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Duelist/DuelistAmmoIcon",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Duelist/DuelistAmmoPickupFlare",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "SetChildrenVisibility": 1,
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "ScriptInstance": {
+            "Script": "DuelistPassive.lua",
+            "Function": "OnColdAmmoSpawned",
+            "_passiveHealFx": "",
+            "_filterWeaponTypes": [],
+            "_hudBuffType": "",
+            "_pickupType": "",
+            "_pickupFx": ""
+        },
+        "ReplicaRunScriptInstance": 1,
+        "ReplicateCreator": 1,
+        "PickUpItemType": "ColdAmmoPickUpItem",
+        "DestroyWhenItemTaken": 0,
+        "CanBeSuckedUp": 0,
+        "CanBeSuckedUpByBlackhole": 0,
+        "PickUpScript": {
+            "Script": "DuelistPassive.lua",
+            "Function": "OnColdAmmoPickup",
+            "_passiveHealFx": "/Lotus/Fx/PowersuitAbilities/Duelist/BirdDeco",
+            "_filterWeaponTypes": [
+                "/Lotus/Weapons/Tenno/Archwing/Primary/ArchGun",
+                "/Lotus/Types/Gameplay/1999Wf/Quest/1999QuestRocketLauncherWeapon",
+                "/Lotus/Types/Gameplay/1999Wf/Assassination/RocketLauncherWeapon",
+                "/Lotus/Weapons/1999/RocketPropelledGrenadeLauncher/1999RPGLauncher"
+            ],
+            "_hudBuffType": "PassiveHudBuff",
+            "_pickupType": "",
+            "_pickupFx": "/Lotus/Fx/PowersuitAbilities/Duelist/DuelistPickupBurst"
+        },
+        "ReplicaRunPickUpScript": 1,
+        "AutonomousPickup": 1,
+        "PickUpActionType": "ColdAmmoPickupAction",
+        "IsExcludedFromGlobalDropChance": 1
+    }
+}

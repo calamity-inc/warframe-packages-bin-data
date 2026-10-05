@@ -1,0 +1,103 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "Mesh": "/Lotus/Objects/Tau/SentientMoon/Orokin/Gameplay/STMxOroDeathOrbACap.fbx",
+        "ServerChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "MineDisarmObjective/MineHostileGlowProj",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0.80000001
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "TauProximityMineArmedFX",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/Kinematic",
+        "ReplicationOverride": "RO_ALWAYS",
+        "ReplicaPositionNoise": [
+            3,
+            3,
+            3,
+            0.1
+        ],
+        "ReplicaRotationNoise": [
+            0,
+            0.1,
+            0,
+            0.1
+        ],
+        "Health": 1,
+        "Redirector": 1,
+        "CanDie": 0,
+        "ModifyDamageScript": {
+            "Script": "/Lotus/Scripts/Tau/TauProximityMine.lua",
+            "Function": "ModifyDamageData",
+            "_capExtendTime": 0.25,
+            "_capExtendDistance": 0.5,
+            "_ejectTime": 0.5,
+            "_applyRotationOffsetDuringEject": 0,
+            "_debugDraw": 1,
+            "_smokeVFX": "",
+            "_launchEffect": "",
+            "_launchFinishedEffect": "",
+            "_capOpenSound": "",
+            "_launchSound": "",
+            "_capCloseSound": "",
+            "_loopingSound": "",
+            "_projectileType": "",
+            "_splineType": "",
+            "_capType": "",
+            "_activateTriggerType": "",
+            "_flashingLightVFXType": ""
+        },
+        "StateChangeScript": {
+            "Script": "/Lotus/Scripts/AutosimParentDestroy.lua",
+            "Function": "FireDestroyOnParent",
+            "_parentColorChange": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "_materialForSlot": [],
+            "_removeOverride": 0
+        },
+        "MarkHostile": 1
+    }
+}

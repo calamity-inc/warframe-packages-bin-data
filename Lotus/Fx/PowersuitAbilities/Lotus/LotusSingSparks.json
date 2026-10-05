@@ -1,0 +1,65 @@
+{
+    "parent": "/Lotus/Fx/Explosions/Generic/ExplosionOrganicEmbersBright",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 25
+            }
+        ],
+        "SpawnRate": 1000,
+        "drag": 0.75,
+        "mass": [
+            -0.25,
+            -0.125
+        ],
+        "life": [
+            0.25,
+            1.25
+        ],
+        "size": [
+            0.001,
+            0.025
+        ],
+        "velocity": [
+            150,
+            300
+        ],
+        "streaksFactor": 3.5,
+        "useForceFieldForSpawn": 0,
+        "spawnFlowBlend": 0.66670001,
+        "flowForce": [
+            50,
+            50,
+            50
+        ],
+        "colorKeys[0]": [
+            4.5500002,
+            0.31999999,
+            5,
+            1
+        ],
+        "colorKeys[1]": [
+            0.041999999,
+            0.003,
+            0.043000001,
+            1
+        ],
+        "colorKeys[2]": [
+            0.035,
+            0.0023000001,
+            0.035,
+            1
+        ],
+        "colorKeys[3]": [
+            0.014,
+            0.00086999999,
+            0.014,
+            1
+        ],
+        "simVortex": 1,
+        "vortexSpeed": 0.5
+    }
+}

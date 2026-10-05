@@ -1,0 +1,36 @@
+{
+    "parent": "/Lotus/Types/Game/SuitCustomizationAttachment",
+    "data": {
+        "Mesh": "/Lotus/Fx/Weapons/Ballistic/PistolShell.fbx",
+        "OverrideMaterial": [
+            "/EE/Materials/HiddenNonShadowing"
+        ],
+        "DepthSortBias": -10,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "Cloth/DuelistExtrasArmourLRSkelClothEx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "TimeBetweenDamagedEvents": 0.5,
+        "OverrideTable": "DuelistArmourLRDecoOverrides"
+    }
+}

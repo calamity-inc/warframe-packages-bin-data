@@ -1,0 +1,79 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "PhysicsSleep": 0,
+        "UseLightMap": 0,
+        "ShadowLightmaps": 1,
+        "ShadowDynamics": 1,
+        "UseAmbient": 1,
+        "Mesh": "PrimeSteflosClip.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Weapons/Tenno/LongGuns/TnoLotusPodShotgun/PodSpinner",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/WeaponAttachments/Furis.lua",
+            "Function": "LoadedClipApplyCustomization",
+            "_clipType": "",
+            "_createdClipType": "",
+            "_darkSectorCreatedClipType": "",
+            "_clipBone": "",
+            "_shellBones": [],
+            "_secondClipBone": "",
+            "_darkSectorModeOnly": 1,
+            "_alsoHideAttachment": 0,
+            "_diffMultiplier": 1,
+            "_priString": "DexFuris",
+            "_altString": "AltDexFuris",
+            "_spinMinVelocity": [
+                0,
+                0,
+                110
+            ],
+            "_spinMaxVelocity": [
+                0,
+                0,
+                1010
+            ],
+            "_decayRate": 2,
+            "_maxCharge": 20,
+            "_fastCharge": 10,
+            "_offsetPos": [
+                0,
+                0,
+                0
+            ],
+            "_defaultRotation": [
+                0,
+                0,
+                0
+            ],
+            "_primaryIncrement": 1,
+            "_secondaryIncrement": 1,
+            "_drawOnTopWhileAiming": 0,
+            "_applyCustomization": 0,
+            "_projectileIndex": 0
+        }
+    }
+}

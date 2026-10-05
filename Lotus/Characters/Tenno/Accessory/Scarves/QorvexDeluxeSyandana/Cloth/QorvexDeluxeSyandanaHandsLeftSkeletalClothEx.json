@@ -1,0 +1,30 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "QorvexDeluxeSyandanaHandsLeft_skel.fbx",
+        "ControlData": "QorvexDeluxeSyandanaHandsLeftSkeletalClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.5,
+                0.5
+            ],
+            "massRange": [
+                1,
+                1
+            ],
+            "distConstraintRange": [
+                0,
+                0.0099999998
+            ],
+            "useBackstopConstraints": 1,
+            "backstopConstraintRange": [
+                0,
+                0.0099999998
+            ],
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 1
+        },
+        "UseDynamicCollision": 0,
+        "UseClothCollision": 1
+    }
+}

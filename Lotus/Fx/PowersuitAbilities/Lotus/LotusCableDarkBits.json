@@ -1,0 +1,110 @@
+{
+    "parent": "/Lotus/Fx/Levels/Settlement/FallingWaterSplashesPS",
+    "data": {
+        "BakeShadowsOnLightMaps": 0,
+        "UseLightProbes": 1,
+        "MaterialParams": [
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 25
+            }
+        ],
+        "AlwaysRespectParentVisibility": 1,
+        "Life": [
+            0.25,
+            0.55000001
+        ],
+        "Size": [
+            0.15000001,
+            0.40000001
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.5
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.921875
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "BEZIER_SPLINE"
+        },
+        "EmissionTime": [
+            5,
+            5
+        ],
+        "DecayRegenByEmission": 1,
+        "SpewCount": [
+            120,
+            120
+        ],
+        "Material": "/Lotus/Fx/Gameplay/Muse/InkSplashWaterDropsPMat",
+        "ColorMin": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "ColorMax": [
+            28,
+            25,
+            33,
+            255
+        ],
+        "ColorKeys": [
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "Spin": [
+            -0.0020000001,
+            0.0020000001
+        ],
+        "GoboFOV": -10,
+        "Nozzle": "SPHERE",
+        "NozzleMeshScale": [
+            0.0099999998,
+            0.0099999998,
+            0.0099999998
+        ],
+        "NozzleDev": 0,
+        "NozzleBox": [
+            0,
+            0,
+            0
+        ],
+        "NozzleSize": 0.0099999998,
+        "Speed": [
+            0,
+            0.25
+        ],
+        "Drag": 6.5,
+        "Mass": [
+            0,
+            0.15000001
+        ]
+    }
+}

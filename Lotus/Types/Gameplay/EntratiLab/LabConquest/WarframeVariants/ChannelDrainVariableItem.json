@@ -1,0 +1,22 @@
+{
+    "parent": "LabConquestVariableItem",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Conquest/PersonalMod_ChannelDrain",
+        "LocalizeDescTag": "/Lotus/Language/Conquest/PersonalMod_ChannelDrain_Desc",
+        "ApplyUpgradesByDefault": 0,
+        "Script": {
+            "Script": "/Lotus/Scripts/Gameplay/HexConquestModifiers.lua",
+            "Function": "ReduceShieldWhileChanneling",
+            "_overguardGainReduction": 0.75,
+            "_energyReductionMultiplier": 0.75,
+            "_healthMult": 0.98500001,
+            "_healthRestorePercent": 0.029999999,
+            "_healthRestoretime": 12,
+            "_voidImplosionScriptTrigger": ""
+        },
+        "ConditionalUpgrades": [
+            "/Lotus/Upgrades/CosmeticEnhancers/Utility/OnAbilityFirstUseCondition"
+        ],
+        "HudBuffIcon": "/Lotus/Interface/Icons/ModBuffIndicators/ShieldIcon.png"
+    }
+}

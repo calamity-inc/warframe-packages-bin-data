@@ -1,0 +1,87 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "MaterialParams": [
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.44999999
+            },
+            {
+                "name": "Hardness",
+                "type": "Float",
+                "slot": -1,
+                "value": 10
+            }
+        ],
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.69999999,
+            1.25
+        ],
+        "Size": [
+            0.31999999,
+            0.40000001
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.30000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "EmissionTime": [
+            55,
+            55
+        ],
+        "SpewCount": [
+            16,
+            16
+        ],
+        "Material": "/Lotus/Fx/Explosions/Generic/ExplosionSmokeMat",
+        "AnimateTiles": 1,
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            36,
+            36,
+            36,
+            255
+        ],
+        "ColorMax": [
+            49,
+            49,
+            49,
+            255
+        ],
+        "RandOrientation": 1,
+        "FadeInOut": [
+            0.1,
+            0.80000001
+        ],
+        "EyeFadeDist": 0.30000001,
+        "NozzleDev": 0.1,
+        "NozzleSize": 0.30000001,
+        "Speed": [
+            0,
+            0.1
+        ],
+        "Drag": 1,
+        "PushVector": [
+            0,
+            0,
+            0.40000001
+        ],
+        "PushMass": [
+            0,
+            1
+        ]
+    }
+}

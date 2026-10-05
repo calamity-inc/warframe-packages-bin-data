@@ -1,0 +1,32 @@
+{
+    "parent": "/EE/Types/Engine/Sequencer",
+    "data": {
+        "Tag": "SentientTauLotusIntroCue",
+        "Enabled": 0,
+        "Channels": [
+            {
+                "LoopCount": 0,
+                "TimeOfDay": "",
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "SentientTauQuestLotusIntroCueLoop",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            0
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": []
+            }
+        ],
+        "AllowZoneCulling": 0
+    }
+}

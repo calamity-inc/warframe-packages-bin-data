@@ -4,6 +4,832 @@
         "AnimTree": "BasicOperatorRemasteredAnimTree.animtree",
         "EyelidTrackingEnabled": 1,
         "UpperLidTrackPercent": 0.30000001,
-        "LowerLidTrackPercent": 0.25
+        "LowerLidTrackPercent": 0.25,
+        "Actions": [
+            {
+                "Action": "RELOAD",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_RELOAD",
+                        "Value": ""
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_RELOAD",
+                        "Value": ""
+                    }
+                ]
+            },
+            {
+                "Action": "FIRE",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_FIRE",
+                        "Value": ""
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_FIRE",
+                        "Value": ""
+                    }
+                ]
+            },
+            {
+                "Action": "FIRE_ALTERNATE",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_FIRE",
+                        "Value": ""
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_FIRE",
+                        "Value": ""
+                    }
+                ]
+            },
+            {
+                "Action": "MELEE",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_MELEE",
+                        "Value": ""
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_MELEE",
+                        "Value": ""
+                    }
+                ]
+            },
+            {
+                "Action": "MELEE_SWING",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_MELEE",
+                        "Value": ""
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_MELEE",
+                        "Value": ""
+                    }
+                ]
+            },
+            {
+                "Action": "Jump",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_JUMP",
+                        "Value": "JS_JUMP_START"
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_JUMP",
+                        "Value": "JS_JUMPING"
+                    }
+                ]
+            },
+            {
+                "Action": "DoubleJump",
+                "SetToBegin": [],
+                "Query": [
+                    {
+                        "Variable": "IV_JUMP",
+                        "Value": "JS_JUMPING"
+                    },
+                    {
+                        "Variable": "IV_JUMP_STYLE",
+                        "Value": "JUMP_DOUBLE_JUMP"
+                    }
+                ]
+            },
+            {
+                "Action": "BulletJump",
+                "SetToBegin": [],
+                "Query": [
+                    {
+                        "Variable": "IV_JUMP",
+                        "Value": "JS_JUMPING"
+                    },
+                    {
+                        "Variable": "IV_JUMP_STYLE",
+                        "Value": "JUMP_BULLET_JUMP"
+                    }
+                ]
+            },
+            {
+                "Action": "FreeFall",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 4
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 4
+                    }
+                ]
+            },
+            {
+                "Action": "Land",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 0
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "WallJumpUp",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 23
+                    },
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 23
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "FreeRunVaultOver",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_VAULT"
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_VAULT"
+                    }
+                ]
+            },
+            {
+                "Action": "FreeRunVaultUp",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_VAULTSLIDE"
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_VAULTSLIDE"
+                    }
+                ]
+            },
+            {
+                "Action": "FreeRunVaultDown",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_VAULTDROP"
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_VAULTDROP"
+                    }
+                ]
+            },
+            {
+                "Action": "CancelFreeRun",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_NONE"
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "ThrowAbility",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "ThrowGrappleHook",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 2
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 2
+                    }
+                ]
+            },
+            {
+                "Action": "EmberCast",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 3
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 3
+                    }
+                ]
+            },
+            {
+                "Action": "VoltCast",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 4
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 4
+                    }
+                ]
+            },
+            {
+                "Action": "AntiCast",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 5
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 5
+                    }
+                ]
+            },
+            {
+                "Action": "FrostCast",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 6
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 6
+                    }
+                ]
+            },
+            {
+                "Action": "JadeThrow",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 7
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 7
+                    }
+                ]
+            },
+            {
+                "Action": "NinjaThrow",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 8
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 8
+                    }
+                ]
+            },
+            {
+                "Action": "Kneel",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 25
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 25
+                    }
+                ]
+            },
+            {
+                "Action": "InstantKneel",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 26
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "IDLE",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 0
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "SpecialThrow",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 9
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 9
+                    }
+                ]
+            },
+            {
+                "Action": "TrapperCast",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 10
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 10
+                    }
+                ]
+            },
+            {
+                "Action": "TenguBurst",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 11
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 11
+                    }
+                ]
+            },
+            {
+                "Action": "EnergySphereCast",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 12
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 12
+                    }
+                ]
+            },
+            {
+                "Action": "ThrowEnd",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 0
+                    }
+                ]
+            },
+            {
+                "Action": "ZIPLINE_LOOP_RIGHT",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 21
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 21
+                    }
+                ]
+            },
+            {
+                "Action": "ZIPLINE_LOOP_LEFT",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 20
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 20
+                    }
+                ]
+            },
+            {
+                "Action": "EmplacementMount",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 16
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 16
+                    }
+                ]
+            },
+            {
+                "Action": "EmplacementIdle",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 17
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 17
+                    }
+                ]
+            },
+            {
+                "Action": "EmplacementDismount",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 18
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 18
+                    }
+                ]
+            },
+            {
+                "Action": "EmplacementDeadDismount",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 19
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 19
+                    }
+                ]
+            },
+            {
+                "Action": "ZipLineMountUp",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 24
+                    },
+                    {
+                        "Variable": "IV_CONTEXT_ANGLE",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 24
+                    }
+                ]
+            },
+            {
+                "Action": "ZipLineMountDown",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 24
+                    },
+                    {
+                        "Variable": "IV_CONTEXT_ANGLE",
+                        "Value": -1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 24
+                    }
+                ]
+            },
+            {
+                "Action": "MonkeyPoke",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 27
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 27
+                    }
+                ]
+            },
+            {
+                "Action": "NULL",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 0
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "Statue",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_BREATHING_RATE",
+                        "Value": 0
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "GravityStream",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 28
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 28
+                    }
+                ]
+            },
+            {
+                "Action": "GravityStreamDismount",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 29
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 29
+                    }
+                ]
+            },
+            {
+                "Action": "SkipExitGroundFire",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_SKIP_EXIT_GROUND_FIRE",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_SKIP_EXIT_GROUND_FIRE",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "StopSkipExitGroundFire",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_SKIP_EXIT_GROUND_FIRE",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_SKIP_EXIT_GROUND_FIRE",
+                        "Value": 0
+                    }
+                ]
+            },
+            {
+                "Action": "DisableIdleVariation",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_SELECT",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_SELECT",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "EnableIdleVariation",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_SELECT",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_SELECT",
+                        "Value": 0
+                    }
+                ]
+            },
+            {
+                "Action": "DoDrunkWalk",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DRUNK_WALK",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DRUNK_WALK",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "StopDrunkWalk",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DRUNK_WALK",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DRUNK_WALK",
+                        "Value": 0
+                    }
+                ]
+            },
+            {
+                "Action": "EnableFaceIdles",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ADDITIVE_4",
+                        "Value": 0
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "DisableFaceIdles",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ADDITIVE_4",
+                        "Value": 1
+                    },
+                    {
+                        "Variable": "IV_NONE",
+                        "Value": ""
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "APCTurretDismount",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 30
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 30
+                    }
+                ]
+            },
+            {
+                "Action": "Talk01",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_TEST",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_TEST",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "Talk02",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_TEST",
+                        "Value": 2
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_TEST",
+                        "Value": 2
+                    }
+                ]
+            },
+            {
+                "Action": "Talk03",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_TEST",
+                        "Value": 3
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_TEST",
+                        "Value": 3
+                    }
+                ]
+            },
+            {
+                "Action": "StopTalk",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_TEST",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_TEST",
+                        "Value": 0
+                    }
+                ]
+            }
+        ]
     }
 }

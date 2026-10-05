@@ -1,0 +1,44 @@
+{
+    "parent": "/Lotus/Characters/Tenno/Duelist/Cloth/DuelistExtrasElbowHookRight01SkelClothEx",
+    "data": {
+        "Mesh": "DuelistExtrasArmourAR_skel.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "refMeshs4ClothBoneB3",
+                "Type": "DuelistExtrasArmourBRSkelClothEx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "DebugVis": "CV_DISTANCE_CONSTRAINTS",
+        "CollisionDebugVis": "CDV_ALL",
+        "ShowSimCollisionTags": 1,
+        "ControlData": "DuelistExtrasArmourARSkelClothData",
+        "Attribs": {
+            "distConstraintRange": [
+                0,
+                0.050000001
+            ],
+            "backstopConstraintRange": [
+                0,
+                0.0099999998
+            ]
+        }
+    }
+}

@@ -23,23 +23,26 @@
                             "BuildDetailMesh": 1,
                             "DetailSampleDist": 2,
                             "DetailSampleMaxError": 1,
+                            "LandscapeSmoothRadius": 0,
                             "CullUnreachable": 1,
                             "SeedTopSurfaces": 0,
                             "DistUnderNav": 10,
                             "UseRegionsForIslands": 0,
                             "NavPerZone": 1,
-                            "ZoneBoundsExtension": 4,
+                            "ZoneBoundsExtension": 2,
                             "MaintainBoundsBorders": 0,
                             "BuildTacMap": 1,
                             "TacAreaGrid": 8,
                             "GridHMergeThreshold": 10,
                             "GridVMergeThreshold": 50,
+                            "TacAreaHintSize": 15,
                             "CalcTacMapVisibility": 0,
                             "OnlyKeepTacPlanesForValidCover": 1,
                             "MarkSteep": 0,
                             "MarkRegions": 1,
                             "MarkRoads": 1,
                             "MarkWater": 1,
+                            "CutDeepWater": 1,
                             "MarkDefenseVolumes": 1,
                             "CutOutDefenseVolumes": 0,
                             "MarkCutters": 1,
@@ -173,7 +176,17 @@
                                 "doorWidthExtension": 2,
                                 "minDistFromBridge": 2
                             }
-                        }
+                        },
+                        "MeshOptLevel": "NMO_LEVEL2",
+                        "MeshOptWeightLevel": "NMW_LEVEL2",
+                        "MeshOptMaxError0": 0.40000001,
+                        "MeshOptMaxError1": 0.64999998,
+                        "MeshOptMaxError2": 0.89999998,
+                        "MeshOptMaxError3": 1.3,
+                        "MeshOptWeightScale0": 1,
+                        "MeshOptWeightScale1": 0.090000004,
+                        "MeshOptWeightScale2": 0.02,
+                        "MeshOptWeightScale3": 0
                     }
                 }
             ]

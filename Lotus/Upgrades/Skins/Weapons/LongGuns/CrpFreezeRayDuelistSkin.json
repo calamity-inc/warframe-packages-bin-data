@@ -1,0 +1,102 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWeaponCustomization",
+    "data": {
+        "PickUpText": "",
+        "Equipable": 0,
+        "PremiumPrice": 20,
+        "LocalizeTag": "/Lotus/Language/Skins/CrpFreezeRayDuelistSkinName",
+        "LocalizeDescTag": "/Lotus/Language/Skins/CrpFreezeRayDuelistSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Skins/CrpFreezeRayDuelistSkin.png",
+        "ExcludeFromCodex": 0,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/CrpFreezeRayRifle",
+        "UpgradeSkinOverride": "CrpFreezeRayDuelistWeaponSkin",
+        "DefaultCustomizationOverrides": {
+            "Neckwear": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "TnTeshinGlaiveA",
+                        "PosOffset": [
+                            0.050000001,
+                            0.17,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0.70710677,
+                            0,
+                            0,
+                            0.70710677
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    },
+                    {
+                        "BoneOverride": "TnTeshinGlaiveB",
+                        "PosOffset": [
+                            -0.28,
+                            -0.47,
+                            0.02
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    },
+                    {
+                        "BoneOverride": "TnTeshinGlaiveC",
+                        "PosOffset": [
+                            0.050000001,
+                            -0.47,
+                            -0.28999999
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            }
+        }
+    }
+}

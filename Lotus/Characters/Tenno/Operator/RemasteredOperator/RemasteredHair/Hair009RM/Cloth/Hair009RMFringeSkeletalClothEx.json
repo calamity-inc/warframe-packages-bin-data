@@ -71,24 +71,29 @@
                 "Scale": 1
             }
         ],
+        "DebugVis": "CV_JOINTS",
+        "CollisionDebugVis": "CDV_ALL",
         "ControlData": "Hair009RMFringeSkeletalClothData",
         "Attribs": {
             "dampeningRange": [
-                0.25,
-                0.25
+                0.19430099,
+                0.243523
+            ],
+            "collidingDampeningRange": [
+                0.090673998,
+                0.119119
             ],
             "massRange": [
-                0.34999999,
-                0.34999999
+                0.76683903,
+                0.82616597
             ],
             "distConstraintRange": [
                 0,
-                0.039999999
+                0.0099999998
             ],
             "useBackstopConstraints": 1,
             "reduceStretchExponent": 1,
-            "shearingStiffness": 1,
-            "addXAxisHardContraints": 1
+            "shearingStiffness": 0.13563199
         },
         "UseDynamicCollision": 0,
         "UseClothCollision": 1

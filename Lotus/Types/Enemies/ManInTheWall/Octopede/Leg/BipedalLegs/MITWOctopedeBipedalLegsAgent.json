@@ -46,6 +46,7 @@
             ],
             "MaxMovementDistance": 100,
             "AllowRetreat": 0,
+            "AllowTeleportFromOffScreen": 0,
             "AllowRun": 1,
             "AllowChase": 1,
             "ForceWalkBelowMinIdealRange": 1,
@@ -198,9 +199,6 @@
                 }
             }
         ],
-        "LocomotionController:PathingPreferences": {
-            "minRequiredNavEdgeWidth": 2
-        },
         "ViewFov": 360
     }
 }

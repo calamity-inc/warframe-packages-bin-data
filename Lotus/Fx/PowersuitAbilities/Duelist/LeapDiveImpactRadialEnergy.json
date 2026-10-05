@@ -1,0 +1,93 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "UseTeamEffectsSetting": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            1,
+            1.25
+        ],
+        "Size": [
+            1,
+            2
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.80000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 4
+                }
+            ]
+        },
+        "Aspect": [
+            0.80000001,
+            1.2
+        ],
+        "InitialCount": [
+            32,
+            32
+        ],
+        "Material": "/Lotus/Fx/Explosions/ExplosionFlipSmokeLoopB",
+        "AnimateTiles": 1,
+        "ColorMin": [
+            255,
+            251,
+            249,
+            255
+        ],
+        "ColorKeys": [
+            [
+                181,
+                201,
+                237,
+                255
+            ],
+            [
+                181,
+                201,
+                237,
+                255
+            ]
+        ],
+        "RandOrientation": 1,
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.125
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "Nozzle": "DISC",
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ],
+        "NozzleDev": 1,
+        "NozzleSize": 0.5,
+        "Speed": [
+            30,
+            60
+        ],
+        "Drag": 3,
+        "Mass": [
+            -0.5,
+            -0.1
+        ]
+    }
+}

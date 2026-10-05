@@ -1,0 +1,30 @@
+{
+    "parent": "/Lotus/Types/Game/RecipeItem",
+    "data": {
+        "PickUpText": "TRINITY SYSTEMS BLUEPRINT",
+        "Rarity": "UNCOMMON",
+        "SellingPrice": 3500,
+        "ExcludeFromCodex": 0,
+        "ResultItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/NarinSystemsComponent",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemA",
+                "ItemCount": 55
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 2100
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                "ItemCount": 10
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/WarframeCrafting/CraftingComponent_NarinSystemsName",
+        "LocalizeDescTag": "/Lotus/Language/WarframeCrafting/CraftingComponent_NarinSystemsDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeSystem.png",
+        "TypeName": "/Lotus/Types/Recipes/WarframeRecipes/NarinSystemsBlueprint",
+        "SellingPrice": 3500,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1787754405,
+        "Giftable": 0,
+        "ExcludeFromCodex": 0,
+        "Rarity": "UNCOMMON",
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "NarinSystemsComponent",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemA",
+                "ItemCount": 55
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 2100
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                "ItemCount": 10
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "SkipBuildTimePrice": 25
+    }
+}

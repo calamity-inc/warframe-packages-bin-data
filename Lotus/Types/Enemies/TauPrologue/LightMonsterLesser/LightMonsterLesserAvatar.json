@@ -1,0 +1,72 @@
+{
+    "parent": "/Lotus/Types/Game/LotusNpcAvatar",
+    "data": {
+        "Mesh": "/Lotus/Characters/Infested/LightMonster/LightMonsterVariant/LightMonsterVariant_skel.fbx",
+        "MeshScale": 0.34999999,
+        "AnimationName": "LightMonsterVariant",
+        "AnimateMaster": 1,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Characters/Infested/LightMonster/LightMonsterVariant/LightMonsterVariantHeadDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "/Lotus/Types/Enemies/Infested/AiWeek/Crawlers/CrawlerWalk",
+        "InputFilter": "/EE/Types/Input/HaydenInputFilter",
+        "Faction": "Infestation",
+        "LocTag": "[HC] Lesser Wyrm",
+        "MaxHealth": 400,
+        "AgentControllerType": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/GrineerAgentController",
+        "AnimControllerType": "LightMonsterLesserAnimTreeController",
+        "CameraControllerType": "/EE/Types/DefaultAvatar/DefaultCamera",
+        "DamageControllerType": "LightMonsterLesserDamageController",
+        "RaycastProxy": {
+            "LocalPosition": [
+                0.2,
+                0,
+                0
+            ],
+            "LocalRotation": [
+                0,
+                0,
+                0.70710677,
+                0.70710677
+            ],
+            "BoneName": "GAME_C1_ROOT",
+            "Type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/InfestedFullBody"
+        },
+        "FacialMorphScript": {
+            "Script": "/Lotus/Scripts/NPC/FacialMorph.lua",
+            "Function": "OnMorphChangeRequested",
+            "_autoRemovePainMorph": 1
+        },
+        "FacialMorphHeadAttachmentType": "/Lotus/Characters/Grineer/Marine/GrineerHeadMorphsDeco",
+        "MorphName:ALERT": "Morphs.Alert",
+        "MorphName:RAGE": "Morphs.Rage",
+        "MorphName:FEAR": "Morphs.Fear",
+        "MorphName:DEAD": "Morphs.Dead",
+        "MorphName:SMUG": "Morphs.Smug",
+        "MorphName:PAIN": "Morphs.Pain",
+        "PartialFrozenWarmUpRate": 0.60000002,
+        "FactionResistanceKeyword": "RK_INFESTED_FACTION",
+        "DisarmAction": "DA_NONE"
+    }
+}

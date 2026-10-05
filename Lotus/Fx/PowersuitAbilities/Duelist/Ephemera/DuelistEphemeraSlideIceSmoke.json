@@ -1,0 +1,119 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "Hardness",
+                "type": "Float",
+                "slot": -1,
+                "value": 4
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 2
+            },
+            {
+                "name": "LightingAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.80000001
+            },
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.31,
+                    0.77999997,
+                    1,
+                    1
+                ]
+            },
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.059999999
+            }
+        ],
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "CanNano": 0,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "AlwaysRespectParentVisibility": 1,
+        "Life": [
+            0.68000001,
+            2
+        ],
+        "Size": [
+            1,
+            1.5
+        ],
+        "GrowthRate": [
+            0.050000001,
+            0.075000003
+        ],
+        "InitialCount": [
+            3,
+            4
+        ],
+        "Material": "/Lotus/Fx/Explosions/ExplosionFlipSmokeLoopB",
+        "AnimateTiles": 1,
+        "AnimateRate": 0.75,
+        "ColorMin": [
+            166,
+            224,
+            255,
+            110
+        ],
+        "ColorMax": [
+            0,
+            86,
+            153,
+            120
+        ],
+        "EnergyTintMethod": "ETM_LIFE",
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0099999998,
+            0.0099999998
+        ],
+        "SpinByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.2
+                }
+            ]
+        },
+        "FadeInOut": [
+            0.40000001,
+            0.44999999
+        ],
+        "EyeFadeDist": 0.5,
+        "Nozzle": "SPHERE",
+        "NozzleDev": 0.80000001,
+        "NozzleBox": [
+            2,
+            2,
+            2
+        ],
+        "NozzleSize": 0.25,
+        "Speed": [
+            0.02,
+            0.075000003
+        ],
+        "Drag": 12,
+        "Mass": [
+            0.0099999998,
+            0.02
+        ]
+    }
+}

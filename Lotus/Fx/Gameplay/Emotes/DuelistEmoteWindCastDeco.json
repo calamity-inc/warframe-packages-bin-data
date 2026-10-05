@@ -1,0 +1,64 @@
+{
+    "parent": "/Lotus/Fx/PowersuitAbilities/YinYang/HarmCastDeco",
+    "data": {
+        "MeshScale": 0.75,
+        "OverrideMaterial": [
+            "AoiSwapEmoteCastEnergyDecoAMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.41999999,
+                    0.83999997,
+                    1,
+                    1
+                ]
+            }
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "BlueClipThreshold",
+                "Slot": -1,
+                "TimeLength": 0.64999998,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.64999998,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

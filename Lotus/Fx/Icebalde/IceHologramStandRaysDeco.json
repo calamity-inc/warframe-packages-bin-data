@@ -1,0 +1,38 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/LightBeams/TruncatedCone4m.fbx",
+        "MeshScale": 0.27000001,
+        "OverrideMaterial": [
+            "/Lotus/Fx/Liset/CephalonArcadeCabinetBeamsMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "vScales",
+                "type": "Float4",
+                "slot": -1,
+                "value": 1,
+                "value1": 0.60000002,
+                "value2": 1,
+                "value3": 1
+            },
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.0026,
+                    0.49000001,
+                    0.69999999,
+                    0
+                ]
+            },
+            {
+                "name": "FresnelPower",
+                "type": "Float",
+                "slot": -1,
+                "value": 6
+            }
+        ]
+    }
+}

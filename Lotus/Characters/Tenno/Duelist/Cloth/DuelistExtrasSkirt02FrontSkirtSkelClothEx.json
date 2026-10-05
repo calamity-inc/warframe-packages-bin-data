@@ -1,0 +1,34 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "DuelistExtrasSkirt02FrontSkirt_skel.fbx",
+        "CollisionDebugVis": "CDV_MAIN",
+        "ControlData": "DuelistExtrasSkirt02FrontSkirtSkelClothData",
+        "Collision": "DuelistSkirtSimCollision",
+        "Attribs": {
+            "collidingDampeningRange": [
+                0.0060000001,
+                0.0060000001
+            ],
+            "massRange": [
+                0,
+                0.60000002
+            ],
+            "distConstraintRange": [
+                0,
+                0.60000002
+            ],
+            "useBackstopConstraints": 1,
+            "backstopConstraintRange": [
+                0,
+                0.2
+            ],
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 0.80000001,
+            "compressibility": 0.30000001,
+            "simulateCollisionLast": 0
+        },
+        "UseDynamicCollision": 0,
+        "UseClothCollision": 1
+    }
+}

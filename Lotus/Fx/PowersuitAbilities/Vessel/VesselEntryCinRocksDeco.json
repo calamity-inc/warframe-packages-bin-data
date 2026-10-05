@@ -1,0 +1,121 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Explosions/GroundRockChunksMesh.fbx",
+        "MeshScale": 5,
+        "OverrideMaterial": [
+            "/Lotus/Fx/Gameplay/Operations/LinkFragmentGroundRocksChunksMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "RotationSpeed",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            }
+        ],
+        "DissolveOverride": "/Lotus/Fx/Common/WrapTextureA_d.png",
+        "DeadParentInheritanceRule": "NONE",
+        "IgnoreParentRotation": 1,
+        "TestRotateSpeed": [
+            2,
+            0,
+            0
+        ],
+        "ReplicaRotationNoise": [
+            0,
+            0,
+            5,
+            0.1
+        ],
+        "BoundsExpansion": [
+            80,
+            100,
+            80
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "SegmentTimer",
+                "Slot": -1,
+                "TimeLength": 10,
+                "Multiplier": 15,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "GravityTimer",
+                "Slot": -1,
+                "TimeLength": 5,
+                "Multiplier": 12,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "Dissolve",
+                "Slot": -1,
+                "TimeLength": 10,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0.80000001
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0.02,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "MovementVector": [
+            0,
+            -5,
+            0
+        ],
+        "MovementCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.228598
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        }
+    }
+}

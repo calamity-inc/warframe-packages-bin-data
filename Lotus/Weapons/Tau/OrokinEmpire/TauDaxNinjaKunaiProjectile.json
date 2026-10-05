@@ -1,0 +1,98 @@
+{
+    "parent": "/Lotus/Types/Weapons/BoltoProjectile",
+    "data": {
+        "Mesh": "/Lotus/Weapons/Tenno/ThrowingWeapons/DaxKunai/DaxKunaiProjectile_skel.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Weapons/CrossBolt/Projectile/BoltProjectileLoopSeq",
+                "Chance": 255,
+                "RelativeToBounds": 1,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 1,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/ThrowingWeapons/KunaiProj",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 0,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            }
+        ],
+        "AttackData": {
+            "DT_IMPACT": 0.1,
+            "DT_PUNCTURE": 0.75,
+            "DT_SLASH": 0.14999998,
+            "Amount": 40,
+            "ProcChance": 0.025
+        },
+        "CriticalChance": 0.050000001,
+        "CriticalMultiplier": 2,
+        "ForcedSourceProcs": [
+            "PT_STAGGERED",
+            "PT_BIG_STAGGER",
+            "PT_KNOCKED_DOWN"
+        ],
+        "HitEffect": "/Lotus/Fx/Weapons/Basic/Ballistic/Impacts/BallisticHitEffectSmall",
+        "SpikeAttack": {
+            "Type": "DT_IMPACT"
+        },
+        "EmbedAttack": {
+            "Type": "DT_IMPACT"
+        },
+        "EmbedTime": [
+            0.0099999998,
+            0.0099999998
+        ],
+        "KinematicPostCollisionsSpeedFactor": 0.15000001,
+        "KinematicInitialSpeed": 70,
+        "KinematicMaxSpeed": 70,
+        "KinematicNoise": 0.050000001,
+        "KinematicGravity": 1,
+        "KinematicGravityMultiplier": 0.44999999,
+        "SweepRadius": 0,
+        "SilentProjectile": 1,
+        "CanStickOnDeath": 0,
+        "FlightUpVector": [
+            1,
+            0,
+            0
+        ],
+        "RagdollEmbedLife": 0.0099999998,
+        "AttachmentOffsets": [
+            0.25
+        ],
+        "ContactExplosionDamage": 250,
+        "ContactExplosionRadius": 10,
+        "ContactExplosionEffect": "/Lotus/Fx/Weapons/Bow/ExpArrowDeath"
+    }
+}

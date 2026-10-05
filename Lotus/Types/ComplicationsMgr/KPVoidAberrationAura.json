@@ -1,0 +1,50 @@
+{
+    "parent": "/Lotus/Types/Scripts/Tau/CoH/Complications/CoHBaseAura",
+    "data": {
+        "LocalizeTag": "[HC] KPVoidAberrationAura",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "Upgrades": [],
+        "TargetType": "/Lotus/Types/Player/TennoAvatar",
+        "ExcludedFaction": "WITW",
+        "ApplyToOwner": 0,
+        "ExcludedAvatars": [
+            "/Lotus/Types/Enemies/Zariman/Avatars/EtherealVoidAngelAvatar",
+            "/Lotus/Types/Friendly/Agents/DefenseAvatar"
+        ],
+        "AffectedByAuraEffectiveness": 0,
+        "RequiresOwner": 0,
+        "MaxStacks": 1,
+        "OnEnterAuraScript": {
+            "Script": "/Lotus/Scripts/Gameplay/VoidAberrationAura.lua",
+            "Function": "ApplyAura",
+            "_agentType": "/Lotus/Types/Enemies/ManInTheWall/VampyricLiminus/VampyricLiminusAgent",
+            "_enhancementType": "",
+            "_agentMarker": "",
+            "_levelOfAgents": 15,
+            "_agentTag": "VoidAberrationAgent",
+            "_maxAgentTypes": 3,
+            "_spawnPointDistanceMin": 25,
+            "_spawnPointDistanceMax": 60,
+            "_delayedStart": 10,
+            "_isDescent": 0,
+            "_assignFactionCustom": 0,
+            "_destroyVFX": ""
+        },
+        "OnAuraRemovedFromLevelScript": {
+            "Script": "/Lotus/Scripts/Gameplay/VoidAberrationAura.lua",
+            "Function": "RemoveAura",
+            "_agentType": "/Lotus/Types/Enemies/ManInTheWall/VampyricLiminus/VampyricLiminusAgent",
+            "_enhancementType": "",
+            "_agentMarker": "",
+            "_levelOfAgents": 15,
+            "_agentTag": "VoidAberrationAgent",
+            "_maxAgentTypes": 3,
+            "_spawnPointDistanceMin": 3,
+            "_spawnPointDistanceMax": 500,
+            "_delayedStart": 0,
+            "_isDescent": 0,
+            "_assignFactionCustom": 1,
+            "_destroyVFX": "/Lotus/Fx/Quests/TauPrequel/CohSpawnEnemyFx"
+        }
+    }
+}

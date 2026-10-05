@@ -1,0 +1,64 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "DepthSortBias": -1,
+        "MaterialParams": [
+            {
+                "name": "Size",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.69999999
+            },
+            {
+                "name": "ImpactPoint",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0,
+                "value1": 0,
+                "value2": 0,
+                "value3": 0
+            }
+        ],
+        "DrawInTransparentPass": 1,
+        "DeadParentInheritanceRule": "NONE",
+        "Material": "/Lotus/Fx/Weapons/HeavyGuns/ConcreteGun/QorvexDeluxeArchGun/QorvexDeluxeGunHeatProjAMat",
+        "UseAttachRoot": 0,
+        "CloneOnAllChildrenWithMeshes": 1,
+        "ApplyProjectorToNewSiblings": 1,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 2,
+                "Multiplier": 5,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.60000002,
+                            "Value": 1
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 1,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "ApplyColorCustomization": 1
+    }
+}

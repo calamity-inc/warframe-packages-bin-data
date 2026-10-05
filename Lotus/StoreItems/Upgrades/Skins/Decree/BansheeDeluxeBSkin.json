@@ -1,0 +1,32 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/LotusSuitCustomizationStoreItem",
+    "data": {
+        "ProductCategory": "WeaponSkins",
+        "LocalizeTag": "/Lotus/Language/Deluxe/BansheeDeluxeBSkinName",
+        "LocalizeDescTag": "/Lotus/Language/Deluxe/BansheeDeluxeBSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/BansheeDeluxe2Skin.png",
+        "TypeName": "/Lotus/Upgrades/Skins/Decree/BansheeDeluxeBSkin",
+        "PremiumPrice": 165,
+        "Compatible": "/Lotus/Powersuits/Banshee/BansheeBaseSuit",
+        "DateAddedToManifest": 1790215200,
+        "AvailableOnPvp": 1,
+        "AdditionalItems": [
+            {
+                "TypeName": "BansheeDeluxeBHelmet",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "BansheeDeluxeBArmLeftArmor",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            }
+        ],
+        "ExcludeFromCodex": 0,
+        "CompatibleSlots": [
+            "BodySkin"
+        ]
+    }
+}

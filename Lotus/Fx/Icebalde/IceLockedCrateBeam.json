@@ -1,0 +1,67 @@
+{
+    "parent": "/Lotus/Fx/Corpus/Amalgams/AmalgamSniperBeam",
+    "data": {
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Jade/MindControlBeamEnergy",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Gameplay/Iceblade/IcebladeOfNarinLockedCrateBeamSeq",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "TexturePanRateV": -3,
+        "NumPlanes": 2,
+        "Radius": 0.064999998,
+        "Waves": [
+            {
+                "Frequency": 0.80000001,
+                "Amplitude": [
+                    0.050000001,
+                    0.050000001,
+                    0.050000001
+                ],
+                "RadiusAmplitude": 0,
+                "PhaseShift": 19
+            }
+        ],
+        "ApplyColorCustomization": 0
+    }
+}

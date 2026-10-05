@@ -1,0 +1,66 @@
+{
+    "parent": "/EE/Types/Engine/Light",
+    "data": {
+        "BakeShadowsOnLightMaps": 0,
+        "UseLightProbes": 0,
+        "CullDistance": 15,
+        "RootMotion": 1,
+        "DetailLevel": "LQ_HIGH",
+        "Color": [
+            39,
+            111,
+            141,
+            255
+        ],
+        "Brightness": 0.125,
+        "Lumens": 200,
+        "FalloffExponent": 1,
+        "GameplayFalloffExponent": 0.5,
+        "Radius": 0.40000001,
+        "CullShadows": 1,
+        "DirectionalLightDir": [
+            1,
+            0,
+            0
+        ],
+        "LightEffect": "FLICKER_PERLIN",
+        "EffectSecondary": 2.25,
+        "LifeSpan": 12,
+        "BrightnessCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.053940602,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.114018,
+                    "Value": 0.28709301
+                },
+                {
+                    "Time": 0.152778,
+                    "Value": 0.159696
+                },
+                {
+                    "Time": 0.243863,
+                    "Value": 0.063183598
+                },
+                {
+                    "Time": 0.42797199,
+                    "Value": 0.031012701
+                },
+                {
+                    "Time": 0.71673101,
+                    "Value": 0.00784967
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        }
+    }
+}

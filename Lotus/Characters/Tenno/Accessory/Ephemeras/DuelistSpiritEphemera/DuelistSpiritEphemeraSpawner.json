@@ -1,0 +1,22 @@
+{
+    "parent": "/EE/Types/Effects/Spawner",
+    "data": {
+        "MotionBlurred": 1,
+        "IgnoreParentRotation": 1,
+        "ScriptInstance": {
+            "Script": "DuelistSpiritEphemera.lua",
+            "Function": "Spawnspirits",
+            "_singleSpiritDeco": "DuelistSpiritEphemeraDeco",
+            "_spiritIdleAnim": "/Lotus/Animations/Tenno/Accessory/Ephemeras/DuelistSpiritEphemera/DuelistSpiritEphemeraIdle_anim.fbx",
+            "_spiritFlyAnim": "/Lotus/Animations/Tenno/Accessory/Ephemeras/DuelistSpiritEphemera/DuelistSpiritEphemeraFly_anim.fbx",
+            "_spiritFlyingFastAnim": "/Lotus/Animations/Tenno/Accessory/Ephemeras/DuelistSpiritEphemera/DuelistSpiritEphemeraFlyFast_anim.fbx",
+            "_desiredSpiritCount": 1
+        },
+        "ReplicaRunScriptInstance": 1,
+        "OwnChildren": 1,
+        "WaitForCinematic": 1,
+        "ApplyColorCustomization": 1,
+        "UseAttachmentColorSlot": 1,
+        "AllowCreateWhenInvisible": 1
+    }
+}

@@ -1,0 +1,203 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 165,
+        "AdditionalItems": [
+            "BansheeDeluxeBHelmet",
+            "BansheeDeluxeBArmLeftArmor"
+        ],
+        "LocalizeTag": "/Lotus/Language/Deluxe/BansheeDeluxeBSkinName",
+        "LocalizeDescTag": "/Lotus/Language/Deluxe/BansheeDeluxeBSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/BansheeDeluxe2Skin.png",
+        "ExcludeFromCodex": 0,
+        "OverrideDateAddedToManifest": 1790215200,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Powersuits/Banshee/BansheeBaseSuit",
+        "UpgradeSkinOverride": "BansheeDeluxeBWeaponSkin",
+        "CompatibleSlots": [
+            "BodySkin"
+        ],
+        "ApplyEnergyColor": 1,
+        "OverrideAttachedFx": 1,
+        "AttachedFxOverrides": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_HIP1",
+                "Type": "/Lotus/Characters/Tenno/Decree/BansheeDeluxe/Cloth/BansheeDeluxeTailClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "DefaultEnergyColor": [
+            186,
+            220,
+            232,
+            0
+        ],
+        "DefaultEnergyColor1": [
+            145,
+            207,
+            229,
+            0
+        ],
+        "DefaultCustomizationOverrides": {
+            "ArmLeft": {
+                "ItemType": "BansheeDeluxeBArmLeftArmor"
+            },
+            "CustomEmblem": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0.1,
+                            -0.0099999998,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0.043618999,
+                            0,
+                            0.99904799
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ],
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "INVALID",
+                        "PosOffset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "EventEmblem": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "INVALID",
+                        "PosOffset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ],
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            -0.1,
+                            0,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0.0038020001,
+                            -0.043453,
+                            -0.087072998,
+                            0.99524701
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            }
+        },
+        "ResourceOverrides": [
+            {
+                "Tag": "StandToKneel",
+                "Resource": "/Lotus/Animations/Tenno/Emotes/Generic/StandToKneelBulkyWarframes_anim.fbx"
+            },
+            {
+                "Tag": "KneelIdle",
+                "Resource": "/Lotus/Animations/Tenno/Emotes/Generic/KneelIdleBulkyWarframes_anim.fbx"
+            },
+            {
+                "Tag": "KneelToStand",
+                "Resource": "/Lotus/Animations/Tenno/Emotes/Generic/KneelToStandBulkyWarframes_anim.fbx"
+            },
+            {
+                "Tag": "KneelToStandTurn",
+                "Resource": "/Lotus/Animations/Tenno/Emotes/Generic/KneelToStandTurnBulkyWarframes_anim.fbx"
+            }
+        ]
+    }
+}

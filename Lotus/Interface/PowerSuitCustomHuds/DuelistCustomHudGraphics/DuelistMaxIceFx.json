@@ -1,0 +1,126 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "DrawPostUI": 1,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "DuelistMaxIceBurstFx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "DuelistMaxIceFlareFx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "DuelistMaxIceUltiFx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.5,
+            0.5
+        ],
+        "Size": [
+            0.059999999,
+            0.059999999
+        ],
+        "GrowthRate": [
+            -0.15000001,
+            -0.050000001
+        ],
+        "SpawnDelay": [
+            0,
+            0.30000001
+        ],
+        "InitialCount": [
+            12,
+            12
+        ],
+        "Material": "/Lotus/Fx/Interface/RadialSlash",
+        "AnimateTiles": 1,
+        "ColorMin": [
+            212,
+            244,
+            248,
+            255
+        ],
+        "ColorMax": [
+            120,
+            127,
+            173,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.1,
+            0.1
+        ],
+        "FadeInOut": [
+            0.1,
+            0.30000001
+        ],
+        "DrawRelative": 1,
+        "Nozzle": "SPHERE",
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ]
+    }
+}

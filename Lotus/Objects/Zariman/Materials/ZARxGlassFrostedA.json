@@ -1,0 +1,61 @@
+{
+    "parent": "/EE/Materials/Defaults/Glass",
+    "data": {
+        "Blend": "BLEND_ALPHA",
+        "CUBEMAP": "ZONE_MAP",
+        "REFRACTION": "REFRACT_ZONE",
+        "DISABLE_FOG": 1,
+        "ROUGHNESS_MAP": 1,
+        "SPECULAR_MAP": 1,
+        "DETAIL_MAP": 1,
+        "ENERGY_CONSERVING_SPECULAR": 1,
+        "USE_LOW_RES_LIGHTING": 1,
+        "VS:PivotTilingInfluence": 1,
+        "PS:EnviroAtten": 0.75,
+        "PS:UvScale": [
+            0.25,
+            0.25,
+            1,
+            1
+        ],
+        "PS:Roughness": 0.050000001,
+        "PS:TintColor": [
+            0.91000003,
+            0.97000003,
+            1,
+            0.15000001
+        ],
+        "PS:AlphaAtten": 0.80000001,
+        "PS:FresnelPower": 0.11,
+        "PS:BaseColor": [
+            0.092,
+            0.14,
+            0.15000001,
+            0
+        ],
+        "PS:DetailMapParams": [
+            20,
+            20,
+            4,
+            4
+        ],
+        "PS:DetailMapDiffuse": 2,
+        "PS:DetailMapNormalRange": 75,
+        "PS:DetailMapDiffuseRange": 100,
+        "PS:DetailMapRoughness": 0,
+        "PS:DetailMapStrength": 0.5,
+        "PS:RefractionStrength": 0.5,
+        "PS:IndexOfRefraction": 1.3,
+        "PS:LowResLightingAttenuation": 1,
+        "PS:LowResLightingAttenuationLQ": 1,
+        "PS:LowResLightingAmount": 1,
+        "TX:DiffuseMap": "/Lotus/Materials/Glass/FrostedGlassB_d.png",
+        "TX:NormalMap": "/EE/Materials/Defaults/Landscape/TerrainForestGrass_n.png",
+        "TX:RoughnessMap": "ZARxGlass_r.png",
+        "TX:SpecularMap": "ZARxGlass_s.png",
+        "TX:DetailAlt": "/EE/Materials/Defaults/Landscape/TerrainAridRock_n.png",
+        "AlphaTestValue": 0.19607843,
+        "Emissive": 0,
+        "FrontFaceShadow": 0
+    }
+}

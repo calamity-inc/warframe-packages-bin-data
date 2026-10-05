@@ -1,0 +1,29 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
+    "data": {
+        "LocalizeDescTag": "/Lotus/Language/Conquest/WeaponBuff_WeaponWeakPointMultiplier_Desc",
+        "Upgrades": [
+            {
+                "UpgradeType": "WEAPON_DAMAGE_WEAKPOINT",
+                "OperationType": "STACKING_MULTIPLY",
+                "Value": 3,
+                "DamageType": "DT_ANY",
+                "AutoType": 1,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": [],
+                "OverrideLocalization": 0,
+                "SmallerIsBetter": 0,
+                "RoundTo": 0.1,
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
+            }
+        ],
+        "ItemCompatibility": ""
+    }
+}

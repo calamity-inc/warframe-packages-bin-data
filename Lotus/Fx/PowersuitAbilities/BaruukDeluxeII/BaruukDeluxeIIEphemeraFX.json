@@ -1,6 +1,17 @@
 {
     "parent": "/EE/Types/Effects/Spawner",
     "data": {
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Effects/ProjectionMasking.lua",
+            "Function": "ProjMaskHead",
+            "_maskWarframeHelmet": 0,
+            "_maskOperatorHead": 1,
+            "_maskGeminiHead": 1,
+            "_maskAllProjectors": 1,
+            "_projectorNumberToMaskA": -1,
+            "_projectorNumberToMaskB": -1,
+            "_projectorNumberToMaskC": -1
+        },
         "CreatedTypes": [
             {
                 "Type": "BaruukDeluxeIIEphemeraProj",

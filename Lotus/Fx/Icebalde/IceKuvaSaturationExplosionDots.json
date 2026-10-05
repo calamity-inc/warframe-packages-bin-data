@@ -1,0 +1,92 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 3.5
+            }
+        ],
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.69999999,
+            1.5
+        ],
+        "Size": [
+            0.15000001,
+            0.34999999
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.50624001
+                },
+                {
+                    "Time": 0.33333334,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.66666669,
+                    "Value": 0.18972699
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "InitialCount": [
+            40,
+            80
+        ],
+        "Material": "/Lotus/Fx/Weapons/Melee/Fist/FistSpotPMat",
+        "ColorMin": [
+            36,
+            89,
+            207,
+            255
+        ],
+        "ColorMax": [
+            47,
+            60,
+            202,
+            255
+        ],
+        "FadeInOut": [
+            0,
+            0.5
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleSize": 0.5,
+        "Speed": [
+            6,
+            17
+        ],
+        "Drag": 3,
+        "Mass": [
+            -0.15000001,
+            0.050000001
+        ],
+        "FlowVolume": "/EE/Types/GraphicsRes/CurlNoiseFlowVolume",
+        "FlowVelocity": [
+            8,
+            8,
+            8
+        ],
+        "FlowVelocityEndLife": [
+            3,
+            3,
+            3
+        ],
+        "FlowScale": [
+            1.8,
+            1.8,
+            1.8
+        ]
+    }
+}

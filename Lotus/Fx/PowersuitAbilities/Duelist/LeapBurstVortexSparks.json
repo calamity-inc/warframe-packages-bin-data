@@ -1,0 +1,90 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "CullDistance": 60,
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 500
+            }
+        ],
+        "DeadParentInheritanceRule": "NONE",
+        "SpawnRate": 2500,
+        "InheritParentScale": 1,
+        "BoundsExpansionOverride": 5,
+        "fireOnce": 0,
+        "resilience": 0.64999998,
+        "drag": 0.5,
+        "mass": [
+            -2,
+            -0.5
+        ],
+        "size": [
+            0.0049999999,
+            0.016000001
+        ],
+        "sizeByLifeMultiplier": [
+            1,
+            0.5,
+            0
+        ],
+        "streaksFactor": 2,
+        "collisionDelay": 0.1,
+        "velocityDeviation": [
+            0,
+            0.25
+        ],
+        "inheritVelocity": 1,
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            1,
+            1,
+            2
+        ],
+        "flowScrolling": [
+            1,
+            1,
+            1
+        ],
+        "flowAtten": [
+            0,
+            0
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "localSimulation": 1,
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksBright",
+        "colorKeys[0]": [
+            0.016000001,
+            0.57999998,
+            0.99000001,
+            1
+        ],
+        "colorKeys[1]": [
+            0.016000001,
+            0.22,
+            0.99000001,
+            1
+        ],
+        "colorKeys[2]": [
+            0.016000001,
+            0.054000001,
+            0.99000001,
+            1
+        ],
+        "colorKeys[3]": [
+            0.0027999999,
+            0.0024999999,
+            0.25999999,
+            1
+        ],
+        "numColors": 4,
+        "simVortex": 1,
+        "vortexSpeed": -8,
+        "vortexDecay": 1,
+        "vortexAlongFullAxis": 1,
+        "followSpline": 1,
+        "splineStrengthEnd": 4
+    }
+}

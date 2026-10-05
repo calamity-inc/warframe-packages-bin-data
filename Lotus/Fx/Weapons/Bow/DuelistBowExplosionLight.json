@@ -1,0 +1,42 @@
+{
+    "parent": "/EE/Types/FX/Explosions/Grenade/GrenadeLight",
+    "data": {
+        "Color": [
+            255,
+            152,
+            42,
+            255
+        ],
+        "Brightness": 1.5,
+        "Lumens": 2400,
+        "Radius": 8,
+        "CullShadows": 1,
+        "HasLifeSpan": 1,
+        "LifeSpan": 0.69999999,
+        "BrightnessCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": -0.0033333299
+                },
+                {
+                    "Time": 0.113587,
+                    "Value": 0.87291098
+                },
+                {
+                    "Time": 0.32157201,
+                    "Value": 0.29097801
+                },
+                {
+                    "Time": 0.535128,
+                    "Value": 0.046833299
+                },
+                {
+                    "Time": 0.99969,
+                    "Value": -0.0033333299
+                }
+            ],
+            "SplineType": "BEZIER_SPLINE"
+        }
+    }
+}

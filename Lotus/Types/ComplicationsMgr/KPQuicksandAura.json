@@ -1,0 +1,30 @@
+{
+    "parent": "/Lotus/Types/Scripts/Tau/CoH/Complications/CoHBaseAura",
+    "data": {
+        "LocalizeTag": "[HC] KPQuicksandAura",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "Upgrades": [],
+        "TargetType": "/Lotus/Types/Player/TennoAvatar",
+        "ExcludedFaction": "WITW",
+        "ApplyToOwner": 0,
+        "ExcludedAvatars": [
+            "/Lotus/Types/Enemies/Zariman/Avatars/EtherealVoidAngelAvatar",
+            "/Lotus/Types/Friendly/Agents/DefenseAvatar"
+        ],
+        "AffectedByAuraEffectiveness": 0,
+        "RequiresOwner": 0,
+        "MaxStacks": 1,
+        "OnAuraAddedToLevelScript": {
+            "Script": "/Lotus/Scripts/Gameplay/QuicksandZones.lua",
+            "Function": "OnUpgradeApplied",
+            "_jumpHeightDebuff": -0.75,
+            "_moveSpeedDebuff": -0.25,
+            "_quicksandParkourDebuff": -0.5,
+            "_duration": 6,
+            "_vfxWeak": "",
+            "_attachVFXType": "",
+            "_quicksandTrigger": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/MissionConditions/QuicksandDebuffTrigger",
+            "_upgradeWeak": ""
+        }
+    }
+}

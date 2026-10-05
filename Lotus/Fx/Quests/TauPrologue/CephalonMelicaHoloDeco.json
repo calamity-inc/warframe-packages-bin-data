@@ -1,0 +1,44 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Objects/Cephalon/Props/CephalonTeacher.fbx",
+        "MeshScale": 1.5,
+        "OverrideMaterial": [
+            "CephalonMelicaHoloMatB",
+            "CephalonMelicaHoloMat",
+            "/Lotus/Fx/Liset/CephalonArcadeCabinetBeamsMat"
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "CephalonMelicaHoloPBRDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 0.99000001
+            }
+        ],
+        "Tag": "MelicaHologram",
+        "EnableReplicaMoveNoise": 1,
+        "ReplicaPositionNoise": [
+            0,
+            0.1,
+            0,
+            0.1
+        ]
+    }
+}

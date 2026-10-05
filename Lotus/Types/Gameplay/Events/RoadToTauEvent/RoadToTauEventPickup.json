@@ -1,0 +1,74 @@
+{
+    "parent": "/Lotus/Types/Game/PickUps/LotusPickUp",
+    "data": {
+        "BakeShadowsOnLightMaps": 0,
+        "UseLightProbes": 0,
+        "Mesh": "/Lotus/Objects/Grineer/Gadgets/NodulePlaceholder.x",
+        "MeshScale": 1.35,
+        "OverrideMaterial": [
+            "/EE/Materials/HiddenNonShadowing"
+        ],
+        "Dissolve": 1,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Types/Game/MarkerInfos/LootMarkerInfoInWorld",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "RoadToTauEventPickupDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 0.5
+            }
+        ],
+        "Tag": "RoadToTauEventPickup",
+        "PickUpItemType": "RoadToTauEventResource",
+        "AutoKill": 0,
+        "CanBeSuckedUp": 0,
+        "CanBeUsedByCrewShip": 1,
+        "CanBeSuckedUpByBlackhole": 0,
+        "PickUpScript": {
+            "Script": "/Lotus/Scripts/Gameplay/EventPickupBoostSuppression.lua",
+            "Function": "OnEventPickup",
+            "_itemRes": "RoadToTauEventResource",
+            "_amount": 2,
+            "_amountSteelPath": 3
+        },
+        "ImmediateCreate": 0,
+        "PickUpActionType": "/Lotus/Types/Items/MiscItems/MiscItemAutoPickUp"
+    }
+}

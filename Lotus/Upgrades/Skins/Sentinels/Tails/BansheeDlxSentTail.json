@@ -1,0 +1,38 @@
+{
+    "parent": "/Lotus/Upgrades/Skins/Sentinels/SentinelTailBase",
+    "data": {
+        "MarketMode": "MM_VISIBLE",
+        "PremiumPrice": 25,
+        "LocalizeTag": "/Lotus/Language/Deluxe/BansheeDeluxeSentinelTailName",
+        "LocalizeDescTag": "/Lotus/Language/Deluxe/BansheeDeluxeSentinelTailDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Sentinels/Cosmetics/Tails/BansheeDeluxe2Tail.png",
+        "ExcludeFromCodex": 0,
+        "OverrideDateAddedToManifest": 1790215200,
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0.70710677,
+                        0.70710677,
+                        0
+                    ],
+                    "BoneName": "GAME_C1_TAILATTACH",
+                    "Type": "/Lotus/Characters/Pets/Sockets/Tails/BansheeDlxSentinelTail/BansheeDlxSentinelTailDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "CompositedEffect": 1,
+        "DetailLevel": "PQ_MEDIUM",
+        "ApplyColorCustomization": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.64999998,
+            1
+        ],
+        "Size": [
+            2,
+            3
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.25
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "InitialCount": [
+            8,
+            8
+        ],
+        "Material": "/Lotus/Fx/Smoke/SmokeBillowFlipTwo",
+        "AnimateTiles": 1,
+        "ColorKeys": [
+            [
+                181,
+                201,
+                237,
+                255
+            ],
+            [
+                181,
+                201,
+                237,
+                255
+            ]
+        ],
+        "RandOrientation": 1,
+        "FadeInOut": [
+            0.2,
+            0.2
+        ],
+        "DrawRelative": 1,
+        "Nozzle": "SPHERE",
+        "NozzleDev": 1,
+        "NozzleBox": [
+            0.2,
+            0.2,
+            0
+        ],
+        "NozzleSize": 0.30000001,
+        "Speed": [
+            1,
+            4
+        ],
+        "Drag": 4,
+        "Mass": [
+            -0.1,
+            0
+        ]
+    }
+}

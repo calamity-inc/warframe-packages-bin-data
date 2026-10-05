@@ -23,6 +23,7 @@
             "_paintLossAmount": 5,
             "_inkExplotionVFXType": "",
             "_effigySpawnVFXType": "",
+            "_spiritGuideHelperEntity": "",
             "_screenInkDecoType": "",
             "_screenInkStrength": 0.40000001,
             "_voidModeEnergyDrainRate": 1,
@@ -84,6 +85,11 @@
             "_inkCloneFrameAvatar": "/Lotus/Types/Enemies/Shadowgrapher/InkframeCloneEnemyAvatar",
             "_inkCloneCooldown": 30,
             "_inkFrameSkipResource": "",
+            "_ignoreForTeleport": [
+                "/Lotus/Types/Enemies/Shadowgrapher/InkframeEnemyAgent",
+                "/Lotus/Types/Enemies/Shadowgrapher/InkframeCloneEnemyAgent",
+                "/Lotus/Types/Enemies/Shadowgrapher/ShadowEnemies/ShadowInfestedExplodingTendrilDroneAgent"
+            ],
             "_escalationFlickerColorGrading": "/Lotus/Fx/ColorGradingData/RedColorGrading",
             "_escalationFlickerTime": 0.5,
             "_paBroadcastMin": 1,
@@ -100,7 +106,9 @@
             "_lockdownWeakpointTypes": [],
             "_balloonLootCrateSpawnFX": "",
             "_balloonLootCrateType": "",
-            "_balloonLootSpawnCount": 15
+            "_balloonLootSpawnCount": 15,
+            "_shadowgrapherResource": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource",
+            "_shadowgrapherResourcePickedUp": "/Lotus/Sounds/Gameplay/Shadowgrapher/Pickups/ShadowgrapherResourcePickup"
         }
     }
 }

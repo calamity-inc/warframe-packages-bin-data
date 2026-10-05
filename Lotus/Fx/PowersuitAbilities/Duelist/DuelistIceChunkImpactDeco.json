@@ -1,0 +1,29 @@
+{
+    "parent": "/Lotus/Fx/Weapons/Melee/Clean/Slams/MeleeSlamHitEffectMediumRockDeco",
+    "data": {
+        "MeshScale": 0.40000001,
+        "OverrideMaterial": [
+            "DuelistIceChunkImpactDecoMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "RotationSpeed_MeshSize_UpVec",
+                "type": "Float4",
+                "slot": -1,
+                "value": 4,
+                "value1": 5,
+                "value2": 1,
+                "value3": 6
+            },
+            {
+                "name": "SpeedBase_SpeedRandom_SpeedPositionPower",
+                "type": "Float4",
+                "slot": -1,
+                "value": 4,
+                "value1": 9,
+                "value2": 0.25,
+                "value3": 0
+            }
+        ]
+    }
+}

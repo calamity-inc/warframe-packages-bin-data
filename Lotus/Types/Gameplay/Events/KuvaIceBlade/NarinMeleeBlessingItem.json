@@ -1,0 +1,180 @@
+{
+    "parent": "/Lotus/Types/Game/LotusArtifactUpgrades/BaseArtifactUpgrade",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Iceblade/NarinBlessing",
+        "StatusDescTag": "/Lotus/Language/Iceblade/NarinBlessingDesc",
+        "Icon": "/Lotus/Interface/Icons/ModBuffIndicators/NarinBlessing.png",
+        "ApplyUpgradesByDefault": 0,
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Fx/Gameplay/IceBlade/IceBladeDecoSpawner",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Fx/Gameplay/IceBlade/IceBladeGroundSpawner",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "BaseDrain": "QA_NONE",
+        "ItemCompatibility": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
+        "Script": {
+            "Script": "NarinMeleeBuff.lua",
+            "Function": "OnMeleeHit",
+            "_meleeHitFX": "/Lotus/Fx/Gameplay/IceBlade/IceBladeAttackDeco"
+        },
+        "ExecuteAppliedEvent": 1,
+        "UpgradeChance": 1,
+        "DurationScalesWithRank": 0,
+        "ChanceScalesWithRank": 0,
+        "PlayEffect": 0,
+        "ConditionalUpgrades": [
+            "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OnMeleeHitCondition"
+        ],
+        "HudBuffIcon": "/Lotus/Interface/Icons/ModBuffIndicators/NarinBlessing.png",
+        "ParticleEvents": [
+            {
+                "EventName": "StepL",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/IceBlade/IceBladeStep",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_LEG5",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.70710677,
+                    0.70710677,
+                    0
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "StepR",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/IceBlade/IceBladeStep",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_LEG5",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.70710677,
+                    0.70710677,
+                    0
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "WispStep",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/IceBlade/IceBladeStep",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0.02,
+                    0
+                ],
+                "LocalRotation": [
+                    -0.70710677,
+                    0,
+                    0,
+                    0.70710677
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "HowlStepFront",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/IceBlade/IceBladeStep",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "HowlStepRear",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/IceBlade/IceBladeStep",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            }
+        ]
+    }
+}

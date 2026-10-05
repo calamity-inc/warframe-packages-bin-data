@@ -1,0 +1,19 @@
+{
+    "parent": "/EE/Types/Game/DamageTrigger",
+    "data": {
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "Shape": "VES_SPHERE",
+        "Radius": 3,
+        "AllowRagdolls": 1,
+        "LiveRagdollsOnly": 1,
+        "AttackData": {
+            "Type": "DT_IMPACT",
+            "Amount": 1000000,
+            "ProcChance": 10
+        },
+        "DamageOnEnter": 1,
+        "DamageSource": "ATTACHED_PARENT",
+        "DamageAttachedParent": 0,
+        "NegativeVelocityAsDamageImpulse": 1
+    }
+}

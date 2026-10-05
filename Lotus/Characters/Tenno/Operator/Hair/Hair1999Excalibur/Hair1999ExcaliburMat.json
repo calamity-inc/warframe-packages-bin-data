@@ -7,7 +7,6 @@
         "FOG": 0,
         "STOCHASTIC_TRANSPARENCY": 1,
         "OPACITY": 1,
-        "DOUBLE_SIDED_LIGHTING": 1,
         "SIMPLE_AO_BOUNCE": 1,
         "VS:TextureScale": [
             1,
@@ -15,9 +14,11 @@
             1,
             1
         ],
+        "PS:Shine": 0.5,
         "PS:ShiftScale": 0.47447401,
         "PS:SphericalNormal": 0,
-        "PS:StochasticRange": 0.5,
+        "PS:Roughness": 0.40000001,
+        "PS:StochasticRange": 0.60000002,
         "TX:DiffuseMap": "/Lotus/Characters/Tenno/Excalibur/WF1999Excalibur/Face/Texture/Excalibur99_Excalibur99Hair_d.png",
         "TX:StrandMap": "/Lotus/Characters/Tenno/Operator/Hair/HairShift_d.png",
         "TX:NormalMap": "/Lotus/Characters/Tenno/Excalibur/WF1999Excalibur/Face/Texture/Excalibur99_Excalibur99Hair_n.png",
@@ -48,9 +49,9 @@
             0.5
         ],
         "PS:BaseTintColor": [
-            1,
-            1,
-            1,
+            0.57999998,
+            0.57999998,
+            0.57999998,
             0.5
         ],
         "PS:HairDetailsParams": [

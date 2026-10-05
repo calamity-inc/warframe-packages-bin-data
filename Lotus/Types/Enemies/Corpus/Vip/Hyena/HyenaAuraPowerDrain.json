@@ -9,6 +9,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 0,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -18,7 +19,8 @@
                 "OverrideLocalization": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "TargetMode": "TM_ALL_BUT_OWNER_FACTION",

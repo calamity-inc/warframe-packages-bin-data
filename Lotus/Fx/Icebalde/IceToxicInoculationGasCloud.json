@@ -1,0 +1,90 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "ReplicaRunScriptInstance": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "LifeSpan": 0,
+        "Life": [
+            1.5,
+            2
+        ],
+        "Size": [
+            1.6,
+            2.4000001
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 1.8
+                }
+            ]
+        },
+        "Aspect": [
+            0.80000001,
+            1.2
+        ],
+        "SpewCount": [
+            5,
+            8
+        ],
+        "Material": "/Lotus/Fx/Smoke/SmokeFlipDetailedSPHard",
+        "AnimateTiles": 1,
+        "ColorMin": [
+            78,
+            99,
+            67,
+            155
+        ],
+        "ColorMax": [
+            99,
+            139,
+            100,
+            160
+        ],
+        "ColorKeys": [
+            [
+                77,
+                119,
+                31,
+                255
+            ],
+            [
+                110,
+                144,
+                73,
+                255
+            ]
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.001,
+            0.001
+        ],
+        "FadeInOut": [
+            0.25,
+            0.64999998
+        ],
+        "Nozzle": "PLANE",
+        "NozzleDev": 1,
+        "NozzleBox": [
+            2,
+            2,
+            0
+        ],
+        "Speed": [
+            0,
+            0.30000001
+        ],
+        "Drag": 1,
+        "Mass": [
+            -0.059999999,
+            -0.02
+        ]
+    }
+}

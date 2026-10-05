@@ -1,0 +1,77 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "DepthSortBias": 15,
+        "MaterialParams": [
+            {
+                "name": "AlphaScale",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.41999999
+            }
+        ],
+        "ReplicaRunScriptInstance": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "LifeSpan": 0,
+        "Life": [
+            5,
+            5
+        ],
+        "Size": [
+            2.5,
+            2.5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 4
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "SpewCount": [
+            1,
+            1
+        ],
+        "Material": "IceLootChestIdleGlowMat",
+        "ColorMin": [
+            128,
+            201,
+            229,
+            255
+        ],
+        "ColorMax": [
+            176,
+            213,
+            227,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.001,
+            0.001
+        ],
+        "FadeInOut": [
+            0.34999999,
+            0.34999999
+        ],
+        "EyeFadeDist": 35,
+        "InvertEyeFadeDist": 1,
+        "Nozzle": "SPHERE",
+        "NozzleBox": [
+            3,
+            15,
+            3
+        ],
+        "Drag": 0.75,
+        "Mass": [
+            -0.035,
+            -0.032499999
+        ]
+    }
+}

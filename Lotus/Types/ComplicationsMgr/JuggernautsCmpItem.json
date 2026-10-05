@@ -1,17 +1,24 @@
 {
     "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
     "data": {
-        "LocalizeTag": "[HC] Juggernauts",
-        "LocalizeDescTag": "[HC] Give me a description",
+        "LocalizeTag": "/Lotus/Language/Iceblade/CryobellTheme_Stone_Name",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/CryobellTheme_Stone_Desc",
         "Script": {
             "Script": "/Lotus/Scripts/Gameplay/Complications/Juggernauts.lua",
             "Function": "OnUpgradeApplied",
-            "_nearEnemiesRange": 15,
-            "_perEnemyPct": 0.050000001,
             "_maxDmgTakenIncrease": 1.5,
             "_minDmgDealtDecrease": 0.5,
-            "_slowDuration": 30,
-            "_slowMultiplier": 0.80000001
+            "_slowMultiplier": 0.80000001,
+            "_fireRateMultiplier": 0.2,
+            "_juggernautProjType": "",
+            "_knockdownWindowTime": 2,
+            "_knockdownCooldownTime": 5,
+            "_knockbackForce": 5,
+            "_rumblerAgentType": "",
+            "_largeRumblerAgentType": "",
+            "_animControllerOverride": "",
+            "_spawnFx": "",
+            "_spawnAnim": ""
         }
     }
 }

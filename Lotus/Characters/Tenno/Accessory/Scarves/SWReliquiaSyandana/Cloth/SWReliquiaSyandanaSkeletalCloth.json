@@ -1,0 +1,82 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "SWReliquiaSyandanaCloth_skel.fbx",
+        "UseOcclusionQuery": 0,
+        "Attached": 1,
+        "AttachBone": "GAME_C1_SPINE5",
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "SWReliquiaSyandanaClothData",
+        "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.069544002,
+                0.1
+            ],
+            "massRange": [
+                0.381295,
+                0.5
+            ],
+            "distConstraintRange": [
+                0.2,
+                2
+            ],
+            "shearingStiffness": 0.52999997,
+            "addXAxisHardContraints": 1,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "wind": [
+                0.58999997,
+                0,
+                0.58999997
+            ],
+            "windStrength": [
+                -0.19,
+                0.19
+            ],
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                2,
+                1,
+                2
+            ],
+            "windVolumeScale": [
+                4,
+                4,
+                4
+            ],
+            "windVolumeOffsetRate": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "collisionExemptions": [
+                "LeftLegBump",
+                "LeftLegBump2",
+                "Rwing",
+                "BotSpine",
+                "BotSpineExt",
+                "Lwing",
+                "Leg1LeftExt",
+                "SpineBump",
+                "RightLegBump",
+                "RightLegBump2",
+                "HipExt",
+                "Skirt1C",
+                "Leg1Left1A",
+                "Leg3RightArmorA",
+                "Leg3RightArmorB",
+                "Leg2RightArmor"
+            ],
+            "orientationBasis": "NEG_X_Y",
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        }
+    }
+}

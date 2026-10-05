@@ -1,0 +1,45 @@
+{
+    "parent": "/EE/Types/Game/WeaponRecoilInfo",
+    "data": {
+        "CameraShake": {
+            "RotationSpring": {
+                "enable": 1,
+                "xDeflection": [
+                    0,
+                    0
+                ],
+                "yDeflection": [
+                    0,
+                    1
+                ],
+                "deflectionStrength": [
+                    20,
+                    20
+                ],
+                "stiffness": 120,
+                "dampening": 10,
+                "normalizeDeflection": 1
+            },
+            "TranslationSpring": {
+                "deflectionStrength": [
+                    1,
+                    1
+                ]
+            },
+            "RotationNoise": {
+                "deflectionStrength": [
+                    1,
+                    1
+                ],
+                "rate": 0.5,
+                "dampening": 3
+            },
+            "TranslationNoise": {
+                "deflectionStrength": [
+                    1,
+                    1
+                ]
+            }
+        }
+    }
+}

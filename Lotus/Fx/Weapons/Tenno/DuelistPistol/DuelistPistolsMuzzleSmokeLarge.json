@@ -1,0 +1,95 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.0099999998
+            },
+            {
+                "name": "Hardness",
+                "type": "Float",
+                "slot": -1,
+                "value": 5
+            }
+        ],
+        "SortAgainstFog": 1,
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "DetailLevel": "PQ_HIGH",
+        "HasLifeSpan": 0,
+        "Life": [
+            1.2,
+            2
+        ],
+        "Size": [
+            2,
+            3
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.0613029
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.84148598
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "InitialCount": [
+            3,
+            6
+        ],
+        "Material": "/Lotus/Fx/Explosions/ExplosionFlipSmokeBillowEnergyColor",
+        "AnimateTiles": 1,
+        "AnimatePower": [
+            2,
+            2
+        ],
+        "ColorMin": [
+            255,
+            255,
+            255,
+            120
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0049999999,
+            0.0049999999
+        ],
+        "FadeInOut": [
+            0,
+            0.088811003
+        ],
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ],
+        "NozzleDev": 0.40000001,
+        "NozzleBox": [
+            0.2,
+            0.2,
+            0
+        ],
+        "Speed": [
+            1,
+            2
+        ],
+        "Drag": 2,
+        "Mass": [
+            -0.050000001,
+            -0.025
+        ],
+        "WindAffected": 1
+    }
+}

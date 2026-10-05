@@ -1,0 +1,38 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/Iceblade/DuelistBowLimbLower",
+        "LocalizeDescTag": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponBlade.png",
+        "TypeName": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistBowLowerLimbBlueprint",
+        "SellingPrice": 3500,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1788985647,
+        "Giftable": 0,
+        "ExcludeFromCodex": 0,
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "DuelistBowLowerLimb",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 1700
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemA",
+                "ItemCount": 30
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/VoidAngelItem",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 800
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "SkipBuildTimePrice": 25
+    }
+}

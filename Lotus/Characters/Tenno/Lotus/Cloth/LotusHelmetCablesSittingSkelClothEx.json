@@ -1,0 +1,82 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "LotusHelmetCablesCloth_skel.fbx",
+        "CullDissolveRatio": 0,
+        "MaterialParams": [
+            {
+                "name": "PreserveDefaultTints",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            }
+        ],
+        "DissolveOverride": "/Lotus/Fx/PowersuitAbilities/Lotus/LotusCableErosion_d.png",
+        "Attached": 1,
+        "AttachBone": "GAME_C1_HEAD1",
+        "Tag": "LotusCableCloth",
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "LotusHelmetCablesSkelClothData",
+        "Collision": "LotusSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.082000002,
+                0.110251
+            ],
+            "collidingDampeningRange": [
+                0.028999999,
+                0.104449
+            ],
+            "massRange": [
+                0.28999999,
+                0.58999997
+            ],
+            "distConstraintRange": [
+                0.0049999999,
+                5
+            ],
+            "reduceStretchExponent": 0.58999997,
+            "shearingStiffness": 0.28999999,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "wind": [
+                1,
+                1,
+                1
+            ],
+            "windStrength": [
+                1,
+                1
+            ],
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "windVolumeScale": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "windVolumeOffsetRate": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "usePeerCollision": 0,
+            "floorPlaneHeight": 0.69,
+            "orientationBasis": "NEG_X_Y",
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        },
+        "UseClothCollision": 1,
+        "ZoneWindScale": 2
+    }
+}

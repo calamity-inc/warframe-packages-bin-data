@@ -1,0 +1,23 @@
+{
+    "parent": "/Lotus/Powersuits/PowersuitAbilities/PlayerPowerSuitAbility",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/TauPrologue/LotusBlastAbilityName",
+        "Icon": "/Lotus/Interface/Icons/Abilities/Misc/LotusBlast.png",
+        "UniquePowerIdentifier": "LOTUS_BLAST",
+        "Script": {
+            "Script": "LotusBlastAbility.lua",
+            "Function": "ActivateAbility",
+            "_activateAnim": "/Lotus/Animations/Tenno/Powers/Lotus/Ability1_anim.fbx",
+            "_projectileType": "/Lotus/Powersuits/Lotus/LotusBlastProjectile",
+            "_castBurstEffect": "/Lotus/Fx/PowersuitAbilities/Priest/CondemnCastBurst",
+            "_castEffect": "/Lotus/Fx/PowersuitAbilities/Lotus/BlastCast",
+            "_castEvent": "AbilityCast",
+            "_windBlastEffect": "/Lotus/Fx/PowersuitAbilities/Lotus/LotusWindBlast",
+            "_chargeSound": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusHandShotCharge",
+            "_castSound": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusHandShot"
+        },
+        "EnergyRequiredToActivate": 0,
+        "PvpEnergyRequiredToActivate": 0,
+        "ActivationXP": 0
+    }
+}

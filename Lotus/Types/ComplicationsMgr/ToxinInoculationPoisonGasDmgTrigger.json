@@ -1,0 +1,57 @@
+{
+    "parent": "/Lotus/Types/Enemies/Quests/JadeShadowsPart2Quest/FallingStarDamageTrigger",
+    "data": {
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Icebalde/IceToxicInoculationGasCloudFx",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/TimedSelfDestruction.lua",
+            "Function": "TimedSelfDestruction",
+            "_timeToSelfDestruct": 0.15000001,
+            "_destructionFx": "",
+            "_hostOnly": 1,
+            "_delay": 0
+        },
+        "DebugColor": [
+            19,
+            233,
+            17,
+            255
+        ],
+        "AttackData": {
+            "Type": "DT_POISON",
+            "DT_IMPACT": 0,
+            "DT_PUNCTURE": 0,
+            "DT_SLASH": 0,
+            "DT_POISON": 75,
+            "DT_GAS": 75,
+            "DT_CORROSIVE": 75,
+            "Amount": 225,
+            "ProcChance": 5,
+            "ForcedProcs": []
+        },
+        "DamageOverTimeInterval": 2,
+        "Faction": ""
+    }
+}

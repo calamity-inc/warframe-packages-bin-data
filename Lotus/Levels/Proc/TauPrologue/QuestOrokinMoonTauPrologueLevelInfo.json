@@ -1,0 +1,273 @@
+{
+    "parent": "/EE/Types/Engine/LevelInfo",
+    "data": {
+        "PostProcessInfo": {
+            "useExposureEVCurve": 1,
+            "exposureCurveBias": -0.25,
+            "toneMapType": "TM_ACES_REF",
+            "toneMapLUT": "/EE/Materials/PostFX/FilmLooks/Davinci2383D60.cube",
+            "toneMapLUTBlend": 0.80078101,
+            "colorGradingData": {
+                "Global": {
+                    "Contrast": [
+                        0.97000003,
+                        0.99000001,
+                        1,
+                        1.3
+                    ],
+                    "Gamma": [
+                        1,
+                        1,
+                        1,
+                        0.98000002
+                    ]
+                }
+            },
+            "bloom": 2.5,
+            "lightMapBoost": 0.64999998,
+            "postFXMaterial": "/Lotus/Types/ACESPost",
+            "ssgiAttenuation": 0.34999999,
+            "grainBias": 0.0099999998,
+            "volumetricFog": {
+                "Enabled": 1,
+                "GlobalIlluminationMultiplier": 3,
+                "Extinction": 0.050000001,
+                "Scattering": 0.60000002,
+                "GlobalFog": {
+                    "Density": 0.07,
+                    "G": 0.44999999
+                }
+            }
+        },
+        "EnableGIVolumes": 1,
+        "LightingParams": {
+            "diffuseBoost": 0.5,
+            "diffuseGamma": 0.80000001,
+            "indirectRadiusBoost": 2,
+            "emissiveScale": 0,
+            "bakingOptions:Type": "/EE/Types/Darkitect/BakingOptions",
+            "bakingOptions:NovaBakeRadiosity": 1,
+            "bakingOptions:NovaSamplesPerPixel": 1024,
+            "bakingOptions:ExportDiffuseTextures": "ET_256_PIXELS",
+            "bakingOptions:NovaApertureSamplesPerPixel": 144,
+            "bakingOptions:LegacyIndexLighting": 0,
+            "bakingOptions:UseHiddenLights": 0,
+            "bakingOptions:BakeMainLodLightmaps": 1,
+            "bakingOptions:BakeHlodLightmaps": 1,
+            "bakingOptions:RandomSeed": 0,
+            "bakingOptions:ParentLevel": "",
+            "bakingOptions:KeepUnchangedLightmaps": 1,
+            "bakingOptions:UnchangedSignalToNoiseRatio": 40,
+            "bakingOptions:ParentSignalToNoiseRatio": 30,
+            "bakingOptions:ChromaMipBias": 2,
+            "bakingOptions:DirectionMapMipBias": 1,
+            "bakingOptions:MaxObjectLightMapSize": "MLM_2048x2048",
+            "bakingOptions:ObjectLightMapSizeDownscale": 0,
+            "bakingOptions:MaxLightMapPageSize": "MLM_2048x2048",
+            "bakingOptions:AutoGenerateLightProbes": 0,
+            "bakingOptions:LightProbeMinMax": [
+                5,
+                15
+            ],
+            "bakingOptions:LightProbeHeight": 1,
+            "bakingOptions:LightProbeAdaptiveThreshold": 2,
+            "bakingOptions:ProbeLitObjectsAffectLightProbes": 0,
+            "bakingOptions:UseSpatialAtlasingVer": 3,
+            "bakingOptions:LightmapView": "LMV_LIGHT_MAP",
+            "bakingOptions:BakeDirectional": 1,
+            "bakingOptions:BakeIndexed": 1,
+            "bakingOptions:BakeLightProbes": 1,
+            "bakingOptions:BakeCubeMaps": 1,
+            "bakingOptions:BakeSkyProbe": 0,
+            "bakingOptions:EnableApertureLightmapsPreDilate": 0,
+            "bakingOptions:IndirectLightingFilterRadius": 5
+        },
+        "OnLevelObjectsCreated": {
+            "Script": "/Lotus/Scripts/ProceduralSpawnSetup.lua",
+            "Function": "SpawnSetup",
+            "_spawnOverrideTag": "",
+            "_cinOverrideString": "",
+            "_enableSpawnPoints": 1,
+            "_spawnZoneIndexOverride": 0
+        },
+        "ConfigureScript": {
+            "Script": "/Lotus/Scripts/ProceduralLevel.lua",
+            "Function": "InitializeWithAIXpPool",
+            "_MusicSequencerType": "",
+            "_RandomMusicSequencerType": [],
+            "_hasDayNightCycle": 0,
+            "_alwaysDay": 0,
+            "_alwaysNight": 0,
+            "_skipIntroCinematics": 1,
+            "_itemTypes": [
+                "/Lotus/Types/PickUps/OrokinLootCrate"
+            ],
+            "_itemProbability": [
+                0.75
+            ],
+            "_itemTypesSecondary": [],
+            "_itemProbabilitySecondary": [
+                1
+            ],
+            "_railjackPickupTypes": [],
+            "_railjackPickupWeighting": [
+                1
+            ],
+            "_defaultCrateSpawningCap": 100,
+            "_useCustomCrateSpawning": 0,
+            "_customCrateCap": 50,
+            "_customCrateChance": 0.25,
+            "_barrelTypes": [
+                "/Lotus/Objects/OrokinExplodingBarrel"
+            ],
+            "_barrelProbability": [
+                1
+            ],
+            "_barrelTags": [],
+            "_barrelMinLevel": [
+                0
+            ],
+            "_randomRotation": 1,
+            "_randomRotationSecondary": 1,
+            "_doRandomEnvSetupColorCorrection": 1,
+            "_disableCorpusCamerasAndTurrets": 0,
+            "_enableKubrowDens": 1,
+            "_corpseTypes": [],
+            "_corpseProbability": [
+                1
+            ],
+            "_dynamicCoverTypes": [
+                "/Lotus/Types/LevelObjects/DeployableCoverNavVolume"
+            ],
+            "_emplacementTypes": [],
+            "_emplacementProbabilities": [
+                1
+            ],
+            "_numRandomEmplacements": 10,
+            "_emplacementMinLevel": 15,
+            "_customEnemyScaling": "",
+            "_timeoutDuration": 900,
+            "_idelTimeoutLoc": "/Lotus/Language/Game/ExterminateMissionFail",
+            "_eidolonGroupCoordinatorAgentType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGroupCoordinatorAgent",
+            "_testAiSpec": "",
+            "_hasMoodChanges": 0,
+            "_skipObjectives": 0,
+            "_hasQuestTrigger": 1,
+            "_MaxXp": 5000,
+            "_BaseXPPool": 0,
+            "_SameZone": 0,
+            "_enableAutoSpawns": 1,
+            "_ambientMissionTransSet": "/Lotus/Sounds/Lotus/TransmissionSets/Mission/AmbientMissionTransmissions",
+            "_rareLootWaypointType": "/Lotus/Types/LevelObjects/RareLootCrateWaypoint",
+            "_rareCrateType": "/Lotus/Types/PickUps/RareOrokinLootCrate",
+            "_altRareCrateType": "",
+            "_rareLootChance": 0.02,
+            "_syndicatePickupTypes": [],
+            "_syndicatePickupCount": 6,
+            "_syndicateGuaranteedPickupTypes": [],
+            "_ultraRareLootWaypointType": "/Lotus/Types/LevelObjects/UltraRareLootCrateWaypoint",
+            "_ultraRareCrateType": "/Lotus/Types/PickUps/UltraRareOrokinLootCrate",
+            "_altUltraRareCrateType": "",
+            "_ultraRareLootChance": 0.0049999999,
+            "_floatingCrateWaypointType": "",
+            "_floatingCrateTypes": [],
+            "_numFloatingCrates": 25,
+            "_moonFissureType": "/Lotus/Types/Gameplay/MoonFissure",
+            "_disableSpawnedLoot": 0,
+            "_disableFusionTreasures": 0,
+            "_disableLockers": 0,
+            "_disableCrateLootDrops": 0,
+            "_isOpenSpace": 0,
+            "_isArchwingMission": 0
+        },
+        "OnLocalAvatarCreatedScript": {
+            "Script": "/Lotus/Scripts/ProceduralLevel.lua",
+            "Function": "InitializeMusic",
+            "_MusicSequencerType": "",
+            "_RandomMusicSequencerType": [],
+            "_hasDayNightCycle": 0,
+            "_alwaysDay": 0,
+            "_alwaysNight": 0,
+            "_skipIntroCinematics": 0,
+            "_itemTypes": [],
+            "_itemProbability": [
+                1
+            ],
+            "_itemTypesSecondary": [],
+            "_itemProbabilitySecondary": [
+                1
+            ],
+            "_railjackPickupTypes": [],
+            "_railjackPickupWeighting": [
+                1
+            ],
+            "_defaultCrateSpawningCap": 100,
+            "_useCustomCrateSpawning": 0,
+            "_customCrateCap": 50,
+            "_customCrateChance": 0.25,
+            "_barrelTypes": [],
+            "_barrelProbability": [
+                1
+            ],
+            "_barrelTags": [],
+            "_barrelMinLevel": [
+                0
+            ],
+            "_randomRotation": 1,
+            "_randomRotationSecondary": 1,
+            "_doRandomEnvSetupColorCorrection": 1,
+            "_disableCorpusCamerasAndTurrets": 0,
+            "_enableKubrowDens": 1,
+            "_corpseTypes": [],
+            "_corpseProbability": [
+                1
+            ],
+            "_dynamicCoverTypes": [
+                "/Lotus/Types/LevelObjects/DeployableCoverNavVolume"
+            ],
+            "_emplacementTypes": [],
+            "_emplacementProbabilities": [
+                1
+            ],
+            "_numRandomEmplacements": 10,
+            "_emplacementMinLevel": 15,
+            "_customEnemyScaling": "",
+            "_timeoutDuration": 900,
+            "_idelTimeoutLoc": "/Lotus/Language/Game/ExterminateMissionFail",
+            "_eidolonGroupCoordinatorAgentType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGroupCoordinatorAgent",
+            "_testAiSpec": "",
+            "_hasMoodChanges": 0,
+            "_skipObjectives": 0,
+            "_hasQuestTrigger": 0,
+            "_MaxXp": 5000,
+            "_BaseXPPool": 0,
+            "_SameZone": 0,
+            "_enableAutoSpawns": 1,
+            "_ambientMissionTransSet": "/Lotus/Sounds/Lotus/TransmissionSets/Mission/AmbientMissionTransmissions",
+            "_rareLootWaypointType": "",
+            "_rareCrateType": "",
+            "_altRareCrateType": "",
+            "_rareLootChance": 0.25,
+            "_syndicatePickupTypes": [],
+            "_syndicatePickupCount": 6,
+            "_syndicateGuaranteedPickupTypes": [],
+            "_ultraRareLootWaypointType": "",
+            "_ultraRareCrateType": "",
+            "_altUltraRareCrateType": "",
+            "_ultraRareLootChance": 0.0099999998,
+            "_floatingCrateWaypointType": "",
+            "_floatingCrateTypes": [],
+            "_numFloatingCrates": 25,
+            "_moonFissureType": "",
+            "_disableSpawnedLoot": 0,
+            "_disableFusionTreasures": 0,
+            "_disableLockers": 0,
+            "_disableCrateLootDrops": 0,
+            "_isOpenSpace": 0,
+            "_isArchwingMission": 0
+        },
+        "WeatherAutoChild": {
+            "Type": "/Lotus/Fx/Levels/Orokin/OrokinWeatherAttach"
+        }
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.20999999,
+                    0.56,
+                    1,
+                    1
+                ]
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 3
+            }
+        ],
+        "UseTeamEffectsSetting": 1,
+        "SpawnRate": 150,
+        "BoundsExpansionOverride": 5,
+        "EnergyTintMethod": "ETM_LIFE",
+        "VortexCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.050000001,
+                    "Value": 4
+                },
+                {
+                    "Time": 0.1,
+                    "Value": 0.2
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "useCollisions": 0,
+        "affectedByZoneWind": 0,
+        "resilience": 0.050000001,
+        "drag": 1,
+        "mass": [
+            -0.1,
+            0.1
+        ],
+        "life": [
+            0.1,
+            2
+        ],
+        "size": [
+            0.0049999999,
+            0.02
+        ],
+        "sizeByLifeMultiplier": [
+            1,
+            1,
+            0.25
+        ],
+        "velocity": [
+            0.1,
+            0.1
+        ],
+        "windAttenuation": [
+            0.40000001,
+            1
+        ],
+        "windKillDistance": 0,
+        "streaksFactor": 2,
+        "collisionDelay": 0.02,
+        "velocityDeviation": [
+            0,
+            1
+        ],
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            0.1,
+            0.1,
+            0.25
+        ],
+        "spawnFlowBlend": 0.74849999,
+        "flowScale": [
+            0.40000001,
+            0.40000001,
+            0.40000001
+        ],
+        "flowForce": [
+            6,
+            6,
+            6
+        ],
+        "flowForceEnd": [
+            5,
+            5,
+            5
+        ],
+        "flowScrolling": [
+            1,
+            1,
+            1
+        ],
+        "flowAtten": [
+            1,
+            1.8
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSpotFadeMidAlpha",
+        "colorKeys[0]": [
+            0.067000002,
+            0.23999999,
+            1,
+            1
+        ],
+        "colorKeys[1]": [
+            0,
+            0.022,
+            0.23,
+            1
+        ],
+        "numColors": 2,
+        "simVortex": 1,
+        "vortexSpeed": 1,
+        "vortexRadialForce": 0.1
+    }
+}

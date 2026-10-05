@@ -1,0 +1,157 @@
+{
+    "parent": "/EE/Materials/Defaults/CharacterPBRDetail",
+    "data": {
+        "EFFECT": "AXIS_PINCH",
+        "UNIQUE_TEXTURE": "PARALLAX_ENERGY",
+        "MACRO_ROUGHNESS": 1,
+        "EMISSIVE_MAP": 1,
+        "EMISSIVE_MASK": 1,
+        "SPECULARMAP_IS_METALMAP": 1,
+        "VERTEX_AO": 1,
+        "VS:AxisVector": [
+            0,
+            0,
+            1
+        ],
+        "VS:PinchAtten": 0.5,
+        "VS:PinchLength": 1,
+        "VS:PinchOverridePoint": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "VS:RightArmClip": 0,
+        "PS:SpecularColor": [
+            0.013,
+            0.012,
+            0.012,
+            1
+        ],
+        "PS:TintColor0": [
+            0.44,
+            0.44,
+            0.44,
+            1
+        ],
+        "PS:TintColor1": [
+            0.0068999999,
+            0.011,
+            0.02,
+            1
+        ],
+        "PS:TintColor2": [
+            0.14,
+            0.25,
+            0.38,
+            0.5
+        ],
+        "PS:TintColor3": [
+            0.62,
+            0.38999999,
+            0.2,
+            0.5
+        ],
+        "PS:CurvatureStrength": 1,
+        "PS:ParallaxEnergyParams": [
+            1,
+            1,
+            7,
+            0.003
+        ],
+        "PS:ParallaxEnergyParamsB": [
+            0,
+            0.0049999999,
+            0.25,
+            -0.2
+        ],
+        "PS:EnergyLayerStrength": [
+            0,
+            0,
+            2,
+            0
+        ],
+        "PS:TintColor": [
+            0.5,
+            0.72000003,
+            0.81,
+            1
+        ],
+        "PS:SecondaryTintColor": [
+            0.28999999,
+            0.63,
+            0.79000002,
+            1
+        ],
+        "PS:EmissiveTintColorLo": [
+            0.016000001,
+            0.052999999,
+            0.27000001,
+            1
+        ],
+        "PS:EmissiveTintColorHi": [
+            0.18000001,
+            0.44,
+            0.93000001,
+            1
+        ],
+        "PS:EmissiveMapAtten": 1,
+        "PS:EmissivePan": [
+            0,
+            0.015,
+            1.2
+        ],
+        "PS:EmissiveMaskBlend": 1,
+        "PS:EmissiveMaskBlueChannelInfluence": 1,
+        "TX:NormalMap": "BansheeDeluxeBodyA_n.png",
+        "TX:MacroPackMap": "BansheeDeluxeBodyAPackMap",
+        "TX:ParallaxEnergyMap": "/Lotus/Characters/Pets/BansheeDlxSentinel/BansheeDlxSentParallax_d.png",
+        "TX:EmissiveMap": "BansheeDeluxeBodyA_e.png",
+        "PS:LayerNormalStrength": [
+            1,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "PS:UvScaleRedGreen": [
+            10,
+            10,
+            8,
+            8
+        ],
+        "PS:UvScaleBlueAlpha": [
+            5,
+            5,
+            10,
+            10
+        ],
+        "PS:MicroCavityAoStrength": [
+            0.69999999,
+            0.80000001,
+            0,
+            0
+        ],
+        "PS:MicroCavityRoughnessMultiplier": [
+            2,
+            1.5,
+            0,
+            0
+        ],
+        "PS:MicroCavitySpecularMultiplier": [
+            1,
+            0,
+            0,
+            0
+        ],
+        "TX:RedNormalMap": "/Lotus/Characters/SharedTileableTextures/CharacterPBRDetail/OrganicSurfaces/Leaf_n.png",
+        "TX:GreenNormalMap": "/Lotus/Characters/SharedTileableTextures/CharacterPBRDetail/Textiles/BullLeatherCavity_n.png",
+        "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/ExcaliburDetails_n.png",
+        "TX:AlphaNormalMap": "/Lotus/Characters/SharedTileableTextures/Bone/Bone_n.png",
+        "PS:BaseTintColor": [
+            0.25,
+            0.25,
+            0.25,
+            0.5
+        ]
+    }
+}

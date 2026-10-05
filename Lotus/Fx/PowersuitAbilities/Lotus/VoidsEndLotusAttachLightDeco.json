@@ -1,0 +1,90 @@
+{
+    "parent": "/Lotus/Fx/Common/VolumetricLightDeco",
+    "data": {
+        "MeshScale": 1.2,
+        "MaterialParams": [
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    1,
+                    0.68000001,
+                    0.31,
+                    1
+                ]
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.40000001
+            }
+        ],
+        "IgnoreParentRotation": 0,
+        "TestRotateSpeed": [
+            30,
+            30,
+            30
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.5,
+                "Multiplier": 8,
+                "FadeRange": [
+                    0.1,
+                    0.1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "Scale",
+                "Slot": -1,
+                "TimeLength": 0.5,
+                "Multiplier": 1.2,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0.003125
+                        },
+                        {
+                            "Time": 0.33333299,
+                            "Value": 0.607813
+                        },
+                        {
+                            "Time": 0.66666698,
+                            "Value": 0.954687
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 1
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0.5,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

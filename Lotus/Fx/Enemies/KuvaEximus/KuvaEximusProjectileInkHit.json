@@ -1,0 +1,109 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "DepthSortBias": -20,
+        "MaterialParams": [
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 2.5
+            },
+            {
+                "name": "Hardness",
+                "type": "Float",
+                "slot": -1,
+                "value": 5
+            },
+            {
+                "name": "FlowScale",
+                "type": "Float4",
+                "slot": -1,
+                "value": -0.2,
+                "value1": -0.80000001,
+                "value2": 0,
+                "value3": 0
+            }
+        ],
+        "UseParentVisibility": 0,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.5,
+            1
+        ],
+        "Size": [
+            0.30000001,
+            0.60000002
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.60000002
+                },
+                {
+                    "Time": 0.33329999,
+                    "Value": 0.69999999
+                },
+                {
+                    "Time": 0.66670001,
+                    "Value": 0.94999999
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "Aspect": [
+            0.80000001,
+            1.2
+        ],
+        "DistanceScale": 0.60000002,
+        "GrowthRate": [
+            1,
+            2
+        ],
+        "InitialCount": [
+            6,
+            10
+        ],
+        "Material": "/Lotus/Fx/Gameplay/Muse/InkSplashWaterPMat",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            8,
+            8,
+            8,
+            255
+        ],
+        "ColorMax": [
+            13,
+            13,
+            13,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.003,
+            0.003
+        ],
+        "FadeInOut": [
+            0,
+            0
+        ],
+        "GoboFOV": -10,
+        "Nozzle": "SPHERE",
+        "NozzleSize": 0.2,
+        "Speed": [
+            2,
+            2
+        ],
+        "Drag": 0.1,
+        "Mass": [
+            0,
+            0.25
+        ]
+    }
+}

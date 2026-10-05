@@ -1,0 +1,60 @@
+{
+    "parent": "/Lotus/Powersuits/PowersuitAbilities/PlayerPowerSuitAbility",
+    "data": {
+        "MarketMode": "MM_HIDDEN",
+        "LocalizeTag": "/Lotus/Language/Iceblade/DuelistAbilityThrustName",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/DuelistAbilityThrustDesc",
+        "Icon": "/Lotus/Interface/Icons/Abilities/NarinThrust.png",
+        "UniquePowerIdentifier": "DUELIST_THRUST",
+        "AdditionalPowerIdentifiers": [
+            "EFFECT_DAMAGE"
+        ],
+        "Script": {
+            "Script": "DuelistThrust.lua",
+            "Function": "ActivateAbility",
+            "_activateAnim": "/Lotus/Animations/Tenno/Powers/Narin/Ability1_anim.fbx",
+            "_swordsDecoType": "/Lotus/Powersuits/Duelist/ThrustRapierDeco",
+            "_hitEffect": "/Lotus/Fx/Weapons/Tenno/DuelistPistol/DuelistPistolsHitEffectSmall",
+            "_chargeSound": "/Lotus/Sounds/Warframes/Narin/Abilities/NarinThrustCharge",
+            "_castSound": "/Lotus/Sounds/Warframes/Narin/Abilities/NarinThrustCast",
+            "_swordProjSound": "/Lotus/Sounds/Warframes/Narin/Abilities/NarinThrustProjBy"
+        },
+        "AbilityEvents": [
+            {
+                "tag": "OnPassiveKill",
+                "eventType": "ET_ON_KILL_OR_ASSIST",
+                "scriptInstance": {
+                    "Script": "/Lotus/Powersuits/Duelist/DuelistPassive.lua",
+                    "Function": "OnKill",
+                    "_passiveHealFx": "/Lotus/Fx/PowersuitAbilities/Duelist/BirdDeco",
+                    "_filterWeaponTypes": [
+                        "/Lotus/Weapons/Tenno/Archwing/Primary/ArchGun",
+                        "/Lotus/Types/Gameplay/1999Wf/Quest/1999QuestRocketLauncherWeapon",
+                        "/Lotus/Types/Gameplay/1999Wf/Assassination/RocketLauncherWeapon",
+                        "/Lotus/Weapons/1999/RocketPropelledGrenadeLauncher/1999RPGLauncher"
+                    ],
+                    "_hudBuffType": "/Lotus/Powersuits/Duelist/PassiveHudBuff",
+                    "_pickupType": "/Lotus/Powersuits/Duelist/ColdAmmoPickup",
+                    "_pickupFx": ""
+                }
+            }
+        ],
+        "NpcCooldownDuration": 60,
+        "StartingNpcCooldownRange": [
+            20,
+            60
+        ],
+        "AllowToggle": 1,
+        "AllowReactivate": 1,
+        "AllowOnZipLines": 1,
+        "AllowDuringOverride": 1,
+        "VideoTexture": "/Lotus/Interface/AbilityVideos/NarinPower1_s.bk2",
+        "HelminthOverrideDescTag": "/Lotus/Language/Iceblade/DuelistAbilityThrustDesc_helminth",
+        "ResourceOverrides": [
+            {
+                "Tag": "DuelistSwordAttach",
+                "Resource": "/Lotus/Powersuits/Duelist/RapierDeco"
+            }
+        ]
+    }
+}

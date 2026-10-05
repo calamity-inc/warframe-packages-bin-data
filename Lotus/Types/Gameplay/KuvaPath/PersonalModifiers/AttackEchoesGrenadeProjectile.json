@@ -1,0 +1,145 @@
+{
+    "parent": "/Lotus/Weapons/Tenno/Grenades/GrenadeProjectile",
+    "data": {
+        "Mesh": "/Lotus/Weapons/Grineer/GrineerGrenadeLauncher/Grenade.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Grenades/FragmentationGrenadeTrail",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 0,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Weapons/Grineer/Grenade/GrenadeThrowSeq",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Explosions/PlasmaGrenadeProjectileSeq",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/GrenadeLauncher/LauncherMuzzleFlash",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "AttackData": {
+            "Type": "DT_EXPLOSION",
+            "Amount": 25
+        },
+        "ExplosiveAttack": {
+            "Amount": 200
+        },
+        "ExplosionIgnoreSource": 1,
+        "GrenadeShootPermissions": [],
+        "GrenadeShootBonus": [],
+        "DamageRadius": 6.6599998,
+        "HitEffect": "/Lotus/Types/Weapons/PlasmaGrenadeHitEffect",
+        "DieEffect": "/Lotus/Fx/Weapons/Grenades/FragmentationGrenadeBurst",
+        "IgnoreTypes": [
+            "/Lotus/Types/Game/LotusNpcAvatar"
+        ],
+        "Toughness": 100,
+        "MaxLife": 5,
+        "MaxBounces": 5,
+        "AlwaysBounceOnAvatars": 1,
+        "SetLifeOnImpact": 1,
+        "VerticalImpulse": 150,
+        "HorizontalImpulse": 300,
+        "Health": 1,
+        "AngleSpeed": [
+            0.5,
+            2
+        ],
+        "AuthoritativeDeath": 0,
+        "StopOnAvatars": 0,
+        "AlwaysChangeInstigatorIfShot": 0,
+        "EmbedAttack": {
+            "Type": "DT_FIRE",
+            "Amount": 0
+        },
+        "EmbedTime": [
+            0.5,
+            0.5
+        ],
+        "EmbedDeathEffect": "/Lotus/Fx/Weapons/Grenades/PlasmaGrenadeBurst",
+        "KinematicMovement": 1,
+        "KinematicInitialSpeed": 5,
+        "KinematicMaxSpeed": 25,
+        "KinematicGravity": 1,
+        "KinematicSpinRate": [
+            0,
+            90,
+            0
+        ]
+    }
+}

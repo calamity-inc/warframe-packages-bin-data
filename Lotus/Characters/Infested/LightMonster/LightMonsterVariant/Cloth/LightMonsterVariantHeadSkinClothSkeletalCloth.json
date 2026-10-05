@@ -1,0 +1,71 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "LightMonsterVariantHeadSkinCloth_skel.fbx",
+        "Attached": 1,
+        "ReplicaRunScriptInstance": 1,
+        "CollisionDebugVis": "CDV_ALL",
+        "ShowSimCollisionTags": 1,
+        "ControlData": "LightMonsterVariantHeadSkinClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.082000002,
+                0.082999997
+            ],
+            "collidingDampeningRange": [
+                0.02,
+                0.025
+            ],
+            "massRange": [
+                0.28999999,
+                0.58999997
+            ],
+            "distConstraintRange": [
+                0.000099999997,
+                1
+            ],
+            "useBackstopConstraints": 1,
+            "backstopConstraintRange": [
+                0.0099999998,
+                0.2
+            ],
+            "reduceStretch": 0,
+            "shearingStiffness": 0.1,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "windVelocityScale": 0.28999999,
+            "windStrength": [
+                0,
+                0
+            ],
+            "noiseSpeed": 0,
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "windVolumeScale": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "windVolumeOffsetRate": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "floorPlaneHeight": 0.059,
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        },
+        "UseClothCollision": 1,
+        "ZoneWindScale": 1
+    }
+}

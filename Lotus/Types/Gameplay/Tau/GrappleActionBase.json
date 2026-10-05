@@ -1,0 +1,101 @@
+{
+    "parent": "/Lotus/Types/Actions/GrappleHitSwitch",
+    "data": {
+        "MirrorDraw": "MF_CULL_FROM_MIRRORS",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "GrappleLookTrigger",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "GrappleEnergyDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "GrappleCoreDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "Tag": "TauGrappleAction",
+        "IsCenterBaseOriented": 1,
+        "Dimensions": [
+            1,
+            2.5,
+            1
+        ],
+        "Shape": "VES_CAPSULE",
+        "Radius": 0.1,
+        "RearmDelay": 3,
+        "AcceptType": "/Lotus/Types/Player/TennoAvatar",
+        "OnlyCountPlayerControlledAvatars": 1,
+        "IgnoredTypes": [
+            "/Lotus/Types/Game/LotusVehicleAvatar",
+            "/Lotus/Types/Friendly/Tenno/OperatorAvatar"
+        ],
+        "ActionPriority": "CA_PRIORITY_LOW",
+        "PlayerNpcUse": "PN_PLAYERS_ONLY",
+        "StopPushVelocity": 1,
+        "CanPerformDuringCinematics": 0,
+        "MaxUsageDistance": 80,
+        "IsBlockingAirAction": 0,
+        "ClientCanExecute": 1,
+        "ShowItemRequirement": 0,
+        "ShowInAlternateHud": 1,
+        "DisallowAvatarType": "/Lotus/Types/Player/LotusOperatorAvatar"
+    }
+}

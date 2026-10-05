@@ -1,0 +1,113 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWeaponCustomization",
+    "data": {
+        "PremiumPrice": 15,
+        "LocalizeTag": "/Lotus/Language/Primes/CitrinePrimeSugatraName",
+        "LocalizeDescTag": "/Lotus/Language/Primes/CitrinePrimeSugatraDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sugatras/CitrinePrimeSugatra.png",
+        "ExcludeFromCodex": 0,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
+        "FIRST_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        -0.02,
+                        -0.46000001,
+                        -0.02
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Weapons/Tenno/Accessories/PrimeCitrineSugatra/PrimeCitrineSugatraDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                {
+                    "LocalPosition": [
+                        -0.0099999998,
+                        0.46000001,
+                        -0.0099999998
+                    ],
+                    "LocalRotation": [
+                        0,
+                        1,
+                        0,
+                        0
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Weapons/Tenno/Accessories/PrimeCitrineSugatra/PrimeCitrineSugatraDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                {
+                    "LocalPosition": [
+                        -0.0049999999,
+                        0.46000001,
+                        -0.02
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Weapons/Tenno/Accessories/PrimeCitrineSugatra/PrimeCitrineSugatraDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        -0.155,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Weapons/Tenno/Accessories/PrimeCitrineSugatra/PrimeCitrineSugatraDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "CompatibleSlots": [
+            "Neckwear"
+        ],
+        "ApplyEnergyColor": 1,
+        "ColorSlot": "Attachments"
+    }
+}

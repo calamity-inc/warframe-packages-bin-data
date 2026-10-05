@@ -1,0 +1,29 @@
+{
+    "parent": "/Lotus/Objects/Zariman/Decals/ZARxBloodLarge",
+    "data": {
+        "Material": "StepsSnowDecalMat",
+        "CensoredMaterial": "",
+        "Width": 0.2,
+        "Height": 0.40000001,
+        "Length": 0.25,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 8,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0.039999999,
+                    0.30000001
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 1,
+                "DestroyWhenComplete": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
+    "data": {
+        "LocalizeDescTag": "/Lotus/Language/Conquest/WeaponBuff_WarframeHealth_Desc",
+        "Upgrades": [
+            {
+                "UpgradeType": "AVATAR_HEALTH_MAX",
+                "OperationType": "ADD",
+                "Value": 1000,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": [],
+                "OverrideLocalization": 0,
+                "SmallerIsBetter": 0,
+                "RoundTo": 0.1,
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
+            }
+        ],
+        "Script": {
+            "Script": "/Lotus/Scripts/Gameplay/HexConquestModifiers.lua",
+            "Function": "GrantMaxHealth",
+            "_overguardGainReduction": 0.75,
+            "_energyReductionMultiplier": 0.75,
+            "_healthMult": 0.98500001,
+            "_healthRestorePercent": 0.029999999,
+            "_healthRestoretime": 12,
+            "_voidImplosionScriptTrigger": ""
+        }
+    }
+}

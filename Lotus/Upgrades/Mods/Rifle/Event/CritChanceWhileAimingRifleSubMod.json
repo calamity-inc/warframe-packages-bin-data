@@ -14,6 +14,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -32,7 +33,8 @@
                 "ReverseValueSymbol": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "ApplyUpgradesByDefault": 0,
@@ -53,9 +55,9 @@
         "MaxConditionalStacks": 5,
         "PlayEffect": 0,
         "ConditionalUpgrades": [
-            "/Lotus/Upgrades/CosmeticEnhancers/Events/OnKillHeadshotRifleCondition"
+            "/Lotus/Upgrades/CosmeticEnhancers/Events/OnKillWeakPointRifleCondition"
         ],
-        "ConditionTag": "/Lotus/Language/Upgrades/OnHeadshotKillCondition_Description",
+        "ConditionTag": "/Lotus/Language/Upgrades/OnWeakPointHitCondition_Description",
         "HudBuffIcon": "/Lotus/Interface/Icons/ModBuffIndicators/IncreasedCritChance.png"
     }
 }

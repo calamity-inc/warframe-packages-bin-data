@@ -1,0 +1,63 @@
+{
+    "parent": "/Lotus/Fx/PowersuitAbilities/CustomEffects/LightEphemeraEmbers",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 12
+            },
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    1,
+                    0.052000001,
+                    0.89999998,
+                    1
+                ]
+            }
+        ],
+        "SpawnRate": 1500,
+        "InheritParentScale": 1,
+        "resilience": 0.050000001,
+        "drag": 1,
+        "mass": [
+            -0.025,
+            -0.0125
+        ],
+        "life": [
+            0.1,
+            0.60000002
+        ],
+        "size": [
+            0.0060000001,
+            0.012
+        ],
+        "velocityDeviation": [
+            1,
+            1
+        ],
+        "inheritVelocity": 0,
+        "spawnFlowBlend": 0.5,
+        "flowScale": [
+            0.40000001,
+            0.40000001,
+            0.40000001
+        ],
+        "flowForceEnd": [
+            0,
+            0,
+            0
+        ],
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksFadeClose",
+        "colorKeys[0]": [
+            0.041000001,
+            0,
+            0.046,
+            1
+        ]
+    }
+}

@@ -1,6 +1,30 @@
 {
     "parent": "/EE/Types/Actions/ScriptAction",
     "data": {
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "VoidTraderOpenMenu",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
         "Tag": "VoidTraderAction",
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/VoidTrader.lua",
@@ -11,10 +35,10 @@
             "_genericVendorMovie": "",
             "_traderTransmissions": "/Lotus/Sounds/Lotus/TransmissionSets/VoidTraderTransmissions",
             "_evilBaroTransmissionSets": [
-                "/Lotus/Sounds/Dialog/BaroHalloween/BaroHalloweenWeek1Transmissions",
-                "/Lotus/Sounds/Dialog/BaroHalloween/BaroHalloweenWeek2Transmissions",
-                "/Lotus/Sounds/Dialog/BaroHalloween/BaroHalloweenWeek3Transmissions",
-                "/Lotus/Sounds/Dialog/BaroHalloween/BaroHalloweenWeek4Transmissions"
+                "/Lotus/Sounds/Dialog/BaroHalloween2026/BaroHalloween2026Week1Transmissions",
+                "/Lotus/Sounds/Dialog/BaroHalloween2026/BaroHalloween2026Week2Transmissions",
+                "/Lotus/Sounds/Dialog/BaroHalloween2026/BaroHalloween2026Week3Transmissions",
+                "/Lotus/Sounds/Dialog/BaroHalloween2026/BaroHalloween2026Week4Transmissions"
             ],
             "_evilBaroTransmissionType": "",
             "_inarosSuitType": "",
@@ -24,7 +48,6 @@
             "_treasureBoxBackerMaterial": "",
             "_treasureBoxHighlightTexture": "",
             "_treasureBoxRevealMovie": "",
-            "_cameraSpot": "",
             "_cameraSpotOffset": [
                 -0.87089998,
                 2.1300001,
@@ -35,7 +58,12 @@
                 20,
                 -3
             ],
-            "_leavingSoonWarningTime": 36000
+            "_leavingSoonWarningTime": 36000,
+            "_transmissionIdleDelay": [
+                20,
+                25
+            ],
+            "_transmissionIdleInterupt": 0
         },
         "Enabled": 0,
         "Dimensions": [
@@ -47,34 +75,59 @@
         "ActionText": "/Lotus/Language/Menu/Vendor_Void_GenericTitle",
         "FacingAngle": 180,
         "CompleteScript": {
-            "Script": "/Lotus/Scripts/VoidTrader.lua",
-            "Function": "OpenVoidTraderMenu",
-            "_traderDecoType": "",
-            "_evilTraderDecoType": "",
-            "_traderSpawnEffect": "",
-            "_genericVendorMovie": "/Lotus/Interface/GenericVendor.swf",
-            "_traderTransmissions": "/Lotus/Sounds/Lotus/TransmissionSets/VoidTraderTransmissions",
-            "_evilBaroTransmissionSets": [],
-            "_evilBaroTransmissionType": "",
-            "_inarosSuitType": "/Lotus/Powersuits/Sandman/Sandman",
-            "_treasureBox": "/Lotus/Types/BoosterPacks/BaroTreasureBox",
-            "_treasureBoxButtonCornerTexture": "/Lotus/Interface/Graphics/BaroBannerBorderDeco.png",
-            "_treasureBoxBackerTexture": "/Lotus/Interface/Graphics/LoginRewards/BackGlow.png",
-            "_treasureBoxBackerMaterial": "/Lotus/Interface/Materials/ArchonCrystalBacker",
-            "_treasureBoxHighlightTexture": "/Lotus/Interface/Graphics/Themes/ItemHighlight.png",
-            "_treasureBoxRevealMovie": "/Lotus/Interface/TreasureBoxReveal.swf",
+            "Script": "/Lotus/Scripts/Dialog/Conversation.lua",
+            "Function": "ConversationAction",
+            "_speakerName": "/Lotus/Language/Bosses/BaroKiTeer",
+            "_customSpeakerNamesPerRank": [],
+            "_customSpeakerIcon": "",
+            "_dialogTags": [
+                "Baro_VendorWares",
+                "Baro_EvilWeek1",
+                "Baro_EvilWeek2",
+                "Baro_EvilWeek3",
+                "Baro_EvilWeek4"
+            ],
+            "_buttonTag": "",
+            "_onInitFunction": "",
+            "_introTransFunction": "",
+            "_onEndFunction": "",
+            "_exitTransFunction": "",
+            "_allowExit": 1,
             "_cameraSpot": "",
-            "_cameraSpotOffset": [
-                -0.87089998,
-                2.1300001,
-                1.29956
-            ],
-            "_cameraSpotRotationOffset": [
-                -230,
-                20,
-                -3
-            ],
-            "_leavingSoonWarningTime": 36000
+            "_cameraSpotTransitionTime": 0.40000001,
+            "_cameraSpotEndTransitionTime": -1,
+            "_hubNpc": "",
+            "_npcAvatarTag": "",
+            "_groupedHubNpcs": [],
+            "_inputFilter": "/Lotus/Types/Input/SimarisInputFilter",
+            "_transmissionSet": "",
+            "_requiredQuestKey": "",
+            "_secretSpeakerName": "",
+            "_secretDialogTags": [],
+            "_secretTransmissionSet": "",
+            "_speakerSyndicate": "",
+            "_introduceSyndicate": "",
+            "_additionalLovedSyndicateRequirements": [],
+            "_eventStageTag": "",
+            "_eventStageRequirement": 0,
+            "_eventTransmissionTag": "",
+            "_musicLoop": "",
+            "_soundLoop": "",
+            "_openSound": "",
+            "_closeSound": "",
+            "_openMusicSting": "",
+            "_closeMusicSting": "",
+            "_extraCurrency": "",
+            "_dissolvePlayer": 0,
+            "_playerDissolveTime": 1,
+            "_useAttachedCameraSpot": 0,
+            "_hideTransmissionComms": 1,
+            "_nearbyAvatarCullDistance": 6,
+            "_walkPlayerToPosition": 0,
+            "_walkToPositionSpeed": 3,
+            "_walkPositionWaypoint": "",
+            "_customPlayerAnimController": "",
+            "_finishPortForwarder": ""
         },
         "HudIndicatorOffset": [
             0.2,

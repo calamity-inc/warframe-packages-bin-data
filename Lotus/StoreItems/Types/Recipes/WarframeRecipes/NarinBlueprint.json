@@ -1,0 +1,44 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/Iceblade/DuelistSuitName",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/DuelistSuitDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Narin.png",
+        "TypeName": "/Lotus/Types/Recipes/WarframeRecipes/NarinBlueprint",
+        "RegularPrice": 35000,
+        "SellingPrice": 2500,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1787754405,
+        "Giftable": 0,
+        "SearchTags": [
+            "/Lotus/Language/Loadout/LoadoutCat_Assassin",
+            "/Lotus/Language/Loadout/LoadoutCat_Control"
+        ],
+        "ExcludeFromCodex": 0,
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "/Lotus/StoreItems/Powersuits/Duelist/Duelist",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/NarinHelmetComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/NarinChassisComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/NarinSystemsComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 1
+            }
+        ],
+        "BuildTime": 259200,
+        "BuildPrice": 25000,
+        "SkipBuildTimePrice": 50,
+        "ActivityFeedInfo": "Ash"
+    }
+}

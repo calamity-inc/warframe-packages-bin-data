@@ -1,0 +1,35 @@
+{
+    "parent": "/Lotus/Types/Game/DojoDecorationRecipeItem",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Iceblade/RoadToTauEventTrophyGold",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/RoadToTauEventTrophyDesc",
+        "Icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/MechEventTrophyGold.png",
+        "TradeCapability": "RO_NEVER",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 120000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                "ItemCount": 50000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 42000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                "ItemCount": 10
+            }
+        ],
+        "BuildTime": 86400,
+        "BuildPrice": 1000000,
+        "SkipBuildTimePrice": 1500,
+        "ConsumeOnUse": 0,
+        "ResultDecoration": "/Lotus/Objects/Events/RoadToTau/RoadToTauEventTrophyGold",
+        "DecoCapacityCost": 3,
+        "RequiredInVault": 1,
+        "AssetRefundPercentage": 1
+    }
+}

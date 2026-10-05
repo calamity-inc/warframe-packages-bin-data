@@ -1,0 +1,161 @@
+{
+    "parent": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEArcaPlasmor/CrpBEArcaPlasmorProjectile",
+    "data": {
+        "OverrideMaterial": [
+            "/Lotus/Fx/Gameplay/Duviri/LotusHandShockwaveProjMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "vScales",
+                "type": "Float4",
+                "slot": -1,
+                "value": 1,
+                "value1": 1,
+                "value2": 0.64999998,
+                "value3": 0
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            },
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.60000002,
+                    0,
+                    1,
+                    1
+                ]
+            }
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    -0.34999999,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Lotus/LotusProjectileFlare",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    -0.34999999,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Lotus/LotusProjectileLeadDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0.70710677,
+                    0,
+                    0,
+                    0.70710677
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Lotus/LotusProjectileParticleCaster",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    -0.34999999,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/PowersuitAbilities/Lotus/LotusProjectileSparks",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 1,
+                "Scale": 1
+            }
+        ],
+        "AttackData": {
+            "Type": "DT_SUICIDE",
+            "Amount": 999999,
+            "ProcChance": 0
+        },
+        "ExplosionIgnoreSource": 1,
+        "ExplodeOnFriendlies": 0,
+        "DamageRadius": 5,
+        "DamageMultAppliesToExplosiveRadius": 1,
+        "HitEffect": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusHandShotProjHE",
+        "DieEffect": "/Lotus/Types/Friendly/PlayerControllable/Weapons/LotusHandBlastDieEffect",
+        "PassThroughEffect": "",
+        "MaxLife": 1,
+        "MaxBounces": 0,
+        "BounceOnAvatars": 0,
+        "BounceOnRagdolls": 0,
+        "WhizzByLocal": 1,
+        "CanBeReflected": 0,
+        "CanBeAttracted": 0,
+        "StopOnCollision": 0,
+        "OnProjectileContactScript": {
+            "Script": "Abilities/LotusBlastAbility.lua",
+            "Function": "OnProjectileContact",
+            "_activateAnim": "",
+            "_projectileType": "",
+            "_castBurstEffect": "",
+            "_castEffect": "",
+            "_castEvent": "AbilityCast",
+            "_windBlastEffect": "",
+            "_chargeSound": "",
+            "_castSound": ""
+        },
+        "InitialWidth": 3,
+        "InitialRadius": 5,
+        "ProjectileResizes": []
+    }
+}

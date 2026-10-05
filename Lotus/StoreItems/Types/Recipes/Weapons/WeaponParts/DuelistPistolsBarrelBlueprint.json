@@ -1,0 +1,38 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/Iceblade/DuelistPistolsBarrel",
+        "LocalizeDescTag": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunBarrel.png",
+        "TypeName": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistPistolsBarrelBlueprint",
+        "SellingPrice": 3500,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1789050058,
+        "Giftable": 0,
+        "ExcludeFromCodex": 0,
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "DuelistPistolsBarrel",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 650
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 1200
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Cryotic",
+                "ItemCount": 100
+            }
+        ],
+        "BuildTime": 21600,
+        "BuildPrice": 10000,
+        "SkipBuildTimePrice": 25
+    }
+}

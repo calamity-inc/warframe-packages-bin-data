@@ -1,0 +1,91 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            }
+        ],
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.40000001,
+            1
+        ],
+        "Size": [
+            0.050000001,
+            0.1
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.30000001
+                },
+                {
+                    "Time": 0.173168,
+                    "Value": 4.139699
+                },
+                {
+                    "Time": 0.30000001,
+                    "Value": 5
+                },
+                {
+                    "Time": 0.560875,
+                    "Value": 5.6321611
+                },
+                {
+                    "Time": 1,
+                    "Value": 6
+                }
+            ]
+        },
+        "InitialCount": [
+            10,
+            15
+        ],
+        "Material": "/Lotus/Fx/Ice/SnowSplashFlipPMat",
+        "ColorKeys": [
+            [
+                220,
+                252,
+                255,
+                230
+            ],
+            [
+                168,
+                205,
+                214,
+                120
+            ],
+            [
+                143,
+                177,
+                186,
+                0
+            ]
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.003,
+            0.003
+        ],
+        "FadeInOut": [
+            0,
+            0.60000002
+        ],
+        "NozzleDev": 0.20241,
+        "Speed": [
+            1,
+            6
+        ],
+        "Drag": 4.5783129,
+        "Mass": [
+            0.1,
+            0.30000001
+        ]
+    }
+}

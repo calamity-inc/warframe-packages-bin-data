@@ -126,7 +126,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -154,6 +153,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/CrpRubanRifleAimAccuracyInfo",
@@ -178,6 +178,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 300,
                     "PvpTraceDistance": 300,
@@ -488,6 +490,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -598,7 +601,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -626,6 +628,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "",
@@ -650,6 +653,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 12,
                     "PvpTraceDistance": 12,
@@ -781,9 +786,9 @@
                     "AllowSelfDamage": 0,
                     "IgnoreInvisibleAvatars": 1,
                     "StasisCollapseTime": 2.5,
-                    "RecoilOnFire": 1,
+                    "RecoilOnFire": 0,
                     "RecoilRate": 60,
-                    "RecoilIntensityFireTime": 1,
+                    "RecoilIntensityFireTime": 0,
                     "RecoilCurve": "RC_LINEAR",
                     "RecoilStrength": [
                         0,
@@ -891,6 +896,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -933,12 +939,14 @@
                     "OnNewProjectileScript": {
                         "Script": ""
                     },
+                    "BurstRemainingClip": 1,
                     "NumBurstShots": 24,
                     "EatAmmoOnUnequip": 1,
                     "QueueBursts": 0,
-                    "BurstRemainingClip": 1,
                     "ConsumeAmmoOncePerBurst": 0,
-                    "CanAimWhileBursting": 0
+                    "CanAimWhileBursting": 0,
+                    "LockoutWithInfiniteAmmo": 1,
+                    "LimitAmmoEfficiencyBurst": 1
                 }
             }
         ],

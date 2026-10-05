@@ -1,0 +1,120 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "ReceivesShadows": 1,
+        "UseLightProbes": 1,
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 2
+            }
+        ],
+        "DissolveOverride": "/Lotus/Fx/Common/WrapTextureA_d.png",
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            1,
+            2
+        ],
+        "Size": [
+            6,
+            10
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.30000001
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.75
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "DistanceScale": 0.1,
+        "GrowthRate": [
+            0.30000001,
+            1
+        ],
+        "InitialCount": [
+            26,
+            26
+        ],
+        "Material": "/Lotus/Fx/Enemies/WF1999Lasrian/Tank/LasrianTankEfervonGooMat",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            211,
+            64,
+            21,
+            255
+        ],
+        "ColorMax": [
+            206,
+            27,
+            16,
+            255
+        ],
+        "RandOrientation": 1,
+        "ParticleMeshes": [
+            "/Lotus/Fx/Gore/BloodMeshParticleA.fbx"
+        ],
+        "Spin": [
+            -0.0049999999,
+            0.0049999999
+        ],
+        "FadeInOut": [
+            0.1,
+            0.69999999
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.69999999
+                },
+                {
+                    "Time": 0.33333334,
+                    "Value": 0.2
+                },
+                {
+                    "Time": 0.66666669,
+                    "Value": 0.052083299
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "Nozzle": "SPHERE",
+        "NozzleDev": 0.30000001,
+        "NozzleBox": [
+            0.15000001,
+            0.15000001,
+            0.050000001
+        ],
+        "NozzleSize": 0.30000001,
+        "Speed": [
+            50,
+            150
+        ],
+        "Drag": 1.5,
+        "Mass": [
+            0.1,
+            0.5
+        ],
+        "PushVector": [
+            0,
+            1,
+            0
+        ]
+    }
+}

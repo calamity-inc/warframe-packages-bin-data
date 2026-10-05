@@ -1,0 +1,36 @@
+{
+    "parent": "LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Levels/Settlement/SettlementLightRays.fbx",
+        "MeshScale": 0.2,
+        "OverrideMaterial": [
+            "/Lotus/Fx/Quests/NewWar/ZarHologramBodyDecoMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "vScales",
+                "type": "Float4",
+                "slot": -1,
+                "value": 1.8,
+                "value1": 1,
+                "value2": 1.8,
+                "value3": 0
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1.3
+            }
+        ],
+        "ReplicationOverride": "RO_DEFAULT",
+        "TestRotate": 1,
+        "TestRotateMode": "TRM_AUTONOMOUS",
+        "TestRotateSpeed": [
+            25,
+            0,
+            0
+        ],
+        "RemoveOnDestroy": 0
+    }
+}

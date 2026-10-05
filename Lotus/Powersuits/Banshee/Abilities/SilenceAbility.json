@@ -13,46 +13,32 @@
             "Script": "SilenceTwo.lua",
             "Function": "ActivateAbility",
             "_activateAnim": "/Lotus/Animations/Tenno/Powers/Temp/Mute_anim.fbx",
-            "_SilentProjector": "",
+            "_silentProjector": "/Lotus/Fx/PowersuitAbilities/Decree/SilenceTargetAttach",
             "_attachEffect": "/Lotus/Fx/PowersuitAbilities/Decree/SilenceAttach",
             "_silenceMixEffect": "/Lotus/Sounds/Warframes/Decree/SnapshotBansheeSilenceLoop"
         },
-        "SecondaryScripts": [
-            {
-                "tag": "SilenceTarget",
-                "executionMode": "EM_ALL",
-                "inheritPrimary": 0,
-                "functionName": "",
-                "scriptInstance": {
-                    "Script": "SilenceTwo.lua",
-                    "Function": "SilenceTarget",
-                    "_activateAnim": "",
-                    "_SilentProjector": "/Lotus/Fx/PowersuitAbilities/Decree/SilenceAttachProj",
-                    "_attachEffect": "",
-                    "_silenceMixEffect": ""
-                }
-            }
-        ],
         "NpcCooldownDuration": 20,
         "EnergyRequiredToActivate": 75,
+        "AllowReactivate": 1,
         "AllowDuringOverride": 1,
         "ActivationXP": 75,
+        "PlayCastSound": 0,
         "VideoTexture": "/Lotus/Interface/AbilityVideos/BansheePower3_s.bk2",
         "SoundEvents": [
             {
-                "EventName": "DecreeSilence2D",
-                "Sound": "/Lotus/Sounds/Warframes/Decree/DecreeSilence2D",
+                "EventName": "BansheeSilenceAbilitySFX",
+                "Sound": "/Lotus/Sounds/Warframes/Decree/BansheeSilenceAbility3D",
                 "Chance": 1,
                 "Period": 1,
-                "Context": "PEC_LOCAL_ONLY",
+                "Context": "PEC_ALL",
                 "CancelEventName": ""
             },
             {
-                "EventName": "DecreeSilence3D",
-                "Sound": "/Lotus/Sounds/Warframes/Decree/DecreeSilence3D",
+                "EventName": "BansheeSilenceCastSFX",
+                "Sound": "/Lotus/Sounds/Warframes/Decree/BansheeSilenceCast3D",
                 "Chance": 1,
                 "Period": 1,
-                "Context": "PEC_REMOTE_ONLY",
+                "Context": "PEC_ALL",
                 "CancelEventName": ""
             }
         ],

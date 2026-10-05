@@ -1,0 +1,103 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 30
+            },
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    1,
+                    0.66000003,
+                    0.22,
+                    1
+                ]
+            }
+        ],
+        "SpawnRate": 800,
+        "fireOnce": 0,
+        "affectedByWind": 1,
+        "resilience": 0.2,
+        "drag": 0.5,
+        "mass": [
+            0.029999999,
+            0.07
+        ],
+        "life": [
+            0.1,
+            2
+        ],
+        "size": [
+            0.0049999999,
+            0.07
+        ],
+        "sizeByLifeMultiplier": [
+            1,
+            0.30000001,
+            0
+        ],
+        "velocity": [
+            15,
+            100
+        ],
+        "streaksFactor": 3,
+        "velocityDeviation": [
+            0,
+            1
+        ],
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            0.40000001,
+            0.40000001,
+            0.40000001
+        ],
+        "spawnFlowBlend": 0.87356299,
+        "flowScale": [
+            0.2,
+            0.2,
+            0.2
+        ],
+        "flowForce": [
+            7,
+            7,
+            7
+        ],
+        "flowScrolling": [
+            0,
+            -0.30000001,
+            0
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColor",
+        "colorKeys[0]": [
+            1,
+            0.016000001,
+            0.0040000002,
+            1
+        ],
+        "colorKeys[1]": [
+            1,
+            0.11,
+            0.077,
+            1
+        ],
+        "colorKeys[2]": [
+            1,
+            0.11,
+            0.077,
+            1
+        ],
+        "colorKeys[3]": [
+            1,
+            0.11,
+            0.077,
+            1
+        ]
+    }
+}

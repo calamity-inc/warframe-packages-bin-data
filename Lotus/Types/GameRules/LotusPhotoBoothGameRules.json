@@ -45,7 +45,8 @@
                 "SudaRoomDissolveWalls",
                 "SudaRoomDissolveStatue",
                 "DarkSectorPortal",
-                "IMPTeleportScriptTrigger"
+                "IMPTeleportScriptTrigger",
+                "SetVessel"
             ],
             "_triggerTagsToDestroy": [
                 "BardBossLeaderboard",
@@ -92,6 +93,27 @@
         },
         "ReplayConfig": "VideoCaptureReplayConfig",
         "MaxMigrations": 0,
+        "LoadoutFilterScript": {
+            "Script": "/Lotus/Scripts/LotusPhotoBoothGameRules.lua",
+            "Function": "SetMissionLoadout",
+            "_photoboothControlsMovie": "",
+            "_cameraInputFilter": "",
+            "_cameraSpot": "",
+            "_defaultCamSpeed": 5,
+            "_freeCameraAvatar": "",
+            "_enterFreeCameraSound": "",
+            "_exitFreeCameraSound": "",
+            "_cameraSequencerType": "",
+            "_minCameraStartDistance": 4,
+            "_triggerTypesToIgnore": [],
+            "_triggerTagsToIgnore": [],
+            "_triggerTagsToDestroy": [],
+            "_typesToDestroy": [],
+            "_arsenalTriggerType": "",
+            "_arsenalTeleportTriggerType": "",
+            "_operatorTriggerType": "",
+            "_playerShipPhotoboothLevels": []
+        },
         "EndOfMatchMovie": "/Lotus/Interface/EndOfMatch.swf",
         "ContinueMissionMovie": "",
         "EnemySpawnerScript": {
@@ -124,26 +146,7 @@
             "_typesToDestroy": [],
             "_arsenalTriggerType": "",
             "_arsenalTeleportTriggerType": "",
-            "_playerShipPhotoboothLevels": []
-        },
-        "ControlAdvModeScript": {
-            "Script": "/Lotus/Scripts/LotusPhotoBoothGameRules.lua",
-            "Function": "CameraToggleAdvancedMode",
-            "_photoboothControlsMovie": "/Lotus/Interface/ThemedPhotoboothControls.swf",
-            "_cameraInputFilter": "",
-            "_cameraSpot": "",
-            "_defaultCamSpeed": 5,
-            "_freeCameraAvatar": "",
-            "_enterFreeCameraSound": "",
-            "_exitFreeCameraSound": "",
-            "_cameraSequencerType": "",
-            "_minCameraStartDistance": 4,
-            "_triggerTypesToIgnore": [],
-            "_triggerTagsToIgnore": [],
-            "_triggerTagsToDestroy": [],
-            "_typesToDestroy": [],
-            "_arsenalTriggerType": "",
-            "_arsenalTeleportTriggerType": "",
+            "_operatorTriggerType": "",
             "_playerShipPhotoboothLevels": []
         },
         "PhotoboothTiles": [
@@ -174,6 +177,7 @@
             "_mainLight": "",
             "_fillLight": "",
             "_rimLight": "",
+            "_photoboothLight": "",
             "_lightTestDeco": "/Lotus/Weapons/Tenno/Bows/AntlerBow/AntlerBowAttachment",
             "_splineType": "",
             "_photoboothCameraDeco": "",
@@ -186,7 +190,11 @@
             "_cameraAvatarType": "",
             "_noEnemiesPhotoboothLevels": [],
             "_cameraIcon": "",
-            "_addIcon": ""
+            "_addCameraIcon": "",
+            "_addLightIcon": "",
+            "_lightIcon": "",
+            "_gridMaterial": "/Lotus/Interface/Materials/CompositionRuleOfThirds",
+            "_inMenuInputFilter": ""
         }
     }
 }

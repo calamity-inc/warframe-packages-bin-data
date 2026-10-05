@@ -1,0 +1,39 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/PackageStoreItem",
+    "data": {
+        "ProductCategory": "Packages",
+        "LocalizeTag": "/Lotus/Language/Bundles/BansheeDeluxe2SentinelBundleName",
+        "LocalizeDescTag": "/Lotus/Language/Bundles/BansheeDeluxe2SentinelBundleDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Sentinels/BansheeDeluxe2SentinelBundle.png",
+        "DateAddedToManifest": 1790215200,
+        "ExcludeFromCodex": 0,
+        "PackageComponents": [
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Skins/BansheeDlxSentSkin",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Masks/BansheeDlxSentMask",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Wings/BansheeDlxSentWings",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Tails/BansheeDlxSentTail",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            }
+        ],
+        "AutoCalcPrices": 0,
+        "PremiumPrice": 100
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "parent": "AccessoryBase",
+    "data": {
+        "MarketMode": "MM_HIDDEN",
+        "LocalizeTag": "/Lotus/Language/Primes/CitrinePrimeMouthpieceName",
+        "LocalizeDescTag": "/Lotus/Language/Primes/CitrinePrimeOperatorCosmeticDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Face/CitrinePrimeFaceAccessory.png",
+        "ExcludeFromCodex": 0,
+        "FIRST_PERSON_Attachment": {
+            "ClearAttachmentAnimations": 1,
+            "ClearWeaponStateAnimations": 1
+        },
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Characters/Tenno/Operator/Accessories/CitrinePrimeAccessories/CitrinePrimeFacialDeco",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "AcessoryFitments": [
+            {
+                "SuitType": "/Lotus/Powersuits/Operator/AdultOperatorSuit",
+                "MeshType": "",
+                "Position": [
+                    0,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": 1
+            },
+            {
+                "SuitType": "/Lotus/Types/Friendly/PlayerControllable/ControllableDrifterSuit",
+                "MeshType": "",
+                "Position": [
+                    0,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": 1
+            }
+        ]
+    }
+}

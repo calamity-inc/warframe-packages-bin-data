@@ -1,3 +1,41 @@
 {
-    "parent": "/EE/Materials/Defaults/WeaponTrails"
+    "parent": "/EE/Materials/Defaults/WeaponTrails",
+    "data": {
+        "SOFTEN_ALPHA": 1,
+        "UV_DISTORT": 1,
+        "SECOND_TEXTURE": 1,
+        "ADD_SECOND": 1,
+        "FADE_AT_LEAD_IN": 1,
+        "ROTATE_UV_NINETY": 1,
+        "FADEYEDGE": 1,
+        "PS:DistortPan": [
+            0.1,
+            0.5,
+            1,
+            0.2
+        ],
+        "PS:DistortScale": [
+            0.60000002,
+            0.30000001
+        ],
+        "PS:SecondParams": [
+            -0.34999999,
+            0,
+            1,
+            0.5
+        ],
+        "PS:Hardness": 3,
+        "PS:DepthBias": 0.2,
+        "PS:UnlitAtten": 3,
+        "PS:AlphaAtten": 1.2,
+        "PS:TintSmoothRange": [
+            0,
+            0.25
+        ],
+        "PS:LeadInFadePercentage": 0.25,
+        "TX:DiffuseMap": "/Lotus/Fx/Common/Spit_d.png",
+        "TX:NormalMap": "/EE/Materials/Defaults/Textures/WaterWrap_n.png",
+        "TX:DiffuseMapTwo": "/Lotus/Fx/Common/SmoothBillow_d.png",
+        "AlphaTestValue": 0.0039215684
+    }
 }

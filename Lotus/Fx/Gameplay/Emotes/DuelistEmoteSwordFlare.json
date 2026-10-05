@@ -1,0 +1,190 @@
+{
+    "parent": "/Lotus/Types/Fx/LensFlares/LensFlareABlue",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 4
+            }
+        ],
+        "MirrorDraw": "MF_NORMAL",
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "IgnoreParentScale": 1,
+        "Size": 3,
+        "AspectRatio": 1,
+        "Range": 80,
+        "DepthCue": 1,
+        "OcclusionAttenExponent": 0.1,
+        "QueryViewOffset": 0.25,
+        "Material": "/Lotus/Fx/LensFlares/LensFlarePackA",
+        "OpacityTime": 0,
+        "OpacityByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.40000001,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "Tint": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "NoiseStrength": 5,
+        "NoiseRate": 1.4,
+        "NoiseAffectsSizeAmount": 0.30000001,
+        "ScreenAspect": 1,
+        "GridX": 2,
+        "LifeSpan": 0.5,
+        "FlareParams": [
+            {
+                "GridX": 0,
+                "GridY": 0,
+                "GridSizeX": 2,
+                "GridSizeY": 2,
+                "Tile": 0,
+                "Distance": 0,
+                "Size": 1,
+                "Aspect": 0.40000001,
+                "Tint": [
+                    80,
+                    143,
+                    151,
+                    255
+                ],
+                "FlareTintMethod": "FTM_PRIMARY",
+                "Brightness": 0.75777799,
+                "Rotating": 0,
+                "Orientation": 0,
+                "SpinRate": 0,
+                "CenteringScale": 1,
+                "CenteringFade": 1,
+                "AxisConstraint": "AC_NONE",
+                "LensDirt": 0,
+                "LensDirtX": 0,
+                "LensDirtY": 0
+            },
+            {
+                "GridX": 0,
+                "GridY": 0,
+                "GridSizeX": 2,
+                "GridSizeY": 2,
+                "Tile": 0,
+                "Distance": 0,
+                "Size": 1.5,
+                "Aspect": 0.69999999,
+                "Tint": [
+                    80,
+                    143,
+                    151,
+                    255
+                ],
+                "FlareTintMethod": "FTM_PRIMARY",
+                "Brightness": 0.55333298,
+                "Rotating": 0,
+                "Orientation": 0,
+                "SpinRate": 0,
+                "CenteringScale": 1,
+                "CenteringFade": 1,
+                "AxisConstraint": "AC_NONE",
+                "LensDirt": 0,
+                "LensDirtX": 0,
+                "LensDirtY": 0
+            },
+            {
+                "GridX": 4,
+                "GridY": 2,
+                "GridSizeX": 2,
+                "GridSizeY": 2,
+                "Tile": 0,
+                "Distance": 0,
+                "Size": 2,
+                "Aspect": 1,
+                "Tint": [
+                    72,
+                    234,
+                    255,
+                    255
+                ],
+                "FlareTintMethod": "FTM_PRIMARY",
+                "Brightness": 0.2492,
+                "Rotating": 0,
+                "Orientation": 0,
+                "SpinRate": 13.846161,
+                "CenteringScale": 1,
+                "CenteringFade": 1,
+                "AxisConstraint": "AC_NONE",
+                "LensDirt": 0,
+                "LensDirtX": 0,
+                "LensDirtY": 0
+            },
+            {
+                "GridX": 0,
+                "GridY": 4,
+                "GridSizeX": 4,
+                "GridSizeY": 1,
+                "Tile": 0,
+                "Distance": 0,
+                "Size": 10,
+                "Aspect": 0.1,
+                "Tint": [
+                    56,
+                    166,
+                    255,
+                    255
+                ],
+                "FlareTintMethod": "FTM_PRIMARY",
+                "Brightness": 0,
+                "Rotating": 0,
+                "Orientation": 0,
+                "SpinRate": 0,
+                "CenteringScale": 1,
+                "CenteringFade": 1,
+                "AxisConstraint": "AC_NONE",
+                "LensDirt": 0,
+                "LensDirtX": 0,
+                "LensDirtY": 0
+            },
+            {
+                "GridX": 4,
+                "GridY": 4,
+                "GridSizeX": 2,
+                "GridSizeY": 1,
+                "Tile": 0,
+                "Distance": 0,
+                "Size": 4,
+                "Aspect": 0.1,
+                "Tint": [
+                    56,
+                    166,
+                    255,
+                    255
+                ],
+                "FlareTintMethod": "FTM_PRIMARY",
+                "Brightness": 0.80000001,
+                "Rotating": 0,
+                "Orientation": 0,
+                "SpinRate": 0,
+                "CenteringScale": 1,
+                "CenteringFade": 1,
+                "AxisConstraint": "AC_NONE",
+                "LensDirt": 0,
+                "LensDirtX": 0,
+                "LensDirtY": 0
+            }
+        ]
+    }
+}

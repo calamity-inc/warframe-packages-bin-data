@@ -68,7 +68,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -96,6 +95,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/CrpRubanRifleAimAccuracyInfo",
@@ -120,6 +120,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 300,
                     "PvpTraceDistance": 300,
@@ -292,6 +294,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.40000001,
                     "criticalHitDamageMultiplier": 2,
@@ -541,7 +544,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -569,6 +571,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "",
@@ -593,6 +596,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 16,
                     "PvpTraceDistance": 16,
@@ -724,9 +729,9 @@
                     "AllowSelfDamage": 0,
                     "IgnoreInvisibleAvatars": 1,
                     "StasisCollapseTime": 2.5,
-                    "RecoilOnFire": 1,
+                    "RecoilOnFire": 0,
                     "RecoilRate": 60,
-                    "RecoilIntensityFireTime": 1,
+                    "RecoilIntensityFireTime": 0,
                     "RecoilCurve": "RC_LINEAR",
                     "RecoilStrength": [
                         0,
@@ -794,6 +799,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.2,
                     "criticalHitDamageMultiplier": 2.5,
@@ -877,12 +883,14 @@
                     "OnNewProjectileScript": {
                         "Script": ""
                     },
+                    "BurstRemainingClip": 1,
                     "NumBurstShots": 24,
                     "EatAmmoOnUnequip": 1,
                     "QueueBursts": 0,
-                    "BurstRemainingClip": 1,
                     "ConsumeAmmoOncePerBurst": 0,
-                    "CanAimWhileBursting": 0
+                    "CanAimWhileBursting": 0,
+                    "LockoutWithInfiniteAmmo": 1,
+                    "LimitAmmoEfficiencyBurst": 1
                 }
             }
         ],
@@ -928,7 +936,7 @@
             "AP_TACTIC",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 0.5,
+        "OmegaAttenuation": 0.64999998,
         "OFF_HAND": {
             "Type": "PrimeAthodaiPistolDSAttachment"
         },

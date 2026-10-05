@@ -1,0 +1,113 @@
+{
+    "parent": "/Lotus/Powersuits/PowersuitAbilities/PlayerPowerSuitAbility",
+    "data": {
+        "LocalizeTag": "[HC] Cable",
+        "Icon": "",
+        "TintIconToTheme": 0,
+        "UniquePowerIdentifier": "LOTUS_CABLES",
+        "Script": {
+            "Script": "LotusCableAbility.lua",
+            "Function": "ActivateAbility",
+            "_lotusInputFilter": "PossessedLotusInputFilter",
+            "_activateAnim": "/Lotus/Animations/Tenno/Powers/Lotus/Ability3Start_anim.fbx",
+            "_loopAnim": "/Lotus/Animations/Tenno/Powers/Lotus/Ability3Loop_anim.fbx",
+            "_stopAnim": "/Lotus/Animations/Tenno/Powers/Lotus/Ability3End_anim.fbx",
+            "_useCollapse": 0,
+            "_collapseAnim": "",
+            "_collapseLoop": "",
+            "_viewOffset": [
+                0,
+                1,
+                -4
+            ],
+            "_numCables": 4,
+            "_cameraAvatarType": "LotusCableCameraAvatar",
+            "_hideBones": [
+                "GAME_C1_CLOTH49",
+                "GAME_C1_CLOTH534",
+                "GAME_C1_CLOTH111",
+                "GAME_C1_CLOTH466"
+            ],
+            "_cableBeamType": "LotusHelmetCableBeam",
+            "_cableDecoType": "/Lotus/Characters/Tenno/Lotus/Cloth/LotusHelmetCablesSkelClothEx",
+            "_cableAttachPoints": [
+                [
+                    -0.0089999996,
+                    0.074000001,
+                    -0.085000001
+                ],
+                [
+                    0,
+                    0.081,
+                    0.102
+                ],
+                [
+                    0.061999999,
+                    0.092,
+                    -0.075999998
+                ],
+                [
+                    0.043000001,
+                    0.097000003,
+                    0.083999999
+                ]
+            ],
+            "_cableAttachRotations": [
+                [
+                    101.39,
+                    24.34,
+                    -44.849998
+                ],
+                [
+                    49.91,
+                    7.9200001,
+                    89.120003
+                ],
+                [
+                    123.29,
+                    -0.27000001,
+                    -10.16
+                ],
+                [
+                    66.080002,
+                    8.0799999,
+                    -2.55
+                ]
+            ],
+            "_cableRadius": [
+                0.0080000004,
+                0.0080000004,
+                0.012,
+                0.012
+            ],
+            "_connectionTag": "CableConnectPoint",
+            "_cableTriggerTag": "CableAvatarTrigger",
+            "_pipeCoveringTag": "DestructiblePipe",
+            "_beamAttachType": "HandConnectionPoint",
+            "_debugDraw": 0,
+            "_cableAutoSound": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusCableAuto",
+            "_abilityEndSound": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusCableEnd",
+            "_cableRestartSound": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusCableRestart",
+            "_dropSound": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusCableDrop",
+            "_anchorDistanceCutoff": 5,
+            "_cableMoveSpeed": 8,
+            "_pipeBurstEffect": "/Lotus/Fx/PowersuitAbilities/Lotus/VoidsEndPipesBurstFX",
+            "_activeEffect": "/Lotus/Fx/PowersuitAbilities/Lotus/VoidsEndLotusAttach",
+            "_cableBurnHandler": "/Lotus/Fx/PowersuitAbilities/Lotus/VoidsEndLotusCableBurn"
+        },
+        "EnergyRequiredToActivate": 0,
+        "PvpEnergyRequiredToActivate": 0,
+        "ActivationXP": 0,
+        "CastSound": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusCableCast",
+        "SoundEvents": [
+            {
+                "EventName": "SFXCableAbilityScream",
+                "Sound": "/Lotus/Sounds/Characters/Lotus/Barks/LotusBarkScreamB",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            }
+        ]
+    }
+}

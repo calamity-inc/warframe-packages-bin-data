@@ -1,0 +1,71 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "BansheeDlxSentinelTailCloth_skel.fbx",
+        "Attached": 1,
+        "AttachBone": "GAME_C1_HEAD1",
+        "ControlData": "BansheeDlxSentinelTailClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.082000002,
+                0.082999997
+            ],
+            "collidingDampeningRange": [
+                0,
+                0.12
+            ],
+            "massRange": [
+                0.050000001,
+                0.050000001
+            ],
+            "distConstraintRange": [
+                0,
+                0.050000001
+            ],
+            "shearingStiffness": 0.28999999,
+            "worldVelocityAtten": [
+                1,
+                -1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "wind": [
+                0.5,
+                0,
+                0.5
+            ],
+            "windStrength": [
+                -0.5,
+                0.5
+            ],
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.5,
+                1,
+                0.5
+            ],
+            "windVolumeScale": [
+                0.5,
+                2,
+                0.5
+            ],
+            "windVolumeOffsetRate": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "addFloorPlaneCollision": 0,
+            "floorPlaneHeight": 0.082000002,
+            "dividingPlane": [
+                0,
+                0,
+                -1,
+                0
+            ],
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        }
+    }
+}

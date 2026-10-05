@@ -1,0 +1,36 @@
+{
+    "parent": "/EE/Types/Sound/AmbienceContainer",
+    "data": {
+        "Layers": [
+            {
+                "Sound": "IcebladeMountainPassHubHowlingWind",
+                "Chance": 1,
+                "Delay": [
+                    0,
+                    22
+                ],
+                "DelayWhenActivated": 1,
+                "StopWhenDeactivated": 1,
+                "EmitterType": "AET_LISTENER",
+                "FollowEmitter": 0,
+                "DistanceToEmitter": [
+                    0,
+                    50
+                ],
+                "FollowAngle": [
+                    -180,
+                    180
+                ],
+                "FollowAngleSweep": 1,
+                "UseHemisphere": 1,
+                "MixBlending": "MB_NONE",
+                "MixPower": 2.4000001,
+                "ActiveCondition": "",
+                "Conditions": [],
+                "DynamicValues": [],
+                "OnActivatedSounds": [],
+                "OnDeactivatedSounds": []
+            }
+        ]
+    }
+}

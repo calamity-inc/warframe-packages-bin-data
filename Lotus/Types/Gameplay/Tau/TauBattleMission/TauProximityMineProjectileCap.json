@@ -1,0 +1,26 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "Mesh": "/Lotus/Objects/Tau/SentientMoon/Orokin/Gameplay/STMxOroDeathOrbACap.fbx",
+        "PhysicsBehavior": "",
+        "ShowDamageNumbers": 0,
+        "ReplicationOverride": "RO_ALWAYS",
+        "Health": 1,
+        "Invulnerable": 1,
+        "CreateOnDestroy": {
+            "DestroyParentOnDeath": 1
+        },
+        "StateChangeScript": {
+            "Script": "/Lotus/Scripts/AutosimParentDestroy.lua",
+            "Function": "FireDestroyOnParent",
+            "_parentColorChange": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "_materialForSlot": [],
+            "_removeOverride": 0
+        }
+    }
+}

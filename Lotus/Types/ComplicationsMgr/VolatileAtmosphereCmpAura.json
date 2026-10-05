@@ -1,8 +1,78 @@
 {
     "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/ConquestVariableAura",
     "data": {
-        "LocalizeTag": "[HC] VolatileAtmosphereCmpAura",
-        "LocalizeDescTag": "[HC] Give me a description",
+        "LocalizeTag": "/Lotus/Language/Iceblade/CryobellTheme_Temperature_Name",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/CryobellTheme_Temperature_Desc",
+        "OnEnterAuraScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/VolatileAtmosphere.lua",
+            "Function": "OnAuraEnter",
+            "_heatProcTriggeredChallenge": "OnProcTriggered",
+            "_tickDamageDelta": 1,
+            "_minDamage": 50,
+            "_maxDamage": 500,
+            "_minProcChance": 0.30000001,
+            "_maxProcChange": 0.80000001,
+            "_minHeatThreshold": 0.1,
+            "_OverrideEnemyEnhancements": "",
+            "_heatLevelThresholds": [
+                0.30000001,
+                0.5,
+                0.69999999,
+                0.89999998,
+                1
+            ],
+            "_eximusChancePerHeatLevel": [
+                2.5,
+                5,
+                7,
+                10,
+                15
+            ],
+            "_buffedEnemiesChancePerHeatLevel": [
+                0.15000001,
+                0.30000001,
+                0.5,
+                0.69999999,
+                0.75
+            ],
+            "_BuffedEnemyFX": "",
+            "_HeatScreenOverlayFX": "/Lotus/Fx/Icebalde/IceHeatScreenFx"
+        },
+        "OnExitAuraScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/VolatileAtmosphere.lua",
+            "Function": "OnAuraExit",
+            "_heatProcTriggeredChallenge": "OnProcTriggered",
+            "_tickDamageDelta": 1,
+            "_minDamage": 50,
+            "_maxDamage": 500,
+            "_minProcChance": 0.30000001,
+            "_maxProcChange": 0.80000001,
+            "_minHeatThreshold": 0.1,
+            "_OverrideEnemyEnhancements": "",
+            "_heatLevelThresholds": [
+                0.30000001,
+                0.5,
+                0.69999999,
+                0.89999998,
+                1
+            ],
+            "_eximusChancePerHeatLevel": [
+                2.5,
+                5,
+                7,
+                10,
+                15
+            ],
+            "_buffedEnemiesChancePerHeatLevel": [
+                0.15000001,
+                0.30000001,
+                0.5,
+                0.69999999,
+                0.75
+            ],
+            "_BuffedEnemyFX": "",
+            "_HeatScreenOverlayFX": ""
+        },
         "OnAuraAddedToLevelScript": {
             "Script": "/Lotus/Scripts/Gameplay/Complications/VolatileAtmosphere.lua",
             "Function": "OnAuraAddedToLevel",
@@ -12,7 +82,31 @@
             "_maxDamage": 500,
             "_minProcChance": 0.30000001,
             "_maxProcChange": 0.80000001,
-            "_minHeatThreshold": 0.1
+            "_minHeatThreshold": 0.30000001,
+            "_OverrideEnemyEnhancements": "VolatileAtmosphereEnemyEnhancements",
+            "_heatLevelThresholds": [
+                0.30000001,
+                0.5,
+                0.69999999,
+                0.89999998,
+                1
+            ],
+            "_eximusChancePerHeatLevel": [
+                2.5,
+                5,
+                7,
+                10,
+                15
+            ],
+            "_buffedEnemiesChancePerHeatLevel": [
+                0.15000001,
+                0.30000001,
+                0.5,
+                0.69999999,
+                0.69999999
+            ],
+            "_BuffedEnemyFX": "/Lotus/Fx/Icebalde/IceEnemyAuraDeco",
+            "_HeatScreenOverlayFX": ""
         },
         "OnAuraRemovedFromLevelScript": {
             "Script": "/Lotus/Scripts/Gameplay/Complications/VolatileAtmosphere.lua",
@@ -23,7 +117,31 @@
             "_maxDamage": 500,
             "_minProcChance": 0.30000001,
             "_maxProcChange": 0.80000001,
-            "_minHeatThreshold": 0.1
+            "_minHeatThreshold": 0.1,
+            "_OverrideEnemyEnhancements": "",
+            "_heatLevelThresholds": [
+                0.30000001,
+                0.5,
+                0.69999999,
+                0.89999998,
+                1
+            ],
+            "_eximusChancePerHeatLevel": [
+                0.1,
+                0.30000001,
+                0.5,
+                0.75,
+                0.80000001
+            ],
+            "_buffedEnemiesChancePerHeatLevel": [
+                0.25,
+                0.34999999,
+                0.5,
+                0.69999999,
+                0.69999999
+            ],
+            "_BuffedEnemyFX": "/Lotus/Fx/Icebalde/IceEnemyAuraDeco",
+            "_HeatScreenOverlayFX": ""
         }
     }
 }

@@ -1,0 +1,54 @@
+{
+    "parent": "/Lotus/Types/Game/DojoPlaceableDecorations/PlushyPlaceableDecoration",
+    "data": {
+        "Mesh": "/Lotus/Characters/Tenno/Lycath/VorunaFloof/VorunaFloof.fbx",
+        "LocTag": "/Lotus/Language/ShipDecorations/PlushyVorunaName",
+        "LongDesc": "/Lotus/Language/ShipDecorations/PlushyVorunaDesc",
+        "HitProxies": [
+            {
+                "LocalPosition": [
+                    0,
+                    0.28999999,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "PlushyVorunaHitProxy",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "OverridePreviewCamera": 1,
+        "PreviewCameraPositionOffset": [
+            0,
+            0,
+            -1.5
+        ],
+        "PreviewCameraTargetOffset": [
+            0.5,
+            0.60000002,
+            0
+        ],
+        "PreviewScaleOverride": 1.6,
+        "PreviewPositionOverride": [
+            -0.80000001,
+            0.029999999,
+            1.2
+        ],
+        "PreviewRotationOverride": [
+            30,
+            0,
+            0
+        ]
+    }
+}

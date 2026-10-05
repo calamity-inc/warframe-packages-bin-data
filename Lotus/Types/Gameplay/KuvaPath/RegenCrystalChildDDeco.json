@@ -1,0 +1,31 @@
+{
+    "parent": "RegenCrystalChildADeco",
+    "data": {
+        "Mesh": "/Lotus/Objects/Gameplay/CrystalSharpD.fbx",
+        "MeshScale": 3,
+        "ServerChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0.2,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "RegenCrystalProgMarkerInfo",
+                "Chance": 255,
+                "RelativeToBounds": 1,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ]
+    }
+}

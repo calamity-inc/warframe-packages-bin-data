@@ -1,0 +1,79 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "IgnoreParentScale": 0,
+        "ReplicationOverride": "RO_NEVER",
+        "Shape": "VES_SPHERE",
+        "Radius": 5,
+        "AllowRagdolls": 1,
+        "ConditionalScript": {
+            "Script": "Abilities/DuelistLeap.lua",
+            "Function": "TriggerFilter",
+            "_activateAnim": "",
+            "_loopAnim": "",
+            "_diveTransitionAnim": "",
+            "_slamStartAnim": "",
+            "_slamAnim": "",
+            "_targetIndicatorType": "",
+            "_slamFxType": "",
+            "_impactFxType": "",
+            "_hitEffect": "",
+            "_triggerType": "",
+            "_fieldDecoType": "",
+            "_jumpSound": "",
+            "_diveSound": "",
+            "_impactSound": "",
+            "_impactFxDissolveSound": "",
+            "_fieldLoopSeq": ""
+        },
+        "RunOnInstigator": 1,
+        "AllowReentrant": 0,
+        "Replication": "BOTH",
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "Abilities/DuelistLeap.lua",
+                    "Function": "TriggerEntered",
+                    "_activateAnim": "",
+                    "_loopAnim": "",
+                    "_diveTransitionAnim": "",
+                    "_slamStartAnim": "",
+                    "_slamAnim": "",
+                    "_targetIndicatorType": "",
+                    "_slamFxType": "",
+                    "_impactFxType": "",
+                    "_hitEffect": "",
+                    "_triggerType": "",
+                    "_fieldDecoType": "",
+                    "_jumpSound": "",
+                    "_diveSound": "",
+                    "_impactSound": "",
+                    "_impactFxDissolveSound": "",
+                    "_fieldLoopSeq": ""
+                }
+            }
+        ],
+        "ExitScript": {
+            "Script": "Abilities/DuelistLeap.lua",
+            "Function": "TriggerExited",
+            "_activateAnim": "",
+            "_loopAnim": "",
+            "_diveTransitionAnim": "",
+            "_slamStartAnim": "",
+            "_slamAnim": "",
+            "_targetIndicatorType": "",
+            "_slamFxType": "",
+            "_impactFxType": "",
+            "_hitEffect": "",
+            "_triggerType": "",
+            "_fieldDecoType": "",
+            "_jumpSound": "",
+            "_diveSound": "",
+            "_impactSound": "",
+            "_impactFxDissolveSound": "",
+            "_fieldLoopSeq": ""
+        }
+    }
+}

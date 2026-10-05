@@ -1,44 +1,16 @@
 {
-    "parent": "/EE/Types/GraphicsRes/Material",
+    "parent": "/Lotus/Characters/Tenno/Operator/RemasteredOperator/RemasteredHair/MasterHair",
     "data": {
-        "Shader2": "/EE/Shaders/Deferred/HairFillDeferred.hlsl",
-        "Shader3": "/EE/Shaders/Lighting/ShadowMapHair.hlsl",
-        "Shader4": "/EE/Shaders/Lighting/ShadowProject.hlsl",
-        "Shader5": "/EE/Shaders/Lighting/OmniShadow.hlsl",
-        "Shader6": "/EE/Shaders/Lighting/ShadowLightMap.hlsl",
-        "Shader7": "/EE/Shaders/Lighting/OmniShadowLightMap.hlsl",
-        "Shader8": "/EE/Shaders/Lighting/ProjectOnly.hlsl",
-        "Shader10": "/EE/Shaders/HairDepth.hlsl",
-        "Shader12": "/EE/Shaders/Lighting/MotionBlurHair.hlsl",
         "DETAILING": "HAIR_DETAILS",
         "DETAILS_COLOR_METHOD": "DCM_TINT_MASK",
         "VERTEX_EFFECT": "AXIS_PINCH",
-        "FX": "NONE",
-        "ANIMATE": 0,
-        "MIRROR": 0,
-        "HAIR_SHAPE_NOISE": 0,
-        "SPHERICAL_MASK": 0,
-        "HAIR_DISTANCE_NOISE": 0,
-        "HAIR_XZ_NOISE": 0,
         "ANISTROPIC_FLOW_MAP": 1,
-        "BODY_FUR": 0,
-        "SPECULAR_MAP": 0,
-        "ALPHA_MASK": 0,
         "FOG": 0,
-        "STRAND_NOISE": 0,
-        "EMISSIVE_MAP": 0,
-        "VERTEX_AO": 1,
-        "AO_MAP": 0,
         "AO_MAP_SPECULAR": 1,
         "STOCHASTIC_TRANSPARENCY": 1,
         "OPACITY": 1,
-        "DEBUG_ROOT_TO_TIP": 0,
-        "DEBUG_HAIR_FLOW": 0,
-        "FLIP_FLOW_MAP_XY": 0,
-        "NOISE_BASE_COLOR": 0,
-        "DARKEN_ROOT_HACK": 0,
         "SIMPLE_AO_BOUNCE": 1,
-        "USE_DEFORMERS": 0,
+        "HAIR_DETAILS": 1,
         "VS:TextureScale": [
             1,
             1,
@@ -50,40 +22,10 @@
             0,
             0
         ],
-        "VS:BendNormal": [
-            0,
-            0,
-            0
-        ],
-        "VS:Pan": [
-            0,
-            0,
-            0
-        ],
         "PS:Shine": 0.69999999,
-        "PS:ShiftScale": 0.30000001,
-        "PS:ShiftSpecular": 1,
-        "PS:InverseAlphaClip": 1,
         "PS:SphericalNormal": 0,
-        "PS:SphericalSpecular": 0,
-        "PS:SHSpecAtten": 1,
         "PS:Roughness": 0.51999998,
-        "PS:RoughnessAtten": 1,
-        "PS:ReflectionsLodBias": 0,
         "PS:StochasticRange": 0.60000002,
-        "PS:DefaultTangentVector": [
-            0,
-            1,
-            0,
-            0
-        ],
-        "PS:Anisotropy": 1,
-        "PS:UvSelection": [
-            0,
-            0,
-            1,
-            0
-        ],
         "TX:DiffuseMap": "/Lotus/Characters/Tenno/Operator/RemasteredOperator/RemasteredHair/SharedTextures/StraightHairB/StraightHairBDetails_d.png",
         "TX:StrandMap": "/Lotus/Characters/Tenno/Operator/RemasteredOperator/RemasteredHair/SharedTextures/StraightHairB/StraightHairBStrandshift_d.png",
         "TX:NormalMap": "/Lotus/Characters/Tenno/Operator/RemasteredOperator/RemasteredHair/SharedTextures/StraightHairB/StraightHairB_n.png",
@@ -125,24 +67,6 @@
             0.5,
             1
         ],
-        "PS:SpecularColor1": [
-            0.56999999,
-            0.44,
-            0.31999999,
-            0
-        ],
-        "PS:SpecularColor2": [
-            0.11,
-            0.037999999,
-            0.017999999,
-            0
-        ],
-        "PS:HairTintColor": [
-            1,
-            1,
-            1,
-            1
-        ],
         "VS:AxisVector": [
             0,
             0,
@@ -158,8 +82,6 @@
         ],
         "AlphaTest": 1,
         "AlphaTestValue": 0.1,
-        "DepthWrite": 1,
-        "DoubleSided": 1,
-        "DefaultPhysicsMaterial": "/EE/Types/Physics/Materials/Default"
+        "DoubleSided": 1
     }
 }

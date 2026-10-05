@@ -1,0 +1,93 @@
+{
+    "parent": "/Lotus/Types/Game/DojoPlaceableDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Weapons/Ballistic/PistolShell.fbx",
+        "OverrideMaterial": [
+            "/EE/Materials/Hidden"
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    -0.102,
+                    -0.33000001
+                ],
+                "LocalRotation": [
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "PoemFDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "PoemFHitProxyDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "LocTag": "/Lotus/Language/Iceblade/NarinPoemF",
+        "LongDesc": "/Lotus/Language/Iceblade/NarinPoemDesc",
+        "NonDojoPlaceableDecorationChildRenderPolicy": "MOP_APPLY_MAT_OVERRIDE",
+        "KinematicPhysics": "/EE/Types/Physics/KinematicAvatarsWalkThrough",
+        "OverridePreviewCamera": 1,
+        "PreviewCameraPositionOffset": [
+            0,
+            0,
+            0
+        ],
+        "PreviewCameraTargetOffset": [
+            0.69999999,
+            0,
+            0
+        ],
+        "PreviewScaleOverride": 1.5,
+        "PreviewPositionOverride": [
+            -1,
+            1.1,
+            0
+        ],
+        "PreviewRotationOverride": [
+            0,
+            90,
+            0
+        ],
+        "UseDecorationPreviewModifiers": 1,
+        "DecoPreviewScaleModifier": 1,
+        "DecoPreviewPositionModifier": [
+            0,
+            0,
+            0
+        ],
+        "DecoPreviewRotationModifier": [
+            0,
+            90,
+            0
+        ]
+    }
+}

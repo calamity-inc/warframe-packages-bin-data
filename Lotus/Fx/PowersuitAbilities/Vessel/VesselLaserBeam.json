@@ -1,0 +1,55 @@
+{
+    "parent": "/EE/Types/Effects/LaserBeam",
+    "data": {
+        "Position": [
+            0,
+            1,
+            0
+        ],
+        "UseParentDissolve": 0,
+        "Attached": 1,
+        "LocalPosition": [
+            0,
+            0,
+            1.1
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/Kinematic",
+        "IgnoreParentRotation": 1,
+        "ReplicaRunScriptInstance": 1,
+        "ReplicationOverride": "RO_NEVER",
+        "BeamMaterial": "VesselLaserBeamEyeMat",
+        "DotMaterial": "/Lotus/Fx/Env/Hazards/OrokinOrbs/ODCGlowPMat",
+        "FlareSize": 1,
+        "TexturePanRate": -2,
+        "TextureRepeats": 0.25,
+        "LengthFade": 1,
+        "TargetInRangeTint": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "NumPlanes": 6,
+        "Segments": 4,
+        "Radius": 0.80000001,
+        "DynamicEndPoint": 1,
+        "UseVisibilityRaycast": 0,
+        "IgnoreTypes": [
+            "/EE/Types/Game/Avatar",
+            "/EE/Types/Game/PickUp",
+            "/Lotus/Types/Weapon/LotusHitProxyShield",
+            "/EE/Types/Engine/BlockingVolume",
+            "/EE/Types/Engine/SimpleBlockingVolume"
+        ],
+        "DotSize": 0.2,
+        "LockSize": 1,
+        "DotPushout": 0,
+        "DotDepthCue": 1,
+        "TimedOff": 0.1,
+        "OpacityRate": 10,
+        "EndPointEffectType": "VesselLaserBeamEndPointFX",
+        "AttackImpulse": 750,
+        "HitRoot": 0,
+        "DamageFrequency": 0.5
+    }
+}

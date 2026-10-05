@@ -1,0 +1,35 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "DuelistSumdaliCloth_skel.fbx",
+        "MaterialParams": [
+            {
+                "name": "PreserveDefaultTints",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            }
+        ],
+        "Attached": 1,
+        "ReplicaRunScriptInstance": 1,
+        "ControlData": "DuelistSumdaliClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.1,
+                0.1
+            ],
+            "massRange": [
+                1,
+                1
+            ],
+            "distConstraintRange": [
+                0,
+                0.5
+            ],
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 1,
+            "orientationBasis": "NEG_X_Y"
+        },
+        "UseDynamicCollision": 0
+    }
+}

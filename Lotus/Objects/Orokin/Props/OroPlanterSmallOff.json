@@ -1,3 +1,52 @@
 {
-    "parent": "/EE/Materials/Defaults/PBR"
+    "parent": "/EE/Materials/Defaults/PBR",
+    "data": {
+        "DETAILING": "TINT_MASK_PACK_MAP",
+        "EMISSIVE_FX": "EMISSIVE_MASK",
+        "PACKMAP": "PACK_MAP",
+        "DIFFUSE_MAP": 0,
+        "ROUGHNESS_MAP": 0,
+        "SPECULAR_MAP": 0,
+        "EMISSIVE_MAP": 1,
+        "PS:EmissiveTintColor": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "PS:EmissiveMapAtten": 0.5,
+        "PS:EmissivePan": [
+            0,
+            0,
+            1
+        ],
+        "PS:TintColor0": [
+            0.88999999,
+            0.47999999,
+            0.17,
+            0.5
+        ],
+        "PS:TintColor1": [
+            0.98000002,
+            0.95999998,
+            0.85000002,
+            0.5
+        ],
+        "PS:TintColor2": [
+            0.072999999,
+            0.072999999,
+            0.072999999,
+            0.5
+        ],
+        "PS:TintColor3": [
+            0.37,
+            0.38,
+            0.43000001,
+            0.5
+        ],
+        "TX:PackMap": "OroPlanterSmallPBRTintMaskPackMap",
+        "TX:NormalMap": "OroPlanterSmall_n.png",
+        "TX:EmissiveMap": "OroPlanterSmall_e.png",
+        "DefaultPhysicsMaterial": "/EE/Types/Physics/Materials/Metal"
+    }
 }

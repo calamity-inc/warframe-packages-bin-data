@@ -1,0 +1,29 @@
+{
+    "parent": "LabConquestVariableItem",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Conquest/PersonalMod_AoeDebuff",
+        "LocalizeDescTag": "/Lotus/Language/Conquest/PersonalMod_AoeDebuff_Desc",
+        "Upgrades": [
+            {
+                "UpgradeType": "WEAPON_EXPLOSION_RADIUS",
+                "OperationType": "SET_MAX",
+                "Value": 3,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": [],
+                "OverrideLocalization": 0,
+                "SmallerIsBetter": 0,
+                "RoundTo": 0.1,
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
+            }
+        ]
+    }
+}

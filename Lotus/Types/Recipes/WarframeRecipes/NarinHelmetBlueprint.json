@@ -1,0 +1,29 @@
+{
+    "parent": "/Lotus/Types/Game/RecipeItem",
+    "data": {
+        "PickUpText": "TRINITY HELMET BLUEPRINT",
+        "SellingPrice": 3500,
+        "ExcludeFromCodex": 0,
+        "ResultItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/NarinHelmetComponent",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 2900
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                "ItemCount": 4
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                "ItemCount": 6
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/VoidWraithItem",
+                "ItemCount": 400
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000
+    }
+}

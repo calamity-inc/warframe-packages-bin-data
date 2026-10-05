@@ -75,6 +75,8 @@
             1.5,
             0.5
         ],
+        "PS:ClearCoatUnderlyingTintChoice": 4,
+        "PS:ClearCoatMacroRoughnessStrength": 0,
         "PS:ParallaxEnergyParams": [
             1,
             2,
@@ -133,17 +135,69 @@
         "TX:NormalMap": "FrostHeirloomBody_n.png",
         "TX:CharacterTintMask": "FrostHeirloomBodyTint_t.png",
         "TX:DetailsAoMap": "FrostHeirloomBodyPackmap",
-        "TX:BlackPackMap": "/Lotus/Characters/SharedTileableTextures/Leather/LeatherGrained/LeatherGrained",
-        "TX:BlackNormalMap": "/Lotus/Characters/SharedTileableTextures/Leather/LeatherGrained/LeatherGrained_n.png",
-        "TX:RedPackMap": "/Lotus/Characters/SharedTileableTextures/Fabric/VinylFabric/VinylFabric",
-        "TX:RedNormalMap": "/Lotus/Characters/SharedTileableTextures/Swappable/Leather_n.png",
-        "TX:GreenPackMap": "/Lotus/Characters/SharedTileableTextures/Metal/MetalPolish/MetalPolish",
-        "TX:GreenNormalMap": "/Lotus/Characters/SharedTileableTextures/MattePaint_n.png",
-        "TX:BluePackMap": "/Lotus/Characters/SharedTileableTextures/Metal/Gold/Gold",
-        "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/Metal/Gold/Gold_n.png",
         "TX:MaterialMask": "FrostHeirloomBodyMaterial_t.png",
         "TX:ParallaxEnergyMap": "/Lotus/Characters/SharedTileableTextures/HeirloomMag_d.png",
         "TX:EmissiveMap": "FrostHeirloomBody_e.png",
+        "PS:BlackParams": [
+            1,
+            0.050000001,
+            2,
+            1
+        ],
+        "PS:GrimeTintColorBlack": [
+            0.30000001,
+            0.17,
+            0.052999999,
+            0
+        ],
+        "PS:GrimeRoughnessBlack": 0.118919,
+        "TX:BlackPackMap": "/Lotus/Characters/SharedTileableTextures/Leather/LeatherGrained/LeatherGrained",
+        "TX:BlackNormalMap": "/Lotus/Characters/SharedTileableTextures/Leather/LeatherGrained/LeatherGrained_n.png",
+        "PS:RedParams": [
+            1.2,
+            0.1,
+            2,
+            1
+        ],
+        "PS:GrimeTintColorRed": [
+            0.082000002,
+            0.048999999,
+            0.02,
+            0
+        ],
+        "PS:GrimeRoughnessRed": 0.285,
+        "TX:RedPackMap": "/Lotus/Characters/SharedTileableTextures/Fabric/VinylFabric/VinylFabric",
+        "TX:RedNormalMap": "/Lotus/Characters/SharedTileableTextures/Swappable/Leather_n.png",
+        "PS:GreenParams": [
+            1,
+            0.5,
+            0.30000001,
+            1
+        ],
+        "PS:GrimeTintColorGreen": [
+            0.23999999,
+            0.14,
+            0.086000003,
+            0
+        ],
+        "PS:GrimeRoughnessGreen": 0.94999999,
+        "TX:GreenPackMap": "/Lotus/Characters/SharedTileableTextures/Metal/MetalPolish/MetalPolish",
+        "TX:GreenNormalMap": "/Lotus/Characters/SharedTileableTextures/MattePaint_n.png",
+        "PS:BlueParams": [
+            1,
+            0,
+            1.5,
+            1
+        ],
+        "PS:GrimeTintColorBlue": [
+            0.17,
+            0.071000002,
+            0.039000001,
+            0
+        ],
+        "PS:GrimeRoughnessBlue": 0.75,
+        "TX:BluePackMap": "/Lotus/Characters/SharedTileableTextures/Metal/Gold/Gold",
+        "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/Metal/Gold/Gold_n.png",
         "PS:BaseTintColor": [
             0.11,
             0.12,
@@ -160,58 +214,6 @@
             0,
             0
         ],
-        "PS:GrimeRoughness": 0,
-        "PS:BlackParams": [
-            1,
-            0.050000001,
-            2,
-            1
-        ],
-        "PS:GrimeTintColorBlack": [
-            0.30000001,
-            0.17,
-            0.052999999,
-            0
-        ],
-        "PS:GrimeRoughnessBlack": 0.118919,
-        "PS:RedParams": [
-            1.2,
-            0.1,
-            2,
-            1
-        ],
-        "PS:GrimeTintColorRed": [
-            0.082000002,
-            0.048999999,
-            0.02,
-            0
-        ],
-        "PS:GrimeRoughnessRed": 0.285,
-        "PS:GreenParams": [
-            1,
-            0.5,
-            0.30000001,
-            1
-        ],
-        "PS:GrimeTintColorGreen": [
-            0.23999999,
-            0.14,
-            0.086000003,
-            0
-        ],
-        "PS:GrimeRoughnessGreen": 0.94999999,
-        "PS:BlueParams": [
-            1,
-            0,
-            1.5,
-            1
-        ],
-        "PS:GrimeTintColorBlue": [
-            0.17,
-            0.071000002,
-            0.039000001,
-            0
-        ],
-        "PS:GrimeRoughnessBlue": 0.75
+        "PS:GrimeRoughness": 0
     }
 }

@@ -14,17 +14,16 @@
         "TargetType": "/Lotus/Types/Player/TennoAvatar",
         "ApplyToOwner": 0,
         "ExcludedAvatars": [
-            "/Lotus/Types/Player/LotusOperatorAvatar"
+            "/Lotus/Types/Player/LotusOperatorAvatar",
+            "/Lotus/Types/Friendly/PlayerControllable/ControllableDuviriDrifterTennoAvatar"
         ],
         "AffectedByAuraEffectiveness": 0,
         "RequiresOwner": 0,
         "OnEnterAuraScript": {
             "Script": "/Lotus/Scripts/Modes/WF99PvPvEStoreItems.lua",
             "Function": "GroupEnergyStart",
-            "_pickupFailedFxType": "",
             "_energyRestoreRate": 5,
             "_energyRestoreRange": 50,
-            "_newBeamEffect": "/Lotus/Fx/PowersuitAbilities/IronFrame/AuraLinked",
             "_shieldBeamType": "/Lotus/Fx/Gameplay/GameModes/SquadLinkBeam",
             "_groupEnergyAcceptTypes": [
                 "/Lotus/Types/Player/TennoAvatar",
@@ -71,10 +70,8 @@
         "OnExitAuraScript": {
             "Script": "/Lotus/Scripts/Modes/WF99PvPvEStoreItems.lua",
             "Function": "GroupEnergyStop",
-            "_pickupFailedFxType": "",
             "_energyRestoreRate": 5,
             "_energyRestoreRange": 50,
-            "_newBeamEffect": "/Lotus/Fx/PowersuitAbilities/IronFrame/AuraLinked",
             "_shieldBeamType": "/Lotus/Fx/PowersuitAbilities/IronFrame/AuraShieldBeam",
             "_groupEnergyAcceptTypes": [],
             "_healthDrainEffectType": "",

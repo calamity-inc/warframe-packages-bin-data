@@ -101,7 +101,8 @@
         "IsUnsellable": 1,
         "TargetType": "/Lotus/Types/Player/TennoAvatar",
         "ExcludedAvatars": [
-            "/Lotus/Types/Player/LotusOperatorAvatar"
+            "/Lotus/Types/Player/LotusOperatorAvatar",
+            "/Lotus/Types/Friendly/PlayerControllable/ControllableDuviriDrifterTennoAvatar"
         ],
         "OnAuraEnabledScript": {
             "Script": "/Lotus/Scripts/Challenges/ChallengeNotifyTag.lua",

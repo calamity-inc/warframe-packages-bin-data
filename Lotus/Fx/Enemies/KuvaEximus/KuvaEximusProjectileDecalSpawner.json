@@ -1,0 +1,77 @@
+{
+    "parent": "/EE/Types/Effects/Spawner",
+    "data": {
+        "CullDistance": 100,
+        "CreatedTypes": [
+            {
+                "Type": "/Lotus/Fx/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGunGroundDecal",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0.2
+                ],
+                "LocalRotation": [
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            }
+        ],
+        "IsAutoFire": 1,
+        "OwnChildren": 1,
+        "Mode": "ONE_SHOT",
+        "AutoDelayRange": [
+            0,
+            0
+        ],
+        "EffectsColor": [
+            135,
+            0,
+            0,
+            255
+        ],
+        "EffectsSecondaryColor": [
+            255,
+            0,
+            0,
+            255
+        ]
+    }
+}

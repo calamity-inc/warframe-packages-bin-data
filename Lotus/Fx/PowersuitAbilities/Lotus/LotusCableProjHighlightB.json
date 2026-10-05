@@ -1,0 +1,34 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "DissolveOverride": "/Lotus/Fx/Levels/Grineer/Shipyard/SandtileBig_d.png",
+        "UseParentVisibility": 0,
+        "DeadParentInheritanceRule": "INHERIT",
+        "ReplicationOverride": "RO_NEVER",
+        "Material": "LotusCableHighlightProjMatB",
+        "UseAttachRoot": 0,
+        "CloneOnAllChildrenWithMeshes": 1,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 4,
+                "Multiplier": 10,
+                "FadeRange": [
+                    0.5,
+                    0.5
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 1,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "ApplyColorCustomization": 1
+    }
+}

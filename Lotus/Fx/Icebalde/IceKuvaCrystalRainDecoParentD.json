@@ -1,0 +1,49 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Common/SmallSphere.fbx",
+        "MeshScale": 0.0099999998,
+        "OverrideMaterial": [
+            "/Lotus/Fx/Levels/EntratiLab/DeadEnd/EntratiDeadEndNoRenderMat"
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    85,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "IceKuvaCrystalRainDecoD",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "IgnoreParentScale": 1,
+        "EnableReplicaMoveNoise": 1,
+        "CancelNoiseOnDestroy": 1,
+        "ReplicaPositionNoise": [
+            0.17,
+            0.69999999,
+            0.17,
+            0.07
+        ],
+        "ReplicaRotationNoise": [
+            87,
+            0,
+            0.1,
+            0.07
+        ]
+    }
+}

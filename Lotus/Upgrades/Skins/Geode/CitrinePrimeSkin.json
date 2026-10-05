@@ -1,0 +1,112 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "PremiumPrice": 165,
+        "LocalizeTag": "/Lotus/Language/Primes/CitrinePrimeDefaultSkinName",
+        "LocalizeDescTag": "/Lotus/Language/Primes/CitrinePrimeDefaultSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Primes/CitrinePrime.png",
+        "AlwaysAvailable": 1,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Powersuits/Geode/CitrinePrime",
+        "UpgradeSkinOverride": "CitrinePrimeWeaponSkin",
+        "CompatibleSlots": [
+            "BodySkin"
+        ],
+        "ApplyEnergyColor": 1,
+        "DefaultEnergyColor": [
+            254,
+            120,
+            0,
+            255
+        ],
+        "DefaultEnergyColor1": [
+            251,
+            35,
+            0,
+            255
+        ],
+        "DefaultCustomizationOverrides": {
+            "CustomEmblem": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            0.155,
+                            0.02,
+                            -0.029999999
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            -0.13052601,
+                            0,
+                            0.991445
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "EventEmblem": {
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "",
+                        "PosOffset": [
+                            -0.155,
+                            -0.02,
+                            0.029999999
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            -0.13052601,
+                            0,
+                            0.991445
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 0,
+                        "Scale": 1
+                    }
+                ]
+            }
+        },
+        "SimCollisionOverride": "/Lotus/Characters/Tenno/Stalactis/CitrineDeluxe/Cloth/CitrineDeluxeFullProxySimCollision",
+        "ResourceOverrides": [
+            {
+                "Tag": "ShellChargeDeco",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Geode/ShellChargeDecoPrime"
+            },
+            {
+                "Tag": "GeodeCrystalDeco",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Geode/CrystalDecoPrime"
+            },
+            {
+                "Tag": "ShellAttach",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Geode/ShellAttach"
+            },
+            {
+                "Tag": "GeodeGrowthCastDeco",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Geode/GrowthCastGroundDecoPrime"
+            }
+        ]
+    }
+}

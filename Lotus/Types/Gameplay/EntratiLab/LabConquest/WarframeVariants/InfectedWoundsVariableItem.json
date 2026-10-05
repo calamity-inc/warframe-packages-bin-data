@@ -1,0 +1,20 @@
+{
+    "parent": "LabConquestVariableItem",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Conquest/PersonalMod_InfectedWounds",
+        "LocalizeDescTag": "/Lotus/Language/Conquest/PersonalMod_InfectedWounds_Desc",
+        "Script": {
+            "Script": "/Lotus/Scripts/Gameplay/SecondDamage.lua",
+            "Function": "ApplyUpgrade",
+            "_damageType": "DT_POISON",
+            "_damageAmount": 0,
+            "_procs": [
+                "PT_POISONED"
+            ],
+            "_procCounts": [
+                1
+            ],
+            "_removeActiveProcs": 1
+        }
+    }
+}

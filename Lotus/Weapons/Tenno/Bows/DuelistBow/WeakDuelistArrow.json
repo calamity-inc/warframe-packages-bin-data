@@ -1,0 +1,201 @@
+{
+    "parent": "/Lotus/Types/Weapons/BoltoProjectile",
+    "data": {
+        "Mesh": "DuelistBowArrow.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Tenno/Bows/TnChoirBow/ChoirBowTrailChargedNoSound",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Bow/DuelistChargedProjectileFlarePerfect",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Bow/DuelistChargedProjectileTrailPerfect",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Weapons/Bow/DuelistBowChargedProjectileEmbers",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "IgnoreParentRotation": 1,
+        "AttackData": {
+            "UseNewFormat": 1,
+            "DT_IMPACT": 0,
+            "DT_PUNCTURE": 200,
+            "DT_SLASH": 0,
+            "DT_FIRE": 0,
+            "DT_FREEZE": 200,
+            "DT_ELECTRICITY": 0,
+            "DT_POISON": 0,
+            "DT_EXPLOSION": 0,
+            "DT_RADIATION": 0,
+            "DT_GAS": 0,
+            "DT_MAGNETIC": 0,
+            "DT_VIRAL": 0,
+            "DT_CORROSIVE": 0,
+            "DT_RADIANT": 0,
+            "Amount": 400,
+            "ProcChance": 0.31999999
+        },
+        "CriticalChance": 0.31999999,
+        "CriticalMultiplier": 2.4000001,
+        "HitEffect": "/Lotus/Fx/Weapons/Bow/DuelistBowArrowHitEffect",
+        "IgnoreCollisionsWithSameType": 1,
+        "BounceOnAvatars": 0,
+        "BounceOnRagdolls": 0,
+        "WhizzBySound": "/Lotus/Sounds/Weapons/DuelistBow/DuelistBowProjectile",
+        "WhizzByRadius": 15,
+        "WhizzByLocal": 1,
+        "VerticalImpulse": 75,
+        "HorizontalImpulse": 75,
+        "BasePunctureDepth": 1.4,
+        "EmbedTime": [
+            10,
+            10
+        ],
+        "StopOnCollision": 1,
+        "KinematicPostCollisionsSpeedFactor": 0.75,
+        "KinematicInitialSpeed": 140,
+        "KinematicMaxSpeed": 140,
+        "KinematicNoise": 0.029999999,
+        "KinematicNoiseRate": 0.050000001,
+        "KinematicGravity": 1,
+        "KinematicGravityMultiplier": 0.050000001,
+        "SweepRadius": 0,
+        "FaceVelocity": 1,
+        "BaseRotation": [
+            -0.70710677,
+            0,
+            0,
+            0.70710677
+        ],
+        "OnProjectileStoppedScript": {
+            "Script": "/Lotus/Scripts/Effects/AttachFX.lua",
+            "Function": "KillArrayAttachedToSelf",
+            "_typeToKill": "/Lotus/Fx/Weapons/Bow/DuelistChargedProjectileFlarePerfect",
+            "_typesToKill": [
+                "/Lotus/Fx/Weapons/Bow/DuelistChargedProjectileFlarePerfect",
+                "/Lotus/Fx/Weapons/Bow/DuelistBowChargedProjectileEmbers"
+            ],
+            "_typeToAttach": "",
+            "_attachToThis": "",
+            "_attachToArray": [],
+            "_isAttachedToThis": "",
+            "_isAttachedToThisArray": [],
+            "_attachPos": [
+                0,
+                0,
+                0
+            ],
+            "_attachRot": [
+                0,
+                0,
+                0
+            ],
+            "_delay": 0,
+            "_attachmentType": "",
+            "_isEnable": 1,
+            "_bone": "",
+            "_newMesh": "",
+            "_masterOnly": 1,
+            "_stopSpewing": 0,
+            "_destrySelfIfNotLocal": 0,
+            "_positionBoneOffset": 0,
+            "_positionBonelessOffset": 0,
+            "_beamAttachBones": [],
+            "_beamEndBones": []
+        },
+        "SilentProjectile": 1,
+        "ApplyColorCustomization": 1,
+        "UseBaseOffset": 1,
+        "EmbedOffset": -0.25,
+        "AttachmentOffsets": [
+            0.25
+        ],
+        "EmbedRotation": [
+            0,
+            0,
+            0.70710677,
+            0.70710677
+        ],
+        "ContactExplosionDamage": 250,
+        "ContactExplosionRadius": 10,
+        "ContactExplosionEffect": "/Lotus/Fx/Weapons/Bow/DuelistBowChargedProjExplode",
+        "ContactExplosionMirrorEffect": "/Lotus/Fx/Weapons/Bow/DuelistBowChargedProjExplode"
+    }
+}

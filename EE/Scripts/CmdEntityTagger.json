@@ -1,0 +1,26 @@
+{
+    "parent": "/EE/Types/Darkitect/GameImGuiScriptCommand",
+    "data": {
+        "Label": "Entity Tagger",
+        "Qualifications": [
+            "/EE/Editor/ToolMenus/Conditions/CndDeveloperModeEnabled"
+        ],
+        "AllowEditor": 1,
+        "Script": {
+            "Script": "EntityTagger.lua",
+            "Function": "RunCommand",
+            "_entityFilterTypes": [
+                "/EE/Types/Engine/Entity",
+                "/EE/Types/Engine/Mover",
+                "/EE/Types/Engine/Decoration",
+                "/EE/Types/Engine/Trigger",
+                "/EE/Types/Engine/ScriptTrigger",
+                "/EE/Types/Engine/ContextAction",
+                "/EE/Types/Engine/Sequencer",
+                "/EE/Types/Engine/SimpleBlockingVolume",
+                "/EE/Types/Game/Comment",
+                "/EE/Types/Game/CameraSpot"
+            ]
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "parent": "BaseEventBadgeItem",
+    "data": {
+        "MarketMode": "MM_HIDDEN",
+        "LocalizeTag": "/Lotus/Language/Cosmetics/EpochOperationEmblemName",
+        "LocalizeDescTag": "/Lotus/Language/Cosmetics/EpochOperationEmblemDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Emblems/EpochOperationEmblem.png",
+        "GraphicsOverrides": {
+            "MAIN_HAND": {
+                "THIRD_PERSON_Attachment": {
+                    "UpgradeAutoChildren": [
+                        {
+                            "LocalPosition": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "LocalRotation": [
+                                -0.70710677,
+                                0.70710677,
+                                0,
+                                0
+                            ],
+                            "BoneName": "GAME_R1_ARM1",
+                            "Type": "/Lotus/Characters/Tenno/Accessory/DecalProjector/EpochOperationEmblemDeco",
+                            "Chance": 255,
+                            "RelativeToBounds": 0,
+                            "Attach": 1,
+                            "DestroyWithOwner": 1,
+                            "DestroyParentOnDeath": 0,
+                            "FadeOutOnDestruction": 0,
+                            "Scale": 1
+                        }
+                    ]
+                }
+            },
+            "OFF_HAND": {
+                "THIRD_PERSON_Attachment": {
+                    "UpgradeAutoChildren": [
+                        {
+                            "LocalPosition": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "LocalRotation": [
+                                0,
+                                0,
+                                -0.70710677,
+                                0.70710677
+                            ],
+                            "BoneName": "GAME_L1_ARM1",
+                            "Type": "/Lotus/Characters/Tenno/Accessory/DecalProjector/EpochOperationEmblemDeco",
+                            "Chance": 255,
+                            "RelativeToBounds": 0,
+                            "Attach": 1,
+                            "DestroyWithOwner": 1,
+                            "DestroyParentOnDeath": 0,
+                            "FadeOutOnDestruction": 0,
+                            "Scale": 1
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

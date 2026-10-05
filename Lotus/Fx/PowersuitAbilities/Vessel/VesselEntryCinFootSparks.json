@@ -1,0 +1,75 @@
+{
+    "parent": "/Lotus/Fx/Enemies/Sentients/Dolicholyst/DolicholystPortalProjSparks",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 16
+            }
+        ],
+        "IgnoreParentRotation": 1,
+        "MaximumParticles": 5000,
+        "SpawnRate": 300,
+        "EmissionTime": 2,
+        "drag": 0.34999999,
+        "life": [
+            0.050000001,
+            0.60000002
+        ],
+        "size": [
+            0.02,
+            0.050000001
+        ],
+        "velocity": [
+            1,
+            15
+        ],
+        "streaksFactor": 3.5,
+        "spawnShape": "SP_SPHERE",
+        "velocityDeviation": [
+            1,
+            1
+        ],
+        "inheritVelocity": 0,
+        "spawnScale": [
+            1,
+            0.1,
+            1
+        ],
+        "spawnFlowBlend": 0.15000001,
+        "flowScale": [
+            0.40000001,
+            0.40000001,
+            0.40000001
+        ],
+        "flowForce": [
+            0,
+            0,
+            0
+        ],
+        "flowScrolling": [
+            0.40000001,
+            -1,
+            0
+        ],
+        "flowAtten": [
+            3,
+            3
+        ],
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksEnergyColorAdd",
+        "colorKeys[0]": [
+            0.075000003,
+            0.47999999,
+            1,
+            1
+        ],
+        "colorKeys[1]": [
+            0.00063999998,
+            0.017000001,
+            0.082000002,
+            1
+        ]
+    }
+}

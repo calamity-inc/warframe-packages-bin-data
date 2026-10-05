@@ -1,0 +1,39 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "Enabled": 0,
+        "Shape": "VES_SPHERE",
+        "DebugColor": [
+            33,
+            26,
+            239,
+            255
+        ],
+        "OnlyCountPlayerControlledAvatars": 1,
+        "AllowReentrant": 0,
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/Gameplay/Complications/KuvaSaturation.lua",
+                    "Function": "WispExplodeOnTouch",
+                    "_abilityUsedDamageChallenge": "",
+                    "_mildSaturationLevelAura": "",
+                    "_strongSaturationLevelAura": "",
+                    "_severeSaturationLevelAura": "",
+                    "_OnKuvaIncreaseFx": "/Lotus/Fx/Icebalde/IceKuvaCrystalSpreadFx",
+                    "_KuvaStackEffects": [],
+                    "_KuvaWispAgent": "",
+                    "_KuvaSpeedBuffFx": "",
+                    "_wispExplosionDamageRadius": 4,
+                    "_wispExplosionDamageAmount": 500,
+                    "_wispExplosionBonusDamagePerKuvaStack": 250,
+                    "_KuvaWispSpawnFx": "",
+                    "_KuvaWispExplosionFx": "/Lotus/Fx/Icebalde/IceKuvaSaturationExplosionFx"
+                }
+            }
+        ],
+        "DisableWhenScriptsFinished": 1
+    }
+}

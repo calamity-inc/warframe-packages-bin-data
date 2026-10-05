@@ -21,12 +21,14 @@
                 "STACKING_MULTIPLY",
                 "STACKING_MULTIPLY"
             ],
-            "_bonusSpawnAmount": 1.5
+            "_bonusSpawnAmount": 1.5,
+            "_alternateDroneChance": 0.25
         },
         "OnAuraAddedToLevelScript": {
             "Script": "/Lotus/Scripts/Gameplay/BalloonFestEffect.lua",
             "Function": "OnAuraAdded",
             "_droneAvatarType": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianDrone/LasrianDroneAvatar",
+            "_droneAlternateWeaponType": "",
             "_agentType": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianDrone/LasrianDroneAgent",
             "_agentUpgrades": [
                 "AVATAR_ABILITY_EFFICIENCY"
@@ -37,7 +39,8 @@
             "_agentOperationType": [
                 "ADD"
             ],
-            "_bonusSpawnAmount": 1.5
+            "_bonusSpawnAmount": 1.5,
+            "_alternateDroneChance": 0.25
         }
     }
 }

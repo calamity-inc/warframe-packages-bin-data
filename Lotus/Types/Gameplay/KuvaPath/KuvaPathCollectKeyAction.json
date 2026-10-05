@@ -1,0 +1,16 @@
+{
+    "parent": "/EE/Types/Actions/HitSwitch",
+    "data": {
+        "ActionText": "/Lotus/Language/Iceblade/AcquireKuvaKeyAction",
+        "CompleteScript": {
+            "Script": "/Lotus/Scripts/KuvaPath/KuvaPathAcquire.lua",
+            "Function": "RequestKey",
+            "_showCursorCmd": "/EE/Editor/ToolMenus/Commands/CmdShowCursor",
+            "_iceDecos": [],
+            "_transmissionSet": "",
+            "_cryobellDissolveFx": "",
+            "_timerMovie": "",
+            "_kuvaKeyRewardsIndex": 1
+        }
+    }
+}

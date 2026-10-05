@@ -12,26 +12,10 @@
             "Script": "/Lotus/Powersuits/Banshee/Abilities/SilenceTwo.lua",
             "Function": "ActivateAbility",
             "_activateAnim": "/Lotus/Animations/Tenno/Powers/Temp/Mute_anim.fbx",
-            "_SilentProjector": "",
+            "_silentProjector": "/Lotus/Fx/PowersuitAbilities/Decree/SilenceAttachProj",
             "_attachEffect": "/Lotus/Fx/PowersuitAbilities/Decree/SilenceAttach",
             "_silenceMixEffect": ""
         },
-        "SecondaryScripts": [
-            {
-                "tag": "SilenceTarget",
-                "executionMode": "EM_ALL",
-                "inheritPrimary": 0,
-                "functionName": "",
-                "scriptInstance": {
-                    "Script": "/Lotus/Powersuits/Banshee/Abilities/SilenceTwo.lua",
-                    "Function": "SilenceTarget",
-                    "_activateAnim": "",
-                    "_SilentProjector": "/Lotus/Fx/PowersuitAbilities/Decree/SilenceAttachProj",
-                    "_attachEffect": "",
-                    "_silenceMixEffect": ""
-                }
-            }
-        ],
         "CooldownDuration": 20,
         "EnergyRequiredToActivate": 0,
         "ActivationXP": 75

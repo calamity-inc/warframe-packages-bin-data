@@ -1,0 +1,26 @@
+{
+    "parent": "/EE/Types/Engine/Entity",
+    "data": {
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Effects/SpeechEmissives.lua",
+            "Function": "SpeechEmissiveHandler",
+            "_emissiveParams": [
+                "EmissiveMapAtten",
+                "UnlitAtten"
+            ],
+            "_emissiveMin": [
+                0.1,
+                1
+            ],
+            "_emissiveMax": [
+                6,
+                50
+            ],
+            "_materialIndexes": [
+                -1,
+                -1
+            ],
+            "_applyToChildren": 1
+        }
+    }
+}

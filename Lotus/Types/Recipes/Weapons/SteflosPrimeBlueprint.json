@@ -1,0 +1,30 @@
+{
+    "parent": "/Lotus/Types/Game/RecipeItem",
+    "data": {
+        "PrimeSellingPrice": 45,
+        "ExcludeFromCodex": 0,
+        "TradeCapability": "RO_ALWAYS",
+        "ResultItem": "/Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeSteflos/PrimeSteflosShotgun",
+        "Ingredients": [
+            {
+                "ItemType": "WeaponParts/SteflosPrimeReceiver",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "WeaponParts/SteflosPrimeBarrel",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "WeaponParts/SteflosPrimeStock",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 10
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "SkipBuildTimePrice": 50
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "DuelistExtrasArmourLL_skel.fbx",
+        "CollisionDebugVis": "CDV_ALL",
+        "ShowSimCollisionTags": 1,
+        "ControlData": "DuelistExtrasArmourLLSkelClothData",
+        "Attribs": {
+            "dampeningRange": [
+                0.15000001,
+                0.15000001
+            ],
+            "massRange": [
+                1,
+                1
+            ],
+            "distConstraintRange": [
+                0,
+                0.1
+            ],
+            "useBackstopConstraints": 1,
+            "reduceStretchExponent": 1,
+            "shearingStiffness": 1,
+            "simulateCollisionLast": 0
+        },
+        "UseDynamicCollision": 0,
+        "UseClothCollision": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "PhysicsBehavior": "",
+        "Tag": "KuvaEvent",
+        "SurvivesMigration": 1,
+        "Dimensions": [
+            0,
+            0,
+            0
+        ],
+        "AllowReentrant": 0,
+        "Replication": "BOTH",
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/KuvaPath/SignalBridgeEvent.lua",
+                    "Function": "Event",
+                    "_securityConsoleType": "SignalBridgeSecurityConsole",
+                    "_hackingDeviceType": "SignalBridgeHackingDevice",
+                    "_beamType": "/Lotus/Fx/Icebalde/IceSignalBridgeBeam",
+                    "_hologramConnectedType": "/Lotus/Fx/Icebalde/IceHologramStandFx",
+                    "_hologramDisconnectedType": "/Lotus/Fx/Icebalde/IceHologramStandFlickerFx"
+                }
+            }
+        ]
+    }
+}

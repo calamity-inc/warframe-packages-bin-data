@@ -1,15 +1,52 @@
 {
     "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/ConquestVariableAura",
     "data": {
-        "LocalizeTag": "[HC] ToxinInoculationCmpAura",
-        "LocalizeDescTag": "[HC] Give me a description",
+        "LocalizeTag": "/Lotus/Language/Iceblade/CryobellTheme_Toxic_Name",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/CryobellTheme_Toxic_Desc",
         "OnAuraAddedToLevelScript": {
             "Script": "/Lotus/Scripts/Gameplay/Complications/ToxinInoculation.lua",
-            "Function": "OnAuraAddedToLevel"
+            "Function": "OnAuraAddedToLevel",
+            "_chanceForToxicEximus": [
+                2.5,
+                5,
+                7,
+                10,
+                15,
+                15
+            ],
+            "_maxToxicEximus": [
+                3,
+                3,
+                4,
+                5,
+                6,
+                6
+            ],
+            "_OverrideEnemyEnhancements": "ToxinInoculationEnemyEnhancements",
+            "_ToxicEnemyProj": "/Lotus/Fx/Icebalde/IceToxicInoculationProj",
+            "_GasCloudDmgTrigger": "ToxinInoculationPoisonGasDmgTrigger"
         },
         "OnAuraRemovedFromLevelScript": {
             "Script": "/Lotus/Scripts/Gameplay/Complications/ToxinInoculation.lua",
-            "Function": "OnAuraRemovedFromLevel"
+            "Function": "OnAuraRemovedFromLevel",
+            "_chanceForToxicEximus": [
+                2.5,
+                5,
+                7,
+                10,
+                15
+            ],
+            "_maxToxicEximus": [
+                2,
+                3,
+                4,
+                6,
+                6,
+                6
+            ],
+            "_OverrideEnemyEnhancements": "",
+            "_ToxicEnemyProj": "/Lotus/Fx/Icebalde/IceToxicInoculationProj",
+            "_GasCloudDmgTrigger": ""
         }
     }
 }

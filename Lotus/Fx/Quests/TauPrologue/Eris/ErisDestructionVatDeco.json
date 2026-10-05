@@ -1,0 +1,56 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "ReceivesShadows": 1,
+        "ShadowLightmaps": 1,
+        "ShadowDynamics": 1,
+        "UseAmbient": 1,
+        "Mesh": "ErisDestruction_dcm.fbx",
+        "MeshScale": 200,
+        "DepthSortBias": 30,
+        "UseParentVisibility": 0,
+        "DeadParentInheritanceRule": "NONE",
+        "LiveParentInheritanceRule": "NONE",
+        "SetChildrenVisibility": 1,
+        "Tag": "EffectsDeco",
+        "MaterialFade": [
+            {
+                "Parameter": "SimulationTime",
+                "Slot": -1,
+                "TimeLength": 25,
+                "Multiplier": 0.99000001,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.31152299,
+                            "Value": 0.20219
+                        },
+                        {
+                            "Time": 0.686831,
+                            "Value": 0.82846701
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 1
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

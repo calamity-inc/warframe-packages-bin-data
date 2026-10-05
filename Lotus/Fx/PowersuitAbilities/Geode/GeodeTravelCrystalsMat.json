@@ -2,6 +2,11 @@
     "parent": "GeodeMasterCrystalMat",
     "data": {
         "VERTEX_EFFECT": "CRYSTAL_FORM",
+        "PS:EmissiveMapAtten": 0.2,
+        "PS:CrystalDiffuseRange": [
+            0.40000001,
+            0.5
+        ],
         "VS:CrystalScaleA": 1,
         "VS:CrystalScaleB": 4,
         "VS:CrystalAreaRadius": 2,
@@ -21,10 +26,7 @@
         ],
         "VS:CrystalTravel": 1,
         "VS:CrystalVerticalMotion": 0,
-        "PS:EmissiveMapAtten": 0.2,
-        "PS:CrystalDiffuseRange": [
-            0.40000001,
-            0.5
-        ]
+        "VS:CrystalMinRadiusPercentage": 0,
+        "VS:CrystalFollowStrength": 1
     }
 }

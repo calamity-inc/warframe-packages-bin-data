@@ -1,0 +1,131 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "PhysicsSleep": 1,
+        "UseLightMap": 1,
+        "UseLightProbes": 1,
+        "LightMap": [
+            "",
+            ""
+        ],
+        "LightMapCoords": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "LightMapNormalize": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "LightMapNormalize1": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "IndexedLightMaps": [],
+        "Mesh": "/Lotus/Weapons/Tenno/Archwing/Primary/TnConcreteArchgun/QorvexDeluxeArchGun/QorvexDeluxeArchGun_skel.fbx",
+        "DeadParentInheritanceRule": "COPY",
+        "AttachmentDeformerType": "CULL",
+        "PhysicsBehavior": "/EE/Types/Physics/Static",
+        "HasLifeSpan": 0,
+        "Life": [
+            0.55000001,
+            2.5
+        ],
+        "Size": [
+            0.75,
+            1.5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.24867301
+                },
+                {
+                    "Time": 0.25,
+                    "Value": 0.89753097
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.75,
+                    "Value": 0.24080101
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.0172334
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "EmissionTime": [
+            0.15000001,
+            0.25
+        ],
+        "InitialCount": [
+            4,
+            6
+        ],
+        "SpewCount": [
+            4,
+            6
+        ],
+        "Material": "/Lotus/Fx/Quests/TauPrequel/Environment/EnvLavaBurstBigFlamesMat",
+        "AnimateTiles": 1,
+        "RandomStartFrame": 1,
+        "AnimatePower": [
+            1.25,
+            1.7
+        ],
+        "ColorMin": [
+            247,
+            107,
+            39,
+            255
+        ],
+        "ColorMax": [
+            247,
+            163,
+            102,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0080000004,
+            0.0080000004
+        ],
+        "SpinByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.2
+                }
+            ]
+        },
+        "FadeInOut": [
+            0.1,
+            1
+        ],
+        "NozzleDev": 0.42500001,
+        "Speed": [
+            3.5,
+            5
+        ],
+        "Drag": 2,
+        "Mass": [
+            0.2,
+            0.5
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "parent": "/Lotus/Fx/Weapons/Tenno/Omicrus/OmicrusChargedProjectileTrail",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 64
+            },
+            {
+                "name": "SecondParams",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0.2,
+                "value1": 0.1,
+                "value2": 0.0099999998,
+                "value3": 3
+            }
+        ],
+        "Life": [
+            3.5,
+            3.5
+        ],
+        "Size": [
+            1,
+            1
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.16
+                },
+                {
+                    "Time": 0.089148298,
+                    "Value": 0.99000001
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.40000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.2
+                }
+            ]
+        },
+        "SpewCount": [
+            50,
+            50
+        ],
+        "Material": "DuelistBowLargeChargedProjectileTrailMat"
+    }
+}

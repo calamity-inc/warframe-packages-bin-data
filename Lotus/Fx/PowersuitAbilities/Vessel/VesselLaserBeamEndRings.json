@@ -1,0 +1,99 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 6
+            },
+            {
+                "name": "Hardness",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.5
+            }
+        ],
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "ApplyColorCustomization": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "LifeSpan": 0,
+        "Life": [
+            0.30000001,
+            0.60000002
+        ],
+        "Size": [
+            10,
+            16
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.80000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "SpewCount": [
+            12,
+            12
+        ],
+        "Material": "/Lotus/Fx/PowersuitAbilities/Concrete/PillarEmpoweredRingsMat",
+        "ColorMin": [
+            236,
+            83,
+            77,
+            222
+        ],
+        "ColorMax": [
+            241,
+            110,
+            80,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            0,
+            0.0099999998
+        ],
+        "FadeInOut": [
+            0,
+            0
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.80000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "Nozzle": "SPHERE",
+        "NozzleBox": [
+            0,
+            0,
+            0.2
+        ]
+    }
+}

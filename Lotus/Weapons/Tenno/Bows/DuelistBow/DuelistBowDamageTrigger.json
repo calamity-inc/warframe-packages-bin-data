@@ -1,0 +1,28 @@
+{
+    "parent": "/EE/Types/Game/DamageTrigger",
+    "data": {
+        "DeadParentInheritanceRule": "NONE",
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "Dimensions": [
+            2.75,
+            1,
+            2.75
+        ],
+        "DebugColor": [
+            120,
+            170,
+            255,
+            255
+        ],
+        "AttackData": {
+            "Type": "DT_FREEZE",
+            "ProcChance": 0,
+            "ForcedProcs": [
+                "PT_CHILLED"
+            ]
+        },
+        "DamageOnEnter": 1,
+        "DamageOverTimeInterval": 1,
+        "DamageSource": "PLAYER_AVATAR"
+    }
+}

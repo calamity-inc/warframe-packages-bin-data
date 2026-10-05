@@ -1,0 +1,92 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "SingCastSwirlOutMesh.fbx",
+        "OverrideMaterial": [
+            "LotusSingCastSwirlsMat"
+        ],
+        "IgnoreParentRotation": 1,
+        "LifeSpan": 2,
+        "MaterialFade": [
+            {
+                "Parameter": "BlueClipThreshold",
+                "Slot": -1,
+                "TimeLength": 1.3,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 1.3,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0.30000001,
+                    0.60000002
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "vScalesFade",
+                "Slot": -1,
+                "TimeLength": 1.3,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0.98750001
+                        },
+                        {
+                            "Time": 0.33333299,
+                            "Value": 0.83749998
+                        },
+                        {
+                            "Time": 0.66666698,
+                            "Value": 0.14843801
+                        },
+                        {
+                            "Time": 1,
+                            "Value": -0.0062500001
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "ApplyCreatorCastingSpeed": 1,
+        "UseTeamEffectsSetting": 1
+    }
+}

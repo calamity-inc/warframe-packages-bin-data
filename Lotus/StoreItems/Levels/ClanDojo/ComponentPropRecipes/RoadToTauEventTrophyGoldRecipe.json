@@ -1,0 +1,36 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/Iceblade/RoadToTauEventTrophyGold",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/RoadToTauEventTrophyDesc",
+        "Icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/MechEventTrophyGold.png",
+        "TypeName": "/Lotus/Levels/ClanDojo/ComponentPropRecipes/RoadToTauEventTrophyGoldRecipe",
+        "SellingPrice": 2500,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1787778544,
+        "Giftable": 0,
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 120000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                "ItemCount": 50000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 42000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                "ItemCount": 10
+            }
+        ],
+        "BuildTime": 86400,
+        "BuildPrice": 1000000,
+        "SkipBuildTimePrice": 1500,
+        "ConsumeOnUse": 0
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "UseTeamEffectsSetting": 1,
+        "SpawnRate": 800,
+        "resilience": 0.2,
+        "drag": 0.60000002,
+        "mass": [
+            0.30000001,
+            0.5
+        ],
+        "life": [
+            0.30000001,
+            0.5
+        ],
+        "size": [
+            0.016000001,
+            0.02
+        ],
+        "velocity": [
+            0,
+            2
+        ],
+        "velocityDeviation": [
+            0.1,
+            0.1
+        ],
+        "useForceFieldForSpawn": 1,
+        "spawnFlowBlend": 0.89999998,
+        "spawnDelay": 0.1,
+        "spawnFlowForcePosScale": 0.60000002,
+        "flowScale": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "flowForce": [
+            12,
+            12,
+            12
+        ],
+        "flowForceEnd": [
+            3,
+            3,
+            3
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksFadeClose",
+        "colorKeys[0]": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "colorKeys[1]": [
+            0.071999997,
+            0.44,
+            0.75,
+            1
+        ],
+        "colorKeys[2]": [
+            0.071999997,
+            0.44,
+            0.75,
+            1
+        ],
+        "colorKeys[3]": [
+            0.0076000001,
+            0.14,
+            0.28,
+            1
+        ],
+        "numColors": 3,
+        "simVortex": 1,
+        "vortexSpeed": 0.2,
+        "vortexDecay": 0.40000001,
+        "vortexRadialForce": 1
+    }
+}

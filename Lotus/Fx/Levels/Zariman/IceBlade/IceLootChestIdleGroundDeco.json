@@ -1,0 +1,62 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Levels/Duviri/Natural/WaterLakeDirectionalMainland.fbx",
+        "MeshScale": 0.27000001,
+        "OverrideMaterial": [
+            "/Lotus/Fx/Levels/1999Warframe/InfestedRedPuddleDecoMat"
+        ],
+        "DepthSortBias": -15,
+        "MaterialParams": [
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.11,
+                    0.34,
+                    0.43000001,
+                    1
+                ]
+            },
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.20999999,
+                    0.47999999,
+                    0.56999999,
+                    1
+                ]
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 2
+            },
+            {
+                "name": "TimeScalar",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            },
+            {
+                "name": "FresnelPower",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            },
+            {
+                "name": "FadeParams",
+                "type": "Float4",
+                "slot": -1,
+                "value": 70,
+                "value1": 35,
+                "value2": 0,
+                "value3": 0
+            }
+        ]
+    }
+}

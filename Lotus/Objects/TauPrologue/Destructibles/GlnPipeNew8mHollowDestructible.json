@@ -1,0 +1,26 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "BakeShadowsOnLightMaps": 0,
+        "Mesh": "/Lotus/Objects/Grineer/Props/Pipes/GlnPipeNew8mHollow.fbx",
+        "MeshScale": 0.57999998,
+        "OverrideMaterial": [
+            "/Lotus/Objects/Orokin/Structural/Walls/OroTileWallBaseA"
+        ],
+        "CullDistance": 80,
+        "MotionBlurred": 1,
+        "PhysicsBehavior": "/EE/Types/Physics/Kinematic",
+        "AllowMantle": 0,
+        "Health": 5,
+        "Invulnerable": 1,
+        "DestroyedMesh": "Chunks/GlnPipeNew8mHollowChunkA.fbx",
+        "MasterCreateOnDestroy": {
+            "Type": "Spawners/GlnPipeNew8mHollowDestructibleSpawner"
+        },
+        "PlayOnDestroy": "/Lotus/Sounds/Quests/AwakeningRemaster/Gameplay/AwakeningClayPotDestroy",
+        "MaterialForSwap": "/Lotus/Objects/Orokin/Structural/Walls/OroTileWallBaseACracks",
+        "MaterialSwapOnDestroy": 1,
+        "NavMeshInfluence": "NMI_DYNAMIC",
+        "TrackDamage": 0
+    }
+}

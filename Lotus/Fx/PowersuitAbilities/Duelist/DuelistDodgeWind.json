@@ -1,0 +1,28 @@
+{
+    "parent": "/EE/Types/Effects/Wind",
+    "data": {
+        "Radius": 4,
+        "Force": [
+            -25,
+            25
+        ],
+        "LifeSpan": 0.64999998,
+        "ForceCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.527421,
+                    "Value": 0.65007401
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "IsolatedTo": "DuelistDodgeSparks"
+    }
+}

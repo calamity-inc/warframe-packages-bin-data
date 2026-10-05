@@ -10,30 +10,6 @@
             "/Lotus/Objects/Lasria/Materials/Exterior/Wall/LASxSubwayWallConcretePanelB"
         ],
         "CullDistance": 80,
-        "AutoSimChildren": [
-            {
-                "LocalPosition": [
-                    0,
-                    0.89999998,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "BoneName": "",
-                "Type": "PlanterLASxBushBDestructible",
-                "Chance": 255,
-                "RelativeToBounds": 0,
-                "Attach": 1,
-                "DestroyWithOwner": 1,
-                "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
-                "Scale": 1
-            }
-        ],
         "PhysicsBehavior": "/EE/Types/Physics/Kinematic",
         "Health": 5,
         "SimulateClientSideDamage": 1,

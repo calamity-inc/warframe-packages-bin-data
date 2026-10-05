@@ -1,0 +1,189 @@
+{
+    "parent": "/Lotus/Levels/TauPrologue/QuestTauNarmerThroneRoom/TauPrologueThroneRoomLevelInfo",
+    "data": {
+        "PostProcessInfo": {
+            "exposureCurveBias": -0.25,
+            "toneMapType": "TM_ACES_REF",
+            "toneMapLUT": "/EE/Materials/PostFX/TriuneLUTs/CloverfieldLogC.cube",
+            "toneMapLUTBlend": 0.80000001,
+            "colorGrading": "",
+            "colorGradingData": {
+                "Global": {
+                    "Contrast": [
+                        1,
+                        1,
+                        1,
+                        1.15
+                    ]
+                },
+                "Shadows": {
+                    "Gain": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "fogTexture": "",
+            "volumetricFog": {
+                "Enabled": 1,
+                "GlobalFog": {
+                    "Density": 0.001
+                }
+            }
+        },
+        "EnableGIVolumes": 1,
+        "LightingParams": {
+            "giEnvironmentUseIBL": 0,
+            "iblImageFile": "",
+            "diffuseBoost": 1.25,
+            "diffuseGamma": 1.35,
+            "indirectRadiusBoost": 2.25,
+            "globalCubeMap": "",
+            "bakingOptions:ExportDiffuseTextures": "ET_256_PIXELS",
+            "bakingOptions:UseHiddenLights": 0,
+            "bakingOptions:MaxObjectLightMapSize": "MLM_2048x2048",
+            "bakingOptions:MaxLightMapPageSize": "MLM_2048x2048",
+            "bakingOptions:AutoGenerateLightProbes": 0
+        },
+        "ConfigureScript": {
+            "Script": "/Lotus/Scripts/PlayerShip.lua",
+            "Function": "ConfigureProcLevel",
+            "_kubrowAvatarType": "/Lotus/Types/Game/Pets/PetAvatar",
+            "_catbrowPowerSuitType": "/Lotus/Types/Game/CatbrowPet/CatbrowPetPowerSuit",
+            "_kubrowPowerSuitType": "/Lotus/Types/Game/KubrowPet/KubrowPetPowerSuit",
+            "_chargerPowerSuitType": "/Lotus/Types/Game/KubrowPet/ChargerKubrowPetPowerSuit",
+            "_predasitePetSuitType": "/Lotus/Types/Friendly/Pets/CreaturePets/BasePredatorKubrowPetPowerSuit",
+            "_infestedPetSuitType": "/Lotus/Types/Friendly/Pets/CreaturePets/BaseInfestedCatbrowPetPowerSuit",
+            "_zanukaPowerSuitType": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPowerSuit",
+            "_featureDeco": "",
+            "_featureEnabledAnim": "",
+            "_featureUnlockedCinematic": "",
+            "_operatorDoorTrigger": "",
+            "_operatorQuestKey": "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyChain",
+            "_kahlQuestKey": "/Lotus/Types/Keys/KahlQuest/KahlQuestKeyChain",
+            "_hexQuestKey": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
+            "_midTeleportInputFilter": "/EE/Types/Input/LoadingInputFilter",
+            "_sentinelSpawnController": "",
+            "_kubrowSpawnController": "",
+            "_kubrowPuppySpawnController": "",
+            "_operatorSpawnController": "",
+            "_moaSpawnController": "",
+            "_kubrowShipAgent": "/Lotus/Types/Friendly/Pets/KubrowShipAgent",
+            "_kubrowPuppyShipAgent": "/Lotus/Types/Friendly/Pets/KubrowPuppyShipAgent",
+            "_catbrowShipAgent": "/Lotus/Types/Friendly/Pets/CatbrowShipAgent",
+            "_catbrowPuppyShipAgent": "/Lotus/Types/Friendly/Pets/CatbrowPuppyShipAgent",
+            "_zanukaShipAgent": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetShipAgent",
+            "_moaShipAgent": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetShipAgent",
+            "_onlySpawnLoadOutPet": 0,
+            "_geneticLabConsole": "",
+            "_claimSmallPetConsole": "",
+            "_claimLargePetConsole": "",
+            "_petSpawnerTriggerTag": "PetSpawner",
+            "_claimPetUpdateTriggerTag": "CheckPetReadyScriptTrigger",
+            "_doorDecos": [],
+            "_transmissionDelay": 0,
+            "_delays": [
+                0
+            ],
+            "_altDelays": [
+                0
+            ],
+            "_darvoDelays": [
+                0
+            ],
+            "_ArsenalhudMarker": "",
+            "_transmissions": [],
+            "_altTransmissions": [],
+            "_remTransmissions": [],
+            "_darvoTransmissions": [],
+            "_forceUseArsenal": 0,
+            "_eggDecoType": "",
+            "_geneticSignatureDecoType": "",
+            "_geneticLabDeco": "",
+            "_geneticLabDomeDeco": "",
+            "_domeOpenAnimation": "",
+            "_domeOpenLoopAnimation": "",
+            "_domeCloseAnimation": "",
+            "_domeCloseLoopAnimation": "",
+            "_domeClearMaterial": "",
+            "_domeOpaqueMaterial": "",
+            "_pillarRaiseAnimation": "",
+            "_pillarRaiseLoopAnimation": "",
+            "_pillarLowerAnimation": "",
+            "_pillarLowerLoopAnimation": "",
+            "_domeArmLightOnLevel": 1,
+            "_domeArmLightOffLevel": 0,
+            "_enableQuest": 0,
+            "_fogEffect": "",
+            "_neutralEffectColor": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "_detoxifyEffectColor": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "_detoxifySound": "",
+            "_stasisWakeUpAnim": "",
+            "_catbrowWakeUpAnim": "/Lotus/Animations/Creatures/Catbrow/CatbrowTame/CryoSleepWake_anim.fbx",
+            "_releasePetSound": "",
+            "_featureItemAdded": "",
+            "_petInteractionSwitch": "",
+            "_selectedDecoEffect": "",
+            "_itemGive": 0,
+            "_key": "/Lotus/Types/Keys/VorsPrize/VorsPrizeQuestKeyChain",
+            "_chainStage": 1,
+            "_enableNavConsole": 0,
+            "_enableNavConsoleMarker": 0,
+            "_activateSecondConsole": 0,
+            "_startDomeOperator": 0,
+            "_SecondConsole": "",
+            "_enableCodexAndNews": 0,
+            "_autoOpenConsole": 0,
+            "_rampTrigger": "",
+            "_closeRampEffect": "",
+            "_closeRampMover": "",
+            "_rampNavMesh": "",
+            "_infestedDoorTrigger": "",
+            "_seasonConsole": "",
+            "_isTailorShop": 0
+        },
+        "OnLocalAvatarCreatedScript": {
+            "Script": "/Lotus/Interface/Hub.lua",
+            "Function": "HubShip",
+            "_sentinelAvatarType": "/Lotus/Types/Sentinels/SentinelAvatar",
+            "_radialSolarMovie": "",
+            "_hubProcLevel": "",
+            "_backgroundMovie": "",
+            "_endOfMatchMovie": "",
+            "_dojoDuelActionType": "/Lotus/Types/Actions/DuelingReplicatedHitSwitch",
+            "_tradingPostMovie": "/Lotus/Interface/Dojo/TradingPost.swf",
+            "_titleBgMaterial": "",
+            "_charIntroMovieRes": "",
+            "_fishInfoManifest": "",
+            "_bardLocalMixer": "",
+            "_bardLocalMixerGain": 0,
+            "_bardPositionalMixer": "",
+            "_bardPositionalMixerAttenMin": 0,
+            "_bardPositionalMixerAttenMax": 0,
+            "_bardPositionalMixerGain": 0,
+            "_operatorTwinSpawnChance": 0.0099999998,
+            "_operatorTwinAvatarType": "",
+            "_operatorTwinVisibilityTriggerType": "",
+            "_operatorTwinVanishTriggerType": "",
+            "_skipHubCinematic": 0,
+            "_medalTextures": [],
+            "_titleBookendTexture": "",
+            "_thankYouTexture": "/Lotus/Interface/Graphics/Update17New/WarframeCommunityIcon.png",
+            "_thankYouFx": "/Lotus/Fx/Interface/ThankYouFx",
+            "_thankYouSound": "",
+            "_extraScriptTriggerTypes": []
+        }
+    }
+}

@@ -1,0 +1,245 @@
+{
+    "parent": "GeodeBaseSuit",
+    "data": {
+        "MarketMode": "MM_HIDDEN",
+        "PremiumPrice": 325,
+        "LocalizeTag": "/Lotus/Language/Primes/CitrinePrimeName",
+        "LocalizeDescTag": "/Lotus/Language/Primes/CitrinePrimeDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Primes/CitrinePrime.png",
+        "Diorama": "/Lotus/Levels/Episodes/WarframesCitrinePrime.level",
+        "ExcludeFromCodex": 0,
+        "ArtifactSlots": [
+            "AP_UNIVERSAL",
+            "AP_TACTIC",
+            "AP_UNIVERSAL",
+            "AP_ATTACK",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL",
+            "AP_DEFENSE",
+            "AP_TACTIC",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL",
+            "AP_UNIVERSAL"
+        ],
+        "DefaultCustomization": {
+            "Helmet": {
+                "ItemType": "/Lotus/Upgrades/Skins/Geode/CitrinePrimeHelmet"
+            },
+            "CustomEmblem": {
+                "MAIN_HAND": [
+                    {
+                        "BoneOverride": "GAME_R1_ARMFLAPS2",
+                        "PosOffset": [
+                            0.02,
+                            -0.085000001,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0.70710677,
+                            0.70710677,
+                            0
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "EventEmblem": {
+                "OFF_HAND": [
+                    {
+                        "BoneOverride": "GAME_L1_ARMFLAPS2",
+                        "PosOffset": [
+                            -0.02,
+                            0.085000001,
+                            0
+                        ],
+                        "PosOffsetSecondary": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "RotOffset": [
+                            0,
+                            0.70710677,
+                            0.70710677,
+                            0
+                        ],
+                        "RotOffsetSecondary": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "UseSecondaryOffset": 1,
+                        "Scale": 1
+                    }
+                ]
+            },
+            "BodySkin": {
+                "ItemType": "/Lotus/Upgrades/Skins/Geode/CitrinePrimeSkin"
+            }
+        },
+        "VariantType": "VT_PRIME",
+        "Mesh": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/CitrinePrimeBody_skel.fbx",
+        "MaxEnergy": 150,
+        "InitialEnergy": 75,
+        "MaxShieldOverride": 270,
+        "ArmourRatingOverride": 325,
+        "IsPrime": 1,
+        "AttachedFX": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/CitrinePrimeArmFlapLDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/CitrinePrimeArmFlapRDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/CitrinePrimeLegFlapLDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/CitrinePrimeLegFlapRDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_SPINE3",
+                "Type": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/Cloth/CitrinePrimeSkirtClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_SPINE5",
+                "Type": "/Lotus/Characters/Tenno/Stalactis/CitrinePrime/Cloth/CitrinePrimeChestDangleClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "NamedSubTrees": [
+            {
+                "name": "Kneel",
+                "tree": "/Lotus/Types/Friendly/Tenno/GeodeKneelSubTree.animtree"
+            }
+        ],
+        "MiniMapIcon": "/Lotus/Interface/Icons/Markers/Powersuits/CitrinePrimeMinimapPortrait.png",
+        "MiniMapLargeIcon": "/Lotus/Interface/Icons/Markers/Powersuits/LargePortraits/CitrinePrimeLargePortrait.png"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "CullDistance": 50,
+        "DepthSortBias": -50,
+        "DissolveOverride": "/Lotus/Fx/Common/WrapTextureA_d.png",
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.5,
+            0.80000001
+        ],
+        "Size": [
+            0.40000001,
+            0.5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.79464102
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "Aspect": [
+            0.80000001,
+            1.2
+        ],
+        "InitialCount": [
+            6,
+            6
+        ],
+        "Shape": "SH_SPIN_SPRITE",
+        "Material": "/Lotus/Fx/Water/WaterSplashesPMat",
+        "ColorMin": [
+            192,
+            200,
+            205,
+            30
+        ],
+        "ColorMax": [
+            218,
+            231,
+            232,
+            60
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0080000004,
+            0.0080000004
+        ],
+        "FadeInOut": [
+            0.1,
+            0.2
+        ],
+        "Nozzle": "PLANE",
+        "NozzleDev": 0.30000001,
+        "NozzleBox": [
+            0.2,
+            0.2,
+            0.1
+        ],
+        "NozzleSize": 0.5,
+        "Speed": [
+            0.2,
+            2
+        ],
+        "Drag": 1,
+        "Mass": [
+            0.2,
+            0.40000001
+        ]
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "parent": "/EE/Types/Engine/MultiTrackMusic",
+    "data": {
+        "Tracks": [
+            {
+                "Music": "IcebladeOfNarinCmbtPerc",
+                "Volume": 1
+            },
+            {
+                "Music": "IcebladeOfNarinCmbtBass",
+                "Volume": 1
+            },
+            {
+                "Music": "IcebladeOfNarinCmbtSynths",
+                "Volume": 1
+            },
+            {
+                "Music": "IcebladeOfNarinCmbtOrch",
+                "Volume": 1
+            },
+            {
+                "Music": "IcebladeOfNarinCmbtPads",
+                "Volume": 1
+            },
+            {
+                "Music": "IcebladeOfNarinCmbtVocals",
+                "Volume": 1
+            }
+        ],
+        "FaderPresets": [
+            {
+                "volumes": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1
+                ],
+                "noFadeOutTimes": [],
+                "transitionInTime": 15,
+                "fadeType": "CFT_LINEAR"
+            },
+            {
+                "volumes": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "noFadeOutTimes": [],
+                "transitionInTime": 15,
+                "fadeType": "CFT_LINEAR"
+            },
+            {
+                "volumes": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0
+                ],
+                "noFadeOutTimes": [],
+                "transitionInTime": 15,
+                "fadeType": "CFT_LINEAR"
+            },
+            {
+                "volumes": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0
+                ],
+                "noFadeOutTimes": [],
+                "transitionInTime": 15,
+                "fadeType": "CFT_LINEAR"
+            },
+            {
+                "volumes": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                "noFadeOutTimes": [],
+                "transitionInTime": 15,
+                "fadeType": "CFT_LINEAR"
+            },
+            {
+                "volumes": [
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0
+                ],
+                "noFadeOutTimes": [],
+                "transitionInTime": 15,
+                "fadeType": "CFT_LINEAR"
+            },
+            {
+                "volumes": [
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0
+                ],
+                "noFadeOutTimes": [],
+                "transitionInTime": 15,
+                "fadeType": "CFT_LINEAR"
+            },
+            {
+                "volumes": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "noFadeOutTimes": [],
+                "transitionInTime": 10,
+                "fadeType": "CFT_LINEAR"
+            }
+        ],
+        "StartTimePickMethod": "STPM_NO_REPEAT_UNTIL_LOOP"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "parent": "/Lotus/Types/Scripts/Tau/CoH/Complications/CoHBaseAura",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Iceblade/Condition_HighArmor_Name",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/Condition_HighArmor_Desc",
+        "Upgrades": [],
+        "TargetType": "/Lotus/Types/Game/LotusNpcAvatar",
+        "ExcludedFaction": "TENNO",
+        "ApplyToOwner": 0,
+        "AffectedByAuraEffectiveness": 0,
+        "RequiresOwner": 0,
+        "MaxStacks": 1,
+        "OnEnterAuraScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/ArchaicArmor.lua",
+            "Function": "ApplyUpgrade"
+        }
+    }
+}

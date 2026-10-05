@@ -1,0 +1,94 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Common/RadialAirLaunchMesh.fbx",
+        "MeshScale": 1.5,
+        "OverrideMaterial": [
+            "/Lotus/Fx/PowersuitAbilities/Caliban/CalibanCastTornadoMat",
+            "/Lotus/Fx/PowersuitAbilities/Caliban/CalibanCastTornadoMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "TimeScalar",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.050000001
+            },
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.035,
+                    0.41999999,
+                    0.17,
+                    0
+                ]
+            },
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.11,
+                    0.73000002,
+                    0.38,
+                    0
+                ]
+            },
+            {
+                "name": "LowColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.0046000001,
+                    0.20999999,
+                    0.046,
+                    0
+                ]
+            },
+            {
+                "name": "SecondaryTintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.23,
+                    0.60000002,
+                    0.12,
+                    0
+                ]
+            }
+        ],
+        "DeadParentInheritanceRule": "NONE",
+        "TestRotate": 1,
+        "TestRotateMode": "TRM_AUTONOMOUS",
+        "TestRotateSpeed": [
+            -500,
+            0,
+            0
+        ],
+        "TriggeredMaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            }
+        ],
+        "ApplyColorCustomization": 1
+    }
+}

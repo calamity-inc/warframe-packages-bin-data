@@ -27,6 +27,29 @@
             "_distanceThreshold": 15,
             "_SpawnDistanceFromWisps": 10,
             "_wispSpawnDistanceFromPlayer": 20
+        },
+        "OnAuraRemovedFromLevelScript": {
+            "Script": "JadeSpringScript.lua",
+            "Function": "EndJadeSpring",
+            "_leadUpVFXType": "",
+            "_wispHelperType": "",
+            "_beamHelperType": "",
+            "_damageVFXType": "",
+            "_endVFXType": "",
+            "_leadUpTime": 1.5,
+            "_maxRange": 40,
+            "_needLosDistance": 20,
+            "_needLosVerticalDistance": 20,
+            "_spawnDelay": 3,
+            "_damageTime": 4,
+            "_trackingSpeedMax": 6,
+            "_trackingSpeedMin": 5,
+            "_speedPeakLevel": 175,
+            "_percentOfOverguardDamageRequiredToKillCrystal": 0.25,
+            "_wispLifeSpan": 20,
+            "_distanceThreshold": 15,
+            "_SpawnDistanceFromWisps": 10,
+            "_wispSpawnDistanceFromPlayer": 15
         }
     }
 }

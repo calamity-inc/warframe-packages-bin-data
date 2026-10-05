@@ -120,7 +120,6 @@
                     "IsSilenced": 1,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -148,6 +147,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/HuntingBowHipAccuracyInfo",
@@ -186,6 +186,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "StalkerBow/WeakStalkerArrow",
@@ -387,6 +389,7 @@
                     "ModeSwitchTime": 1.4,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0.2,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -516,7 +519,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -544,6 +546,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/HuntingBowHipAccuracyInfo",
@@ -569,6 +572,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "",
@@ -770,6 +775,7 @@
                     "ModeSwitchTime": 0.60000002,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 1,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -953,9 +959,12 @@
                 "RequiresAmmoInClip": 0,
                 "RequiresAmmoInInventory": 0,
                 "RespondsToEvents": 0,
+                "RespondsToAnimEvents": 1,
+                "OnlyRespondsToEventsWhenVisible": 0,
                 "UseHolster": 1,
                 "HolsterCategory": "QUIVER",
-                "ForceOffhandHolster": 0
+                "ForceOffhandHolster": 0,
+                "UseAttachmentIndexForHolsterHand": 0
             },
             {
                 "Attachment": {
@@ -1024,17 +1033,24 @@
                 "RequiresAmmoInClip": 0,
                 "RequiresAmmoInInventory": 1,
                 "RespondsToEvents": 1,
+                "RespondsToAnimEvents": 1,
+                "OnlyRespondsToEventsWhenVisible": 0,
                 "UseHolster": 0,
                 "HolsterCategory": "QUIVER",
-                "ForceOffhandHolster": 0
+                "ForceOffhandHolster": 0,
+                "UseAttachmentIndexForHolsterHand": 0
             }
         ],
         "FireRemotelyWhenProjectileSeedChanges": 1,
-        "NumChargesToAdd": 5,
         "MaxCharges": 20,
         "ClearChargesOnBehaviorChange": 1,
-        "AddChargeConditions": [
-            "PRIMARY_HEADSHOT"
+        "AddCharges": [
+            {
+                "Conditions": [
+                    "PRIMARY_HEADSHOT"
+                ],
+                "NumCharges": 5
+            }
         ],
         "ConsumeChargeConditions": [
             "SECONDARY_FIRE"

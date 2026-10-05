@@ -1,0 +1,69 @@
+{
+    "parent": "BaseEventBadgeItem",
+    "data": {
+        "MarketMode": "MM_HIDDEN",
+        "LocalizeTag": "/Lotus/Language/Cosmetics/EvilBaroSekharaHaloName",
+        "LocalizeDescTag": "/Lotus/Language/Cosmetics/EvilBaroSekharaHaloDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Emblems/EvilBaroHaloBadgeItem.png",
+        "TintIconToTheme": 0,
+        "GraphicsOverrides": {
+            "MAIN_HAND": {
+                "THIRD_PERSON_Attachment": {
+                    "UpgradeAutoChildren": [
+                        {
+                            "LocalPosition": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "LocalRotation": [
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            "BoneName": "ATT_R1_SHOULDERARMOUR",
+                            "Type": "/Lotus/Characters/Tenno/Accessory/Halos/EvilBaroSekhara/EvilBaroSekharaRArmDeco",
+                            "Chance": 255,
+                            "RelativeToBounds": 0,
+                            "Attach": 1,
+                            "DestroyWithOwner": 1,
+                            "DestroyParentOnDeath": 0,
+                            "FadeOutOnDestruction": 0,
+                            "Scale": 1
+                        }
+                    ]
+                }
+            },
+            "OFF_HAND": {
+                "THIRD_PERSON_Attachment": {
+                    "UpgradeAutoChildren": [
+                        {
+                            "LocalPosition": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "LocalRotation": [
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            "BoneName": "ATT_L1_SHOULDERARMOUR",
+                            "Type": "/Lotus/Characters/Tenno/Accessory/Halos/EvilBaroSekhara/EvilBaroSekharaLArmDeco",
+                            "Chance": 255,
+                            "RelativeToBounds": 0,
+                            "Attach": 1,
+                            "DestroyWithOwner": 1,
+                            "DestroyParentOnDeath": 0,
+                            "FadeOutOnDestruction": 0,
+                            "Scale": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "ApplyEnergyColor": 1
+    }
+}

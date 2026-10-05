@@ -1,0 +1,61 @@
+{
+    "parent": "/EE/Types/Npc/NpcAgent",
+    "data": {
+        "AvatarTypes": {
+            "STANDARD": "LuaBrachiolystGroundOnlyAvatar"
+        },
+        "MinLevel": 15,
+        "BaseLevel": 10,
+        "NewAdditionalInventory": [
+            {
+                "item": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystMeleeWeapon",
+                "forceEquip": 1,
+                "hand": "EXTRA2"
+            },
+            {
+                "item": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystMissileLauncher",
+                "forceEquip": 1,
+                "hand": "MAIN_HAND"
+            }
+        ],
+        "ShouldIgnoreGCS": 0,
+        "AggroController:AggroEntryVisible": {
+            "IncreaseTimeLength": 4,
+            "DecayTimeLength": 2
+        },
+        "BehaviorDatabase": [
+            "/EE/Types/Npc/Logic/LogicGraphAction"
+        ],
+        "LogicGraphAction": {
+            "Enabled": 1,
+            "OnStartScript": {
+                "Script": ""
+            },
+            "OnDamagedScript": {
+                "Script": ""
+            },
+            "GraphRes": "TscBrachiolystGroundOnlyLogicGraph"
+        },
+        "CustomShootBehavior": "/EE/Types/Npc/ScriptedShootBehavior",
+        "ViewIdleFov": 120,
+        "ViewIdleDistance": 60,
+        "ViewFov": 170,
+        "ViewDistance": 160,
+        "DarkVisionSensitivity": [
+            0.5,
+            1
+        ],
+        "AwarenessDecayTime": 20,
+        "TargetLostTime": 10,
+        "TargetLowHealthPercent": 0.30000001,
+        "ReportTargetRadius": 30,
+        "SuperAlertDecayTime": 20,
+        "ReactionControllerType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGrineerReactionController",
+        "PerceiverType": "/Lotus/Types/Enemies/Grineer/Eidolon/EidolonGrineerPerceiver",
+        "SightReactionProbability": 0.80000001,
+        "OnlyTargetAvatars": 1,
+        "IsCoverUseEnabled": 0,
+        "CoverEvaluatorType": "/EE/Types/Npc/VenusAdvancingCoverEvaluator",
+        "TargetEvaluatorType": "/Lotus/Types/Enemies/Sentients/SentientTargetEvaluator"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "Shape": "VES_SPHERE",
+        "Radius": 4.8000002,
+        "AcceptType": "/Lotus/Types/Player/TennoAvatar",
+        "Replication": "BOTH",
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/DarkKuvaEximusMain.lua",
+                    "Function": "OnEnterShield",
+                    "_shieldType": "",
+                    "_hitSound": "",
+                    "_attachEffect": "",
+                    "_hitEffect": "",
+                    "_colourCorrection": "/Lotus/Fx/Enemies/KuvaEximus/KuveEximusRedColorGrading"
+                }
+            }
+        ],
+        "ExitScript": {
+            "Script": "/Lotus/Scripts/DarkKuvaEximusMain.lua",
+            "Function": "OnExitShield",
+            "_shieldType": "",
+            "_hitSound": "",
+            "_attachEffect": "",
+            "_hitEffect": "",
+            "_colourCorrection": "/Lotus/Fx/Enemies/KuvaEximus/KuveEximusRedColorGrading"
+        }
+    }
+}

@@ -1,3 +1,65 @@
 {
-    "parent": "/Lotus/Fx/ShaderDefaults/Snow"
+    "parent": "/Lotus/Fx/ShaderDefaults/Snow",
+    "data": {
+        "BLEND_METHOD": "NONE",
+        "PIXEL_EFFECT": "BLUE_GLOW",
+        "HEIGHT_FIELD_SNOW": 0,
+        "OPACITY": 1,
+        "RED_VERTEX_OPACITY": 1,
+        "SPECULARMAP_IS_METALMAP": 1,
+        "PS:DiffuseColor": [
+            0.88,
+            0.88,
+            0.88,
+            1
+        ],
+        "PS:DiffuseColorTwo": [
+            0.77999997,
+            0.77999997,
+            0.77999997,
+            1
+        ],
+        "PS:UvScale": [
+            2,
+            1,
+            1,
+            1
+        ],
+        "PS:Sheen": 0.34999999,
+        "PS:SheepWrap": 0.34999999,
+        "PS:GlowBlendingConstant": 0.207792,
+        "PS:GlowBlendingBase": 0,
+        "PS:GlowMaskPanScale": [
+            0,
+            0,
+            1,
+            1
+        ],
+        "PS:EmissiveTintColorHi": [
+            21,
+            12,
+            0.89999998,
+            1
+        ],
+        "PS:EmissiveTintColorLo": [
+            15,
+            0.60000002,
+            0.89999998,
+            1
+        ],
+        "PS:GlowFresnel": [
+            1,
+            0,
+            0
+        ],
+        "PS:OpacityTile": 1,
+        "TX:PackMap": "/Lotus/Objects/Sentient/Devourer/Textures/SDWallRegrowthNoisyPackMap",
+        "TX:NormalMap": "/Lotus/Objects/Sentient/Devourer/Textures/SDWallRegrowthNoisy_n.png",
+        "TX:SkinRamp": "/Lotus/Objects/Natural/Asteroids/RjIceAsteroidRamp_d.png",
+        "TX:GlowHeightAndMaskMap": "SDxImpactCratorDamageAMasked_e.png",
+        "TX:DiffuseMap": "/Lotus/Objects/Sentient/Devourer/Textures/SDWallRegrowthNoisyHeight_d.png",
+        "AlphaTest": 1,
+        "AlphaTestValue": 0.22745098,
+        "CastShadow": 0
+    }
 }

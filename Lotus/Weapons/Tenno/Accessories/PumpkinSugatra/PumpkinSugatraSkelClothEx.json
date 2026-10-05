@@ -1,0 +1,78 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "PumpkinSugatra_skel.fbx",
+        "MeshScale": 0.40000001,
+        "Attached": 1,
+        "ReplicaRunScriptInstance": 1,
+        "CollisionDebugVis": "CDV_ALL",
+        "ControlData": "PumpkinSugatraSkelClothData",
+        "Collision": "/Lotus/Powersuits/All/DefaultPowerSuitSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.071038,
+                0.091899998
+            ],
+            "collidingDampeningRange": [
+                0.028999999,
+                0.073770002
+            ],
+            "massRange": [
+                0.19,
+                0.55737698
+            ],
+            "useDistConstraints": 0,
+            "distConstraintRange": [
+                0.0049999999,
+                0.027322
+            ],
+            "useHardConstraints": 1,
+            "reduceStretchExponent": 0.80000001,
+            "shearingStiffness": 0.58999997,
+            "worldVelocityAtten": [
+                1,
+                1,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "windVelocityScale": 0.5,
+            "windAffected": 0,
+            "windStrength": [
+                0,
+                0
+            ],
+            "noiseSpeed": 0,
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.19,
+                0.19,
+                0.19
+            ],
+            "windVolumeScale": [
+                0.58999997,
+                0.58999997,
+                0.58999997
+            ],
+            "windVolumeOffsetRate": [
+                0.19,
+                0.19,
+                0.19
+            ],
+            "usePeerCollision": 0,
+            "floorPlaneHeight": 0.090000004,
+            "dividingPlane": [
+                0,
+                0,
+                0.5,
+                0
+            ],
+            "orientationBasis": "NEG_X_Y",
+            "orientationBasisWeighDistance": 1,
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        },
+        "ZoneWindScale": 2
+    }
+}

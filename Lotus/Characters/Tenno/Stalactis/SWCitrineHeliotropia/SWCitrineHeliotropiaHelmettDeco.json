@@ -1,0 +1,50 @@
+{
+    "parent": "/Lotus/Characters/Tenno/WarframeHelmetDeco",
+    "data": {
+        "Mesh": "SWCitrineHeliotropiaHelmet_skel.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_HEAD1",
+                "Type": "Cloth/SWCitrineHeliotropiaHelmetClothSkeletalCloth",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "Tag": "DepleteEffect",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Sigil.lua",
+            "Function": "RemoveSigilFromThis",
+            "_applyTintColor": 1,
+            "_colorParam": "TintColor",
+            "_applyEnergyColor": 0,
+            "_energyParam": "FlipTintColor",
+            "_applyAlpha": 1,
+            "_minAlpha": 0.1,
+            "_maxAlpha": 1,
+            "_illumBase": 0,
+            "_illumAtten": 1,
+            "_emblemType": "LotusSuitCustomization_ET_GUILD",
+            "_twitchProj": "",
+            "_useLegacyMastery": 0,
+            "_legacyMasteryTextures": [],
+            "_sigilType": "/Lotus/Fx/Sigils/BasicSigil"
+        },
+        "ReplicaRunScriptInstance": 1
+    }
+}

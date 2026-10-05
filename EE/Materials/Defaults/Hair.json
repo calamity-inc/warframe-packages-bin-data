@@ -9,7 +9,6 @@
         "Shader7": "/EE/Shaders/Lighting/OmniShadowLightMap.hlsl",
         "Shader8": "/EE/Shaders/Lighting/ProjectOnly.hlsl",
         "Shader10": "/EE/Shaders/HairDepth.hlsl",
-        "Shader12": "/EE/Shaders/Lighting/MotionBlurHair.hlsl",
         "DETAILING": "NONE",
         "DETAILS_COLOR_METHOD": "DCM_COLOR_MAP",
         "VERTEX_EFFECT": "NONE",
@@ -18,6 +17,7 @@
         "MIRROR": 0,
         "HAIR_SHAPE_NOISE": 0,
         "SPHERICAL_MASK": 0,
+        "DEPTH_OFFSET": 0,
         "HAIR_DISTANCE_NOISE": 0,
         "HAIR_XZ_NOISE": 0,
         "ANISTROPIC_FLOW_MAP": 0,
@@ -36,7 +36,6 @@
         "DEBUG_HAIR_FLOW": 0,
         "FLIP_FLOW_MAP_XY": 0,
         "NOISE_BASE_COLOR": 0,
-        "DOUBLE_SIDED_LIGHTING": 0,
         "DARKEN_ROOT_HACK": 0,
         "SIMPLE_AO_BOUNCE": 0,
         "USE_DEFORMERS": 0,
@@ -104,6 +103,15 @@
             1,
             1,
             1
+        ],
+        "PS:Scatter": 0.5,
+        "PS:ScatterAlbedoWeight": 0,
+        "PS:AOPower": 0.5,
+        "PS:FakeBackScatter": [
+            0.1,
+            2,
+            2,
+            0
         ],
         "DepthWrite": 1,
         "DefaultPhysicsMaterial": "/EE/Types/Physics/Materials/Default"

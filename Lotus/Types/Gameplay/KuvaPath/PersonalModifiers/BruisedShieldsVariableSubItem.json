@@ -1,0 +1,29 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Iceblade/Condition_MeleeShields_Name",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/Condition_MeleeShields_Desc",
+        "Upgrades": [
+            {
+                "UpgradeType": "AVATAR_SHIELD_RECHARGE_RATE",
+                "OperationType": "SET_MAX",
+                "Value": 0,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": [],
+                "OverrideLocalization": 0,
+                "SmallerIsBetter": 0,
+                "RoundTo": 0.1,
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
+            }
+        ]
+    }
+}

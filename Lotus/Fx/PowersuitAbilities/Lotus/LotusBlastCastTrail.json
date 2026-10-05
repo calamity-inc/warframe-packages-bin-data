@@ -1,0 +1,45 @@
+{
+    "parent": "/Lotus/Fx/Weapons/Melee/Clean/Trails/Uniques/ThrowingHammer/TrailBladeThrowingHammer",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 25
+            }
+        ],
+        "DrawInTransparentPass": 1,
+        "Active": 1,
+        "EdgeTime": 0.5,
+        "Length": 0.15000001,
+        "Subdivision": 8,
+        "Centered": 1,
+        "EaseInRate": 0.029999999,
+        "FadeOutTime": 0.30000001,
+        "InitialVelocity": [
+            0,
+            0,
+            0
+        ],
+        "Material": "LotusSingCastTrailMat",
+        "TextureScale": 0.2,
+        "Tint": [
+            246,
+            255,
+            150,
+            255
+        ],
+        "TintOverLife": 0,
+        "EndTint": [
+            255,
+            249,
+            119,
+            255
+        ],
+        "Lifespan": [
+            1.2,
+            1.2
+        ]
+    }
+}

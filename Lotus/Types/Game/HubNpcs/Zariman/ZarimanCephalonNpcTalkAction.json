@@ -1,0 +1,50 @@
+{
+    "parent": "/Lotus/Types/Game/HubNpcs/TalkAction",
+    "data": {
+        "Tag": "ZarimanCeppphalonNPCTalkAction",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Eidolon/OstronDialog.lua",
+            "Function": "InitializeDialogOptions",
+            "_quilsSyndicate": "/Lotus/Syndicates/Ostron/QuillsSyndicate",
+            "_solarisSyndicate": "/Lotus/Syndicates/Solaris/SolarisSyndicate",
+            "_solarisUnitedSyndicate": "/Lotus/Syndicates/Solaris/VoxSyndicate",
+            "_hivemindSyndicate": "/Lotus/Syndicates/Deimos/EntratiSyndicate",
+            "_necraloidSyndicate": "/Lotus/Syndicates/Deimos/NecraloidSyndicate",
+            "_entratiSyndicate": "/Lotus/Syndicates/EntratiLab/EntratiLabSyndicate",
+            "_veilbreakerRankUpStinger": "",
+            "_priestQuestKeyChain": "/Lotus/Types/Keys/PriestFrameQuest/PriestQuestKeyChain",
+            "_startingWeaponType": "/Lotus/Weapons/Sentients/OperatorAmplifiers/SentTrainingAmplifier/OperatorTrainingAmpWeapon",
+            "_dogTagSyndicate": "",
+            "_syndicateTitleEarnedMovie": "/Lotus/Interface/SyndicateTitleEarned.swf",
+            "_graphicManifestMovie": "/Lotus/Interface/GraphicManifest.swf",
+            "_zarimanUpgraderMovie": "/Lotus/Interface/ZarimanWeaponUnlocker.swf",
+            "_koumeiDiceMovie": "/Lotus/Interface/KoumeiDivination.swf",
+            "_recipeManifest": "/Lotus/Types/Game/Store/EvolutionWeaponRecipeManifest",
+            "_upgradableBackerImage": ""
+        },
+        "ReplicaRunScriptInstance": 1,
+        "Dimensions": [
+            2.1860073,
+            1,
+            2.027163
+        ],
+        "RiftStatus": "RS_NONE",
+        "ActionText": "[HC]Melica",
+        "CompleteScript": {
+            "_speakerName": "[HC] Melica",
+            "_onInitFunction": "OnVendorConversationStarted",
+            "_onEndFunction": "OnVendorConversationEnded",
+            "_speakerSyndicate": "/Lotus/Syndicates/Zariman/ZarimanSyndicate",
+            "_musicLoop": "/Lotus/Music/Hubs/Zariman/ZarimanHubVendorLoop",
+            "_openSound": "/Lotus/Sounds/UI/Zariman/ZarimanCraftingUIOpen",
+            "_closeSound": "/Lotus/Sounds/UI/Zariman/ZarimanCraftingUIClose"
+        },
+        "HudIndicatorOffset": [
+            0,
+            1.25,
+            1
+        ],
+        "HudIndicatorPivotRadius": 0,
+        "HudIndicatorBillboard": 0
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
+    "data": {
+        "LocalizeDescTag": "/Lotus/Language/Conquest/WeaponBuff_WarframeRange_Desc",
+        "Upgrades": [
+            {
+                "UpgradeType": "AVATAR_ABILITY_RANGE",
+                "OperationType": "STACKING_MULTIPLY",
+                "Value": 1,
+                "DamageType": "DT_ANY",
+                "AutoType": 0,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
+                "UpgradeObject": "",
+                "ValidPostures": [],
+                "ValidModifiers": [],
+                "InvalidModifiers": [],
+                "ValidProcTypes": [],
+                "OverrideLocalization": 0,
+                "SmallerIsBetter": 0,
+                "RoundTo": 0.1,
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
+            }
+        ]
+    }
+}

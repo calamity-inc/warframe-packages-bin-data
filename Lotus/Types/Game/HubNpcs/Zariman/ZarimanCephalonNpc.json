@@ -1,0 +1,113 @@
+{
+    "parent": "/Lotus/Types/Game/HubNpcs/VenusTown/VenusKeyNpc",
+    "data": {
+        "Rotation": [
+            1,
+            0,
+            0,
+            0
+        ],
+        "Mesh": "/Lotus/Objects/Cephalon/Props/CephalonTeacher.fbx",
+        "AnimationScene": "/Lotus/Animations/Solaris/WeaponsmithIdle_anim.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    1,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_ROOT",
+                "Type": "/Lotus/Types/Game/HubNpcs/KinematicNpcBlockingVolume",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_HIP1",
+                "Type": "/Lotus/Types/Game/HubNpcs/NpcPushVolume",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    1.5,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Types/Game/HubNpcs/HubNpcObjectiveMarker",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "Tag": "ZarimanCephalonNpc",
+        "ScriptInstance": {
+            "Script": ""
+        },
+        "SpeechCooldown": [
+            40,
+            60
+        ],
+        "OnSpeak": {
+            "Script": "/Lotus/Scripts/Venus/Hub/HubNpcConversation.lua",
+            "Function": "OnSpeak",
+            "_flickerEmissive": 0,
+            "_emissiveParam": "EmissiveMapAtten",
+            "_emissiveMin": 0.1,
+            "_emissiveMax": 6,
+            "_applyToChildren": 1,
+            "_returnToBaseline": 0
+        },
+        "EyeDartHorizontalRange": [
+            -0.5,
+            0.5
+        ],
+        "EyeDartVerticalRange": [
+            -0.30000001,
+            0
+        ],
+        "OnTargetFocusTime": [
+            3,
+            4
+        ],
+        "ReturnToTargetProbability": 0.89999998,
+        "DisableMaterial": "/EE/Materials/DisableMaterial"
+    }
+}

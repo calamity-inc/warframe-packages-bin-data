@@ -1,0 +1,27 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/LotusSuitCustomizationStoreItem",
+    "data": {
+        "ProductCategory": "WeaponSkins",
+        "LocalizeTag": "/Lotus/Language/Skins/EvilBaroNecramechSkinName",
+        "LocalizeDescTag": "/Lotus/Language/Skins/EvilBaroNecramechSkinDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Mech/Cosmetics/EvilBaroNecramechSkin.png",
+        "TypeName": "/Lotus/Upgrades/Skins/Necramech/EvilBaroNecramechSkin",
+        "PremiumPrice": 40,
+        "Compatible": "/Lotus/Powersuits/EntratiMech/NechroTech",
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1788380456,
+        "AvailableOnPvp": 1,
+        "AdditionalItems": [
+            {
+                "TypeName": "EvilBaroNecramechHelmet",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            }
+        ],
+        "ExcludeFromCodex": 0,
+        "CompatibleSlots": [
+            "BodySkin"
+        ]
+    }
+}

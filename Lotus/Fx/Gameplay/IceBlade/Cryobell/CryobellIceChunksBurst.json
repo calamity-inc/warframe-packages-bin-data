@@ -1,0 +1,97 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "UseParentVisibility": 0,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.25999999,
+            0.85000002
+        ],
+        "Size": [
+            0.045000002,
+            0.055
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "InheritParentScale": 1,
+        "InitialCount": [
+            30,
+            50
+        ],
+        "MaxParticlesInSystem": 200,
+        "Material": "/Lotus/Fx/Ice/IceChunksAtlas",
+        "ColorMin": [
+            163,
+            174,
+            177,
+            255
+        ],
+        "ColorMax": [
+            180,
+            197,
+            205,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.1,
+            0.1
+        ],
+        "FadeInOut": [
+            0,
+            0.80000001
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleDev": 1,
+        "NozzleBox": [
+            0.1,
+            0.1,
+            0
+        ],
+        "NozzleSize": 0.0099999998,
+        "SoundDelay": [
+            0,
+            0.0099999998
+        ],
+        "SuppressMultipleSounds": 1,
+        "Speed": [
+            2,
+            5
+        ],
+        "Drag": 3,
+        "Mass": [
+            0.94999999,
+            1
+        ],
+        "FlowVelocity": [
+            0,
+            0,
+            0
+        ],
+        "FlowScale": [
+            0.40000001,
+            0.40000001,
+            0.40000001
+        ],
+        "FlowOffsetRate": [
+            0,
+            0.050000001,
+            0
+        ]
+    }
+}

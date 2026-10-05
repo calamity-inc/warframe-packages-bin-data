@@ -174,7 +174,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -202,6 +201,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/GrnSniperRifleHipPerfectAccuracyInfo",
@@ -226,6 +226,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 300,
                     "PvpTraceDistance": 300,
@@ -384,6 +386,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.40000001,
                     "criticalHitDamageMultiplier": 2.8,
@@ -566,7 +569,7 @@
             "_scopedAimSound": "",
             "_unscopedAimSound": ""
         },
-        "OmegaAttenuation": 0.75,
+        "OmegaAttenuation": 0.80000001,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Rifle/CritElectricity"
     }
 }

@@ -5,7 +5,6 @@
         "Shader2": "/EE/Shaders/Deferred/EffectsPBRFillDeferred.hlsl",
         "Shader3": "/EE/Shaders/EffectsPBRShadowMap.hlsl",
         "Shader10": "/EE/Shaders/EffectsPBRDepth.hlsl",
-        "Shader12": "/EE/Shaders/Lighting/MotionBlurEffectsPBR.hlsl",
         "EMISSIVE_FX": "NONE",
         "VERTEX_EFFECT": "NONE",
         "PIXEL_EFFECT": "NONE",
@@ -14,6 +13,7 @@
         "USE_LOW_RES_LIGHTING": 0,
         "INTERIOR_VOLUME": 0,
         "VAT_SOFT_BODY_ROTATION_MAP": 0,
+        "VAT_TWO_POSITION_TEXTURES": 0,
         "UNIFORM_WIND_BEND": 0,
         "SCALE_VERTEX": 0,
         "CUSTOM_VERTEX_TRANSFORM": 0,
@@ -25,18 +25,24 @@
         "EMISSIVE_MAP_FLICKER": 0,
         "FRESNEL_CLIP": 0,
         "WORLD_POS_CLIP": 0,
+        "RIPPLE": 0,
         "DIRECTION_FADE": 0,
         "SPECULARMAP_IS_METALMAP": 1,
-        "ENERGY_CONSERVING_SPECULAR": 1,
+        "RED_VERT_EMISSIVE": 0,
+        "RED_VERT_DISSOLVE": 0,
         "VERTEX_AO": 0,
+        "USE_HEIGHT_FIELD_WATER": 0,
         "HEIGHT_FIELD_OFFSET": 0,
         "USE_DIFFUSE_MAP": 0,
         "EMISSIVE_CAVITY": 0,
-        "NEED_NORMALS": 0,
+        "DISSOLVE_GLOW": 0,
+        "STOCHASTIC_BLENDING": 0,
         "VS:Pan": [
             0,
             0
         ],
+        "VS:VertexEffectAlphaMask": 0,
+        "VS:VertexEffectPivotPhaseOffset": 0,
         "VS:UvOffset": [
             0,
             0
@@ -83,6 +89,11 @@
             1,
             1,
             1
+        ],
+        "PS:DissolveRedStretchParams": [
+            0,
+            0,
+            0
         ],
         "TX:PackMap": "",
         "TX:NormalMap": "",

@@ -1,0 +1,140 @@
+{
+    "parent": "/Lotus/Levels/Proc/PlayerShipStalkerFightLevelInfo",
+    "data": {
+        "BakeEmissiveScale": 0,
+        "PostProcessInfo": {
+            "dynamicExposure": [
+                0.25,
+                12
+            ],
+            "targetExposure": 0.090000004,
+            "exposureConvergeSpeed": 10,
+            "colorGrading": "",
+            "focalBlur": 0.5,
+            "horizonDOF": 0.15000001,
+            "horizonFog": 0.40000001,
+            "horizonFogRadius": 1,
+            "fogColor": [
+                230,
+                233,
+                234,
+                255
+            ],
+            "distanceFogDensity": 0.15000001,
+            "fogTexture": "/Lotus/Objects/Natural/Skybox/FogTextures/WarWithinStandard.png",
+            "attenuateAudio": 1,
+            "sunPosition": [
+                -0.457973,
+                0.200001,
+                0.00071716303
+            ],
+            "sunColor": [
+                1,
+                0.82999998,
+                0.56999999,
+                1
+            ],
+            "sunShaftsTintColor": [
+                255,
+                236,
+                204,
+                255
+            ],
+            "sunShafts": 1,
+            "volumetricFog": {
+                "NearDistance": 1,
+                "Extinction": 1,
+                "GlobalFog": {
+                    "Density": 0.025,
+                    "G": 0.69999999,
+                    "EmissiveIntensity": 0.050000001,
+                    "NoiseScale": 0.25
+                },
+                "ClumpyNoise": {
+                    "ClumpAmount": 0.5,
+                    "ClumpStart": 0.80000001,
+                    "ClumpEnd": 1,
+                    "NoiseScale": 0.44999999
+                },
+                "ColorGrading": {
+                    "Vibrance": 0
+                }
+            }
+        },
+        "EnableGIVolumes": 1,
+        "LightingParams": {
+            "aoMaxDistance": 1,
+            "giEnvironmentIntensity": 0.75,
+            "skyLightColor": [
+                0,
+                0,
+                0,
+                255
+            ],
+            "emissiveScale": 0,
+            "globalCubeMap": "/Lotus/Materials/Cubemaps/GlobalCubemaps/TWWMountainPass_cross.hdr",
+            "bakingOptions:ExportDiffuseTextures": "ET_32_PIXELS",
+            "bakingOptions:UseHiddenLights": 0,
+            "bakingOptions:AutoGenerateLightProbes": 0,
+            "bakingOptions:LightProbeMinMax": [
+                1,
+                5
+            ]
+        },
+        "BakeFilesEnabled": 1,
+        "OnLocalAvatarCreatedScript": {
+            "Script": "/Lotus/Interface/Hub.lua",
+            "Function": "FakePlayerShip",
+            "_sentinelAvatarType": "/Lotus/Types/Sentinels/SentinelAvatar",
+            "_radialSolarMovie": "",
+            "_hubProcLevel": "",
+            "_backgroundMovie": "",
+            "_endOfMatchMovie": "",
+            "_dojoDuelActionType": "/Lotus/Types/Actions/DuelingReplicatedHitSwitch",
+            "_tradingPostMovie": "/Lotus/Interface/Dojo/TradingPost.swf",
+            "_titleBgMaterial": "",
+            "_charIntroMovieRes": "",
+            "_fishInfoManifest": "",
+            "_bardLocalMixer": "",
+            "_bardLocalMixerGain": 0,
+            "_bardPositionalMixer": "",
+            "_bardPositionalMixerAttenMin": 0,
+            "_bardPositionalMixerAttenMax": 0,
+            "_bardPositionalMixerGain": 0,
+            "_operatorTwinSpawnChance": 0.0099999998,
+            "_operatorTwinAvatarType": "",
+            "_operatorTwinVisibilityTriggerType": "",
+            "_operatorTwinVanishTriggerType": "",
+            "_skipHubCinematic": 0,
+            "_medalTextures": [],
+            "_titleBookendTexture": "",
+            "_thankYouTexture": "/Lotus/Interface/Graphics/Update17New/WarframeCommunityIcon.png",
+            "_thankYouFx": "/Lotus/Fx/Interface/ThankYouFx",
+            "_thankYouSound": "",
+            "_extraScriptTriggerTypes": []
+        },
+        "WeatherAutoChild": {
+            "Type": "/Lotus/Fx/Levels/TheWarWithin/TWWIWeatherAttachSpawner"
+        },
+        "PortsDbFile": "TWWMountainPeakHub/0_ports.txt",
+        "EnvProbesData": "TWWMountainPeakHub/0.epd",
+        "GlobalProbePosition": [
+            0,
+            0,
+            0
+        ],
+        "NavMeshDesignOptions": "/EE/Types/Darkitect/RecastAutoBridgeNavMeshDesignOptions",
+        "MultiNavMeshes": [
+            "TWWMountainPeakHub/NavMesh0.nav",
+            "TWWMountainPeakHub/NavMesh1.nav"
+        ],
+        "MultiTacMaps": [
+            "TWWMountainPeakHub/TacMap0.tmf",
+            "TWWMountainPeakHub/TacMap1.tmf"
+        ],
+        "MultiCoverZones": [
+            "TWWMountainPeakHub/0.cvr",
+            "TWWMountainPeakHub/1.cvr"
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "ReplicationOverride": "RO_NEVER",
+        "DetailLevel": "PQ_MEDIUM",
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "LifeSpan": 0,
+        "SleepOffscreen": 0,
+        "Life": [
+            0.5,
+            1.5
+        ],
+        "Size": [
+            0.1,
+            0.40000001
+        ],
+        "Aspect": [
+            0.80000001,
+            1.2
+        ],
+        "SpewCount": [
+            220,
+            220
+        ],
+        "Shape": "SH_SPIN_SPRITE",
+        "Material": "/Lotus/Fx/Destruction/MetalChunks",
+        "ColorMin": [
+            89,
+            92,
+            94,
+            255
+        ],
+        "ColorMax": [
+            140,
+            140,
+            140,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.5,
+            0.5
+        ],
+        "FadeInOut": [
+            0,
+            0.80000001
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleDev": 1,
+        "NozzleBox": [
+            6,
+            6,
+            0
+        ],
+        "NozzleSize": 0.5,
+        "Speed": [
+            12,
+            45
+        ],
+        "Drag": 1,
+        "Mass": [
+            1,
+            1
+        ]
+    }
+}

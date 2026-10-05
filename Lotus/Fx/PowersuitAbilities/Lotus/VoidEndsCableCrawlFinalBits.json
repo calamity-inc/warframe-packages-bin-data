@@ -1,0 +1,107 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "ApplyColorCustomization": 1,
+        "HasLifeSpan": 0,
+        "AlwaysRespectParentVisibility": 1,
+        "Life": [
+            0.30000001,
+            0.85000002
+        ],
+        "Size": [
+            0.025,
+            0.064999998
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": -0.0109376
+                },
+                {
+                    "Time": 0.083739802,
+                    "Value": 1.006289
+                },
+                {
+                    "Time": 0.63252002,
+                    "Value": 0.795313
+                },
+                {
+                    "Time": 1,
+                    "Value": -0.0062500001
+                }
+            ]
+        },
+        "EmissionTime": [
+            5,
+            5
+        ],
+        "DecayRegenByEmission": 1,
+        "InitialCount": [
+            10,
+            10
+        ],
+        "SpewCount": [
+            350,
+            350
+        ],
+        "Shape": "SH_SPIN_SPRITE",
+        "Material": "VoidsEndCableCrawlDarkBitsMat",
+        "RandomStartFrame": 1,
+        "ColorMax": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.1,
+            0.11
+        ],
+        "SpinByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 2
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "FadeInOut": [
+            0,
+            1
+        ],
+        "Nozzle": "SPHERE",
+        "UseRootForParent": 0,
+        "NozzleMeshScale": [
+            0.0099999998,
+            0.0099999998,
+            0.0099999998
+        ],
+        "NozzleSize": 0.0099999998,
+        "Speed": [
+            0,
+            3
+        ],
+        "Drag": 3,
+        "Mass": [
+            0,
+            0.5
+        ],
+        "FlowVolume": "/EE/Types/GraphicsRes/DefaultFlowVolume",
+        "FlowScale": [
+            0,
+            0,
+            0
+        ]
+    }
+}

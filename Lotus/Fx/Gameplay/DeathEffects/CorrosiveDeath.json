@@ -1,28 +1,6 @@
 {
     "parent": "/EE/Types/Effects/Spawner",
     "data": {
-        "ScriptInstance": {
-            "Script": "/Lotus/Scripts/Effects/ExplosionDeath.lua",
-            "Function": "DissolveTheEnemy",
-            "_pFX": [],
-            "_decoFx": [],
-            "_timeLength": 2.5,
-            "_effectsToRemove": [
-                "/Lotus/Fx/Enemies/GrineerDeathLeadUp",
-                "/Lotus/Fx/Enemies/GrineerVIPDeathLeadUp"
-            ],
-            "_cloakScale": 25,
-            "_radialCloak": 0,
-            "_isCinematic": 0,
-            "_cinematicColor": [
-                246,
-                104,
-                0,
-                255
-            ],
-            "_useDither": 1
-        },
-        "ReplicaRunScriptInstance": 1,
         "CreatedTypes": [
             {
                 "Type": "CorrosiveDeathGoreProj",

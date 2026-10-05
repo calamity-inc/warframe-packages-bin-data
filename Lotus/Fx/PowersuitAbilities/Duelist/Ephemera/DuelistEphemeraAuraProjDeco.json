@@ -1,0 +1,25 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "DuelistEphemeraAuraProj_skel.fbx",
+        "OverrideMaterial": [
+            "DuelistEphemeraSkelProjMat",
+            "DuelistEphemeraGlitterMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": 0,
+                "value": 0.75
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": 1,
+                "value": 0.30000001
+            }
+        ],
+        "UseParentAnimState": 1
+    }
+}

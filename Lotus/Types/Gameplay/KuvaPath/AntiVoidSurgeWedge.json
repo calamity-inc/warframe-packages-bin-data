@@ -1,0 +1,38 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "Mesh": "/Lotus/Objects/Tenno/Props/TnoFloorMedallionQuarter.fbx",
+        "MeshScale": 2,
+        "OverrideMaterial": [
+            "/EE/Materials/Basic/Red"
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Fx/Icebalde/IceQuadrandsEdgesDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "",
+        "Tag": "AntiVoidSurgeWedge",
+        "ReplicationOverride": "RO_NEVER",
+        "RemoveOnDestroy": 1
+    }
+}

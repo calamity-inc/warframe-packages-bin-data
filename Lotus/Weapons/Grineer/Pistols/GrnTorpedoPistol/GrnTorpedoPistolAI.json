@@ -79,6 +79,7 @@
                             "onlyFireAboveMinRangeMultiplier": 0,
                             "aimAtPart": "TORSO",
                             "aimAtClosestPart": 0,
+                            "lockAimOnFullCharge": 0,
                             "firingPreferences": {
                                 "firingType": "FT_BURST",
                                 "burstTime": [
@@ -109,6 +110,7 @@
                         "hitSpreadMultiplier": 0
                     },
                     "IgnoreFireIterations": 0,
+                    "IgnoreOwner": 1,
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
@@ -138,7 +140,9 @@
                         "LockOnPart": "ANY_PART",
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
-                        "LockOnIgnoreEndPointTarget": 0
+                        "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
+                        "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "",
                     "AIMED_ACCURACY": "",
@@ -176,6 +180,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "GrnTorpedoProjectileAI",
@@ -227,6 +233,7 @@
                     "ApplyFlightSpeedToLaunchImpulse": 0,
                     "FallbackAgentTargetting": 1,
                     "MultishotAmmoSpread": 0,
+                    "UseMultishotLineSpread": 0,
                     "ChargedProjectileMinSpeed": -1,
                     "ChargedProjectileMaxSpeed": -1,
                     "ProjectileChargeScale": [
@@ -234,6 +241,7 @@
                         1
                     ],
                     "SetProjectileTargetForLockOn": 0,
+                    "MultiTargetLock": 0,
                     "MultiShotProjectileType": "",
                     "MultiShotChargedProjectileType": "",
                     "PvpProjectileType": "",
@@ -301,6 +309,7 @@
                         "ProcChance": 0.1,
                         "ForcedProcs": [],
                         "ForcedDeathProcs": [],
+                        "ForcedProcCount": 1,
                         "HitType": "DHT_NONE",
                         "ProcExtraTime": 0
                     },
@@ -309,6 +318,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -361,7 +371,8 @@
                     },
                     "UseNextShotDamageBonus": 1,
                     "IgnoreHeadshotBonus": 0,
-                    "IgnoreHeadshotBonusPvp": 0
+                    "IgnoreHeadshotBonusPvp": 0,
+                    "AlwaysOverrideFiringAvatar": 0
                 },
                 "state:Type": "/Lotus/Types/Weapon/RemoteMineStateBehavior",
                 "state:RemoteMineStateBehavior": {
@@ -376,9 +387,12 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
+                    "PrefireTime": 0,
+                    "ShareFireRateWithPrefire": 0,
                     "ShouldAutoPreFireToFire": 0,
                     "SkipRefireOnEmpty": 0,
                     "QueueReloadOnEmptyClip": 0,
@@ -396,6 +410,8 @@
                     "PreventRunDuringModeSwitch": 1,
                     "UseReloadTimeBetweenShots": 0,
                     "OnlyGiveAmmoOnReloadCompleteEvent": 0,
+                    "CanInterruptModeSwitch": 0,
+                    "NeedsLockOnTargets": 0,
                     "IsAlternateFire": 0,
                     "LocTag": "/Lotus/Language/Menu/Loadout_TriggerActivated",
                     "BehaviorTag": "",
@@ -414,11 +430,19 @@
                     "OnNewProjectileScript": {
                         "Script": ""
                     },
-                    "ResetRefireWhenActiveProjectiles": 1,
                     "IsAutomatic": 0,
+                    "AccessibilityTrigger": 0,
+                    "ResetRefireWhenActiveProjectiles": 1,
+                    "DetonateManually": 1,
                     "FireDetonatesActiveProjectiles": 0,
+                    "DetonateOnReload": 0,
+                    "AllowReloadDetonateWithFullClip": 0,
+                    "AutoDetonateCapacity": 0,
+                    "ReplicateDetonate": 0,
+                    "RecallProjectiles": 0,
                     "PostExplosionZoomDelay": 0.5,
-                    "DestroyDelay": 0.050000001
+                    "DestroyDelay": 0.050000001,
+                    "RecallBones": []
                 }
             }
         ],

@@ -1,0 +1,26 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
+    "data": {
+        "LocalizeTag": "[HC] ToastyToesVariableItem",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "Icon": "/Lotus/Interface/Icons/ModBuffIndicators/Conquest/Knifestep.png",
+        "Script": {
+            "Script": "/Lotus/Scripts/KuvaPath/KuvaPathPersonalModifiers.lua",
+            "Function": "ActivateToastyToes",
+            "_prefix": "",
+            "_shieldType": "",
+            "_grabEffect": "",
+            "_knockdownTriggerType": "",
+            "_beamType": "",
+            "_baseDmgPerSec": 10,
+            "_snakeWispType": "",
+            "_spotlightType": "",
+            "_shieldRestorePercent": 0.050000001,
+            "_staticSiphonBeamType": "",
+            "_grenadeType": "",
+            "_damageMultiplier": 2,
+            "_grenadeDamageRadius": 5,
+            "_spikeType": ""
+        }
+    }
+}

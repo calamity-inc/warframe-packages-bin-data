@@ -1,0 +1,45 @@
+{
+    "parent": "/EE/Types/Sound/DspEffect",
+    "data": {
+        "Params": {
+            "Stages": [
+                {
+                    "enabled": 0,
+                    "mix": 0.2,
+                    "type": "DSP_FLANGER",
+                    "flanger": {
+                        "paramSweepRate": 0,
+                        "paramWidth": 0.28493199,
+                        "paramFeedback": 0,
+                        "paramDelay": 0.2,
+                        "paramMixMode": 0
+                    }
+                },
+                {
+                    "enabled": 0,
+                    "mix": 0.2,
+                    "type": "DSP_DELAY",
+                    "delay": {
+                        "delayTimeSec": 0,
+                        "delayTime": 0.40000001,
+                        "feedback": 0.2
+                    }
+                },
+                {
+                    "enabled": 1,
+                    "mix": 0.31999999,
+                    "type": "DSP_DELAY",
+                    "delay": {
+                        "delayTimeSec": 0,
+                        "delayTime": 0.423935,
+                        "feedback": 0.23103499
+                    }
+                }
+            ]
+        },
+        "Gain": [
+            1.5,
+            1.5
+        ]
+    }
+}

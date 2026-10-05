@@ -1,0 +1,50 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "DepthSortBias": 30,
+        "DeadParentInheritanceRule": "INHERIT",
+        "ReplicationOverride": "RO_NEVER",
+        "Material": "ErisImpactAttachSpotProjMat",
+        "UseAttachRoot": 0,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 6,
+                "Multiplier": 4,
+                "FadeRange": [
+                    0.1,
+                    0.2
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 1,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "impactPointt",
+                "TimeLength": 1,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 0,
+                "IsWorldPosUpdate": 1,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

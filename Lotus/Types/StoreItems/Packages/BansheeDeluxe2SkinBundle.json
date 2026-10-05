@@ -1,0 +1,53 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/PackageStoreItem",
+    "data": {
+        "ProductCategory": "Packages",
+        "LocalizeTag": "/Lotus/Language/Bundles/BansheeDeluxe2SkinBundleName",
+        "LocalizeDescTag": "/Lotus/Language/Bundles/BansheeDeluxe2SkinBundleDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/WarframeBundles/BansheeDeluxe2Bundle.png",
+        "Diorama": "/Lotus/Levels/Episodes/MarketBundleKuvaIcebladeBansheeDeluxe.level",
+        "DateAddedToManifest": 1790215200,
+        "FeaturedTexture": "/Lotus/Interface/Graphics/Store/Banners/BansheeDeluxe2Bundle.png",
+        "ExcludeFromCodex": 0,
+        "PackageComponents": [
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Decree/BansheeDeluxeBSkin",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Skins/BansheeDlxSentSkin",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Masks/BansheeDlxSentMask",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Wings/BansheeDlxSentWings",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Tails/BansheeDlxSentTail",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/BansheeDeluxeGlyph",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            }
+        ],
+        "AutoCalcPrices": 0,
+        "PremiumPrice": 245
+    }
+}

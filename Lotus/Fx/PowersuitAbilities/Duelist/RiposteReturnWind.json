@@ -1,0 +1,28 @@
+{
+    "parent": "/EE/Types/Effects/Wind",
+    "data": {
+        "Radius": 20,
+        "Force": [
+            -128,
+            -128
+        ],
+        "LifeSpan": 1,
+        "ForceCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.56336999
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.92651302
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.100858
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        }
+    }
+}

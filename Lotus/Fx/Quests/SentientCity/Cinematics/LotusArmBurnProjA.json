@@ -1,0 +1,62 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "UseLightProbes": 1,
+        "DepthSortBias": 15,
+        "Material": "LotusArmBurnProjAMat",
+        "NearPlane": 0,
+        "UseAttachRoot": 0,
+        "OnlyAttachToTheseChildTypes": [
+            "/Lotus/Characters/Tenno/Lotus/LotusBodyOnlyDeco"
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 0.1,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 1,
+                "DestroyWhenComplete": 0,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "EmissiveAttenuation",
+                "TimeLength": 10,
+                "Multiplier": 8,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 26,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 0,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "UseDitherDissolve": 1,
+        "AddToDeferredDecalBuffer": 1,
+        "TexturesToCopy": [
+            {
+                "TextureNameFromParent": "NormalMap",
+                "TextureNameToCopyTo": "RootNormalMap",
+                "CopyToDissolveOverride": 0
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "parent": "LabConquestVariableItem",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Conquest/PersonalMod_NoPets",
+        "LocalizeDescTag": "/Lotus/Language/Conquest/PersonalMod_NoPets_Desc",
+        "Script": {
+            "Script": "/Lotus/Scripts/Gameplay/HexConquestModifiers.lua",
+            "Function": "DisableSentinelForAvatar",
+            "_overguardGainReduction": 0.75,
+            "_energyReductionMultiplier": 0.75,
+            "_healthMult": 0.98500001,
+            "_healthRestorePercent": 0.029999999,
+            "_healthRestoretime": 12,
+            "_voidImplosionScriptTrigger": ""
+        }
+    }
+}

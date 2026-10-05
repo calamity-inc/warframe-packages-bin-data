@@ -1,0 +1,17 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "BakeShadowsOnLightMaps": 0,
+        "Mesh": "/Lotus/Objects/Orokin/Props/OroCoverLightD.fbx",
+        "CullDistance": 80,
+        "MotionBlurred": 1,
+        "PhysicsBehavior": "/EE/Types/Physics/Kinematic",
+        "AllowMantle": 0,
+        "Health": 5,
+        "DestroyedMesh": "Chunks/OroCoverLightDChunkA.fbx",
+        "MasterCreateOnDestroy": {
+            "Type": "Spawners/OroCoverLightDDestructibleSpawner"
+        },
+        "TrackDamage": 0
+    }
+}

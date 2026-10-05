@@ -1,9 +1,13 @@
 {
-    "parent": "/EE/Types/Actions/ReplicatedHitSwitch",
+    "parent": "/Lotus/Types/Game/GrappleAction",
     "data": {
+        "RiftStatus": "RS_OUT_RIFT",
+        "Action": "HIT_SWITCH",
         "ActionText": " ",
         "FacingAngle": 180,
+        "MoveToLaunchPosition": 1,
         "HudIndicatorDiegetic": 0,
-        "HudIndicatorProjection": 1
+        "HudIndicatorProjection": 1,
+        "SweepForLandPos": 0
     }
 }

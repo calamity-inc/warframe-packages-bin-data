@@ -1,0 +1,211 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDamageController",
+    "data": {
+        "HitProxies": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/EE/Types/Physics/FullBody",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "GenerateCapsuleShadows": 0,
+        "HideOnExplodeDeath": 0,
+        "RejectSelfDamage": 1,
+        "SelfDamageMultiplier": 0,
+        "HeadShotEffect": {
+            "Type": "/Lotus/Fx/HitSpangs/FPHitSpangFleshSparks"
+        },
+        "ReplicaCreatedOnDeath": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_SPINE2",
+                "Type": "/Lotus/Fx/Enemies/Sentients/SentientDeathFXHigh",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "CreateOnDestroy": {
+            "LocalPosition": [
+                0,
+                1,
+                0
+            ],
+            "Attach": 0,
+            "DestroyWithOwner": 0
+        },
+        "DestroyCorpseTime": 0.02,
+        "PreDeathHealthDrain": 0,
+        "InvulnerableInPreDeath": 1,
+        "GetUpFromPreDeathHealth": 2,
+        "PreDeathChance": 1,
+        "CanSlice": 0,
+        "MultipleSliceChance": 75,
+        "SeverBodyChance": 100,
+        "BoneHead": "GAME_C1_HEAD1",
+        "BoneNeck": "GAME_C1_NECK2",
+        "BoneSpine": "GAME_C1_SPINE1",
+        "BonePelvis": "GAME_C1_HIP1",
+        "BoneArmL": "GAME_L1_ARM1",
+        "BoneWristL": "GAME_L1_ARM2",
+        "BoneThighL": "GAME_L1_LEG1",
+        "BoneShinL": "GAME_L1_LEG2",
+        "BoneArmR": "GAME_R1_ARM1",
+        "BoneWristR": "GAME_R1_ARM2",
+        "BoneThighR": "GAME_R1_LEG1",
+        "BoneShinR": "GAME_R1_LEG2",
+        "InjuryHandlersEx": {
+            "PT_KNOCKBACK": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusImpactDamageProc",
+            "PT_FRAILTY": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusPunctureDamageProc",
+            "PT_BLEEDING": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusSlashDamageProc",
+            "PT_IMMOLATION": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusFireDamageProc",
+            "PT_CHILLED": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusFreezeDamageProc",
+            "PT_ELECTROCUTION": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusElectricityDamageProc",
+            "PT_POISONED": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusPoisonDamageProc",
+            "PT_FLASHBANG": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusExplosionDamageProc",
+            "PT_RAD_TOX": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusRadiationDamageProc",
+            "PT_ASPHYXIATION": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusGasDamageProc",
+            "PT_MAGNETIZED": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusMagneticDamageProc",
+            "PT_INFECTED": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusViralDamageProc",
+            "PT_CAUSTIC_BURN": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusCorrosiveDamageProc",
+            "PT_RADIANT": "/Lotus/Types/Game/InjuryHandlers/BaseEnemyRadiantDamageProc",
+            "PT_STAGGERED": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusStaggeredInjuryHandler",
+            "PT_STUNNED": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusStunnedInjuryHandler",
+            "PT_KNOCKED_DOWN": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusKnockdownInjuryHandler",
+            "PT_RAGDOLL": "/Lotus/Types/Enemies/Corpus/InjuryHandlers/CorpusRagdollInjuryHandler",
+            "PT_SLEEP": "/Lotus/Types/Enemies/Corpus/Spaceman/Avatars/SpacemanSleepProc"
+        },
+        "PreDeathHandler": "/Lotus/Types/Game/InjuryHandlers/LotusPreDeathHandler",
+        "MaxShield": 450,
+        "ShieldRechargeRate": 0,
+        "ShieldRechargePercent": 0.25,
+        "ShieldAuraAutoChild": {
+            "Type": "/Lotus/Fx/Projectors/ShieldAuraProjector"
+        },
+        "EnableShieldGating": 1,
+        "ArmourRating": 50,
+        "FrozenEffects": {
+            "FROZEN_ICE": {
+                "FrozenDamageDeformers": [
+                    {
+                        "SeveredBones": [
+                            {
+                                "boneName": "GAME_L1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_L1_ARM1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_ARM1",
+                                "probability": 0.30000001
+                            }
+                        ],
+                        "LocalPosition": [
+                            0,
+                            1.2,
+                            0
+                        ],
+                        "RagdollScene": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystRagdoll"
+                    }
+                ]
+            },
+            "FROZEN_STONE": {
+                "FrozenDamageDeformers": [
+                    {
+                        "SeveredBones": [
+                            {
+                                "boneName": "GAME_L1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_L1_ARM1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_ARM1",
+                                "probability": 0.30000001
+                            }
+                        ],
+                        "LocalPosition": [
+                            0,
+                            1.2,
+                            0
+                        ],
+                        "RagdollScene": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystRagdoll"
+                    }
+                ]
+            },
+            "FROZEN_GLASS": {
+                "FrozenDamageDeformers": [
+                    {
+                        "SeveredBones": [
+                            {
+                                "boneName": "GAME_L1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_L1_ARM1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_ARM1",
+                                "probability": 0.30000001
+                            }
+                        ],
+                        "LocalPosition": [
+                            0,
+                            1.2,
+                            0
+                        ],
+                        "RagdollScene": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystRagdoll"
+                    }
+                ]
+            }
+        }
+    }
+}

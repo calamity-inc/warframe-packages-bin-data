@@ -22,10 +22,7 @@
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/Effects/ExplosionDeath.lua",
             "Function": "ColorWithInjuryWeapon",
-            "_pFX": [],
-            "_decoFx": [],
             "_timeLength": 1.25,
-            "_effectsToRemove": [],
             "_cloakScale": 50,
             "_radialCloak": 0,
             "_isCinematic": 0,
@@ -39,7 +36,6 @@
         },
         "ReplicaRunScriptInstance": 1,
         "DetailLevel": "PQ_MEDIUM",
-        "ApplyColorCustomization": 1,
         "HasLifeSpan": 0,
         "AutoKill": 1,
         "LifeSpan": 8,
@@ -48,14 +44,14 @@
             0.80000001
         ],
         "Size": [
-            0.30000001,
-            0.44999999
+            0.5,
+            0.60000002
         ],
         "SizeByLife": {
             "Values": [
                 {
                     "Time": 0,
-                    "Value": 0.5
+                    "Value": 1
                 },
                 {
                     "Time": 1,
@@ -64,17 +60,17 @@
             ]
         },
         "Aspect": [
-            0.80000001,
+            1,
             1.2
         ],
         "EmissionTime": [
-            1.5,
-            1.5
+            3,
+            3
         ],
         "DecayRegenByEmission": 1,
         "SpewCount": [
-            24,
-            24
+            32,
+            32
         ],
         "Material": "/Lotus/Fx/Weapons/Grineer/GrineerExplosionGooEnergyColor",
         "AnimateTiles": 1,
@@ -111,21 +107,6 @@
         ],
         "Nozzle": "PARENT_SKELETON",
         "NozzleDev": 0.5,
-        "SkeletalBoneMask": [
-            "GAME_C1_SPINE1",
-            "GAME_C1_SPINE2",
-            "GAME_C1_SPINE3",
-            "GAME_C1_NECK1",
-            "GAME_R1_ARM1",
-            "GAME_R1_ARM2",
-            "GAME_L1_ARM1",
-            "GAME_L1_ARM2",
-            "GAME_L1_LEG1",
-            "GAME_R1_LEG1",
-            "GAME_L1_LEG2",
-            "GAME_R1_LEG2"
-        ],
-        "InvertSkeletalMask": 1,
         "Speed": [
             0,
             0.5

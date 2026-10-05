@@ -2,19 +2,16 @@
     "parent": "/EE/Types/Engine/Decoration",
     "data": {
         "UseLightMap": 0,
-        "Mesh": "/Lotus/Fx/Enemies/Corpus/Nullifier/NullifierShieldCollision.fbx",
         "MeshScale": 1.5,
         "UseOcclusionQuery": 0,
         "Dissolve": 1,
         "DeadParentInheritanceRule": "NONE",
-        "PhysicsBehavior": "/EE/Types/Physics/KinematicNonCollidableRaycastable",
+        "PhysicsBehavior": "",
         "IgnoreParentRotation": 1,
         "Tag": "EffectsDeco",
         "ReplicationOverride": "RO_ALWAYS",
         "ReplicateCreator": 1,
         "Health": 1000000,
-        "Redirector": 1,
-        "PreventPunchthrough": 1,
         "RemoveOnDestroy": 1,
         "ModifyDamageScript": {
             "Script": "/Lotus/Scripts/NPC/NullifyDome.lua",
@@ -35,6 +32,7 @@
             "_createFx": "",
             "_destroyFx": "",
             "_collisionType": "",
+            "_proxyType": "",
             "_scriptTriggerType": "",
             "_attachedSoundType": "",
             "_notCreated": 0,
@@ -107,6 +105,7 @@
             "_createFx": "",
             "_destroyFx": "",
             "_collisionType": "",
+            "_proxyType": "",
             "_scriptTriggerType": "",
             "_attachedSoundType": "",
             "_notCreated": 0,
@@ -165,6 +164,7 @@
             "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/ExaltedArtilleryWeapon"
         ],
         "IgnoreDamageFromCreatorFaction": 1,
+        "IgnoreDamageFromParentFaction": 1,
         "AcceptsHitEffects": 0
     }
 }

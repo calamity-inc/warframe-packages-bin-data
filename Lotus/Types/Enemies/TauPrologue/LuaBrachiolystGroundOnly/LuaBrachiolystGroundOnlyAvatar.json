@@ -1,0 +1,155 @@
+{
+    "parent": "/Lotus/Types/Game/LotusNpcAvatar",
+    "data": {
+        "Mesh": "/Lotus/Characters/Sentient/Brachiolyst/Brachiolyst_skel.fbx",
+        "MeshScale": 1.25,
+        "AnimationName": "Guild",
+        "AnimRetarget": "/Lotus/Types/Enemies/Corpus/Spaceman/Avatars/TennoToCorpus",
+        "PhysicsBehavior": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystWalkPhysicsBehavior",
+        "ScriptInstance": {
+            "Script": "DemoBrachLand.lua",
+            "Function": "LandTheBrach"
+        },
+        "EyeOffset": [
+            0,
+            1.2,
+            0
+        ],
+        "HeadBone": "GAME_C1_HEAD",
+        "WeaponBone": "GAME_C1_BODYTOP1",
+        "CrouchOffset": [
+            0,
+            1.1,
+            0
+        ],
+        "Faction": "Sentient",
+        "LocTag": "/Lotus/Language/Enemies/SentientBrachiolystName",
+        "ShortDesc": "/Lotus/Language/Enemies/SentientBrachiolystDesc",
+        "Icon": "/Lotus/Interface/Icons/Npcs/Sentients/Brachiolyst.png",
+        "MaxHealth": 300,
+        "VoiceBox": "/Lotus/Sounds/Enemies/Sentients/Brachiolyst/Barks/SentientBrachiolystVoiceBox",
+        "SimplifiedForHub": 1,
+        "AgentControllerType": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/GrineerAgentController",
+        "AnimControllerType": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystGroundAnimTreeController",
+        "CameraControllerType": "/EE/Types/DefaultAvatar/DefaultCamera",
+        "WallSlideControllerType": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/GrineerWallSlideController",
+        "DamageControllerType": "LuaGroundOnlyBrachiolystDamageController",
+        "InputControllerType": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/GrineerInputController",
+        "InventoryControllerType": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystInventoryControl",
+        "MotionControllerType": "LuaBrachiolystGroundOnlyMotionController",
+        "RaycastProxy": {
+            "LocalPosition": [
+                0,
+                0,
+                0
+            ],
+            "BoneName": "GAME_C1_BODYLO2",
+            "Type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystFullBody"
+        },
+        "CollisionProxy": {
+            "BoneName": "GAME_C1_BODYTOP1"
+        },
+        "OnPreDeathScript": {
+            "Script": "/Lotus/Scripts/Sentient/SentientCommon.lua",
+            "Function": "OnPreDeath",
+            "_attachmentsOnPreDeath": [],
+            "_attachmentsBones": [],
+            "_attachmentsOffset": [],
+            "_attachmantDestroyedOnPredeath": "/Lotus/Fx/Enemies/Sentients/SentientSparkDeco",
+            "_materialApplied": []
+        },
+        "OnDeathScript": {
+            "Script": "/Lotus/Scripts/Effects/AttachFX.lua",
+            "Function": "KillThisAttachedToParent",
+            "_typeToKill": "/Lotus/Fx/Enemies/Corpus/SpaceJetpack/VenusThrusterJetsSpawner",
+            "_typesToKill": [],
+            "_typeToAttach": "",
+            "_attachToThis": "",
+            "_attachToArray": [],
+            "_isAttachedToThis": "",
+            "_isAttachedToThisArray": [],
+            "_attachPos": [
+                0,
+                0,
+                0
+            ],
+            "_attachRot": [
+                0,
+                0,
+                0
+            ],
+            "_delay": 0,
+            "_attachmentType": "",
+            "_isEnable": 1,
+            "_bone": "",
+            "_newMesh": "",
+            "_masterOnly": 1,
+            "_stopSpewing": 0,
+            "_destrySelfIfNotLocal": 0,
+            "_positionBoneOffset": 0,
+            "_positionBonelessOffset": 0,
+            "_beamAttachBones": [],
+            "_beamEndBones": []
+        },
+        "FacialMorphScript": {
+            "Script": "/Lotus/Scripts/NPC/FacialMorph.lua",
+            "Function": "OnMorphChangeRequested",
+            "_autoRemovePainMorph": 1
+        },
+        "FacialMorphHeadAttachmentType": "/Lotus/Characters/Grineer/Marine/GrineerHeadMorphsDeco",
+        "MorphName:ALERT": "Morphs.Alert",
+        "MorphName:RAGE": "Morphs.Rage",
+        "MorphName:FEAR": "Morphs.Fear",
+        "MorphName:DEAD": "Morphs.Dead",
+        "MorphName:SMUG": "Morphs.Smug",
+        "MorphName:PAIN": "Morphs.Pain",
+        "SoundEvents": [
+            {
+                "EventName": "SFXBracFireCharge",
+                "Sound": "/Lotus/Sounds/Enemies/TauCitySentients/Brachiolyst/Abilities/TscBrachiolystProjCharge",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXBracFire",
+                "Sound": "/Lotus/Sounds/Enemies/TauCitySentients/Brachiolyst/Abilities/TscBrachiolystProjFire",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            }
+        ],
+        "ParticleEvents": [
+            {
+                "EventName": "DivebombHit",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Explosions/Generic/ExplosionFXAlienSmall",
+                "Attached": 0,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            }
+        ],
+        "KillXPReward": 300,
+        "AiDirEncounterScore": 100,
+        "AbilityResistanceData": "/Lotus/Types/Game/LotusAbilityResistanceDatas/AbilityResistanceDataResistTime",
+        "FactionResistanceKeyword": "RK_SENTIENT_FACTION",
+        "DisarmAction": "DA_DAMAGE_ONLY",
+        "ReactionAnims": "/Lotus/Types/Game/ReactionAnims/SentientBrachiolystReactionAnims",
+        "DisarmWeapon": "/Lotus/Weapons/Sentients/TauFornax/TscBrachiolystMeleeWeapon"
+    }
+}

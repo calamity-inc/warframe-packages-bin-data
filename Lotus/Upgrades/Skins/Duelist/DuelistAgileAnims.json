@@ -1,0 +1,19 @@
+{
+    "parent": "/Lotus/Types/Game/LotusWarframeCustomization",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Cosmetics/DuelistAgileAnims",
+        "LocalizeDescTag": "/Lotus/Language/Cosmetics/DuelistAgileAnimsDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/NarinAgile.png",
+        "AlwaysAvailable": 1,
+        "AvailableOnPvp": 1,
+        "Weapon": "/Lotus/Powersuits/Duelist/DuelistBaseSuit",
+        "CompatibleSlots": [
+            "AnimationSet"
+        ],
+        "AnimationSubTrees": {
+            "PRN_IDLE_OVERRIDE": "/Lotus/Types/Player/Animation/WarframeAnimTrees/DuelistAgileIdleSubTree.animtree"
+        },
+        "GenericCompatible": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
+        "GenericRequirement": "UnlockDuelistAgile"
+    }
+}

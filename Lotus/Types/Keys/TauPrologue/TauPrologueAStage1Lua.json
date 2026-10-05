@@ -1,0 +1,26 @@
+{
+    "parent": "/Lotus/Types/Game/KeyItem",
+    "data": {
+        "PurchaseQuantity": 666,
+        "ProductCategory": "LevelKeys",
+        "LocalizeTag": "/Lotus/Language/TauPrologue/QuestPartAStage2",
+        "Icon": "/Lotus/Interface/Icons/Npcs/DuviriWraithMelee.png",
+        "Mission": {
+            "missionType": "MT_ANY",
+            "faction": "FC_SENTIENT",
+            "gameRules": "/Lotus/Types/GameRules/LotusGameRules",
+            "uniqueName": "/Lotus/Language/TauPrologue/QuestPartAStage2",
+            "difficulty": 0,
+            "location": "SolNode716",
+            "levelOverride": "/Lotus/Levels/Proc/TauPrologue/QuestLuaPendulaTauPrologue",
+            "loadingScreenOverride": "/Lotus/Levels/Episodes/SmallBlackRoom.level",
+            "minSpaceEnemyLevel": 50,
+            "maxSpaceEnemyLevel": 60,
+            "soloMode": 1,
+            "goalTag": "TauPrologue",
+            "keyChainName": "TauPrologueKeyChainA"
+        },
+        "RegionIdx": 17,
+        "Node": "SolNode716"
+    }
+}

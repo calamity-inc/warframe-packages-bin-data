@@ -14,6 +14,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "AUGMENT_ONE",
                 "UpgradeObject": "Abilities/KrakenAbility",
                 "ValidPostures": [],
@@ -60,15 +61,16 @@
                     "_tentacleEmptyIdleAnim": "",
                     "_isNpcAbility": 0,
                     "_chanceToPlayPickupBark": 0.25,
-                    "_tentaclePickupBark": "VoiceBox_DEATH",
+                    "_tentaclePickupBark": "VoiceBoxPhrase_DEATH",
                     "_grabbedBarkIntervalMin": 1,
                     "_grabbedBarkIntervalMax": 3,
-                    "_grabbedPainBark": "VoiceBox_PAIN",
+                    "_grabbedPainBark": "VoiceBoxPhrase_PAIN",
                     "_puddleSeq": ""
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "ArtifactPolarity": "AP_POWER",

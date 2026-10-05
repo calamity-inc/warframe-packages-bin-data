@@ -1,0 +1,570 @@
+{
+    "parent": "/Lotus/Music/DynamicMusic/Infested/InfestedOne/InfestedOneMusicSequencer",
+    "data": {
+        "TransitionArray": [],
+        "DefaultTransition": {
+            "CrossFadeInTime": 4,
+            "CrossFadeInType": "CFT_EASE_IN"
+        },
+        "MusicQueries": [
+            {
+                "PresetName": "HeavyCombat",
+                "SingleTrack": "",
+                "MultiTrackMusic": "IcebladeOfNarinCmbtMultiTrackMusic",
+                "MixEffect": "/Lotus/Music/DynamicMusic/Entrati/SnapshotEntratiHeavyCombatMusic",
+                "InitialFaderPresets": [],
+                "FaderPresets": [
+                    0
+                ],
+                "RandomizeFaderTime": [
+                    45,
+                    60
+                ],
+                "Intensity": [
+                    0,
+                    100
+                ],
+                "AlertedAgents": [
+                    8,
+                    100
+                ],
+                "LocallyTargetingAgents": [
+                    0,
+                    100
+                ],
+                "TotalTargetingAgents": [
+                    0,
+                    100
+                ],
+                "PerformDistanceChecks": 1,
+                "NearbyAgents": [
+                    8,
+                    100
+                ],
+                "NearbyAgentState": "AS_ALERTED",
+                "NearbyAllyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyEnemyPlayers": [
+                    0,
+                    100
+                ],
+                "NearbyAllyPlayers": [
+                    0,
+                    100
+                ],
+                "NearnessThreshold": [
+                    0,
+                    50
+                ],
+                "DistanceToObjective": [
+                    0,
+                    0
+                ],
+                "ValidTimeInState": [
+                    0,
+                    0
+                ],
+                "MinReevalDelay": 1,
+                "MinTimePostStateFail": 3,
+                "ChanceToPlay": 1,
+                "ValidPreviousStates": [],
+                "VariableLinks": [],
+                "GameConditions": [],
+                "GameValueBindings": []
+            },
+            {
+                "PresetName": "MidCombat",
+                "SingleTrack": "",
+                "MultiTrackMusic": "IcebladeOfNarinCmbtMultiTrackMusic",
+                "MixEffect": "/Lotus/Music/DynamicMusic/Entrati/SnapshotEntratiLightCombatMusic",
+                "InitialFaderPresets": [],
+                "FaderPresets": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "RandomizeFaderTime": [
+                    45,
+                    60
+                ],
+                "Intensity": [
+                    0,
+                    100
+                ],
+                "AlertedAgents": [
+                    4,
+                    100
+                ],
+                "LocallyTargetingAgents": [
+                    0,
+                    100
+                ],
+                "TotalTargetingAgents": [
+                    0,
+                    100
+                ],
+                "PerformDistanceChecks": 1,
+                "NearbyAgents": [
+                    4,
+                    100
+                ],
+                "NearbyAgentState": "AS_ALERTED",
+                "NearbyAllyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyEnemyPlayers": [
+                    0,
+                    100
+                ],
+                "NearbyAllyPlayers": [
+                    0,
+                    100
+                ],
+                "NearnessThreshold": [
+                    0,
+                    50
+                ],
+                "DistanceToObjective": [
+                    0,
+                    0
+                ],
+                "ValidTimeInState": [
+                    0,
+                    0
+                ],
+                "MinReevalDelay": 1,
+                "MinTimePostStateFail": 3,
+                "ChanceToPlay": 1,
+                "ValidPreviousStates": [],
+                "VariableLinks": [],
+                "GameConditions": [],
+                "GameValueBindings": []
+            },
+            {
+                "PresetName": "LightCombat",
+                "SingleTrack": "",
+                "MultiTrackMusic": "IcebladeOfNarinCmbtMultiTrackMusic",
+                "MixEffect": "",
+                "InitialFaderPresets": [],
+                "FaderPresets": [
+                    3,
+                    4
+                ],
+                "RandomizeFaderTime": [
+                    45,
+                    60
+                ],
+                "Intensity": [
+                    0,
+                    100
+                ],
+                "AlertedAgents": [
+                    2,
+                    100
+                ],
+                "LocallyTargetingAgents": [
+                    0,
+                    100
+                ],
+                "TotalTargetingAgents": [
+                    0,
+                    100
+                ],
+                "PerformDistanceChecks": 1,
+                "NearbyAgents": [
+                    2,
+                    100
+                ],
+                "NearbyAgentState": "AS_ALERTED",
+                "NearbyAllyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyEnemyPlayers": [
+                    0,
+                    100
+                ],
+                "NearbyAllyPlayers": [
+                    0,
+                    100
+                ],
+                "NearnessThreshold": [
+                    0,
+                    50
+                ],
+                "DistanceToObjective": [
+                    0,
+                    0
+                ],
+                "ValidTimeInState": [
+                    0,
+                    0
+                ],
+                "MinReevalDelay": 1,
+                "MinTimePostStateFail": 3,
+                "ChanceToPlay": 1,
+                "ValidPreviousStates": [],
+                "VariableLinks": [],
+                "GameConditions": [],
+                "GameValueBindings": []
+            },
+            {
+                "PresetName": "LightCombatFallbackOneTargeting",
+                "SingleTrack": "",
+                "MultiTrackMusic": "IcebladeOfNarinCmbtMultiTrackMusic",
+                "MixEffect": "",
+                "InitialFaderPresets": [],
+                "FaderPresets": [
+                    3,
+                    4
+                ],
+                "RandomizeFaderTime": [
+                    45,
+                    60
+                ],
+                "Intensity": [
+                    0,
+                    100
+                ],
+                "AlertedAgents": [
+                    1,
+                    100
+                ],
+                "LocallyTargetingAgents": [
+                    0,
+                    100
+                ],
+                "TotalTargetingAgents": [
+                    0,
+                    100
+                ],
+                "PerformDistanceChecks": 1,
+                "NearbyAgents": [
+                    1,
+                    100
+                ],
+                "NearbyAgentState": "AS_ALERTED",
+                "NearbyAllyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyEnemyPlayers": [
+                    0,
+                    100
+                ],
+                "NearbyAllyPlayers": [
+                    0,
+                    100
+                ],
+                "NearnessThreshold": [
+                    0,
+                    50
+                ],
+                "DistanceToObjective": [
+                    0,
+                    0
+                ],
+                "ValidTimeInState": [
+                    0,
+                    0
+                ],
+                "MinReevalDelay": 1,
+                "MinTimePostStateFail": 3,
+                "ChanceToPlay": 1,
+                "ValidPreviousStates": [
+                    0,
+                    1,
+                    2
+                ],
+                "VariableLinks": [],
+                "GameConditions": [],
+                "GameValueBindings": []
+            },
+            {
+                "PresetName": "LightCombatFallback",
+                "SingleTrack": "",
+                "MultiTrackMusic": "IcebladeOfNarinCmbtMultiTrackMusic",
+                "MixEffect": "",
+                "InitialFaderPresets": [],
+                "FaderPresets": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "RandomizeFaderTime": [
+                    45,
+                    60
+                ],
+                "Intensity": [
+                    0,
+                    100
+                ],
+                "AlertedAgents": [
+                    1,
+                    100
+                ],
+                "LocallyTargetingAgents": [
+                    0,
+                    100
+                ],
+                "TotalTargetingAgents": [
+                    0,
+                    100
+                ],
+                "PerformDistanceChecks": 1,
+                "NearbyAgents": [
+                    1,
+                    100
+                ],
+                "NearbyAgentState": "AS_ALERTED",
+                "NearbyAllyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyEnemyPlayers": [
+                    0,
+                    100
+                ],
+                "NearbyAllyPlayers": [
+                    0,
+                    100
+                ],
+                "NearnessThreshold": [
+                    0,
+                    50
+                ],
+                "DistanceToObjective": [
+                    0,
+                    0
+                ],
+                "ValidTimeInState": [
+                    0,
+                    0
+                ],
+                "MinReevalDelay": 1,
+                "MinTimePostStateFail": 3,
+                "ChanceToPlay": 1,
+                "ValidPreviousStates": [
+                    3
+                ],
+                "VariableLinks": [],
+                "GameConditions": [],
+                "GameValueBindings": []
+            },
+            {
+                "PresetName": "GeneralAmbientFallback",
+                "SingleTrack": "",
+                "MultiTrackMusic": "IcebladeOfNarinCmbtMultiTrackMusic",
+                "MixEffect": "",
+                "InitialFaderPresets": [],
+                "FaderPresets": [
+                    5,
+                    6
+                ],
+                "RandomizeFaderTime": [
+                    45,
+                    60
+                ],
+                "Intensity": [
+                    0,
+                    100
+                ],
+                "AlertedAgents": [
+                    0,
+                    100
+                ],
+                "LocallyTargetingAgents": [
+                    0,
+                    100
+                ],
+                "TotalTargetingAgents": [
+                    0,
+                    100
+                ],
+                "PerformDistanceChecks": 0,
+                "NearbyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyAgentState": "AS_ANY",
+                "NearbyAllyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyEnemyPlayers": [
+                    0,
+                    100
+                ],
+                "NearbyAllyPlayers": [
+                    0,
+                    100
+                ],
+                "NearnessThreshold": [
+                    0,
+                    100
+                ],
+                "DistanceToObjective": [
+                    0,
+                    0
+                ],
+                "ValidTimeInState": [
+                    0,
+                    0
+                ],
+                "MinReevalDelay": 0,
+                "MinTimePostStateFail": 0,
+                "ChanceToPlay": 1,
+                "ValidPreviousStates": [
+                    5
+                ],
+                "VariableLinks": [],
+                "GameConditions": [],
+                "GameValueBindings": []
+            },
+            {
+                "PresetName": "GeneralAmbient",
+                "SingleTrack": "",
+                "MultiTrackMusic": "IcebladeOfNarinCmbtMultiTrackMusic",
+                "MixEffect": "",
+                "InitialFaderPresets": [],
+                "FaderPresets": [
+                    6
+                ],
+                "RandomizeFaderTime": [
+                    45,
+                    60
+                ],
+                "Intensity": [
+                    0,
+                    100
+                ],
+                "AlertedAgents": [
+                    0,
+                    100
+                ],
+                "LocallyTargetingAgents": [
+                    0,
+                    100
+                ],
+                "TotalTargetingAgents": [
+                    0,
+                    100
+                ],
+                "PerformDistanceChecks": 0,
+                "NearbyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyAgentState": "AS_ANY",
+                "NearbyAllyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyEnemyPlayers": [
+                    0,
+                    100
+                ],
+                "NearbyAllyPlayers": [
+                    0,
+                    100
+                ],
+                "NearnessThreshold": [
+                    0,
+                    100
+                ],
+                "DistanceToObjective": [
+                    0,
+                    0
+                ],
+                "ValidTimeInState": [
+                    0,
+                    0
+                ],
+                "MinReevalDelay": 0,
+                "MinTimePostStateFail": 0,
+                "ChanceToPlay": 1,
+                "ValidPreviousStates": [],
+                "VariableLinks": [],
+                "GameConditions": [],
+                "GameValueBindings": []
+            },
+            {
+                "PresetName": "TreasureRoom",
+                "SingleTrack": "",
+                "MultiTrackMusic": "IcebladeOfNarinCmbtMultiTrackMusic",
+                "MixEffect": "",
+                "InitialFaderPresets": [],
+                "FaderPresets": [
+                    7
+                ],
+                "RandomizeFaderTime": [
+                    0,
+                    0
+                ],
+                "Intensity": [
+                    0,
+                    100
+                ],
+                "AlertedAgents": [
+                    0,
+                    100
+                ],
+                "LocallyTargetingAgents": [
+                    0,
+                    100
+                ],
+                "TotalTargetingAgents": [
+                    0,
+                    100
+                ],
+                "PerformDistanceChecks": 0,
+                "NearbyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyAgentState": "AS_ANY",
+                "NearbyAllyAgents": [
+                    0,
+                    100
+                ],
+                "NearbyEnemyPlayers": [
+                    0,
+                    100
+                ],
+                "NearbyAllyPlayers": [
+                    0,
+                    100
+                ],
+                "NearnessThreshold": [
+                    0,
+                    100
+                ],
+                "DistanceToObjective": [
+                    0,
+                    0
+                ],
+                "ValidTimeInState": [
+                    0,
+                    0
+                ],
+                "MinReevalDelay": 0,
+                "MinTimePostStateFail": 0,
+                "ChanceToPlay": 1,
+                "ValidPreviousStates": [],
+                "VariableLinks": [],
+                "GameConditions": [],
+                "GameValueBindings": []
+            }
+        ],
+        "DistanceToEnemyLimits": [
+            0,
+            50
+        ],
+        "NumEnemyDistance": 50
+    }
+}

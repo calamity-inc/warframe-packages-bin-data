@@ -1,0 +1,80 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "UseTeamEffectsSetting": 1,
+        "SpawnRate": 2500,
+        "BoundsExpansionOverride": 6,
+        "fireOnce": 0,
+        "drag": 1,
+        "mass": [
+            -0.125,
+            0
+        ],
+        "life": [
+            0.125,
+            0.5
+        ],
+        "size": [
+            0.0125,
+            0.039999999
+        ],
+        "sizeByLifeMultiplier": [
+            1,
+            0.5,
+            0
+        ],
+        "velocity": [
+            2,
+            2
+        ],
+        "spawnShape": "SP_POINT_TEXTURE",
+        "velocityDeviation": [
+            0,
+            1
+        ],
+        "inheritVelocity": 0.125,
+        "spawnScale": [
+            0.125,
+            0.75,
+            0.125
+        ],
+        "pointTexture": "/Lotus/Characters/Tenno/Duelist/DuelistExaltedSword/DuelistExaltedSword_p.png",
+        "flowScale": [
+            1,
+            1,
+            5
+        ],
+        "flowForce": [
+            1,
+            1,
+            5
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSparksFadeClose",
+        "colorKeys[0]": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "colorKeys[1]": [
+            0.071999997,
+            0.44,
+            0.75,
+            1
+        ],
+        "colorKeys[2]": [
+            0.071999997,
+            0.44,
+            0.75,
+            1
+        ],
+        "colorKeys[3]": [
+            0.0076000001,
+            0.14,
+            0.28,
+            1
+        ],
+        "numColors": 3
+    }
+}

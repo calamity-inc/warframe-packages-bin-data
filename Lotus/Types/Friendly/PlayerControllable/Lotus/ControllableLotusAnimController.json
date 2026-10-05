@@ -1,0 +1,2454 @@
+{
+    "parent": "/Lotus/Types/Player/TennoAnimController",
+    "data": {
+        "AnimTree": "ControllableLotusTennoAnimTree.animtree",
+        "Actions": [
+            {
+                "Action": "RELOAD",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_RELOAD",
+                        "Value": ""
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_RELOAD",
+                        "Value": ""
+                    }
+                ]
+            },
+            {
+                "Action": "FIRE",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_FIRE",
+                        "Value": ""
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_FIRE",
+                        "Value": ""
+                    }
+                ]
+            },
+            {
+                "Action": "FIRE_ALTERNATE",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_FIRE",
+                        "Value": ""
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_FIRE",
+                        "Value": ""
+                    }
+                ]
+            },
+            {
+                "Action": "MELEE",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_MELEE",
+                        "Value": ""
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_MELEE",
+                        "Value": ""
+                    }
+                ]
+            },
+            {
+                "Action": "MELEE_SWING",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_MELEE",
+                        "Value": ""
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_MELEE",
+                        "Value": ""
+                    }
+                ]
+            },
+            {
+                "Action": "Jump",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_JUMP",
+                        "Value": "JS_JUMP_START"
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_JUMP",
+                        "Value": "JS_JUMPING"
+                    }
+                ]
+            },
+            {
+                "Action": "DoubleJump",
+                "SetToBegin": [],
+                "Query": [
+                    {
+                        "Variable": "IV_JUMP",
+                        "Value": "JS_JUMPING"
+                    },
+                    {
+                        "Variable": "IV_JUMP_STYLE",
+                        "Value": "JUMP_DOUBLE_JUMP"
+                    }
+                ]
+            },
+            {
+                "Action": "BulletJump",
+                "SetToBegin": [],
+                "Query": [
+                    {
+                        "Variable": "IV_JUMP",
+                        "Value": "JS_JUMPING"
+                    },
+                    {
+                        "Variable": "IV_JUMP_STYLE",
+                        "Value": "JUMP_BULLET_JUMP"
+                    }
+                ]
+            },
+            {
+                "Action": "FreeFall",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 4
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 4
+                    }
+                ]
+            },
+            {
+                "Action": "Land",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 0
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "WallJumpUp",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 23
+                    },
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 23
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "FreeRunVaultOver",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_VAULT"
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_VAULT"
+                    }
+                ]
+            },
+            {
+                "Action": "FreeRunVaultUp",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_VAULTSLIDE"
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_VAULTSLIDE"
+                    }
+                ]
+            },
+            {
+                "Action": "FreeRunVaultDown",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_VAULTDROP"
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_VAULTDROP"
+                    }
+                ]
+            },
+            {
+                "Action": "CancelFreeRun",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_MOVE_ACTION",
+                        "Value": "MA_NONE"
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "ThrowAbility",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "ThrowGrappleHook",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 2
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 2
+                    }
+                ]
+            },
+            {
+                "Action": "EmberCast",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 3
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 3
+                    }
+                ]
+            },
+            {
+                "Action": "VoltCast",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 4
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 4
+                    }
+                ]
+            },
+            {
+                "Action": "AntiCast",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 5
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 5
+                    }
+                ]
+            },
+            {
+                "Action": "FrostCast",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 6
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 6
+                    }
+                ]
+            },
+            {
+                "Action": "JadeThrow",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 7
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 7
+                    }
+                ]
+            },
+            {
+                "Action": "NinjaThrow",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 8
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 8
+                    }
+                ]
+            },
+            {
+                "Action": "Kneel",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 25
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 25
+                    }
+                ]
+            },
+            {
+                "Action": "InstantKneel",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 26
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "IDLE",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 0
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "SpecialThrow",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 9
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 9
+                    }
+                ]
+            },
+            {
+                "Action": "TrapperCast",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 10
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 10
+                    }
+                ]
+            },
+            {
+                "Action": "TenguBurst",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 11
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 11
+                    }
+                ]
+            },
+            {
+                "Action": "EnergySphereCast",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 12
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 12
+                    }
+                ]
+            },
+            {
+                "Action": "ThrowEnd",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DIRECTIONAL_THROW",
+                        "Value": 0
+                    }
+                ]
+            },
+            {
+                "Action": "ZIPLINE_LOOP_RIGHT",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 21
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 21
+                    }
+                ]
+            },
+            {
+                "Action": "ZIPLINE_LOOP_LEFT",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 20
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 20
+                    }
+                ]
+            },
+            {
+                "Action": "EmplacementMount",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 16
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 16
+                    }
+                ]
+            },
+            {
+                "Action": "EmplacementIdle",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 17
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 17
+                    }
+                ]
+            },
+            {
+                "Action": "EmplacementDismount",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 18
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 18
+                    }
+                ]
+            },
+            {
+                "Action": "EmplacementDeadDismount",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 19
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 19
+                    }
+                ]
+            },
+            {
+                "Action": "ZipLineMountUp",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 24
+                    },
+                    {
+                        "Variable": "IV_CONTEXT_ANGLE",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 24
+                    }
+                ]
+            },
+            {
+                "Action": "ZipLineMountDown",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 24
+                    },
+                    {
+                        "Variable": "IV_CONTEXT_ANGLE",
+                        "Value": -1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 24
+                    }
+                ]
+            },
+            {
+                "Action": "MonkeyPoke",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 27
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 27
+                    }
+                ]
+            },
+            {
+                "Action": "NULL",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 0
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "Statue",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_BREATHING_RATE",
+                        "Value": 0
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "GravityStream",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 28
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 28
+                    }
+                ]
+            },
+            {
+                "Action": "GravityStreamDismount",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 29
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 29
+                    }
+                ]
+            },
+            {
+                "Action": "SkipExitGroundFire",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_SKIP_EXIT_GROUND_FIRE",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_SKIP_EXIT_GROUND_FIRE",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "StopSkipExitGroundFire",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_SKIP_EXIT_GROUND_FIRE",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_SKIP_EXIT_GROUND_FIRE",
+                        "Value": 0
+                    }
+                ]
+            },
+            {
+                "Action": "DisableIdleVariation",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_SELECT",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_SELECT",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "EnableIdleVariation",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_SELECT",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_SELECT",
+                        "Value": 0
+                    }
+                ]
+            },
+            {
+                "Action": "DoDrunkWalk",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DRUNK_WALK",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DRUNK_WALK",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "StopDrunkWalk",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_DRUNK_WALK",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_DRUNK_WALK",
+                        "Value": 0
+                    }
+                ]
+            },
+            {
+                "Action": "EnableFaceIdles",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ADDITIVE_4",
+                        "Value": 0
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "DisableFaceIdles",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ADDITIVE_4",
+                        "Value": 1
+                    },
+                    {
+                        "Variable": "IV_NONE",
+                        "Value": ""
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "APCTurretDismount",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 30
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 30
+                    }
+                ]
+            },
+            {
+                "Action": "EnableTentacleReach1",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_1",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_1",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "DisableTentacleReach1",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_1",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_1",
+                        "Value": 0
+                    }
+                ]
+            },
+            {
+                "Action": "EnableTentacleReach2",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_2",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_2",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "DisableTentacleReach2",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_2",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_2",
+                        "Value": 0
+                    }
+                ]
+            },
+            {
+                "Action": "EnableTentacleReach3",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_3",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_3",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "DisableTentacleReach3",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_3",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_3",
+                        "Value": 0
+                    }
+                ]
+            },
+            {
+                "Action": "EnableTentacleReach4",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_4",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_4",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "DisableTentacleReach4",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_4",
+                        "Value": 0
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_CUSTOM_IK_AIM_4",
+                        "Value": 0
+                    }
+                ]
+            }
+        ],
+        "SoundEvents": [
+            {
+                "EventName": "TennoLandStep",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Footsteps/Land/TennoLandDefault",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "QuickFoley",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericJump",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "RemoveFromBack",
+                "Sound": "/Lotus/Sounds/Characters/TennoAlt/Foley/TennoAltRemoveFromBack",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "MiscFoleyA",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/TennoMiscFoleyA",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "MiscFoleyB",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/TennoMiscFoleyB",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "MiscFoleyC",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/TennoMiscFoleyC",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "QuickFoleyLouder",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericJump",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "VaultFoley",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericQuickFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "ArmSwing",
+                "Sound": "/Lotus/Sounds/Characters/Brawling/BrawlWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "MiscFoley",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/TennoMiscFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "HolsterItem",
+                "Sound": "/Lotus/Sounds/Characters/TennoAlt/Foley/TennoAltHolsterWeapon",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GroundStab",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/MeleeGroundSlam",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "ArmRaise",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/AkimboReloadArmRaise",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "DaggerStealthHit",
+                "Sound": "/Lotus/Sounds/Finishers/StealthHits/DaggerStealthHit",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "DualSwordStealthHit",
+                "Sound": "/Lotus/Sounds/Finishers/StealthHits/DualSwordStealthHit",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GauntletsStealthHit",
+                "Sound": "/Lotus/Sounds/Finishers/StealthHits/GauntletsStealthHit",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BulletParryMetal",
+                "Sound": "/Lotus/Sounds/Weapons/Swords/Sounds/Swipes/SwordSwipeParry",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BulletParryAxe",
+                "Sound": "/Lotus/Sounds/Weapons/Swords/Sounds/Swipes/SwordSwipeParry",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BulletParryDagger",
+                "Sound": "/Lotus/Sounds/Weapons/DualDaggers/DaggerWhooshParry3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BulletParryMetalHeavy",
+                "Sound": "/Lotus/Sounds/Impacts/BulletParries/BulletParryMetalHeavy",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GauntletsGroundHit",
+                "Sound": "/Lotus/Sounds/Finishers/GauntletsGroundHit/GauntletsGroundHit",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GlaiveStealthHit",
+                "Sound": "/Lotus/Sounds/Finishers/StealthHits/GlaiveStealthHit",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "StealthDualDaggerAttack",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Stealth/StealthDualDaggerAttack",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "LightBodyfall",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/TennoBodyfalls",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "TennoRessurectLoop",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/PlayerResurrect/PlayerResurrect",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "TennoRessurectStart",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/PlayerResurrect/PlayerResurrectStart",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "TennoResurrectEnd",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/PlayerResurrect/PlayerResurrectEnd",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "StealthPunch",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Stealth/StealthPunch",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "TennoGenericHit",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Generic/TennoGenericHit",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "TennoGenericGrab",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Generic/TennoGenericGrab",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "TennoGenericGrabMetal",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Generic/TennoGenericGrabMetal",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "TennoNeckSnap",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Generic/TennoStealthNeckSnap",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GrabZipline",
+                "Sound": "/Lotus/Sounds/Gadgets/Zipline/ParkourZipline/ZiplineGrab",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BulletParryStaff",
+                "Sound": "/Lotus/Sounds/Weapons/Staff/StaffSwingParry3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMantleFoley",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericMantleFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXGenericFlipWhoosh",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericFlipWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTennoRevivePowerBoost",
+                "Sound": "/Lotus/Sounds/Warframes/Revive/TennoRevivePowerBoost",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeSpinWhooshStealth",
+                "Sound": "/Lotus/Sounds/Weapons/Swords/Sounds/Swipes/SwordSpinWhoosh3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXFuraxSwingBurst",
+                "Sound": "/Lotus/Sounds/Weapons/Furax/FuraxSwingBurst",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXGenericBackflipWhoosh",
+                "Sound": "/Lotus/Sounds/Enemies/Teshin/Foley/TeshinFlipWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTennoHackButton",
+                "Sound": "/Lotus/Sounds/Misc/ConsoleHackButtonPress/ConsoleHackButtonPress",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTennoItemPickupFoley",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Foley/TennoItemPickupFoleyA",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeKickWhoosh",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/MeleeKickWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeKickWhooshImpact",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Impacts/KickHitDefault",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeKickImpactMetal",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Impacts/KickHitDefaultMetal",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "DoubleJump",
+                "Sound": "/Lotus/Sounds/Enemies/Teshin/Foley/TeshinFlipWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXWallJumpFoley",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Footsteps/WallRun/TennoWallJumpFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXParkourKickImpact",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Impacts/ParkourKickHitDefault",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXZiplineBrakeFoley",
+                "Sound": "/Lotus/Sounds/Gadgets/Zipline/ParkourZipline/ZiplineBrakeFoley",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXZiplineBrakeContact",
+                "Sound": "/Lotus/Sounds/Gadgets/Zipline/ParkourZipline/ZiplineBrakeFoleyContact",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXJumpProjection",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Footsteps/WallRun/TennoJumpProjection",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXTennoSpinWhoosh",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericSpinWhoosh",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BulletJump",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/BulletJump",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXZiplineSteps",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Footsteps/Walk/TennoStepZipline",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXZiplineRunSteps",
+                "Sound": "/Lotus/Sounds/Characters/Tenno/Footsteps/Run/TennoRunZipline",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeChargeUpGeneric",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/HeavyAttacks/MeleeHeavyAttackCharge3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": "SFXMeleeChargeFinished"
+            },
+            {
+                "EventName": "SFXMeleeFinisherHitBipedSword",
+                "Sound": "/Lotus/Sounds/Weapons/Swords/Sounds/Impacts/SwordArmourImpactFinisher",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeFinisherHitBipedDagger",
+                "Sound": "/Lotus/Sounds/Weapons/DualDaggers/HitEffects/DaggerMetalImpactFinisher",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeFinisherHitBipedWhip",
+                "Sound": "/Lotus/Sounds/Weapons/Corpus/CorpusWhip/Impacts/CorpusWhipImpactDefaultFinisher",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeFinisherHitBipedStaff",
+                "Sound": "/Lotus/Sounds/Weapons/Staff/Impacts/Metal/StaffImpactMetalFinisher",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeFinisherHitBipedFist",
+                "Sound": "/Lotus/Sounds/Weapons/Furax/Impacts/FuraxImpactMetalFinisher",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeChargeTurboDashActivate",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/MeleeChargeTurboDashActivateLocal",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_LOCAL_ONLY",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXArchwingAttach",
+                "Sound": "/Lotus/Sounds/Vehicles/Archwing/Generic/ArchwingLandAttach",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeHeavyAttackWhoosh",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/HeavyAttacks/MeleeHeavyAttackWhoosh3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeHeavyAttackShortWhoosh",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/HeavyAttacks/MeleeHeavyAttackShortWhoosh3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeHeavyAttackLargeWhoosh",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/HeavyAttacks/MeleeHeavyAttackLargeWhoosh3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeHeavyAttackShortBladeWhoosh",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/HeavyAttacks/MeleeHeavyAttackShortBladeWhoosh3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeHeavyAttackWhipWhoosh",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/HeavyAttacks/MeleeHeavyAttackWhipWhoosh3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXJumpSlamImpact",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/JumpSlam/MeleeJumpSlamImpact3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXJumpShortSlamImpact",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/JumpSlam/MeleeJumpShortSlamImpact3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeBlock",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/Blocks/MeleeBlockStart3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeChargeUpGenericSmall",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/HeavyAttacks/MeleeHeavyAttackSmallCharge3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": "SFXMeleeChargeFinished"
+            },
+            {
+                "EventName": "SFXMeleeChargeUpGenericLarge",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/HeavyAttacks/MeleeHeavyAttackLargeCharge3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": "SFXMeleeChargeFinished"
+            },
+            {
+                "EventName": "SFXJumpLargeSlamImpact",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/JumpSlam/MeleeJumpLargeSlamImpact3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeHeavyAttackSlam",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/JumpSlam/MeleeHeavyAttackSlam3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeSlideAttack",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/Blocks/MeleeBlockAttack3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXMeleeChargeUpGenericSmallNoStop",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/HeavyAttacks/MeleeHeavyAttackSmallCharge3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "MeleeSlam",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/JumpSlam/MeleeJumpShortSlamImpact3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXJumpSpinA",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericSpinRollWhooshA",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXJumpSpinB",
+                "Sound": "/Lotus/Sounds/Characters/GenericFoley/GenericSpinRollWhooshB",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "GroundAttackEffect",
+                "Sound": "/Lotus/Sounds/Weapons/Melee/Whooshes/JumpSlam/MeleeHeavyAttackSlam3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXFire",
+                "Sound": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusHandShot",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXDrifterHitReact",
+                "Sound": "/Lotus/Sounds/Characters/Lotus/Barks/LotusBarkEffort",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            }
+        ],
+        "ParticleEvents": [
+            {
+                "EventName": "WallRunRightEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Avatar/WallRunSparks",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_LEG5",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.70710677,
+                    0,
+                    0.70710677
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "WallRunLeftEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Avatar/WallRunSparks",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_LEG5",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.70710677,
+                    0,
+                    0.70710677
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "RessurectEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Avatar/Ressurect/Ressurect",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "RessurectEffectRH",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Avatar/Ressurect/Ressurect",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FinisherBloodLarge",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gore/BloodStreaksNoSound",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0.55000001,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FinisherBloodSmall",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gore/BloodStreaksNoSound",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0.30000001,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FinisherBloodSmallLeft",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gore/BloodStreaksNoSound",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0.30000001,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "ClawsFinisherBloodRight",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gore/BloodStreaksNoSound",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0.2
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FinisherBloodGauntletLeft",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Weapons/Melee/Clean/HitEffects/AssassinateStabSpawner",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FinisherBloodGauntletRight",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Weapons/Melee/Clean/HitEffects/AssassinateStabSpawner",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FinisherKneeImpactRight",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Finisher/ImpactSpawn",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_LEG2",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "SurvivalArtifactEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/SurvivalArtifactContextEffect",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FullMeleeEquipEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Weapons/WeaponEquip",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FullMeleeEquipEffectDual",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Weapons/WeaponEquip",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "RevivePowerEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Avatar/Ressurect/RevivePowerEffect",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_C1_ROOT",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "EMPEffects",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Restoratives/EMPSpawner",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_C1_SPINE5",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "DoubleJump",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Movement/DoubleJumpAttach",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_LOCAL_ONLY"
+            },
+            {
+                "EventName": "DoubleJump",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Movement/DoubleJumpAttachRemote",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_REMOTE_ONLY"
+            },
+            {
+                "EventName": "BulletJump",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Movement/BulletJumpAttach",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_LOCAL_ONLY"
+            },
+            {
+                "EventName": "WallHopLeftEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Movement/WallJumpHandTrail",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    -0.029999999,
+                    -0.02
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "WallHopRightEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Movement/WallJumpHandTrail",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    -0.029999999,
+                    -0.02
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "WaterExitEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/SpaceFlight/WaterFlight/KillTheSphere",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "GrabShockwave",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Weapons/HeavyGuns/HeavyGunEquipRadial",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0.5,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "HeavyDrop",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Weapons/HeavyGuns/HeavyGunEquipDrop",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "HeavyDropDual",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Weapons/HeavyGuns/HeavyGunEquipDrop",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "HeavyDropDual",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Weapons/HeavyGuns/HeavyGunEquipDrop",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "ArchWingDodge",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/SpaceFlight/ArchwingDodgeFX",
+                "Attached": 1,
+                "OwnedByAvatar": 1,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "HackDeviceImpact",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Minigames/OrokinHackHit",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FinisherNeckDropSlamEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Finisher/FinisherSlam",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_C1_HIP1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FinisherChestImpactEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Finisher/ImpactSpawn",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_C1_SPINE5",
+                "LocalPosition": [
+                    0,
+                    -0.30000001,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FinisherGrabbedAndThrownEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Finisher/GrabSpawner",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_C1_SPINE5",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FinisherChokeImpactEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Finisher/GrabSpawner",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_C1_NECK1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FinisherLesserImpactEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Finisher/FinisherSmallSlam",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_C1_SPINE5",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FinisherThrownDustEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Cinematics/LandDustCin",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_C1_SPINE5",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "FinisherThrownShockEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Gameplay/Finisher/ThrownSpawner",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_C1_SPINE5",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "KnockdownTechHint",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Avatar/KnockdownTechHintProjector",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_C1_SPINE1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "TeshinClotholystSqueezeEffect",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Quests/NewWar/PartOne/Cinematics/ClotholystSqueeze",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_ARM3",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            }
+        ],
+        "SurfaceSensitiveEffects": [
+            {
+                "AnimEventSymbols": [
+                    "StepL"
+                ],
+                "RaycasterBoneName": "GAME_L1_LEG4",
+                "HitEffect": "/Lotus/Fx/SurfaceHitEffects/EnemyFootsteps/TeshinSteps",
+                "OverridePostures": [
+                    {
+                        "Posture": "RUN",
+                        "OverrideHitEffect": "/Lotus/Fx/SurfaceHitEffects/EnemyFootsteps/TeshinRun"
+                    },
+                    {
+                        "Posture": "CROUCH",
+                        "OverrideHitEffect": "/Lotus/Fx/SurfaceHitEffects/EnemyFootsteps/TeshinCrouchSteps"
+                    }
+                ],
+                "ExclusiveFxDuration": 1,
+                "AnimTreeVarsToSet": [
+                    {
+                        "Type": "IV_FOOT_FALL",
+                        "Value": 0,
+                        "Style": "ATVU_NORMAL"
+                    }
+                ]
+            },
+            {
+                "AnimEventSymbols": [
+                    "StepR"
+                ],
+                "RaycasterBoneName": "GAME_R1_LEG4",
+                "HitEffect": "/Lotus/Fx/SurfaceHitEffects/EnemyFootsteps/TeshinSteps",
+                "OverridePostures": [
+                    {
+                        "Posture": "RUN",
+                        "OverrideHitEffect": "/Lotus/Fx/SurfaceHitEffects/EnemyFootsteps/TeshinRun"
+                    },
+                    {
+                        "Posture": "CROUCH",
+                        "OverrideHitEffect": "/Lotus/Fx/SurfaceHitEffects/EnemyFootsteps/TeshinCrouchSteps"
+                    }
+                ],
+                "ExclusiveFxDuration": 1,
+                "AnimTreeVarsToSet": [
+                    {
+                        "Type": "IV_FOOT_FALL",
+                        "Value": 1,
+                        "Style": "ATVU_NORMAL"
+                    }
+                ]
+            },
+            {
+                "AnimEventSymbols": [
+                    "LandSoft"
+                ],
+                "RaycasterBoneName": "GAME_L1_LEG4",
+                "HitEffect": "/Lotus/Fx/SurfaceHitEffects/EnemyFootsteps/TeshinLandSoft",
+                "OverridePostures": [],
+                "ExclusiveFxDuration": 1,
+                "AnimTreeVarsToSet": []
+            },
+            {
+                "AnimEventSymbols": [
+                    "LandSoft"
+                ],
+                "RaycasterBoneName": "GAME_R1_LEG4",
+                "HitEffect": "/Lotus/Fx/SurfaceHitEffects/EnemyFootsteps/TeshinLandSoft",
+                "OverridePostures": [],
+                "ExclusiveFxDuration": 1,
+                "AnimTreeVarsToSet": []
+            },
+            {
+                "AnimEventSymbols": [
+                    "LandHeavy"
+                ],
+                "RaycasterBoneName": "GAME_L1_LEG4",
+                "HitEffect": "/Lotus/Sounds/Enemies/Teshin/Footsteps/TeshinLandHard",
+                "OverridePostures": [],
+                "ExclusiveFxDuration": 1,
+                "AnimTreeVarsToSet": []
+            },
+            {
+                "AnimEventSymbols": [
+                    "LandHeavy"
+                ],
+                "RaycasterBoneName": "GAME_R1_LEG4",
+                "HitEffect": "/Lotus/Sounds/Enemies/Teshin/Footsteps/TeshinLandHard",
+                "OverridePostures": [],
+                "ExclusiveFxDuration": 1,
+                "AnimTreeVarsToSet": []
+            },
+            {
+                "AnimEventSymbols": [
+                    "TennoRollForwardFoley"
+                ],
+                "RaycasterBoneName": "GAME_C1_HIP1",
+                "HitEffect": "/Lotus/Sounds/Enemies/Teshin/Foley/TeshinRollForward",
+                "OverridePostures": [],
+                "ExclusiveFxDuration": 0,
+                "AnimTreeVarsToSet": []
+            },
+            {
+                "AnimEventSymbols": [
+                    "TennoBodyfall"
+                ],
+                "RaycasterBoneName": "GAME_C1_HIP1",
+                "HitEffect": "/Lotus/Sounds/Characters/Tenno/Foley/TennoFallSurface",
+                "OverridePostures": [],
+                "ExclusiveFxDuration": 0,
+                "AnimTreeVarsToSet": []
+            }
+        ],
+        "CinematicID": "Lotus",
+        "AlternateVictimCinematicID": "LotusPreWar",
+        "MinimumAnimWeight": 0,
+        "UpdateTrajectory": 1,
+        "DesiredTrajectoryType": "/Lotus/Animations/Tenno/Movement/MM/Unarmed/UnarmedDesiredTrajectory"
+    }
+}

@@ -72,23 +72,7 @@
         "TX:NormalMap": "DagathBody_n.png",
         "TX:CharacterTintMask": "DagathBodyMaterial_t.png",
         "TX:DetailsAoMap": "DagathBodyPackMap",
-        "TX:BlackPackMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw",
-        "TX:BlackNormalMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw_n.png",
-        "TX:RedPackMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw",
-        "TX:RedNormalMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw_n.png",
-        "TX:GreenPackMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw",
-        "TX:GreenNormalMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw_n.png",
-        "TX:BluePackMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw",
-        "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw_n.png",
         "TX:EmissiveMap": "DagathBody_e.png",
-        "PS:UntintableMetalness": 0,
-        "PS:GrimeTintColor": [
-            0.33000001,
-            0.31,
-            0.25,
-            0
-        ],
-        "PS:GrimeRoughness": 0.5,
         "PS:BlackParams": [
             1,
             0.5,
@@ -102,6 +86,8 @@
             1
         ],
         "PS:GrimeRoughnessBlack": 0.97000003,
+        "TX:BlackPackMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw",
+        "TX:BlackNormalMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw_n.png",
         "PS:RedParams": [
             0,
             0,
@@ -115,6 +101,8 @@
             1
         ],
         "PS:GrimeRoughnessRed": 0.962264,
+        "TX:RedPackMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw",
+        "TX:RedNormalMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw_n.png",
         "PS:GreenParams": [
             1,
             0.40000001,
@@ -128,6 +116,8 @@
             1
         ],
         "PS:GrimeRoughnessGreen": 0.84393102,
+        "TX:GreenPackMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw",
+        "TX:GreenNormalMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw_n.png",
         "PS:BlueParams": [
             1,
             1,
@@ -140,6 +130,16 @@
             0.14,
             1
         ],
-        "PS:GrimeRoughnessBlue": 0.84567899
+        "PS:GrimeRoughnessBlue": 0.84567899,
+        "TX:BluePackMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw",
+        "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/Rock/FlintRaw/FlintRaw_n.png",
+        "PS:UntintableMetalness": 0,
+        "PS:GrimeTintColor": [
+            0.33000001,
+            0.31,
+            0.25,
+            0
+        ],
+        "PS:GrimeRoughness": 0.5
     }
 }

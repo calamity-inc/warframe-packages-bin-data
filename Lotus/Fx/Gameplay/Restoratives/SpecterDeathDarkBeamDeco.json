@@ -1,0 +1,109 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/PowersuitAbilities/Concrete/PillarPulseGeo.fbx",
+        "OverrideMaterial": [
+            "/Lotus/Fx/PowersuitAbilities/Orion/DecoyEndBeamWideMatA",
+            "/Lotus/Fx/PowersuitAbilities/Choir/ChorusCastDecoMatB"
+        ],
+        "IgnoreParentRotation": 1,
+        "LifeSpan": 30,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 1,
+                "Multiplier": 0.5,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.33333299,
+                            "Value": 0.98803699
+                        },
+                        {
+                            "Time": 0.66666698,
+                            "Value": 0.25797501
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "vScalesFade",
+                "Slot": -1,
+                "TimeLength": 1,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.33333299,
+                            "Value": 0.66718102
+                        },
+                        {
+                            "Time": 0.66666698,
+                            "Value": 0.92092502
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 1
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "AlphaAtten",
+                "Slot": -1,
+                "TimeLength": 1,
+                "Multiplier": 25,
+                "FadeRange": [
+                    0,
+                    0.25
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "ApplyColorCustomization": 1
+    }
+}

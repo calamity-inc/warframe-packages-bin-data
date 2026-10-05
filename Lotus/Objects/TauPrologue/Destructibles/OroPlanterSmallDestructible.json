@@ -1,0 +1,17 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "BakeShadowsOnLightMaps": 0,
+        "Mesh": "/Lotus/Objects/Orokin/Props/OroPlanterSmall.fbx",
+        "CullDistance": 80,
+        "MotionBlurred": 1,
+        "PhysicsBehavior": "/EE/Types/Physics/Kinematic",
+        "AllowMantle": 0,
+        "Health": 5,
+        "DestroyedMesh": "/Lotus/Objects/Orokin/Props/OroPlanterSmallDestroyed.fbx",
+        "MasterCreateOnDestroy": {
+            "Type": "Spawners/OroPlanterSmallDestructibleSpawner"
+        },
+        "TrackDamage": 0
+    }
+}

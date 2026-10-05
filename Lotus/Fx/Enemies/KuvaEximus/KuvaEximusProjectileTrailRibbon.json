@@ -1,0 +1,109 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    1,
+                    0.46000001,
+                    0.082000002,
+                    1
+                ]
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            },
+            {
+                "name": "FadeParams",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0,
+                "value1": 0,
+                "value2": 0,
+                "value3": 0
+            }
+        ],
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "DetailLevel": "PQ_HIGH",
+        "CanNano": 0,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "SleepOffscreen": 0,
+        "Life": [
+            1.5,
+            1.5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0.0077399402,
+                    "Value": 0.62666702
+                },
+                {
+                    "Time": 0.46525899,
+                    "Value": 1.410871
+                },
+                {
+                    "Time": 1,
+                    "Value": 1.781776
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "BurstProbability": 0,
+        "SpewCount": [
+            30,
+            30
+        ],
+        "Shape": "SH_RIBBON",
+        "Material": "KuvaEximusProjTrailMat",
+        "RibbonTextureStretch": 0,
+        "RibbonTextureScale": 0.1,
+        "ColorMin": [
+            255,
+            0,
+            36,
+            255
+        ],
+        "ColorMax": [
+            255,
+            11,
+            51,
+            255
+        ],
+        "EnergyTintMethod": "ETM_LIFE",
+        "FadeInOut": [
+            0,
+            0.89999998
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.208359,
+                    "Value": 0.61666697
+                },
+                {
+                    "Time": 0.54829699,
+                    "Value": 0.226667
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "FlowVolume": "/EE/Types/GraphicsRes/CurlNoiseFlowVolume"
+    }
+}

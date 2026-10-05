@@ -1,0 +1,64 @@
+{
+    "parent": "/Lotus/Fx/Weapons/WeaponTrailBlue",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.2,
+                    0.37,
+                    0.5,
+                    1
+                ]
+            },
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            }
+        ],
+        "DrawInTransparentPass": 1,
+        "UseParentDissolve": 0,
+        "Life": [
+            0.25,
+            0.5
+        ],
+        "Size": [
+            0.079999998,
+            0.079999998
+        ],
+        "RibbonSegmentLength": 0.2,
+        "Material": "/Lotus/Fx/Weapons/Tenno/RevenantShotgun/RevenantShotgunOrbRibbonMat",
+        "RibbonTextureScale": 1,
+        "RibbonTextureScrollRate": 2,
+        "ColorMin": [
+            160,
+            194,
+            210,
+            255
+        ],
+        "ColorMax": [
+            92,
+            128,
+            147,
+            255
+        ],
+        "ColorKeys": [],
+        "FadeInOut": [
+            0,
+            0.234483
+        ],
+        "Nozzle": "SPHERE",
+        "Speed": [
+            0.02,
+            0.02
+        ],
+        "Mass": [
+            0,
+            0.0020000001
+        ]
+    }
+}

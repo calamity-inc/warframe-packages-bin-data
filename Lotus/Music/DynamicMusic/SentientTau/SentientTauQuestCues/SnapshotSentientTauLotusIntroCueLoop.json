@@ -1,0 +1,48 @@
+{
+    "parent": "/EE/Types/Sound/MixEffect",
+    "data": {
+        "Duckings": [
+            {
+                "mixGroup": "/EE/Sounds/Mixer/FoleySubmix",
+                "gainAdjust": 0
+            },
+            {
+                "mixGroup": "/EE/Sounds/Mixer/HESubmix",
+                "gainAdjust": 0
+            },
+            {
+                "mixGroup": "/EE/Sounds/Mixer/ModProc",
+                "gainAdjust": -48
+            },
+            {
+                "mixGroup": "/EE/Sounds/Mixer/HESubmix2D",
+                "gainAdjust": 0
+            },
+            {
+                "mixGroup": "/EE/Sounds/Mixer/HEBulletSurfaceSubmix",
+                "gainAdjust": 0
+            },
+            {
+                "mixGroup": "/EE/Sounds/Mixer/DestructibleGameplayObjectsDistanceFx",
+                "gainAdjust": 0
+            },
+            {
+                "mixGroup": "/Lotus/Sounds/Weapons/BulletImpacts/HitNotifications/BulletImpactHitNotifications",
+                "gainAdjust": -48
+            },
+            {
+                "mixGroup": "/Lotus/Sounds/UI/TennoShield/ShieldDown/ShieldDowns",
+                "gainAdjust": -48
+            },
+            {
+                "mixGroup": "/EE/Sounds/Mixer/AmbientBackground",
+                "gainAdjust": -48
+            },
+            {
+                "mixGroup": "/EE/Sounds/Mixer/SentientChoir",
+                "gainAdjust": -48
+            }
+        ],
+        "DuckingOcclusionSetting": "IntroLotusCueOcclusion"
+    }
+}

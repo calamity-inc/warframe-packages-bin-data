@@ -1,0 +1,40 @@
+{
+    "parent": "/Lotus/Types/Game/PowerSuitAbility",
+    "data": {
+        "Icon": "/Lotus/Interface/Icons/Abilities/Misc/VesselLaser.png",
+        "UniquePowerIdentifier": "VESSEL_LASER_EYES",
+        "Script": {
+            "Script": "GiantVesselLaserEyesAbility.lua",
+            "Function": "ActivateAbility",
+            "_startupAnimation": "/Lotus/Animations/Tau/PlayerVessel/EyebeamStart_anim.fbx",
+            "_recoveryAnimation": "/Lotus/Animations/Tau/PlayerVessel/EyebeamEnd_anim.fbx",
+            "_laserType": "/Lotus/Fx/PowersuitAbilities/Vessel/VesselLaserBeam",
+            "_laserChargeSound": "/Lotus/Sounds/Characters/EntratiVessel/Abilities/EntratiVesselBeamCharge",
+            "_laserSound": "/Lotus/Sounds/Characters/EntratiVessel/Abilities/EntratiVesselBeamAttack",
+            "_laserLoopSound": "/Lotus/Sounds/Characters/EntratiVessel/Abilities/EntratiVesselBeamLoop",
+            "_laserStopSound": "/Lotus/Sounds/Characters/EntratiVessel/Abilities/EntratiVesselBeamStop",
+            "_leftEyeBone": "GAME_L1_EYE1",
+            "_rightEyeBone": "GAME_R1_EYE1",
+            "_aimSmoothTime": 0.25,
+            "_aimSensitivityModifier": 0.25,
+            "_horizontalAimLimit": 75,
+            "_horizontalAimComplete": 15,
+            "_BEAM_RANGE": 75,
+            "_BEAM_MINIMUM_DURATION": 4.25,
+            "_BEAM_MAXIMUM_DURATION": 4.25,
+            "_BEAM_EFFECT_RADIUS": 0.15000001,
+            "_BEAM_SWEEP_RADIUS": 0.15000001,
+            "_BEAM_DAMAGE_TICK_DURATION": 0.25,
+            "_BEAM_DAMAGE_PER_TICK": 1000,
+            "_BEAM_IMPACT_RADIUS": 8,
+            "_BEAM_IMPACT_EFFECT_SCALE": 2,
+            "_BEAM_IMPACT_DAMAGE": 1500,
+            "_BEAM_IMPACT_FALLOFF": 0,
+            "_BEAM_IMPACT_IMPULSE": 100,
+            "_debugDrawSweeps": 0
+        },
+        "EnergyRequiredToActivate": 0,
+        "ActivationXP": 0,
+        "PlayCastSound": 0
+    }
+}

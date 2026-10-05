@@ -15,6 +15,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "AUGMENT_ONE",
                 "UpgradeObject": "Abilities/PacifistFistAbility",
                 "ValidPostures": [],
@@ -48,6 +49,9 @@
         "BaseDrain": "QA_HIGH",
         "FusionLimit": "QA_MEDIUM",
         "ItemCompatibility": "PacifistBaseSuit",
-        "IsAbilityAugment": 1
+        "IsAbilityAugment": 1,
+        "VariantIcons": [
+            "/Lotus/Interface/Cards/FoilModImages/ReactiveStormFoil.png"
+        ]
     }
 }

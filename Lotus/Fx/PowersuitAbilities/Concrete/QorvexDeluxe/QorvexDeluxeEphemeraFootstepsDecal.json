@@ -1,0 +1,57 @@
+{
+    "parent": "/EE/Types/Engine/DeferredDecalProjector",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "ColorOpacityMultiplier_NormalOpacityMultiplier_RoughnessOpacityMultiplier",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0.40000001,
+                "value1": 0.40000001,
+                "value2": 0.40000001,
+                "value3": 0
+            },
+            {
+                "name": "EmissiveAttenuation",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.5
+            },
+            {
+                "name": "SecondaryTintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.98000002,
+                    0.44,
+                    0.089000002,
+                    1
+                ]
+            }
+        ],
+        "IgnoreParentRotation": 1,
+        "IsStatic": 0,
+        "Material": "QorvexDeluxeEphemeraFootstepsImpactDecal",
+        "Height": 0.60000002,
+        "DiscardAngle": 45,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 1.15,
+                "Multiplier": 0.64999998,
+                "FadeRange": [
+                    0.050000001,
+                    0.53757203
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 1,
+                "DestroyWhenComplete": 1
+            }
+        ]
+    }
+}

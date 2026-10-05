@@ -1,0 +1,704 @@
+{
+    "parent": "/EE/Types/Engine/AnimTreeController",
+    "data": {
+        "AnimTree": "BigHunhullusAnimTree.animtree",
+        "DefaultMovementMode": "ATMM_ANIMATION_DRIVEN",
+        "DefaultMovementModeRemotePlayers": "ATMM_PHYSICS_DRIVEN",
+        "MaximumAimDirH": 140,
+        "LookIKFov": 100,
+        "DefaultLookIkHeadingTrackSpeed": 1000,
+        "DefaultLookIkPitchTrackSpeed": 1000,
+        "ApplyScaleToRootMotion": 1,
+        "Actions": [
+            {
+                "Action": "RELOAD",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_RELOAD",
+                        "Value": "RELOAD"
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_RELOAD",
+                        "Value": "RELOAD"
+                    }
+                ]
+            },
+            {
+                "Action": "RELOAD_EMPTY",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_RELOAD",
+                        "Value": "RELOAD_EMPTY"
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_RELOAD",
+                        "Value": "RELOAD_EMPTY"
+                    }
+                ]
+            },
+            {
+                "Action": "RELOAD_START",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_RELOAD",
+                        "Value": "RELOAD_START"
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_RELOAD",
+                        "Value": "RELOAD_START"
+                    }
+                ]
+            },
+            {
+                "Action": "FIRE",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_FIRE",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_FIRE",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "FIRE_ALTERNATE",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_FIRE",
+                        "Value": 2
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "THROW_GRENADE",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_GRENADE",
+                        "Value": 1
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_GRENADE",
+                        "Value": 1
+                    }
+                ]
+            },
+            {
+                "Action": "Jump",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 3
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 3
+                    }
+                ]
+            },
+            {
+                "Action": "FreeFall",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 4
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 4
+                    }
+                ]
+            },
+            {
+                "Action": "Land",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 0
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "IDLE",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 0
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "HitSwitch",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 10
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 10
+                    }
+                ]
+            },
+            {
+                "Action": "HackPanel",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 15
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 15
+                    }
+                ]
+            },
+            {
+                "Action": "DodgeJump",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 11
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 11
+                    }
+                ]
+            },
+            {
+                "Action": "EmplacementMount",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 16
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 16
+                    }
+                ]
+            },
+            {
+                "Action": "EmplacementIdle",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 17
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 17
+                    }
+                ]
+            },
+            {
+                "Action": "EmplacementDismount",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 18
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 18
+                    }
+                ]
+            },
+            {
+                "Action": "EmplacementDeadDismount",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 19
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 19
+                    }
+                ]
+            },
+            {
+                "Action": "EquipDatapad",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 23
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 23
+                    }
+                ]
+            },
+            {
+                "Action": "UnequipDatapad",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 24
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 24
+                    }
+                ]
+            }
+        ],
+        "ContextActions": [
+            {
+                "Action": "ZIPLINE_MOUNT",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 13
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 13
+                    }
+                ]
+            },
+            {
+                "Action": "ZIPLINE_DISMOUNT",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 0
+                    }
+                ],
+                "Query": []
+            },
+            {
+                "Action": "HIT_SWITCH",
+                "SetToBegin": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 10
+                    }
+                ],
+                "Query": [
+                    {
+                        "Variable": "IV_ACTION",
+                        "Value": 10
+                    }
+                ]
+            }
+        ],
+        "VoiceBoxEvents": [
+            {
+                "EventName": "PainVocal",
+                "Phrase": "PAIN",
+                "Filter": "",
+                "Chance": 1
+            },
+            {
+                "EventName": "VocalWeaponJam",
+                "Phrase": "INTIMIDATE",
+                "Filter": "VocalWeaponJam",
+                "Chance": 1
+            }
+        ],
+        "ForceFeedbackEffectEvents": [
+            {
+                "EventName": "StepL",
+                "ForceFeedbackEffect": "/Lotus/Sounds/Characters/EntratiVessel/Movement/ForceFeedbackVesselStep"
+            },
+            {
+                "EventName": "StepR",
+                "ForceFeedbackEffect": "/Lotus/Sounds/Characters/EntratiVessel/Movement/ForceFeedbackVesselStep"
+            }
+        ],
+        "ParticleEvents": [
+            {
+                "EventName": "Dust",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Types/Player/Effects/TennoDust",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_FINGER1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "Dust",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Types/Player/Effects/TennoDust",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_FINGER1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "PunchCharge",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Weapons/Grineer/BlasterPunchFlare",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "CaptPhaserMeleeTakedownHit",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Weapons/Melee/BlasterPunchBurstStealth",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "CaptPhaserMeleeTakedownHit",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Projectors/BlasterPunchGlow",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 1,
+                "Bone": "GAME_C1_SPINE2",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "CaptPhaserStealthMeleeTakedown",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Weapons/Melee/BlasterPunchBurstStealth",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "CaptPhaserStealthMeleeTakedown",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Projectors/BlasterStealthTakedownGlow",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 1,
+                "Bone": "GAME_C1_SPINE2",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "GrineerMineImpact",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Env/VS/PlayerGrineerMineImpact",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_C1_SPINE2",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_LOCAL_ONLY"
+            },
+            {
+                "EventName": "Disarm",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/PowersuitAbilities/Loki/DisarmBurst",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_WEAPON1",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "SFXAmbHammerImpact",
+                "CancelEventName": "",
+                "ParticleSys": "/Lotus/Fx/Levels/GasCity/Remastered/SparksBurstSmallSingleFX",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "",
+                "LocalPosition": [
+                    0,
+                    0,
+                    1
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "PunchChargeLeftFX",
+                "CancelEventName": "",
+                "ParticleSys": "",
+                "Attached": 1,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_L1_ARM3",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            },
+            {
+                "EventName": "PunchChargeRightFX",
+                "CancelEventName": "",
+                "ParticleSys": "",
+                "Attached": 0,
+                "OwnedByAvatar": 0,
+                "UseOtherEntity": 0,
+                "Bone": "GAME_R1_ARM3",
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Context": "PEC_ALL"
+            }
+        ],
+        "SurfaceSensitiveEffects": [
+            {
+                "AnimEventSymbols": [
+                    "StepL"
+                ],
+                "RaycasterBoneName": "GAME_L1_LEG4",
+                "HitEffect": "/Lotus/Sounds/Characters/EntratiVessel/Movement/EntratiVesselStepsLeft",
+                "OverridePostures": [
+                    {
+                        "Posture": "RUN",
+                        "OverrideHitEffect": "/Lotus/Sounds/Characters/EntratiVessel/Movement/EntratiVesselSteps"
+                    },
+                    {
+                        "Posture": "WALLRUNNING_LEFT",
+                        "OverrideHitEffect": ""
+                    },
+                    {
+                        "Posture": "WALLRUNNING_RIGHT",
+                        "OverrideHitEffect": ""
+                    },
+                    {
+                        "Posture": "WALLRUNNING_UP",
+                        "OverrideHitEffect": ""
+                    }
+                ],
+                "ExclusiveFxDuration": 1,
+                "AnimTreeVarsToSet": [
+                    {
+                        "Type": "IV_FOOT_FALL",
+                        "Value": 0,
+                        "Style": "ATVU_NORMAL"
+                    }
+                ]
+            },
+            {
+                "AnimEventSymbols": [
+                    "StepR"
+                ],
+                "RaycasterBoneName": "GAME_R1_LEG4",
+                "HitEffect": "/Lotus/Sounds/Characters/EntratiVessel/Movement/EntratiVesselSteps",
+                "OverridePostures": [
+                    {
+                        "Posture": "RUN",
+                        "OverrideHitEffect": "/Lotus/Sounds/Characters/EntratiVessel/Movement/EntratiVesselSteps"
+                    },
+                    {
+                        "Posture": "WALLRUNNING_LEFT",
+                        "OverrideHitEffect": ""
+                    },
+                    {
+                        "Posture": "WALLRUNNING_RIGHT",
+                        "OverrideHitEffect": ""
+                    },
+                    {
+                        "Posture": "WALLRUNNING_UP",
+                        "OverrideHitEffect": ""
+                    }
+                ],
+                "ExclusiveFxDuration": 1,
+                "AnimTreeVarsToSet": [
+                    {
+                        "Type": "IV_FOOT_FALL",
+                        "Value": 1,
+                        "Style": "ATVU_NORMAL"
+                    }
+                ]
+            },
+            {
+                "AnimEventSymbols": [
+                    "LandSoft"
+                ],
+                "RaycasterBoneName": "GAME_L1_LEG4",
+                "HitEffect": "/Lotus/Fx/SurfaceHitEffects/EnemyFootsteps/CorpusCrewmanLandHeavy",
+                "OverridePostures": [],
+                "ExclusiveFxDuration": 1,
+                "AnimTreeVarsToSet": []
+            },
+            {
+                "AnimEventSymbols": [
+                    "LandHeavy"
+                ],
+                "RaycasterBoneName": "GAME_R1_LEG4",
+                "HitEffect": "/Lotus/Fx/SurfaceHitEffects/EnemyFootsteps/CorpusCrewmanLandHeavy",
+                "OverridePostures": [],
+                "ExclusiveFxDuration": 1,
+                "AnimTreeVarsToSet": []
+            },
+            {
+                "AnimEventSymbols": [
+                    "DeathFall3D"
+                ],
+                "RaycasterBoneName": "GAME_C1_HIP1",
+                "HitEffect": "/Lotus/Sounds/Characters/Corpus/Crewmen/BodyFalls/CorpusCrewmanBodyFall",
+                "OverridePostures": [],
+                "ExclusiveFxDuration": 0,
+                "AnimTreeVarsToSet": []
+            }
+        ],
+        "CinematicID": "Marine"
+    }
+}

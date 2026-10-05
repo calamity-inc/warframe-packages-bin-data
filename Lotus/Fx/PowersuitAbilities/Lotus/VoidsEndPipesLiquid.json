@@ -1,0 +1,107 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "DepthSortBias": -0.1,
+        "MaterialParams": [
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.059999999,
+                    0.79000002,
+                    1,
+                    1
+                ]
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 10
+            }
+        ],
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.5,
+            1
+        ],
+        "Size": [
+            0.75,
+            2.5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.5
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.60000002
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "InitialCount": [
+            62,
+            62
+        ],
+        "Material": "/Lotus/Fx/Explosions/ExplosionBurstMatAlpha",
+        "AnimateTiles": 1,
+        "ColorMin": [
+            77,
+            255,
+            244,
+            255
+        ],
+        "ColorMax": [
+            108,
+            203,
+            255,
+            255
+        ],
+        "DepthSort": 1,
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0060000001,
+            0.0060000001
+        ],
+        "FadeInOut": [
+            0.1,
+            0.47315401
+        ],
+        "LightingOffset": [
+            0,
+            1,
+            1
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleSize": 0.1,
+        "Speed": [
+            15,
+            55
+        ],
+        "Drag": 2,
+        "Mass": [
+            0.1,
+            0.5
+        ],
+        "FlowVelocity": [
+            0,
+            0,
+            0
+        ],
+        "FlowScale": [
+            0,
+            0,
+            0
+        ]
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "parent": "/Lotus/Types/Game/DojoPlaceableDecoration",
+    "data": {
+        "UseLightMap": 0,
+        "BakeShadowsOnLightMaps": 0,
+        "ReceivesShadows": 1,
+        "MaterialParams": [
+            {
+                "name": "MeshScaleLayerTilingInfluence",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            },
+            {
+                "name": "PivotLayerTilingInfluence",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            }
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    -0.31945199,
+                    0.065724999,
+                    0.138593,
+                    0.93510598
+                ],
+                "BoneName": "",
+                "Type": "STMxGrnDropshipDestroyedBPivot",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "LocTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnDropshipDestroyedBName",
+        "LongDesc": "/Lotus/Language/DojoDecosGrineer/STMxGrnDropshipDestroyedBDesc",
+        "MeshScaleBounds": [
+            0.5,
+            1.5
+        ],
+        "UseDecorationPreviewModifiers": 1,
+        "DecoPreviewScaleModifier": 0,
+        "DecoPreviewPositionModifier": [
+            1,
+            0,
+            0
+        ],
+        "DecoPreviewRotationModifier": [
+            90,
+            0,
+            30
+        ]
+    }
+}

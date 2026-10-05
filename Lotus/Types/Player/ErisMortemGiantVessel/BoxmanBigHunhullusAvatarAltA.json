@@ -1,0 +1,139 @@
+{
+    "parent": "/Lotus/Types/Game/LotusAvatar",
+    "data": {
+        "Mesh": "/Lotus/Objects/Entrati/Lab/Props/Statues/ORKxLabStatueBaseA_skel.fbx",
+        "MeshScale": 7,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_NECK1",
+                "Type": "/Lotus/Sounds/Characters/EntratiVessel/Movement/EntratiVesselWalkLoopContainerSeq",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "BoxmanWalkAlt",
+        "ScriptInstance": {
+            "Script": "GiantVessel.lua",
+            "Function": "SetupVessel",
+            "_drawDebug": 1,
+            "_passengerType": "VesselPassengerAvatar",
+            "_footDamageTrigger": "GiantVesselFeetDamageTrigger",
+            "_footDamageAttachBones": [
+                "GAME_L1_LEG4",
+                "GAME_R1_LEG4"
+            ],
+            "_maleVesselAvatarType": "PHBoxmanBigHunhullusAvatarMale",
+            "_femaleVesselAvatarType": "PHBoxmanBigHunhullusAvatarFemale",
+            "_verticalBone": "GAME_C1_NECK1",
+            "_horizontalBone": "GAME_R1_SHOULDERATTCH",
+            "_attachOffset": [
+                0.050000001,
+                0.02,
+                0
+            ],
+            "_attachScale": 0.34999999,
+            "_defaultCamera": "BoxmanBigCameraAltA",
+            "_shoulderCamera": "BoxmanBigCameraShoulder",
+            "_vesselPowerSuit": "GiantVesselPowerSuit"
+        },
+        "EyeOffset": [
+            0,
+            1.7,
+            0
+        ],
+        "CrouchOffset": [
+            0,
+            1.7,
+            0
+        ],
+        "InputFilter": "GiantVesselInputFilter",
+        "MaxHealth": 500,
+        "ConvoContextActionAutoChild": {
+            "Scale": 7
+        },
+        "CrouchTime": 1,
+        "AnimControllerType": "BoxmanAnimController",
+        "CameraControllerType": "BoxmanBigCameraAltA",
+        "DamageControllerType": "GiantVesselDamageController",
+        "GameActionControllerType": "/Lotus/Types/Player/TennoGameActionController",
+        "InputControllerType": "GiantVesselInputController",
+        "InventoryControllerType": "BigHunhullusAvatarInventoryController",
+        "MotionControllerType": "GiantVesselMotion",
+        "RaycastProxy": {
+            "LocalPosition": [
+                0,
+                0,
+                0
+            ],
+            "BoneName": "GAME_C1_HIP1",
+            "Type": "/Lotus/Types/Player/TennoFullBodyRaycast"
+        },
+        "IsCameraIndependent": 1,
+        "FallHardLandingThreshold": 1000,
+        "NumJumps": 0,
+        "NumBulletJumps": 0,
+        "SoundEvents": [
+            {
+                "EventName": "SFXScream",
+                "Sound": "/Lotus/Sounds/Characters/EntratiVessel/Barks/EntratiVesselScream",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "SFXWalkScream",
+                "Sound": "/Lotus/Sounds/Characters/EntratiVessel/Barks/EntratiVesselScream",
+                "Chance": 0.050000001,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            }
+        ],
+        "ScriptEvents": [
+            {
+                "EventName": "StartStompCamera",
+                "ExecuteScript": {
+                    "Script": "GiantVessel.lua",
+                    "Function": "ImGuiDebug",
+                    "_drawDebug": 1,
+                    "_passengerType": "",
+                    "_footDamageTrigger": "",
+                    "_footDamageAttachBones": [
+                        "GAME_L1_LEG4",
+                        "GAME_R1_LEG4"
+                    ],
+                    "_maleVesselAvatarType": "PHBoxmanBigHunhullusAvatarMale",
+                    "_femaleVesselAvatarType": "PHBoxmanBigHunhullusAvatarFemale",
+                    "_verticalBone": "GAME_C1_NECK1",
+                    "_horizontalBone": "GAME_R1_SHOULDERATTCH",
+                    "_attachOffset": [
+                        0,
+                        0.02,
+                        0.1
+                    ],
+                    "_attachScale": 0.1,
+                    "_defaultCamera": "",
+                    "_shoulderCamera": "",
+                    "_vesselPowerSuit": ""
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Iceblade/Personalmod_AntimatterDropOnDeath_Name",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/Personalmod_AntimatterDropOnDeath_Desc",
+        "Icon": "/Lotus/Interface/Icons/ModBuffIndicators/Conquest/Knifestep.png",
+        "ApplyUpgradesByDefault": 0,
+        "Script": {
+            "Script": "/Lotus/Scripts/KuvaPath/KuvaPathPersonalModifiers.lua",
+            "Function": "CreateAntimatterChaser",
+            "_prefix": "",
+            "_shieldType": "",
+            "_grabEffect": "",
+            "_knockdownTriggerType": "",
+            "_beamType": "",
+            "_baseDmgPerSec": 10,
+            "_snakeWispType": "",
+            "_spotlightType": "",
+            "_shieldRestorePercent": 0.050000001,
+            "_staticSiphonBeamType": "",
+            "_grenadeType": "",
+            "_damageMultiplier": 2,
+            "_grenadeDamageRadius": 5,
+            "_spikeType": "",
+            "_antimatterDrop": "/Lotus/Upgrades/Stickers/Objects/ItSeesYouProjectile",
+            "_antimatterDropMarkerInfo": ""
+        },
+        "ConditionalUpgrades": [
+            "OnAbilityKillCondition"
+        ]
+    }
+}

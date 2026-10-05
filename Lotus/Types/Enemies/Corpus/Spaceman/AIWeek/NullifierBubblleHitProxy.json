@@ -1,0 +1,20 @@
+{
+    "parent": "/Lotus/Types/Weapon/LotusHitProxyShield",
+    "data": {
+        "ReplicationOverride": "RO_ALWAYS",
+        "Type": "SPHERE",
+        "Radius": 5,
+        "DebugColor": [
+            0,
+            72,
+            255,
+            255
+        ],
+        "PhysicsRegister": 1,
+        "PhysicsMaterial": "/EE/Types/Physics/Materials/BulletBlockingVolume",
+        "UseAttachParent": 1,
+        "IgnoreTeamDamage": 1,
+        "DestroyWhenHealthRunsOut": 0,
+        "AllowInternalFire": 1
+    }
+}

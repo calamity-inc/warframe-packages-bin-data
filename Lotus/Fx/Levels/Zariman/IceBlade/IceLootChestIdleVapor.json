@@ -1,0 +1,77 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "DepthSortBias": -20,
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 2.3
+            }
+        ],
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            5,
+            7
+        ],
+        "Size": [
+            5,
+            7
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.5
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "SpewCount": [
+            5,
+            5
+        ],
+        "Shape": "SH_SPIN_SPRITE",
+        "Material": "IceLootChestOpenSnowDustMat",
+        "AnimateTiles": 1,
+        "ColorMin": [
+            124,
+            188,
+            211,
+            255
+        ],
+        "ColorMax": [
+            128,
+            201,
+            229,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0049999999,
+            0.0049999999
+        ],
+        "OrbitOffset": 0,
+        "FadeInOut": [
+            0.34999999,
+            0.34999999
+        ],
+        "EyeFadeDist": 20,
+        "InvertEyeFadeDist": 1,
+        "NozzleDev": 1,
+        "Speed": [
+            0.085000001,
+            0.23
+        ],
+        "Drag": 0.5,
+        "Mass": [
+            0.0015,
+            0.0035000001
+        ]
+    }
+}

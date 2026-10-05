@@ -1,0 +1,41 @@
+{
+    "parent": "BaseAbilityOverrideBlueprint",
+    "data": {
+        "MarketMode": "MM_HIDDEN",
+        "SellingPrice": 0,
+        "ResultItem": "/Lotus/StoreItems/Powersuits/Duelist/Abilities/DuelistThrustAbility",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+                "ItemCount": 340
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+                "ItemCount": 360
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+                "ItemCount": 320
+            }
+        ],
+        "SecretIngredientAction": "SIA_WARFRAME_ABILITY",
+        "SecretIngredients": [
+            {
+                "ItemType": "/Lotus/Powersuits/Duelist/Duelist",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+                "ItemCount": 750
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+                "ItemCount": 600
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+                "ItemCount": 550
+            }
+        ]
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "parent": "/Lotus/Types/Game/DojoPlaceableDecoration",
+    "data": {
+        "UseLightMap": 0,
+        "BakeShadowsOnLightMaps": 0,
+        "ReceivesShadows": 1,
+        "MaterialParams": [
+            {
+                "name": "MeshScaleLayerTilingInfluence",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            },
+            {
+                "name": "PivotLayerTilingInfluence",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            }
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0.125,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    -0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "",
+                "Type": "STMxGrnLadderLongAPivot",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "LocTag": "/Lotus/Language/DojoDecosGrineer/STMxGrnLadderLongAName",
+        "LongDesc": "/Lotus/Language/DojoDecosGrineer/STMxGrnLadderLongADesc",
+        "MeshScaleBounds": [
+            0.5,
+            1.5
+        ],
+        "UseDecorationPreviewModifiers": 1,
+        "DecoPreviewScaleModifier": 0,
+        "DecoPreviewPositionModifier": [
+            0,
+            0,
+            0
+        ],
+        "DecoPreviewRotationModifier": [
+            -90,
+            180,
+            90
+        ]
+    }
+}

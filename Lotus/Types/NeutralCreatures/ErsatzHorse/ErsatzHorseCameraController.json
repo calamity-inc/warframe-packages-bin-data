@@ -39,6 +39,16 @@
         "WalkBobRate": 1,
         "RunBobDepth": 1,
         "RunBobRate": 0.1,
+        "ViewOffsetSpeed": 1,
+        "FlightEyeSmoothTime": 0.5,
+        "FlightEyeFollowerSmoothTime": 0.5,
+        "VelocityZOffsetMappingMapping": [
+            20,
+            30
+        ],
+        "VelocityZFollowerAccelReponse": 1,
+        "VelocityZFollowerDecelResponse": 1,
+        "VelocityZExponent": 0.1,
         "ViewOffset": [
             0.89999998,
             0.050000001,
@@ -103,16 +113,6 @@
             0.81999999,
             0.75,
             -2
-        ],
-        "ViewOffsetSpeed": 1,
-        "FlightEyeSmoothTime": 0.5,
-        "FlightEyeFollowerSmoothTime": 0.5,
-        "VelocityZOffsetMappingMapping": [
-            20,
-            30
-        ],
-        "VelocityZFollowerAccelReponse": 1,
-        "VelocityZFollowerDecelResponse": 1,
-        "VelocityZExponent": 0.1
+        ]
     }
 }

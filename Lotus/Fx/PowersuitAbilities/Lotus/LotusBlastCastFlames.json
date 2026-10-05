@@ -1,0 +1,85 @@
+{
+    "parent": "/Lotus/Fx/Explosions/DefaultExplosionFireball",
+    "data": {
+        "DepthSortBias": 5,
+        "UseParentDissolve": 0,
+        "UseParentVisibility": 0,
+        "UseTeamEffectsSetting": 1,
+        "ApplyColorCustomization": 1,
+        "Life": [
+            0.75,
+            1.25
+        ],
+        "Size": [
+            0.2,
+            0.30000001
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 1.254625
+                },
+                {
+                    "Time": 1,
+                    "Value": 1.4969161
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "EmissionTime": [
+            0.40000001,
+            0.40000001
+        ],
+        "InitialCount": [
+            3,
+            3
+        ],
+        "SpewCount": [
+            32,
+            32
+        ],
+        "Material": "/Lotus/Fx/PowersuitAbilities/Temple/TempleFlamesMat",
+        "ColorMin": [
+            209,
+            195,
+            127,
+            255
+        ],
+        "ColorMax": [
+            235,
+            213,
+            146,
+            255
+        ],
+        "DepthSort": 1,
+        "Spin": [
+            -0.0049999999,
+            0.0049999999
+        ],
+        "FadeInOut": [
+            0.02,
+            0.80000001
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleDev": 0,
+        "Speed": [
+            -0.5,
+            0.5
+        ],
+        "Drag": 3.5,
+        "Mass": [
+            0,
+            0
+        ],
+        "PushVector": [
+            3,
+            0,
+            0
+        ]
+    }
+}

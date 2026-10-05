@@ -1,0 +1,61 @@
+{
+    "parent": "BaseSigil",
+    "data": {
+        "Rarity": "LEGENDARY",
+        "MarketMode": "MM_HIDDEN",
+        "LocalizeTag": "/Lotus/Language/Sigils/FrozenSigilName",
+        "LocalizeDescTag": "/Lotus/Language/Sigils/FrozenSigilDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sigils/FrozenSigil.png",
+        "TintIconToTheme": 0,
+        "AvailableOnPvp": 1,
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Fx/Sigils/FrozenSigilProj",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "ColorSlot": "Sigil",
+        "DoNormalizeColorApplication": 0,
+        "Material": "/Lotus/Fx/Sigils/FrozenSigilProjMat",
+        "SigilScript": {
+            "Script": "/Lotus/Scripts/SigilCustom.lua",
+            "Function": "GrungeInit",
+            "_colorParam": "TintColor1",
+            "_GlintColor": "TintColor2",
+            "_GlintAlpha": 1,
+            "_UV": "UvOffset",
+            "_energyParam": "TintColor0",
+            "_UVScale": "UvScale",
+            "_minScale": 1,
+            "_maxScale": 3,
+            "_minThreshold": 0.31,
+            "_maxThreshold": 0.80000001,
+            "_CustomAlphaParam": 0,
+            "_AlphaMask": "FresnelClipRange",
+            "_DepthBiasParam": "NormalOffsetFade",
+            "_DepthBiasFront": 0,
+            "_DepthBiasBack": 0.2,
+            "_OperatorScaleOverride": 1
+        }
+    }
+}

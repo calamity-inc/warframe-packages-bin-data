@@ -1,0 +1,49 @@
+{
+    "parent": "/Lotus/Types/Scripts/Tau/CoH/Complications/CoHBaseAura",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Iceblade/Condition_KelaMissiles_Name",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/Condition_KelaMissiles_Desc",
+        "Upgrades": [],
+        "TargetType": "/Lotus/Types/Player/TennoAvatar",
+        "ApplyToOwner": 0,
+        "AffectedByAuraEffectiveness": 0,
+        "RequiresOwner": 0,
+        "MaxStacks": 1,
+        "OnEnterAuraScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/KPMissileStrike.lua",
+            "Function": "ApplyAura",
+            "_projectileSpawnerEntity": "KpMissileStrikeEntity",
+            "_projType": "",
+            "_projMarkerType": "",
+            "_projectileCount": 5,
+            "_minSpawnRange": 10,
+            "_maxSpawnRange": 25,
+            "_minSpawnDuration": 7,
+            "_maxSpawnDuration": 15
+        },
+        "OnAuraAddedToLevelScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/KPMissileStrike.lua",
+            "Function": "ComplicationStart",
+            "_projectileSpawnerEntity": "",
+            "_projType": "",
+            "_projMarkerType": "",
+            "_projectileCount": 5,
+            "_minSpawnRange": 15,
+            "_maxSpawnRange": 25,
+            "_minSpawnDuration": 7,
+            "_maxSpawnDuration": 15
+        },
+        "OnAuraRemovedFromLevelScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/KPMissileStrike.lua",
+            "Function": "ComplicationEnd",
+            "_projectileSpawnerEntity": "",
+            "_projType": "",
+            "_projMarkerType": "",
+            "_projectileCount": 5,
+            "_minSpawnRange": 15,
+            "_maxSpawnRange": 25,
+            "_minSpawnDuration": 7,
+            "_maxSpawnDuration": 15
+        }
+    }
+}

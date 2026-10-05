@@ -13,6 +13,7 @@
             "Function": "ActivateAbility",
             "_activateAnim": "/Lotus/Animations/Tenno/Powers/Temp/Sonar_anim.fbx",
             "_weakPointFx": "",
+            "_multipleWeakpointAttach": "",
             "_burstFx": "/Lotus/Fx/PowersuitAbilities/Decree/SonarBlast",
             "_localBlastDecoType": "/Lotus/Fx/PowersuitAbilities/Decree/SonarBlastDeco",
             "_ignoredTypes": [
@@ -26,7 +27,8 @@
             "_augmentOneBurst": "/Lotus/Fx/PowersuitAbilities/Decree/SonarAugmentOneBurst",
             "_augmentPvpHightlightFx": "",
             "_primeBeam": "/Lotus/Fx/PowersuitAbilities/Decree/SonarPrimeBeam",
-            "_markerInfoType": ""
+            "_markerInfoType": "",
+            "_weakpointHitSfx": ""
         },
         "SecondaryScripts": [
             {
@@ -36,9 +38,10 @@
                 "functionName": "",
                 "scriptInstance": {
                     "Script": "Sonar.lua",
-                    "Function": "Ping",
+                    "Function": "SecondaryPing",
                     "_activateAnim": "",
-                    "_weakPointFx": "/Lotus/Fx/PowersuitAbilities/Decree/WeakSpotSonar",
+                    "_weakPointFx": "/Lotus/Fx/PowersuitAbilities/Decree/WeakSpotSonarProjector",
+                    "_multipleWeakpointAttach": "/Lotus/Fx/PowersuitAbilities/Decree/SonarWeakSpotStackGPU",
                     "_burstFx": "",
                     "_localBlastDecoType": "",
                     "_ignoredTypes": [
@@ -52,7 +55,8 @@
                     "_augmentOneBurst": "/Lotus/Fx/PowersuitAbilities/Decree/SonarAugmentOneBurst",
                     "_augmentPvpHightlightFx": "",
                     "_primeBeam": "",
-                    "_markerInfoType": ""
+                    "_markerInfoType": "",
+                    "_weakpointHitSfx": ""
                 }
             },
             {
@@ -64,14 +68,16 @@
                     "Script": "Sonar.lua",
                     "Function": "ApplySonar",
                     "_activateAnim": "",
-                    "_weakPointFx": "/Lotus/Fx/PowersuitAbilities/Decree/WeakSpotSonar",
+                    "_weakPointFx": "/Lotus/Fx/PowersuitAbilities/Decree/WeakSpotSonarProjector",
+                    "_multipleWeakpointAttach": "/Lotus/Fx/PowersuitAbilities/Decree/SonarWeakSpotStackGPU",
                     "_burstFx": "",
                     "_localBlastDecoType": "",
                     "_ignoredTypes": [],
                     "_augmentOneBurst": "",
                     "_augmentPvpHightlightFx": "/Lotus/Fx/PowersuitAbilities/Necro/EnemyVision",
                     "_primeBeam": "",
-                    "_markerInfoType": ""
+                    "_markerInfoType": "/Lotus/Types/Game/MarkerInfos/SonarMarkerInfo",
+                    "_weakpointHitSfx": "/Lotus/Sounds/Warframes/Decree/BansheeWeakPointImpact3D"
                 }
             }
         ],
@@ -80,7 +86,26 @@
         "AllowReactivate": 1,
         "AllowDuringOverride": 1,
         "ActivationXP": 50,
+        "PlayCastSound": 0,
         "VideoTexture": "/Lotus/Interface/AbilityVideos/BansheePower2_s.bk2",
+        "SoundEvents": [
+            {
+                "EventName": "BansheeSonarCastSFX",
+                "Sound": "/Lotus/Sounds/Warframes/Decree/BansheeSonarCast3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            },
+            {
+                "EventName": "BansheeSonarImpactSFX",
+                "Sound": "/Lotus/Sounds/Warframes/Decree/DecreeSonar3D",
+                "Chance": 1,
+                "Period": 1,
+                "Context": "PEC_ALL",
+                "CancelEventName": ""
+            }
+        ],
         "ForceFeedbackEffectEvents": [
             {
                 "EventName": "BansheeImpactMediumFeedback",

@@ -1,7 +1,6 @@
 {
-    "parent": "/Lotus/Types/Game/LotusArtifactUpgrades/BaseArtifactUpgrade",
+    "parent": "IceShieldBaseAugmentCard",
     "data": {
-        "Rarity": "RARE",
         "MarketMode": "MM_HIDDEN",
         "LocalizeTag": "/Lotus/Language/Suits/SnowGlobeAbilityAugment1Name",
         "Icon": "/Lotus/Interface/Cards/Images/AbilityAugments/FrostSnowglobeAugment.png",
@@ -14,6 +13,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "AUGMENT_ONE",
                 "UpgradeObject": "Abilities/IceShieldAbility",
                 "ValidPostures": [],
@@ -35,13 +35,10 @@
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
-        "ArtifactPolarity": "AP_POWER",
-        "BaseDrain": "QA_HIGH",
-        "FusionLimit": "QA_MEDIUM",
-        "ItemCompatibility": "FrostBaseSuit",
-        "IsAbilityAugment": 1
+        "ArtifactPolarity": "AP_POWER"
     }
 }

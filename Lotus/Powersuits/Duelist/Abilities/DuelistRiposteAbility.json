@@ -1,0 +1,37 @@
+{
+    "parent": "/Lotus/Powersuits/PowersuitAbilities/PlayerPowerSuitAbility",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/Iceblade/DuelistAbilityRiposteName",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/DuelistAbilityRiposteDesc",
+        "Icon": "/Lotus/Interface/Icons/Abilities/NarinRiposte.png",
+        "UniquePowerIdentifier": "DUELIST_RIPOSTE",
+        "Script": {
+            "Script": "DuelistRiposte.lua",
+            "Function": "ActivateAbility",
+            "_activateAnim": "/Lotus/Animations/Tenno/Powers/Narin/Ability2_anim.fbx",
+            "_enemyAttach": "/Lotus/Fx/PowersuitAbilities/Duelist/RiposteEnemyAttachDeco"
+        },
+        "NpcCooldownDuration": 60,
+        "EnergyRequiredToActivate": 50,
+        "AllowToggle": 1,
+        "AllowReactivate": 1,
+        "AllowOnZipLines": 1,
+        "AllowDuringOverride": 1,
+        "CastSound": "/Lotus/Sounds/Warframes/Narin/Abilities/NarinRiposteCast",
+        "VideoTexture": "/Lotus/Interface/AbilityVideos/NarinPower2_s.bk2",
+        "ResourceOverrides": [
+            {
+                "Tag": "RiposteReturn",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Duelist/RiposteReturnSpawner"
+            },
+            {
+                "Tag": "RiposteAttach",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Duelist/RiposteAttachSpawner"
+            },
+            {
+                "Tag": "RiposteGainBurst",
+                "Resource": "/Lotus/Fx/PowersuitAbilities/Duelist/RiposteGainBurstSpawner"
+            }
+        ]
+    }
+}

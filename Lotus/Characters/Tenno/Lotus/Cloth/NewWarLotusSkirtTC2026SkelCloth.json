@@ -1,0 +1,76 @@
+{
+    "parent": "/EE/Types/Effects/SkeletalClothEx",
+    "data": {
+        "Mesh": "NewWarLotusSkirtCloth_skel.fbx",
+        "Attached": 1,
+        "AttachBone": "GAME_C1_ATTCH",
+        "ControlData": "NewWarLotusSkirtTC2026SkelClothData",
+        "Collision": "LotusSimCollision",
+        "Attribs": {
+            "dampeningRange": [
+                0.12899999,
+                0.15000001
+            ],
+            "collidingDampeningRange": [
+                0.193772,
+                1
+            ],
+            "massRange": [
+                0.031142,
+                0.55709302
+            ],
+            "distConstraintRange": [
+                0.0049999999,
+                1.59
+            ],
+            "reduceStretchExponent": 0.58999997,
+            "shearingStiffness": 0.28999999,
+            "worldVelocityAtten": [
+                1,
+                1.25,
+                1
+            ],
+            "worldVelocitySmooth": 0,
+            "windVelocityScale": 0.5,
+            "windAffected": 0,
+            "windStrength": [
+                0,
+                0
+            ],
+            "noiseSpeed": 0.5,
+            "windVolume": "/EE/Types/GraphicsRes/DefaultFlowVolumeB",
+            "windVolumeStrength": [
+                0.75,
+                0.75,
+                0.75
+            ],
+            "windVolumeScale": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "windVolumeOffsetRate": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "usePeerCollision": 0,
+            "floorPlaneHeight": 0.059,
+            "collisionExemptions": [
+                "UpThighsMod1",
+                "UpThighsMod2",
+                "",
+                "Skirt1A",
+                "Skirt1B",
+                "Skirt1C"
+            ],
+            "orientationBasis": "NEG_X_Y",
+            "simulateCollisionLast": 0
+        },
+        "DefaultBoneConfig": {
+            "distContraint": 0.5
+        },
+        "UseClothCollision": 1,
+        "ZoneWindScale": 2
+    }
+}

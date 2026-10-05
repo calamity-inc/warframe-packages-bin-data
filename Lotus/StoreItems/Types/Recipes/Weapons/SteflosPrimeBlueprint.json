@@ -1,0 +1,44 @@
+{
+    "parent": "/Lotus/Types/Game/StoreItemSpecializations/RecipeStoreItem",
+    "data": {
+        "ProductCategory": "Recipes",
+        "LocalizeTag": "/Lotus/Language/Primes/PrimeSteflosShotgunName",
+        "LocalizeDescTag": "/Lotus/Language/Primes/PrimeSteflosShotgunDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/SteflosPrime.png",
+        "TypeName": "/Lotus/Types/Recipes/Weapons/SteflosPrimeBlueprint",
+        "SellingPrice": 2500,
+        "PrimeSellingPrice": 45,
+        "ShowInMarket": 0,
+        "DateAddedToManifest": 1786537349,
+        "RequiredLevel": 15,
+        "Tradeable": 1,
+        "Giftable": 0,
+        "SearchTags": [
+            "/Lotus/Language/Loadout/LoadoutCat_Shotgun"
+        ],
+        "ExcludeFromCodex": 0,
+        "UseAlternateItemDisplay": 1,
+        "ResultItem": "/Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeSteflos/PrimeSteflosShotgun",
+        "Ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SteflosPrimeReceiver",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SteflosPrimeBarrel",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SteflosPrimeStock",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 10
+            }
+        ],
+        "BuildTime": 43200,
+        "BuildPrice": 15000,
+        "SkipBuildTimePrice": 50
+    }
+}

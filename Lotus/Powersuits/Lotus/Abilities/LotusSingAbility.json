@@ -1,0 +1,47 @@
+{
+    "parent": "/Lotus/Powersuits/PowersuitAbilities/PlayerPowerSuitAbility",
+    "data": {
+        "LocalizeTag": "/Lotus/Language/TauPrologue/LotusSingAbilityName",
+        "Icon": "/Lotus/Interface/Icons/Abilities/Misc/LotusSing.png",
+        "UniquePowerIdentifier": "LOTUS_SING",
+        "AdditionalPowerIdentifiers": [
+            "EFFECT_PERCEPTION"
+        ],
+        "Script": {
+            "Script": "LotusSingAbility.lua",
+            "Function": "ActivateAbility",
+            "_maxNumBlindReactionAnims": 3,
+            "_activateAnim": "/Lotus/Animations/Tenno/Powers/Lotus/Ability2_anim.fbx",
+            "_blindEffect": "",
+            "_castEffect": "/Lotus/Fx/PowersuitAbilities/Lotus/SingCast",
+            "_shockwaveType": "LotusSingShockwaveEntity",
+            "_shockwaveWindEffect": "/Lotus/Fx/PowersuitAbilities/Lotus/LotusWindBlast",
+            "_killDelayTime": 2,
+            "_avatarDeathSound": ""
+        },
+        "SecondaryScripts": [
+            {
+                "tag": "ShockwaveLoop",
+                "executionMode": "EM_HOST",
+                "inheritPrimary": 1,
+                "functionName": "ShockwaveLoop",
+                "scriptInstance": {
+                    "Script": "LotusSingAbility.lua",
+                    "Function": "ShockwaveLoop",
+                    "_maxNumBlindReactionAnims": 3,
+                    "_activateAnim": "/Lotus/Animations/Tenno/Powers/Lotus/Ability2_anim.fbx",
+                    "_blindEffect": "",
+                    "_castEffect": "/Lotus/Fx/PowersuitAbilities/Lotus/SingCast",
+                    "_shockwaveType": "LotusSingShockwaveEntity",
+                    "_shockwaveWindEffect": "/Lotus/Fx/PowersuitAbilities/Lotus/LotusWindBlast",
+                    "_killDelayTime": 2,
+                    "_avatarDeathSound": ""
+                }
+            }
+        ],
+        "EnergyRequiredToActivate": 0,
+        "PvpEnergyRequiredToActivate": 0,
+        "ActivationXP": 0,
+        "CastSound": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusSingCast"
+    }
+}

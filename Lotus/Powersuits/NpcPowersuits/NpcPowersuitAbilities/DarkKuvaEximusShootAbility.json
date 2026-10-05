@@ -1,0 +1,28 @@
+{
+    "parent": "NpcAbility",
+    "data": {
+        "Script": {
+            "Script": "/Lotus/Scripts/DarkKuvaEximusShootAbilitySimple.lua",
+            "Function": "ActivateAbility",
+            "_activateAnim": "/Lotus/Animations/Tenno/Powers/Necro/CloneTheDead_anim.fbx",
+            "_castFx": "/Lotus/Fx/PowersuitAbilities/Necro/CloneTheDeadCast",
+            "_projType": "/Lotus/Types/Enemies/Zariman/Weapons/DarkKuvaEximusGuidedProj",
+            "_cooldownAfterFinishedRange": 2.5,
+            "_cooldownAfterFinishedMelee": 4,
+            "_maxRange": 40,
+            "_meleeMaxRange": 7,
+            "_castSound": "/Lotus/Sounds/Enemies/Eximus/Kuva/EximusKuvaOrbCastOne",
+            "_formationSound": "/Lotus/Sounds/Enemies/Eximus/Kuva/EximusKuvaOrbFormation",
+            "_shootSound": "/Lotus/Sounds/Enemies/Eximus/Kuva/EximusKuvaOrbShoot"
+        },
+        "CooldownDuration": 0,
+        "NpcCooldownDuration": 6,
+        "ChanceToUseStartingNpcCooldown": 0,
+        "AllowToggle": 1,
+        "TurnToTarget": 1,
+        "CanCastWhileDodging": 1,
+        "AllowWhileRagdoll": 0,
+        "HideMeleeWeapon": 0,
+        "EvaluateScript": 0
+    }
+}

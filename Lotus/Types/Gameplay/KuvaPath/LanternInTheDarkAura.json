@@ -1,0 +1,37 @@
+{
+    "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/ConquestVariableAura",
+    "data": {
+        "LocalizeTag": "[HC] LanternInTheDarkAura",
+        "LocalizeDescTag": "[HC] Give me a description",
+        "Icon": "/Lotus/Interface/Icons/ModBuffIndicators/Conquest/AbilityLockout.png",
+        "TargetType": "/Lotus/Types/Game/LotusNpcAvatar",
+        "ExcludedFaction": "TENNO",
+        "ExcludedAvatars": [],
+        "OnEnterAuraScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/LanternInTheDark.lua",
+            "Function": "OnEnterAura",
+            "_lanternType": "",
+            "_lanternItemType": "",
+            "_darkLevelInfo": "",
+            "_invulnEffect": "",
+            "_numLanterns": 2,
+            "_droppedRadius": 2,
+            "_shrinkDuration": 15,
+            "_damageReduction": 0.94999999
+        },
+        "OnAuraAddedToLevelScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/LanternInTheDark.lua",
+            "Function": "OnAuraAddedToLevel",
+            "_lanternType": "LanternPickup",
+            "_lanternItemType": "",
+            "_darkLevelInfo": "LanternDarknessLevelInfo",
+            "_invulnEffect": "",
+            "_numLanterns": 2,
+            "_droppedRadius": 2,
+            "_shrinkDuration": 15,
+            "_damageReduction": 0.94999999
+        },
+        "ClientRunsOnEnterExitScripts": 0,
+        "ClientRunsOnAddedRemovedScripts": 1
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "parent": "/Lotus/Fx/Weapons/Melee/WeaponTrails/SwordWeaponTrail",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.5
+            }
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "DuelistSpiritEphemeraSparkleBirdBody",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "Active": 1,
+        "EdgeTime": 0.64999998,
+        "Length": 0.15000001,
+        "EaseInRate": 1,
+        "Material": "DuelistSpiritEphemeraBirdTrailAMat",
+        "TextureScale": 1,
+        "TextureOffset": [
+            0,
+            1
+        ],
+        "Tint": [
+            95,
+            185,
+            200,
+            255
+        ],
+        "TintOverLife": 1,
+        "Spiral": 1,
+        "SpiralSpeedRange": [
+            2,
+            4
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "parent": "/EE/Types/Darkitect/GameImGuiScriptCommand",
+    "data": {
+        "Label": "Script Native Breakpoints",
+        "Qualifications": [
+            "/EE/Editor/ToolMenus/Conditions/CndDeveloperModeEnabled"
+        ],
+        "Script": {
+            "Script": "/Lotus/Scripts/Cmds/CmdScriptNativeBreakpoints.lua",
+            "Function": "RunCommand"
+        }
+    }
+}

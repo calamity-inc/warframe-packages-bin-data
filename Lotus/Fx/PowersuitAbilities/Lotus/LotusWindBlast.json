@@ -1,0 +1,20 @@
+{
+    "parent": "/EE/Types/Effects/DirectionalWind",
+    "data": {
+        "Radius": 10,
+        "Directional": 0,
+        "LifeSpan": 0.5,
+        "ForceCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 50
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0
+                }
+            ]
+        }
+    }
+}

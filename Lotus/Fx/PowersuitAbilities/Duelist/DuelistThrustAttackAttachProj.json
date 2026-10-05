@@ -1,0 +1,67 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "VisibleDistortion": 1,
+        "DistortionMaterial": "/Lotus/Fx/PowersuitAbilities/Loki/CloakedDistortionMat",
+        "DeadParentInheritanceRule": "NONE",
+        "ReplicationOverride": "RO_NEVER",
+        "Material": "DuelistRapierActivateProjMat",
+        "UseAttachRoot": 0,
+        "CloneOnParentAnimStateSiblings": 0,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 1,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 50
+                        },
+                        {
+                            "Time": 0.5,
+                            "Value": 150
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 50
+                        }
+                    ],
+                    "SplineType": "CARDINAL_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 0,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 1
+            }
+        ],
+        "TriggeredFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 0.40000001,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 0,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}
