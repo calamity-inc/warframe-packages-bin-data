@@ -12,9 +12,16 @@
             "_severeSaturationLevelAura": "KuvaSaturationSevereCmpAura",
             "_OnKuvaIncreaseFx": "/Lotus/Fx/Icebalde/IceKuvaCrystalSpreadFx",
             "_KuvaStackEffects": [
-                "/Lotus/Fx/Icebalde/IceKuvaCrystalRainMildFx",
-                "/Lotus/Fx/Icebalde/IceKuvaCrystalRainStrongFx",
-                "/Lotus/Fx/Icebalde/IceKuvaCrystalRainSevereFx"
+                "/Lotus/Fx/Icebalde/IceKuvaCrystalRainOneCrystalFx",
+                "/Lotus/Fx/Icebalde/IceKuvaCrystalRainTwoCrystalFx",
+                "/Lotus/Fx/Icebalde/IceKuvaCrystalRainThreeCrystalFx"
+            ],
+            "_KuvaCrystalSpawnFx": "/Lotus/Fx/Icebalde/IceSpawningKuvaCrystalFx",
+            "_KuvaCrystals": [
+                "KuvaSaturationCrystalDecoA",
+                "KuvaSaturationCrystalDecoB",
+                "KuvaSaturationCrystalDecoC",
+                "KuvaSaturationCrystalDecoD"
             ],
             "_KuvaWispAgent": "KuvaSaturationGhostAgent",
             "_KuvaSpeedBuffFx": "/Lotus/Fx/Icebalde/IceKuvaBurstEnergyFx",
@@ -33,6 +40,8 @@
             "_severeSaturationLevelAura": "",
             "_OnKuvaIncreaseFx": "",
             "_KuvaStackEffects": [],
+            "_KuvaCrystalSpawnFx": "",
+            "_KuvaCrystals": [],
             "_KuvaWispAgent": "KuvaSaturationGhostAgent",
             "_KuvaSpeedBuffFx": "/Lotus/Fx/Icebalde/IceKuvaBurstEnergyFx",
             "_wispExplosionDamageRadius": 4,

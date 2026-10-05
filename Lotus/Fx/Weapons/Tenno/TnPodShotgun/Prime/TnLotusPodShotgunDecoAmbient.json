@@ -1,0 +1,113 @@
+{
+    "parent": "/Lotus/Fx/Explosions/Generic/ExplosionScifiAuraDecoMedium",
+    "data": {
+        "MeshScale": 0.2,
+        "OverrideMaterial": [
+            "TnLotusPodShotgunDecoAmbientOpulentMat"
+        ],
+        "IgnoreParentScale": 1,
+        "TestRotateSpeed": [
+            30,
+            -25,
+            45
+        ],
+        "ReplicaPositionNoise": [
+            0,
+            0,
+            0,
+            0.1
+        ],
+        "ReplicaRotationNoise": [
+            7,
+            5,
+            10,
+            0.1
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.60000002,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0.122654
+                        },
+                        {
+                            "Time": 0.65232199,
+                            "Value": 1.041885
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "MeshScale",
+                "Slot": -1,
+                "TimeLength": 0.44999999,
+                "Multiplier": 0.5,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0.0368625
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 1
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            }
+        ],
+        "TriggeredMaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.5,
+                "Multiplier": 0.60000002,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

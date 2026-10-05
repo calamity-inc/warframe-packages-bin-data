@@ -1,0 +1,125 @@
+{
+    "parent": "SvMushroomBaseDecoType",
+    "data": {
+        "Mesh": "SvMushroomJuvenile1.fbx",
+        "CullDistance": 650,
+        "GridZoningExpansion": 2,
+        "Imposter": "SvMushroomJuvenileBig",
+        "ImposterDistanceRange": [
+            240,
+            250
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0.25178501,
+                    10.678058,
+                    -3.6013899
+                ],
+                "LocalRotation": [
+                    0.46174899,
+                    0,
+                    -0.88701099,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "SvMushroomHangingBDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 0.7724998
+            },
+            {
+                "LocalPosition": [
+                    -2.9737959,
+                    9.2504768,
+                    1.4088531
+                ],
+                "LocalRotation": [
+                    -0.94264102,
+                    0,
+                    -0.33380699,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "SvMushroomHangingADeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 0.71074963
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "",
+                "Chance": 153,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -2.802207,
+                    10.881376,
+                    -1.845781
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/PerchWaypoint",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Ambience/VenusOpenWorld/VenusLandscape/OneOffs/VenusLandscapeMushroomCreakSeq",
+                "Chance": 153,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ]
+    }
+}

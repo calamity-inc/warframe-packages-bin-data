@@ -1,0 +1,54 @@
+{
+    "parent": "/Lotus/Objects/Grineer/Props/Pipes/GlnPipeXLB2M",
+    "data": {
+        "MeshScale": 0.55000001,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    -2.6400001,
+                    -1
+                ],
+                "LocalRotation": [
+                    -0.70710677,
+                    0,
+                    0,
+                    0.70710677
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Objects/Guild/GasCityRemaster/Props/GasInlayPipesBraccketLarge",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "ServerChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    -2.5,
+                    -1
+                ],
+                "LocalRotation": [
+                    -0.70710677,
+                    0,
+                    0,
+                    0.70710677
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Objects/Guild/GasCityRemaster/Props/GasHazardDetonatorLarge",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ]
+    }
+}

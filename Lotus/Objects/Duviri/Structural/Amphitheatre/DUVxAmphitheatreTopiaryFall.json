@@ -1,0 +1,103 @@
+{
+    "parent": "DUVxTopiaryFall",
+    "data": {
+        "Mesh": "DUVxAmphitheatreTopiary.fbx",
+        "CullDistance": 200,
+        "MotionBlurred": 0,
+        "GridZoningExpansion": 1,
+        "ImposterDistanceRange": [
+            0,
+            0
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    -0.15000001,
+                    0.69999999,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.70710677,
+                    0,
+                    0.70710677
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Types/Gameplay/Duviri/ForceWalkFoliage1x4Volume",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.89999998,
+                    0.69999999,
+                    -3.5
+                ],
+                "LocalRotation": [
+                    0,
+                    -0.53729999,
+                    0,
+                    0.843391
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Types/Gameplay/Duviri/ForceWalkFoliage1x4Volume",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.89999998,
+                    0.69999999,
+                    3.5
+                ],
+                "LocalRotation": [
+                    0,
+                    0.53729999,
+                    0,
+                    0.843391
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Types/Gameplay/Duviri/ForceWalkFoliage1x4Volume",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Ambience/Duviri/Gameplay/DuviriMoveGrassLoopVolume",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ]
+    }
+}

@@ -132,7 +132,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -160,6 +159,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/TnSMGAimAccuracyInfo",
@@ -184,6 +184,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 400,
                     "PvpTraceDistance": 400,
@@ -297,6 +299,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         1400,
                         2800
@@ -334,6 +337,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.30000001,
                     "criticalHitDamageMultiplier": 2.2,
@@ -402,7 +406,8 @@
                             0.25,
                             0.75
                         ],
-                        "friendlyFire": 0
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "PvpRadialDamage": {
                         "baseAmount": 0,
@@ -452,7 +457,8 @@
                             0.25,
                             0.75
                         ],
-                        "friendlyFire": 0
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "RadialDamageEffects": [],
                     "RadialDamageUpgradeType": "WEAPON_DAMAGE_AMOUNT"
@@ -470,6 +476,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -580,7 +587,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -608,6 +614,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "",
@@ -632,6 +639,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 400,
                     "PvpTraceDistance": 400,
@@ -791,6 +800,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -828,6 +838,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.5,
                     "criticalHitDamageMultiplier": 3,
@@ -900,7 +911,8 @@
                             0.25,
                             0.75
                         ],
-                        "friendlyFire": 0
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "PvpRadialDamage": {
                         "baseAmount": 0,
@@ -950,7 +962,8 @@
                             0.25,
                             0.75
                         ],
-                        "friendlyFire": 0
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "RadialDamageEffects": [
                         "/Lotus/Fx/Weapons/Thanotech/ThanotechLongGun/ThanotechLongGunAltExplosionFX"
@@ -970,6 +983,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -1217,7 +1231,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -1245,6 +1258,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Ai/CrpHeavyRifleHipAccuracyInfo",
@@ -1269,6 +1283,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 300,
                     "PvpTraceDistance": 300,
@@ -1380,6 +1396,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         15,
                         30
@@ -1417,6 +1434,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.30000001,
                     "criticalHitDamageMultiplier": 2.2,
@@ -1485,7 +1503,8 @@
                             0.25,
                             0.75
                         ],
-                        "friendlyFire": 0
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "PvpRadialDamage": {
                         "baseAmount": 0,
@@ -1535,7 +1554,8 @@
                             0.25,
                             0.75
                         ],
-                        "friendlyFire": 0
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "RadialDamageEffects": [],
                     "RadialDamageUpgradeType": "WEAPON_DAMAGE_AMOUNT"
@@ -1553,6 +1573,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -1663,7 +1684,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -1691,6 +1711,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "",
@@ -1715,6 +1736,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "traceDistance": 1000,
                     "PvpTraceDistance": 1000,
@@ -1871,6 +1894,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -1908,6 +1932,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.5,
                     "criticalHitDamageMultiplier": 3,
@@ -1978,7 +2003,8 @@
                             0.25,
                             0.75
                         ],
-                        "friendlyFire": 0
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "PvpRadialDamage": {
                         "baseAmount": 0,
@@ -2028,7 +2054,8 @@
                             0.25,
                             0.75
                         ],
-                        "friendlyFire": 0
+                        "friendlyFire": 0,
+                        "ignoreDamageAttenuation": 0
                     },
                     "RadialDamageEffects": [
                         "/Lotus/Fx/Weapons/Thanotech/ThanotechLongGun/ThanotechLongGunAltExplosionFX"
@@ -2048,6 +2075,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -2183,8 +2211,13 @@
         "HeavyBatteryRegenDelayFromEmpty": 4,
         "HeavyBatteryRegenRate": 200,
         "NumChargesToConsume": 5,
-        "AddChargeConditions": [
-            "PRIMARY_KILL"
+        "AddCharges": [
+            {
+                "Conditions": [
+                    "PRIMARY_KILL"
+                ],
+                "NumCharges": 1
+            }
         ],
         "ConsumeChargeConditions": [
             "SECONDARY_FIRE"

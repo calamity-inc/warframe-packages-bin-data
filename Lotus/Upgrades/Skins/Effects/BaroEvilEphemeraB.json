@@ -1,0 +1,59 @@
+{
+    "parent": "BaseEphemera",
+    "data": {
+        "MarketMode": "MM_HIDDEN",
+        "LocalizeTag": "/Lotus/Language/Ephemera/BaroEvilEphemeraBName",
+        "LocalizeDescTag": "/Lotus/Language/Ephemera/BaroEvilEphemeraBDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/BaroEvilEphemeraB.png",
+        "ExcludeFromCodex": 0,
+        "THIRD_PERSON_Attachment": {
+            "UpgradeAutoChildren": [
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Fx/PowersuitAbilities/CustomEffects/BaroEvilEphBAttachIdle",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "GAME_C1_SPINE5",
+                    "Type": "/Lotus/Fx/PowersuitAbilities/CustomEffects/BaroEvilEphemeraCollarAttach",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                }
+            ]
+        },
+        "ApplyEnergyColor": 1
+    }
+}

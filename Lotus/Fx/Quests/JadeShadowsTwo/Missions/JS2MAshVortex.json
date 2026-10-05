@@ -2,6 +2,30 @@
     "parent": "/EE/Types/Effects/Spawner",
     "data": {
         "UseLightProbes": 0,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Gameplay/JadeShadowsTwo/RailjackMissions/JS2AshVortexSuckingSeq",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
         "ReplicationOverride": "RO_ALWAYS",
         "CreatedTypes": [
             {
@@ -255,7 +279,6 @@
                 "InheritCreator": 0
             }
         ],
-        "BurstSound": "/Lotus/Sounds/Gameplay/JadeShadowsTwo/RailjackMissions/JS2AshVortexSuckingStinger",
         "OwnChildren": 1,
         "Mode": "ONE_SHOT",
         "AutoDelayRange": [

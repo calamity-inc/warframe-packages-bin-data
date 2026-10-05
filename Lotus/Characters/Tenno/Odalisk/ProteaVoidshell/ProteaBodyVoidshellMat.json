@@ -68,17 +68,11 @@
             4,
             4
         ],
+        "PS:ClampTintColor": 0,
         "TX:NormalMap": "ProteaBodyVoidshell_n.png",
         "TX:CharacterTintMask": "ProteaBodyVoidshellMaterial_t.png",
         "TX:DetailsAoMap": "ProteaBodyVoidShellPackMap",
         "TX:EmissiveMap": "ProteaBodyVoidshell_e.png",
-        "PS:GrimeTintColor": [
-            0.082000002,
-            0.082000002,
-            0.082000002,
-            0
-        ],
-        "PS:GrimeRoughness": 0.75,
         "PS:BlackParams": [
             1,
             0.1,
@@ -138,6 +132,13 @@
         ],
         "PS:GrimeRoughnessBlue": 0.80681801,
         "TX:BluePackMap": "/Lotus/Characters/SharedTileableTextures/Metal/Bronze/Bronze",
-        "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/Metal/Bronze/Bronze_n.png"
+        "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/Metal/Bronze/Bronze_n.png",
+        "PS:GrimeTintColor": [
+            0.082000002,
+            0.082000002,
+            0.082000002,
+            0
+        ],
+        "PS:GrimeRoughness": 0.75
     }
 }

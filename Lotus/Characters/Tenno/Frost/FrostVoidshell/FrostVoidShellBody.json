@@ -69,31 +69,11 @@
             4,
             4
         ],
+        "PS:ClampTintColor": 0,
         "TX:NormalMap": "FrostVoidshellBody_n.png",
         "TX:CharacterTintMask": "FrostVoidshellBody_t.png",
         "TX:DetailsAoMap": "FrostVoidShellBodyPackmap",
-        "TX:BlackPackMap": "/Lotus/Characters/SharedTileableTextures/Metal/Bronze/Bronze",
-        "TX:BlackNormalMap": "/Lotus/Characters/SharedTileableTextures/Metal/Bronze/Bronze_n.png",
-        "TX:RedPackMap": "/Lotus/Characters/SharedTileableTextures/Plastic/GlossyPlastic/GlossyPlastic",
-        "TX:RedNormalMap": "/Lotus/Characters/Solaris/SolarisTileableTextures/SolarisRubber_n.png",
-        "TX:GreenPackMap": "/Lotus/Characters/SharedTileableTextures/Metal/PaintedMetal/PaintedMetal",
-        "TX:GreenNormalMap": "/Lotus/Characters/SharedTileableTextures/Metal/PaintedMetal/PaintedMetal_n.png",
-        "TX:BluePackMap": "/Lotus/Characters/SharedTileableTextures/Swappable/FrostPackMap",
-        "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/Swappable/Frost_n.png",
         "TX:EmissiveMap": "FrostVoidshellBody_e.png",
-        "PS:BaseTintColor": [
-            0.0029,
-            0.0029,
-            0.0029,
-            0.5
-        ],
-        "PS:GrimeTintColor": [
-            0.082000002,
-            0.082000002,
-            0.082000002,
-            0
-        ],
-        "PS:GrimeRoughness": 0.75,
         "PS:BlackParams": [
             1,
             0.1,
@@ -107,6 +87,8 @@
             0
         ],
         "PS:GrimeRoughnessBlack": 0.5,
+        "TX:BlackPackMap": "/Lotus/Characters/SharedTileableTextures/Metal/Bronze/Bronze",
+        "TX:BlackNormalMap": "/Lotus/Characters/SharedTileableTextures/Metal/Bronze/Bronze_n.png",
         "PS:RedParams": [
             1,
             0.1,
@@ -120,6 +102,8 @@
             0
         ],
         "PS:GrimeRoughnessRed": 0.75,
+        "TX:RedPackMap": "/Lotus/Characters/SharedTileableTextures/Plastic/GlossyPlastic/GlossyPlastic",
+        "TX:RedNormalMap": "/Lotus/Characters/Solaris/SolarisTileableTextures/SolarisRubber_n.png",
         "PS:GreenParams": [
             1,
             0.1,
@@ -133,6 +117,8 @@
             0
         ],
         "PS:GrimeRoughnessGreen": 0.75,
+        "TX:GreenPackMap": "/Lotus/Characters/SharedTileableTextures/Metal/PaintedMetal/PaintedMetal",
+        "TX:GreenNormalMap": "/Lotus/Characters/SharedTileableTextures/Metal/PaintedMetal/PaintedMetal_n.png",
         "PS:BlueParams": [
             1,
             0.1,
@@ -145,6 +131,21 @@
             0.19,
             0
         ],
-        "PS:GrimeRoughnessBlue": 0.80681801
+        "PS:GrimeRoughnessBlue": 0.80681801,
+        "TX:BluePackMap": "/Lotus/Characters/SharedTileableTextures/Swappable/FrostPackMap",
+        "TX:BlueNormalMap": "/Lotus/Characters/SharedTileableTextures/Swappable/Frost_n.png",
+        "PS:BaseTintColor": [
+            0.0029,
+            0.0029,
+            0.0029,
+            0.5
+        ],
+        "PS:GrimeTintColor": [
+            0.082000002,
+            0.082000002,
+            0.082000002,
+            0
+        ],
+        "PS:GrimeRoughness": 0.75
     }
 }

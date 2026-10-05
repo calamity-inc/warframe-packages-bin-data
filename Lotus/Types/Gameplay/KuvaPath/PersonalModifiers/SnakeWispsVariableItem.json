@@ -1,8 +1,8 @@
 {
     "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
     "data": {
-        "LocalizeTag": "[HC] SnakeWispsVariableItem",
-        "LocalizeDescTag": "[HC] Give me a description",
+        "LocalizeTag": "/Lotus/Language/Iceblade/Personalmod_ElectricJumps_Name",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/Personalmod_ElectricJumps_Desc",
         "ApplyUpgradesByDefault": 0,
         "Script": {
             "Script": "/Lotus/Scripts/KuvaPath/KuvaPathPersonalModifiers.lua",
@@ -13,7 +13,16 @@
             "_knockdownTriggerType": "/Lotus/Powersuits/Volt/ShieldKnockdownTrigger",
             "_beamType": "",
             "_baseDmgPerSec": 10,
-            "_snakeWispType": "SnakeWispsOrbProjectile"
+            "_snakeWispType": "SnakeWispsOrbProjectile",
+            "_spotlightType": "",
+            "_shieldRestorePercent": 0.050000001,
+            "_staticSiphonBeamType": "",
+            "_grenadeType": "",
+            "_damageMultiplier": 2,
+            "_grenadeDamageRadius": 5,
+            "_spikeType": "",
+            "_antimatterDrop": "",
+            "_antimatterDropMarkerInfo": ""
         },
         "ExecuteAppliedEvent": 1,
         "ConditionalUpgrades": [

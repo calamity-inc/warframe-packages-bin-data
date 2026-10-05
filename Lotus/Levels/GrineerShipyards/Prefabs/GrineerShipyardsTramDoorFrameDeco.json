@@ -1,0 +1,41 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "LightMapSize": "LM_128x128",
+        "BakeEmissiveScale": 0,
+        "Mesh": "/Lotus/Objects/Grineer/Props/GrnDoorTramFrameHalf.fbx",
+        "OverrideMaterial": [
+            "",
+            "",
+            "",
+            "/Lotus/Objects/Grineer/Props/GrnLightsLockedDown"
+        ],
+        "MirrorDraw": "MF_CULL_FROM_MIRRORS",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0.1,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "GrineerShipyardsTramFloorDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "Tag": "DoorFrameTag",
+        "ReplicationOverride": "RO_ALWAYS"
+    }
+}

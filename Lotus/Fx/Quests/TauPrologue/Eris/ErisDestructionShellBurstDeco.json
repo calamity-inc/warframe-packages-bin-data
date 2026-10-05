@@ -10,11 +10,11 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 6,
+                "TimeLength": 16,
                 "Multiplier": 2,
                 "FadeRange": [
-                    0.039999999,
-                    0.2
+                    0.050000001,
+                    0.5
                 ],
                 "FadeCurve": {
                     "Values": [],
@@ -30,10 +30,10 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 6,
-                "Multiplier": 10,
+                "TimeLength": 12,
+                "Multiplier": 40,
                 "FadeRange": [
-                    0,
+                    1,
                     1
                 ],
                 "FadeCurve": {
@@ -45,6 +45,66 @@
                 "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
                 "IsMeshScale": 1,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "FresnelPower",
+                "Slot": -1,
+                "TimeLength": 16,
+                "Multiplier": 12,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 3,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "Scalar3",
+                "Slot": -1,
+                "TimeLength": 16,
+                "Multiplier": 45,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 4,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "Hardness",
+                "Slot": -1,
+                "TimeLength": 12,
+                "Multiplier": 0.5,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0.050000001,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
                 "IsRepeating": 0
             }
         ]

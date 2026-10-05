@@ -1,7 +1,8 @@
 {
-    "parent": "/Lotus/Characters/Tenno/WarframeHelmetDeco",
+    "parent": "/Lotus/Types/Game/SuitCustomizationAttachment",
     "data": {
         "Mesh": "CitrinePrimeArmFlapL_skel.fbx",
+        "UseParentAnimState": 1,
         "Tag": "DepleteEffect",
         "ScriptInstance": {
             "Script": "/Lotus/Scripts/Sigil.lua",
@@ -21,6 +22,7 @@
             "_legacyMasteryTextures": [],
             "_sigilType": "/Lotus/Fx/Sigils/BasicSigil"
         },
-        "ReplicaRunScriptInstance": 1
+        "ReplicaRunScriptInstance": 1,
+        "HideWhenAiming": 1
     }
 }

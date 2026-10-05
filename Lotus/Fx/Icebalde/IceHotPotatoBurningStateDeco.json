@@ -2,52 +2,9 @@
     "parent": "/Lotus/Types/Game/LotusEffectDecoration",
     "data": {
         "Mesh": "/Lotus/Fx/Common/CylinderTaperedFadeNoCaps.fbx",
-        "MeshScale": 0.035,
+        "MeshScale": 0.028999999,
         "OverrideMaterial": [
-            "IceEnemyAuraMat"
-        ],
-        "MaterialParams": [
-            {
-                "name": "TimeScalar",
-                "type": "Float",
-                "slot": -1,
-                "value": 1
-            },
-            {
-                "name": "Hardness",
-                "type": "Float",
-                "slot": -1,
-                "value": 0.85000002
-            },
-            {
-                "name": "UnlitAtten",
-                "type": "Float",
-                "slot": -1,
-                "value": 8
-            },
-            {
-                "name": "Scalar1",
-                "type": "Float",
-                "slot": -1,
-                "value": 5
-            },
-            {
-                "name": "Scalar3",
-                "type": "Float",
-                "slot": -1,
-                "value": 5
-            },
-            {
-                "name": "uvScales",
-                "type": "Float4",
-                "slot": -1,
-                "value": 2,
-                "value1": 1,
-                "value2": 3,
-                "value3": 1
-            }
-        ],
-        "DistortionEffect": 1,
-        "DrawInTransparentPass": 1
+            "IceHotPotatoBurningStateMat"
+        ]
     }
 }

@@ -1,0 +1,70 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "UseLightMap": 0,
+        "BakeShadowsOnLightMaps": 0,
+        "ShadowLightmaps": 1,
+        "UseAmbient": 1,
+        "Mesh": "/Lotus/Objects/Gameplay/CrystalSharpGroupA.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/EE/Types/Pickups/PickupGlow",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/Kinematic",
+        "Tag": "KuvaCrystal",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/KuvaSaturation.lua",
+            "Function": "CrystalSetup",
+            "_abilityUsedDamageChallenge": "",
+            "_mildSaturationLevelAura": "",
+            "_strongSaturationLevelAura": "",
+            "_severeSaturationLevelAura": "",
+            "_OnKuvaIncreaseFx": "",
+            "_KuvaStackEffects": [],
+            "_KuvaCrystalSpawnFx": "",
+            "_KuvaCrystals": [],
+            "_KuvaWispAgent": "",
+            "_KuvaSpeedBuffFx": "",
+            "_wispExplosionDamageRadius": 4,
+            "_wispExplosionDamageAmount": 500,
+            "_wispExplosionBonusDamagePerKuvaStack": 250,
+            "_KuvaWispSpawnFx": "",
+            "_KuvaWispExplosionFx": ""
+        },
+        "ReplicaRunScriptInstance": 1,
+        "SurvivesMigration": 1,
+        "Health": 2,
+        "Invulnerable": 1,
+        "ExclusiveDamageSourceType": "/Lotus/Types/Player/TennoAvatar",
+        "RemoveOnDestroy": 1,
+        "CreateOnDestroy": {
+            "LocalPosition": [
+                0,
+                -1,
+                0
+            ],
+            "Type": "/Lotus/Fx/Icebalde/IceKuvaCrystalSpreadFx"
+        },
+        "ShowHealthInHud": 0
+    }
+}

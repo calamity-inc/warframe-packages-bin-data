@@ -1,0 +1,30 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "Mesh": "SUExtTruckRampABoostFlap.fbx",
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    5,
+                    3,
+                    0
+                ],
+                "LocalRotation": [
+                    0.40558001,
+                    0.57922798,
+                    -0.40558001,
+                    0.57922798
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Types/Gameplay/Venus/Objects/StreetRampPusherTrigger",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ]
+    }
+}

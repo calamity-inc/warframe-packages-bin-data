@@ -1,0 +1,99 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    1,
+                    0.13,
+                    0.0077,
+                    1
+                ]
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 18
+            }
+        ],
+        "SpawnRate": 200,
+        "BoundsExpansionOverride": 3,
+        "EnergyTintMethod": "ETM_LIFE",
+        "fireOnce": 0,
+        "useCollisions": 0,
+        "drag": 0.60000002,
+        "mass": [
+            -0.1,
+            -0.025
+        ],
+        "life": [
+            0.1,
+            1.2
+        ],
+        "size": [
+            0.0040000002,
+            0.0080000004
+        ],
+        "velocity": [
+            0.02,
+            0.1
+        ],
+        "streaksFactor": 16,
+        "spawnShape": "SP_PARENT_MESH",
+        "velocityDeviation": [
+            0,
+            0
+        ],
+        "inheritVelocity": 1,
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            1,
+            1,
+            1
+        ],
+        "flowScale": [
+            0.30000001,
+            0.30000001,
+            0.30000001
+        ],
+        "flowScrolling": [
+            0,
+            -1,
+            0
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSpotFadeCloseAlpha",
+        "colorKeys[0]": [
+            1,
+            0.037,
+            0.0060000001,
+            1
+        ],
+        "colorKeys[1]": [
+            0.31,
+            0.0041,
+            0,
+            1
+        ],
+        "colorKeys[2]": [
+            0.054000001,
+            0.0040000002,
+            0,
+            1
+        ],
+        "colorKeys[3]": [
+            0.016000001,
+            0.00098000001,
+            0,
+            1
+        ],
+        "numColors": 4,
+        "vortexSpeed": 3,
+        "vortexDecay": 0.050000001,
+        "vortexRadialForce": 50
+    }
+}

@@ -1,6 +1,26 @@
 {
     "parent": "/EE/Types/Effects/Spawner",
     "data": {
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Effects/CustomEffects.lua",
+            "Function": "KillOnMirageMirror",
+            "_TintColor0": "TintColor",
+            "_TintColor1": "SecondaryTintColor",
+            "_TintColor2": "TintColor_1",
+            "_TintColor3": "SecondaryTintColor_1",
+            "_EmissiveTintColor0": "EmissiveTintColorHi",
+            "_EmissiveTintColor1": "EmissiveTintColorLo",
+            "_Desaturation": 0,
+            "_AlphaStrength": 1,
+            "_Spawner": "",
+            "_Delay": 0.0099999998,
+            "_UnlitAtten": 0,
+            "_CustomDitherDissolve": 1,
+            "_invulnDamageProj": "",
+            "_invulnDamageEffect": "",
+            "_ParamToSampleHigh": "HighColor",
+            "_ParamToSampleLow": "LowColor"
+        },
         "CreatedTypes": [
             {
                 "Type": "DuelistPistolsReloadParticles",

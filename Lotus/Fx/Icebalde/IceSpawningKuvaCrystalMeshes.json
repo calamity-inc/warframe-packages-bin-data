@@ -1,0 +1,76 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "EmissiveMapAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1.8
+            }
+        ],
+        "UseParentDissolve": 0,
+        "HasLifeSpan": 0,
+        "Life": [
+            2,
+            2
+        ],
+        "Size": [
+            0.5,
+            0.85000002
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0.69999999,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "InitialCount": [
+            5,
+            7
+        ],
+        "Shape": "SH_MESH",
+        "Material": "/Lotus/Objects/Gameplay/CrystalSharpA",
+        "RandOrientation": 1,
+        "MeshFullRotation": 1,
+        "ParticleMeshes": [
+            "/Lotus/Objects/Gameplay/CrystalSharpC.fbx",
+            "/Lotus/Objects/Gameplay/CrystalSharpB.fbx"
+        ],
+        "MeshUsesDissolve": 1,
+        "AllowDeferredMeshParticles": 1,
+        "Spin": [
+            -0.07,
+            0.07
+        ],
+        "SpinWithDirection": 1,
+        "SpinByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1.35
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.25
+                }
+            ]
+        },
+        "NozzleDev": 0.27000001,
+        "Speed": [
+            7,
+            10
+        ],
+        "Drag": 0.27000001,
+        "Mass": [
+            1,
+            1
+        ]
+    }
+}

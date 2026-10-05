@@ -1,0 +1,30 @@
+{
+    "parent": "/Lotus/Fx/EffectsDecorationTemplate",
+    "data": {
+        "Mesh": "/Lotus/Fx/Levels/Grineer/Forest/WaterfallABase.fbx",
+        "MeshScale": 8,
+        "OverrideMaterial": [
+            "/EE/Materials/Hidden",
+            "FrstWaterRingCMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            },
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            }
+        ]
+    }
+}

@@ -291,6 +291,7 @@
                     "AltEffectHands": [
                         "OFF_HAND"
                     ],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.25999999,
                     "criticalHitDamageMultiplier": 2.2,
@@ -571,6 +572,18 @@
                 ]
             }
         },
+        "AddCharges": [
+            {
+                "Conditions": [],
+                "NumCharges": 0
+            },
+            {
+                "Conditions": [
+                    "PRIMARY_KILL"
+                ],
+                "NumCharges": 1
+            }
+        ],
         "OmegaAttenuation": 1.1,
         "ArcaneApertureType": "/Lotus/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker",
         "DefaultModTemplate": "/Lotus/Types/ModLists/Melee/CritBalanced",

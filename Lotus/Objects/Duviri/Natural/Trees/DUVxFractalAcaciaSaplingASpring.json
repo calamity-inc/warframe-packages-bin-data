@@ -1,0 +1,57 @@
+{
+    "parent": "/Lotus/Types/Game/MoodDecoration",
+    "data": {
+        "UseLightMap": 0,
+        "Mesh": "DuvFractalAcaciaSaplingA_dcm.fbx",
+        "OverrideMaterial": [
+            "/Lotus/Objects/Duviri/Materials/DUVxTreeAcaciaBarkAFWSpring",
+            "/Lotus/Objects/Duviri/Materials/DUVxTreeFractalAcaciaBranchesAFWSpring"
+        ],
+        "CullDistance": 100,
+        "CullDissolveRatio": 0.5,
+        "MaterialParams": [
+            {
+                "name": "UvScale",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0.5,
+                "value1": 2,
+                "value2": 1,
+                "value3": 1
+            }
+        ],
+        "MotionBlurred": 1,
+        "Imposter": "Imposters/DuvFractalAcaciaSaplingA",
+        "ImposterDistanceRange": [
+            60,
+            70
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Ambience/Duviri/Props/DuviriTreeCommonHalfVolume",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PreferGridZone": 1,
+        "GradientCenter": 0.125,
+        "GradientRandomness": 0.125
+    }
+}

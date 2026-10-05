@@ -1,22 +1,28 @@
 {
     "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
     "data": {
-        "LocalizeTag": "[HC] AttackEchoesVariableItem",
-        "LocalizeDescTag": "[HC] Give me a description",
+        "LocalizeTag": "/Lotus/Language/Iceblade/Condition_AttackGrenades_Name",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/Condition_AttackGrenades_Desc",
         "ApplyUpgradesByDefault": 0,
         "Script": {
             "Script": "/Lotus/Scripts/KuvaPath/KuvaPathPersonalModifiers.lua",
             "Function": "SpawnGrenade",
+            "_prefix": "",
             "_shieldType": "VoltShieldDeco",
             "_grabEffect": "/Lotus/Fx/PowersuitAbilities/Volt/ShieldGrab",
             "_knockdownTriggerType": "/Lotus/Powersuits/Volt/ShieldKnockdownTrigger",
-            "_shieldRestorePercent": 0.050000001,
             "_beamType": "",
             "_baseDmgPerSec": 10,
             "_snakeWispType": "SnakeWispsOrbProjectile",
+            "_spotlightType": "",
+            "_shieldRestorePercent": 0.050000001,
+            "_staticSiphonBeamType": "",
             "_grenadeType": "AttackEchoesGrenadeProjectile",
             "_damageMultiplier": 2,
-            "_grenadeDamageRadius": 5
+            "_grenadeDamageRadius": 5,
+            "_spikeType": "",
+            "_antimatterDrop": "",
+            "_antimatterDropMarkerInfo": ""
         },
         "ExecuteAppliedEvent": 1,
         "ReprocTime": 5,

@@ -1,8 +1,8 @@
 {
     "parent": "/Lotus/Types/Gameplay/EntratiLab/LabConquest/WarframeVariants/LabConquestVariableItem",
     "data": {
-        "LocalizeTag": "[HC] ThornyTerrainVariableItem",
-        "LocalizeDescTag": "[HC] Give me a description",
+        "LocalizeTag": "/Lotus/Language/Iceblade/Personalmod_SpikeSlams_Name",
+        "LocalizeDescTag": "/Lotus/Language/Iceblade/Personalmod_SpikeSlams_Desc",
         "ApplyUpgradesByDefault": 0,
         "Script": {
             "Script": "/Lotus/Scripts/KuvaPath/KuvaPathPersonalModifiers.lua",
@@ -20,7 +20,9 @@
             "_grenadeType": "",
             "_damageMultiplier": 2,
             "_grenadeDamageRadius": 5,
-            "_spikeType": "/Lotus/Weapons/Thanotech/EntFistIncarnon/EntFistIncarnonImpaleDeco"
+            "_spikeType": "/Lotus/Weapons/Thanotech/EntFistIncarnon/EntFistIncarnonImpaleDeco",
+            "_antimatterDrop": "",
+            "_antimatterDropMarkerInfo": ""
         },
         "ConditionalUpgrades": [
             "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OnGroundSlamCondition"

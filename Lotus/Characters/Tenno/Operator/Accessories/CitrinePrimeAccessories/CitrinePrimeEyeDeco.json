@@ -9,6 +9,14 @@
         "UseAmbient": 1,
         "Mesh": "CitrinePrimeEye_skel.fbx",
         "UseParentAnimState": 1,
-        "PhysicsBehavior": ""
+        "PhysicsBehavior": "",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Effects/DecoTintColor.lua",
+            "Function": "SetTintColor",
+            "_materialParam": "TintColor",
+            "_colorPalette": "Clothing",
+            "_colorSlot": "EmissiveColor0"
+        },
+        "ReplicaRunScriptInstance": 1
     }
 }

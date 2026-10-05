@@ -129,7 +129,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -157,6 +156,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/ThanoTechGrenadeAccuracyInfo",
@@ -182,6 +182,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "ThanotechGrenadeClusterAWProj",
@@ -336,6 +338,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 2,
@@ -420,7 +423,8 @@
                     "BurstRemainingClip": 0,
                     "ConsumeAmmoOncePerBurst": 0,
                     "ForceBurstLogicOnClient": 0,
-                    "PreFireDuringBurst": 0
+                    "PreFireDuringBurst": 0,
+                    "InstantModeSwitchCancel": 0
                 }
             },
             {
@@ -480,7 +484,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -508,6 +511,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/DefaultAccuracyInfo",
@@ -535,6 +539,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "ThanotechGrenadeAltAWProjectile",
@@ -690,6 +696,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 2,
@@ -861,7 +868,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -889,6 +895,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/ThanoTechGrenadeAccuracyInfo",
@@ -914,6 +921,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "ThanotechGrenadeClusterProj",
@@ -1068,6 +1077,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 2,
@@ -1152,7 +1162,8 @@
                     "BurstRemainingClip": 0,
                     "ConsumeAmmoOncePerBurst": 0,
                     "ForceBurstLogicOnClient": 0,
-                    "PreFireDuringBurst": 0
+                    "PreFireDuringBurst": 0,
+                    "InstantModeSwitchCancel": 0
                 }
             },
             {
@@ -1212,7 +1223,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -1240,6 +1250,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/DefaultAccuracyInfo",
@@ -1267,6 +1278,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "ThanotechGrenadeAltProjectile",
@@ -1422,6 +1435,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 2,
@@ -1577,8 +1591,13 @@
         "BatteryRegenRate": 50,
         "HeavyBatteryRegenRate": 50,
         "NumChargesToConsume": 5,
-        "AddChargeConditions": [
-            "PRIMARY_KILL"
+        "AddCharges": [
+            {
+                "Conditions": [
+                    "PRIMARY_KILL"
+                ],
+                "NumCharges": 1
+            }
         ],
         "ConsumeChargeConditions": [
             "SECONDARY_FIRE"

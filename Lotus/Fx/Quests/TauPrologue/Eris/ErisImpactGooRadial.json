@@ -8,34 +8,40 @@
                 "name": "UnlitAtten",
                 "type": "Float",
                 "slot": -1,
-                "value": 2
+                "value": 4
             },
             {
                 "name": "SmokeColor",
                 "type": "Color",
                 "slot": -1,
                 "value": [
-                    0.041999999,
-                    0.1,
+                    0.037999999,
                     0.14,
+                    0.22,
                     1
                 ]
+            },
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.94999999
             }
         ],
         "DissolveOverride": "/Lotus/Fx/Common/WrapTextureA_d.png",
         "HasLifeSpan": 0,
         "AutoKill": 1,
         "Life": [
-            1.5,
-            2.5
+            4,
+            6
         ],
         "Size": [
-            8,
+            15,
             20
         ],
         "GrowthRate": [
-            0.5,
-            1.4
+            5,
+            8
         ],
         "EmissionTime": [
             32,
@@ -49,7 +55,7 @@
             32,
             32
         ],
-        "Material": "/Lotus/Fx/Explosions/Generic/ExplosionWispyFlamesMat",
+        "Material": "/Lotus/Fx/Explosions/Generic/ExplosionSmokeMat",
         "AnimateTiles": 1,
         "RandomStartFrame": 1,
         "ColorMin": [
@@ -100,11 +106,10 @@
             0.15000001,
             0.050000001
         ],
-        "NozzleSize": 5,
+        "NozzleSize": 30,
         "Speed": [
-            15,
-            30
-        ],
-        "Drag": 0.25
+            10,
+            15
+        ]
     }
 }

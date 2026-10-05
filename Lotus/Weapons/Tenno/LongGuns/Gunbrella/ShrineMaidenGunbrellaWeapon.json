@@ -332,6 +332,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.1,
                     "criticalHitDamageMultiplier": 2,
@@ -712,6 +713,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 2,
@@ -959,6 +961,55 @@
         "PVPAmmoCapacity": 120,
         "AmmoClipSize": 90,
         "PVPAmmoClipSize": 30,
+        "OnSecondaryFireScript": {
+            "Script": "GunbrellaShield.lua",
+            "Function": "OnSecondaryFire",
+            "_aimChargeAnimation": "",
+            "_hipChargeAnimation": "",
+            "_shieldProxyType": "",
+            "_shieldDecoType": "",
+            "_shieldAttachBone": "GAME_C1_ROOT",
+            "_shieldAttachOffset": [
+                0,
+                0,
+                0
+            ],
+            "_shieldAttachRot": [
+                0,
+                0,
+                0
+            ],
+            "_hitProxyAttachBone": "GAME_R1_WEAPON1",
+            "_hitProxyAttachOffset": [
+                0,
+                -0.40000001,
+                0
+            ],
+            "_hitProxyAttachRot": [
+                0,
+                0,
+                0
+            ],
+            "_aimIdleAnim": "",
+            "_hipIdleAnim": "",
+            "_effectType": "",
+            "_attachBone": "",
+            "_effectOffset": [
+                0,
+                0,
+                0
+            ],
+            "_shieldHitEffect": "",
+            "_shieldHitSound": "",
+            "_shieldHitPitchRange": [
+                0.1,
+                1
+            ],
+            "_shieldBreakDamage": 5000,
+            "_shieldRechargeDuration": 5,
+            "_addChargesTimer": 0.5,
+            "_numChargesToAdd": 20
+        },
         "ReticleName": "ReticleCustom",
         "UIReticuleAim": 0,
         "ReticleMovie": "/Lotus/Interface/SpecialReticles/GunbrellaReticle.swf",
