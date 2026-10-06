@@ -6,22 +6,22 @@
         "ControlData": "DuelistExtrasSkirt02FrontSkirtSkelClothData",
         "Collision": "DuelistSkirtSimCollision",
         "Attribs": {
-            "collidingDampeningRange": [
-                0.0060000001,
-                0.0060000001
+            "dampeningRange": [
+                0.090000004,
+                0.090000004
             ],
             "massRange": [
-                0,
+                0.2,
                 0.60000002
             ],
             "distConstraintRange": [
                 0,
-                0.60000002
+                1
             ],
             "useBackstopConstraints": 1,
             "backstopConstraintRange": [
                 0,
-                0.2
+                6
             ],
             "reduceStretchExponent": 1,
             "shearingStiffness": 0.80000001,

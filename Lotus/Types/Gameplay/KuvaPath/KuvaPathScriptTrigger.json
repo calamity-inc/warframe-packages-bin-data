@@ -30,9 +30,9 @@
                     "_silverChestType": "/Lotus/Types/LevelObjects/KuvaPath/KPAdditionalChallengeTreasureDeco",
                     "_endOfMatchMovie": "/Lotus/Interface/EndOfMatch.swf",
                     "_chestFx": "/Lotus/Fx/Levels/Zariman/IceBlade/IceLootChestOpenFx",
-                    "_eventSpawnedSound": "/Lotus/Sounds/UI/IcebladeOfNarin/IcebladeOfNarinSixStackEventSpawn",
-                    "_eventWaitingSound": "/Lotus/Sounds/UI/IcebladeOfNarin/IcebladeOfNarinSixStackEventActivaton",
-                    "_eventStartedSound": "/Lotus/Sounds/UI/IcebladeOfNarin/IcebladeOfNarinSixStackEventStart",
+                    "_eventSpawnedSound": "/Lotus/Sounds/UI/IcebladeOfNarin/IcebladeOfNarinSixStackEventStart",
+                    "_eventWaitingSound": "/Lotus/Sounds/UI/IcebladeOfNarin/IcebladeOfNarinSixStackEventSpawn",
+                    "_eventStartedSound": "/Lotus/Sounds/UI/IcebladeOfNarin/IcebladeOfNarinSixStackEventActivation",
                     "_eventFailedSound": "/Lotus/Sounds/UI/IcebladeOfNarin/IcebladeOfNarinSixStackEventFailed",
                     "_eventCompletedSound": "/Lotus/Sounds/UI/IcebladeOfNarin/IcebladeOfNarinSixStackEventSuccess",
                     "_keyReceivedSound": "/Lotus/Sounds/UI/IcebladeOfNarin/IcebladeOfNarinSixStackChestKeyPickup",
@@ -43,7 +43,8 @@
                     "_respawnAnim": "/Lotus/Animations/Tenno/Contextual/RevivePowerBoost_anim.fbx",
                     "_reviveSound": "/Lotus/Sounds/Gameplay/Arbitration/ArbitrationPlayerRevive",
                     "_reviveStationRes": "KPReviveStationTrigger",
-                    "_stationStateRes": "KpReviveStationState"
+                    "_stationStateRes": "KpReviveStationState",
+                    "_kuvaPathSuccessPopupMovie": "/Lotus/Interface/NarinBlessingPopup.swf"
                 }
             }
         ]

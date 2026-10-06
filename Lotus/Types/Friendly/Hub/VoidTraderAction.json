@@ -88,7 +88,7 @@
                 "Baro_EvilWeek4"
             ],
             "_buttonTag": "",
-            "_onInitFunction": "",
+            "_onInitFunction": "OnVoidTraderConversationStarted",
             "_introTransFunction": "",
             "_onEndFunction": "",
             "_exitTransFunction": "",
@@ -119,6 +119,7 @@
             "_closeMusicSting": "",
             "_extraCurrency": "",
             "_dissolvePlayer": 0,
+            "_dissolveWarframeIfOperator": 0,
             "_playerDissolveTime": 1,
             "_useAttachedCameraSpot": 0,
             "_hideTransmissionComms": 1,
@@ -127,7 +128,8 @@
             "_walkToPositionSpeed": 3,
             "_walkPositionWaypoint": "",
             "_customPlayerAnimController": "",
-            "_finishPortForwarder": ""
+            "_finishPortForwarder": "",
+            "_filterOperatorCosmetics": 0
         },
         "HudIndicatorOffset": [
             0.2,

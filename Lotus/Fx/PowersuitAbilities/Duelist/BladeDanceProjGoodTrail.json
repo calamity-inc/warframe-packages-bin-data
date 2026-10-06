@@ -1,0 +1,31 @@
+{
+    "parent": "/Lotus/Fx/Weapons/Melee/WeaponTrails/SwordWeaponTrail",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 8
+            }
+        ],
+        "Active": 1,
+        "EdgeTime": 1,
+        "Length": 6,
+        "Subdivision": 4,
+        "Centered": 1,
+        "EaseInRate": 0.15000001,
+        "EaseOutRate": 0.25,
+        "Material": "BladeDanceProjTrailMat",
+        "TextureOffset": [
+            0,
+            10
+        ],
+        "Tint": [
+            39,
+            199,
+            254,
+            255
+        ]
+    }
+}

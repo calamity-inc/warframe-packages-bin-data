@@ -14,6 +14,66 @@
             0,
             0
         ],
+        "TriggeredMaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.30000001,
+                "Multiplier": 8,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.49259299,
+                            "Value": 0.82928199
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 1
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0.25,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.30000001,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "TriggeredFadeChild": {
+            "Type": "/Lotus/Fx/PowersuitAbilities/Duelist/DanceMarkTargetFade",
+            "Attach": 0,
+            "DestroyWithOwner": 0
+        },
         "ApplyColorCustomization": 1
     }
 }

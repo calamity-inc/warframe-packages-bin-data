@@ -1,0 +1,49 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Common/Quad1M.fbx",
+        "MeshScale": 68,
+        "OverrideMaterial": [
+            "ErisImpactCrackDecoMat"
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 12,
+                "Multiplier": 12,
+                "FadeRange": [
+                    0.25,
+                    0.40000001
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "RandomMaterialParameters": [
+            {
+                "Parameter": "CustomTime",
+                "RandomLow": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "RandomHigh": [
+                    10,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ]
+    }
+}

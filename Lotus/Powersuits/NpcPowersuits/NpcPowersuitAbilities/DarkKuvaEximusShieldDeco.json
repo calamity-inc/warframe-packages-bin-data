@@ -145,6 +145,15 @@
             "_hitEffect": "/Lotus/Fx/Enemies/KuvaEximus/KuvaEximusShieldImpactSpawner",
             "_colourCorrection": ""
         },
+        "StateChangeScript": {
+            "Script": "/Lotus/Scripts/DarkKuvaEximusMain.lua",
+            "Function": "OnShieldStateChanged",
+            "_shieldType": "",
+            "_hitSound": "",
+            "_attachEffect": "",
+            "_hitEffect": "",
+            "_colourCorrection": ""
+        },
         "IgnoreDamageFromCreatorFaction": 1,
         "ShowHealthInHud": 0
     }

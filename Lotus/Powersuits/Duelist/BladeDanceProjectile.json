@@ -2,20 +2,7 @@
     "parent": "/Lotus/Types/Weapon/WaveProjectile",
     "data": {
         "Mesh": "/Lotus/Fx/PowersuitAbilities/Duelist/BladeDanceProjectileMesh.fbx",
-        "MaterialParams": [
-            {
-                "name": "MorphAmount",
-                "type": "Float",
-                "slot": -1,
-                "value": 1
-            },
-            {
-                "name": "UnlitAtten",
-                "type": "Float",
-                "slot": -1,
-                "value": 0
-            }
-        ],
+        "MeshScale": 1.08,
         "AutoSimChildren": [
             {
                 "LocalPosition": [
@@ -41,9 +28,9 @@
             },
             {
                 "LocalPosition": [
-                    1.5,
                     0,
-                    1.6
+                    0,
+                    1
                 ],
                 "LocalRotation": [
                     0,
@@ -64,24 +51,6 @@
         ],
         "PhysicsBehavior": "/EE/Types/Physics/KinematicQuery",
         "OnlyRegisterBounds": 0,
-        "ScriptInstance": {
-            "Script": "/Lotus/Powersuits/Excalibur/Abilities/SwordOfDoom.lua",
-            "Function": "ProjectileEffects",
-            "_blindProjector": "",
-            "_swordSpawnEffect": "",
-            "_swordSpawnFlare": "",
-            "_swordSpawnLight": "",
-            "_localAttachEffect": "",
-            "_hideWithAtten": 0,
-            "_equipAnim": "",
-            "_scaleFactor": 0.18000001,
-            "_isHeavySwing": 0,
-            "_pvpBlindDuration": 2,
-            "_blindSoundLocal": "",
-            "_augmentOneSwordAttach": [],
-            "_augmentOneProjectileAttach": []
-        },
-        "ReplicaRunScriptInstance": 1,
         "DamageUpgradeTypes": [],
         "AttackData": {
             "Type": "DT_FREEZE",
@@ -116,6 +85,7 @@
             "_inputFilter": "",
             "_swordDecoType": "",
             "_projType": "",
+            "_projEmpoweredType": "",
             "_areaTrigger": "",
             "_inputMatchSound": "",
             "_inputMissSound": "",
