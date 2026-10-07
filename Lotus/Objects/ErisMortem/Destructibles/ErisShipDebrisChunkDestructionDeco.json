@@ -3,7 +3,7 @@
     "data": {
         "PhysicsSleep": 0,
         "Mesh": "/Lotus/Objects/Space/ShipDebris/Corpus/CrpObeliskHullDebrisB.fbx",
-        "MeshScale": 0.050000001,
+        "MeshScale": 0.035,
         "MaterialParams": [
             {
                 "name": "RotationSpeed_MeshSize_UpVec",
@@ -38,13 +38,13 @@
                     1
                 ],
                 "BoneName": "",
-                "Type": "/Lotus/Fx/Fire/FireSpotFlamesL",
+                "Type": "ErisShipDebrisDestructionFlamesPersistent",
                 "Chance": 255,
                 "RelativeToBounds": 0,
                 "Attach": 1,
                 "DestroyWithOwner": 1,
                 "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
+                "FadeOutOnDestruction": 1,
                 "Scale": 1
             },
             {
@@ -60,13 +60,13 @@
                     1
                 ],
                 "BoneName": "",
-                "Type": "/Lotus/Fx/Env/General/RisingSmokePillar",
+                "Type": "ErisShipDebrisDestructionSmokePersistent",
                 "Chance": 255,
                 "RelativeToBounds": 0,
                 "Attach": 1,
                 "DestroyWithOwner": 1,
                 "DestroyParentOnDeath": 0,
-                "FadeOutOnDestruction": 0,
+                "FadeOutOnDestruction": 1,
                 "Scale": 1
             }
         ],
@@ -76,7 +76,28 @@
         "MasterCreateOnDestroy": {
             "Type": "/Lotus/Fx/Explosions/Generic/ExplosionFXOrganicLarge"
         },
-        "MaterialFade": [],
+        "MaterialFade": [
+            {
+                "Parameter": "Dissolve",
+                "Slot": -1,
+                "TimeLength": 5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0.69999999
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
         "TriggeredMaterialFade": [
             {
                 "Parameter": "SegmentTimer",

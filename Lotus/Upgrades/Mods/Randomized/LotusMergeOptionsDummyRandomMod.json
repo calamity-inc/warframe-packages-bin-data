@@ -1,0 +1,2729 @@
+{
+    "parent": "/Lotus/Types/Game/RandomizedArtifactUpgrade",
+    "data": {
+        "LocalizeTag": "[HC] LotusMergeOptionsDummyRandomMod",
+        "LocalizeDescTag": "",
+        "SearchTags": [
+            "/Lotus/Language/Items/RifleCategoryName"
+        ],
+        "ItemCompatibility": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
+        "UpgradeEntries": [
+            {
+                "Tag": "WeaponArmorPiercingDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RiflePunctureDepthMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.01333,
+                            "DamageType": "DT_PUNCTURE",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponPunctureDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [
+                    "DamageTypes"
+                ],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "DamageTypes"
+                ],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/PuncturePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/PunctureSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponCritChanceMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleCritChanceMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_CRIT_CHANCE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.016666001,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponCritChance",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/CritChancePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/CritChanceSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponCritDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleCritDamageMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_CRIT_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.013333,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponCritDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/CritDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/CritDamageSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponElectricityDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleElectricityDamageMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_ELECTRICITY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponElectricityDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "DamageTypes"
+                ],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ElectricityPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ElectricitySuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponFireDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleFireDamageMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_FIRE",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponFireDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "DamageTypes"
+                ],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/FirePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/FireSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponFireRateMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleFireRateMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_FIRE_RATE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.00667,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponFireRate",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    },
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_FIRE_RATE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.00667,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 0,
+                            "ValidType": "/Lotus/Weapons/Tenno/Bows/LotusBow",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/FireRatePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/FireRateSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponFreezeDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleFreezeDamageMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_FREEZE",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponFreezeDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "DamageTypes"
+                ],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/FrostPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/FrostSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponImpactDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/ImpactDamageRifleMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.013333,
+                            "DamageType": "DT_IMPACT",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponImpactDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [
+                    "DamageTypes"
+                ],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "DamageTypes"
+                ],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ImpactPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ImpactSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponProcTimeMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/WeaponProcTimeRifleMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PROC_TIME",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.01111,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponProcTimeModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ProcTimePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ProcTimeSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponSlashDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/EventSlashDamageRifleMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.013333,
+                            "DamageType": "DT_SLASH",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponSlashDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [
+                    "DamageTypes"
+                ],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "DamageTypes"
+                ],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/SlashPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/SlashSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponStunChanceMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleStunChanceMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PROC_CHANCE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/StatusChance",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/StatusChancePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/StatusChanceSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponToxinDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/PoisonDamageRifleMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_POISON",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponPoisonDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "DamageTypes"
+                ],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ToxinPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ToxinSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponAmmoMaxMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleAmmoMaxMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_AMMO_MAX",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0055499999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponMaxAmmoModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/MaxAmmoPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/MaxAmmoSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponClipMaxMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleClipMaxMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_CLIP_MAX",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0055550002,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponClipMaxModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ClipSizePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ClipSizeSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponDamageAmountMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleDamageAmountMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_DAMAGE_AMOUNT",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.018333299,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponDamageModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/DamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/DamageSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponFireIterationsMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleFireIterationsMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_FIRE_ITERATIONS",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponMultishotModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/MultishotPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/MultishotSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponProjectileSpeedMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/WeaponProjectileSpeedRifleMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PROJECTILE_SPEED",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponProjectileSpeedModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [
+                    "PROJECTILE"
+                ],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ProjectileSpeedPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ProjectileSpeedSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponPunctureDepthMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RiflePunctureDepthMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PUNCTURE_DEPTH",
+                            "OperationType": "ADD",
+                            "Value": 0.029999999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponPunctureDepthModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/PunchThroughPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/PunchThroughSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponRecoilReductionMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleRecoilReductionMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_RECOIL",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": -0.0099999998,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponRecoilModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/RecoilPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/RecoilSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponReloadSpeedMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleReloadSpeedMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_RELOAD_SPEED",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0055550002,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponReloadSpeedModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ReloadSpeedPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ReloadSpeedSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponFactionDamageCorpus",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleDamageCorpus.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "GAMEPLAY_FACTION_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0049999999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "Corpus",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponFactionDamageCorpusDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 1,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.0099999998,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/CorpusDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/CorpusDamageSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponFactionDamageGrineer",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleDamageGrineer.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "GAMEPLAY_FACTION_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0049999999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "Grineer",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponFactionDamageGrineerDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 1,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.0099999998,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/GrineerDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/GrineerDamageSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponFactionDamageInfested",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleDamageInfested.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "GAMEPLAY_FACTION_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0049999999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "Infestation",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponFactionDamageInfestedDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 1,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.0099999998,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/InfestedDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/InfestedDamageSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponZoomFovMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleZoomMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_ZOOM",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.006666,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponZoomModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ZoomPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ZoomSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponWeakpointDamage",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/WeaponWeakpointCriticalChanceMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_DAMAGE_WEAKPOINT",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.025,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponWeakpointDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/WeakpointPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/WeakpointSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponWeakpointCriticalChance",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/WeaponWeakpointCriticalChanceMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_CRIT_CHANCE_WEAKPOINT",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0275,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponWeakpointCriticalChance",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/WeakpointCriticalPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/WeakpointCriticalSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponAmmoEfficiency",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponAmmoEfficiency.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_AMMO_CONSUME_RATE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": -0.0049999999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/RadiationAmmoEfficiencyPistolModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 1,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/AmmoEfficiencyPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/AmmoEfficiencySuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponMagazineReloadHolstered",
+                "Icon": "/Lotus/Interface/Cards/Images/PvP/Rifle/PassiveReloadRifleMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_AUTO_RELOAD_RATE",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "Holstered",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponHolsteredAutoReloadRate",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/AmmoEfficiencyPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/AmmoEfficiencySuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponStatusDamage",
+                "Icon": "/Lotus/Interface/Cards/Images/DoubleMods/RifleStatusDamageDuoMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PROC_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponStatusDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/StatusDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/StatusDamageSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponGasDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponGasDamage.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_GAS",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponGasDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/GasPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/GasSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponCorrosiveDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponCorrosiveDamage.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_CORROSIVE",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponCorrosiveDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/CorrosivePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/CorrosiveSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponViralDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponViralDamage.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_VIRAL",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponViralDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ViralPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ViralSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponRadiationDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponRadiationDamage.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_RADIATION",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponRadiationDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/RadiationPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/RadiationSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponBlastDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponBlastDamage.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_EXPLOSION",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponExplosionDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/BlastPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/BlastSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponMagneticDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponMagneticDamage.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+                            "OperationType": "ADD",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_MAGNETIC",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponMagneticDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/MagneticPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/MagneticSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponFactionDamageOrokin",
+                "Icon": "/Lotus/Interface/Cards/Images/Rifle/RifleDamageCorrupted.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "GAMEPLAY_FACTION_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0049999999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "Orokin",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponFactionDamageCorruptedDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 1,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.0099999998,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/OrokinDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/OrokinDamageSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponFactionDamageTechrot",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponFactionDamageTechrot.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "GAMEPLAY_FACTION_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0049999999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "Techrot",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponFactionDamageTechrotDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 1,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.0099999998,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/TechrotDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/TechrotDamageSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponFactionDamageScaldra",
+                "Icon": "/Lotus/Interface/Cards/Images/RivenUpgrades/WeaponFactionDamageScaldra.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "GAMEPLAY_FACTION_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0049999999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "Scaldra",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponFactionDamageScaldraDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 1,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.0099999998,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ScaldraDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ScaldraDamageSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "ComboDurationMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Melee/ComboDurationMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_MELEE_COMBO_DURATION_BONUS",
+                            "OperationType": "ADD",
+                            "Value": 0.090000004,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/ComboDurationSimpleModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/ComboDurationPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/ComboDurationSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "SlideAttackCritChanceMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Melee/SlideAttackCritChanceMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_CRIT_CHANCE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.013334,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "CC_SLIDING",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/SlideAttackCritChanceModDesc",
+                            "LocKeyWordScript": {
+                                "Script": "/Lotus/Scripts/Mods/ModDescriptionStats.lua",
+                                "Function": "GetDescriptionInfo",
+                                "_displayAsPercent": [
+                                    1
+                                ],
+                                "_absoluteValue": [
+                                    0
+                                ],
+                                "_maxDecimals": [
+                                    1
+                                ],
+                                "_addPlusses": [
+                                    1
+                                ],
+                                "_multiplyDown": [
+                                    0
+                                ]
+                            },
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    },
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_CRIT_CHANCE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.013334,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "CC_SLIDING_PVP",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/SlideCritChancePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/SlideCritChanceSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponMeleeRangeIncMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Melee/MeleeRangeMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_RANGE",
+                            "OperationType": "ADD",
+                            "Value": 0.021579999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponRangeModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/AttackRangePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/AttackRangeSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponMeleeFinisherDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Melee/MeleeFinishingTouchMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_MELEE_FINISHER_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0133,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponMeleeFinisherDmgModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/MeleeFinisherDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/MeleeFinisherDamageSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponMeleeComboEfficiencyMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Melee/MeleeChargeRateMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_MELEE_COMBO_USAGE_EFFICIENCY",
+                            "OperationType": "ADD",
+                            "Value": 0.0081599997,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponMeleeComboUsageEfficiency",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/MeleeComboHeavyEfficiencyPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/MeleeComboHeavyEfficiencySuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponMeleeComboInitialBonusMod",
+                "Icon": "/Lotus/Interface/Cards/Images/MeleeChanneling/ChannelingKillingBlow.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_MELEE_COMBO_INITIAL_BONUS",
+                            "OperationType": "ADD",
+                            "Value": 0.27224001,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/ComboInitialBonusModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 0,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_FLOOR",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/MeleeComboInitialBonusPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/MeleeComboInitialBonusSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponMeleeComboPointsOnHitMod",
+                "Icon": "/Lotus/Interface/Cards/Images/MeleeChanneling/ChannelingSecondWindMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_MELEE_COMBO_GAIN_MISS_CHANCE",
+                            "OperationType": "ADD",
+                            "Value": -0.01165,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/ComboPointsMissOnHitMod",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 1,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeBuff": 0,
+                "CurseRestrictions": [
+                    "NotSentinel"
+                ],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "",
+                "LocalizeSuffixTag": "",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponMeleeComboBonusOnHitMod",
+                "Icon": "/Lotus/Interface/Cards/Images/MeleeChanneling/ChannelingSecondWindMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_MELEE_COMBO_GAIN_EXTRA_CHANCE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0065299999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/MeleeComboGainExtraChance",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/MeleeComboGainBonusPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/MeleeComboGainBonusSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponMeleeHeavyAttackDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/MeleeChanneling/ChannelingKillingBlow.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_MELEE_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0133,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [
+                                "PM_HEAVY_MELEE"
+                            ],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/MeleeDamageBuffOnHeavyDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/MeleeComboGainBonusPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/MeleeComboGainBonusSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponMeleeHeavyAttackChargeMod",
+                "Icon": "/Lotus/Interface/Cards/Images/MeleeChanneling/ChannelingKillingBlow.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_MELEE_HEAVY_CHARGE_SPEED",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0133,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponHeavyChargeSpeed",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/MeleeComboGainBonusPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/MeleeComboGainBonusSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponMeleeParryAngleMod",
+                "Icon": "/Lotus/Interface/Cards/Images/MeleeChanneling/ChannelingParryMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PARRY_ANGLE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.090000004,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/ParryAngleNoPercentModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/MeleeComboGainBonusPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/MeleeComboGainBonusSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponMeleeSlamDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Melee/WeaponMeleeSlamDamageMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_MELEE_SLAM_DAMAGE_BONUS",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0133,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponMeleeSlamDmgBonusModDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/MeleeComboGainBonusPrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/MeleeComboGainBonusSuffix",
+                "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponFireRateMeleeMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Melee/MeleeFireRateMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_FIRE_RATE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0060999999,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponMeleeAttackSpeed",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/FireRatePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/FireRateSuffix",
+                "IsAdvancedTrait": 0
+            },
+            {
+                "Tag": "WeaponMeleeDamageMod",
+                "Icon": "/Lotus/Interface/Cards/Images/Melee/MeleeDamageMod.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_MELEE_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.018300001,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/MeleeDamageBuffDesc",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 0,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/DamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/DamageSuffix",
+                "IsAdvancedTrait": 0
+            }
+        ],
+        "MergeOptions": [
+            {
+                "ResultTag": "WeaponWeakpointDamage",
+                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "SecondaryIngredient": "WeaponZoomFovMod"
+            },
+            {
+                "ResultTag": "WeaponWeakpointDamage",
+                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "SecondaryIngredient": "WeaponFireIterationsMod"
+            },
+            {
+                "ResultTag": "WeaponWeakpointCriticalChance",
+                "PrimaryIngredient": "WeaponCritChanceMod",
+                "SecondaryIngredient": "WeaponZoomFovMod"
+            },
+            {
+                "ResultTag": "WeaponWeakpointCriticalChance",
+                "PrimaryIngredient": "WeaponCritChanceMod",
+                "SecondaryIngredient": "WeaponFireIterationsMod"
+            },
+            {
+                "ResultTag": "WeaponAmmoEfficiency",
+                "PrimaryIngredient": "WeaponClipMaxMod",
+                "SecondaryIngredient": "WeaponReloadSpeedMod"
+            },
+            {
+                "ResultTag": "WeaponAmmoEfficiency",
+                "PrimaryIngredient": "WeaponRecoilReductionMod",
+                "SecondaryIngredient": "WeaponAmmoMaxMod"
+            },
+            {
+                "ResultTag": "WeaponMagazineReloadHolstered",
+                "PrimaryIngredient": "WeaponAmmoMaxMod",
+                "SecondaryIngredient": "WeaponReloadSpeedMod"
+            },
+            {
+                "ResultTag": "WeaponMagazineReloadHolstered",
+                "PrimaryIngredient": "WeaponAmmoMaxMod",
+                "SecondaryIngredient": "WeaponClipMaxMod"
+            },
+            {
+                "ResultTag": "WeaponStatusDamage",
+                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "SecondaryIngredient": "WeaponStunChanceMod"
+            },
+            {
+                "ResultTag": "WeaponGasDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponFireDamageMod"
+            },
+            {
+                "ResultTag": "WeaponCorrosiveDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponElectricityDamageMod"
+            },
+            {
+                "ResultTag": "WeaponViralDamageMod",
+                "PrimaryIngredient": "WeaponToxinDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponRadiationDamageMod",
+                "PrimaryIngredient": "WeaponFireDamageMod",
+                "SecondaryIngredient": "WeaponElectricityDamageMod"
+            },
+            {
+                "ResultTag": "WeaponBlastDamageMod",
+                "PrimaryIngredient": "WeaponFireDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponMagneticDamageMod",
+                "PrimaryIngredient": "WeaponElectricityDamageMod",
+                "SecondaryIngredient": "WeaponFreezeDamageMod"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageOrokin",
+                "PrimaryIngredient": "WeaponFactionDamageGrineer",
+                "SecondaryIngredient": "WeaponFactionDamageCorpus"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageTechrot",
+                "PrimaryIngredient": "WeaponFactionDamageCorpus",
+                "SecondaryIngredient": "WeaponFactionDamageInfested"
+            },
+            {
+                "ResultTag": "WeaponFactionDamageScaldra",
+                "PrimaryIngredient": "WeaponFactionDamageInfested",
+                "SecondaryIngredient": "WeaponFactionDamageGrineer"
+            },
+            {
+                "ResultTag": "WeaponMeleeHeavyAttackDamageMod",
+                "PrimaryIngredient": "WeaponMeleeComboEfficiencyMod",
+                "SecondaryIngredient": "WeaponMeleeComboBonusOnHitMod"
+            },
+            {
+                "ResultTag": "WeaponMeleeHeavyAttackChargeMod",
+                "PrimaryIngredient": "WeaponMeleeComboEfficiencyMod",
+                "SecondaryIngredient": "ComboDurationMod"
+            },
+            {
+                "ResultTag": "WeaponMeleeParryAngleMod",
+                "PrimaryIngredient": "WeaponFireRateMeleeMod",
+                "SecondaryIngredient": "WeaponMeleeRangeIncMod"
+            },
+            {
+                "ResultTag": "WeaponMeleeSlamDamageMod",
+                "PrimaryIngredient": "WeaponMeleeDamageMod",
+                "SecondaryIngredient": "WeaponFireRateMeleeMod"
+            },
+            {
+                "ResultTag": "WeaponStatusDamage",
+                "PrimaryIngredient": "WeaponMeleeDamageMod",
+                "SecondaryIngredient": "WeaponStunChanceMod"
+            }
+        ],
+        "SentinelItemCompatibilities": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/CryoxionWeapon",
+                "Rarity": "COMMON",
+                "Attenuation": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/HextraWeapon",
+                "Rarity": "COMMON",
+                "Attenuation": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/SwarmerWeapon",
+                "Rarity": "COMMON",
+                "Attenuation": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/TazronWeapon",
+                "Rarity": "COMMON",
+                "Attenuation": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/ThermocorMoaWeapon",
+                "Rarity": "COMMON",
+                "Attenuation": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/DethMachineRifle",
+                "Rarity": "COMMON",
+                "Attenuation": 1.455
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/Gremlin",
+                "Rarity": "COMMON",
+                "Attenuation": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/LaserRifle",
+                "Rarity": "COMMON",
+                "Attenuation": 1.21
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeDethMachineRifle",
+                "Rarity": "NONE",
+                "Attenuation": 1.455
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeLaserRifle",
+                "Rarity": "NONE",
+                "Attenuation": 1.21
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/SentBioWeapon",
+                "Rarity": "COMMON",
+                "Attenuation": 1.3150001
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/SentElecRailgun",
+                "Rarity": "COMMON",
+                "Attenuation": 1.245
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayPrimeRifle",
+                "Rarity": "NONE",
+                "Attenuation": 1.3
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayRifle",
+                "Rarity": "COMMON",
+                "Attenuation": 1.3
+            }
+        ]
+    }
+}

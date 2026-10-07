@@ -5,6 +5,13 @@
         "DepthSortBias": 15,
         "MotionBlurred": 1,
         "Tag": "EffectsDeco",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Effects/ProjectionMasking.lua",
+            "Function": "ProjMaskHead",
+            "_maskWarframeHelmet": 0,
+            "_maskOperatorHead": 1,
+            "_maskGeminiHead": 1
+        },
         "ReplicationOverride": "RO_NEVER",
         "Material": "GaussDeluxeIIGrungeProjMat",
         "UseAttachRoot": 0,

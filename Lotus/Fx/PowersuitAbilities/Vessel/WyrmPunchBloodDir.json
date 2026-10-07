@@ -1,0 +1,139 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "MaterialParams": [
+            {
+                "name": "ErosionThreshold",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.60000002
+            },
+            {
+                "name": "BloodLightColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.017000001,
+                    0.039999999,
+                    0.12,
+                    1
+                ]
+            },
+            {
+                "name": "BloodDarkColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.0098000001,
+                    0.016000001,
+                    0.046999998,
+                    1
+                ]
+            }
+        ],
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.34999999,
+            0.69999999
+        ],
+        "Size": [
+            3,
+            5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0.0131707,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.24723101,
+                    "Value": 0.59638399
+                },
+                {
+                    "Time": 0.58534199,
+                    "Value": 0.95802402
+                },
+                {
+                    "Time": 0.81856698,
+                    "Value": 1.004843
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.79657698
+                }
+            ]
+        },
+        "Aspect": [
+            25,
+            32
+        ],
+        "InitialCount": [
+            3,
+            4
+        ],
+        "Shape": "SH_LINE",
+        "Material": "/Lotus/Levels/Cinematics/ErisMortem/WyrmCinematic/WyrmCinBloodMatB",
+        "RandomStartFrame": 1,
+        "Pivot": [
+            0,
+            0.69999999,
+            0
+        ],
+        "SpinByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.40000001
+                }
+            ]
+        },
+        "FadeInOut": [
+            0.050000001,
+            0.25
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0.104345,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.79624802,
+                    "Value": 0.51747203
+                },
+                {
+                    "Time": 0.88057202,
+                    "Value": 0.416899
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ],
+        "NozzleDev": 0.15000001,
+        "NozzleBox": [
+            0.2,
+            0.2,
+            0
+        ],
+        "Speed": [
+            15,
+            35
+        ],
+        "Drag": 0.75,
+        "VelocityStretch": 1.5
+    }
+}

@@ -11,6 +11,7 @@
         "ParticleEvents": [
             {
                 "EventName": "JetpackTakeOffFX",
+                "CancelEventName": "",
                 "ParticleSys": "/Lotus/Fx/Enemies/Grineer/JetPackSisters/SistersTakeOffSpawner",
                 "Attached": 1,
                 "OwnedByAvatar": 0,
@@ -31,6 +32,7 @@
             },
             {
                 "EventName": "JetpackLandFX",
+                "CancelEventName": "",
                 "ParticleSys": "/Lotus/Fx/Enemies/JetPackMarine/LandSpawner",
                 "Attached": 1,
                 "OwnedByAvatar": 0,
@@ -51,6 +53,7 @@
             },
             {
                 "EventName": "SpawnFx",
+                "CancelEventName": "",
                 "ParticleSys": "/Lotus/Fx/Enemies/JetPackMarine/TakeOffSpawner",
                 "Attached": 1,
                 "OwnedByAvatar": 0,

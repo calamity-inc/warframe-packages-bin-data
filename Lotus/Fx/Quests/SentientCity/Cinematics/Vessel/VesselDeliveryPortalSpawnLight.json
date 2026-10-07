@@ -1,0 +1,47 @@
+{
+    "parent": "/Lotus/Fx/InfestedLich/HDTectonicStartLight",
+    "data": {
+        "LightType": "SPOT_FILL",
+        "Color": [
+            149,
+            215,
+            230,
+            255
+        ],
+        "Brightness": 15.625,
+        "Lumens": 25000,
+        "Falloff": 0.94999999,
+        "Width": 60,
+        "Height": 80,
+        "Length": 250,
+        "Angle": 120,
+        "Radius": 500,
+        "VolumetricFogSettings": {
+            "Attenuation": 0.34999999
+        },
+        "LightEffect": "FLICKER_PERLIN",
+        "EffectRate": 0.64999998,
+        "EffectSecondary": 2,
+        "LifeSpan": 15,
+        "BrightnessCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0
+                },
+                {
+                    "Time": 0.33333299,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.66666698,
+                    "Value": 0.238472
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        }
+    }
+}

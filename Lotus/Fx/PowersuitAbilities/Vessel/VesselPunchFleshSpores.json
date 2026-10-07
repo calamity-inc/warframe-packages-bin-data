@@ -1,0 +1,92 @@
+{
+    "parent": "/EE/Types/Effects/GPUParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 13
+            }
+        ],
+        "SpawnRate": 230,
+        "EnergyTintMethod": "ETM_LIFE",
+        "useCollisions": 0,
+        "resilience": 0.40000001,
+        "drag": 0.63,
+        "mass": [
+            -0.37,
+            0.37
+        ],
+        "life": [
+            0.1,
+            3
+        ],
+        "size": [
+            0.125,
+            0.18000001
+        ],
+        "sizeByLifeMultiplier": [
+            0.5,
+            1,
+            0
+        ],
+        "velocity": [
+            12,
+            50
+        ],
+        "windAttenuation": [
+            0.40000001,
+            1
+        ],
+        "windKillDistance": 0,
+        "streaksFactor": 1.5,
+        "velocityDeviation": [
+            0.69999999,
+            1
+        ],
+        "useForceFieldForSpawn": 1,
+        "spawnScale": [
+            0.69999999,
+            0.69999999,
+            0.69999999
+        ],
+        "spawnFlowBlend": 0.67000002,
+        "spawnFlowForcePosScale": 5,
+        "flowScale": [
+            0.69999999,
+            0.69999999,
+            0.69999999
+        ],
+        "flowForce": [
+            35,
+            35,
+            35
+        ],
+        "flowForceEnd": [
+            28,
+            28,
+            28
+        ],
+        "flowScrolling": [
+            0,
+            -0.27000001,
+            0
+        ],
+        "forceField": "/Lotus/Fx/Common/PerlinVolume_v.png",
+        "drawingMaterial": "/Lotus/Fx/Common/GpuMats/FlowSpotFadeMidSoftAlpha",
+        "colorKeys[0]": [
+            0.70999998,
+            0.034000002,
+            0.00018,
+            1
+        ],
+        "colorKeys[1]": [
+            0.56999999,
+            0.026000001,
+            0.000060999999,
+            1
+        ],
+        "numColors": 2
+    }
+}

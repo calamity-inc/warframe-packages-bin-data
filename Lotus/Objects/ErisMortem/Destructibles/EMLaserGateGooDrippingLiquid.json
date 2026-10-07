@@ -1,0 +1,126 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "ReceivesShadows": 1,
+        "UseLightProbes": 1,
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            },
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 5
+            }
+        ],
+        "DissolveOverride": "/Lotus/Fx/Common/WrapTextureA_d.png",
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            1.5,
+            2.5
+        ],
+        "Size": [
+            2,
+            4.5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.30000001
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.75
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "DistanceScale": 0.1,
+        "GrowthRate": [
+            0.30000001,
+            1
+        ],
+        "SpewCount": [
+            12,
+            12
+        ],
+        "Material": "/Lotus/Fx/Enemies/WF1999Lasrian/Tank/LasrianTankEfervonGooMat",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            213,
+            60,
+            41,
+            255
+        ],
+        "ColorMax": [
+            158,
+            31,
+            9,
+            255
+        ],
+        "RandOrientation": 1,
+        "ParticleMeshes": [
+            "/Lotus/Fx/Gore/BloodMeshParticleA.fbx"
+        ],
+        "Spin": [
+            -0.0049999999,
+            0.0049999999
+        ],
+        "FadeInOut": [
+            0.1,
+            0.69999999
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.15000001,
+                    "Value": 0.80000001
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.34999999
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "NozzleBox": [
+            0.15000001,
+            0.15000001,
+            0.050000001
+        ],
+        "Speed": [
+            10,
+            10
+        ],
+        "Drag": 1,
+        "Mass": [
+            0.5,
+            1
+        ],
+        "PushVector": [
+            0,
+            -20,
+            0
+        ],
+        "PushMass": [
+            0,
+            1
+        ]
+    }
+}

@@ -3,57 +3,7 @@
     "data": {
         "CreatedTypes": [
             {
-                "Type": "/Lotus/Fx/Explosions/Generic/SurfaceHitEffects/ExplosionHitEffectLargeRockDustRadial",
-                "Sound": "",
-                "AttachSound": 1,
-                "Attach": "NONE",
-                "InheritAttachBone": 0,
-                "InheritAttachPosRot": 0,
-                "AttachBone": "",
-                "WorldRotation": 0,
-                "Delay": [
-                    0,
-                    0
-                ],
-                "AutoDestroy": 1,
-                "LifeSpan": [
-                    5,
-                    5
-                ],
-                "Chance": 255,
-                "Force": [
-                    0,
-                    0
-                ],
-                "Torque": [
-                    0,
-                    0
-                ],
-                "LocalPosition": [
-                    0,
-                    0,
-                    0.25
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "PositionDeviation": [
-                    0,
-                    0
-                ],
-                "RotationDeviation": [
-                    0,
-                    0
-                ],
-                "UseFullRandomRotation": 0,
-                "InheritVelocity": 0,
-                "InheritCreator": 0
-            },
-            {
-                "Type": "/Lotus/Fx/Explosions/Generic/SurfaceHitEffects/ExplosionHitEffectLargeRockDeco",
+                "Type": "/Lotus/Fx/Explosions/Generic/ExplosionRippleHuge",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -103,7 +53,7 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "/Lotus/Fx/Explosions/Generic/SurfaceHitEffects/ExplosionHitEffectLargeRockSparks",
+                "Type": "EMRockStompBlockerWallDestructionRocks",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -115,10 +65,10 @@
                     0,
                     0
                 ],
-                "AutoDestroy": 1,
+                "AutoDestroy": 0,
                 "LifeSpan": [
-                    5,
-                    5
+                    30,
+                    60
                 ],
                 "Chance": 255,
                 "Force": [
@@ -153,7 +103,7 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "/Lotus/Fx/Explosions/Generic/SurfaceHitEffects/ExplosionHitEffectLargeRockDustDeco",
+                "Type": "EMRockStompBlockerWallSpores",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -165,10 +115,10 @@
                     0,
                     0
                 ],
-                "AutoDestroy": 1,
+                "AutoDestroy": 0,
                 "LifeSpan": [
-                    5,
-                    5
+                    30,
+                    60
                 ],
                 "Chance": 255,
                 "Force": [
@@ -183,56 +133,6 @@
                     0,
                     0,
                     0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "PositionDeviation": [
-                    0,
-                    0
-                ],
-                "RotationDeviation": [
-                    0,
-                    0
-                ],
-                "UseFullRandomRotation": 0,
-                "InheritVelocity": 0,
-                "InheritCreator": 0
-            },
-            {
-                "Type": "/Lotus/Fx/Explosions/Generic/SurfaceHitEffects/ExplosionHitEffectLargeRipple",
-                "Sound": "",
-                "AttachSound": 1,
-                "Attach": "SELF",
-                "InheritAttachBone": 0,
-                "InheritAttachPosRot": 0,
-                "AttachBone": "",
-                "WorldRotation": 0,
-                "Delay": [
-                    0,
-                    0
-                ],
-                "AutoDestroy": 1,
-                "LifeSpan": [
-                    5,
-                    5
-                ],
-                "Chance": 255,
-                "Force": [
-                    0,
-                    0
-                ],
-                "Torque": [
-                    0,
-                    0
-                ],
-                "LocalPosition": [
-                    0,
-                    0,
-                    0.1
                 ],
                 "LocalRotation": [
                     0,
@@ -254,7 +154,7 @@
             }
         ],
         "BurstSound": "/Lotus/Sounds/Explosions/Generic/SurfaceHitEffects/Rock/GenericExplosionRocksLarge",
-        "DestructionChunkType": "/Lotus/Objects/Fornax/Destructibles/Chunks/SentientCityChunkEffectDeco",
+        "DestructionChunkType": "EMRockStompBlockerDestructionWallChunkDeco",
         "DestructionSourceVector": [
             0,
             0,
@@ -273,7 +173,12 @@
             12.122223
         ],
         "DestructionMeshes": [
-            "/Lotus/Objects/Tau/SentientMoon/Natural/Rocks/STMxRockMedD.fbx"
+            "Chunks/STMxRockMedBChunkI.fbx",
+            "Chunks/STMxRockMedBChunkN.fbx",
+            "Chunks/STMxRockMedBChunkL.fbx",
+            "Chunks/STMxRockMedBChunkE.fbx",
+            "Chunks/STMxRockMedBChunkD.fbx",
+            "Chunks/STMxRockMedBChunkM.fbx"
         ]
     }
 }

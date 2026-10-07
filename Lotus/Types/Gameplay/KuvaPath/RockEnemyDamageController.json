@@ -1,0 +1,514 @@
+{
+    "parent": "/Lotus/Types/Game/RatioPreDeathDamageController",
+    "data": {
+        "HitProxies": [
+            {
+                "LocalPosition": [
+                    -0.050000001,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_C1_HEAD1",
+                "Type": "/Lotus/Powersuits/Brawler/HitProxies/SummonHead",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0.5,
+                    0.5,
+                    -0.5,
+                    0.5
+                ],
+                "BoneName": "GAME_C1_SPINE2",
+                "Type": "/Lotus/Powersuits/Brawler/HitProxies/SummonTorso",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.13,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "GAME_R1_ARM1",
+                "Type": "/Lotus/Powersuits/Brawler/HitProxies/SummonRightUpperArm",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.15000001,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0.70710677,
+                    0.70710677
+                ],
+                "BoneName": "GAME_R1_ARM2",
+                "Type": "/Lotus/Powersuits/Brawler/HitProxies/SummonRightLowerArm",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.13,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0.5,
+                    0.5,
+                    -0.5,
+                    0.5
+                ],
+                "BoneName": "GAME_L1_ARM1",
+                "Type": "/Lotus/Powersuits/Brawler/HitProxies/SummonLeftUpperArm",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.15000001,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0.5,
+                    0.5,
+                    -0.5,
+                    0.5
+                ],
+                "BoneName": "GAME_L1_ARM2",
+                "Type": "/Lotus/Powersuits/Brawler/HitProxies/SummonLeftLowerArm",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.25,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0.5,
+                    0.5,
+                    -0.5,
+                    0.5
+                ],
+                "BoneName": "GAME_R1_LEG1",
+                "Type": "/Lotus/Powersuits/Brawler/HitProxies/SummonRightUpperLeg",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.25,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0.5,
+                    0.5,
+                    -0.5,
+                    0.5
+                ],
+                "BoneName": "GAME_R1_LEG2",
+                "Type": "/Lotus/Powersuits/Brawler/HitProxies/SummonRightLowerLeg",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.25,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0.5,
+                    0.5,
+                    -0.5,
+                    0.5
+                ],
+                "BoneName": "GAME_L1_LEG1",
+                "Type": "/Lotus/Powersuits/Brawler/HitProxies/SummonLeftUpperLeg",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.25,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0.5,
+                    0.5,
+                    -0.5,
+                    0.5
+                ],
+                "BoneName": "GAME_L1_LEG2",
+                "Type": "/Lotus/Powersuits/Brawler/HitProxies/SummonLeftLowerLeg",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    -0.064000003,
+                    0.064000003,
+                    -0.064000003
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_R1_ARM1",
+                "Type": "/Lotus/Powersuits/Brawler/HitProxies/SummonRightShoulder",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            },
+            {
+                "LocalPosition": [
+                    0.021,
+                    -0.032000002,
+                    0.052999999
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "GAME_L1_ARM1",
+                "Type": "/Lotus/Powersuits/Brawler/HitProxies/SummonLeftShoulder",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "CanClientSideKill": 0,
+        "HideOnExplodeDeath": 0,
+        "ExplodeOnDeathDamageEffects": [
+            {
+                "damageType": "DT_ANY",
+                "damageEffect": {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "GAME_C1_HIP1",
+                    "Type": "/Lotus/Fx/Weapons/UniqueMods/BeamExplodeOnDeath",
+                    "Chance": 255,
+                    "RelativeToBounds": 1,
+                    "Attach": 1,
+                    "DestroyWithOwner": 0,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                "minDamageAmount": 0
+            },
+            {
+                "damageType": "DT_POISON",
+                "damageEffect": {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "GAME_C1_HIP1",
+                    "Type": "/Lotus/Fx/Weapons/ClanTech/BioPoisonImpact",
+                    "Chance": 255,
+                    "RelativeToBounds": 1,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                "minDamageAmount": 0
+            }
+        ],
+        "RejectSelfDamage": 1,
+        "SelfDamageMultiplier": 0,
+        "DynamicDamageModifiers": [
+            {
+                "sourceName": "",
+                "damageType": "DT_PUNCTURE",
+                "applyToOtherDamageTypes": 0,
+                "hitPart": "ANY_PART",
+                "hitType": "DHT_NONE",
+                "damageSourceObjectType": "",
+                "multiplier": 0.5,
+                "showInHUD": 1
+            },
+            {
+                "sourceName": "",
+                "damageType": "DT_SLASH",
+                "applyToOtherDamageTypes": 0,
+                "hitPart": "ANY_PART",
+                "hitType": "DHT_NONE",
+                "damageSourceObjectType": "",
+                "multiplier": 0.5,
+                "showInHUD": 1
+            }
+        ],
+        "DamageEffects": [
+            {
+                "damageType": "DT_ELECTRICITY",
+                "damageEffect": {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "GAME_C1_ROOT",
+                    "Type": "/Lotus/Fx/Electrical/SkeletalElectricitySpawner",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                "minDamageAmount": 0
+            },
+            {
+                "damageType": "DT_FIRE",
+                "damageEffect": {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "GAME_C1_ROOT",
+                    "Type": "/Lotus/Fx/Fire/SkeletalFire",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                "minDamageAmount": 0
+            },
+            {
+                "damageType": "DT_POISON",
+                "damageEffect": {
+                    "LocalPosition": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "LocalRotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "BoneName": "",
+                    "Type": "/Lotus/Fx/Projectors/Poisoned",
+                    "Chance": 255,
+                    "RelativeToBounds": 0,
+                    "Attach": 1,
+                    "DestroyWithOwner": 1,
+                    "DestroyParentOnDeath": 0,
+                    "FadeOutOnDestruction": 0,
+                    "Scale": 1
+                },
+                "minDamageAmount": 1
+            }
+        ],
+        "HeadShotSounds": [],
+        "DeathSounds": [],
+        "DestroyCorpseTime": 8,
+        "PreDeathMaxHealth": 30,
+        "PreDeathHealthDrain": 5,
+        "InvulnerableInPreDeath": 1,
+        "GetUpFromPreDeathHealth": 1000000,
+        "ShouldKillAfterPreDeath": 0,
+        "CanSlice": 0,
+        "CanSliceWhileKnockedDown": 0,
+        "MultipleSliceChance": 75,
+        "SeverBodyChance": 100,
+        "RagdollScene": "/Lotus/Powersuits/Brawler/SummonRagdoll",
+        "UnconsciousRagdollSceneOverride": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/GrineerMarineRagdollUnconscious",
+        "BoneHead": "GAME_C1_HEAD1",
+        "BoneNeck": "GAME_C1_NECK2",
+        "BoneSpine": "GAME_C1_SPINE1",
+        "BonePelvis": "GAME_C1_HIP1",
+        "BoneArmL": "GAME_L1_ARM1",
+        "BoneWristL": "GAME_L1_ARM2",
+        "BoneThighL": "GAME_L1_LEG1",
+        "BoneShinL": "GAME_L1_LEG2",
+        "BoneArmR": "GAME_R1_ARM1",
+        "BoneWristR": "GAME_R1_ARM2",
+        "BoneThighR": "GAME_R1_LEG1",
+        "BoneShinR": "GAME_R1_LEG2",
+        "InjuryHandlersEx": {
+            "PT_KNOCKBACK": "/Lotus/Types/Enemies/Grineer/InjuryHandlers/GrineerImpactDamageProcNoRagdollNoMercy",
+            "PT_FRAILTY": "/Lotus/Types/Enemies/Grineer/InjuryHandlers/GrineerPunctureDamageProc",
+            "PT_BLEEDING": "/Lotus/Types/Enemies/Grineer/InjuryHandlers/BrawlerSummonSlashDamageProc",
+            "PT_IMMOLATION": "/Lotus/Types/Enemies/Grineer/InjuryHandlers/GrineerFireDamageProcNoDeathEffect",
+            "PT_CHILLED": "/Lotus/Types/Enemies/Grineer/InjuryHandlers/GrineerFreezeDamageProc",
+            "PT_ELECTROCUTION": "/Lotus/Types/Enemies/Grineer/InjuryHandlers/GrineerElectricityDamageProc",
+            "PT_POISONED": "/Lotus/Types/Enemies/Grineer/InjuryHandlers/GrineerPoisonDamageProc",
+            "PT_FLASHBANG": "/Lotus/Types/Enemies/Grineer/InjuryHandlers/GrineerExplosionDamageProcNoDeathEffect",
+            "PT_RAD_TOX": "/Lotus/Types/Enemies/Grineer/InjuryHandlers/GrineerRadiationDamageProc",
+            "PT_ASPHYXIATION": "/Lotus/Types/Enemies/Grineer/InjuryHandlers/GrineerGasDamageProc",
+            "PT_MAGNETIZED": "/Lotus/Types/Enemies/Grineer/InjuryHandlers/GrineerMagneticDamageProc",
+            "PT_INFECTED": "/Lotus/Types/Enemies/Grineer/InjuryHandlers/GrineerViralDamageProc",
+            "PT_CAUSTIC_BURN": "/Lotus/Types/Enemies/Grineer/InjuryHandlers/GrineerCorrosiveDamageProcNoDeathEffect",
+            "PT_RADIANT": "/Lotus/Types/Game/InjuryHandlers/BaseEnemyRadiantDamageProc",
+            "PT_STUNNED": "/Lotus/Types/Enemies/Grineer/Vip/TylRegor/TylRegorStunnedInjuryHandler"
+        },
+        "PainHandler": "",
+        "PreDeathHandler": "",
+        "DeathHandler": "/EE/Types/Game/InjuryHandlers/AlwaysRagdollDeathHandler",
+        "MaxShield": 0,
+        "ShieldRechargeDelay": 0,
+        "ShieldRechargeRate": 0,
+        "ArmourRating": 150,
+        "PreDeathDamageMitigationTime": 1,
+        "FrozenEffects": {
+            "FROZEN_ICE": {
+                "FrozenDamageDeformers": [
+                    {
+                        "SeveredBones": [
+                            {
+                                "boneName": "GAME_L1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_LEG1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_L1_ARM1",
+                                "probability": 1
+                            },
+                            {
+                                "boneName": "GAME_R1_ARM1",
+                                "probability": 0.30000001
+                            }
+                        ],
+                        "LocalPosition": [
+                            0,
+                            1.2,
+                            0
+                        ],
+                        "RagdollScene": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/FrozenGrineerMarineRagdoll"
+                    }
+                ]
+            }
+        }
+    }
+}

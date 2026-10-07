@@ -1,3 +1,51 @@
 {
-    "parent": "/EE/Materials/Defaults/BeamShading"
+    "parent": "/EE/Materials/Defaults/BeamShading",
+    "data": {
+        "Blend": "BLEND_PREMULT_ALPHA",
+        "EXTRA_EFFECT": "FADE_FROM_CENTRE",
+        "UV_DISTORT": 1,
+        "COLOR_MAPPING": 1,
+        "SECOND_TEXTURE": 1,
+        "VS:FadeParams": [
+            0.30000001,
+            1.6
+        ],
+        "VS:EmitterWorldPos": [
+            0,
+            0,
+            0
+        ],
+        "PS:DistortPan": [
+            0,
+            1,
+            4,
+            1
+        ],
+        "PS:DistortAgePan": [
+            0,
+            0
+        ],
+        "PS:DistortScale": [
+            0.050000001,
+            0.02
+        ],
+        "PS:SecondParams": [
+            0,
+            0,
+            1,
+            0.5
+        ],
+        "PS:SecondMapDistortScale": 0,
+        "PS:UnlitAtten": 10,
+        "PS:SecondaryTintColor": [
+            0,
+            0.63,
+            1,
+            0.2
+        ],
+        "TX:DiffuseMap": "/Lotus/Fx/Electrical/LightningEnergyTiled_d.png",
+        "TX:NormalMap": "/Lotus/Fx/Common/HeatHaze_n.png",
+        "TX:DiffuseMapTwo": "/Lotus/Fx/Electrical/LightningBeamFlip_d.png",
+        "DoubleSided": 1
+    }
 }

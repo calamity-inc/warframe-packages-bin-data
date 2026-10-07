@@ -1,0 +1,74 @@
+{
+    "parent": "/EE/Types/Engine/EffectDecoration",
+    "data": {
+        "MeshScale": 1.15,
+        "MaterialParams": [
+            {
+                "name": "PivotTilingInfluence",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0,
+                "value1": 0,
+                "value2": 0,
+                "value3": 0
+            },
+            {
+                "name": "PivotLayerTilingInfluence",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0,
+                "value1": 0,
+                "value2": 0,
+                "value3": 0
+            },
+            {
+                "name": "TintGradientPivotInfluence",
+                "type": "Float",
+                "slot": -1,
+                "value": 0
+            },
+            {
+                "name": "MeshScaleLayerTilingInfluence",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0,
+                "value1": 0,
+                "value2": 0,
+                "value3": 0
+            }
+        ],
+        "MotionBlurred": 1,
+        "PhysicsBehavior": "/EE/Types/Physics/DynamicAvatarsPushThroughHeavy",
+        "ExplicitMass": 500,
+        "ContactImpactEffect": "/Lotus/Sounds/Quests/TauSentientCity/Stage01FirstDream/Gameplay/TauCityGlassHitEffect",
+        "HitEffectVelocityThreshold": 7,
+        "ContactMinImpactForce": 7,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0.89999998
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "UseDitherDissolve": 1,
+        "TimeLengthMultiplierRange": [
+            0.80000001,
+            1.2
+        ]
+    }
+}

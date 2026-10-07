@@ -1,64 +1,61 @@
 {
-    "parent": "/Lotus/Fx/Quests/NewWar/PartTwo/GrineerForest/FallingRocksBurst",
+    "parent": "/EE/Types/Effects/ParticleSys",
     "data": {
+        "UseLightProbes": 1,
+        "HasLifeSpan": 0,
         "Life": [
-            2,
-            6
+            1.5,
+            2
         ],
         "Size": [
-            0.30000001,
-            0.40000001
+            0.1,
+            0.34999999
+        ],
+        "EmissionTime": [
+            0.2,
+            0.2
         ],
         "InitialCount": [
-            300,
-            300
+            200,
+            200
         ],
-        "Material": "/Lotus/Fx/Destruction/MetalChunks",
+        "SpewCount": [
+            600,
+            600
+        ],
+        "Material": "/Lotus/Fx/RockChunks",
         "ColorMin": [
-            155,
-            155,
-            155,
+            203,
+            202,
+            202,
             255
         ],
-        "Spin": [
-            -0.5,
-            0.5
+        "ColorMax": [
+            243,
+            235,
+            235,
+            255
         ],
+        "RandOrientation": 1,
         "FadeInOut": [
-            0,
-            1
+            0.1,
+            0.80000001
         ],
-        "FadeByLife": {
-            "Values": [
-                {
-                    "Time": 0.80000001,
-                    "Value": 1
-                },
-                {
-                    "Time": 1,
-                    "Value": 0
-                }
-            ]
-        },
         "Nozzle": "SPHERE",
+        "NozzleDev": 1,
         "NozzleBox": [
             1,
-            0.2,
-            1
+            4,
+            0.30000001
         ],
-        "NozzleSize": 1.5,
+        "NozzleSize": 0.5,
         "Speed": [
-            1,
-            25
+            3,
+            10
         ],
-        "Drag": 0.5,
+        "Drag": 1,
         "Mass": [
-            0.5,
-            1
-        ],
-        "PushFromFacingStrength": 0,
-        "PushMass": [
-            1,
+            0.55000001,
             1
         ]
     }

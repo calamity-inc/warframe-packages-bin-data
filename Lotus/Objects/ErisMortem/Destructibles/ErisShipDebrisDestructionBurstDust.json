@@ -1,0 +1,112 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "MaterialParams": [
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.94999999
+            },
+            {
+                "name": "LightingAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            }
+        ],
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "InheritVelocity": [
+            0.80000001,
+            1
+        ],
+        "SleepOffscreen": 0,
+        "Life": [
+            0.75,
+            2
+        ],
+        "Size": [
+            3,
+            6
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.40000001
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.86000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "GrowthRate": [
+            0.34999999,
+            0.80000001
+        ],
+        "InitialCount": [
+            22,
+            22
+        ],
+        "MaxParticlesInSystem": 2045,
+        "Material": "/Lotus/Fx/Explosions/Generic/ExplosionSmokeMat",
+        "AnimateTiles": 1,
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            187,
+            198,
+            209,
+            200
+        ],
+        "ColorMax": [
+            128,
+            128,
+            128,
+            240
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.02,
+            0.02
+        ],
+        "FadeInOut": [
+            0.039999999,
+            0.30000001
+        ],
+        "LightingOffset": [
+            0,
+            0,
+            1.2
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleDev": 1,
+        "NozzleBox": [
+            2,
+            0.1,
+            0.1
+        ],
+        "NozzleSize": 0.5,
+        "Speed": [
+            5,
+            65
+        ],
+        "Drag": 2,
+        "Mass": [
+            0.1,
+            0.5
+        ],
+        "PushFromFacingStrength": 0,
+        "PushMass": [
+            1,
+            1
+        ]
+    }
+}

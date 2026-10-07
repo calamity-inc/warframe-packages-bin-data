@@ -42,14 +42,16 @@
             "Function": "OnProjectileStart",
             "_bombPickUpType": "",
             "_explosionFx": "",
-            "_bombDecoType": ""
+            "_bombDecoType": "",
+            "_bombHeldProjectorType": ""
         },
         "OnProjectileDeathScript": {
             "Script": "/Lotus/Scripts/KuvaPath/HotPotatoEvent.lua",
             "Function": "OnProjectileDeath",
             "_bombPickUpType": "",
             "_explosionFx": "",
-            "_bombDecoType": ""
+            "_bombDecoType": "",
+            "_bombHeldProjectorType": ""
         },
         "RecreatePickupOnDeath": 1,
         "PickupInheritVelocity": 1

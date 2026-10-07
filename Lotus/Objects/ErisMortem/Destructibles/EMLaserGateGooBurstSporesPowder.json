@@ -1,0 +1,79 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "DepthSortBias": -10,
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            }
+        ],
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            1.5,
+            3
+        ],
+        "Size": [
+            8,
+            15
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.5
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.92771602
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "InitialCount": [
+            6,
+            6
+        ],
+        "Material": "/Lotus/Fx/Levels/1999Warframe/InfestedFlowerPowderMat",
+        "AnimateTiles": 1,
+        "RandomStartFrame": 1,
+        "AnimateRate": 1.25,
+        "ColorMin": [
+            153,
+            47,
+            22,
+            120
+        ],
+        "ColorMax": [
+            128,
+            43,
+            20,
+            120
+        ],
+        "RandOrientation": 1,
+        "ConstrainY": 1,
+        "Spin": [
+            -0.0070000002,
+            0.0070000002
+        ],
+        "FadeInOut": [
+            0.12,
+            0.69999999
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleDev": 1,
+        "Speed": [
+            50,
+            200
+        ],
+        "Drag": 3
+    }
+}

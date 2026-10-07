@@ -1,0 +1,106 @@
+{
+    "parent": "/EE/Types/Engine/ScriptTrigger",
+    "data": {
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    -8,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0.21644001,
+                    0,
+                    0.97629601
+                ],
+                "BoneName": "",
+                "Type": "PraghasaVendorCameraSpot",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
+        "PhysicsBehavior": "/EE/Types/Physics/KinematicTrigger",
+        "Tag": "PraghasaVendor",
+        "ReplicationOverride": "RO_NEVER",
+        "SurvivesMigration": 1,
+        "Dimensions": [
+            0,
+            0,
+            0
+        ],
+        "AcceptType": "",
+        "Scripts": [
+            {
+                "Target": "",
+                "Script": {
+                    "Script": "/Lotus/Scripts/Events/EventVendor.lua",
+                    "Function": "OpenEventTraderMenu",
+                    "_name": "/Lotus/Language/TauPrologue/PraghasaName",
+                    "_customSpeakerNamesPerRank": [],
+                    "_subTitle": "",
+                    "_topicName": "",
+                    "_eventTag": "RoadToTauEvent",
+                    "_clanEventTag": "RoadToTauEvent",
+                    "_gracePeriodOverrideTag": "",
+                    "_syndicate": "",
+                    "_isNightwave": 0,
+                    "_idleTransFunction": "",
+                    "_transmissionSet": "/Lotus/Sounds/Dialog/RoadToTau/Vendor/PraghasaVendorTranmissionSet",
+                    "_transmissionIdleDelay": [
+                        30,
+                        40
+                    ],
+                    "_transmissionIdleInterupt": 0,
+                    "_setConversationTransmissionSet": 1,
+                    "_vendorManifest": "/Lotus/Types/Game/VendorManifests/Events/RoadToTauEventVendorManifest",
+                    "_loopingSound": "",
+                    "_openSound": "",
+                    "_closeSound": "",
+                    "_extraCurrencyTypes": [
+                        "/Lotus/Types/Gameplay/Events/RoadToTauEvent/RoadToTauEventResource"
+                    ],
+                    "_hideBackground": 1,
+                    "_widthOffset": 0,
+                    "_timeLeftTitle": "/Lotus/Language/Store/EventVendor_WaresRefreshTimeLeft",
+                    "_addSortBys": 0,
+                    "_sortByFunctions": [
+                        "NAME",
+                        "DEFAULT",
+                        "PRICE"
+                    ],
+                    "_perItemExpiry": 0,
+                    "_priceTagIgnoresCount": 0,
+                    "_hideMisc": 0,
+                    "_showHideOwned": 1,
+                    "_showSyndicateProgressInfo": 0,
+                    "_addExtraCurrencyFilter": 0,
+                    "_isTiedToCiruitTimer": 0,
+                    "_hideInstigatorAvatar": 1,
+                    "_disableTransmissionCameraTracking": 0,
+                    "_cameraSpot": "",
+                    "_light": "",
+                    "_useThemedLight": 1,
+                    "_entityToTrack": "",
+                    "_entityBone": "",
+                    "_midMissionPurchaseActionTag": "",
+                    "_useAttachedCameraSpot": 1,
+                    "_cameraSpotTransitionTime": 1,
+                    "_dpdSquadOverlayTitle": "",
+                    "_dpdPurchaseBtnTag": "",
+                    "_dpdPriceTagOverride": "",
+                    "_dpdBundleTag": "",
+                    "_dpdHidePurchaseConfirm": 0,
+                    "_dpdHideRelated": 0,
+                    "_dpdVendorMode": 0,
+                    "_requirementsMetBacker": "/Lotus/Interface/Icons/Store/RequirementsMetBacker.png"
+                }
+            }
+        ]
+    }
+}

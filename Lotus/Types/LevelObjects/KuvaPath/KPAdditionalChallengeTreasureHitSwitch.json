@@ -8,7 +8,6 @@
             2.5,
             1.5
         ],
-        "RiftStatus": "RS_OUT_RIFT",
         "Action": "HIT_SWITCH",
         "ActionText": "/Lotus/Language/Iceblade/OpenSmallChest",
         "ActionSound": "/Lotus/Sounds/Gameplay/Iceblade/IcebladeOfNarinTreasureSilverOpen",
@@ -35,14 +34,20 @@
             "_silverChestType": "",
             "_endOfMatchMovie": "",
             "_chestFx": "",
+            "_eventSpawnedSound": "",
+            "_eventWaitingSound": "",
             "_eventStartedSound": "",
+            "_eventFailedSound": "",
+            "_eventCompletedSound": "",
             "_keyReceivedSound": "",
-            "_iceTransitionSound": "",
+            "_missionCompletedSound": "",
+            "_treasureRoomCountdownSound": "",
             "_reviveFxType": "/Lotus/Fx/PowersuitAbilities/ReviveBlast",
             "_respawnAnim": "/Lotus/Animations/Tenno/Contextual/RevivePowerBoost_anim.fbx",
             "_reviveSound": "/Lotus/Sounds/Gameplay/Arbitration/ArbitrationPlayerRevive",
             "_reviveStationRes": "",
-            "_stationStateRes": ""
+            "_stationStateRes": "",
+            "_kuvaPathSuccessPopupMovie": "/Lotus/Interface/NarinBlessingPopup.swf"
         },
         "EnablePrePress": 0,
         "HudIndicatorOffset": [

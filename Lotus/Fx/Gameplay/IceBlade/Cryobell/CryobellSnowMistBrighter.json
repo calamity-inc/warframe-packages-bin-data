@@ -1,0 +1,118 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "Hardness",
+                "type": "Float",
+                "slot": -1,
+                "value": 2
+            },
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 2
+            },
+            {
+                "name": "LightingAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            },
+            {
+                "name": "HighColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.31,
+                    0.77999997,
+                    1,
+                    1
+                ]
+            },
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.2
+            }
+        ],
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "CanNano": 0,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "AlwaysRespectParentVisibility": 1,
+        "Life": [
+            0.60000002,
+            1.2
+        ],
+        "Size": [
+            0.2,
+            0.5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.2
+                },
+                {
+                    "Time": 1,
+                    "Value": 1.5
+                }
+            ]
+        },
+        "InheritParentScale": 1,
+        "InitialCount": [
+            1,
+            1
+        ],
+        "SpewCount": [
+            6,
+            6
+        ],
+        "Material": "/Lotus/Fx/Explosions/ExplosionFlipSmokeLoopB",
+        "AnimateTiles": 1,
+        "AnimateRate": 0.75,
+        "ColorMin": [
+            166,
+            224,
+            255,
+            110
+        ],
+        "ColorMax": [
+            0,
+            86,
+            153,
+            120
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.0099999998,
+            0.0099999998
+        ],
+        "SpinByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0.2
+                }
+            ]
+        },
+        "FadeInOut": [
+            0.285171,
+            0.30000001
+        ],
+        "DrawRelative": 1,
+        "Nozzle": "DISC",
+        "SkeletalBoneMask": [
+            "GAME_C1_ROOT"
+        ]
+    }
+}

@@ -4,9 +4,10 @@
         "LocalizeTag": "/Lotus/Language/Iceblade/DuelistAbilityBladedanceName",
         "LocalizeDescTag": "/Lotus/Language/Iceblade/DuelistAbilityBladedanceDesc",
         "Icon": "/Lotus/Interface/Icons/Abilities/NarinBladeDance.png",
-        "UniquePowerIdentifier": "YARELI_SPOUT",
+        "UniquePowerIdentifier": "DUELIST_DANCE",
         "AdditionalPowerIdentifiers": [
-            "EFFECT_DAMAGE"
+            "EFFECT_DAMAGE",
+            "EFFECT_MOTION_STATE"
         ],
         "Script": {
             "Script": "DuelistBladeDance.lua",

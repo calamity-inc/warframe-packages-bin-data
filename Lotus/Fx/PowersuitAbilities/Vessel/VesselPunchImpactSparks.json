@@ -1,6 +1,7 @@
 {
     "parent": "/EE/Types/Effects/GPUParticleSys",
     "data": {
+        "DepthSortBias": -100,
         "MaterialParams": [
             {
                 "name": "HighColor",
@@ -20,7 +21,7 @@
                 "value": 8
             }
         ],
-        "SpawnRate": 370,
+        "SpawnRate": 100,
         "SpawnCurve": {
             "Values": [
                 {

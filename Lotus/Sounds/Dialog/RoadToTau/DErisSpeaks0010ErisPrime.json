@@ -10,6 +10,20 @@
             "/Lotus/Language/Subtitles/RoadToTau/DErisSpeaks0010ErisPrime",
             "/Lotus/Language/Subtitles/RoadToTau/DErisSpeaks0020ErisPrime",
             "/Lotus/Language/Subtitles/RoadToTau/DErisSpeaks0030ErisPrime"
-        ]
+        ],
+        "Script": {
+            "Script": "/Lotus/Scripts/ErisMortem/ApplyErisSpeaksEffect.lua",
+            "Function": "StartMonologue",
+            "_colorGrade": "/Lotus/Fx/ColorGradingData/RedColorGrading",
+            "_previousGrade": "/Lotus/Fx/ColorGradingData/ErisMortemColorGrading",
+            "_radialBlurMult": 7,
+            "_lightmapBoostMult": 1,
+            "_postProcessVolumeTags": [],
+            "_afterTransmissionPpOnVolumes": [],
+            "_postTransmissionDelay": 0,
+            "_soundVolumeTags": [],
+            "_enableSequencersWithTags": [],
+            "_firePortForwarderWithTags": []
+        }
     }
 }

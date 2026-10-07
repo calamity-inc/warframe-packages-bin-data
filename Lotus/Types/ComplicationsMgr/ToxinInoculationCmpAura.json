@@ -3,6 +3,33 @@
     "data": {
         "LocalizeTag": "/Lotus/Language/Iceblade/CryobellTheme_Toxic_Name",
         "LocalizeDescTag": "/Lotus/Language/Iceblade/CryobellTheme_Toxic_Desc",
+        "TargetType": "/Lotus/Types/Game/LotusNpcAvatar",
+        "ExcludedFaction": "TENNO",
+        "OnEnterAuraScript": {
+            "Script": "/Lotus/Scripts/Gameplay/Complications/ToxinInoculation.lua",
+            "Function": "OnEnterAura",
+            "_chanceForToxicEximus": [
+                2.5,
+                5,
+                7,
+                10,
+                15,
+                15
+            ],
+            "_maxToxicEximus": [
+                2,
+                3,
+                4,
+                6,
+                6,
+                6
+            ],
+            "_dotAmount": 100,
+            "_dotDamageType": "DT_GAS",
+            "_OverrideEnemyEnhancements": "",
+            "_ToxicEnemyProj": "/Lotus/Fx/Icebalde/IceToxicInoculationProj",
+            "_GasCloudDmgTrigger": ""
+        },
         "OnAuraAddedToLevelScript": {
             "Script": "/Lotus/Scripts/Gameplay/Complications/ToxinInoculation.lua",
             "Function": "OnAuraAddedToLevel",
@@ -22,6 +49,8 @@
                 6,
                 6
             ],
+            "_dotAmount": 100,
+            "_dotDamageType": "DT_GAS",
             "_OverrideEnemyEnhancements": "ToxinInoculationEnemyEnhancements",
             "_ToxicEnemyProj": "/Lotus/Fx/Icebalde/IceToxicInoculationProj",
             "_GasCloudDmgTrigger": "ToxinInoculationPoisonGasDmgTrigger"
@@ -44,6 +73,8 @@
                 6,
                 6
             ],
+            "_dotAmount": 100,
+            "_dotDamageType": "DT_GAS",
             "_OverrideEnemyEnhancements": "",
             "_ToxicEnemyProj": "/Lotus/Fx/Icebalde/IceToxicInoculationProj",
             "_GasCloudDmgTrigger": ""

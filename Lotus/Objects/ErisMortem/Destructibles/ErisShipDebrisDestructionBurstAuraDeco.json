@@ -1,0 +1,102 @@
+{
+    "parent": "/Lotus/Fx/Explosions/Generic/ExplosionAlienAuraDecoMedium",
+    "data": {
+        "OverrideMaterial": [
+            "ErisShipDebrisDestructionBurstAuraMat"
+        ],
+        "NearCullDistance": 0,
+        "DepthSortBias": -200,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.60000002,
+                "Multiplier": 20,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0.99831098
+                        },
+                        {
+                            "Time": 0.5,
+                            "Value": 0.169265
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "MeshScale",
+                "Slot": -1,
+                "TimeLength": 0.60000002,
+                "Multiplier": 4.25,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0.59933001
+                        },
+                        {
+                            "Time": 0.065866999,
+                            "Value": 0.33304599
+                        },
+                        {
+                            "Time": 0.110453,
+                            "Value": 0.85104299
+                        },
+                        {
+                            "Time": 0.193813,
+                            "Value": 0.98430198
+                        },
+                        {
+                            "Time": 0.316028,
+                            "Value": 0.99043101
+                        },
+                        {
+                            "Time": 0.50069702,
+                            "Value": 0.95460403
+                        },
+                        {
+                            "Time": 0.76202101,
+                            "Value": 0.74890101
+                        },
+                        {
+                            "Time": 0.898606,
+                            "Value": 0.39991501
+                        },
+                        {
+                            "Time": 0.99389702,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

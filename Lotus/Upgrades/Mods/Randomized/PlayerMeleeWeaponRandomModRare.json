@@ -1431,7 +1431,7 @@
                         "Upgrade": {
                             "UpgradeType": "WEAPON_PARRY_ANGLE",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": 0.090000004,
+                            "Value": 0.0089999996,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -1979,7 +1979,7 @@
         "MergeOptions": [
             {
                 "ResultTag": "WeaponStatusDamage",
-                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "PrimaryIngredient": "WeaponMeleeDamageMod",
                 "SecondaryIngredient": "WeaponStunChanceMod"
             },
             {
@@ -2014,18 +2014,18 @@
             },
             {
                 "ResultTag": "WeaponFactionDamageOrokin",
-                "PrimaryIngredient": "WeaponFactionDamageGrineer",
-                "SecondaryIngredient": "WeaponFactionDamageCorpus"
+                "PrimaryIngredient": "WeaponMeleeFactionDamageGrineer",
+                "SecondaryIngredient": "WeaponMeleeFactionDamageCorpus"
             },
             {
                 "ResultTag": "WeaponFactionDamageTechrot",
-                "PrimaryIngredient": "WeaponFactionDamageCorpus",
-                "SecondaryIngredient": "WeaponFactionDamageInfested"
+                "PrimaryIngredient": "WeaponMeleeFactionDamageCorpus",
+                "SecondaryIngredient": "WeaponMeleeFactionDamageInfested"
             },
             {
                 "ResultTag": "WeaponFactionDamageScaldra",
-                "PrimaryIngredient": "WeaponFactionDamageInfested",
-                "SecondaryIngredient": "WeaponFactionDamageGrineer"
+                "PrimaryIngredient": "WeaponMeleeFactionDamageInfested",
+                "SecondaryIngredient": "WeaponMeleeFactionDamageGrineer"
             },
             {
                 "ResultTag": "WeaponMeleeHeavyAttackDamageMod",

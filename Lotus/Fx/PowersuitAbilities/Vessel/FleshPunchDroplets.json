@@ -1,0 +1,108 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            }
+        ],
+        "IgnoreParentScale": 1,
+        "ApplyColorCustomization": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "InheritVelocity": [
+            0.30000001,
+            0.60000002
+        ],
+        "Life": [
+            0.60000002,
+            1
+        ],
+        "Size": [
+            0.75,
+            1.5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.40000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "SpawnDelay": [
+            0,
+            0.1
+        ],
+        "InitialCount": [
+            100,
+            100
+        ],
+        "Material": "/Lotus/Fx/Gore/BloodMetaBallEnergyColor",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            185,
+            255,
+            0,
+            200
+        ],
+        "ColorMax": [
+            180,
+            255,
+            64,
+            255
+        ],
+        "RandOrientation": 1,
+        "Pivot": [
+            0,
+            -0.2,
+            0
+        ],
+        "Spin": [
+            -0.001,
+            0.001
+        ],
+        "FadeInOut": [
+            0.1,
+            0.60000002
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ],
+        "NozzleSize": 0.1,
+        "Speed": [
+            15,
+            50
+        ],
+        "Drag": 2,
+        "Mass": [
+            0.44999999,
+            1
+        ],
+        "PushVector": [
+            0,
+            -10,
+            0
+        ],
+        "PushMass": [
+            0,
+            1
+        ],
+        "FlowVolume": "/EE/Types/GraphicsRes/AirFlowVolumeY",
+        "FlowVelocityEndLife": [
+            0,
+            -20,
+            0
+        ]
+    }
+}

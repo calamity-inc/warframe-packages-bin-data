@@ -4,13 +4,17 @@
         "BankDefaults": {
             "ReverbAtten": 1.5,
             "MixingGroup": "/EE/Sounds/Mixer/Dialog",
+            "GainEnvelope": 1,
+            "AttackTime": 0.2,
+            "SustainTime": 600,
+            "DecayTime": 0.2,
             "Gain": [
-                8,
-                9
+                3,
+                4
             ],
             "AttenuationRadii": [
-                5,
-                100
+                2,
+                50
             ],
             "DopplerScale": 0,
             "ListenerDopplerScale": 0
@@ -45,6 +49,10 @@
                     0,
                     0
                 ],
+                "DelayTime": [
+                    0,
+                    0
+                ],
                 "ApplyGainEnvelope": 0,
                 "AttackTime": [
                     0,
@@ -61,6 +69,8 @@
                 "DistanceIndex": -1
             }
         ],
-        "NoRepeatUntilLoop": 1
+        "NoRepeatUntilLoop": 1,
+        "MaxInstancesPlaying": 3,
+        "EvictOldInstances": 1
     }
 }

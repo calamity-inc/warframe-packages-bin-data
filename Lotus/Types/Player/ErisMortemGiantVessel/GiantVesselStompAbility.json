@@ -6,7 +6,9 @@
         "Script": {
             "Script": "GiantVesselStompAbility.lua",
             "Function": "ActivateAbility",
-            "_meleeAttackBranch": "MeleeAttack_CC_GROUND_BRANCH_C"
+            "_meleeAttackBranch": "MeleeAttack_CC_GROUND_BRANCH_C",
+            "_stompShockwaveEntity": "StompShockwaveEntity",
+            "_stompBone": "GAME_R1_LEG4"
         },
         "EnergyRequiredToActivate": 0,
         "ActivationXP": 0,
@@ -34,6 +36,18 @@
                 "Period": 1,
                 "Context": "PEC_ALL",
                 "CancelEventName": ""
+            }
+        ],
+        "ScriptEvents": [
+            {
+                "EventName": "RightStomp",
+                "ExecuteScript": {
+                    "Script": "GiantVesselStompAbility.lua",
+                    "Function": "CreateStompShockwave",
+                    "_meleeAttackBranch": "MeleeAttack_CC_GROUND_BRANCH_C",
+                    "_stompShockwaveEntity": "StompShockwaveEntity",
+                    "_stompBone": "GAME_R1_LEG4"
+                }
             }
         ]
     }

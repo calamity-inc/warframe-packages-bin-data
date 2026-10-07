@@ -1,10 +1,11 @@
 {
-    "parent": "/Lotus/Types/Enemies/Grineer/AIWeek/Avatars/CameraDroneAvatar",
+    "parent": "/Lotus/Types/Game/LotusNpcAvatar",
     "data": {
-        "MeshScale": 1,
+        "Mesh": "/Lotus/Characters/Grineer/SurveillanceDrone/GrineerSurveillanceDrone_skel.fbx",
         "OverrideMaterial": [
             "/Lotus/Characters/Grineer/SurveillanceDrone/HackableDroneMatTileable"
         ],
+        "RootMotionChannel": "GAME_C1_ROOT",
         "AutoSimChildren": [
             {
                 "LocalPosition": [
@@ -181,16 +182,31 @@
             "_successfulDistance": 5
         },
         "AllowDynamicThrottling": 0,
+        "EyeOffset": [
+            0,
+            1.25,
+            0.2
+        ],
+        "HeadBone": "GAME_C1_COG",
+        "LockViewConeToHorizontal": 0,
+        "WeaponBone": "GAME_C1_COG",
+        "InputFilter": "/EE/Types/Input/HaydenInputFilter",
         "Faction": "TENNO",
         "LocTag": "/Lotus/Language/Enemies/EidolonHackDrone",
-        "ShortDesc": "",
         "Icon": "/Lotus/Interface/Icons/Npcs/Grineer/Eidolon/EidolonHackableDrone.png",
         "MaxHealth": 900,
-        "DropTable": "",
+        "DefaultThreatLevel": 2,
+        "AnimControllerType": "/Lotus/Types/Enemies/Grineer/AIWeek/Avatars/CameraDroneAnimTreeController",
+        "CameraControllerType": "/EE/Types/DefaultAvatar/DefaultCamera",
         "DamageControllerType": "EidolonHackDroneDamageController",
-        "InventoryControllerType": "/Lotus/Types/Game/LotusInventoryController",
         "MotionControllerType": "EidolonHackDroneMotionController",
+        "RaycastProxy": {
+            "BoneName": "GAME_C1_ROOT",
+            "Type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/CameraDroneFullBody"
+        },
         "KillXPReward": 100,
-        "FactionResistanceKeyword": "RK_NEUTRAL"
+        "ShowMiniMapMarker": 0,
+        "ExcludedFromSimulacrum": 1,
+        "DisarmAction": "DA_NONE"
     }
 }

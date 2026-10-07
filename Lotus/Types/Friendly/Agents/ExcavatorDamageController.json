@@ -100,6 +100,18 @@
             "PLAYER_VS_PLAYER": 0.5
         },
         "CoverDamageMultiplier": 0,
+        "DynamicDamageModifiers": [
+            {
+                "sourceName": "",
+                "damageType": "DT_ANY",
+                "applyToOtherDamageTypes": 0,
+                "hitPart": "ANY_PART",
+                "hitType": "DHT_NONE",
+                "damageSourceObjectType": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/BlitzEximusChainBlastAbility",
+                "multiplier": 0.1,
+                "showInHUD": 0
+            }
+        ],
         "FinisherOpenEffect": {
             "Type": "/Lotus/Fx/Projectors/FinisherVision"
         },

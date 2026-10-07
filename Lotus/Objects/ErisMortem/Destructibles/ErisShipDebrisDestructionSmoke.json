@@ -1,0 +1,83 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "UseLightProbes": 1,
+        "DepthSortBias": -11,
+        "DetailLevel": "PQ_MEDIUM",
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            2,
+            3.25
+        ],
+        "Size": [
+            3,
+            7
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.5
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.92771602
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "InitialCount": [
+            8,
+            11
+        ],
+        "Material": "/Lotus/Fx/Smoke/SmokeFlipSP",
+        "AnimateTiles": 1,
+        "RandomStartFrame": 1,
+        "AnimatePower": [
+            2,
+            3
+        ],
+        "AnimateRate": 1.5,
+        "ColorMin": [
+            26,
+            25,
+            25,
+            222
+        ],
+        "ColorMax": [
+            56,
+            54,
+            54,
+            255
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.003,
+            0.003
+        ],
+        "FadeInOut": [
+            0.1,
+            0.77999997
+        ],
+        "LightingOffset": [
+            0,
+            0,
+            0.5
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleSize": 0.5,
+        "Speed": [
+            5,
+            20
+        ],
+        "Drag": 3,
+        "Mass": [
+            -0.15000001,
+            -0.02
+        ]
+    }
+}

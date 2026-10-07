@@ -1,0 +1,92 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "CullDistance": 500,
+        "DepthSortBias": -50,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.5,
+            2
+        ],
+        "Size": [
+            60,
+            150
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.80000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1.6
+                }
+            ]
+        },
+        "Aspect": [
+            0.5,
+            1
+        ],
+        "EmissionTime": [
+            1.5,
+            1.5
+        ],
+        "InitialCount": [
+            12,
+            12
+        ],
+        "SpewCount": [
+            24,
+            24
+        ],
+        "Material": "/Lotus/Fx/Enemies/Sentients/Aerolyst/AerolystBuffAuraPMatSoft",
+        "ColorMin": [
+            70,
+            184,
+            224,
+            255
+        ],
+        "ColorMax": [
+            70,
+            155,
+            224,
+            255
+        ],
+        "RandOrientation": 1,
+        "FadeInOut": [
+            0.25,
+            0.25
+        ],
+        "LightingOffset": [
+            0,
+            0,
+            2
+        ],
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ],
+        "NozzleDev": 1,
+        "NozzleBox": [
+            0.30000001,
+            1.2,
+            0.30000001
+        ],
+        "WindDragIncrease": 0,
+        "WindAlphaDispersion": 0,
+        "WindSizeGrowth": 0,
+        "FlowVelocity": [
+            0,
+            0,
+            0
+        ],
+        "FlowScale": [
+            0,
+            0,
+            0
+        ]
+    }
+}

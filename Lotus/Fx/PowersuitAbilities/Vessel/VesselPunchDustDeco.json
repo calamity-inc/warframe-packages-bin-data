@@ -3,6 +3,17 @@
     "data": {
         "Mesh": "/Lotus/Fx/Explosions/ExplosionRings.fbx",
         "MeshScale": 5,
+        "OverrideMaterial": [
+            "VesselPunchRockDustMat"
+        ],
+        "MaterialParams": [
+            {
+                "name": "FresnelPower",
+                "type": "Float",
+                "slot": -1,
+                "value": 1
+            }
+        ],
         "UseParentDissolve": 0,
         "UseParentVisibility": 0,
         "DeadParentInheritanceRule": "NONE",

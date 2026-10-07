@@ -1338,7 +1338,7 @@
                         "Upgrade": {
                             "UpgradeType": "WEAPON_PARRY_ANGLE",
                             "OperationType": "STACKING_MULTIPLY",
-                            "Value": 0.090000004,
+                            "Value": 0.0089999996,
                             "DamageType": "DT_ANY",
                             "AutoType": 1,
                             "ValidType": "",
@@ -1835,12 +1835,58 @@
                 "LocalizePrefixTag": "/Lotus/Language/Omega/ScaldraDamagePrefix",
                 "LocalizeSuffixTag": "/Lotus/Language/Omega/ScaldraDamageSuffix",
                 "IsAdvancedTrait": 1
+            },
+            {
+                "Tag": "WeaponStatusDamage",
+                "Icon": "/Lotus/Interface/Cards/Images/Melee/DualStatFireProcMelee.png",
+                "Upgrades": [
+                    {
+                        "Upgrade": {
+                            "UpgradeType": "WEAPON_PROC_DAMAGE",
+                            "OperationType": "STACKING_MULTIPLY",
+                            "Value": 0.0099999998,
+                            "DamageType": "DT_ANY",
+                            "AutoType": 1,
+                            "ValidType": "",
+                            "CheckTypeOnInstall": 0,
+                            "SymbolFilter": "",
+                            "UpgradeObject": "",
+                            "ValidPostures": [],
+                            "ValidModifiers": [],
+                            "InvalidModifiers": [],
+                            "ValidProcTypes": []
+                        },
+                        "Schema": {
+                            "OverrideLocalization": 1,
+                            "LocTag": "/Lotus/Language/Upgrades/WeaponStatusDamage",
+                            "LocKeyWordScript": {
+                                "Script": ""
+                            },
+                            "DisplayAsMultiplier": 0,
+                            "DisplayAsPercent": 1,
+                            "ReverseValueSymbol": 0,
+                            "SmallerIsBetter": 0,
+                            "RoundTo": 0.1,
+                            "RoundingMode": "RM_ROUND",
+                            "AllowConditionalLocMerge": 0
+                        }
+                    }
+                ],
+                "Rarity": "COMMON",
+                "CompatibilityTags": [],
+                "BuffRestrictions": [],
+                "CanBeBuff": 1,
+                "CurseRestrictions": [],
+                "CanBeCurse": 1,
+                "LocalizePrefixTag": "/Lotus/Language/Omega/StatusDamagePrefix",
+                "LocalizeSuffixTag": "/Lotus/Language/Omega/StatusDamageSuffix",
+                "IsAdvancedTrait": 1
             }
         ],
         "MergeOptions": [
             {
                 "ResultTag": "WeaponStatusDamage",
-                "PrimaryIngredient": "WeaponDamageAmountMod",
+                "PrimaryIngredient": "WeaponMeleeDamageMod",
                 "SecondaryIngredient": "WeaponStunChanceMod"
             },
             {
@@ -1875,18 +1921,18 @@
             },
             {
                 "ResultTag": "WeaponFactionDamageOrokin",
-                "PrimaryIngredient": "WeaponFactionDamageGrineer",
-                "SecondaryIngredient": "WeaponFactionDamageCorpus"
+                "PrimaryIngredient": "WeaponMeleeFactionDamageGrineer",
+                "SecondaryIngredient": "WeaponMeleeFactionDamageCorpus"
             },
             {
                 "ResultTag": "WeaponFactionDamageTechrot",
-                "PrimaryIngredient": "WeaponFactionDamageCorpus",
-                "SecondaryIngredient": "WeaponFactionDamageInfested"
+                "PrimaryIngredient": "WeaponMeleeFactionDamageCorpus",
+                "SecondaryIngredient": "WeaponMeleeFactionDamageInfested"
             },
             {
                 "ResultTag": "WeaponFactionDamageScaldra",
-                "PrimaryIngredient": "WeaponFactionDamageInfested",
-                "SecondaryIngredient": "WeaponFactionDamageGrineer"
+                "PrimaryIngredient": "WeaponMeleeFactionDamageInfested",
+                "SecondaryIngredient": "WeaponMeleeFactionDamageGrineer"
             },
             {
                 "ResultTag": "WeaponMeleeHeavyAttackDamageMod",

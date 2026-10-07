@@ -1,0 +1,171 @@
+{
+    "parent": "/EE/Types/Effects/Spawner",
+    "data": {
+        "CreatedTypes": [
+            {
+                "Type": "VesselPunchChargeRightProj",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 1,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "VesselPunchChargeDecoC",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 1,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0.34999999,
+                    0.34999999
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    -0.13500001,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "VesselPunchChargeTrail",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "SELF",
+                "InheritAttachBone": 1,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            }
+        ],
+        "Mode": "ONE_SHOT",
+        "ApplyColorCustomization": 1,
+        "EffectsColor": [
+            0,
+            178,
+            255,
+            255
+        ],
+        "CameraShakeType": "ST_IMPACT",
+        "CameraShakeRadius": 30,
+        "ColorCorrectionRadius": 10,
+        "ColorCorrectionFadeInTime": 0.1,
+        "ColorCorrectionDuration": 0.5,
+        "ColorCorrectionFadeOutTime": 0.5
+    }
+}

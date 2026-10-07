@@ -1,0 +1,67 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "UseParentVisibility": 0,
+        "DeadParentInheritanceRule": "NONE",
+        "LiveParentInheritanceRule": "NONE",
+        "ReplicationOverride": "RO_ALWAYS",
+        "HasLifeSpan": 0,
+        "SleepOffscreen": 0,
+        "Life": [
+            0.25,
+            0.40000001
+        ],
+        "Size": [
+            2,
+            3
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.1
+                },
+                {
+                    "Time": 1,
+                    "Value": 8
+                }
+            ]
+        },
+        "DistanceScale": 0.30000001,
+        "EmissionTime": [
+            36,
+            36
+        ],
+        "SpewCount": [
+            6,
+            6
+        ],
+        "Shape": "SH_PLANE",
+        "Material": "/Lotus/Fx/Common/RadialBlurCleanMat",
+        "ColorMin": [
+            255,
+            164,
+            57,
+            255
+        ],
+        "ColorMax": [
+            255,
+            117,
+            57,
+            255
+        ],
+        "RandOrientation": 1,
+        "FadeInOut": [
+            0.15000001,
+            0.15000001
+        ],
+        "NozzleBox": [
+            1.65,
+            0,
+            1.65
+        ],
+        "Drag": 5
+    }
+}

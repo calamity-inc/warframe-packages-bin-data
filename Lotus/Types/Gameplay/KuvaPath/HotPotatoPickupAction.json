@@ -1,13 +1,15 @@
 {
     "parent": "/Lotus/Types/Game/PickUpActions/GameplayObjectPickupAction",
     "data": {
+        "ActionPriority": "CA_PRIORITY_HIGHEST",
         "EvaluateUsingConditionalScript": 1,
         "EvaluateScript": {
             "Script": "/Lotus/Scripts/KuvaPath/HotPotatoEvent.lua",
             "Function": "Event",
             "_bombPickUpType": "",
             "_explosionFx": "",
-            "_bombDecoType": ""
+            "_bombDecoType": "",
+            "_bombHeldProjectorType": ""
         }
     }
 }

@@ -1,0 +1,107 @@
+{
+    "parent": "/Lotus/Types/Game/LotusParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 20
+            }
+        ],
+        "IgnoreParentRotation": 1,
+        "ApplyColorCustomization": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            0.75,
+            2
+        ],
+        "Size": [
+            2.5,
+            5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.0180995
+                },
+                {
+                    "Time": 0.30489799,
+                    "Value": 0.84208101
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "SpewCount": [
+            22,
+            22
+        ],
+        "Material": "/Lotus/Fx/PowersuitAbilities/CustomEffects/JadeLightEnergyMat",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            206,
+            46,
+            0,
+            255
+        ],
+        "ColorMax": [
+            255,
+            108,
+            61,
+            1
+        ],
+        "RandOrientation": 1,
+        "Spin": [
+            -0.001,
+            0.001
+        ],
+        "FadeInOut": [
+            0.2,
+            0.75
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 1
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.25
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        },
+        "DrawRelative": 1,
+        "Nozzle": "SPHERE",
+        "NozzleSize": 0.2,
+        "Speed": [
+            5,
+            5
+        ],
+        "Drag": 2,
+        "Mass": [
+            0.5,
+            1
+        ],
+        "PushVector": [
+            0,
+            -10,
+            0
+        ],
+        "PushMass": [
+            0,
+            1
+        ]
+    }
+}

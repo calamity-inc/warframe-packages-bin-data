@@ -253,156 +253,6 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "VesselPunchDustDeco",
-                "Sound": "",
-                "AttachSound": 1,
-                "Attach": "NONE",
-                "InheritAttachBone": 0,
-                "InheritAttachPosRot": 0,
-                "AttachBone": "",
-                "WorldRotation": 0,
-                "Delay": [
-                    0,
-                    0
-                ],
-                "AutoDestroy": 0,
-                "LifeSpan": [
-                    30,
-                    60
-                ],
-                "Chance": 255,
-                "Force": [
-                    0,
-                    0
-                ],
-                "Torque": [
-                    0,
-                    0
-                ],
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "PositionDeviation": [
-                    0,
-                    0
-                ],
-                "RotationDeviation": [
-                    0,
-                    0
-                ],
-                "UseFullRandomRotation": 0,
-                "InheritVelocity": 0,
-                "InheritCreator": 0
-            },
-            {
-                "Type": "VesselDustPunch",
-                "Sound": "",
-                "AttachSound": 1,
-                "Attach": "NONE",
-                "InheritAttachBone": 0,
-                "InheritAttachPosRot": 0,
-                "AttachBone": "",
-                "WorldRotation": 0,
-                "Delay": [
-                    0,
-                    0
-                ],
-                "AutoDestroy": 0,
-                "LifeSpan": [
-                    30,
-                    60
-                ],
-                "Chance": 255,
-                "Force": [
-                    0,
-                    0
-                ],
-                "Torque": [
-                    0,
-                    0
-                ],
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "PositionDeviation": [
-                    0,
-                    0
-                ],
-                "RotationDeviation": [
-                    0,
-                    0
-                ],
-                "UseFullRandomRotation": 0,
-                "InheritVelocity": 0,
-                "InheritCreator": 0
-            },
-            {
-                "Type": "VesselPunchRocks",
-                "Sound": "",
-                "AttachSound": 1,
-                "Attach": "NONE",
-                "InheritAttachBone": 0,
-                "InheritAttachPosRot": 0,
-                "AttachBone": "",
-                "WorldRotation": 0,
-                "Delay": [
-                    0,
-                    0
-                ],
-                "AutoDestroy": 0,
-                "LifeSpan": [
-                    30,
-                    60
-                ],
-                "Chance": 255,
-                "Force": [
-                    0,
-                    0
-                ],
-                "Torque": [
-                    0,
-                    0
-                ],
-                "LocalPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "PositionDeviation": [
-                    0,
-                    0
-                ],
-                "RotationDeviation": [
-                    0,
-                    0
-                ],
-                "UseFullRandomRotation": 0,
-                "InheritVelocity": 0,
-                "InheritCreator": 0
-            },
-            {
                 "Type": "VesselPunchImpactLightDeco",
                 "Sound": "",
                 "AttachSound": 1,
@@ -553,7 +403,57 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "/Lotus/Fx/PowersuitAbilities/Choir/EruptDetonateFlare",
+                "Type": "",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "NONE",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "PunchDustMetalSpawn",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -618,11 +518,9 @@
         ],
         "CameraShakeType": "ST_IMPACT",
         "CameraShakeRadius": 30,
-        "ColorGrading": "/Lotus/Fx/ColorGradingData/ExplosionColorGrading",
         "ColorCorrectionRadius": 10,
         "ColorCorrectionFadeInTime": 0.1,
         "ColorCorrectionDuration": 0.5,
-        "ColorCorrectionFadeOutTime": 0.5,
-        "SurfaceSpawnHitEffect": "VesselPunchHitEffect"
+        "ColorCorrectionFadeOutTime": 0.5
     }
 }

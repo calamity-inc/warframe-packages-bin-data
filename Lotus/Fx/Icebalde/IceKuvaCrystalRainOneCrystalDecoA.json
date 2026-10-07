@@ -4,6 +4,30 @@
         "Mesh": "/Lotus/Objects/Gameplay/CrystalSharpB.fbx",
         "MeshScale": 0.34999999,
         "MotionBlurred": 1,
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "BoneName": "",
+                "Type": "/Lotus/Sounds/Gameplay/Iceblade/IcebladeOfNarinKuvaCrystalIdleSeq",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1
+            }
+        ],
         "IgnoreParentScale": 1,
         "ScriptInstance": {
             "Script": "IceKuvaCrystalRainRandomCrystal.lua",

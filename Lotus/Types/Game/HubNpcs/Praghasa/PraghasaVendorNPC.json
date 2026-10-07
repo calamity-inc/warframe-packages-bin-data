@@ -1,0 +1,12 @@
+{
+    "parent": "LotusHubNpcEntity",
+    "data": {
+        "Tag": "PraghasaNPC",
+        "ScriptInstance": {
+            "Script": "/Lotus/Scripts/Events/PraghasaVendor.lua",
+            "Function": "Initialise"
+        },
+        "Radius": 6,
+        "OnlyCountPlayerControlledAvatars": 1
+    }
+}

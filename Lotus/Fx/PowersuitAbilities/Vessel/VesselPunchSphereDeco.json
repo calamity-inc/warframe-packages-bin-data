@@ -5,6 +5,14 @@
         "OverrideMaterial": [
             "VesselPunchSphereMat"
         ],
+        "MaterialParams": [
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 3
+            }
+        ],
         "DistortionEffect": 1,
         "DrawInTransparentPass": 1,
         "DeadParentInheritanceRule": "NONE",
@@ -12,8 +20,8 @@
             {
                 "Parameter": "Scale",
                 "Slot": -1,
-                "TimeLength": 0.75,
-                "Multiplier": 1,
+                "TimeLength": 0.55000001,
+                "Multiplier": 0.89999998,
                 "FadeRange": [
                     0,
                     1
@@ -25,20 +33,20 @@
                             "Value": 0.057692301
                         },
                         {
-                            "Time": 0.25,
-                            "Value": 0.28733101
+                            "Time": 0.145714,
+                            "Value": 0.55294102
                         },
                         {
-                            "Time": 0.5,
-                            "Value": 0.857732
+                            "Time": 0.373469,
+                            "Value": 0.92352903
                         },
                         {
-                            "Time": 0.75,
-                            "Value": 0.95801502
+                            "Time": 0.74979597,
+                            "Value": 1.002262
                         },
                         {
                             "Time": 1,
-                            "Value": 0.91976303
+                            "Value": 0.99818999
                         }
                     ],
                     "SplineType": "CUBIC_SPLINE"
@@ -54,7 +62,7 @@
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
                 "TimeLength": 0.5,
-                "Multiplier": 20,
+                "Multiplier": 5,
                 "FadeRange": [
                     0,
                     1
@@ -83,6 +91,26 @@
                 "BaseValue": 0,
                 "Delay": 0,
                 "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "DistortAtten",
+                "Slot": -1,
+                "TimeLength": 0.5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0.25
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
                 "IsDissolve": 0,
                 "IsMeshScale": 0,
                 "IsRepeating": 0

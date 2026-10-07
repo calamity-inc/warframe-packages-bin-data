@@ -17,7 +17,6 @@
             "_knockdownWindowTime": 2,
             "_knockdownCooldownTime": 5,
             "_knockbackForce": 5,
-            "_rumblerAgentType": "",
             "_largeRumblerAgentType": "",
             "_animControllerOverride": "/Lotus/Powersuits/Brawler/RockElementalAnimTreeController",
             "_spawnFx": "/Lotus/Fx/PowersuitAbilities/Brawler/SummonSpawnBurst",
@@ -30,10 +29,9 @@
         "MaxHealth": 2000,
         "VoiceBox": "/Lotus/Sounds/Warframes/Brawler/MummyTombGolemAgentVoicebox",
         "DropTable": "/Lotus/Types/DropTables/TombGuardianAgentDropTable",
-        "DamageControllerType": "/Lotus/Powersuits/Brawler/SummonHostileDamageController",
+        "DamageControllerType": "RockEnemyDamageController",
         "CodexSecret": 1,
         "ExcludedFromSimulacrum": 1,
-        "CodexScansRequiredOverride": 1,
-        "AbilityResistanceData": "/Lotus/Types/Game/LotusAbilityResistanceDatas/AbilityResistanceDataBoss"
+        "CodexScansRequiredOverride": 1
     }
 }

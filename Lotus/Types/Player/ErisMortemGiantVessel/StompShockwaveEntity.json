@@ -1,0 +1,40 @@
+{
+    "parent": "/Lotus/Types/Weapon/QuadRobotShockwaveEntity",
+    "data": {
+        "Range": [
+            2,
+            15
+        ],
+        "RayCheckExpand": 0,
+        "CameraShake": {
+            "origin": [
+                0,
+                1,
+                0
+            ],
+            "radius": 25,
+            "strength": 1
+        },
+        "ForceFeedback": "/Lotus/Sounds/Weapons/Braton/BratonReduxFireShotAFFE",
+        "OnlyDamageAvatars": 0,
+        "Spherical": 1,
+        "FixedHorizontally": 0,
+        "ShockwaveDecoType": "/Lotus/Fx/PowersuitAbilities/Caliban/CalibanBlastShockwaveDeco",
+        "AttackData": {
+            "Type": "DT_SENTIENT",
+            "Amount": 7500,
+            "ProcChance": 0
+        },
+        "Impulse": 500,
+        "UpwardVelocity": [
+            0,
+            0,
+            0
+        ],
+        "MaxPushVelocity": 0,
+        "AttackTime": 1.5,
+        "HitAirTargets": 1,
+        "DamageProximity": 0.5,
+        "ShockWaveCenterHeight": 2
+    }
+}

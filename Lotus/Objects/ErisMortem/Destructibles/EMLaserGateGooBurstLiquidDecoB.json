@@ -1,0 +1,153 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Water/SplashOmniA.fbx",
+        "OverrideMaterial": [
+            "EMLaserGateGooBurstLiquidMatB"
+        ],
+        "DistortionMaterial": "/Lotus/Fx/Common/EnergyDistortionCMat",
+        "DissolveOverride": "/Lotus/Fx/Enemies/WF1999Lasrian/GoonadierSplashFade_d.png",
+        "TestRotate": 1,
+        "TestRotateSpeed": [
+            5,
+            15,
+            12
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "AlphaAtten",
+                "Slot": -1,
+                "TimeLength": 0.44999999,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 1
+                        },
+                        {
+                            "Time": 0.5,
+                            "Value": 0.72467101
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.60000002,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 1
+                        },
+                        {
+                            "Time": 0.2,
+                            "Value": 0.30000001
+                        },
+                        {
+                            "Time": 0.89999998,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "Scale",
+                "Slot": -1,
+                "TimeLength": 0.60000002,
+                "Multiplier": 10,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0.19465099
+                        },
+                        {
+                            "Time": 0.33333299,
+                            "Value": 0.784419
+                        },
+                        {
+                            "Time": 0.66666698,
+                            "Value": 0.98210102
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 1
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            }
+        ],
+        "TimeLengthMultiplierRange": [
+            0.89999998,
+            0.89999998
+        ],
+        "Movement": 1,
+        "MovementVector": [
+            0,
+            1,
+            0
+        ],
+        "MovementCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.2
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.22115199
+                },
+                {
+                    "Time": 1,
+                    "Value": -4
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        }
+    }
+}

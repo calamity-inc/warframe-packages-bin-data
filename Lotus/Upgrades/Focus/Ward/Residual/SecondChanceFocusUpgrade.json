@@ -16,7 +16,8 @@
             "_reviveAnim": "/Lotus/Animations/Tenno/Contextual/RevivePowerBoostShort",
             "_secondChanceStartFx": "/Lotus/Fx/Weapons/Melee/Clean/Slams/ScaledSlam/MeleeSlamScaled",
             "_startSound": "/Lotus/Sounds/Focus/Unairu/UnairuLastGraspEnter",
-            "_gaspSequencer": "/Lotus/Sounds/Focus/Unairu/UnairuLastGraspSequencer"
+            "_gaspSequencer": "/Lotus/Sounds/Focus/Unairu/UnairuLastGraspSequencer",
+            "_onKillUpgradeType": "SecondChanceOnKillSubUpgrade"
         },
         "UnappliedScript": {
             "Script": "/Lotus/Interface/PowerSuitCustomHuds/FocusSecondChanceMeter.lua",
@@ -26,7 +27,8 @@
             "_reviveAnim": "",
             "_secondChanceStartFx": "",
             "_startSound": "",
-            "_gaspSequencer": ""
+            "_gaspSequencer": "",
+            "_onKillUpgradeType": ""
         },
         "Tag": "SecondChance",
         "IsResidual": 1,
@@ -38,7 +40,8 @@
             "_reviveAnim": "",
             "_secondChanceStartFx": "",
             "_startSound": "",
-            "_gaspSequencer": ""
+            "_gaspSequencer": "",
+            "_onKillUpgradeType": ""
         },
         "RequiredLevel": 1,
         "BaseFocusPointCost": 60000,

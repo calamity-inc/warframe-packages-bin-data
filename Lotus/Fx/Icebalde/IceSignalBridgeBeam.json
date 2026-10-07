@@ -47,9 +47,10 @@
                 "Scale": 1
             }
         ],
-        "TexturePanRateV": -3,
-        "NumPlanes": 2,
-        "Radius": 0.064999998,
+        "Material": "IceSignalBridgeBeamMat",
+        "TexturePanRateV": -2.5,
+        "NumPlanes": 1,
+        "Radius": 0.15000001,
         "Waves": [
             {
                 "Frequency": 0.80000001,
@@ -62,6 +63,12 @@
                 "PhaseShift": 19
             }
         ],
+        "FollowPlayerAutoChild": {
+            "Type": ""
+        },
+        "EndPointEffect": {
+            "Type": "IceLockedCrateBeamEnd"
+        },
         "ApplyColorCustomization": 0
     }
 }

@@ -8,13 +8,10 @@
         ],
         "MaterialParams": [
             {
-                "name": "Pan",
-                "type": "Float4",
+                "name": "AlphaAtten",
+                "type": "Float",
                 "slot": -1,
-                "value": 0,
-                "value1": -5,
-                "value2": 0,
-                "value3": 0
+                "value": 2
             }
         ],
         "DeadParentInheritanceRule": "NONE",
@@ -30,8 +27,8 @@
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 1,
-                "Multiplier": 5,
+                "TimeLength": 0.80000001,
+                "Multiplier": 2.75,
                 "FadeRange": [
                     1,
                     1
@@ -43,8 +40,12 @@
                             "Value": 1
                         },
                         {
-                            "Time": 0.5,
-                            "Value": 0.2
+                            "Time": 0.34,
+                            "Value": 0.808411
+                        },
+                        {
+                            "Time": 0.70244902,
+                            "Value": 0.17969701
                         },
                         {
                             "Time": 1,
@@ -64,7 +65,7 @@
                 "Parameter": "Scale",
                 "Slot": -1,
                 "TimeLength": 0.69999999,
-                "Multiplier": 3,
+                "Multiplier": 3.1500001,
                 "FadeRange": [
                     1,
                     1

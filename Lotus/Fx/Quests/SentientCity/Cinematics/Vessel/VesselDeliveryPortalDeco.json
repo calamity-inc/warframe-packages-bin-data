@@ -1,0 +1,149 @@
+{
+    "parent": "/Lotus/Fx/Levels/Duviri/DuviriGatewayPortal/NewPortal/DuviriSmallGatewayDecoStatic",
+    "data": {
+        "Mesh": "/Lotus/Fx/Common/ArcForward.fbx",
+        "MeshScale": 35,
+        "OverrideMaterial": [
+            "VesselDeliveryPortalDecoMat"
+        ],
+        "AutoSimChildren": [],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 15,
+                "Multiplier": 16,
+                "FadeRange": [
+                    0.1,
+                    0.80000001
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.5,
+                            "Value": 0.91538501
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "vScalesFade",
+                "Slot": -1,
+                "TimeLength": 8,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.5,
+                            "Value": 0.80754203
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 1
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "Scale",
+                "Slot": -1,
+                "TimeLength": 1.5,
+                "Multiplier": 36,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.33333299,
+                            "Value": 0.15000001
+                        },
+                        {
+                            "Time": 0.66666698,
+                            "Value": 0.74831897
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 1
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 2,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "SCALE",
+                "Slot": -1,
+                "TimeLength": 2,
+                "Multiplier": 36,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 1
+                        },
+                        {
+                            "Time": 0.5,
+                            "Value": 0.75295103
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 2,
+                "Delay": 13,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

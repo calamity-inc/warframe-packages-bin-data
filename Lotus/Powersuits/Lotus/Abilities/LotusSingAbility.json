@@ -10,9 +10,7 @@
         "Script": {
             "Script": "LotusSingAbility.lua",
             "Function": "ActivateAbility",
-            "_maxNumBlindReactionAnims": 3,
             "_activateAnim": "/Lotus/Animations/Tenno/Powers/Lotus/Ability2_anim.fbx",
-            "_blindEffect": "",
             "_castEffect": "/Lotus/Fx/PowersuitAbilities/Lotus/SingCast",
             "_shockwaveType": "LotusSingShockwaveEntity",
             "_shockwaveWindEffect": "/Lotus/Fx/PowersuitAbilities/Lotus/LotusWindBlast",
@@ -28,9 +26,7 @@
                 "scriptInstance": {
                     "Script": "LotusSingAbility.lua",
                     "Function": "ShockwaveLoop",
-                    "_maxNumBlindReactionAnims": 3,
                     "_activateAnim": "/Lotus/Animations/Tenno/Powers/Lotus/Ability2_anim.fbx",
-                    "_blindEffect": "",
                     "_castEffect": "/Lotus/Fx/PowersuitAbilities/Lotus/SingCast",
                     "_shockwaveType": "LotusSingShockwaveEntity",
                     "_shockwaveWindEffect": "/Lotus/Fx/PowersuitAbilities/Lotus/LotusWindBlast",
@@ -42,6 +38,12 @@
         "EnergyRequiredToActivate": 0,
         "PvpEnergyRequiredToActivate": 0,
         "ActivationXP": 0,
-        "CastSound": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusSingCast"
+        "CastSound": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusSingCast",
+        "ForceFeedbackEffectEvents": [
+            {
+                "EventName": "LotusSingCastFFE",
+                "ForceFeedbackEffect": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusSingCastBFFE"
+            }
+        ]
     }
 }

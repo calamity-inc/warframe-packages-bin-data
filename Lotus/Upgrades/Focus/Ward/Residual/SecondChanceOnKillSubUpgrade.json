@@ -1,0 +1,29 @@
+{
+    "parent": "/Lotus/Types/Game/LotusArtifactUpgrades/BaseArtifactUpgrade",
+    "data": {
+        "LocalizeTag": "[HC] SecondChanceOnKillSubUpgrade",
+        "ApplyUpgradesByDefault": 0,
+        "BaseDrain": "QA_NONE",
+        "Script": {
+            "Script": "/Lotus/Interface/PowerSuitCustomHuds/FocusSecondChanceMeter.lua",
+            "Function": "OnKill",
+            "_customHud": "",
+            "_secondChanceStartAnim": "",
+            "_reviveAnim": "",
+            "_secondChanceStartFx": "",
+            "_startSound": "",
+            "_gaspSequencer": "",
+            "_onKillUpgradeType": ""
+        },
+        "UpgradeChance": 1,
+        "DurationScalesWithRank": 0,
+        "ChanceScalesWithRank": 0,
+        "PlayEffect": 0,
+        "ConditionalUpgrades": [
+            "/Lotus/Upgrades/CosmeticEnhancers/Utility/OnOperatorCausePreDeathCondition"
+        ],
+        "ClearConditionalUpgradesOnRemove": 1,
+        "HudBuffIcon": "/Lotus/Interface/Icons/GenericCosmeticEnhancerIcon.png",
+        "UpgradeDifferentWeapon": 1
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "parent": "/Lotus/Fx/Avatar/KnockdownTechHintProjector",
+    "data": {
+        "Material": "IceHotPotatoBurningStateProjectorMat",
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 1.2,
+                "Multiplier": 2,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 0,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

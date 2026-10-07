@@ -1,0 +1,65 @@
+{
+    "parent": "/Lotus/Fx/Quests/NewWar/PartTwo/GrineerForest/FallingRocksBurst",
+    "data": {
+        "Life": [
+            1.5,
+            3
+        ],
+        "Size": [
+            0.34999999,
+            1
+        ],
+        "InitialCount": [
+            500,
+            500
+        ],
+        "Material": "/Lotus/Fx/Destruction/MetalChunks",
+        "ColorMin": [
+            155,
+            155,
+            155,
+            255
+        ],
+        "Spin": [
+            -0.25,
+            0.25
+        ],
+        "FadeInOut": [
+            0,
+            1
+        ],
+        "FadeByLife": {
+            "Values": [
+                {
+                    "Time": 0.80000001,
+                    "Value": 1
+                },
+                {
+                    "Time": 1,
+                    "Value": 0
+                }
+            ]
+        },
+        "Nozzle": "SHELL",
+        "NozzleBox": [
+            1,
+            0.2,
+            1
+        ],
+        "NozzleSize": 1.5,
+        "Speed": [
+            15,
+            150
+        ],
+        "Drag": 1,
+        "Mass": [
+            0.25,
+            0.75
+        ],
+        "PushFromFacingStrength": 0,
+        "PushMass": [
+            1,
+            1
+        ]
+    }
+}

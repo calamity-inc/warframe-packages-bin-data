@@ -18,6 +18,16 @@
         },
         "EnergyRequiredToActivate": 0,
         "PvpEnergyRequiredToActivate": 0,
-        "ActivationXP": 0
+        "ActivationXP": 0,
+        "ForceFeedbackEffectEvents": [
+            {
+                "EventName": "LotusHandShotChargeFFE",
+                "ForceFeedbackEffect": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusHandShotChargeAFFE"
+            },
+            {
+                "EventName": "LotusHandShotFFE",
+                "ForceFeedbackEffect": "/Lotus/Sounds/Characters/Lotus/Abilities/LotusHandShotAFFE"
+            }
+        ]
     }
 }

@@ -1,0 +1,108 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "MaterialParams": [
+            {
+                "name": "UnlitAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 15
+            }
+        ],
+        "IgnoreParentScale": 1,
+        "ApplyColorCustomization": 1,
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "InheritVelocity": [
+            0.30000001,
+            0.60000002
+        ],
+        "Life": [
+            0.5,
+            1
+        ],
+        "Size": [
+            2,
+            5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.40000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1
+                }
+            ]
+        },
+        "SpawnDelay": [
+            0,
+            0.1
+        ],
+        "InitialCount": [
+            120,
+            120
+        ],
+        "Material": "/Lotus/Fx/Gameplay/GameModes/InfestedSurvival/BabauSpawnDropletsRedMat",
+        "RandomStartFrame": 1,
+        "ColorMin": [
+            200,
+            76,
+            45,
+            200
+        ],
+        "ColorMax": [
+            157,
+            31,
+            36,
+            255
+        ],
+        "RandOrientation": 1,
+        "Pivot": [
+            0,
+            -0.2,
+            0
+        ],
+        "Spin": [
+            -0.001,
+            0.001
+        ],
+        "FadeInOut": [
+            0.1,
+            0.60000002
+        ],
+        "Nozzle": "SPHERE",
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ],
+        "NozzleDev": 0.80000001,
+        "NozzleSize": 0.2,
+        "Speed": [
+            75,
+            300
+        ],
+        "Drag": 1,
+        "Mass": [
+            0.15000001,
+            0.55000001
+        ],
+        "PushVector": [
+            0,
+            -10,
+            0
+        ],
+        "PushMass": [
+            0,
+            1
+        ],
+        "FlowOffsetRate": [
+            1,
+            0,
+            0
+        ]
+    }
+}

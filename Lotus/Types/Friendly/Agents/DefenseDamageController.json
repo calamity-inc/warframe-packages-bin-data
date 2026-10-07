@@ -45,6 +45,16 @@
                 "damageSourceObjectType": "",
                 "multiplier": 0.5,
                 "showInHUD": 0
+            },
+            {
+                "sourceName": "",
+                "damageType": "DT_ANY",
+                "applyToOtherDamageTypes": 0,
+                "hitPart": "ANY_PART",
+                "hitType": "DHT_NONE",
+                "damageSourceObjectType": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/BlitzEximusChainBlastAbility",
+                "multiplier": 0.1,
+                "showInHUD": 0
             }
         ],
         "DamageEffects": [
@@ -110,6 +120,9 @@
         "ShieldPowerUpProjection": "/Lotus/Fx/Projectors/ShieldUpProjector",
         "ShieldPowerDownProjection": "/Lotus/Fx/Projectors/ShieldDownProjector",
         "ShieldUpSound": "/Lotus/Sounds/UI/TennoShield/ShieldRecharge/ShieldRecharges",
+        "EnableShieldGating": 1,
+        "ShieldGateDuration": 0.33000001,
+        "FullShieldGateDuration": 2,
         "RechargeDelayFromEmptyMultiplier": 0,
         "ShieldRechargeAccelerationPercentOfMax": 0,
         "ShieldExhaustionStamina": 0,
