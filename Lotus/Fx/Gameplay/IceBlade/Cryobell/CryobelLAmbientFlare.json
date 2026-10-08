@@ -2,8 +2,11 @@
     "parent": "/Lotus/Fx/Explosions/Generic/ExplosionScifiFlare",
     "data": {
         "UseTeamEffectsSetting": 1,
-        "Size": 0.050000001,
+        "Size": 1,
         "Range": 30,
+        "InheritParentScale": 1,
+        "DepthCue": 0.89999998,
+        "QueryScale": 1,
         "TileCount": 1,
         "Tile": 0,
         "LifeSpan": 0,
@@ -16,7 +19,7 @@
                 "GridSizeY": 2,
                 "Tile": 0,
                 "Distance": 0,
-                "Size": 60,
+                "Size": 2,
                 "Aspect": 1,
                 "Tint": [
                     105,
@@ -43,7 +46,7 @@
                 "GridSizeY": 2,
                 "Tile": 0,
                 "Distance": 0,
-                "Size": 30,
+                "Size": 0.80000001,
                 "Aspect": 1,
                 "Tint": [
                     160,
@@ -70,7 +73,7 @@
                 "GridSizeY": 2,
                 "Tile": 0,
                 "Distance": 0,
-                "Size": 15,
+                "Size": 0.2,
                 "Aspect": 1,
                 "Tint": [
                     195,
@@ -82,7 +85,7 @@
                 "Brightness": 0.64999998,
                 "Rotating": 1,
                 "Orientation": 90,
-                "SpinRate": 90,
+                "SpinRate": 45,
                 "CenteringScale": 1,
                 "CenteringFade": 1,
                 "AxisConstraint": "AC_NONE",

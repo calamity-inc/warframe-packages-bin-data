@@ -1,3 +1,85 @@
 {
-    "parent": "/EE/Materials/Defaults/CombinerFXMat"
+    "parent": "/EE/Materials/Defaults/CombinerFXMat",
+    "data": {
+        "COMBINER_OP": "ADD_THREE",
+        "MAPPING": "CM_USING_TINT_COLOR",
+        "VERTEX_EFFECT": "SCALE_VERTEX",
+        "RED_VERT_MULTIPLY": 1,
+        "VS:Pan": [
+            0,
+            1,
+            0
+        ],
+        "VS:PanSecond": [
+            0.12,
+            0.050000001,
+            0
+        ],
+        "VS:uvScales": [
+            3,
+            3,
+            4,
+            0.2
+        ],
+        "PS:PanScaleThird": [
+            0.13,
+            0.75,
+            10,
+            2
+        ],
+        "PS:CompressionSwitch": [
+            0,
+            1,
+            1,
+            0
+        ],
+        "TX:DiffuseMap": "/Lotus/Fx/Common/RibbonGradientA_d.png",
+        "TX:SecondaryMap": "/Lotus/Fx/Common/CausticsC_d.png",
+        "TX:ThirdMap": "/EE/Materials/Basic/White_d.png",
+        "PS:TintColor": [
+            0.88,
+            0.23999999,
+            0.12,
+            1
+        ],
+        "PS:UnlitAtten": 1.7,
+        "PS:Scalar2": 4,
+        "PS:Scalar3": 1,
+        "PS:LowColor": [
+            0.063000001,
+            0.0046000001,
+            0.033,
+            1
+        ],
+        "PS:HighColor": [
+            0.88,
+            0.23999999,
+            0.12,
+            1
+        ],
+        "PS:SecondaryTintColor": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "PS:TintSmoothRange": [
+            0.2,
+            0.80000001
+        ],
+        "VS:vScalesStart": [
+            1,
+            0.30000001,
+            1
+        ],
+        "VS:vScales": [
+            1,
+            2,
+            1
+        ],
+        "VS:vScalesFade": 1,
+        "VS:vScalesUseGreen": 0,
+        "CanLight": 0,
+        "DoubleSided": 1
+    }
 }

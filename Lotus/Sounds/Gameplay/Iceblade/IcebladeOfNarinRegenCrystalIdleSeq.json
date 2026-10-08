@@ -1,0 +1,66 @@
+{
+    "parent": "/EE/Types/Engine/Sequencer",
+    "data": {
+        "Channels": [
+            {
+                "LoopCount": 1,
+                "TimeOfDay": "",
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "IcebladeOfNarinRegenCrystalIdleLoop",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            0
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": [
+                    {
+                        "Sound": "IcebladeOfNarinRegenCrystalIdleStop",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            0
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ]
+            },
+            {
+                "LoopCount": 0,
+                "TimeOfDay": "",
+                "Startup": [
+                    {
+                        "Sound": "IcebladeOfNarinRegenCrystalIdleSpawn",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            0
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Events": [],
+                "Shutdown": []
+            }
+        ]
+    }
+}

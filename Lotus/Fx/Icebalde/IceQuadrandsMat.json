@@ -1,3 +1,91 @@
 {
-    "parent": "/EE/Materials/Defaults/CombinerFXMat"
+    "parent": "/EE/Materials/Defaults/CombinerFXMat",
+    "data": {
+        "COMBINER_OP": "ADD_THREE",
+        "MAPPING": "CM_USING_TINT_COLOR",
+        "VERTEX_EFFECT": "SCALE_VERTEX",
+        "RED_VERT_MULTIPLY": 1,
+        "VS:Pan": [
+            0,
+            0.30000001,
+            0
+        ],
+        "VS:PanSecond": [
+            0,
+            -0.5,
+            0
+        ],
+        "VS:TimeScalar": 0,
+        "VS:uvScales": [
+            1,
+            1,
+            1,
+            0.5
+        ],
+        "PS:PanScaleThird": [
+            0.15000001,
+            -1.2,
+            1,
+            1
+        ],
+        "PS:CompressionSwitch": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "TX:DiffuseMap": "/Lotus/Fx/Common/CausticsC_d.png",
+        "TX:SecondaryMap": "/Lotus/Fx/Common/LinearDissolveGradient_d.png",
+        "TX:ThirdMap": "/Lotus/Fx/Common/SmoothBillowF_d.png",
+        "PS:TintColor": [
+            0.83999997,
+            0.17,
+            0.085000001,
+            1
+        ],
+        "PS:UnlitAtten": 1.5,
+        "PS:Scalar1": 1.5,
+        "PS:Scalar3": 1,
+        "PS:LowColor": [
+            0.83999997,
+            0.17,
+            0.085000001,
+            1
+        ],
+        "PS:HighColor": [
+            0.83999997,
+            0.17,
+            0.085000001,
+            1
+        ],
+        "PS:SecondaryTintColor": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "PS:TintSmoothRange": [
+            0.2,
+            0.80000001
+        ],
+        "PS:SmoothThresholdsStartEnd": [
+            0,
+            1,
+            -1,
+            0
+        ],
+        "VS:vScalesStart": [
+            1,
+            1,
+            1
+        ],
+        "VS:vScales": [
+            1,
+            12,
+            1
+        ],
+        "VS:vScalesFade": 0,
+        "VS:vScalesUseGreen": 0,
+        "CanLight": 0
+    }
 }

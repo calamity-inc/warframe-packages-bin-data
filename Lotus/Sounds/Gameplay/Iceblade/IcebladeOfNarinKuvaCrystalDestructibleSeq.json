@@ -1,0 +1,51 @@
+{
+    "parent": "/EE/Types/Engine/Sequencer",
+    "data": {
+        "Channels": [
+            {
+                "LoopCount": 1,
+                "TimeOfDay": "",
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "IcebladeOfNarinKuvaCrystalDestructibleLoop",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            0
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": []
+            },
+            {
+                "LoopCount": 0,
+                "TimeOfDay": "",
+                "Startup": [
+                    {
+                        "Sound": "IcebladeOfNarinKuvaCrystalSpawn",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            0
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Events": [],
+                "Shutdown": []
+            }
+        ]
+    }
+}

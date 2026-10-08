@@ -1,3 +1,89 @@
 {
-    "parent": "/EE/Materials/Defaults/CombinerFXMat"
+    "parent": "/EE/Materials/Defaults/CombinerFXMat",
+    "data": {
+        "Blend": "BLEND_ALPHA",
+        "MAPPING": "CM_USING_TINT_COLOR",
+        "VERTEX_EFFECT": "SCALE_VERTEX_BY_NORMAL",
+        "RED_VERT_MULTIPLY": 1,
+        "SOFT_CLIP": 1,
+        "FRESNEL_MASK": 1,
+        "RIPPLE": 1,
+        "VS:Pan": [
+            0.2,
+            0.60000002,
+            0
+        ],
+        "VS:PanSecond": [
+            0.1,
+            0,
+            0
+        ],
+        "VS:uvScales": [
+            1.5,
+            1,
+            0.1,
+            0.0099999998
+        ],
+        "PS:Hardness": 1,
+        "PS:FresnelPower": 0.25,
+        "PS:RipplePan": [
+            0.029999999,
+            0.2,
+            1,
+            1
+        ],
+        "PS:RippleScale": [
+            0.02,
+            0.02
+        ],
+        "TX:DiffuseMap": "/Lotus/Fx/Common/SmoothBillowB_d.png",
+        "TX:SecondaryMap": "/Lotus/Fx/Common/VoidWrapSoft_d.png",
+        "TX:NormalMap": "/EE/Materials/Defaults/Textures/WaterWrap_n.png",
+        "PS:TintColor": [
+            1,
+            0.11,
+            0.046,
+            1
+        ],
+        "PS:Scalar1": 5,
+        "PS:Scalar2": 5,
+        "PS:LowColor": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "PS:HighColor": [
+            1,
+            0.20999999,
+            0.14,
+            1
+        ],
+        "PS:SecondaryTintColor": [
+            1,
+            0.028999999,
+            0.028999999,
+            0
+        ],
+        "PS:TintSmoothRange": [
+            0.2,
+            0.80000001
+        ],
+        "PS:SmoothThresholdsStartEnd": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "VS:nScales": [
+            0.0099999998,
+            0.0099999998,
+            0.0099999998
+        ],
+        "VS:nScalesFade": 1,
+        "VS:ClipSpaceScale": 0,
+        "VS:nScalesUseGreen": 0,
+        "VS:nScalesToEyeBias": 0,
+        "DoubleSided": 1
+    }
 }

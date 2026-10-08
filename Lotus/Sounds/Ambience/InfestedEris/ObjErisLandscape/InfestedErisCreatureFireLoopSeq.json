@@ -1,0 +1,35 @@
+{
+    "parent": "/EE/Types/Engine/Sequencer",
+    "data": {
+        "Enabled": 0,
+        "OverrideSoundShape": 1,
+        "AttenuationRadii": [
+            50,
+            200
+        ],
+        "Channels": [
+            {
+                "LoopCount": 0,
+                "TimeOfDay": "",
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "InfestedErisFireLoop",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            0
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": []
+            }
+        ]
+    }
+}

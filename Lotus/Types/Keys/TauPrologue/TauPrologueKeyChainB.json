@@ -241,7 +241,7 @@
                 "TennoGuideHintTag": "/Lotus/Language/TauPrologue/KeyChainBStage1TennoGuideHint"
             },
             {
-                "StageDebugDescription": "set chosen vessel flag",
+                "StageDebugDescription": "",
                 "Key": "",
                 "Difficulties": {
                     "LOW": 0,
@@ -256,7 +256,80 @@
                 "BootGameRulesOverride": "",
                 "BootStreamingLayerOverride": 4294967295,
                 "BonusMissions": [],
-                "ShipScripts": [],
+                "ShipScripts": [
+                    {
+                        "Script": {
+                            "Script": "/Lotus/Scripts/QuestMissionSetup.lua",
+                            "Function": "AdvanceQuestToNextStage",
+                            "_checkItemType": "",
+                            "_checkItemMultipleType": [],
+                            "_requireAllItems": 0,
+                            "_bypassItemGateOnQuestReplay": 0,
+                            "_checkSuitType": "",
+                            "_checkArchwingType": "",
+                            "_delays": [
+                                0
+                            ],
+                            "_transmissions": [],
+                            "_reminderTrans": [],
+                            "_questProgress": 0,
+                            "_key": "TauPrologueKeyChainB",
+                            "_keyRes": "",
+                            "_resetQuestStep": 0,
+                            "_noKubrowsResetQuestStep": 0,
+                            "_ShipFeature": "",
+                            "_chanceForOneRandom": 0.5,
+                            "_advanceQuestAfterTransmissions": 0,
+                            "_advanceQuestToNextStageAfterTransmissions": 0,
+                            "_queueMailboxForLowPrio": 0,
+                            "_itemDrop": "",
+                            "_itemDropChance": 0.050000001,
+                            "_enableArchwing": 0,
+                            "_recipe": "",
+                            "_nagChance": 0.25,
+                            "_libraryScanTarget": "",
+                            "_waitForTransmissions": 0,
+                            "_playTransmissionsOnlyOncePerLogin": 1,
+                            "_waitForCinematicEnd": 0,
+                            "_codexEntryObject": "",
+                            "_codexDeco": "",
+                            "_delay": 0,
+                            "_waitForMenuClose": 0,
+                            "_transmissionTags": [],
+                            "_otherTransmissionSet": "",
+                            "_waitForInboxClose": 0,
+                            "_playOnQuestReplayOnly": 0,
+                            "_entityTag": "",
+                            "_markDojoExit": 0,
+                            "_nextStageObjTextLoc": "",
+                            "_replayOnlyTransmission": "",
+                            "_archwingBlueprintTypes": [],
+                            "_messageTriggerStage": 1,
+                            "_chinaBuildMessageTriggerStage": -1,
+                            "_advanceQuest": 0,
+                            "_useCurrentStage": 0,
+                            "_waitForOtherQuestOperations": 0,
+                            "_itemTriggerStage": 1,
+                            "_checkOnce": 0,
+                            "_conditionalChallenge": "",
+                            "_lotusChallengeMgr": "",
+                            "_installCySound": "",
+                            "_dioramaMovie": "",
+                            "_duringDioramaTrans": "",
+                            "_diorama": "",
+                            "_closeDelay": 10,
+                            "_startupDelay": 0,
+                            "_blockUntilSuccess": 1,
+                            "_blockingInputFilter": "",
+                            "_personalTechProjectRecipe": "",
+                            "_progressMovieType": "",
+                            "_blockEOM": 0,
+                            "_missingItemTransmission": "",
+                            "_returnToMarkerTag": ""
+                        },
+                        "OnlyWhenActive": 1
+                    }
+                ],
                 "HubScripts": [
                     {
                         "Script": {
@@ -717,7 +790,8 @@
             "_diorama": "",
             "_lotusClothCables": "",
             "_lotusBlockingVol": "",
-            "_lotusPushVol": ""
+            "_lotusPushVol": "",
+            "_hubPeerType": ""
         }
     }
 }
