@@ -2,18 +2,9 @@
     "parent": "/EE/Types/Effects/Spawner",
     "data": {
         "UseLightProbes": 0,
-        "CullDistance": 50,
-        "MaterialParams": [
-            {
-                "name": "UnlitAtten",
-                "type": "Float",
-                "slot": -1,
-                "value": 2
-            }
-        ],
         "CreatedTypes": [
             {
-                "Type": "ErisShipDebrisDestructionFlames",
+                "Type": "EMRockStompBlockerWallMetalFireball",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -63,56 +54,6 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "/Lotus/Fx/Explosions/BarrelExplosionDeco",
-                "Sound": "",
-                "AttachSound": 1,
-                "Attach": "NONE",
-                "InheritAttachBone": 0,
-                "InheritAttachPosRot": 0,
-                "AttachBone": "",
-                "WorldRotation": 0,
-                "Delay": [
-                    0,
-                    0
-                ],
-                "AutoDestroy": 0,
-                "LifeSpan": [
-                    1,
-                    1
-                ],
-                "Chance": 255,
-                "Force": [
-                    0,
-                    0
-                ],
-                "Torque": [
-                    0,
-                    0
-                ],
-                "LocalPosition": [
-                    0,
-                    0,
-                    0.25
-                ],
-                "LocalRotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "PositionDeviation": [
-                    0,
-                    0
-                ],
-                "RotationDeviation": [
-                    0,
-                    0
-                ],
-                "UseFullRandomRotation": 0,
-                "InheritVelocity": 0,
-                "InheritCreator": 0
-            },
-            {
                 "Type": "/Lotus/Fx/Explosions/Generic/ExplosionRippleMediumLarge",
                 "Sound": "",
                 "AttachSound": 1,
@@ -125,7 +66,7 @@
                     0,
                     0
                 ],
-                "AutoDestroy": 1,
+                "AutoDestroy": 0,
                 "LifeSpan": [
                     1,
                     1
@@ -175,7 +116,7 @@
                     0,
                     0
                 ],
-                "AutoDestroy": 1,
+                "AutoDestroy": 0,
                 "LifeSpan": [
                     2,
                     2
@@ -213,7 +154,7 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "/Lotus/Fx/Explosions/DefaultExplosionRadialSmoke",
+                "Type": "EMRockStompBlockerWallMetalDust",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -225,7 +166,7 @@
                     0,
                     0
                 ],
-                "AutoDestroy": 1,
+                "AutoDestroy": 0,
                 "LifeSpan": [
                     5,
                     5
@@ -263,7 +204,7 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "ErisShipDebrisChunkDestructionSparks",
+                "Type": "EMRockStompBlockerWallMetalSparks",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -313,7 +254,7 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "/Lotus/Fx/Explosions/DefaultExplosionFlare",
+                "Type": "EMRockStompBlockerWallRockFlare",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -325,7 +266,7 @@
                     0,
                     0
                 ],
-                "AutoDestroy": 1,
+                "AutoDestroy": 0,
                 "LifeSpan": [
                     0.75,
                     0.75
@@ -363,7 +304,7 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "/Lotus/Fx/Explosions/ExplosionWind",
+                "Type": "EMRockStompBlockerWallMetalDebris",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -372,13 +313,13 @@
                 "AttachBone": "",
                 "WorldRotation": 0,
                 "Delay": [
-                    0,
-                    0
+                    0.1,
+                    0.1
                 ],
-                "AutoDestroy": 1,
+                "AutoDestroy": 0,
                 "LifeSpan": [
-                    0.5,
-                    0.5
+                    30,
+                    60
                 ],
                 "Chance": 255,
                 "Force": [
@@ -413,7 +354,57 @@
                 "InheritCreator": 0
             },
             {
-                "Type": "ErisShipDebrisDestructionMetalDebris",
+                "Type": "/Lotus/Fx/Explosions/Generic/ExplosionFireLightLarge",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "NONE",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0,
+                    0
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "LocalRotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "EMRockStompBlockerWallMetalSmoke",
                 "Sound": "",
                 "AttachSound": 1,
                 "Attach": "NONE",
@@ -466,12 +457,7 @@
         "ChildrenInheritNetStatus": 0,
         "Mode": "ONE_SHOT",
         "AllowCreateWhenInvisible": 1,
-        "CameraShake": [
-            50,
-            50
-        ],
         "CameraShakeRadius": 12,
-        "ColorGrading": "/Lotus/Fx/ColorGradingData/ExplosionColorGrading",
         "ColorCorrectionRadius": 20,
         "ColorCorrectionFadeInTime": 0.1,
         "ColorCorrectionDuration": 0.1,

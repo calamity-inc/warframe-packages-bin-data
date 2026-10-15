@@ -87,7 +87,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/Operators/DrifterPistol/DrifterPistolSilencedShot",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -148,7 +148,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/RevolverPistol/RevolverPistolShot",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -207,7 +207,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/Operators/DrifterPistol/DrifterPistolMech",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -266,7 +266,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/DryFire/DryFirePistol",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -325,7 +325,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/DryFire/DryFirePistol3D",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -384,7 +384,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/WeaponPunchLayers/WeaponPunchLayersPistols/WeaponPunchPistolCommonSix2D",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -443,7 +443,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/WeaponPunchLayers/WeaponPunchLayersPistols/WeaponPunchPistolCommonSix3D",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -502,7 +502,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/Sentient/Shedu/SheduShot",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -545,7 +545,68 @@
                                 "effectsToCreate": [],
                                 "effectsToDestroy": [],
                                 "ammoStatus": "ALL_CASES",
-                                "condition": "RF_ALWAYS",
+                                "condition": "RF_OWNER",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": ""
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "/Lotus/Animations/Tenno/Movement/Pistol/FireRight_anim.fbx",
+                                "state": "WS_FIRE",
+                                "matchTransitionState": 0,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [
+                                    0
+                                ],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_NON_OWNER",
                                 "newBehaviorIndex": -1,
                                 "useOnSkin": 0,
                                 "upgradeType": "NONE",
@@ -703,7 +764,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnAnimEvent": {
-                                "sound": "/Lotus/Sounds/Weapons/RevolverPistol/RevolverPistolReloadChamber",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -723,8 +784,7 @@
                                     0,
                                     0
                                 ],
-                                "stopSoundOnExitState": 1,
-                                "exitState": "WS_RELOAD",
+                                "stopSoundOnExitState": 0,
                                 "stopSoundEventNames": [],
                                 "multiplyGainByModFireRateRatio": "RO_DEFAULT",
                                 "useRandomPitchSeed": 0,
@@ -736,7 +796,7 @@
                                 "continuousForceFeedback": 0,
                                 "condition": "RF_ALWAYS",
                                 "animation": "",
-                                "name": "RevolverPistolChamber",
+                                "name": "SFXDrifterPistolReloadA",
                                 "matchParam": 1,
                                 "param": 0,
                                 "hand": "ANY_HAND",
@@ -757,7 +817,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnAnimEvent": {
-                                "sound": "/Lotus/Sounds/Weapons/RevolverPistol/RevolverPistolReloadEject",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -777,8 +837,7 @@
                                     0,
                                     0
                                 ],
-                                "stopSoundOnExitState": 1,
-                                "exitState": "WS_RELOAD",
+                                "stopSoundOnExitState": 0,
                                 "stopSoundEventNames": [],
                                 "multiplyGainByModFireRateRatio": "RO_DEFAULT",
                                 "useRandomPitchSeed": 0,
@@ -790,7 +849,7 @@
                                 "continuousForceFeedback": 0,
                                 "condition": "RF_ALWAYS",
                                 "animation": "",
-                                "name": "RevolverPistolEject",
+                                "name": "SFXDrifterPistolReloadB",
                                 "matchParam": 1,
                                 "param": 0,
                                 "hand": "ANY_HAND",
@@ -811,7 +870,60 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnAnimEvent": {
-                                "sound": "/Lotus/Sounds/Gameplay/FighterGameConfirm",
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "condition": "RF_ALWAYS",
+                                "animation": "",
+                                "name": "SFXDrifterPistolReloadB",
+                                "matchParam": 1,
+                                "param": 0,
+                                "hand": "ANY_HAND",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "suitMode": "SUIT_ANY",
+                                "weaponStates": [],
+                                "allowWhenDormant": 0,
+                                "useOnSkin": 0,
+                                "responseScript": {
+                                    "Script": ""
+                                },
+                                "overrideTag": "",
+                                "attachEffect": ""
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnAnimEvent": {
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -864,7 +976,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnAnimEvent": {
-                                "sound": "/Lotus/Sounds/UI/LibraryScanner/LibraryScannerCancel",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -894,7 +1006,7 @@
                                 ],
                                 "forceFeedbackEffect": "",
                                 "continuousForceFeedback": 0,
-                                "condition": "RF_ALWAYS",
+                                "condition": "RF_OWNER",
                                 "animation": "",
                                 "name": "PERFECT_RELOAD_MISSED",
                                 "matchParam": 1,
@@ -1128,7 +1240,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/Operators/DrifterPistol/DrifterPistolSilencedShot",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -1189,7 +1301,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/RevolverPistol/RevolverPistolShot",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -1248,7 +1360,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/Operators/DrifterPistol/DrifterPistolMech",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -1307,7 +1419,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/DryFire/DryFirePistol",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -1366,7 +1478,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/DryFire/DryFirePistol3D",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -1425,7 +1537,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/WeaponPunchLayers/WeaponPunchLayersPistols/WeaponPunchPistolCommonSix2D",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -1484,7 +1596,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/WeaponPunchLayers/WeaponPunchLayersPistols/WeaponPunchPistolCommonSix3D",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -1543,7 +1655,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnEnter": {
-                                "sound": "/Lotus/Sounds/Weapons/Sentient/Shedu/SheduShot",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -1586,7 +1698,68 @@
                                 "effectsToCreate": [],
                                 "effectsToDestroy": [],
                                 "ammoStatus": "ALL_CASES",
-                                "condition": "RF_ALWAYS",
+                                "condition": "RF_OWNER",
+                                "newBehaviorIndex": -1,
+                                "useOnSkin": 0,
+                                "upgradeType": "NONE",
+                                "forceFeedbackEffect": "",
+                                "continuousForceFeedback": 0,
+                                "overrideTag": "",
+                                "soundSequencerType": "",
+                                "responseScript": {
+                                    "Script": ""
+                                }
+                            }
+                        },
+                        {
+                            "Index": -1,
+                            "Tag": "",
+                            "OverrideConditions": 0,
+                            "OnEnter": {
+                                "sound": "",
+                                "playerType": "PT_ANY",
+                                "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
+                                "ammoInClipRangeLimit": [
+                                    0,
+                                    0
+                                ],
+                                "multiplyPitchByFireRateRatio": 0,
+                                "adjustPitchByChargeRatio": 0,
+                                "reverbCategory": "UNSPECIFIED",
+                                "fireRatePitchMultiplier": 1,
+                                "chargePitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "adjustPitchByAmmoInClip": 0,
+                                "ammoInClipPitchRange": [
+                                    0,
+                                    0
+                                ],
+                                "stopSoundOnExitState": 0,
+                                "stopSoundEventNames": [],
+                                "multiplyGainByModFireRateRatio": "RO_DEFAULT",
+                                "useRandomPitchSeed": 0,
+                                "randomPitchSeed": [
+                                    1,
+                                    1
+                                ],
+                                "animation": "",
+                                "state": "WS_FIRE",
+                                "matchTransitionState": 0,
+                                "transitionState": "WS_READY",
+                                "weaponsWielded": "SINGLE_AND_DUAL_WIELD",
+                                "equippedHand": "ANY_HAND",
+                                "aimMode": "HIP_AND_AIM",
+                                "suitMode": "SUIT_ANY",
+                                "activeBehaviorIndexIgnoreList": [
+                                    0
+                                ],
+                                "stateSignalAttachments": [],
+                                "effectsToCreate": [],
+                                "effectsToDestroy": [],
+                                "ammoStatus": "ALL_CASES",
+                                "condition": "RF_NON_OWNER",
                                 "newBehaviorIndex": -1,
                                 "useOnSkin": 0,
                                 "upgradeType": "NONE",
@@ -1744,7 +1917,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnAnimEvent": {
-                                "sound": "/Lotus/Sounds/Weapons/RevolverPistol/RevolverPistolReloadChamber",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -1798,7 +1971,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnAnimEvent": {
-                                "sound": "/Lotus/Sounds/Weapons/RevolverPistol/RevolverPistolReloadEject",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -1852,7 +2025,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnAnimEvent": {
-                                "sound": "/Lotus/Sounds/Gameplay/FighterGameConfirm",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [
@@ -1905,7 +2078,7 @@
                             "Tag": "",
                             "OverrideConditions": 0,
                             "OnAnimEvent": {
-                                "sound": "/Lotus/Sounds/UI/LibraryScanner/LibraryScannerCancel",
+                                "sound": "",
                                 "playerType": "PT_ANY",
                                 "ignoreSoundIfAmmoClipRatioIsOutsideRange": 0,
                                 "ammoInClipRangeLimit": [

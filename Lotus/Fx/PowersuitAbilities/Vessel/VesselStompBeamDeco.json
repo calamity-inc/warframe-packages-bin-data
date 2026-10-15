@@ -1,0 +1,138 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Weapons/Melee/Slams/Basic/SlamDome.fbx",
+        "MeshScale": 20,
+        "OverrideMaterial": [
+            "/Lotus/Fx/InfestedLich/DrillMagnetizeEndShockwaveMat",
+            "/Lotus/Fx/InfestedLich/DrillMagnetizeEndShockwaveMat"
+        ],
+        "CullDistance": 4,
+        "CullDissolveRatio": 0.34999999,
+        "MaterialParams": [
+            {
+                "name": "FresnelPower",
+                "type": "Float",
+                "slot": -1,
+                "value": 3
+            },
+            {
+                "name": "vScales",
+                "type": "Float4",
+                "slot": -1,
+                "value": 0.44999999,
+                "value1": 1,
+                "value2": 0.44999999,
+                "value3": 0
+            },
+            {
+                "name": "TintColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.83999997,
+                    0.80000001,
+                    0.55000001,
+                    1
+                ]
+            },
+            {
+                "name": "LowColor",
+                "type": "Color",
+                "slot": -1,
+                "value": [
+                    0.068000004,
+                    0.092,
+                    0.13,
+                    1
+                ]
+            },
+            {
+                "name": "vScalesFade",
+                "type": "Float",
+                "slot": -1,
+                "value": 0.25
+            }
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "Slot": -1,
+                "TimeLength": 0.5,
+                "Multiplier": 50,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0.26315799
+                        },
+                        {
+                            "Time": 0.1238,
+                            "Value": 0.987854
+                        },
+                        {
+                            "Time": 0.166667,
+                            "Value": 0.58164603
+                        },
+                        {
+                            "Time": 0.294626,
+                            "Value": 0.203779
+                        },
+                        {
+                            "Time": 0.551184,
+                            "Value": 0.0445344
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 0
+                        }
+                    ],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "CustomTime",
+                "Slot": -1,
+                "TimeLength": 0.5,
+                "Multiplier": 5,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0
+                        },
+                        {
+                            "Time": 0.5,
+                            "Value": 0.80000001
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 1
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            }
+        ]
+    }
+}

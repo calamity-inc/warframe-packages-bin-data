@@ -1,0 +1,103 @@
+{
+    "parent": "/Lotus/Types/Game/LotusEffectDecoration",
+    "data": {
+        "Mesh": "/Lotus/Fx/Cinematics/VorunaPrimeTrailer/BloodSplatterDirectionalMesh.fbx",
+        "OverrideMaterial": [
+            "VesselPunchFleshMultiDirMat"
+        ],
+        "DistortionMaterial": "/Lotus/Fx/Common/EnergyDistortionCMat",
+        "DissolveOverride": "/Lotus/Fx/PowersuitAbilities/Garuda/BloodThreshold_d.png",
+        "IgnoreParentRotation": 1,
+        "TestRotateMode": "TRM_AUTONOMOUS",
+        "TestRotateSpeed": [
+            25,
+            15,
+            25
+        ],
+        "MaterialFade": [
+            {
+                "Parameter": "Dissolve",
+                "Slot": -1,
+                "TimeLength": 0.60000002,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 1,
+                "IsDissolve": 1,
+                "IsMeshScale": 0,
+                "IsRepeating": 0
+            },
+            {
+                "Parameter": "Scale",
+                "Slot": -1,
+                "TimeLength": 0.60000002,
+                "Multiplier": 30,
+                "FadeRange": [
+                    0,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [
+                        {
+                            "Time": 0,
+                            "Value": 0.20271499
+                        },
+                        {
+                            "Time": 0.301633,
+                            "Value": 0.75927597
+                        },
+                        {
+                            "Time": 0.62816298,
+                            "Value": 0.96153802
+                        },
+                        {
+                            "Time": 1,
+                            "Value": 1
+                        }
+                    ],
+                    "SplineType": "CUBIC_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "DestroyWhenComplete": 0,
+                "IsDissolve": 0,
+                "IsMeshScale": 1,
+                "IsRepeating": 0
+            }
+        ],
+        "TimeLengthMultiplierRange": [
+            0.89999998,
+            1
+        ],
+        "MovementGravity": [
+            0,
+            -0.5,
+            0
+        ],
+        "MovementCurve": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.2
+                },
+                {
+                    "Time": 0.5,
+                    "Value": 0.22115199
+                },
+                {
+                    "Time": 1,
+                    "Value": -4
+                }
+            ],
+            "SplineType": "CUBIC_SPLINE"
+        }
+    }
+}

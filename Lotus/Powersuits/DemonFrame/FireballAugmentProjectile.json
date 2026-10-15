@@ -114,11 +114,9 @@
         "ExplosionFallOff": 0.80000001,
         "ExplodeEffect": "/Lotus/Fx/Explosions/Generic/ExplosionFXConcussiveSmall",
         "DamageRadius": 5,
-        "DieSound": "/Lotus/Sounds/Vehicles/Motorcycle/MotorcycleNinetyNine/Abilities/MC99MarkTargetExplosionInst",
+        "DieSound": "/Lotus/Sounds/Warframes/Uriel/Infernalis/UrielInfernalisAugmentExplosion",
         "MaxLife": 3,
-        "WhizzBySound": "/Lotus/Sounds/Vehicles/Motorcycle/MotorcycleNinetyNine/Abilities/MC99MarkTargetProjBy",
-        "WhizzByRadius": 25,
-        "WhizzByLocal": 1,
+        "WhizzByRadius": 0,
         "OnlyCollideWithTarget": 1,
         "IgnoreFriendlyAvatars": 1,
         "VerticalImpulse": 1000,
@@ -170,12 +168,12 @@
             "_bossCollisionSounds": []
         },
         "ApplyColorCustomization": 1,
+        "AvatarTargetPart": "TORSO",
         "SmoothUnguidedFlightTransition": 1,
         "SmoothUnguidedFlightTime": 0.5,
         "AimRate": 720,
         "ReducedAimRate": 720,
         "IgnoreFlares": 1,
-        "CanTurnAround": 1,
-        "AvatarTargetPart": "TORSO"
+        "CanTurnAround": 1
     }
 }

@@ -6,6 +6,7 @@
         "OverrideMaterial": [
             "/Lotus/Fx/PowersuitAbilities/Vessel/VesselPunchRockDustMat"
         ],
+        "DepthSortBias": 10,
         "MaterialParams": [
             {
                 "name": "FresnelPower",
@@ -28,7 +29,7 @@
                 "Parameter": "Scale",
                 "Slot": -1,
                 "TimeLength": 0.85000002,
-                "Multiplier": 1,
+                "Multiplier": 1.25,
                 "FadeRange": [
                     0,
                     1

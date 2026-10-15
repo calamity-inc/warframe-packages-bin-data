@@ -1,0 +1,101 @@
+{
+    "parent": "/EE/Types/Engine/Decoration",
+    "data": {
+        "Mesh": "NokMushroomJuvenile1.fbx",
+        "OverrideMaterial": [
+            "NokMushroomLargeGillsMatA",
+            "NokMushroomLargeWeb",
+            "NokMushroomLarge"
+        ],
+        "AutoSimChildren": [
+            {
+                "LocalPosition": [
+                    -0.059,
+                    11.06,
+                    0.071999997
+                ],
+                "LocalRotation": [
+                    -0.96363002,
+                    0,
+                    -0.26723799,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "NokMushroomHangingBDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 0.80000001
+            },
+            {
+                "LocalPosition": [
+                    -1.0319999,
+                    9.8290005,
+                    -4.6919999
+                ],
+                "LocalRotation": [
+                    0.52991903,
+                    0,
+                    -0.84804797,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "NokMushroomHangingADeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 0.60000002
+            },
+            {
+                "LocalPosition": [
+                    -3.115,
+                    9.4729996,
+                    0.449
+                ],
+                "LocalRotation": [
+                    -0.34202,
+                    0,
+                    -0.93969297,
+                    0
+                ],
+                "BoneName": "",
+                "Type": "NokMushroomHangingBDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 0.69999999
+            },
+            {
+                "LocalPosition": [
+                    -1.119,
+                    10.87,
+                    -1.848
+                ],
+                "LocalRotation": [
+                    -0.059999999,
+                    0.117,
+                    0.15000001,
+                    0.98000002
+                ],
+                "BoneName": "",
+                "Type": "NokCaveMushroomAlphasBDeco",
+                "Chance": 255,
+                "RelativeToBounds": 0,
+                "Attach": 1,
+                "DestroyWithOwner": 1,
+                "DestroyParentOnDeath": 0,
+                "FadeOutOnDestruction": 0,
+                "Scale": 1.2
+            }
+        ]
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "parent": "/EE/Types/Effects/Spawner",
+    "data": {
+        "UseLightProbes": 0,
+        "CreatedTypes": [
+            {
+                "Type": "EMRockStompBlockerImpactBloodMultiDirSpawn",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "NONE",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0.1,
+                    0.1
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    2,
+                    -0.5,
+                    2
+                ],
+                "LocalRotation": [
+                    0,
+                    0.38268301,
+                    0,
+                    0.92387998
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            },
+            {
+                "Type": "EMRockStompBlockerImpactBloodMultiDirSpawn",
+                "Sound": "",
+                "AttachSound": 1,
+                "Attach": "NONE",
+                "InheritAttachBone": 0,
+                "InheritAttachPosRot": 0,
+                "AttachBone": "",
+                "WorldRotation": 0,
+                "Delay": [
+                    0.1,
+                    0.1
+                ],
+                "AutoDestroy": 0,
+                "LifeSpan": [
+                    30,
+                    60
+                ],
+                "Chance": 255,
+                "Force": [
+                    0,
+                    0
+                ],
+                "Torque": [
+                    0,
+                    0
+                ],
+                "LocalPosition": [
+                    2,
+                    -0.5,
+                    2
+                ],
+                "LocalRotation": [
+                    0,
+                    0.98480803,
+                    0,
+                    0.173648
+                ],
+                "PositionDeviation": [
+                    0,
+                    0
+                ],
+                "RotationDeviation": [
+                    0,
+                    0
+                ],
+                "UseFullRandomRotation": 0,
+                "InheritVelocity": 0,
+                "InheritCreator": 0
+            }
+        ],
+        "BurstSound": "/Lotus/Sounds/Ambience/NineteenNinetyNine/Gameplay/NinetyNineMilitaryCheckpointMetalHit",
+        "Mode": "ONE_SHOT",
+        "CameraShake": [
+            300,
+            300
+        ],
+        "CameraFlashRadius": [
+            1,
+            1
+        ],
+        "CameraShakeType": "ST_IMPACT",
+        "CameraShakeRadius": 500
+    }
+}

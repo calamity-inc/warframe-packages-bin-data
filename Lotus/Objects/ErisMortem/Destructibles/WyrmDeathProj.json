@@ -1,0 +1,53 @@
+{
+    "parent": "/Lotus/Types/Game/LotusDynamicProjector",
+    "data": {
+        "DistortionEffect": 1,
+        "DrawInTransparentPass": 1,
+        "Material": "WyrmDeathProjMat",
+        "UseAttachRoot": 0,
+        "MaterialFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 1,
+                "Multiplier": 1,
+                "FadeRange": [
+                    1,
+                    1
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 0,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "TriggeredFade": [
+            {
+                "Parameter": "UnlitAtten",
+                "TimeLength": 5,
+                "Multiplier": 1,
+                "FadeRange": [
+                    0,
+                    0
+                ],
+                "FadeCurve": {
+                    "Values": [],
+                    "SplineType": "LINEAR_SPLINE"
+                },
+                "BaseValue": 0,
+                "Delay": 0,
+                "IsDissolve": 0,
+                "DestroyWhenComplete": 1,
+                "IsWorldPosUpdate": 0,
+                "IsRepeating": 0
+            }
+        ],
+        "Fadeup": 0,
+        "FadeOutTime": 0
+    }
+}

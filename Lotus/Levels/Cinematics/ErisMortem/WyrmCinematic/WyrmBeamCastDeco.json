@@ -3,14 +3,22 @@
     "data": {
         "Mesh": "WyrmBeamMesh.fbx",
         "MeshScale": 5,
+        "MaterialParams": [
+            {
+                "name": "AlphaAtten",
+                "type": "Float",
+                "slot": -1,
+                "value": 1.5
+            }
+        ],
         "DeadParentInheritanceRule": "INHERIT",
         "ReplicationOverride": "RO_DEFAULT",
         "MaterialFade": [
             {
                 "Parameter": "UnlitAtten",
                 "Slot": -1,
-                "TimeLength": 5,
-                "Multiplier": 10,
+                "TimeLength": 5.5,
+                "Multiplier": 5,
                 "FadeRange": [
                     0.1,
                     0.89999998

@@ -3,15 +3,16 @@
     "data": {
         "Mesh": "/Lotus/Objects/Entrati/Lab/Props/Statues/ORKxLabStatueBaseA_skel.fbx",
         "LODBias": -4,
+        "Dissolve": 1,
         "AnimationName": "ORKxLabVesselHubBRig",
+        "AnimateMaster": 1,
         "Tag": "VesselAvatar",
         "ScriptInstance": {
             "Script": "TennoConLiveRelay2026.lua",
             "Function": "ApplyVesselCustomization",
-            "_transmissionSet": ""
+            "_hideVesselIfCompleteQuest": "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainB"
         },
         "Faction": "TENNO",
-        "AnimControllerType": "VesselAnimController",
-        "AnimateMaster": 1
+        "AnimControllerType": "VesselAnimController"
     }
 }

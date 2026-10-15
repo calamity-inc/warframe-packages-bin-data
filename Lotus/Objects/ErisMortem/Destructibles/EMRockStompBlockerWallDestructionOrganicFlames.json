@@ -9,18 +9,18 @@
             2
         ],
         "Size": [
-            3,
-            5.5
+            3.5,
+            7
         ],
         "SizeByLife": {
             "Values": [
                 {
                     "Time": 0,
-                    "Value": 0
+                    "Value": 0.58623302
                 },
                 {
-                    "Time": 0.5,
-                    "Value": 1.254625
+                    "Time": 0.479592,
+                    "Value": 1.3507071
                 },
                 {
                     "Time": 1,
@@ -30,8 +30,8 @@
             "SplineType": "CUBIC_SPLINE"
         },
         "InitialCount": [
-            32,
-            32
+            20,
+            20
         ],
         "Material": "/Lotus/Fx/PowersuitAbilities/Temple/TempleFlamesMat",
         "ColorMin": [
@@ -52,7 +52,7 @@
             0.0049999999
         ],
         "FadeInOut": [
-            0.02,
+            0.1,
             0.80000001
         ],
         "Nozzle": "SPHERE",
@@ -61,7 +61,7 @@
             5,
             100
         ],
-        "Drag": 1.5,
+        "Drag": 1,
         "Mass": [
             0,
             0

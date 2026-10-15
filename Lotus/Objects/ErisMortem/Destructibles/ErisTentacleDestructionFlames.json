@@ -6,11 +6,11 @@
         "ApplyColorCustomization": 1,
         "Life": [
             0.75,
-            1.25
+            1.55
         ],
         "Size": [
-            1.25,
-            3
+            2,
+            5
         ],
         "SizeByLife": {
             "Values": [
@@ -34,8 +34,8 @@
             8
         ],
         "SpewCount": [
-            38,
-            38
+            26,
+            26
         ],
         "Material": "/Lotus/Fx/PowersuitAbilities/Temple/TempleFlamesMat",
         "ColorMin": [
@@ -59,21 +59,25 @@
             0.02,
             0.80000001
         ],
-        "Nozzle": "PARENT_MESH",
-        "NozzleDev": 0.25,
+        "Nozzle": "SPHERE",
+        "NozzleSize": 0.1,
         "Speed": [
-            5,
-            25
-        ],
-        "Drag": 1.5,
-        "Mass": [
             0,
-            0
+            3
+        ],
+        "Drag": 1,
+        "Mass": [
+            -1,
+            -0.5
         ],
         "PushVector": [
             3,
-            0,
+            30,
             0
+        ],
+        "PushMass": [
+            0,
+            1
         ]
     }
 }

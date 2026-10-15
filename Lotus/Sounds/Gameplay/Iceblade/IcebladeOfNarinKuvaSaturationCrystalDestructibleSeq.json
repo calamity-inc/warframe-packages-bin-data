@@ -5,9 +5,31 @@
             {
                 "LoopCount": 1,
                 "TimeOfDay": "",
+                "Startup": [],
+                "Events": [
+                    {
+                        "Sound": "IcebladeOfNarinKuvaSaturationCrystalDestructibleLoop",
+                        "Parameter": [
+                            0,
+                            0
+                        ],
+                        "Latency": [
+                            0,
+                            0
+                        ],
+                        "Duration": 0,
+                        "FadeTime": 0,
+                        "FadeAmount": 1
+                    }
+                ],
+                "Shutdown": []
+            },
+            {
+                "LoopCount": 0,
+                "TimeOfDay": "",
                 "Startup": [
                     {
-                        "Sound": "IceBladeRegenCrystalSpawn",
+                        "Sound": "IcebladeOfNarinKuvaSaturationCrystalSpawn",
                         "Parameter": [
                             0,
                             0
@@ -23,43 +45,6 @@
                 ],
                 "Events": [],
                 "Shutdown": []
-            },
-            {
-                "LoopCount": 0,
-                "TimeOfDay": "",
-                "Startup": [],
-                "Events": [
-                    {
-                        "Sound": "IceBladeRegenCrystalLoop",
-                        "Parameter": [
-                            0,
-                            0
-                        ],
-                        "Latency": [
-                            0,
-                            0
-                        ],
-                        "Duration": 0,
-                        "FadeTime": 0,
-                        "FadeAmount": 1
-                    }
-                ],
-                "Shutdown": [
-                    {
-                        "Sound": "IcebladeOfNarinLockedCrateIdleStop",
-                        "Parameter": [
-                            0,
-                            0
-                        ],
-                        "Latency": [
-                            0,
-                            0
-                        ],
-                        "Duration": 0,
-                        "FadeTime": 0,
-                        "FadeAmount": 1
-                    }
-                ]
             }
         ]
     }

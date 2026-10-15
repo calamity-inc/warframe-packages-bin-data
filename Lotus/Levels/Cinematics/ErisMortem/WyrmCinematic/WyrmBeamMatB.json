@@ -1,76 +1,91 @@
 {
     "parent": "/EE/Materials/Defaults/CombinerFXMat",
     "data": {
-        "Blend": "BLEND_PREMULT_ALPHA",
+        "Blend": "BLEND_ALPHA",
         "COMBINER_OP": "ADD_THREE",
         "MAPPING": "CM_USING_TINT_COLOR",
         "VERTEX_EFFECT": "SCALE_VERTEX_BY_NORMAL",
+        "COLOR_SPECIAL": "BLUE_SECONDARY_LERP",
         "RED_VERT_MULTIPLY": 1,
         "SOFT_CLIP": 1,
         "FRESNEL_MASK": 1,
-        "RIPPLE": 1,
         "VS:Pan": [
-            0.1,
-            0.1,
+            1,
+            0,
             0
         ],
         "VS:PanSecond": [
-            -0.1,
+            0.75,
             0.30000001,
             0
         ],
         "PS:PanScaleThird": [
-            -0.1,
+            0.5,
             0.30000001,
             1,
-            0.60000002
+            2
         ],
         "PS:Hardness": 0.5,
-        "PS:FresnelPower": 0.5,
-        "PS:RipplePan": [
-            0.029999999,
-            0.2,
-            1,
-            1
-        ],
-        "PS:RippleScale": [
-            0.050000001,
-            0.050000001
-        ],
-        "TX:DiffuseMap": "/Lotus/Fx/Common/VoidWrapSoft_d.png",
-        "TX:SecondaryMap": "/Lotus/Fx/Common/VoidWrapSoft_d.png",
-        "TX:ThirdMap": "/Lotus/Fx/Common/SmoothBillow_d.png",
-        "TX:NormalMap": "/EE/Materials/Defaults/Textures/WaterWrap_n.png",
-        "PS:TintColor": [
-            1,
-            0.079000004,
-            0.027000001,
-            1
-        ],
-        "PS:Scalar2": 2,
-        "PS:Scalar3": 1,
-        "PS:LowColor": [
-            0,
-            0,
-            0,
-            1
-        ],
-        "PS:HighColor": [
-            0.97000003,
-            0.22,
-            0.12,
-            1
-        ],
-        "PS:SecondaryTintColor": [
+        "PS:FresnelPower": 0.25,
+        "PS:SecondaryLowColor": [
             0,
             0,
             0,
             0
+        ],
+        "PS:SecondaryHighColor": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "PS:BlueLerpParams": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "PS:CompressionSwitch": [
+            0,
+            1,
+            1,
+            0
+        ],
+        "TX:DiffuseMap": "/Lotus/Fx/Common/VoidWrapSoft_d.png",
+        "TX:SecondaryMap": "/Lotus/Fx/Common/SmoothBillowF_d.png",
+        "TX:ThirdMap": "/Lotus/Fx/Common/CausticsC_d.png",
+        "PS:TintColor": [
+            1,
+            0.083999999,
+            0.02,
+            1
+        ],
+        "PS:Scalar1": 1.5,
+        "PS:Scalar2": 1.5,
+        "PS:Scalar3": 5,
+        "PS:LowColor": [
+            1,
+            0.083999999,
+            0.02,
+            1
+        ],
+        "PS:HighColor": [
+            1,
+            0.37,
+            0.28,
+            1
+        ],
+        "PS:SecondaryTintColor": [
+            0.028000001,
+            0.18000001,
+            1,
+            1
         ],
         "PS:TintSmoothRange": [
             0.2,
             0.80000001
         ],
+        "PS:SmoothThresholdBlueAdd": 1,
         "VS:nScales": [
             1.5,
             1.5,

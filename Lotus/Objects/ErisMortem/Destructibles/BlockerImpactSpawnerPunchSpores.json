@@ -1,7 +1,6 @@
 {
     "parent": "/Lotus/Types/Game/LotusParticleSys",
     "data": {
-        "DepthSortBias": -100,
         "MaterialParams": [
             {
                 "name": "UnlitAtten",
@@ -10,6 +9,7 @@
                 "value": 20
             }
         ],
+        "CompositedEffect": 1,
         "IgnoreParentRotation": 1,
         "ApplyColorCustomization": 1,
         "HasLifeSpan": 0,

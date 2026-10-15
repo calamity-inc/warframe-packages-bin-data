@@ -2,8 +2,8 @@
     "parent": "/EE/Types/Effects/ParticleSys",
     "data": {
         "UseLightProbes": 1,
-        "DepthSortBias": -11,
-        "DetailLevel": "PQ_MEDIUM",
+        "DepthSortBias": 10,
+        "CompositedEffect": 1,
         "HasLifeSpan": 0,
         "AutoKill": 1,
         "Life": [
@@ -72,9 +72,9 @@
         "NozzleSize": 0.5,
         "Speed": [
             5,
-            20
+            25
         ],
-        "Drag": 3,
+        "Drag": 1.75,
         "Mass": [
             -0.15000001,
             -0.02

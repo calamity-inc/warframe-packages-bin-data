@@ -16,6 +16,7 @@
                 "value": 1
             }
         ],
+        "CompositedEffect": 1,
         "HasLifeSpan": 0,
         "AutoKill": 1,
         "InheritVelocity": [
@@ -24,12 +25,12 @@
         ],
         "SleepOffscreen": 0,
         "Life": [
-            0.75,
-            1.5
+            1.25,
+            2.5
         ],
         "Size": [
-            7,
-            12
+            10,
+            17
         ],
         "SizeByLife": {
             "Values": [
@@ -53,8 +54,8 @@
             0.80000001
         ],
         "InitialCount": [
-            32,
-            32
+            20,
+            20
         ],
         "MaxParticlesInSystem": 2045,
         "Material": "/Lotus/Fx/Explosions/Generic/ExplosionSmokeMat",
@@ -64,13 +65,13 @@
             187,
             198,
             209,
-            200
+            255
         ],
         "ColorMax": [
             128,
             128,
             128,
-            240
+            255
         ],
         "RandOrientation": 1,
         "Spin": [
@@ -86,6 +87,7 @@
             0,
             1.2
         ],
+        "Nozzle": "DISC",
         "NozzleDev": 1,
         "NozzleBox": [
             2,
@@ -99,10 +101,15 @@
         ],
         "Drag": 1.5,
         "Mass": [
-            0.1,
-            0.5
+            -1,
+            -0.5
         ],
         "PushFromFacingStrength": 0,
+        "PushVector": [
+            0,
+            10,
+            0
+        ],
         "PushMass": [
             1,
             1

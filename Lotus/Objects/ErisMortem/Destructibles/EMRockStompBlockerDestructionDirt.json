@@ -1,0 +1,72 @@
+{
+    "parent": "/EE/Types/Effects/ParticleSys",
+    "data": {
+        "HasLifeSpan": 0,
+        "AutoKill": 1,
+        "Life": [
+            1,
+            2
+        ],
+        "Size": [
+            2.5,
+            5.5
+        ],
+        "SizeByLife": {
+            "Values": [
+                {
+                    "Time": 0,
+                    "Value": 0.80000001
+                },
+                {
+                    "Time": 1,
+                    "Value": 1.5
+                }
+            ]
+        },
+        "InitialCount": [
+            250,
+            250
+        ],
+        "Material": "/Lotus/Fx/HitSpangs/DirtSpray",
+        "AnimateTiles": 1,
+        "ColorMin": [
+            125,
+            136,
+            143,
+            255
+        ],
+        "ColorMax": [
+            156,
+            168,
+            180,
+            255
+        ],
+        "RandOrientation": 1,
+        "FadeInOut": [
+            0,
+            0.5
+        ],
+        "Nozzle": "DISC",
+        "NozzleMeshScale": [
+            0,
+            0,
+            0
+        ],
+        "NozzleDev": 0.69999999,
+        "NozzleBox": [
+            0.30000001,
+            1.2,
+            0.30000001
+        ],
+        "NozzleSize": 0.2,
+        "Speed": [
+            5,
+            75
+        ],
+        "Drag": 1.5,
+        "Mass": [
+            -1,
+            -0.34999999
+        ]
+    }
+}

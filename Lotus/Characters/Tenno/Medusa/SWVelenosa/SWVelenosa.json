@@ -1,3 +1,63 @@
 {
-    "parent": "/EE/Materials/Defaults/PBR"
+    "parent": "/EE/Materials/Defaults/CharacterPBRDetail",
+    "data": {
+        "EMISSIVE_MAP": 1,
+        "SPECULARMAP_IS_METALMAP": 1,
+        "VERTEX_AO": 1,
+        "PS:TintColor0": [
+            0.58999997,
+            0.58999997,
+            0.58999997,
+            0.5
+        ],
+        "PS:TintColor1": [
+            0.023,
+            0.0011,
+            0.0099999998,
+            0.5
+        ],
+        "PS:TintColor2": [
+            0.0014,
+            0.16,
+            0.52999997,
+            0.5
+        ],
+        "PS:TintColor3": [
+            0.47999999,
+            0.34999999,
+            0.28999999,
+            0.5
+        ],
+        "PS:EmissiveTintColorLo": [
+            0.071999997,
+            0.14,
+            1,
+            0
+        ],
+        "PS:EmissiveTintColorHi": [
+            0.36000001,
+            0.20999999,
+            1,
+            1
+        ],
+        "PS:EmissiveMapAtten": 3,
+        "TX:NormalMap": "Body_n.png",
+        "TX:MacroPackMap": "BodyTintMaskPackMap",
+        "TX:EmissiveMap": "Body_e.png",
+        "PS:LayerNormalStrength": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "TX:RedNormalMap": "",
+        "TX:GreenNormalMap": "",
+        "TX:BlueNormalMap": "",
+        "PS:BaseTintColor": [
+            0.12,
+            0.12,
+            0.12,
+            0.5
+        ]
+    }
 }

@@ -1,21 +1,22 @@
 {
     "parent": "/EE/Types/Engine/Sequencer",
     "data": {
+        "Tag": "MonsterAmbientBellow",
         "Channels": [
             {
-                "LoopCount": 1,
+                "LoopCount": 0,
                 "TimeOfDay": "",
                 "Startup": [],
                 "Events": [
                     {
-                        "Sound": "IcebladeOfNarinKuvaCrystalIdleLoop",
+                        "Sound": "InfestedMicroPlanetMoonMonsterBellowVesselFight",
                         "Parameter": [
                             0,
                             0
                         ],
                         "Latency": [
-                            0,
-                            0
+                            5,
+                            10
                         ],
                         "Duration": 0,
                         "FadeTime": 0,
@@ -24,6 +25,7 @@
                 ],
                 "Shutdown": []
             }
-        ]
+        ],
+        "AllowZoneCulling": 0
     }
 }

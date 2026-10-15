@@ -4,65 +4,79 @@
         "Blend": "BLEND_ALPHA",
         "MAPPING": "CM_USING_TINT_COLOR",
         "VERTEX_EFFECT": "SCALE_VERTEX_BY_NORMAL",
+        "COLOR_SPECIAL": "BLUE_SECONDARY_LERP",
         "RED_VERT_MULTIPLY": 1,
         "SOFT_CLIP": 1,
         "FRESNEL_MASK": 1,
-        "RIPPLE": 1,
+        "FADEXEDGE": 1,
         "VS:Pan": [
             0.2,
-            0.60000002,
+            1.75,
             0
         ],
         "VS:PanSecond": [
             0.1,
-            0,
+            0.5,
             0
         ],
         "VS:uvScales": [
-            1.5,
+            2,
             1,
-            0.1,
-            0.0099999998
+            2,
+            1
         ],
         "PS:Hardness": 1,
         "PS:FresnelPower": 0.25,
-        "PS:RipplePan": [
-            0.029999999,
-            0.2,
+        "PS:SecondaryLowColor": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "PS:SecondaryHighColor": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "PS:BlueLerpParams": [
+            1,
+            0,
             1,
             1
         ],
-        "PS:RippleScale": [
-            0.02,
-            0.02
+        "PS:CompressionSwitch": [
+            1,
+            1,
+            0,
+            0
         ],
-        "TX:DiffuseMap": "/Lotus/Fx/Common/SmoothBillowB_d.png",
-        "TX:SecondaryMap": "/Lotus/Fx/Common/VoidWrapSoft_d.png",
-        "TX:NormalMap": "/EE/Materials/Defaults/Textures/WaterWrap_n.png",
+        "TX:DiffuseMap": "/Lotus/Fx/Common/SmoothBillowD_d.png",
+        "TX:SecondaryMap": "/Lotus/Fx/Common/CausticsC_d.png",
         "PS:TintColor": [
             1,
-            0.11,
-            0.046,
+            0.098999999,
+            0.013,
             1
         ],
         "PS:Scalar1": 5,
-        "PS:Scalar2": 5,
+        "PS:Scalar2": 10,
         "PS:LowColor": [
-            0,
-            0,
+            1,
+            0.023,
             0,
             1
         ],
         "PS:HighColor": [
             1,
-            0.20999999,
-            0.14,
+            0.25,
+            0.12,
             1
         ],
         "PS:SecondaryTintColor": [
+            0.075999998,
+            0.28,
             1,
-            0.028999999,
-            0.028999999,
             0
         ],
         "PS:TintSmoothRange": [
@@ -75,6 +89,7 @@
             0,
             0
         ],
+        "PS:SmoothThresholdBlueAdd": 1,
         "VS:nScales": [
             0.0099999998,
             0.0099999998,

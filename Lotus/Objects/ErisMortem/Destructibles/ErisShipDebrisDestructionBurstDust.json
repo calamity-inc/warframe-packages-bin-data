@@ -2,6 +2,7 @@
     "parent": "/Lotus/Types/Game/LotusParticleSys",
     "data": {
         "UseLightProbes": 1,
+        "DepthSortBias": 10,
         "MaterialParams": [
             {
                 "name": "AlphaAtten",
@@ -16,6 +17,7 @@
                 "value": 1
             }
         ],
+        "CompositedEffect": 1,
         "HasLifeSpan": 0,
         "AutoKill": 1,
         "InheritVelocity": [
@@ -28,8 +30,8 @@
             2
         ],
         "Size": [
-            3,
-            6
+            5,
+            8
         ],
         "SizeByLife": {
             "Values": [
@@ -53,8 +55,8 @@
             0.80000001
         ],
         "InitialCount": [
-            22,
-            22
+            15,
+            15
         ],
         "MaxParticlesInSystem": 2045,
         "Material": "/Lotus/Fx/Explosions/Generic/ExplosionSmokeMat",
