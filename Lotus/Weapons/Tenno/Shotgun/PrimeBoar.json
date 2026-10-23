@@ -54,10 +54,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/ShortAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 2,
@@ -228,6 +224,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.15000001,
                     "criticalHitDamageMultiplier": 2,
@@ -352,10 +349,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -1069,6 +1062,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.2,
                     "criticalHitDamageMultiplier": 2.2,
@@ -1190,7 +1184,6 @@
             }
         ],
         "RequiredLevel": 11,
-        "OmegaAttenuation": 1.34,
         "EvolvedIcon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/BoarPrimeIncarnon.png",
         "DefaultModTemplate": "/Lotus/Types/ModLists/Shotgun/HybridImpact",
         "VariantType": "VT_PRIME"

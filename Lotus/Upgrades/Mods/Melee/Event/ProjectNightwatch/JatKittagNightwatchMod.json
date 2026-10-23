@@ -10,12 +10,13 @@
         "TradeCapability": "RO_ALWAYS",
         "Upgrades": [
             {
-                "UpgradeType": "WEAPON_CORPSE_EXPLODE_DAMAGE",
+                "UpgradeType": "NONE",
                 "OperationType": "ADD",
-                "Value": 50,
-                "DamageType": "DT_EXPLOSION",
+                "Value": 0,
+                "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -25,87 +26,40 @@
                 "OverrideLocalization": 1,
                 "LocTag": "/Lotus/Language/Upgrades/JatKittagNightwatchModDesc",
                 "LocKeyWordScript": {
-                    "Script": "/Lotus/Scripts/Mods/ModDescriptionStats.lua",
-                    "Function": "GetDescriptionInfo",
-                    "_displayAsPercent": [
-                        0,
-                        1,
-                        0
-                    ],
-                    "_absoluteValue": [
-                        0
-                    ],
-                    "_maxDecimals": [
-                        -1
-                    ],
-                    "_addPlusses": [
-                        0
-                    ],
-                    "_multiplyDown": [
-                        0
-                    ]
+                    "Script": "/Lotus/Scripts/Mods/ExplodeOnKill.lua",
+                    "Function": "GetDescription",
+                    "_damageAmount": 50,
+                    "_damageType": "DT_CORROSIVE",
+                    "_damageRadius": 6,
+                    "_maxHealthDamagePct": 0.1,
+                    "_procChance": 0
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
-            },
-            {
-                "UpgradeType": "WEAPON_CORPSE_EXPLODE_DAMAGE_ENEMY_HEALTH_PCT",
-                "OperationType": "ADD",
-                "Value": 0.1,
-                "DamageType": "DT_ANY",
-                "AutoType": 1,
-                "ValidType": "",
-                "SymbolFilter": "",
-                "UpgradeObject": "",
-                "ValidPostures": [],
-                "ValidModifiers": [],
-                "InvalidModifiers": [],
-                "ValidProcTypes": [],
-                "OverrideLocalization": 1,
-                "LocTag": "",
-                "LocKeyWordScript": {
-                    "Script": ""
-                },
-                "DisplayAsMultiplier": 0,
-                "DisplayAsPercent": 1,
-                "ReverseValueSymbol": 0,
-                "SmallerIsBetter": 0,
-                "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
-            },
-            {
-                "UpgradeType": "WEAPON_CORPSE_EXPLODE_RADIUS",
-                "OperationType": "ADD",
-                "Value": 1,
-                "DamageType": "DT_ANY",
-                "AutoType": 1,
-                "ValidType": "",
-                "SymbolFilter": "",
-                "UpgradeObject": "",
-                "ValidPostures": [],
-                "ValidModifiers": [],
-                "InvalidModifiers": [],
-                "ValidProcTypes": [],
-                "OverrideLocalization": 1,
-                "LocTag": "",
-                "LocKeyWordScript": {
-                    "Script": ""
-                },
-                "DisplayAsMultiplier": 0,
-                "DisplayAsPercent": 0,
-                "ReverseValueSymbol": 0,
-                "SmallerIsBetter": 0,
-                "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
+        "ApplyUpgradesByDefault": 0,
         "ArtifactPolarity": "AP_ATTACK",
         "BaseDrain": "QA_MEDIUM",
         "ItemCompatibility": "/Lotus/Weapons/Grineer/Melee/GrineerJetPoweredPolearm/GrineerJetPolearm",
         "IncompatibilityTags": [
             "POWER_WEAPON"
         ],
-        "PlayEffect": 0
+        "Script": {
+            "Script": "/Lotus/Scripts/Mods/ExplodeOnKill.lua",
+            "Function": "OnKill",
+            "_damageAmount": 50,
+            "_damageType": "DT_EXPLOSION",
+            "_damageRadius": 6,
+            "_maxHealthDamagePct": 0.1,
+            "_procChance": 0
+        },
+        "UpgradeChance": 1,
+        "PlayEffect": 0,
+        "ConditionalUpgrades": [
+            "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OnKillCondition"
+        ]
     }
 }

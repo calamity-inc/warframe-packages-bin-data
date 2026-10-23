@@ -108,10 +108,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/MediumAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -366,6 +362,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 1,
                     "criticalHitChance": 0.2,
                     "criticalHitDamageMultiplier": 2.5,
@@ -657,7 +654,7 @@
                 "/Lotus/Types/Enemies/Sentients/Eidolon/SentientTeralystAvatar"
             ]
         },
-        "OmegaAttenuation": 1.15,
+        "OmegaAttenuation": 1.2,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Rifle/HybridPuncture"
     }
 }

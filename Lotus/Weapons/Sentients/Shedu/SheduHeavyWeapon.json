@@ -93,10 +93,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -321,6 +317,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.1,
                     "criticalHitDamageMultiplier": 2,
@@ -475,7 +472,7 @@
         "HeavyBatteryRegenDelay": 0.40000001,
         "HeavyBatteryRegenRate": 28,
         "HolsterDuringAbility": 0,
-        "OmegaAttenuation": 0.75,
+        "OmegaAttenuation": 1.2,
         "DisableReachIkDuringReload": 0,
         "InstantHolsteredEffect": "",
         "DefaultModTemplate": "/Lotus/Types/ModLists/Rifle/HybridBalanced"

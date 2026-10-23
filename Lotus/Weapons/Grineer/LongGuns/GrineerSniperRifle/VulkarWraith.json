@@ -51,10 +51,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            2,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/LongAimGraph",
                         "desiredAttackState": "AS_LONG_RANGE",
                         "attackWeight": 1,
@@ -225,6 +221,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.2,
                     "criticalHitDamageMultiplier": 2,
@@ -341,7 +338,6 @@
             "AP_ATTACK",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 1.4,
         "VariantType": "VT_VARIANT"
     }
 }

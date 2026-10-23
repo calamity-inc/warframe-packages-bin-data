@@ -900,7 +900,7 @@
                             "DisplayAsMultiplier": 0,
                             "DisplayAsPercent": 1,
                             "ReverseValueSymbol": 0,
-                            "SmallerIsBetter": 0,
+                            "SmallerIsBetter": 1,
                             "RoundTo": 0.1,
                             "RoundingMode": "RM_ROUND",
                             "AllowConditionalLocMerge": 0
@@ -1277,11 +1277,9 @@
                             "OverrideLocalization": 1,
                             "LocTag": "/Lotus/Language/Upgrades/RadiationAmmoEfficiencyPistolModDesc",
                             "LocKeyWordScript": {
-                                "Script": ""
+                                "Script": "/Lotus/Types/Interface/AmmoEfficiencyCappedDisplay.lua",
+                                "Function": "CapAmmoEfficiencyDisplayRivensDescriptionInfo"
                             },
-                            "DisplayAsMultiplier": 0,
-                            "DisplayAsPercent": 1,
-                            "ReverseValueSymbol": 1,
                             "SmallerIsBetter": 0,
                             "RoundTo": 0.1,
                             "RoundingMode": "RM_ROUND",
@@ -1902,117 +1900,117 @@
             {
                 "ItemType": "/Lotus/Powersuits/Choir/ChoirEruptWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Powersuits/Cowgirl/PrimeSlingerPistols",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Powersuits/Cowgirl/SlingerPistols",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Powersuits/Fairy/FlightPistols",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Powersuits/Fairy/PrimeFlightPistols",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Powersuits/IronFrame/BlastWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Powersuits/IronFrame/BlastWeaponPrime",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Powersuits/Pagemaster/ExaltedBook",
                 "Rarity": "NONE",
-                "Attenuation": 0.60000002
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/BurstLaserPistol",
                 "Rarity": "NONE",
-                "Attenuation": 1.45
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeBurstLaserPistol",
                 "Rarity": "NONE",
-                "Attenuation": 1.45
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/PrismaBurstLaserPistol",
                 "Rarity": "NONE",
-                "Attenuation": 1.45
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Types/Weapon/LotusHandCompass",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/ClanTech/Bio/AcidDartPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.33
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/ClanTech/Energy/CrpLaserPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.49
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBECycron/CrpBECycron",
                 "Rarity": "NONE",
-                "Attenuation": 0.69999999
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEDetron/CrpBEDetron",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEPlinx/CrpBEPlinxWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 0.75
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/CorpusHandShotgun/CorpusHandCannon",
                 "Rarity": "COMMON",
-                "Attenuation": 1.15
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/CorpusMinigun",
                 "Rarity": "COMMON",
-                "Attenuation": 1.52
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/DualCorpusMinigun",
                 "Rarity": "COMMON",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/CorpusModularPistol/Vandal/CrpLaserPistolVandal",
                 "Rarity": "NONE",
-                "Attenuation": 1.45
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/CrpAirPistol/CrpAirPistolArray",
                 "Rarity": "COMMON",
-                "Attenuation": 1.15
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/CrpBriefcaseAkimbo/CrpBriefcaseAkimboPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 0.80000001
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/CrpChargeGun/CrpChargeGun",
@@ -2022,27 +2020,27 @@
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/CrpElectroMag/CrpElectroMag",
                 "Rarity": "COMMON",
-                "Attenuation": 0.89999998
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/CorpusHandRocketLauncher",
                 "Rarity": "COMMON",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/PrismaAngstrum",
                 "Rarity": "NONE",
-                "Attenuation": 1.3
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/CrpIgniterPistol/CrpIgniterPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.05
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/CrpSentAmalgPistol/CrpSentAmalgPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/CrpSentExperimentPistol/CrpSentExperimentPistol",
@@ -2057,7 +2055,7 @@
             {
                 "ItemType": "/Lotus/Weapons/Corpus/Pistols/SniperPistol/CrpScopeGun",
                 "Rarity": "COMMON",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/GrineerPistol/GrineerAkimboPistol",
@@ -2067,42 +2065,42 @@
             {
                 "ItemType": "/Lotus/Weapons/Grineer/GrineerPistol/GrineerLightPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.45
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/GrineerPistol/GrnHeavyPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.53
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/GrineerPistol/GrnScopedPistolPlayer",
                 "Rarity": "COMMON",
-                "Attenuation": 1.5
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Brakk/KuvaBrakk",
                 "Rarity": "NONE",
-                "Attenuation": 0.94999999
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Kraken/KuvaKraken",
                 "Rarity": "NONE",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Nukor/KuvaNukor",
                 "Rarity": "NONE",
-                "Attenuation": 0.5
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Seer/KuvaSeer",
                 "Rarity": "NONE",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Stubba/KuvaStubba",
                 "Rarity": "COMMON",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/LongGuns/GrineerAssaultRifle/TwinGrakatas",
@@ -2112,17 +2110,17 @@
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/GrineerBulbousSMG/Prisma/PrismaTwinGremlinsWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 1.15
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/GrineerCrossbow/GrineerGooGun",
                 "Rarity": "COMMON",
-                "Attenuation": 1.48
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/GrineerHandShotgun/GrineerHandCannon",
                 "Rarity": "COMMON",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/GrineerLeverActionPistol/GLAPistol",
@@ -2132,7 +2130,7 @@
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/GrineerMicrowavegun/GrnMicrowavePistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.45
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/GrnAmphisPistol/GrnAmphisPistol",
@@ -2142,72 +2140,72 @@
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/GrnDWUniques/GrnTwinKohmaks",
                 "Rarity": "COMMON",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/GrnKohmPistol/GrnKohmPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/GrnOrokinPistol/GrnOrokinPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 0.89999998
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/GrnQueenGuardDualPistol/GrnQueenGuardDualPistols",
                 "Rarity": "COMMON",
-                "Attenuation": 1.3
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/GrnTorpedoPistol/GrnTorpedoPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.3
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/GrnUzi/GrnUziWeapon",
                 "Rarity": "COMMON",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/HeatGun/GrnHeatGun",
                 "Rarity": "COMMON",
-                "Attenuation": 0.94999999
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/WraithSingleViper/WraithSingleViper",
                 "Rarity": "NONE",
-                "Attenuation": 1.4
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/Pistols/WraithTwinVipers/WraithTwinVipers",
                 "Rarity": "NONE",
-                "Attenuation": 1.41
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/ThrowingWeapons/GrnVorStickyBomb/GrnVorStickyBomb",
                 "Rarity": "COMMON",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Infested/InfestedLich/Pistols/1999InfSporePistol/1999InfSporePistolWeapon",
                 "Rarity": "COMMON",
-                "Attenuation": 0.55000001
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaCatabolyst",
                 "Rarity": "NONE",
-                "Attenuation": 0.69999999
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaPox",
                 "Rarity": "NONE",
-                "Attenuation": 1.05
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaTysis",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistol",
@@ -2227,67 +2225,67 @@
             {
                 "ItemType": "/Lotus/Weapons/Infested/Pistols/InfVomitGun/InfVomitGunWep",
                 "Rarity": "COMMON",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Infested/Pistols/InfestedDartPistol/InfestedDartPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.45
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Infested/Pistols/InfestedPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.4
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolPlayerWeapon",
                 "Rarity": "COMMON",
-                "Attenuation": 1.05
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon",
                 "Rarity": "COMMON",
-                "Attenuation": 0.80000001
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/MK1Series/MK1Furis",
                 "Rarity": "NONE",
-                "Attenuation": 1.4
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/MK1Series/MK1Kunai",
                 "Rarity": "NONE",
-                "Attenuation": 1.51
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Operator/Pistols/DrifterPistol/DuviriDrifterPistolWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Syndicates/ArbitersOfHexis/Pistols/AHAkbolto",
                 "Rarity": "NONE",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSDroidArray",
                 "Rarity": "COMMON",
-                "Attenuation": 1.15
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSSynoidGammacor",
                 "Rarity": "NONE",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Syndicates/NewLoka/Pistols/NLCastanas",
                 "Rarity": "NONE",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Syndicates/PerrinSequence/Pistols/PSDualCestra",
                 "Rarity": "NONE",
-                "Attenuation": 1.3
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Syndicates/RedVeil/Pistols/RVBallistica",
@@ -2297,107 +2295,107 @@
             {
                 "ItemType": "/Lotus/Weapons/Syndicates/SteelMeridian/Pistols/SMMarelok",
                 "Rarity": "NONE",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Akimbo/AkLexPistols",
                 "Rarity": "COMMON",
-                "Attenuation": 1.05
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Akimbo/AkLexPrimePistols",
                 "Rarity": "NONE",
-                "Attenuation": 0.94999999
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Akimbo/AkimboAutoPistols",
                 "Rarity": "COMMON",
-                "Attenuation": 1.45
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Akimbo/AkimboBolto",
                 "Rarity": "COMMON",
-                "Attenuation": 1.3
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Akimbo/AkimboPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.52
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Akimbo/AkimboShotGun",
                 "Rarity": "COMMON",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Akimbo/AkimboViperPistols",
                 "Rarity": "COMMON",
-                "Attenuation": 1.45
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Akimbo/DualMagnus",
                 "Rarity": "COMMON",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime",
                 "Rarity": "NONE",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Akimbo/DualVastos",
                 "Rarity": "COMMON",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Akimbo/PrimeAkimboShotGun",
                 "Rarity": "NONE",
-                "Attenuation": 1.3
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Gear/MiningLaserBWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 1.55
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Gear/MiningLaserCWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 1.55
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Gear/MiningLaserSolarisWeaponA",
                 "Rarity": "NONE",
-                "Attenuation": 1.55
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Gear/MiningLaserWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 1.55
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Grimoire/TnDoppelgangerGrimoire",
                 "Rarity": "NONE",
-                "Attenuation": 0.60000002
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Grimoire/TnGrimoire",
                 "Rarity": "COMMON",
-                "Attenuation": 0.60000002
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/AutoPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/AutoPistolVariant",
                 "Rarity": "NONE",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/BroncoPrime",
                 "Rarity": "NONE",
-                "Attenuation": 1.4
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/BurstPistol",
@@ -2407,112 +2405,112 @@
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/CoHLoanerPistol",
                 "Rarity": "NONE",
-                "Attenuation": 1.4
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/CrossBow",
                 "Rarity": "COMMON",
-                "Attenuation": 1.51
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/HandShotGun",
                 "Rarity": "COMMON",
-                "Attenuation": 1.45
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/HandShotGunVariant",
                 "Rarity": "NONE",
-                "Attenuation": 1.5
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/HeavyPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/HeavyPistolVariant",
                 "Rarity": "NONE",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/LatoPrime",
                 "Rarity": "NONE",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/LatoVandal",
                 "Rarity": "NONE",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/Pistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.4
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/PistolVariant",
                 "Rarity": "NONE",
-                "Attenuation": 1.4
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistol/RevolverPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.4
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/1999EntHybridPistolWeapon/1999EntHybridPistolWeapon",
                 "Rarity": "COMMON",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/AllNew1hSG/AllNew1hSG",
                 "Rarity": "COMMON",
-                "Attenuation": 0.94999999
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/AutomaticHandCrossbow/AutoCrossBow",
                 "Rarity": "COMMON",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/ConclaveLeverPistol/ConclaveLeverPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/DexFuris/DexFuris",
                 "Rarity": "NONE",
-                "Attenuation": 1.39
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/DuelistPistols/DuelistPistols",
                 "Rarity": "COMMON",
-                "Attenuation": 0.5
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/HarlequinGun/HarlequinPistols",
                 "Rarity": "COMMON",
-                "Attenuation": 1.52
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/Magnum/Magnum",
                 "Rarity": "COMMON",
-                "Attenuation": 1.53
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeAkarius/PrimeAkariusWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 0.64999998
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeAkbolto/PrimeAkBoltoWeapon",
@@ -2522,22 +2520,22 @@
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeAkjagara/AkJagaraPrime",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeAksomati/PrimeAksomati",
                 "Rarity": "NONE",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeAkstiletto/PrimeAkstiletto",
                 "Rarity": "NONE",
-                "Attenuation": 0.85000002
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeAthodai/PrimeAthodaiPistolWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 0.64999998
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeBallistica/PrimeBallistica",
@@ -2547,22 +2545,22 @@
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 0.55000001
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeHystrix/PrimeHystrixWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 1.05
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeKnell/PrimeKnellWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 0.85000002
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeKompressa/PrimeKompressa",
                 "Rarity": "NONE",
-                "Attenuation": 0.60000002
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeLex/PrimeLex",
@@ -2572,22 +2570,22 @@
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimePandero/PanderoPrimeWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimePyrana/PrimePyranaPistol",
                 "Rarity": "NONE",
-                "Attenuation": 0.64999998
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeSicarus/PrimeSicarusPistol",
                 "Rarity": "NONE",
-                "Attenuation": 1.15
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/AkPrimeVasto/AkPrimeVastoPistol",
@@ -2597,22 +2595,22 @@
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/PrimeVastoPistol",
                 "Rarity": "NONE",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeVelox/PrimeVeloxPistol",
                 "Rarity": "NONE",
-                "Attenuation": 0.85000002
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeZakti/PrimeZaktiPistol",
                 "Rarity": "NONE",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeZylok/ZylokPrimePistol",
                 "Rarity": "NONE",
-                "Attenuation": 0.94999999
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/QuillDartgun/QuillDartGunWeapon",
@@ -2622,32 +2620,32 @@
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/SapientPistol/SapientPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.05
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/SawnOffShotgun/TennoHandShotgun",
                 "Rarity": "COMMON",
-                "Attenuation": 0.94999999
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/SomaSidearm/AkimboSomaPistols",
                 "Rarity": "COMMON",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/SundialGun/SundialPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/TennoUzi/TennoUzi",
                 "Rarity": "COMMON",
-                "Attenuation": 0.94999999
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/TigrisRedeemerSetPistol/TnoBladedPistols",
                 "Rarity": "COMMON",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/TnBardPistol/TnBardPistolGun",
@@ -2657,134 +2655,134 @@
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/TnGuandoPistol/TnGuandoPistolGun",
                 "Rarity": "COMMON",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnJetTurbinePistolWeapon",
                 "Rarity": "COMMON",
-                "Attenuation": 1.05
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskSmgPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/TnPriestPistolScope/TnPriestPistolWeapon",
                 "Rarity": "COMMON",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/TnWraitheSidearm/TnWraitheSidearmWeapon",
                 "Rarity": "COMMON",
-                "Attenuation": 0.60000002
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Pistols/TnYareliPistol/TnYareliPistolWeapon",
                 "Rarity": "COMMON",
-                "Attenuation": 1.15
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/ThrowingWeapons/GlassKunai/GlassKunaiWeapon",
                 "Rarity": "COMMON",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/ThrowingWeapons/LiDagger/LiDagger",
                 "Rarity": "COMMON",
-                "Attenuation": 1.35
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeLiDagger/PrimeLiDagger",
                 "Rarity": "NONE",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeThrowingStar/PrimeHikou",
                 "Rarity": "NONE",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/ThrowingWeapons/StickyBomb/StickyBombs",
                 "Rarity": "COMMON",
-                "Attenuation": 1.4
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/ThrowingWeapons/TnChoirframeKunai/TnChoirframeKunai",
                 "Rarity": "COMMON",
-                "Attenuation": 1.05
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/ThrowingWeapons/TnOraxiaFlechette/TnOraxiaFlechette",
                 "Rarity": "COMMON",
-                "Attenuation": 0.75
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/ThrowingWeapons/U18ThrowingKnives/U18throwingknives",
                 "Rarity": "COMMON",
-                "Attenuation": 1.4400001
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/ThrowingWeapons/Kunai",
                 "Rarity": "COMMON",
-                "Attenuation": 1.51
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/ThrowingWeapons/StalkerKunai",
                 "Rarity": "COMMON",
-                "Attenuation": 1.3
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/ThrowingWeapons/TennoStars",
                 "Rarity": "COMMON",
-                "Attenuation": 1.3
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/ThrowingWeapons/VariantSnowBalls",
                 "Rarity": "NONE",
-                "Attenuation": 0.76999998
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/ThrowingWeapons/VariantTennoStars",
                 "Rarity": "NONE",
-                "Attenuation": 0.76999998
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Zariman/Pistols/HeavyPistol/ZarimanHeavyPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 0.5
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Thanotech/EntratiWristGun/EntratiWristGunWeapon",
                 "Rarity": "COMMON",
-                "Attenuation": 0.85000002
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Thanotech/ThanoPistol/ThanotechPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/VoidTrader/VTDetron",
                 "Rarity": "NONE",
-                "Attenuation": 1.15
+                "Attenuation": 1.2
             }
         ],
         "SentinelItemCompatibilities": [
             {
                 "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/BurstLaserPistol",
                 "Rarity": "COMMON",
-                "Attenuation": 1.45
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeBurstLaserPistol",
                 "Rarity": "NONE",
-                "Attenuation": 1.45
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Types/Sentinels/SentinelWeapons/PrismaBurstLaserPistol",
                 "Rarity": "NONE",
-                "Attenuation": 1.45
+                "Attenuation": 1.2
             }
         ]
     }

@@ -45,10 +45,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -230,6 +226,7 @@
                         "EXTRA1",
                         "EXTRA2"
                     ],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.1,
                     "criticalHitDamageMultiplier": 3,
@@ -338,6 +335,7 @@
                     "RecordFireEvent": 1
                 }
             }
-        ]
+        ],
+        "OmegaAttenuation": 1.2
     }
 }

@@ -70,10 +70,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -546,7 +542,7 @@
             "Function": "OnMeleeDamage",
             "_reach": 5
         },
-        "OmegaAttenuation": 0.89999998,
+        "OmegaAttenuation": 1.2,
         "ArcaneApertureType": "/Lotus/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker",
         "DefaultModTemplate": "/Lotus/Types/ModLists/Melee/HybridPuncture",
         "DefaultModOverrides": {

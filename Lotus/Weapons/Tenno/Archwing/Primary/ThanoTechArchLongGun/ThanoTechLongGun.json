@@ -118,10 +118,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -581,10 +577,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -1156,10 +1148,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -1617,10 +1605,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -2186,6 +2170,7 @@
             "Script": "/Lotus/Interface/TouchInterface/AltFireButtonStyle.lua",
             "Function": "AltFireStyleStandardWeaponUsesCharges"
         },
+        "OmegaAttenuation": 1.2,
         "FireModes": [
             {
                 "localizedTag": "/Lotus/Language/Menu/Loadout_TriggerAuto",

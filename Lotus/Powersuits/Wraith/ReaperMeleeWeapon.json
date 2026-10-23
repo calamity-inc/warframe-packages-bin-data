@@ -52,10 +52,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -270,6 +266,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.38,
                     "criticalHitDamageMultiplier": 2.5999999,
@@ -550,6 +547,7 @@
             49,
             255
         ],
+        "OmegaAttenuation": 1.2,
         "ArcaneApertureType": "/Lotus/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker",
         "DefaultModTemplate": "/Lotus/Types/ModLists/Melee/HybridBalanced",
         "AdditionalAutoTargetTypes": [

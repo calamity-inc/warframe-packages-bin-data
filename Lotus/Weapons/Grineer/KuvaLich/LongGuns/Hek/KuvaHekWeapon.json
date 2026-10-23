@@ -79,10 +79,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/ShortAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 2,
@@ -253,6 +249,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.23,
                     "criticalHitDamageMultiplier": 2.0999999,
@@ -374,10 +371,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -546,6 +539,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.23,
                     "criticalHitDamageMultiplier": 2.0999999,
@@ -648,7 +642,6 @@
         ],
         "LevelCap": 40,
         "RequiredLevel": 15,
-        "OmegaAttenuation": 1,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Shotgun/HybridPuncture",
         "VariantType": "VT_KUVA"
     }

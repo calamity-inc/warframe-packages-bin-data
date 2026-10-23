@@ -10,12 +10,13 @@
         "AvailableOnPvp": 1,
         "Upgrades": [
             {
-                "UpgradeType": "WEAPON_CORPSE_EXPLODE_DAMAGE",
+                "UpgradeType": "NONE",
                 "OperationType": "ADD",
                 "Value": 50,
-                "DamageType": "DT_EXPLOSION",
-                "AutoType": 0,
+                "DamageType": "DT_ANY",
+                "AutoType": 1,
                 "ValidType": "/Lotus/Types/Game/LotusMeleeWeapon",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -45,36 +46,27 @@
                 },
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
-            },
-            {
-                "UpgradeType": "WEAPON_CORPSE_EXPLODE_RADIUS",
-                "OperationType": "ADD",
-                "Value": 1,
-                "DamageType": "DT_ANY",
-                "AutoType": 0,
-                "ValidType": "/Lotus/Types/Game/LotusMeleeWeapon",
-                "SymbolFilter": "",
-                "UpgradeObject": "",
-                "ValidPostures": [],
-                "ValidModifiers": [],
-                "InvalidModifiers": [],
-                "ValidProcTypes": [],
-                "OverrideLocalization": 1,
-                "LocTag": "",
-                "LocKeyWordScript": {
-                    "Script": ""
-                },
-                "DisplayAsMultiplier": 0,
-                "DisplayAsPercent": 0,
-                "ReverseValueSymbol": 0,
-                "SmallerIsBetter": 0,
-                "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
+        "ApplyUpgradesByDefault": 0,
         "ArtifactPolarity": "AP_ATTACK",
         "BaseDrain": "QA_MEDIUM",
-        "ItemCompatibility": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon"
+        "ItemCompatibility": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
+        "Script": {
+            "Script": "/Lotus/Scripts/Mods/ExplodeOnKill.lua",
+            "Function": "OnKill",
+            "_damageAmount": 50,
+            "_damageType": "DT_EXPLOSION",
+            "_damageRadius": 6,
+            "_maxHealthDamagePct": 0,
+            "_procChance": 0,
+            "_onlyCountDownedKills": 0
+        },
+        "UpgradeChance": 1,
+        "ConditionalUpgrades": [
+            "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OnKillCondition"
+        ]
     }
 }

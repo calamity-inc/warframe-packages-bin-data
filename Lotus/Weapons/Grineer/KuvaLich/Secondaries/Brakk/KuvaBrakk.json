@@ -77,10 +77,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/ShortAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -249,6 +245,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.28999999,
                     "criticalHitDamageMultiplier": 2,
@@ -336,7 +333,6 @@
         "PVPAmmoClipSize": 11,
         "LevelCap": 40,
         "RequiredLevel": 13,
-        "OmegaAttenuation": 0.94999999,
         "OFF_HAND": {
             "Type": "KuvaBrakkDSAttachment"
         },

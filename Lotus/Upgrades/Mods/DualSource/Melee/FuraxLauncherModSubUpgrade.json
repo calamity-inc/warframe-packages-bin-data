@@ -1,0 +1,32 @@
+{
+    "parent": "/Lotus/Upgrades/Mods/Melee/Event/ComboDurationMod",
+    "data": {
+        "Rarity": "RARE",
+        "MarketMode": "MM_NONE",
+        "LocalizeTag": "[HC] FuraxLauncherModSubUpgrade",
+        "Icon": "/Lotus/Interface/Cards/Images/DualSource/AmalgamFurax.png",
+        "ExcludeFromCodex": 1,
+        "TradeCapability": "RO_NEVER",
+        "Upgrades": [],
+        "ApplyUpgradesByDefault": 0,
+        "ItemCompatibility": "/Lotus/Weapons/Tenno/Melee/Fist/Fist",
+        "IncompatibilityTags": [
+            "SENTINEL_WEAPON",
+            "POWER_WEAPON"
+        ],
+        "Script": {
+            "Script": "/Lotus/Scripts/Mods/ExplodeOnKill.lua",
+            "Function": "OnKill",
+            "_damageAmount": 0,
+            "_damageType": "DT_EXPLOSION",
+            "_damageRadius": 15,
+            "_maxHealthDamagePct": 0,
+            "_procChance": 1,
+            "_onlyCountDownedKills": 0
+        },
+        "UpgradeChance": 1,
+        "ConditionalUpgrades": [
+            "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OnKillCondition"
+        ]
+    }
+}

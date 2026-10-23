@@ -114,10 +114,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -809,6 +805,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.16,
                     "criticalHitDamageMultiplier": 2.4000001,
@@ -933,10 +930,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -1628,6 +1621,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.16,
                     "criticalHitDamageMultiplier": 2.4000001,
@@ -1756,7 +1750,7 @@
             "AP_TACTIC",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 1.46,
+        "OmegaAttenuation": 1.2,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Shotgun/StatusSlash"
     }
 }

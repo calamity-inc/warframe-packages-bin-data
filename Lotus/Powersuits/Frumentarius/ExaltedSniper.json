@@ -43,10 +43,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            2,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/LongAimGraph",
                         "desiredAttackState": "AS_LONG_RANGE",
                         "attackWeight": 1,
@@ -215,6 +211,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.44999999,
                     "criticalHitDamageMultiplier": 3,
@@ -354,10 +351,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -581,6 +574,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 2,
@@ -705,6 +699,7 @@
         "AltFireUIButtonStyleScript": {
             "Script": "/Lotus/Interface/TouchInterface/AltFireButtonStyle.lua",
             "Function": "AltFireStyleCyte09"
-        }
+        },
+        "OmegaAttenuation": 1.2
     }
 }

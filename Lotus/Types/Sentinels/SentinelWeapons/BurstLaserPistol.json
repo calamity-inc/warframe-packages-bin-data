@@ -84,10 +84,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            1,
-                            3
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/SentinelAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -290,6 +286,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.15000001,
                     "criticalHitDamageMultiplier": 2,
@@ -390,7 +387,6 @@
             "AP_UNIVERSAL",
             "AP_UNIVERSAL",
             "AP_UNIVERSAL"
-        ],
-        "OmegaAttenuation": 1.45
+        ]
     }
 }

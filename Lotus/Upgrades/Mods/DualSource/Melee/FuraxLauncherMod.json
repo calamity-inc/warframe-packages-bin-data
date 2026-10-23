@@ -13,6 +13,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -61,6 +62,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 0,
                 "ValidType": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -81,12 +83,13 @@
                 "AllowConditionalLocMerge": 0
             },
             {
-                "UpgradeType": "WEAPON_CORPSE_EXPLODE_PROC_CHANCE",
-                "OperationType": "SET",
-                "Value": 1,
-                "DamageType": "DT_EXPLOSION",
-                "AutoType": 0,
-                "ValidType": "/Lotus/Weapons/Tenno/Melee/Fist/Fist",
+                "UpgradeType": "NONE",
+                "OperationType": "ADD",
+                "Value": 0,
+                "DamageType": "DT_ANY",
+                "AutoType": 1,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -94,51 +97,30 @@
                 "InvalidModifiers": [],
                 "ValidProcTypes": [],
                 "OverrideLocalization": 1,
-                "LocTag": "",
+                "LocTag": "/Lotus/Language/Upgrades/FuraxLauncherPartBExplosionDesc",
                 "LocKeyWordScript": {
-                    "Script": ""
+                    "Script": "/Lotus/Scripts/Mods/ExplodeOnKill.lua",
+                    "Function": "GetDescriptionObexRangeHack",
+                    "_damageAmount": 75,
+                    "_damageType": "DT_CORROSIVE",
+                    "_damageRadius": 15,
+                    "_maxHealthDamagePct": 0.075000003,
+                    "_procChance": 0,
+                    "_onlyCountDownedKills": 0
                 },
-                "DisplayAsMultiplier": 0,
-                "DisplayAsPercent": 0,
-                "ReverseValueSymbol": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
                 "RoundingMode": "RM_ROUND",
                 "AllowConditionalLocMerge": 0
             },
             {
-                "UpgradeType": "WEAPON_CORPSE_EXPLODE_RADIUS",
+                "UpgradeType": "NONE",
                 "OperationType": "ADD",
                 "Value": 2.5,
                 "DamageType": "DT_ANY",
-                "AutoType": 0,
-                "ValidType": "/Lotus/Weapons/Tenno/Melee/Fist/Fist",
-                "SymbolFilter": "",
-                "UpgradeObject": "",
-                "ValidPostures": [],
-                "ValidModifiers": [],
-                "InvalidModifiers": [],
-                "ValidProcTypes": [],
-                "OverrideLocalization": 1,
-                "LocTag": "",
-                "LocKeyWordScript": {
-                    "Script": ""
-                },
-                "DisplayAsMultiplier": 0,
-                "DisplayAsPercent": 0,
-                "ReverseValueSymbol": 0,
-                "SmallerIsBetter": 0,
-                "RoundTo": 1,
-                "RoundingMode": "RM_ROUND",
-                "AllowConditionalLocMerge": 0
-            },
-            {
-                "UpgradeType": "WEAPON_CORPSE_EXPLODE_PROC_CHANCE",
-                "OperationType": "SET",
-                "Value": 1,
-                "DamageType": "DT_IMPACT",
-                "AutoType": 0,
-                "ValidType": "/Lotus/Weapons/Tenno/Melee/Fist/Fist",
+                "AutoType": 1,
+                "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -165,6 +147,10 @@
             "SENTINEL_WEAPON",
             "POWER_WEAPON"
         ],
-        "IsAmalgam": 1
+        "SubUpgrades": [
+            "FuraxLauncherModSubUpgrade"
+        ],
+        "IsAmalgam": 1,
+        "UpgradeChance": 1
     }
 }

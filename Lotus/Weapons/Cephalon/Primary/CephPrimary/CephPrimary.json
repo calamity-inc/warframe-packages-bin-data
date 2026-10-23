@@ -129,10 +129,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -374,6 +370,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 0,
@@ -503,7 +500,7 @@
             "AP_UNIVERSAL"
         ],
         "WeaknessBonus": 0,
-        "OmegaAttenuation": 1.25,
+        "OmegaAttenuation": 1.2,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Rifle/StatusMagnetic"
     }
 }

@@ -58,10 +58,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/MediumAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -316,6 +312,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 1,
                     "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 2.5999999,
@@ -558,7 +555,6 @@
         ],
         "AmmoClipSize": 8,
         "PVPAmmoClipSize": 8,
-        "OmegaAttenuation": 1.1,
         "VariantType": "VT_VARIANT"
     }
 }

@@ -51,10 +51,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -69,7 +65,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -97,6 +92,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/TnShieldFrameArchGunAccuracyInfo",
@@ -121,6 +117,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 1,
                     "traceDistance": 180,
                     "PvpTraceDistance": 180,
@@ -693,6 +691,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -730,6 +729,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.14,
                     "criticalHitDamageMultiplier": 1.6,
@@ -778,6 +778,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -861,10 +862,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -879,7 +876,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -907,6 +903,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/DefaultAccuracyInfo",
@@ -932,6 +929,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "PrimeLarkspurProjectile",
@@ -1048,6 +1047,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -1085,6 +1085,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 2,
@@ -1116,6 +1117,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -1234,10 +1236,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -1252,7 +1250,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -1280,6 +1277,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/Weapon/TnShieldFrameArchGunAccuracyInfo",
@@ -1304,6 +1302,8 @@
                         ],
                         "CameraRecoilCurve": "ET_LINEAR"
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 1,
                     "traceDistance": 50,
                     "PvpTraceDistance": 50,
@@ -1876,6 +1876,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -1913,6 +1914,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.14,
                     "criticalHitDamageMultiplier": 1.6,
@@ -1961,6 +1963,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -2044,10 +2047,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -2062,7 +2061,6 @@
                     "IsSilenced": 0,
                     "ReportAttack": 1,
                     "UseExplicitNpcPerceptionSoundProperties": 0,
-                    "SlaveUsesMasterTargets": 0,
                     "ExplicitNpcPerceptionSoundAttenuationRadius": [
                         10,
                         100
@@ -2090,6 +2088,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "HIP_FIRE_ACCURACY": "/Lotus/Types/Game/WeaponProperties/Accuracy/DefaultAccuracyInfo",
@@ -2115,6 +2114,8 @@
                         "CameraRecoilCurve": "ET_LINEAR",
                         "NpcEyeBasedAimSource": 0
                     },
+                    "AimController:Type": "/EE/Types/Game/AimController",
+                    "AimController:AimController": [],
                     "AutoTargetChance": 0,
                     "AimIgnoresProjectile": 0,
                     "projectileType": "PrimeLarkspurHeavyProjectile",
@@ -2231,6 +2232,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_DAMAGE_AMOUNT"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -2268,6 +2270,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 2,
@@ -2299,6 +2302,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,
@@ -2383,7 +2387,6 @@
             "AP_UNIVERSAL",
             "AP_UNIVERSAL",
             "AP_UNIVERSAL"
-        ],
-        "OmegaAttenuation": 0.80000001
+        ]
     }
 }

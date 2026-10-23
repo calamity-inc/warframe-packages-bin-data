@@ -56,10 +56,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -274,6 +270,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.34999999,
                     "criticalHitDamageMultiplier": 2.5,
@@ -513,10 +510,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -750,6 +743,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 2,
@@ -968,7 +962,6 @@
             0,
             0
         ],
-        "OmegaAttenuation": 0.89999998,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Melee/HybridSlash",
         "DefaultModOverrides": {
             "Stance": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/WarfanCmbTwoMeleeTree"

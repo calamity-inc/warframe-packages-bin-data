@@ -136,10 +136,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -844,6 +840,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.15000001,
                     "criticalHitDamageMultiplier": 1.7,
@@ -976,10 +973,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -1203,6 +1196,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 2,
@@ -1364,7 +1358,7 @@
             "SECONDARY_FIRE"
         ],
         "WeaknessBonus": 0,
-        "OmegaAttenuation": 0.94999999,
+        "OmegaAttenuation": 1.2,
         "FireModes": [
             {
                 "localizedTag": "",

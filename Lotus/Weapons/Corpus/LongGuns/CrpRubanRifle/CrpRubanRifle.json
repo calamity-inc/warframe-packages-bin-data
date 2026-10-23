@@ -137,10 +137,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -365,6 +361,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 0,
@@ -489,10 +486,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -717,6 +710,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 0,
@@ -861,7 +855,7 @@
             "AP_UNIVERSAL"
         ],
         "WeaknessBonus": 0,
-        "OmegaAttenuation": 1.05,
+        "OmegaAttenuation": 1.2,
         "FireModes": [
             {
                 "localizedTag": "/Lotus/Language/Menu/Loadout_TriggerAuto",

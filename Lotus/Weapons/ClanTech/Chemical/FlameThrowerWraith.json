@@ -50,10 +50,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -717,6 +713,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.17,
                     "criticalHitDamageMultiplier": 2.5,
@@ -819,7 +816,6 @@
             "AP_ATTACK",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 0.64999998,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Rifle/HybridHeat",
         "VariantType": "VT_VARIANT"
     }

@@ -55,10 +55,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -273,6 +269,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.25,
                     "criticalHitDamageMultiplier": 3,
@@ -463,7 +460,6 @@
             130,
             255
         ],
-        "OmegaAttenuation": 1.1,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Melee/HybridSlash",
         "DefaultModOverrides": {
             "Stance": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualSwordCmbTwoMeleeTree"

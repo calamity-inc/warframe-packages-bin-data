@@ -78,10 +78,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -296,6 +292,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.2,
                     "criticalHitDamageMultiplier": 3,
@@ -561,7 +558,7 @@
             56,
             255
         ],
-        "OmegaAttenuation": 1.4,
+        "OmegaAttenuation": 1.2,
         "DefaultModOverrides": {
             "Stance": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualSwordCmbThreeMeleeTree"
         },

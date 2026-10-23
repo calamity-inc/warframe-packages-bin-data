@@ -51,10 +51,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/ShortAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -223,6 +219,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.28,
                     "criticalHitDamageMultiplier": 2.8,
@@ -311,7 +308,6 @@
         ],
         "AmmoCapacity": 160,
         "RequiredLevel": 14,
-        "OmegaAttenuation": 1.25,
         "OFF_HAND": {
             "Type": "PrimeMagnusDSAttachment"
         },

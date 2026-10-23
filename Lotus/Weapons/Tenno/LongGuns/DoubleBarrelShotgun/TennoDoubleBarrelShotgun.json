@@ -115,10 +115,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/ShortAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 2,
@@ -289,6 +285,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.1,
                     "criticalHitDamageMultiplier": 2,
@@ -385,7 +382,7 @@
             }
         ],
         "RequiredLevel": 7,
-        "OmegaAttenuation": 1.1,
+        "OmegaAttenuation": 1.2,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Shotgun/StatusSlash",
         "DefaultModOverrides": {
             "Mod4": "/Lotus/Upgrades/Mods/Shotgun/WeaponReloadSpeedMod"

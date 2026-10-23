@@ -60,10 +60,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -280,6 +276,7 @@
                     "AltEffectHands": [
                         "MAIN_HAND"
                     ],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.1,
                     "criticalHitDamageMultiplier": 2,
@@ -540,7 +537,7 @@
                 ]
             }
         },
-        "OmegaAttenuation": 1,
+        "OmegaAttenuation": 1.2,
         "DefaultModOverrides": {
             "Stance": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/KatanaCmbTwoMeleeTree"
         },

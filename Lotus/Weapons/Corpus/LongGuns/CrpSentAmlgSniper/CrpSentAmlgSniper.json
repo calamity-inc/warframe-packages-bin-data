@@ -213,10 +213,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -456,6 +452,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 0,
@@ -593,7 +590,7 @@
             "Script": "/Lotus/Interface/TouchInterface/AltFireButtonStyle.lua",
             "Function": "AltFireStyleToggleWhenScoped"
         },
-        "OmegaAttenuation": 1.15,
+        "OmegaAttenuation": 1.2,
         "ScanOnKillScript": {
             "Script": ""
         },

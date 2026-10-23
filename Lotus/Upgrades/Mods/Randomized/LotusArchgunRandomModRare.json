@@ -924,7 +924,7 @@
                             "DisplayAsMultiplier": 0,
                             "DisplayAsPercent": 1,
                             "ReverseValueSymbol": 0,
-                            "SmallerIsBetter": 0,
+                            "SmallerIsBetter": 1,
                             "RoundTo": 0.1,
                             "RoundingMode": "RM_ROUND",
                             "AllowConditionalLocMerge": 0
@@ -1287,11 +1287,9 @@
                             "OverrideLocalization": 1,
                             "LocTag": "/Lotus/Language/Upgrades/RadiationAmmoEfficiencyPistolModDesc",
                             "LocKeyWordScript": {
-                                "Script": ""
+                                "Script": "/Lotus/Types/Interface/AmmoEfficiencyCappedDisplay.lua",
+                                "Function": "CapAmmoEfficiencyDisplayRivensDescriptionInfo"
                             },
-                            "DisplayAsMultiplier": 0,
-                            "DisplayAsPercent": 1,
-                            "ReverseValueSymbol": 1,
                             "SmallerIsBetter": 0,
                             "RoundTo": 0.1,
                             "RoundingMode": "RM_ROUND",
@@ -1856,47 +1854,47 @@
             {
                 "ItemType": "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/ExaltedArtilleryWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 0.5
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/HeavyWeapons/GrnHeavyGrenadeLauncher",
                 "Rarity": "COMMON",
-                "Attenuation": 0.94999999
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler",
                 "Rarity": "NONE",
-                "Attenuation": 0.69999999
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchBurstGun/ArchBurstGun",
                 "Rarity": "COMMON",
-                "Attenuation": 1.3
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchLongRifle/ArchLongRifle",
                 "Rarity": "COMMON",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols",
                 "Rarity": "NONE",
-                "Attenuation": 1.25
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/ArchHeavyPistols",
                 "Rarity": "COMMON",
-                "Attenuation": 1.3
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun",
                 "Rarity": "COMMON",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandal",
                 "Rarity": "NONE",
-                "Attenuation": 0.94999999
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon",
@@ -1906,57 +1904,57 @@
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGun",
                 "Rarity": "COMMON",
-                "Attenuation": 0.69999999
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeCorvas/PrimeCorvasWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon",
                 "Rarity": "NONE",
-                "Attenuation": 0.80000001
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/Railgun/ArchRailgun",
                 "Rarity": "COMMON",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun",
                 "Rarity": "COMMON",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/RocketArtillery/ArchRocketCrossbow",
                 "Rarity": "COMMON",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun",
                 "Rarity": "COMMON",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun",
                 "Rarity": "COMMON",
-                "Attenuation": 0.5
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher",
                 "Rarity": "COMMON",
-                "Attenuation": 1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/TnConcreteArchgun/TnConcreteArchgunWeapon",
                 "Rarity": "COMMON",
-                "Attenuation": 1.1
+                "Attenuation": 1.2
             },
             {
                 "ItemType": "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun",
                 "Rarity": "COMMON",
-                "Attenuation": 1.05
+                "Attenuation": 1.2
             }
         ]
     }

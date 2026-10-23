@@ -1253,11 +1253,9 @@
                             "OverrideLocalization": 1,
                             "LocTag": "/Lotus/Language/Upgrades/RadiationAmmoEfficiencyPistolModDesc",
                             "LocKeyWordScript": {
-                                "Script": ""
+                                "Script": "/Lotus/Types/Interface/AmmoEfficiencyCappedDisplay.lua",
+                                "Function": "CapAmmoEfficiencyDisplayRivensDescriptionInfo"
                             },
-                            "DisplayAsMultiplier": 0,
-                            "DisplayAsPercent": 1,
-                            "ReverseValueSymbol": 1,
                             "SmallerIsBetter": 0,
                             "RoundTo": 0.1,
                             "RoundingMode": "RM_ROUND",
@@ -1878,49 +1876,49 @@
             {
                 "ItemType": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart",
                 "Rarity": "COMMON",
-                "Attenuation": 1.15,
+                "Attenuation": 1.2,
                 "AlternateAttenuations": [
-                    0.89999998
+                    1.2
                 ]
             },
             {
                 "ItemType": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelEgg/InfModularBarrelEggPart",
                 "Rarity": "COMMON",
-                "Attenuation": 0.60000002,
+                "Attenuation": 1.2,
                 "AlternateAttenuations": [
-                    1.15
+                    1.2
                 ]
             },
             {
                 "ItemType": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelAPart",
                 "Rarity": "COMMON",
-                "Attenuation": 0.75,
+                "Attenuation": 1.2,
                 "AlternateAttenuations": [
-                    1.1
+                    1.2
                 ]
             },
             {
                 "ItemType": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelBPart",
                 "Rarity": "COMMON",
-                "Attenuation": 0.89999998,
+                "Attenuation": 1.2,
                 "AlternateAttenuations": [
-                    1
+                    1.2
                 ]
             },
             {
                 "ItemType": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelCPart",
                 "Rarity": "COMMON",
-                "Attenuation": 1,
+                "Attenuation": 1.2,
                 "AlternateAttenuations": [
-                    1
+                    1.2
                 ]
             },
             {
                 "ItemType": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelDPart",
                 "Rarity": "COMMON",
-                "Attenuation": 1.05,
+                "Attenuation": 1.2,
                 "AlternateAttenuations": [
-                    1.1
+                    1.2
                 ]
             }
         ]

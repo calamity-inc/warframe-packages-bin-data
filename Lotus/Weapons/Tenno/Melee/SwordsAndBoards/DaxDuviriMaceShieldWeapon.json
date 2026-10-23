@@ -82,10 +82,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -302,6 +298,7 @@
                     "AltEffectHands": [
                         "OFF_HAND"
                     ],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.31999999,
                     "criticalHitDamageMultiplier": 2.4000001,
@@ -540,10 +537,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -767,6 +760,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 0,
@@ -945,7 +939,6 @@
                 ]
             }
         },
-        "OmegaAttenuation": 1.15,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Melee/HybridSlash",
         "MeleeTreeType": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DuviriSwordShieldWarframeMeleeTree",
         "Slams": [

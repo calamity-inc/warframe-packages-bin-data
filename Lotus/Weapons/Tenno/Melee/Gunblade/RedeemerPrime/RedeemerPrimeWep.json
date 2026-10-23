@@ -56,10 +56,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -274,6 +270,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 2.2,
@@ -513,10 +510,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/ShortAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -682,6 +675,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 2.2,
@@ -835,7 +829,6 @@
             159,
             255
         ],
-        "OmegaAttenuation": 0.64999998,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Melee/CritBlast",
         "VariantType": "VT_PRIME",
         "Slams": [

@@ -8,13 +8,14 @@
         "ExcludeFromCodex": 0,
         "Upgrades": [
             {
-                "UpgradeType": "WEAPON_CORPSE_EXPLODE_DAMAGE",
+                "UpgradeType": "NONE",
                 "OperationType": "ADD",
                 "Value": 250,
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
-                "SymbolFilter": "CC_DOWNED_ENEMY",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
                 "ValidModifiers": [],
@@ -30,16 +31,18 @@
                 "ReverseValueSymbol": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             },
             {
-                "UpgradeType": "WEAPON_CORPSE_EXPLODE_DAMAGE_ENEMY_HEALTH_PCT",
+                "UpgradeType": "NONE",
                 "OperationType": "ADD",
                 "Value": 0.050000001,
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
-                "SymbolFilter": "CC_DOWNED_ENEMY",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
                 "ValidModifiers": [],
@@ -55,16 +58,18 @@
                 "ReverseValueSymbol": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             },
             {
-                "UpgradeType": "WEAPON_CORPSE_EXPLODE_RADIUS",
+                "UpgradeType": "NONE",
                 "OperationType": "ADD",
-                "Value": 2.5,
+                "Value": 0,
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
-                "SymbolFilter": "CC_DOWNED_ENEMY",
+                "CheckTypeOnInstall": 0,
+                "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
                 "ValidModifiers": [],
@@ -73,14 +78,19 @@
                 "OverrideLocalization": 1,
                 "LocTag": "/Lotus/Language/SyndicateRewards/ObexModDescC",
                 "LocKeyWordScript": {
-                    "Script": ""
+                    "Script": "/Lotus/Scripts/Mods/ExplodeOnKill.lua",
+                    "Function": "GetDescriptionObexRangeHack",
+                    "_damageAmount": 75,
+                    "_damageType": "DT_CORROSIVE",
+                    "_damageRadius": 10,
+                    "_maxHealthDamagePct": 0.075000003,
+                    "_procChance": 0,
+                    "_onlyCountDownedKills": 0
                 },
-                "DisplayAsMultiplier": 0,
-                "DisplayAsPercent": 0,
-                "ReverseValueSymbol": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             },
             {
                 "UpgradeType": "WEAPON_SYNDICATE_POWER",
@@ -89,6 +99,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "/Lotus/Syndicates/CephalonSudaSyndicate",
                 "ValidPostures": [],
@@ -98,13 +109,17 @@
                 "OverrideLocalization": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "ArtifactPolarity": "AP_TACTIC",
         "BaseDrain": "QA_MEDIUM",
         "FusionLimit": "QA_MEDIUM",
         "ItemCompatibility": "/Lotus/Weapons/Corpus/Melee/KickAndPunch/KickPunchWeapon",
+        "SubUpgrades": [
+            "ObexModSubUpgrade"
+        ],
         "TipTags": [
             "ENTROPY"
         ]

@@ -123,10 +123,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/ShortAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -295,6 +291,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.059999999,
                     "criticalHitDamageMultiplier": 2,
@@ -416,10 +413,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -588,6 +581,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.2,
                     "criticalHitDamageMultiplier": 3,
@@ -720,7 +714,6 @@
             "_statusChance": 0.5,
             "_nightwaveModWRes": "/Lotus/Upgrades/Mods/Nightwave/BroncoNightwaveMod"
         },
-        "OmegaAttenuation": 1.45,
         "FireModes": [
             {
                 "localizedTag": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",

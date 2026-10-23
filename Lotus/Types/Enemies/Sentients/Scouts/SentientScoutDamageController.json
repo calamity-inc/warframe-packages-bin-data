@@ -2,6 +2,18 @@
     "parent": "/Lotus/Types/Enemies/Sentients/SentientBaseDamageController",
     "data": {
         "AcceptCrits": 0,
-        "DamageMultiplier": 0
+        "DamageMultiplier": 0,
+        "DynamicDamageModifiers": [
+            {
+                "sourceName": "",
+                "damageType": "DT_RADIANT",
+                "applyToOtherDamageTypes": 0,
+                "hitPart": "ANY_PART",
+                "hitType": "DHT_NONE",
+                "damageSourceObjectType": "",
+                "multiplier": 1.5,
+                "showInHUD": 0
+            }
+        ]
     }
 }

@@ -51,10 +51,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -288,6 +284,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 2,
@@ -412,10 +409,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            2,
-                            4
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/MediumAimGraph",
                         "desiredAttackState": "AS_LONG_RANGE",
                         "attackWeight": 1,
@@ -652,6 +645,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.2,
                     "criticalHitDamageMultiplier": 1.5,
@@ -758,7 +752,6 @@
             "AP_ATTACK",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 1.1,
         "VariantType": "VT_PRIME"
     }
 }

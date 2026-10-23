@@ -95,10 +95,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -267,6 +263,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.23,
                     "criticalHitDamageMultiplier": 1.9,
@@ -376,6 +373,7 @@
             "AP_ATTACK",
             "AP_UNIVERSAL"
         ],
+        "OmegaAttenuation": 1.2,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Pistol/HybridBalanced"
     }
 }

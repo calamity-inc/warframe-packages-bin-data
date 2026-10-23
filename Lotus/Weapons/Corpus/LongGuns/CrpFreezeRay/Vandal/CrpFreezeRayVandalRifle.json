@@ -52,10 +52,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -746,6 +742,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.14,
                     "criticalHitDamageMultiplier": 2,
@@ -835,7 +832,6 @@
         "AmmoCapacity": 800,
         "AmmoClipSize": 100,
         "RequiredLevel": 12,
-        "OmegaAttenuation": 1.25,
         "VariantType": "VT_VARIANT"
     }
 }

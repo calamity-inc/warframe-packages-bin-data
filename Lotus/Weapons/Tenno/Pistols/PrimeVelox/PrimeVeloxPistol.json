@@ -2,12 +2,6 @@
     "parent": "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskSmgPistol",
     "data": {
         "PickUpMesh": "PrimeVelox_skel.fbx",
-        "FIRST_PERSON_ATTACHMENT": {
-            "MAIN_HAND": {
-                "BoneName": "",
-                "Type": ""
-            }
-        },
         "THIRD_PERSON_ATTACHMENT": {
             "MAIN_HAND": {
                 "Type": "PrimeVeloxAttachment"
@@ -57,10 +51,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/ShortAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -354,10 +344,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -560,7 +546,6 @@
             "AP_ATTACK",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 0.85000002,
         "OFF_HAND": {
             "Type": "PrimeVeloxDSAttachment"
         },

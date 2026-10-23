@@ -210,9 +210,12 @@
                             "_operatorAnimController": "",
                             "_questKeychain": "TauPrologueKeyChainB",
                             "_diorama": "",
+                            "_lotusMesh": "",
                             "_lotusClothCables": "",
+                            "_lotusClothScarf": "",
                             "_lotusBlockingVol": "",
-                            "_lotusPushVol": ""
+                            "_lotusPushVol": "",
+                            "_hubPeerType": ""
                         },
                         "OnlyWhenActive": 1
                     }
@@ -383,6 +386,10 @@
                 "OnlyWhenActive": 1
             }
         ],
+        "Reward": {
+            "RewardType": "RT_STORE_ITEM",
+            "StoreItemType": "/Lotus/StoreItems/Types/Keys/TauPrologue/TauPrologueKeyChainB"
+        },
         "SortKey": 165,
         "PrereqScript": {
             "Script": "/Lotus/Scripts/Quests/TauPrologue/TauPrologueKeyChain.lua",
@@ -392,9 +399,12 @@
             "_operatorAnimController": "",
             "_questKeychain": "",
             "_diorama": "",
+            "_lotusMesh": "",
             "_lotusClothCables": "",
+            "_lotusClothScarf": "",
             "_lotusBlockingVol": "",
-            "_lotusPushVol": ""
+            "_lotusPushVol": "",
+            "_hubPeerType": ""
         },
         "ForceOperatorType": "OT_ADULT"
     }

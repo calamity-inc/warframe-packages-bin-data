@@ -40,9 +40,12 @@
                             "_operatorAnimController": "",
                             "_questKeychain": "",
                             "_diorama": "/Lotus/Levels/Cinematics/ErisMortem/ErisMortemErisDevouredCinematic.level",
+                            "_lotusMesh": "",
                             "_lotusClothCables": "",
+                            "_lotusClothScarf": "",
                             "_lotusBlockingVol": "",
-                            "_lotusPushVol": ""
+                            "_lotusPushVol": "",
+                            "_hubPeerType": ""
                         },
                         "OnlyWhenActive": 1
                     }
@@ -270,6 +273,12 @@
                 "OnlyWhenActive": 1
             }
         ],
+        "Reward": {
+            "Icon": "/Lotus/Interface/Icons/StoreIcons/Captura/QuestTauNarmerThroneRoom.png",
+            "ItemType": "/Lotus/Types/Items/MiscItems/PhotoboothTileQuestTauNarmerThroneRoom",
+            "StoreItemType": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileQuestTauNarmerThroneRoom",
+            "ProductCategory": "MiscItems"
+        },
         "SortKey": 167,
         "PrereqScript": {
             "Script": "/Lotus/Scripts/Quests/TauPrologue/TauPrologueKeyChain.lua",
@@ -279,9 +288,12 @@
             "_operatorAnimController": "",
             "_questKeychain": "TauPrologueKeyChainC",
             "_diorama": "",
+            "_lotusMesh": "",
             "_lotusClothCables": "",
+            "_lotusClothScarf": "",
             "_lotusBlockingVol": "",
-            "_lotusPushVol": ""
+            "_lotusPushVol": "",
+            "_hubPeerType": ""
         }
     }
 }

@@ -51,10 +51,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/ShortAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -278,6 +274,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0,
                     "criticalHitDamageMultiplier": 1.8,
@@ -382,7 +379,6 @@
             "AP_ATTACK",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 0.60000002,
         "OFF_HAND": {
             "Type": "PrimeKompressaDSAttachment"
         },

@@ -76,10 +76,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -248,6 +244,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.18000001,
                     "criticalHitDamageMultiplier": 2.2,
@@ -352,7 +349,6 @@
             "AP_TACTIC",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 1,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Pistol/HybridSlash",
         "VariantType": "VT_PRIME"
     }

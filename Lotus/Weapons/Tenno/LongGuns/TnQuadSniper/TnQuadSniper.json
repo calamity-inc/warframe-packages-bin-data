@@ -168,10 +168,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            2,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/LongAimGraph",
                         "desiredAttackState": "AS_LONG_RANGE",
                         "attackWeight": 1,
@@ -340,6 +336,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.28,
                     "criticalHitDamageMultiplier": 2.5999999,
@@ -481,7 +478,7 @@
             "Script": "/Lotus/Interface/TouchInterface/AltFireButtonStyle.lua",
             "Function": "AltFireStyleToggleWhenScoped"
         },
-        "OmegaAttenuation": 1.15,
+        "OmegaAttenuation": 1.2,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Rifle/CritBalanced"
     }
 }

@@ -114,10 +114,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -1059,6 +1055,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.19,
                     "criticalHitDamageMultiplier": 2,
@@ -1183,7 +1180,7 @@
             "AP_UNIVERSAL",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 1.46,
+        "OmegaAttenuation": 1.2,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Shotgun/HybridViral"
     }
 }

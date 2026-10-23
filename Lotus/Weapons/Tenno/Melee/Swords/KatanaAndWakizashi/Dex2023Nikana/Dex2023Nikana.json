@@ -55,10 +55,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -275,6 +271,7 @@
                     "AltEffectHands": [
                         "MAIN_HAND"
                     ],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.23999999,
                     "criticalHitDamageMultiplier": 2.5999999,
@@ -469,7 +466,6 @@
             "AP_UNIVERSAL",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 1.1,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Melee/CritSlash",
         "DefaultModOverrides": {
             "Stance": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/KatanaCmbTwoMeleeTree"

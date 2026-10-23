@@ -73,10 +73,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            8
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/MediumAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -300,6 +296,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.025,
                     "criticalHitDamageMultiplier": 1.5,
@@ -390,7 +387,6 @@
         "AmmoPickUpCount": 9,
         "LevelCap": 40,
         "RequiredLevel": 15,
-        "OmegaAttenuation": 1.1,
         "OFF_HAND": {
             "Type": "KuvaSeerDSAttachment"
         },

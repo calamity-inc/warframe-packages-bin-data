@@ -8,11 +8,12 @@
         "Upgrades": [
             {
                 "UpgradeType": "WEAPON_AMMO_CONSUME_RATE",
-                "OperationType": "STACKING_MULTIPLY",
-                "Value": -1,
+                "OperationType": "SET",
+                "Value": 0,
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -20,7 +21,7 @@
                 "InvalidModifiers": [],
                 "ValidProcTypes": [],
                 "OverrideLocalization": 1,
-                "LocTag": "/Lotus/Language/Mods/ViperUnlimitedAmmo_desc",
+                "LocTag": "/Lotus/Language/Mods/InfiniteAmmoDesc",
                 "LocKeyWordScript": {
                     "Script": ""
                 },
@@ -29,7 +30,8 @@
                 "ReverseValueSymbol": 1,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "ApplyUpgradesByDefault": 0,

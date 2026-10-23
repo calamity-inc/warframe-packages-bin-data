@@ -151,10 +151,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            0,
-                            0
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/ShortAimGraph",
                         "desiredAttackState": "AS_LONG_RANGE",
                         "attackWeight": 1,
@@ -410,6 +406,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 2,
@@ -498,7 +495,6 @@
         "UIReticuleAim": 0,
         "ReticleMovie": "/Lotus/Interface/SpecialReticles/MiningLaserReticle.swf",
         "SupportsXP": 0,
-        "RequiredLevel": 6,
-        "OmegaAttenuation": 1.55
+        "RequiredLevel": 6
     }
 }

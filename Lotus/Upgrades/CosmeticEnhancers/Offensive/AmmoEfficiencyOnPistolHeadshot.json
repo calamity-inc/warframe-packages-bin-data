@@ -11,8 +11,8 @@
         "Upgrades": [
             {
                 "UpgradeType": "WEAPON_AMMO_CONSUME_RATE",
-                "OperationType": "STACKING_MULTIPLY",
-                "Value": -0.17,
+                "OperationType": "SET",
+                "Value": 0,
                 "DamageType": "DT_ANY",
                 "AutoType": 0,
                 "ValidType": "",
@@ -24,7 +24,7 @@
                 "InvalidModifiers": [],
                 "ValidProcTypes": [],
                 "OverrideLocalization": 1,
-                "LocTag": "/Lotus/Language/Mods/ViperUnlimitedAmmo_desc",
+                "LocTag": "/Lotus/Language/Mods/InfiniteAmmoDesc",
                 "LocKeyWordScript": {
                     "Script": ""
                 },
@@ -68,6 +68,7 @@
         ],
         "ApplyUpgradesByDefault": 0,
         "FusionLimit": "QA_HIGH",
+        "FusionPowerCurve": "QC_NONE",
         "IncompatibilityTags": [
             "OPERATOR_SUIT",
             "TNJETTURBINEPISTOL"
@@ -76,10 +77,8 @@
         "EnhancementTagLocScript": {
             "Script": ""
         },
-        "UpgradeChance": 0.60000002,
         "UpgradeDuration": 12,
         "DurationScalesWithRank": 0,
-        "ChanceScalesWithRank": 0,
         "CanReproc": 0,
         "ConditionalUpgrades": [
             "/Lotus/Upgrades/Mods/PvPMods/Conditions/OnPistolWeakPointKillNoJetPistolCondition"

@@ -78,10 +78,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/ShortAimGraph",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 2,
@@ -252,6 +248,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.25,
                     "criticalHitDamageMultiplier": 2,
@@ -371,7 +368,6 @@
             "AP_TACTIC",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 1.15,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Shotgun/HybridPuncture",
         "VariantType": "VT_SYNDICATE"
     }

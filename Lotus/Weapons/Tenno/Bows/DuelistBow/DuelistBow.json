@@ -103,10 +103,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            2,
-                            4
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/AllHitAimGraph",
                         "desiredAttackState": "AS_LONG_RANGE",
                         "attackWeight": 1,
@@ -503,10 +499,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            2,
-                            4
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/AllHitAimGraph",
                         "desiredAttackState": "AS_LONG_RANGE",
                         "attackWeight": 1,
@@ -1076,6 +1068,7 @@
             }
         ],
         "WeaknessBonus": 1,
+        "OmegaAttenuation": 1.2,
         "FireModes": [
             {
                 "localizedTag": "/Lotus/Language/Menu/Loadout_TriggerCharge",

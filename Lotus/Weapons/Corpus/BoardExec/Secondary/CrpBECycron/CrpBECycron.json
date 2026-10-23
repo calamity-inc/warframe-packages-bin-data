@@ -73,10 +73,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -739,6 +735,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.2,
                     "criticalHitDamageMultiplier": 1.8,
@@ -851,7 +848,6 @@
         "BatteryRegenDelayFromEmpty": 0.5,
         "HeavyBatteryRegenDelay": 0.5,
         "HeavyBatteryRegenDelayFromEmpty": 0.5,
-        "OmegaAttenuation": 0.69999999,
         "OFF_HAND": {
             "Type": "CrpBECycronDSAttachment"
         },

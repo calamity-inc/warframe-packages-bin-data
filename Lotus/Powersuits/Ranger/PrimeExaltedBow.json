@@ -55,10 +55,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            0,
-                            0
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/AllHitAimGraph",
                         "desiredAttackState": "AS_LONG_RANGE",
                         "attackWeight": 1,
@@ -451,10 +447,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            0,
-                            0
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/AllHitAimGraph",
                         "desiredAttackState": "AS_LONG_RANGE",
                         "attackWeight": 1,
@@ -926,6 +918,7 @@
                 "UseAttachmentIndexForHolsterHand": 0
             }
         ],
+        "OmegaAttenuation": 1.2,
         "VariantType": "VT_PRIME"
     }
 }

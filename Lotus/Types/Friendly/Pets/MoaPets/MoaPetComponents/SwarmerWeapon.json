@@ -123,10 +123,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            0,
-                            4
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/LongAimGraph",
                         "desiredAttackState": "AS_LONG_RANGE",
                         "attackWeight": 1,
@@ -375,6 +371,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 1.5,
@@ -484,6 +481,6 @@
             "AP_UNIVERSAL",
             "AP_UNIVERSAL"
         ],
-        "OmegaAttenuation": 1
+        "OmegaAttenuation": 1.2
     }
 }

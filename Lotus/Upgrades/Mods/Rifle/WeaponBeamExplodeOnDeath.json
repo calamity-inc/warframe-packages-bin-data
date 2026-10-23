@@ -11,12 +11,12 @@
         ],
         "Upgrades": [
             {
-                "UpgradeType": "WEAPON_CORPSE_EXPLODE_DAMAGE",
+                "UpgradeType": "NONE",
                 "OperationType": "ADD",
                 "Value": 100,
-                "DamageType": "DT_EXPLOSION",
-                "AutoType": 0,
-                "ValidType": "/Lotus/Weapons/Tenno/LotusLongGun",
+                "DamageType": "DT_ANY",
+                "AutoType": 1,
+                "ValidType": "",
                 "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
@@ -49,38 +49,25 @@
                 "RoundTo": 0.1,
                 "RoundingMode": "RM_ROUND",
                 "AllowConditionalLocMerge": 0
-            },
-            {
-                "UpgradeType": "WEAPON_CORPSE_EXPLODE_RADIUS",
-                "OperationType": "ADD",
-                "Value": 3,
-                "DamageType": "DT_ANY",
-                "AutoType": 0,
-                "ValidType": "/Lotus/Weapons/Tenno/LotusLongGun",
-                "CheckTypeOnInstall": 0,
-                "SymbolFilter": "",
-                "UpgradeObject": "",
-                "ValidPostures": [],
-                "ValidModifiers": [],
-                "InvalidModifiers": [],
-                "ValidProcTypes": [],
-                "OverrideLocalization": 1,
-                "LocTag": "",
-                "LocKeyWordScript": {
-                    "Script": ""
-                },
-                "DisplayAsMultiplier": 0,
-                "DisplayAsPercent": 0,
-                "ReverseValueSymbol": 0,
-                "SmallerIsBetter": 0,
-                "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND",
-                "AllowConditionalLocMerge": 0
             }
         ],
+        "ApplyUpgradesByDefault": 0,
         "ArtifactPolarity": "AP_ATTACK",
         "BaseDrain": "QA_MEDIUM",
         "ItemCompatibility": "/Lotus/Weapons/Tenno/LotusLongGun",
-        "IncludeInBoosterPack": 1
+        "Script": {
+            "Script": "/Lotus/Scripts/Mods/ExplodeOnKill.lua",
+            "Function": "OnKill",
+            "_damageAmount": 100,
+            "_damageType": "DT_EXPLOSION",
+            "_damageRadius": 18,
+            "_maxHealthDamagePct": 0,
+            "_procChance": 0
+        },
+        "IncludeInBoosterPack": 1,
+        "UpgradeChance": 1,
+        "ConditionalUpgrades": [
+            "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OnKillCondition"
+        ]
     }
 }

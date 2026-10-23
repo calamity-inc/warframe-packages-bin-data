@@ -85,10 +85,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            0,
-                            0
-                        ],
                         "aimGraph": "/EE/Types/Npc/WeaponAimGraphs/MediumAimGraph",
                         "desiredAttackState": "AS_LONG_RANGE",
                         "attackWeight": 1,
@@ -315,6 +311,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 2,
@@ -432,7 +429,6 @@
             8,
             255
         ],
-        "OmegaAttenuation": 0.69999999,
         "VariantType": "VT_KUVA"
     }
 }

@@ -134,10 +134,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -409,6 +405,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.14,
                     "criticalHitDamageMultiplier": 2,
@@ -521,7 +518,7 @@
         ],
         "RequiredLevel": 4,
         "WeaknessBonus": 0,
-        "OmegaAttenuation": 1.49,
+        "OmegaAttenuation": 1.2,
         "AllowDarkSectorMode": 1,
         "DarkSectorAttachmentsToCreate": {
             "OFF_HAND": 1

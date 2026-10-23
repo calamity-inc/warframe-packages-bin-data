@@ -2,9 +2,9 @@
     "parent": "/Lotus/Types/Game/StoreItemSpecializations/PackageStoreItem",
     "data": {
         "ProductCategory": "Packages",
-        "LocalizeTag": "/Lotus/Language/PrimePacks/MPVSevagothHydroidDualPackName",
-        "LocalizeDescTag": "/Lotus/Language/PrimePacks/MPVSevagothHydroidDualPackDesc",
-        "Icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeHelmet.png",
+        "LocalizeTag": "/Lotus/Language/PrimePacks/MPVSevagothSinglePackName",
+        "LocalizeDescTag": "/Lotus/Language/PrimePacks/MPVSevagothSinglePackDesc",
+        "Icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/MegaPrimeVault/Sevagoth.png",
         "Diorama": "/Lotus/Levels/Episodes/WarframesSevagothPrime.level",
         "Giftable": 0,
         "ExcludeFromCodex": 0,
@@ -29,6 +29,12 @@
             },
             {
                 "TypeName": "/Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon",
+                "PurchaseQuantity": 1,
+                "Durability": "COMMON",
+                "GiveMaxRank": 0
+            },
+            {
+                "TypeName": "/Lotus/StoreItems/Types/Sentinels/SentinelPowersuits/NautilusPrimeSentinelPowerSuit",
                 "PurchaseQuantity": 1,
                 "Durability": "COMMON",
                 "GiveMaxRank": 0

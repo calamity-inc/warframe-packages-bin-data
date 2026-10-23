@@ -134,10 +134,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -406,6 +402,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.38999999,
                     "criticalHitDamageMultiplier": 2.7,
@@ -535,7 +532,7 @@
             70,
             255
         ],
-        "OmegaAttenuation": 1.3099999,
+        "OmegaAttenuation": 1.2,
         "DefaultModTemplate": "/Lotus/Types/ModLists/Rifle/CritCorrosive"
     }
 }

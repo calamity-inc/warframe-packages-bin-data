@@ -41,10 +41,6 @@
                                 ]
                             }
                         },
-                        "aimError": [
-                            4,
-                            10
-                        ],
                         "aimGraph": "",
                         "desiredAttackState": "AS_SHORT_RANGE",
                         "attackWeight": 1,
@@ -86,6 +82,7 @@
                         "LockOnDistanceWeighting": 0.1,
                         "LockOnAngleWeighting": 1,
                         "LockOnIgnoreEndPointTarget": 0,
+                        "LockOnIgnoreInvisible": 0,
                         "LockOnIgnoreTags": []
                     },
                     "NotifyPotentialVictimsOfIncomingAttack": 0,
@@ -131,6 +128,7 @@
                     "DamageUpgradeTypes": [
                         "WEAPON_MELEE_DAMAGE"
                     ],
+                    "PlayHitEffectsOnFriendlyAvatars": 0,
                     "damageFallOff": [
                         0,
                         0
@@ -168,6 +166,7 @@
                         1
                     ],
                     "AltEffectHands": [],
+                    "DeathEffect": "",
                     "ragdollChance": 0,
                     "criticalHitChance": 0.050000001,
                     "criticalHitDamageMultiplier": 2,
@@ -199,6 +198,7 @@
                     "ModeSwitchTime": 0,
                     "FullClipModeSwitchTime": 0,
                     "IsToggleBehavior": 0,
+                    "ForceReturnToPreviousBehavior": 0,
                     "autoReloadEmptyTime": 0,
                     "AmmoTakenPerReload": -1,
                     "DoPreFire": 0,

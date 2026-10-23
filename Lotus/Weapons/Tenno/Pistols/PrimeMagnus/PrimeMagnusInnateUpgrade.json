@@ -14,6 +14,7 @@
                 "DamageType": "DT_ANY",
                 "AutoType": 1,
                 "ValidType": "",
+                "CheckTypeOnInstall": 0,
                 "SymbolFilter": "",
                 "UpgradeObject": "",
                 "ValidPostures": [],
@@ -23,23 +24,12 @@
                 "OverrideLocalization": 0,
                 "SmallerIsBetter": 0,
                 "RoundTo": 0.1,
-                "RoundingMode": "RM_ROUND"
+                "RoundingMode": "RM_ROUND",
+                "AllowConditionalLocMerge": 0
             }
         ],
         "ApplyUpgradesByDefault": 0,
         "ItemCompatibility": "PrimeMagnusWeapon",
-        "Script": {
-            "Script": "/Lotus/Scripts/WeaponAttachments/TnBardPistol.lua",
-            "Function": "OnUpgradeApplied",
-            "_reloadSpeed": 0.2,
-            "_frameType": "/Lotus/Powersuits/Bard/BardBaseSuit"
-        },
-        "UnappliedScript": {
-            "Script": "/Lotus/Scripts/WeaponAttachments/TnBardPistol.lua",
-            "Function": "OnUpgradeUnapplied",
-            "_reloadSpeed": 0.2,
-            "_frameType": "/Lotus/Powersuits/Bard/BardBaseSuit"
-        },
         "UpgradeChance": 0.039999999,
         "UpgradeDuration": 4,
         "CanReprocPvp": 0,

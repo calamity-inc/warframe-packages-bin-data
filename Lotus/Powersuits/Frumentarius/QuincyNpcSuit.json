@@ -240,6 +240,11 @@
             }
         },
         "Mesh": "",
+        "AbilityTypes": [
+            "Abilities/FrumentariusScanAbility",
+            "Abilities/FrumentariusAmmoAbility",
+            "Abilities/FrumentariusCloakAbility"
+        ],
         "CloakEffect": "/Lotus/Fx/PowersuitAbilities/Loki/CloakAltA",
         "SoundEvents": [
             {
@@ -250,11 +255,6 @@
                 "Context": "PEC_ALL",
                 "CancelEventName": ""
             }
-        ],
-        "AbilityTypes": [
-            "Abilities/FrumentariusScanAbility",
-            "Abilities/FrumentariusAmmoAbility",
-            "Abilities/FrumentariusCloakAbility"
         ],
         "ExtraDependencies": [
             "/Lotus/Weapons/Tenno/LongGuns/TnBeltFedRifle/TnBeltFedRifleWeapon",

@@ -14,11 +14,23 @@
         "AmmoClipSize": 0,
         "OwnerSetScript": {
             "Script": "ChoirPassive.lua",
-            "Function": "AddUpgrades"
+            "Function": "AddUpgrades",
+            "_newEmissiveColor": [
+                255,
+                255,
+                255,
+                255
+            ]
         },
         "OnRemovedScript": {
             "Script": "ChoirPassive.lua",
-            "Function": "RemoveUpgrades"
+            "Function": "RemoveUpgrades",
+            "_newEmissiveColor": [
+                255,
+                255,
+                255,
+                255
+            ]
         },
         "ArtifactSlots": [
             "AP_UNIVERSAL",
